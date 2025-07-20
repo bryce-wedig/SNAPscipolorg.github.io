@@ -20,7 +20,7 @@ permalink: /about/
   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-3x"></i></a> {% endif %}
   {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv ai-3x"></i></a> {% endif %}
   {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar ai-3x"></i></a> {% endif %}
-  {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa-solid fa-github fa-3x"></i></a> {% endif %}
+  {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a> {% endif %}
   {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate ai-3x"></i></a> {% endif %}
 
   <ul style="overflow: hidden">
