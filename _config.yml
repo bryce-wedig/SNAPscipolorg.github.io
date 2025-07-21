@@ -16,8 +16,8 @@ affiliation: >
   Inspiring and engaging our fellow scientists for meaningful change.
 
 contact: >
-  <a href="mailto:snapscipolorg@gmail.com" target="_blank"><i class="fa fa-envelope fa-1x"></i> Send SNAP an Email</a> <br/>
-  <a href="https://snapcoalition.org/join-snap.html"><i class="fa fa-github fa-1x"></i> Fill out our Interest Form</a>
+  <a href="mailto:snapscipolorg@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-1x"></i> Send SNAP an Email</a> <br/>
+  <a href="https://snapcoalition.org/join-snap.html"><i class="fa-solid fa-link fa-1x"></i> Fill out our Interest Form</a>
 
 # Pages shown in navbar
 nav_pages:
