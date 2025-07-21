@@ -23,6 +23,7 @@ permalink: /about/
 </div>
 </div>
 </div>
+</div>
 {% endfor %}
 
 {% if site.data.grants %}
