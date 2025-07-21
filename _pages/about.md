@@ -11,11 +11,11 @@ permalink: /about/
 
 <div class="jumbotron">
 <div class="row">
-<div class="col-sm-4">
+<div class="col-sm-12">
   <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/>
 </div>
-<div class="col-sm-8 col-xs-12">
-  <h3>{{ member.name }}</h3>
+<div class="row">
+<div class="col-sm-12">
   <h4><i>{{ member.info }}</i></h4>
   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a> {% endif %}
   {% if member.bluesky %} <a href="{{ member.bluesky }}" target="_blank"><i class="fa-brands fa-bluesky fa-2x"></i></a> {% endif %}
