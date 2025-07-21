@@ -1,36 +1,27 @@
 <div>
-{% for member in site.data.pi %}
+{% for member in site.data.snap %}
 <div class="jumbotron">
    <center>
-   <a href="{{site.url}}{{site.baseurl}}/about"><img src="{{site.url}}{{site.baseurl}}/images/{{ member.photo }}" width="60%" style="block:inline; margin-left:auto; margin-right:auto; margin-bottom:5px;"/></a>
+   <a href="{{site.url}}{{site.baseurl}}/about"><img src="{{site.url}}{{site.baseurl}}/images/{{ member.photo }}" width="60%" style="display:inline-block; margin-left:auto; margin-right:auto; margin-bottom:5px;"/></a>
    <h4>{{ member.name }}</h4>
    <div style="margin-bottom:5px">
-   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-3x"></i></a> {% endif %}
-   {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv ai-3x"></i></a> {% endif %}
-   {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar ai-3x"></i></a> {% endif %}
-   {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a> {% endif %}
-   {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate ai-3x"></i></a> {% endif %}
+   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a> {% endif %}
+   {% if member.bluesky %} <a href="{{ member.bluesky }}" target="_blank"><i class="fa-solid fa-bluesky fa-2x"></i></a> {% endif %}
+   {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa-solid fa-linkedin fa-2x"></i></a> {% endif %}
   </div>
   </center>
-
-  <ul style="overflow: hidden">
-    {% for education in member.educationshort %}
-      <li>{{ education | replace: "-","&#8211;" }}</li>
-    {% endfor %}
-  </ul>
-
 </div>
 {% endfor %}
 </div>
 
 <div class="jumbotron">
-  <h4>News</h4>
-
-  {% for article in site.data.news limit:3 %}
-  <b>{{ article.date }}</b>
-    <p>{{ article.headline }}</p>
-  {% endfor %}
+  <h4>Press Mentions</h4>
   
-  <h5><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h5>
+  {% for post in site.posts limit:3 %}
+    <b>{{ post.date | date_to_string }}</b>
+      <p><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></p>
+  {% endfor %}
+
+  <h5><a href="{{ site.url }}{{ site.baseurl }}/news.html">... see more of SNAP in the News</a></h5>
 
 </div>

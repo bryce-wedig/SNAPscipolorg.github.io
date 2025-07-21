@@ -1,0 +1,7 @@
+- name: Example Org1
+  photo: rock.jpg
+  website: https://website.com
+
+- name: Example Org2
+  photo: rock.jpg
+  website: https://website.com

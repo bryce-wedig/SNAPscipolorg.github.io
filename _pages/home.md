@@ -7,26 +7,25 @@ permalink: /
 
 ### Welcome!
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
-It also helps us to understand the fundamental principles that govern the behavior of matter and energy, and to explore the limits of our current knowledge.
-Theoretical physics helps us to make progress in a wide range of fields, including cosmology, particle physics, and quantum mechanics, and it has led to many important discoveries and technological innovations.
+We are an international group of early-career scientists dedicated to mobilizing for large-scale initiatives and building capacity to bridge gaps between science and society. Our mission is to inspire and engage fellow scientists by establishing a peer network, developing and sharing resources, and instigating meaningful change.
 
-<div class="container">
-<div class="row">
-<center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" width="100%"/><br/>
-Examples of Feynman diagrams. <br/>
-Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
-</center>
-</div>
-</div>
-<br/>
+### Current Initiative: McClintock Letters
 
-### About me
+Improving communication between scientists and the public is crucial for rebuilding trust and addressing misinformation. We're inviting scientists to share their stories with their local hometown paper through the McClintock Letters Initiative — a national op-ed campaign.
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+Join the McClintock Letter Writer's Space for feedback, community, and resources!
+
+Read the McClintock Press Release here.
+
+Need help getting your letter published? Submit a request for assistance here.
+
+## Press Mentions
+
+- New York Times | To Protest Budget Cuts, Young Scientists Try Letters to the Editor
+- Cornell Chronicle | Cornell student campaign for research support reaches 50 states
+- NBC News | Researchers have a radical plan to thwart Trump’s war on science: Talking to people
+- EurekAlert | Hundreds of scientists speak out to defend science and honor Dr. Barbara McClintock
+- New York Academy of Sciences | The McClintock Letters Initiative to Support Science
+- Forbes | NSF, NIH Funding Cuts Spur Student-Led Science Communication Campaign
+- Big Biology Substack | Show your support for federal science funding – Join the McClintock Letters Initiative
+

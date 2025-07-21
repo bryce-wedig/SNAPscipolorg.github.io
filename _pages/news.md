@@ -1,8 +1,8 @@
 ---
-title: "Blog"
+title: "Press Mentions"
 layout: page
 sitemap: false
-permalink: /blogs/
+permalink: /news/
 ---
 
 <ul>

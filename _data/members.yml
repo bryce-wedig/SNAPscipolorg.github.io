@@ -1,0 +1,15 @@
+- name: Example One
+  photo: rock.jpg
+  info: Postdoc, started Oct 2040
+  email: exampleemail@gmail.com
+  bluesky: 
+  linkedin: 
+  website: https://website.com
+
+- name: Example Two
+  photo: rock.jpg
+  info: Postdoc, started Oct 2040
+  email: exampleemail@gmail.com
+  bluesky: 
+  linkedin: 
+  website: https://website.com
