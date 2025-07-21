@@ -53,8 +53,6 @@ The SNAP Coalition is a network comprised of over 120 individuals and over 20 st
 {% endif %}
 </div>
 
-{% endfor %}
-
 ## Member Organizations
 
 <div class='jumbotron'>
