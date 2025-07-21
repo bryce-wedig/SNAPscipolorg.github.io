@@ -10,9 +10,9 @@ permalink: /
 We are an international group of early-career scientists dedicated to mobilizing for large-scale initiatives and building capacity to bridge gaps between science and society. Our mission is to inspire and engage fellow scientists by establishing a peer network, developing and sharing resources, and instigating meaningful change.
 
 <div class="container">
-    ﻿<div class="row" align="center">
-        ﻿<img src="{{ site.url }}{{ site.baseurl }}/images/logo.png" width="100%"/>
-    ﻿</div>
+<div class="row" align="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logo.png" width="100%"></img>
+</div>
 ﻿</div>
 
 ## Current Initiatives
