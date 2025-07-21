@@ -11,8 +11,7 @@ We are an international group of early-career scientists dedicated to mobilizing
 
 <div class="container">
 <div class="row" align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logo.png" width="100%"></img>
-</div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/logo.png" width="100%">
 ﻿</div>
 
 ## Current Initiatives
