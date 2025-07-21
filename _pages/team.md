@@ -25,7 +25,7 @@ The SNAP Coalition is a network comprised of over 120 individuals and over 20 st
 <div class="col-sm-2">
 <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/>
 </div>
-<div class="col-sm-9 col-xs-12">
+<div class="col-sm-4 col-xs-12">
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br></i>
 

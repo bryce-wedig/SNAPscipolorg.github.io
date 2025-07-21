@@ -18,8 +18,8 @@ permalink: /about/
   <h3>{{ member.name }}</h3>
   <h4><i>{{ member.info }}</i></h4>
   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a> {% endif %}
-  {% if member.bluesky %} <a href="{{ member.bluesky }}" target="_blank"><i class="fa-solid fa-bluesky fa-2x"></i></a> {% endif %}
-  {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa-solid fa-linkedin fa-2x"></i></a> {% endif %}
+  {% if member.bluesky %} <a href="{{ member.bluesky }}" target="_blank"><i class="fa-brands fa-bluesky fa-2x"></i></a> {% endif %}
+  {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a> {% endif %}
 </div>
 </div>
 </div>
