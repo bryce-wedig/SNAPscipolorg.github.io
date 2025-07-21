@@ -12,7 +12,7 @@ permalink: /about/
 <div class="jumbotron">
 <div class="row">
 <div class="col-sm-12">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:500px"/>
 </div>
 <div class="row">
 <div class="col-sm-12">
