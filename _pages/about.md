@@ -10,6 +10,7 @@ permalink: /about/
 {% for member in site.data.snap %}
 
 <div class="jumbotron">
+<center>
 <div class="row">
 <div class="col-sm-12">
   <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:500px"/>
@@ -23,6 +24,7 @@ permalink: /about/
 </div>
 </div>
 </div>
+</center>
 </div>
 {% endfor %}
 
