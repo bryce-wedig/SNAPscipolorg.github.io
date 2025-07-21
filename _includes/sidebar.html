@@ -2,12 +2,11 @@
 {% for member in site.data.snap %}
 <div class="jumbotron">
    <center>
-   <a href="{{site.url}}{{site.baseurl}}/about"><img src="{{site.url}}{{site.baseurl}}/images/{{ member.photo }}" width="60%" style="display:inline-block; margin-left:auto; margin-right:auto; margin-bottom:5px;"/></a>
-   <h4>{{ member.name }}</h4>
+   <h4>Connect with SNAP</h4>
    <div style="margin-bottom:5px">
    {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a> {% endif %}
-   {% if member.bluesky %} <a href="{{ member.bluesky }}" target="_blank"><i class="fa-solid fa-bluesky fa-2x"></i></a> {% endif %}
-   {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa-solid fa-linkedin fa-2x"></i></a> {% endif %}
+   {% if member.bluesky %} <a href="{{ member.bluesky }}" target="_blank"><i class="fa-brands fa-bluesky fa-2x"></i></a> {% endif %}
+   {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a> {% endif %}
   </div>
   </center>
 </div>
@@ -22,6 +21,6 @@
       <p><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></p>
   {% endfor %}
 
-  <h5><a href="{{ site.url }}{{ site.baseurl }}/news.html">... see more of SNAP in the News</a></h5>
+  <h5><a href="{{ site.url }}{{ site.baseurl }}/news/">... see more of SNAP in the News</a></h5>
 
 </div>
