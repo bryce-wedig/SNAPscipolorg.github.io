@@ -5,7 +5,7 @@ description: SNAP Coalition Website
 baseurl: ""
 url: ""
 
-# Google analytics ID: Uncomment and your own, if you like
+# Google analytics ID: Uncomment and add your own, if you like
 # google_analytics: XX
 # google_analytics_4: XXX
 # google_tag_manager: XXX
