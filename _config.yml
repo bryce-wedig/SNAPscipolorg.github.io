@@ -32,6 +32,7 @@ nav_pages:
 include:
   - .htaccess
   - _pages
+  - _news
 
 # Conversion
 markdown: kramdown
