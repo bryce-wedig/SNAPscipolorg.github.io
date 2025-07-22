@@ -1,12 +1,12 @@
 ---
-title: "Press Mentions"
+title: "Blog"
 layout: page
 sitemap: false
-permalink: /news/
+permalink: /blog/
 ---
 
 <ul>
-  {% for post in site.news %}
+  {% for post in site.posts %}
     <li>
       {{ post.date | date_to_string }}: <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
     </li>

@@ -20,4 +20,4 @@ We are an international group of early-career scientists dedicated to mobilizing
 - McClintock Letters
 - Science Policy Courses
 
-Click here to learn more!
+[Click here to learn more!]({{ site.url }}{{ site.baseurl }}/pages/join/)

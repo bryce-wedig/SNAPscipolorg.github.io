@@ -17,7 +17,7 @@ affiliation: >
 
 contact: >
   <a href="mailto:snapscipolorg@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-1x"></i> Send SNAP an Email</a> <br/>
-  <a href="https://snapcoalition.org/join-snap.html"><i class="fa-solid fa-link fa-1x"></i> Fill out our Interest Form</a>
+  <a href="{{ site.url }}{{ site.baseurl }}/pages/join/"><i class="fa-solid fa-link fa-1x"></i> Fill out our Interest Form</a>
 
 # Pages shown in navbar
 nav_pages:
@@ -26,6 +26,7 @@ nav_pages:
   - name: courses
   - name: team
   - name: news
+  - name: blog
   - name: join
 
 include:
@@ -81,7 +82,4 @@ scholar:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - update_boostrap.sh
-  - switch_theme.sh
   - tags
-  - Rakefile
