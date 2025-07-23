@@ -19,15 +19,19 @@ We are an international group of early-career scientists dedicated to mobilizing
 </div>
 </div>
 
+<h2>SNAP Members Around the World</h2>
+
+SNAP boasts over 120 active members and over 20 member organziations. Check some out using the interactive map below!
+
 <div class="container">
 <div class="row" align="center">
 <div id="map" style="width: 100%; height: 300px"></div>
 <script>
 
-	const map = L.map('map').setView([39.82, -98.58], 3);
+	const map = L.map('map').setView([39.82, -98.58], 4);
 
 	const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-		maxZoom: 19,
+		maxZoom: 20,
 		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 	}).addTo(map);
 
@@ -39,3 +43,5 @@ We are an international group of early-career scientists dedicated to mobilizing
 </script>
 </div>
 </div>
+
+Go to <a href="{{ site.url }}{{ site.baseurl }}/about/">our About page</a> for more information.
