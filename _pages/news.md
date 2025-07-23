@@ -8,7 +8,7 @@ permalink: /news/
 <ul>
   {% for post in site.news reversed %}
     <li>
-      <h2>{{ post.date | date: '%b %d, %Y' }}: <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <h3>{{ post.date | date: '%b %d, %Y' }}: <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
     </li>
   {% endfor %}
 </ul>
