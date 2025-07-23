@@ -8,7 +8,7 @@ permalink: /press/
 <h2>Press Mentions</h2>
 <div class="jumbotron">
   {% for article in site.data.press %}
-    <b><a href="{{ article.website }}">{{ article.headline }}</a></b>
-    {{ article.source }}</br>
+    <p><b>{{ article.date | date: '%b %d, %Y' }}:
+      <a href="{{ article.website }}">{{ article.headline }}</a> in {{ article.source }}</b></br>
   {% endfor %}
 </div>
