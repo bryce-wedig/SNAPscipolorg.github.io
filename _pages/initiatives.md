@@ -13,7 +13,7 @@ permalink: /initiatives/
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}<h2><hr />
+        <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
       <ul>
