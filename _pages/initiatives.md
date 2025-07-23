@@ -13,10 +13,10 @@ permalink: /initiatives/
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <div><h2>{{ category[1].title }}</h2><hr /></div>
         {% assign title_shown = true %}
       {% endunless %}
-      <h2>{{ post.date | date: '%b %d, %Y' }}: <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <div><h2>{{ post.date | date: '%b %d, %Y' }}: <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2></div>
     {% endfor %}
   {% endfor %}
 {% else %}
