@@ -3,21 +3,22 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<nav class="navbar sticky-top navbar-expand-md navbar-light bg-light justify-content-center">
-    <a class="navbar-brand ml-auto" href="{{ site.url }}{{ site.baseurl }}/">
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+        <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">
      <img src="{{ site.url }}{{ site.baseurl }}/favicon.ico" width="30" height="30" alt="">
       {{ site.nick | escape }}
     </a>
-    <button class="toggler navbar-toggler collapsed mr-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon mr-auto"></span>
-    </button>
-
-    <div class="collapse navbar-collapse justify-content-center" id="navbarColor03">
-        <div class="navbar-nav justify-content-center">
-            {% for page in site.nav_pages %}
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarColor03">
+            <div class="navbar-nav">
+                {% for page in site.nav_pages %}
                 <a class="nav-item nav-link" href="{{ site.url }}{{ site.baseurl }}/{{page.name}}">{{page.name | capitalize }}</a>
             {% endfor %}
-            <a href="{{ site.url }}{{ site.baseurl }}/join/"><button class="btn btn-danger navbar-btn mr-auto">Get Involved!</button></a>
+            <a href="{{ site.url }}{{ site.baseurl }}/join/"><button class="btn btn-danger navbar-btn">Get Involved!</button></a>
+            </div>
         </div>
     </div>
 </nav>
