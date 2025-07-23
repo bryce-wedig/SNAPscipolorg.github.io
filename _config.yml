@@ -27,7 +27,7 @@ nav_pages:
   - name: team
   - name: news
   - name: blog
-  - name: join
+# The "Get Involved!" button can be edited in the header file
 
 include:
   - .htaccess
