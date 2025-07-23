@@ -5,7 +5,6 @@ sitemap: false
 permalink: /about/
 ---
 
-<div>
 <h2>About</h2>
 {% for member in site.data.snap %}
   <div class="jumbotron" align="center">
@@ -94,5 +93,3 @@ permalink: /about/
   </div>
 </div>
 {% endif %}
-
-</div>

@@ -5,10 +5,11 @@ sitemap: false
 permalink: /press/
 ---
 
-<h2>Press Mentions</h2>
-<div class="jumbotron">
+<h3>Press Mentions</h3>
+<ul>
   {% for article in site.data.press %}
+  <li>
     <p><b>{{ article.date | date: '%b %d, %Y' }}:
-      <a href="{{ article.website }}">{{ article.headline }}</a> in {{ article.source }}</b></br>
+      <a href="{{ article.website }}">{{ article.headline }}</a> in {{ article.source }}</b>
+  </li>
   {% endfor %}
-</div>
