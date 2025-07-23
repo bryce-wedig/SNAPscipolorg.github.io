@@ -5,6 +5,10 @@ sitemap: false
 permalink: /
 ---
 
+<!-- This is needed to load the Map -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
 <h2>Welcome!</h2>
 
 We are an international group of early-career scientists dedicated to mobilizing for large-scale initiatives and building capacity to bridge gaps between science and society. Our mission is to inspire and engage fellow scientists by establishing a peer network, developing and sharing resources, and instigating meaningful change.
@@ -14,3 +18,20 @@ We are an international group of early-career scientists dedicated to mobilizing
 <img src="{{ site.url }}{{ site.baseurl }}/images/logo.png" width="100%">
 </div>
 </div>
+
+<div id="map" style="width: 600px; height: 400px"></div>
+<script>
+
+	const map = L.map('map').setView([39.82, -98.58], 5);
+
+	const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		maxZoom: 19,
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+	}).addTo(map);
+
+	const marker = L.marker([29.65, -82.35]).addTo(map)
+		.bindPopup('<b>Policy Advocacy in Science and Engineering</b><br />University of Florida').openPopup();
+
+	map.on('click', onMapClick);
+
+</script>
