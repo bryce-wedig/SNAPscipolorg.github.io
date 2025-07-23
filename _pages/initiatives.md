@@ -16,9 +16,7 @@ permalink: /initiatives/
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% for post in site.initiatives.category reversed %}
-        <h2>{{ post.date | date: '%b %d, %Y' }}: <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      {% endfor %}
+      <h2>{{ post.date | date: '%b %d, %Y' }}: <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
     {% endfor %}
   {% endfor %}
 {% else %}
