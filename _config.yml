@@ -32,7 +32,57 @@ nav_pages:
 include:
   - .htaccess
   - _pages
-  - _news
+
+# These settings control the types of collections used by the template
+collections:
+  initiatives:
+    output: true
+    permalink: /:collection/:path/
+  news:
+    output: true
+    permalink: /:collection/:path/
+  blog:
+    output: true
+    permalink: /:collection/:path/
+
+# These settings control how pages and collections are included in the site
+defaults:
+  # _initiatives
+  - scope:
+      path: ""
+      type: initiatives
+    values:
+      layout: post
+      author_profile: true
+      share: false
+      comments: true
+  # _news
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: post
+      author_profile: true
+      share: false
+      comments: true
+  # _posts
+  - scope:
+      path: ""
+      type: blog
+    values:
+      layout: post
+      author_profile: true
+      read_time: true
+      comments: true
+      share: false
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 # Conversion
 markdown: kramdown
