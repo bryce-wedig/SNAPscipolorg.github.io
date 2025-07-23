@@ -19,10 +19,10 @@
   
   {% for post in site.initiatives reversed %}
     {% if post.category == 'current' %}
-      <b><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></b>
+      <p><b><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></b></p>
     {% endif %}
   {% endfor %}
-  <b>Click <a href="{{ site.url }}{{ site.baseurl }}/initiatives/">here</a> to learn more!</b>
+  <h5>Learn more about <a href="{{ site.url }}{{ site.baseurl }}/initiatives/">our initiatives</a></h5>
 
 </div>
 
@@ -34,6 +34,6 @@
       <p><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></p>
   {% endfor %}
 
-  <h5><a href="{{ site.url }}{{ site.baseurl }}/news/">... see more of SNAP in the News</a></h5>
+  <h5>See more of <a href="{{ site.url }}{{ site.baseurl }}/news/">SNAP in the News</a></h5>
 
 </div>
