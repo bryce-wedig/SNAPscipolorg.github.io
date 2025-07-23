@@ -46,9 +46,8 @@ permalink: /about/
 <div class="col-sm-4 col-xs-12">
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br></i>
-
-{% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa-solid fa-link fa-2x"></i></a> {% endif %}
-{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a> {% endif %}
+{% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa-solid fa-link fa-1x"></i></a> {% endif %}
+{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-1x"></i></a> {% endif %}
 
 </div>
 <!-- </div> -->
