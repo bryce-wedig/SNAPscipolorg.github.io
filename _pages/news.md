@@ -5,8 +5,6 @@ sitemap: false
 permalink: /news/
 ---
 
-## News
-
 <ul>
   {% for post in site.news reversed %}
     <li>
