@@ -1,10 +1,10 @@
-- name: Example One
-  photo: rock.jpg
-  info: Postdoc, started Oct 2040
-  email: exampleemail@gmail.com
-  bluesky: 
-  linkedin: 
-  website: https://website.com
+- name: Kass Fernandez
+  photo: Kass.jpg
+  info: SNAP Web Developer
+  email: kfernandez1@ufl.edu
+  bluesky: https://bsky.app/profile/KassSTEM.bsky.social
+  linkedin: https://www.linkedin.com/in/kassfedz
+  website: https://kassstem.github.io/
 
 - name: Example Two
   photo: rock.jpg

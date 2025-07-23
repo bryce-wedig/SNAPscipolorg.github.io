@@ -1,7 +1,83 @@
-- name: Example Org1
-  photo: rock.jpg
-  website: https://website.com
+- name: Allegheny Science Policy and Governance
+  photo: 
+  website: 
 
-- name: Example Org2
-  photo: rock.jpg
+- name: Cornell Advancing Sciece and Policy Club (ASAP)
+  photo: 
+  website: https://blogs.cornell.edu/asap/
+
+- name: Georgetown Science Policy Network
+  photo: 
+  website: 
+
+- name: Harvard Griffin GSAS Science Policy Group
+  photo: 
+  website: 
+
+- name: Jayhawks for Science Policy (JSP) at University of Kansas
+  photo: 
+  website: 
+
+- name: MIT Graduate Student Council's External Affairs Board
+  photo: 
+  website: https://sites.mit.edu/gsc-eab/
+
+- name: North Carolina State University
+  photo: 
+  website: 
+
+- name: Penn Science Policy and Diplomacy Group
+  photo: 
+  website: 
+
+- name: Policy Advocacy in Science and Engineering (PASE) at University of Florida
+  photo: 
+  website: https://gator-pase.netlify.app/
+
+- name: Promoting Science Policy, Education, and Research (ProSPER) at Washington University in St. Louis
+  photo: 
+  website: https://sites.wustl.edu/prosper/
+
+- name: Science Policy Advocacy Network at UAB
+  photo: 
+  website: 
+
+- name: Science Policy and Diplomacy Group at Johns Hopkins
+  photo: 
+  website: https://www.jhscipolgroup.org
+
+- name: Science Policy Group at UCLA
+  photo: 
+  website: https://www.scipolucla.com/
+
+- name: Science Policy Group at UMD
+  photo: 
+  website: 
+
+- name: Science Policy Initiative @ Notre Dame (SPI@ND)
+  photo: 
+  website: 
+
+- name: SciPol at NYU
+  photo: 
+  website: 
+
+- name: Stanford Science Policy Group (SSPG)
+  photo: 
+  website: 
+
+- name: UCR Science to Policy (S2P) student cabinet
+  photo: 
+  website: 
+
+- name: UNC Science Policy and Advocacy Group (SPAG)
+  photo: 
+  website: https://tarheels.live/spag/
+
+- name: UNC Graduate Professional Student Government (GPSG)
+  photo: 
+  website: https://gpsg.unc.edu
+
+- name: Yale Graduate Student Government
+  photo: 
   website: https://website.com
