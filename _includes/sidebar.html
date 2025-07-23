@@ -1,21 +1,19 @@
-<div>
-  <center><h4>Connect with SNAP</h4></center>
-{% for member in site.data.snap %}
 <div class="jumbotron">
-   <center>
-   <div style="margin-bottom:5px">
-   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a> {% endif %}
-   {% if member.bluesky %} <a href="{{ member.bluesky }}" target="_blank"><i class="fa-brands fa-bluesky fa-2x"></i></a> {% endif %}
-   {% if member.instagram %} <a href="{{ member.instagram }}" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a> {% endif %}
-   {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a> {% endif %}
+  <h4>Connect with SNAP</h4>
+  {% for member in site.data.snap %}
+    <center>
+    <div style="margin-bottom:5px">
+    {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a> {% endif %}
+    {% if member.bluesky %} <a href="{{ member.bluesky }}" target="_blank"><i class="fa-brands fa-bluesky fa-2x"></i></a> {% endif %}
+    {% if member.instagram %} <a href="{{ member.instagram }}" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a> {% endif %}
+    {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a> {% endif %}
   </div>
   </center>
-</div>
 {% endfor %}
 </div>
 
-<h4>Current Initiatives</h4>
 <div class="jumbotron">
+  <h4>Current Initiatives</h4>
   {% for post in site.initiatives reversed %}
     {% if post.category == 'current' %}
       <p><b><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></b></p>
@@ -25,8 +23,8 @@
 
 </div>
 
-<h4>Press Mentions</h4>
 <div class="jumbotron">
+  <h4>Press Mentions</h4>
   {% for article in site.data.press reversed limit:3 %}
     <p><b>{{ article.date | date: '%b %d, %Y' }}:
       <a href="{{ article.website }}">{{ article.headline }}</a> in {{ article.source }}</b>
