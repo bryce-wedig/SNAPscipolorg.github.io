@@ -72,6 +72,15 @@ defaults:
     values:
       layout: gridlay
 
+# These settings control the possible categories and their headings for each collection
+initiatives_category:
+  current:
+    title: 'Current Initiatives'
+  past:
+    title: 'Past Initiatives'
+  upcoming:
+    title: 'Upcoming Initiatives'
+
 # Conversion
 markdown: kramdown
 highlighter: rouge
