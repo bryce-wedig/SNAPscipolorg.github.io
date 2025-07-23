@@ -19,10 +19,10 @@
   
   {% for post in site.initiatives reversed %}
     {% if post.category == 'current' %}
-      <h4><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+      <b><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></b>
     {% endif %}
   {% endfor %}
-  <h4>Click <a href="{{ site.url }}{{ site.baseurl }}/initiatives/">here</a> to learn more!
+  <b>Click <a href="{{ site.url }}{{ site.baseurl }}/initiatives/">here</a> to learn more!</b>
 
 </div>
 
