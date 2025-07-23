@@ -17,7 +17,10 @@ We are an international group of early-career scientists dedicated to mobilizing
 
 ## Current Initiatives
 
-- McClintock Letters
-- Science Policy Courses
+<div>
+  {% for post in site.initiatives.category.current %}
+    <h3><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+  {% endfor %}
+</div>
 
-[Click here to learn more!]({{ site.url }}{{ site.baseurl }}/initiatives/)
+### [Click here to learn more!]({{ site.url }}{{ site.baseurl }}/initiatives/)
