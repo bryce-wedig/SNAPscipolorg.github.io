@@ -5,7 +5,8 @@ sitemap: false
 permalink: /about/
 ---
 
-<h2>About</h2>
+## About
+
 {% for member in site.data.snap %}
   <div class="jumbotron" align="center">
     <div class="row">
@@ -25,7 +26,8 @@ permalink: /about/
   </div>
 {% endfor %}
 
-<h3>Member Organizations</h3>
+### Member Organizations
+
 <div class='jumbotron'>
   {% assign number_printed = 0 %}
   {% for member in site.data.member_orgs %}
@@ -61,9 +63,8 @@ permalink: /about/
 </div>
 
 {% if site.data.grants %}
-
+### Grants
 <div class="jumbotron">
-  <h3>Grants</h3>
   <ul>
     {% for grant in site.data.grants %}
       <li>{{ grant.name }}</li>
@@ -73,9 +74,8 @@ permalink: /about/
 {% endif %}
 
 {% if site.data.awards %}
-
+### Awards
 <div class="jumbotron">
-  <h3>Awards</h3>
   <ul>
     {% for award in site.data.awards %}
       <li>{{ award.name | replace: "-","&#8211;" }}</li>
@@ -85,9 +85,8 @@ permalink: /about/
 {% endif %}
 
 {% if site.data.funders %}
-
+### Sponsors
 <div class="jumbotron">
-  <h4>Sponsors</h4>
   <div style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>
   {% for funder in site.data.funders %}<a href="{{ funder.url }}" target="_blank"><img src='{{ site.url }}{{ site.baseurl }}/images/{{ funder.image }}' style='max-height: 80px; max-width: 200px; margin: 1%'/></a>{% endfor %}
   </div>
