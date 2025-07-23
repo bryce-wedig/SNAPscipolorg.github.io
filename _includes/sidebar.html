@@ -17,7 +17,7 @@
 <div class="jumbotron">
   <h4>Press Mentions</h4>
   
-  {% for post in site.news limit:3 %}
+  {% for post in site.news reversed limit:3 %}
     <b>{{ post.date | date: '%b %d, %Y' }}</b>
       <p><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></p>
   {% endfor %}
