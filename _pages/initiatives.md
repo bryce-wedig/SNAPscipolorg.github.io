@@ -5,6 +5,7 @@ sitemap: false
 permalink: /initiatives/
 ---
 
+<div class="aside">
 {% if site.initiatives_category %}
   {% for category in site.initiatives_category %}
     {% assign title_shown = false %}
@@ -13,10 +14,10 @@ permalink: /initiatives/
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <div><h2>{{ category[1].title }}</h2><hr /></div>
+        <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      <div><h2>{{ post.date | date: '%b %d, %Y' }}: <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2></div>
+      <h2>{{ post.date | date: '%b %d, %Y' }}: <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
     {% endfor %}
   {% endfor %}
 {% else %}
@@ -28,6 +29,7 @@ permalink: /initiatives/
     {% endfor %}
   </ul>
 {% endif %}
+</div>
 
 ### Current Initiatives
 
