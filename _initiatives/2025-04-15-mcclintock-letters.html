@@ -21,8 +21,8 @@ Improving communication between scientists and the public is crucial for rebuild
     {% for article in site.data.press %}
       {% if article.category == 'McClintock Letters' %}
         <li>
-          <h3>{{ article.date | date: '%b %d, %Y' }}:
-        <a href="{{ article.website }}">{{ article.headline }}</a> in {{ article.source }}</h3>
+          <p><b>{{ article.date | date: '%b %d, %Y' }}:
+        <a href="{{ article.website }}">{{ article.headline }}</a> in {{ article.source }}</b></p>
         </li>
       {% endif %}
     {% endfor %}
