@@ -5,8 +5,6 @@ sitemap: false
 permalink: /initiatives/
 ---
 
-{% include base_path %}
-
 <!-- New style rendering if project categories are defined -->
 {% if site.initiative_category %}
   {% for category in site.initiative_category  %}
