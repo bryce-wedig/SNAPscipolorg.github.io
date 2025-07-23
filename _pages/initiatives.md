@@ -6,8 +6,8 @@ permalink: /initiatives/
 ---
 
 <!-- New style rendering if project categories are defined -->
-{% if site.initiative_category %}
-  {% for category in site.initiative_category  %}
+{% if site.initiatives_category %}
+  {% for category in site.initiatives_category  %}
     {% assign title_shown = false %}
     {% for post in site.initiatives reversed %}
       {% if post.category != category[0] %}
@@ -17,17 +17,16 @@ permalink: /initiatives/
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
     {% endfor %}
   {% endfor %}
 {% else %}
-  {% for post in site.initiatives reversed %}
-    <ul>
+  <ul>
+    {% for post in site.initiatives reversed %}
       <li>
         {{ post.date | date: '%b %d, %Y' }}: <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
       </li>
-    </ul>
-  {% endfor %}
+    {% endfor %}
+  </ul>
 {% endif %}
 
 ### Current Initiatives
