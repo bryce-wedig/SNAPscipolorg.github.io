@@ -33,6 +33,7 @@ permalink: /initiatives/
       </li>
     {% endfor %}
   </ul>
+{% endif %}
 
 ### Current Initiatives
 
