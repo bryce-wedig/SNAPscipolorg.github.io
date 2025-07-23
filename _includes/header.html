@@ -14,9 +14,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="collapse navbar-collapse" id="navbarColor03">
         <div class="navbar-nav mr-auto">
-            {% for page in site.nav_pages %}       
+            {% for page in site.nav_pages %}
                 <a class="nav-item nav-link" href="{{ site.url }}{{ site.baseurl }}/{{page.name}}">{{page.name | capitalize }}</a>
             {% endfor %}
+            <button class="btn btn-danger navbar-btn"><a href="{{ site.url }}{{ site.baseurl }}/join/">Get Involved!</a></button>
         </div>
     </div>
 </nav>
