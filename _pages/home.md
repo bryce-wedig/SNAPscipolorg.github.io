@@ -18,8 +18,10 @@ We are an international group of early-career scientists dedicated to mobilizing
 ## Current Initiatives
 
 <div>
-  {% for post in site.initiatives.category.current %}
-    <h3><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+  {% for post in site.initiatives %}
+    {% if post.category == 'current' %}
+      <h3><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+    {% endif %}
   {% endfor %}
 </div>
 
