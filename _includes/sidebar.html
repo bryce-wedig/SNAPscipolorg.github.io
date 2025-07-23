@@ -30,7 +30,7 @@
   <h4>Press Mentions</h4>
   
   {% for post in site.news reversed limit:3 %}
-    <p><b>{{ post.date | date: '%b %d, %Y' }}
+    <p><b>{{ post.date | date: '%b %d, %Y' }}:
       <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></b></p>
   {% endfor %}
 
