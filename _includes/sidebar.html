@@ -15,6 +15,18 @@
 </div>
 
 <div class="jumbotron">
+  <h4>Current Initiatives</h4>
+  
+  {% for post in site.initiatives reversed %}
+    {% if post.category == 'current' %}
+      <h4><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+    {% endif %}
+  {% endfor %}
+  <h4>Click <a href="{{ site.url }}{{ site.baseurl }}/initiatives/">here</a> to learn more!
+
+</div>
+
+<div class="jumbotron">
   <h4>Press Mentions</h4>
   
   {% for post in site.news reversed limit:3 %}
