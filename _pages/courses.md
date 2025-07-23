@@ -7,6 +7,6 @@ permalink: /courses/
 
 ## Courses
 
-* [Introduction to Science Policy](https://kassstem.github.io/SciPol101/index.html)
+* ### [Introduction to Science Policy](https://kassstem.github.io/SciPol101/index.html)
 
 
