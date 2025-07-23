@@ -1,8 +1,8 @@
 <div>
+  <center><h4>Connect with SNAP</h4></center>
 {% for member in site.data.snap %}
 <div class="jumbotron">
    <center>
-   <h4>Connect with SNAP</h4>
    <div style="margin-bottom:5px">
    {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a> {% endif %}
    {% if member.bluesky %} <a href="{{ member.bluesky }}" target="_blank"><i class="fa-brands fa-bluesky fa-2x"></i></a> {% endif %}
@@ -14,9 +14,8 @@
 {% endfor %}
 </div>
 
+<h4>Current Initiatives</h4>
 <div class="jumbotron">
-  <h4>Current Initiatives</h4>
-  
   {% for post in site.initiatives reversed %}
     {% if post.category == 'current' %}
       <p><b><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></b></p>
@@ -26,14 +25,14 @@
 
 </div>
 
+<h4>Press Mentions</h4>
 <div class="jumbotron">
-  <h4>Press Mentions</h4>
-  
-  {% for post in site.news reversed limit:3 %}
-    <p><b>{{ post.date | date: '%b %d, %Y' }}:
-      <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></b></p>
+  {% for article in site.data.press reversed limit:3 %}
+    <p><b>{{ article.date | date: '%b %d, %Y' }}:
+      <a href="{{ article.website }}">{{ article.headline }}</a> in {{ article.source }}</b>
   {% endfor %}
+</div>
 
-  <h5>See more of <a href="{{ site.url }}{{ site.baseurl }}/news/">SNAP in the News</a></h5>
+  <h5>See more of <a href="{{ site.url }}{{ site.baseurl }}/press/">SNAP in the Press</a></h5>
 
 </div>

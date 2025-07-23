@@ -1,0 +1,26 @@
+---
+title: "McClintock Letters"
+excerpt: "Learn more about our national op-ed writing campaign!"
+collection: initiatives
+category: current
+date: 2025-04-15
+permalink: /initiatives/mcclintock-letters
+---
+
+Improving communication between scientists and the public is crucial for rebuilding trust and addressing misinformation. We're inviting scientists to share their stories with their local hometown paper through the McClintock Letters Initiative — a national op-ed writing campaign. 
+
+<ul>
+  <li>Join the McClintock Letter Writer's Space for feedback, community, and resources!</li>
+  <li>Read the McClintock Press Release here.</li>
+  <li>Need help getting your letter published? Submit a request for assistance here.</li>
+</ul>
+
+<h2>Press Mentions</h2>
+<div class="jumbotron">
+  {% for article in site.data.press reversed %}
+    {% if article.category == 'McClintock Letters' %}
+      <p><b>{{ article.date | date: '%b %d, %Y' }}:
+      <a href="{{ article.website }}">{{ article.headline }}</a> in {{ article.source }}</b>
+    {% endif %}
+  {% endfor %}
+</div>

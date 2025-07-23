@@ -1,9 +1,11 @@
 ---
-title: "Press Mentions"
+title: "News"
 layout: page
 sitemap: false
 permalink: /news/
 ---
+
+## News
 
 <ul>
   {% for post in site.news reversed %}

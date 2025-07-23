@@ -1,0 +1,14 @@
+---
+title: "Press Mentions"
+layout: textlay
+sitemap: false
+permalink: /press/
+---
+
+<h2>Press Mentions</h2>
+<div class="jumbotron">
+  {% for article in site.data.press %}
+    <b><a href="{{ article.website }}">{{ article.headline }}</a></b>
+    {{ article.source }}
+  {% endfor %}
+</div>

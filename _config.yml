@@ -23,6 +23,7 @@ contact: >
 nav_pages:
   - name: about
   - name: initiatives
+  - name: press
   - name: courses
   - name: team
   - name: news
