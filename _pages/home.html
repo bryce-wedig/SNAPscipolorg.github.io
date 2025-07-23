@@ -20,9 +20,7 @@ We are an international group of early-career scientists dedicated to mobilizing
 <div class="aside">
   {% for post in site.initiatives %}
     {% if post.category == 'current' %}
-      <h3><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <h4><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
     {% endif %}
   {% endfor %}
 </div>
-
-<h4><a href="{{ site.url }}{{ site.baseurl }}/initiatives/">Click here to learn more!</a></h4>
