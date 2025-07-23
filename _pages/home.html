@@ -14,14 +14,3 @@ We are an international group of early-career scientists dedicated to mobilizing
 <img src="{{ site.url }}{{ site.baseurl }}/images/logo.png" width="100%">
 </div>
 </div>
-
-<h2>Current Initiatives</h2>
-
-<div class="aside">
-  {% for post in site.initiatives reversed %}
-    {% if post.category == 'current' %}
-      <h4><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-    {% endif %}
-  {% endfor %}
-  <h4>Click <a href="{{ site.url }}{{ site.baseurl }}/initiatives/">here</a> to learn more!
-</div>
