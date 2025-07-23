@@ -15,8 +15,8 @@ Improving communication between scientists and the public is crucial for rebuild
   <li>Need help getting your letter published? Submit a request for assistance here.</li>
 </ul>
 
-<h2>Press Mentions</h2>
 <div class="jumbotron">
+  <h2>Press Mentions</h2>
   {% for article in site.data.press reversed %}
     {% if article.category == 'McClintock Letters' %}
       <p><b>{{ article.date | date: '%b %d, %Y' }}:
