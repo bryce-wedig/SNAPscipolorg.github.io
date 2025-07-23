@@ -30,8 +30,8 @@
   <h4>Press Mentions</h4>
   
   {% for post in site.news reversed limit:3 %}
-    <b>{{ post.date | date: '%b %d, %Y' }}</b>
-      <p><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></p>
+    <p><b>{{ post.date | date: '%b %d, %Y' }}
+      <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></b></p>
   {% endfor %}
 
   <h5>See more of <a href="{{ site.url }}{{ site.baseurl }}/news/">SNAP in the News</a></h5>
