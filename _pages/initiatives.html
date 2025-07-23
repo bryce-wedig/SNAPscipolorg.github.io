@@ -14,10 +14,12 @@ permalink: /initiatives/
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2>{{ category[1].title }}</h2>
+        <hr />
         {% assign title_shown = true %}
       {% endunless %}
-      <h2>{{ post.date | date: '%b %d, %Y' }}: <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <h3>{{ post.date | date: '%b %d, %Y' }}: <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt }}</p>
     {% endfor %}
   {% endfor %}
 {% else %}
@@ -25,6 +27,7 @@ permalink: /initiatives/
     {% for post in site.initiatives reversed %}
       <li>
         <h2>{{ post.date | date: '%b %d, %Y' }}: <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt }}</p>
       </li>
     {% endfor %}
   </ul>
