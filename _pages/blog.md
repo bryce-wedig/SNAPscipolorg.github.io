@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-layout: page
+layout: gridlay
 sitemap: false
 permalink: /blog/
 ---

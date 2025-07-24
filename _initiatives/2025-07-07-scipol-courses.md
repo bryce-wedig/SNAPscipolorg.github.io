@@ -1,4 +1,5 @@
 ---
+layout: gridlay
 title: "Science Policy Courses"
 excerpt: "Learn more about our scipol courses!"
 collection: initiatives
