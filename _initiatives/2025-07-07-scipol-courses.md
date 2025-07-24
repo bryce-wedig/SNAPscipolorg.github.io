@@ -24,6 +24,9 @@ Placeholder for now.</br>
           <p><b>{{ article.date | date: '%b %d, %Y' }}:
         <a href="{{ article.website }}">{{ article.headline }}</a> in {{ article.source }}</b></p>
         </li>
+      {% else %}
+        <p><b>None yet! Check back soon for updates!</b></p>
+      {% break %}
       {% endif %}
     {% endfor %}
   </ul>
