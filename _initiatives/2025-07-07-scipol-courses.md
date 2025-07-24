@@ -3,7 +3,7 @@ layout: gridlay
 title: "Science Policy Courses"
 excerpt: "Learn more about our scipol courses!"
 collection: initiatives
-category: current
+category: upcoming
 date: 2025-05-05
 permalink: /initiatives/scipol-courses
 ---
