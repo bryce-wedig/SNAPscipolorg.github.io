@@ -8,6 +8,8 @@ date: 2025-05-05
 permalink: /initiatives/courses
 ---
 
+<h2>Science Policy Courses</h2>
+
 Placeholder for now.</br>
 
 <ul>
