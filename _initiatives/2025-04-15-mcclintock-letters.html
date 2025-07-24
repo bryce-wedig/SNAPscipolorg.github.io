@@ -8,17 +8,19 @@ date: 2025-04-15
 permalink: /initiatives/mcclintock-letters/
 ---
 
+<!-- These two divs give you a similar look to the home page so you can make your own sidebar -->
+
 <div id="mainid" class="col-sm-7 col-xs-12">
 	<h2>McClintock Letters</h2>
 
-Improving communication between scientists and the public is crucial for rebuilding trust and addressing misinformation. We're inviting scientists to share their stories with their local hometown paper through the <a href="https://blogs.cornell.edu/asap/events-initiatives/the-mcclintock-letters/">McClintock Letters Initiative</a> — a national op-ed writing campaign.</br>
+  Improving communication between scientists and the public is crucial for rebuilding trust and addressing misinformation. We're inviting scientists to share their stories with their local hometown paper through the <a href="https://blogs.cornell.edu/asap/events-initiatives/the-mcclintock-letters/">McClintock Letters Initiative</a> — a national op-ed writing campaign.</br>
 
-<h2>Action Items</h2>
-<ul>
-  <li>Join the <a href="https://mcclintocklet-jmj4172.slack.com/join/shared_invite/zt-37dzpgmdc-DqJlAP~yt9Qug~OCFnBh5g">McClintock Letter Writer's Space</a> for feedback, community, and resources!</li>
-  <li>Read the <a href="{{ site.url }}{{ site.baseurl }}/initiatives/mcclintock-letters/press-release">McClintock Press Release<a>.</li>
-  <li>Need help getting your letter published? Submit a <a href="https://docs.google.com/forms/d/e/1FAIpQLSei6nfOkkAuyzRt2dwJ3abCMwrGU-3vEDxzlg0koPpVVuCxSA/viewform?usp=header">request for assistance</a>.</li>
-</ul>
+  <h3>Action Items</h3>
+  <ul>
+    <li>Join the <a href="https://mcclintocklet-jmj4172.slack.com/join/shared_invite/zt-37dzpgmdc-DqJlAP~yt9Qug~OCFnBh5g">McClintock Letter Writer's Space</a> for feedback, community, and resources!</li>
+    <li>Read the <a href="{{ site.url }}{{ site.baseurl }}/initiatives/mcclintock-letters/press-release">McClintock Press Release<a>.</li>
+    <li>Need help getting your letter published? Submit a <a href="https://docs.google.com/forms/d/e/1FAIpQLSei6nfOkkAuyzRt2dwJ3abCMwrGU-3vEDxzlg0koPpVVuCxSA/viewform?usp=header">request for assistance</a>.</li>
+  </ul>
 </div>
   
 <div id="sideid" class="col-sm-5 col-xs-12" >
@@ -30,17 +32,20 @@ Improving communication between scientists and the public is crucial for rebuild
   </div>
 </div>
 
+<!-- This div spans the entire width -->
+
 <div id="pressid" class="col-sm-12 col-xs-12"></div>
-<div class="jumbotron">
-  <h2>Press Mentions</h2>
-  <ul>
-    {% for article in site.data.press %}
-      {% if article.category == 'McClintock Letters' %}
-        <li>
-          <p><b>{{ article.date | date: '%b %d, %Y' }}:
-        <a href="{{ article.website }}">{{ article.headline }}</a> in {{ article.source }}</b></p>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+  <div class="jumbotron">
+    <h2>Press Mentions</h2>
+    <ul>
+      {% for article in site.data.press %}
+        {% if article.category == 'McClintock Letters' %}
+          <li>
+            <p><b>{{ article.date | date: '%b %d, %Y' }}:
+          <a href="{{ article.website }}">{{ article.headline }}</a> in {{ article.source }}</b></p>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
 </div>
