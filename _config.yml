@@ -17,7 +17,7 @@ affiliation: >
 
 contact: >
   <a href="mailto:snapscipolorg@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-1x"></i> <b>Send SNAP an Email</b></a> <br/>
-  <a href="{{ site.url }}{{ site.baseurl }}/join/"><i class="fa-solid fa-link fa-1x"></i> <b>Join SNAP Today</b></a>
+  <a href="https://forms.gle/1LXBGVS9w375DmYt8"><i class="fa-solid fa-link fa-1x"></i> <b>Join SNAP Today</b></a>
 
 # Pages shown in navbar
 nav_pages:

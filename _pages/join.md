@@ -7,4 +7,4 @@ permalink: /join/
 
 ## Ready to Get Involved?
 
-Whether you're part of an established science policy group or an individual advocate, you're welcome here. Please fill out our Interest Form to get connected with fellow advocates, organize initiatives, and access shared resources. 
+Whether you're part of an established science policy group or an individual advocate, you're welcome here. Please fill out our <a href="https://forms.gle/1LXBGVS9w375DmYt8">Interest Form</a> to get connected with fellow advocates, organize initiatives, and access shared resources. 
