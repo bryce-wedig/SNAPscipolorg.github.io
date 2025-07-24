@@ -22,14 +22,5 @@ permalink: /initiatives/
       <p>{{ post.excerpt }}</p>
     {% endfor %}
   {% endfor %}
-{% else %}
-  <ul>
-    {% for post in site.initiatives reversed %}
-      <li>
-        <h3><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-        <p>{{ post.excerpt }}</p>
-      </li>
-    {% endfor %}
-  </ul>
 {% endif %}
 </div>
