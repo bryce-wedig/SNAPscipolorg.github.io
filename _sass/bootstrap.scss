@@ -11,7 +11,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 :root {
   --blue: #eb6864;
   --indigo: #6610f2;
@@ -39,8 +39,8 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-sans-serif: "Monserrat", sans-serif;
+  --font-family-monospace: "Open Sans", monospace;
 }
 
 *,
@@ -63,7 +63,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Monserrat", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -186,7 +186,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Open Sans", monospace;
   font-size: 1em;
 }
 
@@ -366,7 +366,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+  font-family: "Monserrat", sans-serif;
   font-weight: 700;
   line-height: 1.1;
 }
@@ -6539,7 +6539,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Monserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6652,7 +6652,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Monserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -10478,7 +10478,7 @@ button.bg-dark:focus {
 }
 
 .text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  font-family: "Open Sans", monospace !important;
 }
 
 .text-justify {
@@ -10808,7 +10808,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .navbar {
   font-size: 18px;
-  font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+  font-family: "Monserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -10820,7 +10820,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn {
-  font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+  font-family: "Monserrat", sans-serif;
   font-weight: 700;
 }
 
