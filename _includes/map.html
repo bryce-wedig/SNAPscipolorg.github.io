@@ -80,8 +80,8 @@
 	const marker21 = L.marker([35.90, -79.05]).addTo(map)
 		.bindPopup('<b>UNC Graduate Professional Student Government (GPSG)</b><br />University of North Carolina').openPopup();
 
-	const marker22 = L.marker([41.31, -72.92], autoPan: false).addTo(map)
-		.bindPopup('<b>Yale Graduate Student Government</b><br />Yale University').openPopup().togglePopup();
+	const marker22 = L.marker([41.31, -72.92]).addTo(map)
+		.bindPopup('<b>Yale Graduate Student Government</b><br />Yale University').openPopup(autoPan: false).togglePopup();
 
 	map.on('click', onMapClick);
 
