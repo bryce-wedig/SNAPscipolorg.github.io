@@ -1,6 +1,24 @@
+- name: Alex Lando
+  photo: Alex.jpeg
+  info: I’m a second year PhD student at Cornell in the School of Integrative Plant Science! I’m also a board member of the Cornell Advancing Science and Policy Club. I’m passionate about my work on zombie fungi, SciComm, and protecting science funding!
+  email: al2524@cornell.edu
+  bluesky: https://bsky.app/profile/alexlando.bsky.social
+  instagram: https://instagram.com/alexrlando
+  linkedin: https://www.linkedin.com/in/alex-lando-aa88b4227/
+  website: https://linktr.ee/alexlando
+
+- name: Emma Scales
+  photo: Emma.png
+  info: McClintock Letters lead organizer, Ph.D. student at Cornell University School of Integrative Plant Sciences
+  email: eks88@cornell.edu
+  bluesky: https://bsky.app/profile/emmascales.bsky.social
+  instagram: 
+  linkedin: https://www.linkedin.com/in/emma-scales-5aa297217/
+  website: https://linktr.ee/emmascales
+
 - name: Kass Fernandez
   photo: Kass.jpg
-  info: SNAP Web Developer
+  info: SNAP Web Developer, PhD student at the University of Florida studying Engineering Education
   email: kfernandez1@ufl.edu
   bluesky: https://bsky.app/profile/KassSTEM.bsky.social
   instagram: 
