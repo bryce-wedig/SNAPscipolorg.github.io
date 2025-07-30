@@ -23,7 +23,7 @@ permalink: /team/
 </div>
 <div class="col-sm-4 col-xs-12">
   <h4>{{ member.name }}</h4>
-  {% if member.pronouns %}<h5>{{ member.pronouns }}</h5></a> {% endif %}
+  {% if member.pronouns %}<h5>{{ member.pronouns }}</h5> {% endif %}
   <i>{{ member.info }}<br></i>
 
 {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa-solid fa-link fa-2x"></i></a> {% endif %}
