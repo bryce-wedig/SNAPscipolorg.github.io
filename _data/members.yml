@@ -1,4 +1,5 @@
 - name: Alex Lando
+  pronouns: 
   photo: Alex.jpg
   info: I’m a second year PhD student at Cornell in the School of Integrative Plant Science! I’m also a board member of the Cornell Advancing Science and Policy Club. I’m passionate about my work on zombie fungi, SciComm, and protecting science funding!
   email: al2524@cornell.edu
@@ -8,6 +9,7 @@
   website: https://linktr.ee/alexlando
 
 - name: Emma Scales
+  pronouns: 
   photo: Emma.jpg
   info: McClintock Letters lead organizer, Ph.D. student at Cornell University School of Integrative Plant Sciences
   email: eks88@cornell.edu
@@ -17,6 +19,7 @@
   website: https://linktr.ee/emmascales
 
 - name: Isako (Izzi) Di Tomassi
+  pronouns: she/her
   photo: Izzi.jpg
   info: An agricultural researcher and a second-year PhD student at Cornell University, Izzi studies way to fight late blight, the same plant disease that killed crops during the Irish Potato Famine. Late blight is still very much an issue today. Izzi is driven by a desire to contribute in some way to sustainable global food security, whether that is as a scientist, through extension work, or through policy work. She resides in Ithaca, NY but loves the desert heat, and loves to travel.
   email: ibd5@cornell.edu
@@ -26,6 +29,7 @@
   website: 
 
 - name: Kass Fernandez
+  pronouns: they/them
   photo: Kass.jpg
   info: SNAP Web Developer, PhD student at the University of Florida studying Engineering Education
   email: kfernandez1@ufl.edu
@@ -35,6 +39,7 @@
   website: https://kassstem.github.io/
 
 - name: Example Team Member
+  pronouns: 
   photo: person.png
   info: Awesome SNAP Member
   email: 
