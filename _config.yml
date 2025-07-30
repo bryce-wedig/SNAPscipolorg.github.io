@@ -4,7 +4,7 @@ nick: SNAP
 email: snapscipolorg@gmail.com
 description: SNAP Coalition Website
 baseurl: ""
-url: "https://snapcoalition.org/"
+url: "https://snapcoalition.org"
 google_analytics_4: G-KXSXHFN9B7
 
 # Footer info
