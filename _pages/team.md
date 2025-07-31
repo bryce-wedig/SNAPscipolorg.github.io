@@ -23,14 +23,14 @@ permalink: /team/
 </div>
 <div class="col-sm-4 col-xs-12">
   <h4>{{ member.name }}</h4>
-  {% if member.pronouns %}<h5>{{ member.pronouns }}</h5> {% endif %}
-  <i>{{ member.info }}<br></i>
+  {% if member.pronouns %}<h5><i>{{ member.pronouns }}</i></h5> {% endif %}
+  <p>{{ member.info }}<br></p>
 
-{% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa-solid fa-link fa-2x"></i></a> {% endif %}
-{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a> {% endif %}
-{% if member.bluesky %} <a href="{{ member.bluesky }}" target="_blank"><i class="fa-brands fa-bluesky fa-2x"></i></a> {% endif %}
-{% if member.instagram %} <a href="{{ member.instagram }}" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a> {% endif %}
-{% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a> {% endif %}
+{% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa-solid fa-link fa-1x"></i></a> {% endif %}
+{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-1x"></i></a> {% endif %}
+{% if member.bluesky %} <a href="{{ member.bluesky }}" target="_blank"><i class="fa-brands fa-bluesky fa-1x"></i></a> {% endif %}
+{% if member.instagram %} <a href="{{ member.instagram }}" target="_blank"><i class="fa-brands fa-instagram fa-1x"></i></a> {% endif %}
+{% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin fa-1x"></i></a> {% endif %}
 
 </div>
 <!-- </div> -->
