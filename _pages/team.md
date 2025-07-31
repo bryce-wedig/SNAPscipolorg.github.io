@@ -28,9 +28,9 @@ permalink: /team/
 
 {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa-solid fa-link fa-1x"></i></a> {% endif %}
 {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-1x"></i></a> {% endif %}
+{% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin fa-1x"></i></a> {% endif %}
 {% if member.bluesky %} <a href="{{ member.bluesky }}" target="_blank"><i class="fa-brands fa-bluesky fa-1x"></i></a> {% endif %}
 {% if member.instagram %} <a href="{{ member.instagram }}" target="_blank"><i class="fa-brands fa-instagram fa-1x"></i></a> {% endif %}
-{% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin fa-1x"></i></a> {% endif %}
 
 </div>
 <!-- </div> -->
