@@ -31,6 +31,7 @@ permalink: /team/
 {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a> {% endif %}
 {% if member.bluesky %} <a href="{{ member.bluesky }}" target="_blank"><i class="fa-brands fa-bluesky fa-2x"></i></a> {% endif %}
 {% if member.instagram %} <a href="{{ member.instagram }}" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a> {% endif %}
+{% if member.twitter %} <a href="{{ member.twitter }}" target="_blank"><i class="fa-brands fa-x-twitter fa-2x"></i></a> {% endif %}
 
 </div>
 <!-- </div> -->
