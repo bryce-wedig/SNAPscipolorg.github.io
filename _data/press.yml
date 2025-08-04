@@ -1,3 +1,9 @@
+- headline: Today's Close Up
+  source: NHK News
+  date: 
+  website: https://app.box.com/s/8p3x6w2c4xcfcjc5oyuuwx1lgm2esu2y
+  category: 'McClintock Letters'
+
 - headline: Scientists-In-Training Speak Out To Protect Public Research
   source: Forbes
   date: 2025-06-19
@@ -40,6 +46,12 @@
   website: https://www.eurekalert.org/news-releases/1086845
   category: 'McClintock Letters'
 
+- headline: The McClintock Letters - Make the Case for Science in Your Community
+  source: The Association for Women in Science
+  date: 2025-06-06
+  website: https://awis.org/resource/the-mcclintock-letters-make-the-case-for-science-in-your-community/
+  category: 'McClintock Letters'
+
 - headline: The McClintock Letters Initiative to Support Science
   source: New York Academy of Sciences
   date: 2025-06-02
@@ -55,4 +67,10 @@
   source: Big Biology Podcast
   date: 2025-05-21
   website: https://www.patreon.com/posts/show-your-for-129493652
+  category: 'McClintock Letters'
+
+- headline: Episode 8 - Amid Funding Cuts, Scientists Speak Out
+  source: The Bully’s Pulpit Podcast
+  date: 2025-05-09
+  website: https://knightcolumbia.org/content/the-bullys-pulpit-trump-v-the-first-amendment
   category: 'McClintock Letters'

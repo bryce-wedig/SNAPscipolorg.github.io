@@ -6,6 +6,7 @@
   bluesky: https://bsky.app/profile/alexlando.bsky.social
   instagram: https://instagram.com/alexrlando
   linkedin: https://www.linkedin.com/in/alex-lando-aa88b4227/
+  twitter: 
   website: https://linktr.ee/alexlando
 
 - name: Emily Selland
@@ -16,6 +17,7 @@
   bluesky: 
   instagram: 
   linkedin: 
+  twitter: 
   website: 
 
 - name: Emma Scales
@@ -26,6 +28,7 @@
   bluesky: https://bsky.app/profile/emmascales.bsky.social
   instagram: 
   linkedin: https://www.linkedin.com/in/emma-scales-5aa297217/
+  twitter: 
   website: https://linktr.ee/emmascales
 
 - name: Isako (Izzi) Di Tomassi
@@ -36,6 +39,7 @@
   bluesky: https://bsky.app/profile/isakoditomassi.bsky.social
   instagram: 
   linkedin: https://www.linkedin.com/in/isako-di-tomassi/
+  twitter: 
   website: https://blogs.cornell.edu/isakoditomassi/
 
 - name: Kass Fernandez
@@ -46,7 +50,19 @@
   bluesky: https://bsky.app/profile/KassSTEM.bsky.social
   instagram: 
   linkedin: https://www.linkedin.com/in/kassfedz
+  twitter: 
   website: https://kassstem.github.io/
+
+- name: Miles Arnett
+  pronouns: 
+  photo: Miles.png
+  info: Miles is a 3rd year PhD student in the Bioengineering department at the University of Pennsylvania and the President of the Penn Science Policy and Diplomacy Group (PSPDG). He also loves volleyball, card games, and cheering on his hometown Boston sports teams!
+  email: mjarnett@seas.upenn.edu
+  bluesky: https://bsky.app/profile/mjarnett.bsky.social
+  instagram: 
+  linkedin: https://www.linkedin.com/in/miles-arnett-9b446a170/
+  twitter: https://x.com/mjarnett_BioE
+  website: 
 
 - name: Rose Albert
   pronouns: she/her
@@ -56,14 +72,5 @@
   bluesky: https://bsky.app/profile/rosemalb.bsky.social
   instagram: 
   linkedin: https://www.linkedin.com/in/rose-albert-a975aa193/
-  website: 
-
-- name: Example Team Member
-  pronouns: 
-  photo: person.png
-  info: Awesome SNAP Member
-  email: 
-  bluesky: 
-  instagram: 
-  linkedin: 
+  twitter: https://x.com/rosemalb
   website: 
