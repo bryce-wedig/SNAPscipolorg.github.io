@@ -44,7 +44,7 @@ permalink: /about/
 <div class="col-sm-4 col-xs-12">
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br></i>
-<div style="display: flex; gap: 0.5em; align-items: left; flex-wrap: wrap;">
+<div style="display: flex; gap: 0.25em; align-items: flex-start; flex-wrap: wrap;">
   {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa-solid fa-link fa-2x"></i></a>{% endif %}
   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a>{% endif %}
   {% if member.bluesky %}<a href="https://bsky.app/profile/{{ member.bluesky }}" target="_blank"><i class="fa-brands fa-bluesky fa-2x"></i></a>{% endif %}
