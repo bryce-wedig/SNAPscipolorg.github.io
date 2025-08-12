@@ -15,3 +15,7 @@ The [Scientist Network for Advancing Policy (SNAP) Coalition](https://snapcoalit
 ![License](https://img.shields.io/github/license/SNAPscipolorg/SNAPscipolorg.github.io?style=for-the-badge)
 
 This website uses the [Academic Website Template](https://github.com/sbryngelson/academic-website-template).
+
+## For Developers
+
+To build locally, [install Jekyll](https://jekyllrb.com/docs/installation/) then run `bundle exec jekyll serve` to serve at `localhost:4000`.

@@ -6,7 +6,7 @@
   linkedin: 
   website: 
 
-- name: Cornell Advancing Sciece and Policy Club (ASAP)
+- name: Cornell Advancing Science and Policy Club (ASAP)
   photo: group.png
   email: 
   bluesky: 
@@ -26,15 +26,15 @@
   photo: group.png
   email: 
   bluesky: 
-  instagram: 
-  linkedin: 
-  website: 
+  instagram: harvardscipol
+  linkedin: harvard-science-policy
+  website: https://sciencepolicy.hsites.harvard.edu/
 
 - name: Jayhawks for Science Policy (JSP) at University of Kansas
   photo: group.png
   email: 
   bluesky: 
-  instagram: 
+  instagram: jayhawksforsciencepolicy
   linkedin: 
   website: 
 
@@ -57,24 +57,24 @@
 - name: Penn Science Policy and Diplomacy Group
   photo: group.png
   email: 
-  bluesky: 
-  instagram: 
-  linkedin: 
+  bluesky: pspdg.bsky.social
+  instagram: penn.science.policy
+  linkedin: penn-science-policy-diplomacy-group
   website: https://www.pspdg.com/
 
 - name: Policy Advocacy in Science and Engineering (PASE) at University of Florida
   photo: PASE-logo.png
   email: PASE@bme.ufl.edu
-  bluesky: https://bsky.app/profile/gator-pase.bsky.social
-  instagram: https://www.instagram.com/Gator_PASE
-  linkedin: https://linkedin.com/company/gator-pase
+  bluesky: gator-pase.bsky.social
+  instagram: Gator_PASE
+  linkedin: gator-pase
   website: https://gator-pase.netlify.app/
 
 - name: Promoting Science Policy, Education, and Research (ProSPER) at Washington University in St. Louis
-  photo: group.png
-  email: 
+  photo: ProSPER_logo.png
+  email: prosper@wustl.edu
   bluesky: 
-  instagram: 
+  instagram: wustlprosper
   linkedin: 
   website: https://sites.wustl.edu/prosper/
 
@@ -82,24 +82,24 @@
   photo: group.png
   email: 
   bluesky: 
-  instagram: 
-  linkedin: 
+  instagram: uab_span
+  linkedin: sciencepolicyadvocacynetworkatuab
   website: 
 
 - name: Science Policy and Diplomacy Group at Johns Hopkins
   photo: group.png
   email: 
   bluesky: 
-  instagram: 
-  linkedin: 
+  instagram: jhscipolgroup
+  linkedin: jhscipolgroup
   website: https://www.jhscipolgroup.org
 
 - name: Science Policy Group at UCLA
   photo: group.png
   email: 
-  bluesky: 
-  instagram: 
-  linkedin: 
+  bluesky: scipolucla.bsky.social
+  instagram: scipolucla
+  linkedin: science-policy-group-at-ucla
   website: https://www.scipolucla.com/
 
 - name: Science Policy Group at UCSF
@@ -115,13 +115,13 @@
   email: 
   bluesky: 
   instagram: 
-  linkedin: 
+  linkedin: science-policy-group-at-umd
   website: 
 
 - name: Science Policy Initiative @ Notre Dame (SPI@ND)
   photo: group.png
   email: 
-  bluesky: 
+  bluesky: scipolnotredame.bsky.social
   instagram: 
   linkedin: 
   website: 
@@ -138,7 +138,7 @@
   photo: group.png
   email: 
   bluesky: 
-  instagram: 
+  instagram: sspgstanford
   linkedin: 
   website: 
 
