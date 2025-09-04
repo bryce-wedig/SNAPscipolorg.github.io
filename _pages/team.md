@@ -19,7 +19,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-2">
-<img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/team_headshots/{{ member.photo }}" width="100%" style="max-width:250px"/>
 </div>
 <div class="col-sm-4 col-xs-12">
   <h4>{{ member.name }}</h4>
@@ -28,10 +28,10 @@ permalink: /team/
 
 {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa-solid fa-link fa-2x"></i></a> {% endif %}
 {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a> {% endif %}
-{% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a> {% endif %}
-{% if member.bluesky %} <a href="{{ member.bluesky }}" target="_blank"><i class="fa-brands fa-bluesky fa-2x"></i></a> {% endif %}
-{% if member.instagram %} <a href="{{ member.instagram }}" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a> {% endif %}
-{% if member.twitter %} <a href="{{ member.twitter }}" target="_blank"><i class="fa-brands fa-x-twitter fa-2x"></i></a> {% endif %}
+{% if member.linkedin %} <a href="https://www.linkedin.com/in/{{ member.linkedin }}/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a> {% endif %}
+{% if member.bluesky %} <a href="https://bsky.app/profile/{{ member.bluesky }}" target="_blank"><i class="fa-brands fa-bluesky fa-2x"></i></a> {% endif %}
+{% if member.instagram %} <a href="https://www.instagram.com/{{ member.instagram }}" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a> {% endif %}
+{% if member.twitter %} <a href="https://x.com/{{ member.twitter }}" target="_blank"><i class="fa-brands fa-x-twitter fa-2x"></i></a> {% endif %}
 
 </div>
 <!-- </div> -->
