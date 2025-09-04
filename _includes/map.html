@@ -81,7 +81,10 @@
 		.bindPopup('<b>UNC Graduate Professional Student Government (GPSG)</b><br />University of North Carolina').openPopup();
 
 	const marker22 = L.marker([41.31, -72.92], {autoPan: false}).addTo(map)
-		.bindPopup('<b>Yale Graduate Student Government</b><br />Yale University').openPopup().togglePopup();
+		.bindPopup('<b>Yale Graduate Student Government</b><br />Yale University').openPopup();
+
+	const marker23 = L.marker([33.96, -83.38], {autoPan: false}).addTo(map)
+		.bindPopup('<b>Coalition of Athens Scientists</b><br />Athens, GA').openPopup().togglePopup();
 
 	map.on('click', onMapClick);
 
