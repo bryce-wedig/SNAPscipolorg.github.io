@@ -1,0 +1,30 @@
+---
+layout: gridlay
+title: "Stance on Science"
+excerpt: "Learn more about our upcoming Stance on Science initiative!"
+collection: initiatives
+category: upcoming
+date: 2025-09-10
+permalink: /initiatives/stance-on-science
+---
+
+<h2>Stance on Science</h2>
+
+<p>Stance on Science is SNAP’s nationwide initiative to ask political candidates about their positions on science policy-relevant issues. Each state will ask 2 standardized questions along with designing 2-6 of their own questions, guided by SNAP recommendations, and all responses will be hosted on our website. Our goal is to be a trusted source of non-partisan information to the public regarding candidates’ stances on key science policy issues!</p>
+
+<div class="jumbotron">
+  <h2>Press Mentions</h2>
+  <ul>
+    {% for article in site.data.press %}
+      {% if article.category == 'Stance on Science' %}
+        <li>
+          <p><b>{{ article.date | date: '%b %d, %Y' }}:
+        <a href="{{ article.website }}">{{ article.headline }}</a> in {{ article.source }}</b></p>
+        </li>
+      {% else %}
+        <p><b>None yet! Check back soon for updates!</b></p>
+      {% break %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
