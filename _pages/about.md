@@ -5,7 +5,7 @@ sitemap: false
 permalink: /about/
 ---
 
-## About
+<!-- ## About
 
 {% for member in site.data.snap %}
 <div class="jumbotron" align="center">
@@ -24,7 +24,7 @@ permalink: /about/
 </div>
 </div>
 </div>
-{% endfor %}
+{% endfor %} -->
 
 ## Member Organizations
 
@@ -49,7 +49,7 @@ permalink: /about/
   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a>{% endif %}
   {% if member.bluesky %}<a href="https://bsky.app/profile/{{ member.bluesky }}" target="_blank"><i class="fa-brands fa-bluesky fa-2x"></i></a>{% endif %}
   {% if member.instagram %}<a href="https://www.instagram.com/{{ member.instagram }}" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>{% endif %}
-  {% if member.linkedin %}<a href="https://www.linkedin.com/company/{{ member.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>{% endif %}
+  {% if member.linkedin %}<a href="https://www.linkedin.com/company/{{ member.linkedin }}/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>{% endif %}
 </div>
 
 </div>
