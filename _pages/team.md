@@ -26,12 +26,14 @@ permalink: /team/
   {% if member.pronouns %}<h5><i>{{ member.pronouns }}</i></h5> {% endif %}
   <p>{{ member.info }}<br></p>
 
+<div style="display: flex; gap: 0.25em; align-items: flex-start; flex-wrap: wrap;">
 {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa-solid fa-link fa-2x"></i></a> {% endif %}
 {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a> {% endif %}
 {% if member.linkedin %} <a href="https://www.linkedin.com/in/{{ member.linkedin }}/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a> {% endif %}
 {% if member.bluesky %} <a href="https://bsky.app/profile/{{ member.bluesky }}" target="_blank"><i class="fa-brands fa-bluesky fa-2x"></i></a> {% endif %}
 {% if member.instagram %} <a href="https://www.instagram.com/{{ member.instagram }}" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a> {% endif %}
 {% if member.twitter %} <a href="https://x.com/{{ member.twitter }}" target="_blank"><i class="fa-brands fa-x-twitter fa-2x"></i></a> {% endif %}
+</div>
 
 </div>
 <!-- </div> -->
