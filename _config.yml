@@ -23,7 +23,7 @@ nav_pages:
   - name: courses
   - name: team
   - name: news
-  - name: blog
+  # - name: blog
 # The "Get Involved!" button can be edited in the header file
 
 include:
