@@ -1,2 +1,5 @@
 [excluded]
-regex = ["\\{\\{.*\\}\\}"]
+regex = [
+    "\\/%7B%7B\\s*[^\\s]+\\s*%7D%7D",  # Matches URLs with {{ ... }} placeholders encoded as %7B%7B ... %7D%7D
+    "\\{\\{\\s*[^\\}]+\\s*\\}\\}",     # Matches raw {{ ... }} placeholders
+]
