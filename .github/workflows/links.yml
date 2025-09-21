@@ -5,8 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
-      - bw-lychee-action  # TODO TEMP
+      - source
   schedule:
     - cron: '0 0 * * 0' # every Sunday at midnight
 
