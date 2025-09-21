@@ -1,4 +1,0 @@
-[excluded]
-regex = [
-    "^file:///home/runner/work/SNAPscipolorg.github.io/SNAPscipolorg.github.io/*/%7B%7B%20[^%]+%20%7D%7D.*"
-]
