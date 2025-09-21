@@ -1,5 +1,4 @@
 [excluded]
 regex = [
-    "\\/%7B%7B\\s*[^\\s]+\\s*%7D%7D",  # Matches URLs with {{ ... }} placeholders encoded as %7B%7B ... %7D%7D
-    "\\{\\{\\s*[^\\}]+\\s*\\}\\}",     # Matches raw {{ ... }} placeholders
+    "^file:///home/runner/work/SNAPscipolorg.github.io/SNAPscipolorg.github.io/*/%7B%7B%20[^%]+%20%7D%7D.*"
 ]
