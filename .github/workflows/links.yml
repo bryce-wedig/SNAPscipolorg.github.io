@@ -8,7 +8,7 @@ on:
       - main
       - bw-lychee-action  # TODO TEMP
   schedule:
-    - cron: "00 18 * * *"
+    - cron: '0 0 * * 0' # every Sunday at midnight
 
 jobs:
   linkChecker:
@@ -25,10 +25,10 @@ jobs:
           args: "--verbose ./_posts/*.md ./_news/*.md ./_initiatives/*.html"
           fail: false
 
-    #   - name: Create Issue From File
-    #     if: steps.lychee.outputs.exit_code != 0
-    #     uses: peter-evans/create-issue-from-file@v5
-    #     with:
-    #       title: Link Checker Report
-    #       content-filepath: ./lychee/out.md
-    #       labels: report, automated issue
+      - name: Create Issue From File
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Link Checker Report
+          content-filepath: ./lychee/out.md
+          labels: report, automated issue

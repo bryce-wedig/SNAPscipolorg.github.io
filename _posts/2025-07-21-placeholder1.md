@@ -8,3 +8,5 @@ category:
 ## This is an example blog post
 
 Here's some placeholder text
+
+[TEST broken link](https://bryce-wedig.github.io/nonexistent-page)
