@@ -2,7 +2,7 @@
 layout: post
 title: "SNAP Monthly Newsletter"
 date: 2025-09-19
-collection: news
+collection: newsletters
 category: 
 ---
 
