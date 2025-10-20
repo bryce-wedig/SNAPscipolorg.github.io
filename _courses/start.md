@@ -1,7 +1,9 @@
 ---
 title: "Start in a SNAP"
 layout: gridlay
+date: 2025-10-20
 sitemap: false
+collection: courses
 permalink: /start-in-a-snap/
 ---
 
