@@ -1,5 +1,5 @@
 ---
-title: "News"
+title: "Newsletters"
 layout: gridlay
 sitemap: false
 permalink: /newsletters/
