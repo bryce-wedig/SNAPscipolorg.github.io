@@ -32,10 +32,13 @@ include:
 
 # These settings control the types of collections used by the template
 collections:
+  courses:
+    output: true
+    permalink: /:collection/:path/
   initiatives:
     output: true
     permalink: /:collection/:path/
-  news:
+  newsletters:
     output: true
     permalink: /:collection/:path/
   blog:
