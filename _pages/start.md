@@ -15,7 +15,7 @@ permalink: /start-in-a-snap/
 
 <p>If you want to start your own science policy group or student organization, the very first step is to double and triple check that there are no similar groups at your institution already. While this may seem like an unnecessary first step, even if you really are starting a new group, knowing what other groups exist and which groups you might be able to collaborate with, especially when you are just starting out, will benefit your group in the long-run!</p>
 
-<b>Step 2: Educate Yourself on Your Institution's Requirements for a New Student Group</b>
+#### Step 2: Educate Yourself on Your Institution's Requirements for a New Student Group
 
 <p>Do some research to find out what the requirements are for starting your new student group. Most institutions require you to have ten members before registering, so share an interest form to collect any necessary membership information. You will also need to put together an Executive Board. These typically have, at minimum, a president, vice president, and treasurer. You also will likely need to create a mission statement and select a faculty advisor. Make a list of all these requirements before moving to the next step.</p>
 
