@@ -7,7 +7,7 @@ permalink: /courses/
 
 ## Courses
 
-* ### [Start Your Own Science Policy Group]({{ site.url }}{{ site.baseurl }}/start-in-a-snap/)
+* ### [Starting Your Own Science Policy Group]({{ site.url }}{{ site.baseurl }}/start-in-a-snap/)
 
 ## Coming Soon
 
