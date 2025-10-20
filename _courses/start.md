@@ -4,7 +4,7 @@ layout: gridlay
 date: 2025-10-20
 sitemap: false
 collection: courses
-permalink: /start-in-a-snap/
+permalink: /courses/start-in-a-snap/
 ---
 
 ## Start in a SNAP
