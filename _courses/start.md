@@ -36,13 +36,12 @@ permalink: /courses/start-in-a-snap/
 ### Helpful Resources
 
 <p>We know what its like when your group is first starting out, so we have compiled some helpful resources below to help you succeed:</p>
-<ul>
-    <li>[Frequently Asked Questions](https://snapcoalition.org/courses/start-in-a-snap/)</li>
-    <li>[Mission Statement Examples](https://snapcoalition.org/courses/start-in-a-snap/)</li>
-    <li>[Event Ideas](https://snapcoalition.org/courses/start-in-a-snap/)</li>
-    <li>[Science Policy Courses](https://snapcoalition.org/courses/start-in-a-snap/)</li>
-</ul>
 
-### Have Questions or Need More Support? Reach Out to SNAP!
+- [Frequently Asked Questions](https://snapcoalition.org/courses/start-in-a-snap/)
+- [Mission Statement Examples](https://snapcoalition.org/courses/start-in-a-snap/)
+- [Event Ideas](https://snapcoalition.org/courses/start-in-a-snap/)
+- [Science Policy Courses](https://snapcoalition.org/courses/start-in-a-snap/)
+
+#### Have Questions or Need More Support? Reach Out to SNAP!
 
 <p>We would be more than happy to help you successfully launch your new student group! [Send us an email](mailto:snapscipolorg@gmail.com) and we will get back to you as soon as possible!</p>
