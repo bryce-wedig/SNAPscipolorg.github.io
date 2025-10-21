@@ -37,10 +37,10 @@ permalink: /courses/start-in-a-snap/
 
 <p>We know what its like when your group is first starting out, so we have compiled some helpful resources below to help you succeed:</p>
 
-- [Frequently Asked Questions](https://snapcoalition.org/courses/start-in-a-snap/)
-- [Mission Statement Examples](https://snapcoalition.org/courses/start-in-a-snap/)
-- [Event Ideas](https://snapcoalition.org/courses/start-in-a-snap/)
-- [Science Policy Courses](https://snapcoalition.org/courses/start-in-a-snap/)
+- [Frequently Asked Questions](https://snapcoalition.org/courses/start-in-a-snap/faq/)
+- [Mission Statement Examples](https://snapcoalition.org/courses/start-in-a-snap/mission-statement-examples/)
+- [Event Ideas](https://snapcoalition.org/courses/start-in-a-snap/event-ideas/)
+- [Science Policy Courses](https://snapcoalition.org/courses/)
 
 #### Have Questions or Need More Support? Reach Out to SNAP!
 
