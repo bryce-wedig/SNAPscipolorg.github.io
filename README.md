@@ -18,4 +18,6 @@ This website uses the [Academic Website Template](https://github.com/sbryngelson
 
 ## For Developers
 
-To build locally, [install Jekyll](https://jekyllrb.com/docs/installation/) then run `bundle exec jekyll serve` to serve at `localhost:4000`.
+To build locally, [install Jekyll](https://jekyllrb.com/docs/installation/) then run `bundle exec jekyll serve` to serve at `localhost:4000`. 
+
+On macOS (with default zsh shell) for chruby installed via Homebrew, the bash script `deploy.sh` in the root directory will load chruby and serve the website locally. The first few steps are unnecessary if you've added the chruby commands to your `~/.zshrc`.

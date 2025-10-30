@@ -1,14 +1,14 @@
 ---
-title: "News"
+title: "Newsletters"
 layout: gridlay
 sitemap: false
-permalink: /news/
+permalink: /newsletters/
 ---
 
-## News
+## Newsletters
 
 <ul>
-  {% for post in site.news reversed %}
+  {% for post in site.newsletters reversed %}
     <li>
       <p>{{ post.date | date: '%b %d, %Y' }}: <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
     </li>

@@ -22,7 +22,7 @@ nav_pages:
   - name: press
   - name: courses
   - name: team
-  - name: news
+  - name: newsletters
   # - name: blog
 # The "Get Involved!" button can be edited in the header file
 
@@ -32,10 +32,13 @@ include:
 
 # These settings control the types of collections used by the template
 collections:
+  courses:
+    output: true
+    permalink: /:collection/:path/
   initiatives:
     output: true
     permalink: /:collection/:path/
-  news:
+  newsletters:
     output: true
     permalink: /:collection/:path/
   blog:
