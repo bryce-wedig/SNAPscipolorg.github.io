@@ -7,6 +7,14 @@ permalink: /courses/
 
 ## Courses
 
-* ### [Introduction to Science Policy](https://kassstem.github.io/SciPol101/index.html)
+* ### [Starting Your Own Science Policy Group]({{ site.url }}{{ site.baseurl }}/courses/start-in-a-snap/)
 
+## Coming Soon
 
+* ### [What is Science Policy?](#)
+
+* ### [How Government Works](#)
+
+* ### [Writing for Policy Makers](#)
+
+* ### [Science Communication and Public Speaking](#)
