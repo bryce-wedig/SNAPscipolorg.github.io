@@ -17,16 +17,18 @@ permalink: /initiatives/scipol-hackathon
 <div class="jumbotron">
   <h2>Press Mentions</h2>
   <ul>
+    {% assign found = 0 %}
     {% for article in site.data.press %}
-      {% if article.category == 'SciPol Hackathon' %}
+      {% if article.category contains 'SciPol Hackathon' %}
         <li>
           <p><b>{{ article.date | date: '%b %d, %Y' }}:
-        <a href="{{ article.website }}">{{ article.headline }}</a> in {{ article.source }}</b></p>
+        <a href="{{ article.website }}">{{ article.headline }}</a> in <i>{{ article.source }}</i></b></p>
         </li>
-      {% else %}
-        <p><b>None yet! Check back soon for updates!</b></p>
-      {% break %}
+        {% assign found = found | plus: 1 %}
       {% endif %}
     {% endfor %}
+    {% if found == 0 %}
+      <p><b>None yet! Check back soon for updates!</b></p>
+    {% endif %}
   </ul>
 </div>
