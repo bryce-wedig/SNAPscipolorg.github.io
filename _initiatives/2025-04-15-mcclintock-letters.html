@@ -44,14 +44,19 @@ permalink: /initiatives/mcclintock-letters/
   <div class="jumbotron">
     <h2>Press Mentions</h2>
     <ul>
+      {% assign found = 0 %}
       {% for article in site.data.press %}
-        {% if article.category == 'McClintock Letters' %}
+        {% if article.category contains 'McClintock Letters' %}
           <li>
             <p><b>{{ article.date | date: '%b %d, %Y' }}:
           <a href="{{ article.website }}">{{ article.headline }}</a> in {{ article.source }}</b></p>
           </li>
+          {% assign found = found | plus: 1 %}
         {% endif %}
       {% endfor %}
+      {% if found == 0 %}
+        <p><b>None yet! Check back soon for updates!</b></p>
+      {% endif %}
     </ul>
   </div>
 </div>
