@@ -18,6 +18,28 @@ This website uses the [Academic Website Template](https://github.com/sbryngelson
 
 ## For Developers
 
+### Building the website locally
+
 To build locally, [install Jekyll](https://jekyllrb.com/docs/installation/) then run `bundle exec jekyll serve` to serve at `localhost:4000`. 
 
 On macOS (with default zsh shell) for chruby installed via Homebrew, the bash script `deploy.sh` in the root directory will load chruby and serve the website locally. The first few steps are unnecessary if you've added the chruby commands to your `~/.zshrc`.
+
+### Adding a team member
+
+1. Create a new item in `_data/members.yml`. Note that we list team members alphabetically by first name, and for `instagram`, `twitter`, and `linkedin`, only the handle is necessary.
+2. Put their photo in `images/teamheadshots/`
+
+### Adding a member organization
+
+1. Create a new item in `_data/member_orgs.yml`. Note that we list organizations alphabetically, and for `instagram` and `linkedin`, only the handle is necessary.
+2. Put their logo in `images/member_org_logos/`.
+
+### Adding a press mention
+
+1. Create a new item in `_data/press.yml`. Note that we list press mentions in descending order by publication date (`date`).
+2. Optionally, set the `category` attribute to link the press mention to a particular initiative. This will make the press mention show up at the bottom of that initiative's page. To see what string should be listed to link it to the appropriate initiative, check the `.html` file for that initiative in `_initiatives/` and towards the bottom look for a line like `{% if article.category contains 'Congressional Visits' %}` which is the logic that loops through categories to determine which related press mentions to show. Note that you can link a press mention to multiple initiatives by itemizing them, e.g.,
+  ```
+  category:
+    - Congressional Visits
+    - McClinktock Letters
+  ```
