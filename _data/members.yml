@@ -1,12 +1,23 @@
+- name: Andrew Mattson
+  pronouns: he/him
+  photo: Andrew.jpg
+  info: Andrew is a 2nd year PhD student in the Department of Physics and Astronomy at Johns Hopkins University. His research focuses on quantum technologies for dark matter detection and life science/medical applications. He is a Science Diplomacy Coordinator of the Johns Hopkins Science Policy and Diplomacy Group.
+  email:
+  bluesky:
+  instagram:
+  linkedin: andrewhmattson
+  twitter:
+  website:
+
 - name: Alex Lando
-  pronouns: 
+  pronouns:
   photo: Alex.jpg
-  info: I’m a second year PhD student at Cornell in the School of Integrative Plant Science! I’m also a board member of the Cornell Advancing Science and Policy Club. I’m passionate about my work on zombie fungi, SciComm, and protecting science funding!
+  info: I'm a second year PhD student at Cornell in the School of Integrative Plant Science! I'm also a board member of the Cornell Advancing Science and Policy Club. I'm passionate about my work on zombie fungi, SciComm, and protecting science funding!
   email: al2524@cornell.edu
   bluesky: alexlando.bsky.social
   instagram: alexrlando
   linkedin: alex-lando-aa88b4227
-  twitter: 
+  twitter:
   website: https://linktr.ee/alexlando
 
 - name: Alex Rich
