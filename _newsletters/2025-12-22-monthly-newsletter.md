@@ -16,20 +16,40 @@ SNAP will be asking science policy-related questions of candidates running in lo
 
 SNAP is here to help state leads with organizing and resources! Interested in helping in your state? Fill out this [sign-up form](https://docs.google.com/forms/d/e/1FAIpQLSem6bVuZnK7eWls-CTMpxWxaxHpuElNj4oOXIvLkgDYRO6YNg/viewform), and we will be in touch with more information. The following 33 states still need at least one state lead:
 
-| | | |
-|---|---|---|
-| Alabama | Alaska | Arizona |
-| Arkansas | Connecticut | Delaware |
-| Hawaii | Idaho | Kansas |
-| Kentucky | Louisiana | Maine |
-| Minnesota | Missouri | Montana |
-| Nebraska | Nevada | New Hampshire |
-| New Mexico | North Carolina | North Dakota |
-| Ohio | Oklahoma | Oregon |
-| Rhode Island | South Carolina | South Dakota |
-| Tennessee | Utah | Vermont |
-| West Virginia | Wisconsin | Wyoming |
-| | | |
+- Alabama
+- Alaska
+- Arizona
+- Arkansas
+- Connecticut
+- Delaware
+- Hawaii
+- Idaho
+- Kansas
+- Kentucky
+- Louisiana
+- Maine
+- Minnesota
+- Missouri
+- Montana
+- Nebraska
+- Nevada
+- New Hampshire
+- New Mexico
+- North Carolina
+- North Dakota
+- Ohio
+- Oklahoma
+- Oregon
+- Rhode Island
+- South Carolina
+- South Dakota
+- Tennessee
+- Utah
+- Vermont
+- West Virginia
+- Wisconsin
+- Wyoming
+
 
 #### SciPol Course
 SNAP is developing a modular science policy curriculum covering topics such as What is Science Policy?, How Government Works, Writing for Policymakers, Science Communication & Public Speaking, and Science Diplomacy. These resources are designed to educate students at our home institutions, support emerging university science policy groups, and strengthen early-career engagement nationwide. After an intensive course development phase this fall and winter, we are now entering the final stages of curriculum refinement and implementation, positioning us for a spring rollout and formal launch! 
@@ -69,6 +89,6 @@ Check out these recent works by SNAP members and works mentioning SNAP members o
 - Casey Virginia Chan co-authored a policy memo, "[Addressing Pesticide Use in California Through Implementation of Healthcare Interventions and Development of Novel Technologies](https://www.sciencepolicyjournal.org/article_1038126_jspg270109.html)". In press now in the *Journal of Science Policy & Governance*.
 - SNAP members Saul Flores, Brendon Davis, and Andrew Mattson connected at the Embassy of the Czech Republic in Washington, D.C., during the [Science Diplomacy Grid](https://www.sciencediplomacygrid.org/) holiday event. The gathering brought together diplomats, researchers, and policy leaders to discuss the evolving role of science diplomacy, including emerging priorities in artificial intelligence and quantum computing infrastructure. The event featured strong representation from science policy groups at the [University of Maryland](https://sites.google.com/umd.edu/spg-umd) and [Johns Hopkins University](https://www.jhscipolgroup.org/). (Group photo attached!)
 
-![Group photo at Science Diplomacy Grid holiday event](./images/2025_12_science_diplomacy_grid.jpg)
+<img src="/newsletters/images/2025_12_science_diplomacy_grid.jpg" alt="Group photo at Science Diplomacy Grid holiday event" style="max-width: 100%; height: auto;" />
 
 - Kass Fernandez is actively recruiting STEM undergraduate students for their [dissertation study](https://kassstem.github.io/projects/mentorship-matters) on mentorship! [Sign-up here](https://go.ufl.edu/mentorshipmatters) or help increase their reach by sharing on [BlueSky](https://bsky.app/profile/kassstem.bsky.social/post/3m2z2ryt3lc25) and [LinkedIn](https://www.linkedin.com/posts/activity-7382876848650739712-xrW5?utm_source=share&utm_medium=member_desktop&rcm=ACoAABjO3BABAgHTfvr9vwg3ODknvfa1UBv8enI). Participants will be entered in a drawing for a $25 gift card!
