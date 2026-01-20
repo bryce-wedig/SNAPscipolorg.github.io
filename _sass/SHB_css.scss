@@ -88,3 +88,9 @@ img {
 .MathJax_ref {
   fill: #00bc8c!important;
 }
+
+blockquote {
+  border-left: 4px solid var(--secondary);
+  padding-left: 1rem;
+  margin-left: 0;
+}
