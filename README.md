@@ -43,3 +43,17 @@ On macOS (with default zsh shell) for chruby installed via Homebrew, the bash sc
     - Congressional Visits
     - McClinktock Letters
   ```
+
+### Mirroring the newsletter
+
+1. Duplicate a previous newsletter's page in the `_newsletters` directory and update the content.
+2. Give the file an appropriate name – see naming convention of previous files.
+3. Update the `title` and `date` fields in the header.
+4. Update the content. Note that it's a Markdown file. The main changes will be formatting and hyperlinks.
+
+To add a photo:
+1. Add the file to `_newsletters/images/`
+2. Add the following HTML snippet, and update the filename and alt text:
+  ```
+  <img src="/newsletters/images/YOUR_FILE.jpg" alt="UPDATE THIS ALT TEXT" style="max-width: 100%; height: auto;" />
+  ```
