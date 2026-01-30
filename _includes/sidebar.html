@@ -28,6 +28,18 @@
 </div>
 
 <div class="jumbotron">
+  <h4>Latest Blog Posts</h4>
+  <ul>
+  {% for post in site.posts reversed limit:3 %}
+    <li>
+      <p><b><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></b></p>
+    </li>
+  {% endfor %}
+  </ul>
+  <h5>Read more <a href="{{ site.url }}{{ site.baseurl }}/blog/">Science Policy in a SNAP</a></h5>
+</div>
+
+<div class="jumbotron">
   <h4>Press Mentions</h4>
   <ul>
   {% for article in site.data.press limit:3 %}
