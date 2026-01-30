@@ -9,8 +9,8 @@ category:
 
 *On this World Neglected Tropical Diseases Day, we invite you to learn more about science policy in the context of Neglected Tropical Diseases and why we must continue advocating for global support of and funding for evidence-based policies that limit their spread.*
 
-Written by SNAP Members Emily Selland and Becca Blyn
-
+> *Written by SNAP Members Emily Selland and Becca Blyn*
+>
 > *Footnotes are denoted with superscript. References are denoted with brackets.*
 
 Today is World Neglected Tropical Diseases Day! Neglected tropical diseases (NTDs) are caused by a diverse array of pathogens and disproportionately impact vulnerable populations in low- and middle-income countries [1]. They have devastating short- and long-term health impacts, cause chronic health conditions, and result in elevated morbidity (suffering) and mortality (death).¹ NTDs also result in heavy socioeconomic burdens on individuals and endemic countries [2]. For the past 6 years, on January 30th, the world has come together to recognize the impact NTDs have on society and re-commit to eradicating these diseases for good. World NTD Day commemorates the 2012 London Declaration, where global partners committed to greater financial investment and action against NTDs [3].
@@ -23,23 +23,26 @@ NTDs comprise a category of over 20 diseases, ranging from parasitic infections 
 
 To illustrate the intersectionality of policies that impact NTDs, we will focus on schistosomiasis (pronounced: shi-stow-so-my-a-sis). This disease is caused by parasitic flatworms (Schistosoma spp.) that infect human intestines and urinary tracts [6]. Part of the worm’s lifecycle is spent in freshwater snails, which allows it to multiply and contaminate water sources (Figure 1). Schistosoma worms are spread to people by contact with contaminated freshwater, and the disease impacts over 250 million people globally. While the majority of infections occur in sub-Saharan Africa, schistosomiasis is an international disease, endemic to over 70 countries (Figure 2) [6]. Control and elimination of NTDs like schistosomiasis rely on work in and collaboration across a variety of sectors. For example, country-level policies addressing clean water and sanitation, transportation infrastructure, public health departments, scientific research, and investment in education can all contribute meaningfully to mitigating disease spread (Figure 3). Below, we discuss these policies in the context of schistosomiasis.
 
-![Figure 1: A simple overview of the Schistosoma spp. transmission cycle involving humans, snails, freshwater bodies, and the various stages of the parasite that travels throughout those three environments (source: Laura Olivares Boldú / Wellcome Connecting Science; accessed through [Drugs for Neglected Diseases Initiative](https://dndi.org/diseases/parasitic-worms/schistosomiasis/facts/)).](/images/blog_figures/2026_01_30_figure_1.webp)
+<figure style="margin: 1em 0; text-align: center;">
+<img src="/images/blog_figures/2026_01_30_figure_1.webp" alt="Figure 1: A simple overview of the Schistosoma spp. transmission cycle involving humans, snails, freshwater bodies, and the various stages of the parasite that travels throughout those three environments (source: Laura Olivares Boldú / Wellcome Connecting Science; accessed through [Drugs for Neglected Diseases Initiative](https://dndi.org/diseases/parasitic-worms/schistosomiasis/facts/))." style="max-width: 100%; height: auto;" />
+<figcaption style="margin-top: 0.5em; font-size: 0.875em; color: #6b6b6b; text-align: center; line-height: 1.4;">
+<strong>Figure 1: A simple overview of the Schistosoma spp. transmission cycle involving humans, snails, freshwater bodies, and the various stages of the parasite that travels throughout those three environments (source: Laura Olivares Boldú / Wellcome Connecting Science; accessed through [Drugs for Neglected Diseases Initiative](https://dndi.org/diseases/parasitic-worms/schistosomiasis/facts/)).</strong>
+</figcaption>
+</figure>
 
-<div align="center">
-    A simple overview of the Schistosoma spp. transmission cycle involving humans, snails, freshwater bodies, and the various stages of the parasite that travels throughout those three environments (source: Laura Olivares Boldú / Wellcome Connecting Science; accessed through [Drugs for Neglected Diseases Initiative](https://dndi.org/diseases/parasitic-worms/schistosomiasis/facts/)).
-</div>
+<figure style="margin: 1em 0; text-align: center;">
+<img src="/images/blog_figures/2026_01_30_figure_2.webp" alt="Figure 2: A map of the distribution of schistosomiasis in 2024, as represented by the proportion of a country's population that requires praziquantel treatment (i.e., preventative chemotherapy). Praziquantel is referred to as &quot;preventative chemotherapy&quot; because it clears people of the worm infection, thereby preventing schistosomiasis disease. (Source: [World Health Organization](https://www.who.int/images/default-source/maps/schistosomiasis_2024.png?sfvrsn=ee49dd06_1))." style="max-width: 100%; height: auto;" />
+<figcaption style="margin-top: 0.5em; font-size: 0.875em; color: #6b6b6b; text-align: center; line-height: 1.4;">
+<strong>Figure 2: A map of the distribution of schistosomiasis in 2024, as represented by the proportion of a country's population that requires praziquantel treatment (i.e., preventative chemotherapy). Praziquantel is referred to as &quot;preventative chemotherapy&quot; because it clears people of the worm infection, thereby preventing schistosomiasis disease. (Source: [World Health Organization](https://www.who.int/images/default-source/maps/schistosomiasis_2024.png?sfvrsn=ee49dd06_1)).</strong>
+</figcaption>
+</figure>
 
-![Figure 2: A map of the distribution of schistosomiasis in 2024, as represented by the proportion of a country’s population that requires praziquantel treatment (i.e., preventative chemotherapy). Praziquantel is referred to as “preventative chemotherapy” because it clears people of the worm infection, thereby preventing schistosomiasis disease. (Source: [World Health Organization](https://www.who.int/images/default-source/maps/schistosomiasis_2024.png?sfvrsn=ee49dd06_1)).](/images/blog_figures/2026_01_30_figure_2.webp)
-
-<div align="center">
-    Figure 2: A map of the distribution of schistosomiasis in 2024, as represented by the proportion of a country’s population that requires praziquantel treatment (i.e., preventative chemotherapy). Praziquantel is referred to as “preventative chemotherapy” because it clears people of the worm infection, thereby preventing schistosomiasis disease. (Source: [World Health Organization](https://www.who.int/images/default-source/maps/schistosomiasis_2024.png?sfvrsn=ee49dd06_1)).
-</div>
-
-![Figure 3: Policies targeting sectors across a variety of areas can contribute to NTD control and elimination. Here, we focused on clean water and sanitation, transportation infrastructure and public health departments, scientific research, and investment in education. However, addressing these areas alone will not result in the eradication of NTDs. The dark blue pillars represent other sectors that contribute towards disease control not discussed here, including but not limited to climate change adaptation, animal health, and public safety and national security. (This figure was made using Canva).](/images/blog_figures/2026_01_30_figure_3.webp)
-
-<div align="center">
-    Figure 3: Policies targeting sectors across a variety of areas can contribute to NTD control and elimination. Here, we focused on clean water and sanitation, transportation infrastructure and public health departments, scientific research, and investment in education. However, addressing these areas alone will not result in the eradication of NTDs. The dark blue pillars represent other sectors that contribute towards disease control not discussed here, including but not limited to climate change adaptation, animal health, and public safety and national security. (This figure was made using Canva).
-</div>
+<figure style="margin: 1em 0; text-align: center;">
+<img src="/images/blog_figures/2026_01_30_figure_3.webp" alt="Figure 3: Policies targeting sectors across a variety of areas can contribute to NTD control and elimination. Here, we focused on clean water and sanitation, transportation infrastructure and public health departments, scientific research, and investment in education. However, addressing these areas alone will not result in the eradication of NTDs. The dark blue pillars represent other sectors that contribute towards disease control not discussed here, including but not limited to climate change adaptation, animal health, and public safety and national security. (This figure was made using Canva)." style="max-width: 100%; height: auto;" />
+<figcaption style="margin-top: 0.5em; font-size: 0.875em; color: #6b6b6b; text-align: center; line-height: 1.4;">
+<strong>Figure 3: Policies targeting sectors across a variety of areas can contribute to NTD control and elimination. Here, we focused on clean water and sanitation, transportation infrastructure and public health departments, scientific research, and investment in education. However, addressing these areas alone will not result in the eradication of NTDs. The dark blue pillars represent other sectors that contribute towards disease control not discussed here, including but not limited to climate change adaptation, animal health, and public safety and national security. (This figure was made using Canva).</strong>
+</figcaption>
+</figure>
 
 **Clean water & sanitation are critical to disease control.**
 
@@ -59,11 +62,12 @@ Science policy generally exists in two forms: science for policy and policy for 
 
 Despite the importance of the diverse scientific research being performed on NTDs, research funding has been decreasing since the early 2000s, falling well below the funding levels of many other diseases [11,12]. Critical ongoing schistosomiasis research includes: vaccine development [13], the role of animals and potential zoonotic transmission [14], reducing the snail population in freshwater ecosystems [15], understanding how transmission may be impacted by climate change [16,17], and assessing the economic costs and benefits of control interventions or vaccine deployment (Figure 4) [18,19]. Research in these areas improves the capacity to control disease with new tools and awareness, is conducted by interdisciplinary and multinational scientists, and is made possible through governmental and non-governmental funding. Indeed, global collaboration and policies for science that enable these research endeavours are necessary for future progress towards the elimination of schistosomiasis and other devastating NTDs.
 
-![Figure 4: A sampling of schistosomiasis research areas that may impact policy development towards the control and elimination of schistosomiasis from local communities. (This figure was made using Biorender).](/images/blog_figures/2026_01_30_figure_4.webp)
-
-<div align="center">
-    Figure 4: A sampling of schistosomiasis research areas that may impact policy development towards the control and elimination of schistosomiasis from local communities. (This figure was made using Biorender).
-</div>
+<figure style="margin: 1em 0; text-align: center;">
+<img src="/images/blog_figures/2026_01_30_figure_4.webp" alt="Figure 4: A sampling of schistosomiasis research areas that may impact policy development towards the control and elimination of schistosomiasis from local communities. (This figure was made using Biorender)" style="max-width: 100%; height: auto;" />
+<figcaption style="margin-top: 0.5em; font-size: 0.875em; color: #6b6b6b; text-align: center; line-height: 1.4;">
+<strong>Figure 4: A sampling of schistosomiasis research areas that may impact policy development towards the control and elimination of schistosomiasis from local communities. (This figure was made using Biorender).</strong>
+</figcaption>
+</figure>
 
 **Education improves outcomes of interventions.**
 
