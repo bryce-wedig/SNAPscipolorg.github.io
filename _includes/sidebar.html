@@ -30,7 +30,7 @@
 <div class="jumbotron">
   <h4>Latest Blog Posts</h4>
   <ul>
-  {% for post in site.posts reversed limit:3 %}
+  {% for post in site.posts limit:3 %}
     <li>
       <p><b>{{ post.date | date: '%b %d, %Y' }}:
       <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></b></p>
