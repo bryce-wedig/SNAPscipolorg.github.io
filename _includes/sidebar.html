@@ -32,7 +32,8 @@
   <ul>
   {% for post in site.posts reversed limit:3 %}
     <li>
-      <p><b><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></b></p>
+      <p><b>{{ post.date | date: '%b %d, %Y' }}:
+      <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></b></p>
     </li>
   {% endfor %}
   </ul>
