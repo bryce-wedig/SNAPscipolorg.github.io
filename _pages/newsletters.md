@@ -7,6 +7,8 @@ permalink: /newsletters/
 
 ## Newsletters
 
+<p>What to keep up with SNAP's latest updates? Sign-up for our newsletter! You can also read all our past newsletters below:</p>
+
 <ul>
   {% for post in site.newsletters reversed %}
     <li>
