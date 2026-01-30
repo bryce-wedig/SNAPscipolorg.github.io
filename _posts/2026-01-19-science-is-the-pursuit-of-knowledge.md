@@ -13,11 +13,12 @@ category:
 
 Science is the pursuit of knowledge. Ideally, this pursuit occurs publicly, with scientific research reaching the public as knowledge to be built upon by other researchers or to be translated into products, such as medical devices or new pharmaceuticals [1], and policies, such as seatbelt laws that save lives [2]. The flow of information begins with basic science research, which branches out into applied research, which, in turn, supports product development and evidence-informed policy-making (Figure 1). This flow, and the many intersections of science and society, may be loosely termed “science policy.” The juncture between science and society, however, has splintered [3–6]. This is where the Scientist Network for Advancing Policy (SNAP) comes in [7].
 
-![Figure 1: The flow of research with and through society](/images/blog_figures/2026_01_19_figure_1.webp)
-
-<div align="center">
-    Figure 1: The flow of research with and through society
-</div>
+<figure style="margin: 1em 0; text-align: center;">
+<img src="/images/blog_figures/2026_01_19_figure_1.webp" alt="Figure 1: The flow of research with and through society" style="max-width: 100%; height: auto;" />
+<figcaption style="margin-top: 0.5em; font-size: 0.875em; color: #6b6b6b; text-align: center; line-height: 1.4;">
+<strong>Figure 1: The flow of research with and through society</strong>
+</figcaption>
+</figure>
 
 **SNAP is a coalition of early career-researchers working to strengthen the capacity of science-informed policy.**
 
