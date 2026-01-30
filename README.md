@@ -33,6 +33,7 @@ On macOS (with default zsh shell) for chruby installed via Homebrew, the bash sc
 
 1. Create a new item in `_data/member_orgs.yml`. Note that we list organizations alphabetically, and for `instagram` and `linkedin`, only the handle is necessary.
 2. Put their logo in `images/member_org_logos/`.
+3. Add them to the map in `_includes/map.html`.
 
 ### Adding a press mention
 
