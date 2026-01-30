@@ -124,15 +124,15 @@ A multi-chapter report could arguably be written on the way science policy has a
 
 **References:**
 
-1. Brief summary | World NTD Day 2025. (n.d.). World Health Organization. Retrieved January 28, 2026, from <https://www.who.int/campaigns/world-ntd-day/2025/brief-outline>
+1. Brief summary - World NTD Day 2025. (n.d.). World Health Organization. Retrieved January 28, 2026, from <https://www.who.int/campaigns/world-ntd-day/2025/brief-outline>
 2. Masterson, V., & Geldard, R. (2024, October 24). What are neglected tropical diseases — and what are we doing about them? World Economic Forum. <https://www.weforum.org/stories/2024/10/what-is-neglected-tropical-diseases-day/>
 3. <https://worldntdday.org/>
 4. Adams, P. (2025, June 5). “Neglected tropical diseases” now face even more neglect. NPR. <https://www.npr.org/sections/goats-and-soda/2025/06/05/g-s1-70255/neglected-tropical-diseases-usaid-cuts-pharmaceuticals>
 5. World Health Organization (WHO). (2021). Ending the neglect to attain the Sustainable Development Goals: a road map for neglected tropical diseases 2021–2030. Geneva: World Health Organization. Licence: CC BY-NC-SA 3.0 IGO. <https://www.who.int/publications/i/item/9789240010352>
-6. Schistosomiasis | Status of schistosomiasis endemic countries: 2024. (n.d.). World Health Organization. Retrieved January 28, 2026, from <https://apps.who.int/neglected_diseases/ntddata/sch/sch.html>
+6. Schistosomiasis - Status of schistosomiasis endemic countries: 2024. (n.d.). World Health Organization. Retrieved January 28, 2026, from <https://apps.who.int/neglected_diseases/ntddata/sch/sch.html>
 7. Schistosomiasis. (2024, June 7). CDC DPDx — Laboratory Identification of Parasites of Public Health Concern. <https://www.cdc.gov/dpdx/schistosomiasis/index.html>
 8. Reitzug, F., Ledien, J., & Chami, G. F. (2023). Associations of water contact frequency, duration, and activities with schistosome infection risk: A systematic review and meta-analysis. PLOS Neglected Tropical Diseases, 17(6), e0011377. <https://doi.org/10.1371/journal.pntd.0011377>
-9. Stothard JR, Sousa-Figueiredo JC, & Navaratnam AMD. (2013, July). Advocacy, policies and practicalities of preventive chemotherapy campaigns for African children with schistosomiasis. Expert Reivew of Anti-Infective Therapy. <https://www.researchgate.net/publication/251568017_Advocacy_policies_and_practicalities_of_preventive_chemotherapy_campaigns_for_African_children_with_schistosomiasis>
+9. Stothard JR, Sousa-Figueiredo JC, & Navaratnam AMD. (2013, July). Advocacy, policies and practicalities of preventive chemotherapy campaigns for African children with schistosomiasis. Expert Reivew of Anti-Infective Therapy. <https://doi.org/10.1586/14787210.2013.811931>
 10. Adeyemo, Sunday & Are-Daniel, Obehi & Adeleke, Folasade & Olabode, Eniola & Maleka, Abdulwaris & Odunlami, Akintade & Ajayi, Ayodele & Abdulsalam, Hussain & Nafiu, Rabiu & Usman, Yunusa. (2025). Barriers in the control of schistosomiasis with mass distribution of praziquantel in Bauchi State, Nigeria: a phenomenological study. Discover Health Systems. 4. <https://doi.org/10.1007/s44250–025–00286–8>.
 11. Pai, M. (2020, January 29). Record Funding For Global Health Research, But Neglected Tropical Diseases Remain Neglected. Forbes. <https://www.forbes.com/sites/madhukarpai/2020/01/29/record-funding-for-global-health-research-but-neglected-tropical-diseases-remain-neglected/>
 12. Dattani, S. (2024, June 25). Funding to study neglected tropical diseases and develop new technologies is very limited. Our World in Data. <https://ourworldindata.org/data-insights/funding-to-study-neglected-tropical-diseases-and-develop-new-technologies-is-very-limited>
