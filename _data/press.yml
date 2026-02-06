@@ -1,3 +1,9 @@
+- headline: 
+  source: AAAS
+  date: 2026-02-05
+  website: https://www.aaas.org/membership/member-spotlight/young-scientists-who-met-last-years-aaas-annual-meeting-are-mobilizing
+  category: 'McClintock Letters'
+
 - headline: Students Advocate For More Science Funding
   source: Forbes
   date: 2025-12-03
@@ -88,6 +94,7 @@
   source: New York Academy of Sciences
   date: 2025-06-02
   website: https://www.nyas.org/ideas-insights/blog/the-mcclintock-letters-initiative-to-support-science/
+  category: 'McClintock Letters'
 
 - headline: NSF, NIH Funding Cuts Spur Student-Led Science Communication Campaign
   source: Forbes
