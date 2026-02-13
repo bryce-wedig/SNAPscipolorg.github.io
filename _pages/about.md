@@ -26,6 +26,14 @@ permalink: /about/
 </div>
 {% endfor %} -->
 
+
+## About SNAP
+Scientist Network for Advancing Policy (SNAP) was conceptualized in early 2025 and formed through a (still ongoing!) gathering of science policy-minded early career researchers from across the United States. SNAP is a nationwide non-partisan grassroots coalition. 
+
+### Mission Statement 
+We are a coalition of early-career scientists dedicated to mobilizing for large-scale initiatives and bridging gaps between scientists, their communities, and the general public. Our mission is to inspire and engage fellow scientists by establishing a peer network, developing and sharing resources, and instigating meaningful change.
+
+
 ## Member Organizations
 
 <div class='jumbotron'>
