@@ -18,7 +18,7 @@ contact: >
 # Pages shown in navbar
 nav_pages:
   - name: about
-  - name: events
+  - name: calendar
   - name: initiatives
   - name: blog
   - name: press
