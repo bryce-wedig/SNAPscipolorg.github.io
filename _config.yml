@@ -18,12 +18,12 @@ contact: >
 # Pages shown in navbar
 nav_pages:
   - name: about
+  - name: events
   - name: initiatives
-  - name: press
-  - name: courses
-  - name: team
-  - name: newsletters
   - name: blog
+  - name: press
+  - name: newsletters
+  - name: team
 # The "Get Involved!" button can be edited in the header file
 
 include:
