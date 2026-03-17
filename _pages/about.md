@@ -5,34 +5,14 @@ sitemap: false
 permalink: /about/
 ---
 
-<!-- ## About
-
-{% for member in site.data.snap %}
-<div class="jumbotron" align="center">
-<div class="row">
-<div class="col-sm-12">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:500px"/>
-</div>
-<div class="row">
-<div class="col-sm-12">
-  <h4><i>{{ member.info }}</i></h4>
-  {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a> {% endif %}
-  {% if member.bluesky %} <a href="{{ member.bluesky }}" target="_blank"><i class="fa-brands fa-bluesky fa-2x"></i></a> {% endif %}
-  {% if member.instagram %} <a href="{{ member.instagram }}" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a> {% endif %}
-  {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a> {% endif %}
-</div>
-</div>
-</div>
-</div>
-{% endfor %} -->
-
-
 ## About SNAP
 Scientist Network for Advancing Policy (SNAP) was conceptualized in early 2025 and formed through a (still ongoing!) gathering of science policy-minded early career researchers from across the United States. SNAP is a nationwide non-partisan grassroots organization. 
 
 ### Mission Statement 
 We are a coalition of early-career scientists dedicated to mobilizing for large-scale initiatives and bridging gaps between scientists, their communities, and the general public. Our mission is to inspire and engage fellow scientists by establishing a peer network, developing and sharing resources, and instigating meaningful change.
 
+#### Looking for SNAP's upcoming meetings and events?
+Check out our [events calendar]({{ site.url }}{{ site.baseurl }}/calendar)!
 
 ## Member Organizations
 
