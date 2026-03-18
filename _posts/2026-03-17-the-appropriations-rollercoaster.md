@@ -19,15 +19,15 @@ On May 2, 2025, the White House Office of Management and Budget (OMB) released t
 
 **The Appropriations Rollercoaster**
 
-**The big drop - Spring 2025**
+*The big drop - Spring 2025*
 
 The federal appropriations process begins with the President's Budget Request (PBR), released by the White House each spring. Though not legally binding, it serves to inform Congress of the President's priority programs/agencies and sets the tone for appropriations conversations. It is accepted that the final budget will likely not resemble the PBR, so the PBR's main role is to communicate the President's governing agenda. In some ways, that makes the PBR mostly toothless (and Congress went on to diverge from much of the PBR this year), but in other ways, it can hold real power and foreshadow actions the President may take outside budget negotiations. The release of the PBR for FY26, with its proposed cuts to scientific research programs and grants, shocked the scientific community.
 
-**Going fast - Spring & Summer 2025**
+*Going fast - Spring & Summer 2025*
 
 If there was a silver lining to the PBR, it reinvigorated advocacy for scientific funding. Numerous professional societies went to Capitol Hill (e.g., ASBMB, AIBS, IEEE [1-3]), science influencers spoke out on social media, and SNAP led the McClintock Letters and Congressional District Visits initiatives to speak to communities and representatives about the importance of science funding. In all the anxiety about the future of science, many bright lights shone through in the realms of science communication and advocacy.
 
-**Loop-de-loops till the end - Fall & Winter 2025-2026**
+*Loop-de-loops till the end - Fall & Winter 2025-2026*
 
 September 2025 saw the appropriations process escalate as the end of the fiscal year approached. The House and Senate Appropriations Committees largely chose to make smaller cuts to science than the President proposed, but disagreement over major aspects of the budget remained, particularly related to healthcare subsidies. On October 1, the government shut down for what would become the longest shutdown in U.S. history, lasting 43 days. The government was reopened in November by a continuing resolution, an agreement to maintain FY25 funding levels until the new year. During this window, budget conversations continued and some of the individual committee appropriations bills were passed. Following a brief partial shutdown beginning on February 1, 2026, the remaining budgets were passed on February 3. The exception to this is the budget for the Department of Homeland Security, which as of writing this has still not passed. These budgets will stand until September 30, 2026, when the current fiscal year ends and new budgets must be approved.
 
@@ -35,39 +35,39 @@ September 2025 saw the appropriations process escalate as the end of the fiscal 
 
 The PBR set a bleak outlook for scientific funding in FY26. However, most agencies saw little to no change in their budgets compared to FY25. While this is not necessarily the desired outcome, it is a significant improvement over the PBR's proposed cuts. Below, we discuss a sampling of scientific agencies and whether they won, lost, or came out net neutral in the appropriations rollercoaster.
 
-**Winners**
+Winners
 
-#### AI Measurement and Standardization (National Institute of Standards and Technology)
+*AI Measurement and Standardization (National Institute of Standards and Technology)*
 
 One of the only federal science agencies to receive a moderate increase in funding in FY26 was the National Institute of Standards and Technology (NIST) [4]. NIST is primarily responsible for setting nationwide standards and frameworks that are adhered to by federal and private scientists and officials; this includes projects focused on cybersecurity, satellite calibration, and strengthening private industry and manufacturing companies. The FY26 budget for NIST includes an increase for its research program as well as $55 million for AI research and measurement programs [5]. $10 million will go towards expansion of the Center for AI Standards and Innovation, which is featured in the Trump Administration's AI plan [6] and would focus on developing guidelines to measure and evaluate AI models within the federal government. This preservation and mild expansion of NIST's budget by Congress represents increasing government interest in AI development.
 
-#### Indirect cost rates
+*Indirect cost rates*
 
 Early after taking office, President Trump attempted to institute a 15% cap on indirect cost rates across multiple agencies [7]. These indirect costs are used by universities for costs associated with research that cannot be assigned to a specific project or grant, such as rent for laboratory buildings, utility payments, and access to libraries. Advocates across the sciences pointed out how the proposed 15% cap, which would have been a significant cut for most universities, would directly inhibit scientific research [8]. Across multiple FY26 appropriations bills for scientific agencies, Congress rejected the administration's cuts and codified the existing indirect cost rates, ensuring that universities will continue to receive this funding at their agreed-upon rates. The bill text did encourage agencies to explore new indirect cost models, such as the Joint Association Group's Financial Accountability in Research (FAIR) model [9].
 
-**Losers**
+Losers
 
-#### The Environment (Department of Energy and the Environmental Protection Agency)
+*The Environment (Department of Energy and the Environmental Protection Agency)*
 
 The overall scientific budgets for the Department of Energy (DOE) and the EPA were not cut as much as proposed by the PBR, with DOE's Office of Science receiving a modest 1.9% increase [10] and EPA's Science and Technology Office being cut by 1.6% [11]. However, the DOE's Office of Energy Efficiency and Renewable Energy had its budget cut by 10.4%, with significant reductions to the budgets for non-coal-based energy sources like solar and wind. Interestingly, the appropriations bill did provide some increases to funding for water power and geothermal technology. At the EPA, some research areas within the Science and Technology Office were cut more heavily than the office as a whole, and the Superfund, which provides financial support for efforts to find and clean up hazardous/contaminated sites, was cut by almost 50%. These funding cuts are made more devastating by the fact that the Trump Administration has prioritized investing in fossil fuel production and rolling back environmental regulations and clean energy initiatives [12, 13].
 
-#### STEM Education (National Science Foundation)
+*STEM Education (National Science Foundation)*
 
 The NSF funds a significant amount of basic STEM research and education initiatives, which have been deprioritized by the current administration, as evidenced by the PBR's astounding 57% cut. Congress's final budget bill cut NSF funding by only 3.4% [11]. However, the NSF Directorate for STEM Education budget was cut by 20%, which will likely negatively impact the NSF's education initiatives at the K-12, undergraduate, and graduate levels. Already this year, we have seen an increase in the number of NSF Graduate Research Fellowship Program (GRFP) applications "returned without review," meaning that the applications did not reach the outside reviewer screening stage [14]. Furthermore, last year the GRFP stopped accepting applications from second-year graduate students and cut the number of awards by half [15, 16]. The fact that the Directorate for STEM Education's budget has been further cut this year suggests that more cuts may be coming to the prestigious GRFP.
 
-**Net neutral**
+Net neutral
 
-#### Biomedical research (National Institutes of Health)
+*Biomedical research (National Institutes of Health)*
 
 The NIH has seen massive changes proposed to its operations since the start of the second Trump Administration, and the PBR's 40% cut would have significantly slowed critical biomedical research progress. Likely swayed by massive advocacy efforts from scientists across the country, Congress voted to essentially maintain NIH funding at the previous year's levels, with a small 0.9% increase for FY26 [17]. While this level of funding is a "win" compared to the original proposed cut of 40%, with inflation and rising costs of research, it ends up amounting to a small cut to the NIH.
 
 The PBR also asked the NIH to increase the number of "multi-year" awards, in which grants are funded fully during the first year rather than receiving funds during each year of the project [18]. An increase in grants funded in this manner would reduce the total number of grants that can be awarded in a year due to budgetary limits [19]. Congress acted to limit the proportion of multi-year awards to FY25 levels. Nonetheless, FY25 levels were higher than previous years and will likely still reduce the total number of grants awarded this year [18]. In addition, although Congress pushed back on the administration's proposed cuts, the NIH still has the power to decide which and how many grants to fund. Researchers are raising the alarm that calls for new grant applications have been delayed to such an extent that research programs may miss out on funding until next year, and a large number of grants have been cut or left unreviewed in the past year due to priorities that did not align with the administration [20]. Of immediate concern, the OMB had not yet approved the NIH to spend its research funding as of the end of February, despite the appropriations bill being signed into law at the beginning of the month [21].
 
-#### Space Discovery (National Aeronautics and Space Administration)
+*Space Discovery (National Aeronautics and Space Administration)*
 
 The PBR proposed slashing the National Aeronautics and Space Administration (NASA) budget by 24%, a cut that was rejected by Congress. Instead, NASA's funding was cut by only 1.6%, and some Science Mission Directorates (Astrophysics, Heliophysics) as well as the Orion Program (which will support deep space exploration) even received increased budgets [10]. Importantly, NASA also received almost $10 billion in funding over the next six years from H.R. 1 (AKA the "One Big Beautiful Bill Act") last year, largely supporting the Artemis missions to restart human landings on the moon [22, 23].
 
-#### Applied Defense Research (Department of Defense)
+*Applied Defense Research (Department of Defense)*
 
 The Department of Defense (DOD) funds scientific research programs at universities across the country, and is the second largest source of biomedical research funding behind the NIH. Yet, the PBR sought to cut both basic and applied research funding by 15-20%. Congress's final budget bill ended up cutting basic science research funding by 4.9% but increased applied research funding by 15.4% [24]. Further, Congress allocated $1.3 billion for the Congressionally Directed Medical Research Programs (CDMRP), which supports research relevant to service members and veterans. Just last year, CDMRP's funding was cut by 57%, so this FY26 bill restores funding to levels similar to FY24.
 
