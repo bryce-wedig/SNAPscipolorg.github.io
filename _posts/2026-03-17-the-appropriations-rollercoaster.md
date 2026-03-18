@@ -7,9 +7,9 @@ category:
 
 [Read this post on Medium](https://medium.com/science-policy-in-a-snap/the-appropriations-rollercoaster-which-sciences-won-and-lost-d222296eb7ec)
 
-Written by SNAP members [Brendon Davis](https://medium.com/@brendon.a.davis) and [Becca Blyn](https://medium.com/@rebeccablyn)
+Written by SNAP members [Brendon Davis](https://medium.com/@bdavisbio) and [Becca Blyn](https://medium.com/@bblyn)
 
-> *Edited by [Sneha Rao](https://medium.com/@sneha.rao)*
+> *Edited by [Sneha Rao](https://medium.com/@sneharao_56428)*
 
 <figure style="margin: 1em 0; text-align: center;">
 <img src="/images/blog_figures/2026-03-17_cover.webp" alt="A rollercoaster against a blue sky" style="max-width: 100%; height: auto;" />
@@ -89,11 +89,11 @@ In the coming year, it is critical that scientists remember that their voices ma
 
 #### Recognition:
 
-*[Brendon Davis](https://medium.com/@brendon.a.davis) is a Ph.D. candidate at Johns Hopkins University studying DNA replication and epigenetics in stem cells. He also serves as the President of the Science Policy and Diplomacy Group at Johns Hopkins.*
+*[Brendon Davis](https://medium.com/@bdavisbio) is a Ph.D. candidate at Johns Hopkins University studying DNA replication and epigenetics in stem cells. He also serves as the President of the Science Policy and Diplomacy Group at Johns Hopkins.*
 
-*[Becca Blyn](https://medium.com/@rebeccablyn) is a Ph.D. candidate at the University of Washington studying the immune response to malaria in the liver and ways to improve malaria vaccine efficacy.*
+*[Becca Blyn](https://medium.com/@bblyn) is a Ph.D. candidate at the University of Washington studying the immune response to malaria in the liver and ways to improve malaria vaccine efficacy.*
 
-*Special thanks to fellow SNAP members who provided feedback on this blog: [Jordan Williams](https://medium.com/@jordanwilliams), a pharmacology Ph.D. candidate studying how to alter the lung's innate immune responses to better treat chronic respiratory diseases, and [Sneha Rao](https://medium.com/@sneha.rao), a leader of the Science Policy Group at UCSF and a developmental biology Ph.D. candidate studying how an embryo prepares for implantation in the uterus.*
+*Special thanks to fellow SNAP members who provided feedback on this blog: [Jordan Williams](https://jolybdenum.medium.com/), a pharmacology Ph.D. candidate studying how to alter the lung's innate immune responses to better treat chronic respiratory diseases, and [Sneha Rao](https://medium.com/@sneharao_56428), a leader of the Science Policy Group at UCSF and a developmental biology Ph.D. candidate studying how an embryo prepares for implantation in the uterus.*
 
 #### References:
 
