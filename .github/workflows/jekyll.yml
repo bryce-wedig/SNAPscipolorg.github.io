@@ -29,7 +29,7 @@ concurrency:
 jobs:
   # Build job
   build:
-    if: github.repository == 'SNAPscipolorg/SNAPscipolorg.github.io'
+    if: github.repository == 'snapcoalition/SNAPscipolorg.github.io'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
