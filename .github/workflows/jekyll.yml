@@ -55,7 +55,7 @@ jobs:
 
   # Deployment job
   deploy:
-    if: github.repository == 'SNAPscipolorg/SNAPscipolorg.github.io'
+    if: github.repository == 'snapcoalition/SNAPscipolorg.github.io'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
