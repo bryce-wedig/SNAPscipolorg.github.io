@@ -7,13 +7,11 @@ category:
 
 [Read this post on Medium](https://medium.com/science-policy-in-a-snap/the-lab-bench-under-fascism-a0183f21fac3)
 
-Written by SNAP member Emma Scales
+Written by SNAP member [Emma Scales](https://medium.com/@emmascales)
 
 *\*This article contains discussion of sensitive subjects including genocide, racism, and murder. It in no way encapsulates the full scale of atrocities committed by the fascist regimes discussed herein, nor does it attempt to.*
 
 *Thoughts and views written in this blog reflect those of the author only, and not necessarily those of every SNAP member or the SNAP coalition as a whole.*
-
-*Footnotes are denoted with superscript. References are denoted with brackets.*
 
 <figure style="margin: 1em 0; text-align: center;">
 <img src="/images/blog_figures/2026-03-24_1.webp" alt="Illustration showing headless scientists in white lab coats working at lab benches, connected by red strings, against a dark red background" style="max-width: 100%; height: auto;" />
@@ -90,9 +88,9 @@ Fascism, for precisely these same reasons that make it seem so powerful, is weak
 
 #### Recognition:
 
-*Emma Scales is a fungal biologist and PhD candidate at Cornell University with a background in technical and journalistic writing and a passion for science communication who also serves as co-President of Cornell Advancing Science and Policy Club.*
+*[Emma Scales](https://medium.com/@emmascales) is a fungal biologist and PhD candidate at Cornell University with a background in technical and journalistic writing and a passion for science communication who also serves as co-President of Cornell Advancing Science and Policy Club.*
 
-*Special thanks to fellow SNAP members who provided feedback on this article: Amanda Finn, a Nutrition Sciences PhD candidate studying physiological and social determinants of insulin resistance in people with overweight/obesity; Jordan Williams, a pharmacology PhD candidate studying how to alter the lung's innate immune responses to better treat chronic respiratory diseases; Kassandra Fernandez, an engineering education researcher and PhD candidate with a background in medical microbiology.*
+*Special thanks to fellow SNAP members who provided feedback on this article: [Amanda Finn](https://medium.com/@amanda.finn08), a Nutrition Sciences PhD candidate studying physiological and social determinants of insulin resistance in people with overweight/obesity; [Jordan Williams](https://jolybdenum.medium.com/), a pharmacology PhD candidate studying how to alter the lung's innate immune responses to better treat chronic respiratory diseases; [Kassandra Fernandez](https://kassstem.medium.com/), an engineering education researcher and PhD candidate with a background in medical microbiology.*
 
 #### Footnotes:
 
@@ -102,28 +100,28 @@ Fascism, for precisely these same reasons that make it seem so powerful, is weak
 
 #### References:
 
-1. K. Chayka, "Techno-Fascism Comes to America," *The New Yorker*, Mar. 26, 2025. [Online]. Available: https://www.newyorker.com/culture/infinite-scroll/techno-fascism-comes-to-america-elon-musk
-2. W. Broad, "Historians See Autocratic Playbook in Trump's Attacks on Science," *The New York Times*, Aug. 31, 2025. [Online]. Available: https://www.nytimes.com/2025/08/31/science/trump-science-autocrats.html
-3. M. Shore, T. Snyder, and J. Stanley, "We Study Fascism, and We're Leaving the U.S.," *The New York Times*, May 14, 2025. [Online]. Available: https://www.nytimes.com/video/opinion/100000010157022/yale-canada-fascism.html
-4. E. Manfredini and A. Acquistipace, "31 Nobel Laureates Warn: The Signs of Fascism are Here," *TIME*, Jun. 14, 2025. [Online]. Available: https://time.com/7294056/signs-of-fascism-are-here/
+1. K. Chayka, "Techno-Fascism Comes to America," *The New Yorker*, Mar. 26, 2025. [Online]. Available: [https://www.newyorker.com/culture/infinite-scroll/techno-fascism-comes-to-america-elon-musk](https://www.newyorker.com/culture/infinite-scroll/techno-fascism-comes-to-america-elon-musk)
+2. W. Broad, "Historians See Autocratic Playbook in Trump's Attacks on Science," *The New York Times*, Aug. 31, 2025. [Online]. Available: [https://www.nytimes.com/2025/08/31/science/trump-science-autocrats.html](https://www.nytimes.com/2025/08/31/science/trump-science-autocrats.html)
+3. M. Shore, T. Snyder, and J. Stanley, "We Study Fascism, and We're Leaving the U.S.," *The New York Times*, May 14, 2025. [Online]. Available: [https://www.nytimes.com/video/opinion/100000010157022/yale-canada-fascism.html](https://www.nytimes.com/video/opinion/100000010157022/yale-canada-fascism.html)
+4. E. Manfredini and A. Acquistipace, "31 Nobel Laureates Warn: The Signs of Fascism are Here," *TIME*, Jun. 14, 2025. [Online]. Available: [https://time.com/7294056/signs-of-fascism-are-here/](https://time.com/7294056/signs-of-fascism-are-here/)
 5. R. O. Paxton, *The anatomy of fascism*. New York: Knopf, 2004.
 6. H. D. Harootunian, *Overcome by Modernity: History, Culture, and Community in Interwar Japan*. Princeton: Princeton University Press, 2002.
 7. "Speech before the Chamber of Deputies, 26 May, 1927," in *Discorsi del 1927*, Milano: Alpes, 1928, p. 157.
 8. A. S. Moore, *Constructing East Asia: technology, ideology, and Empire in Japan's wartime era 1931–1945*. Stanford, Calif: Stanford Univ. Press, 2015.
-9. "FASCIST OATH DEMANDS FEALTY TO THE REGIME; Names of Eleven Professors Who Refused to Take It Are Revealed in Rome.," *The New York Times*, Dec. 20, 1931. [Online]. Available: https://www.nytimes.com/1931/12/20/archives/fascist-oath-demands-fealty-to-the-regime-names-of-eleven.html
+9. "FASCIST OATH DEMANDS FEALTY TO THE REGIME; Names of Eleven Professors Who Refused to Take It Are Revealed in Rome.," *The New York Times*, Dec. 20, 1931. [Online]. Available: [https://www.nytimes.com/1931/12/20/archives/fascist-oath-demands-fealty-to-the-regime-names-of-eleven.html](https://www.nytimes.com/1931/12/20/archives/fascist-oath-demands-fealty-to-the-regime-names-of-eleven.html)
 10. United States Chief Counsel for the Prosecution of Axis Criminality, "Law for the Reestablishment of the Professional Civil Service (April 7, 1933)," in *Nazi Conspiracy and Aggression*, vol. III, Washington, DC: United States Government Printing Office, 1946, pp. 981–83.
 11. M. Grüttner, "The Expulsion of Academic Teaching Staff from German Universities, 1933–45," *J. Contemp. Hist.*, vol. 57, no. 3, pp. 513–533, Jul. 2022, doi: 10.1177/00220094211063074.
 12. M. Gonultas, "Resistance Against the State: A Study on the Defense of Academic Freedom in Pre-War Japan through the Takigawa Incident," *Glob. Perspect. Jpn.*, no. 8, pp. 140–153, Nov. 2025, doi: 10.62231/GP8.160001A05.
-13. Editorial Collective, "Repression of Scientists in Argentina," *Science for the People*, vol. 9, no. 4, pp. 13–17, Aug. 1977. [Online]. Available: https://archive.scienceforthepeople.org/vol-9/v9n4/repression-of-scientists-in-argentina/
+13. Editorial Collective, "Repression of Scientists in Argentina," *Science for the People*, vol. 9, no. 4, pp. 13–17, Aug. 1977. [Online]. Available: [https://archive.scienceforthepeople.org/vol-9/v9n4/repression-of-scientists-in-argentina/](https://archive.scienceforthepeople.org/vol-9/v9n4/repression-of-scientists-in-argentina/)
 14. M. A. Bautista, F. González, L. Martinez, P. Munoz, and M. Prem, "Dictatorship, Higher Education and Social Mobility," *SSRN Electron. J.*, 2023, doi: 10.2139/ssrn.4569458.
 15. U. Deichmann and U. Deichmann, *Biologists under Hitler*. Cambridge, Mass.: Harvard University Press, 1996.
 16. M. G. Ash, "Science, Technology, and Higher Education under Nazism," *Isis*, vol. 86, no. 3, pp. 458–462, Sep. 1995, doi: 10.1086/357242.
-17. M. Mazzotti, "'I Don't Really Care. Do You?': Scientists in the Grey Zone in 1930s Italy," *Los Angeles Review of Books*, Jul. 18, 2019. [Online]. Available: https://lareviewofbooks.org/article/i-dont-really-care-do-you-scientists-in-the-grey-zone-in-1930s-italy/
+17. M. Mazzotti, "'I Don't Really Care. Do You?': Scientists in the Grey Zone in 1930s Italy," *Los Angeles Review of Books*, Jul. 18, 2019. [Online]. Available: [https://lareviewofbooks.org/article/i-dont-really-care-do-you-scientists-in-the-grey-zone-in-1930s-italy/](https://lareviewofbooks.org/article/i-dont-really-care-do-you-scientists-in-the-grey-zone-in-1930s-italy/)
 18. A. Gillette, "The origins of the 'Manifesto of racial scientists,'" *J. Mod. Ital. Stud.*, vol. 6, no. 3, pp. 305–323, Jan. 2001, doi: 10.1080/13545710110084253.
 19. "The Laws for the Defense of the Race," *Corriere della Sera*, Milano, Nov. 11, 1938.
-20. "La Difesa Della Razza | Holocaust and Genocide Studies | University of South Florida." Accessed: Mar. 18, 2026. [Online]. Available: https://digitalcommons.usf.edu/razza/
+20. "La Difesa Della Razza | Holocaust and Genocide Studies | University of South Florida." Accessed: Mar. 18, 2026. [Online]. Available: [https://digitalcommons.usf.edu/razza/](https://digitalcommons.usf.edu/razza/)
 21. D. Barenblatt, *A plague upon humanity: the secret genocide of Axis Japan's germ warfare operation*, 1. ed. New York: HarperCollins Publishers, 2004.
 22. F. Jacob, *Japanese war crimes during World War II: atrocity and the psychology of collective violence*. Santa Barbara, California: Praeger, 2018.
 23. K. Dewey, "Pinochet's poisons: examining Chile's historical interest in chemical and biological weapons," *Intell. Natl. Secur.*, vol. 39, no. 1, pp. 140–160, Jan. 2024, doi: 10.1080/02684527.2023.2258693.
 24. S. F. Weiss, *The Nazi Symbiosis: human genetics and politics in the Third Reich*. Chicago: Chicago University Press, 2010.
-25. "Euthanasia Program and Aktion T4," Holocaust Encyclopedia. Accessed: Mar. 18, 2026. [Online]. Available: https://encyclopedia.ushmm.org/content/en/article/euthanasia-program
+25. "Euthanasia Program and Aktion T4," Holocaust Encyclopedia. Accessed: Mar. 18, 2026. [Online]. Available: [https://encyclopedia.ushmm.org/content/en/article/euthanasia-program](https://encyclopedia.ushmm.org/content/en/article/euthanasia-program)
