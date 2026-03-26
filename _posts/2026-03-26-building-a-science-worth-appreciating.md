@@ -5,9 +5,11 @@ date: 2026-03-26
 category:
 ---
 
+#### Or: National Science Appreciation Day, and How We Can Make it More Fun Next Year
+
 [Read this post on Medium](https://medium.com/science-policy-in-a-snap/building-a-science-worth-appreciating-4b5cfbb0fe4b)
 
-Written by SNAP members [Miles J. Arnett](https://medium.com/@milesarnett) and [Disha Patel](https://medium.com/@dpatel33)
+Written by SNAP members [Miles J. Arnett](https://medium.com/@arnett.miles) and [Disha Patel](https://medium.com/@dpatel33)
 
 *Disclaimer: Thoughts and views written in this blog reflect those of the writers only, and not necessarily those of every SNAP member or the SNAP coalition as a whole.*
 
@@ -48,20 +50,20 @@ Even after the COVID-19 pandemic and the disruptions of recent years, American p
 
 ---
 
-*P.S. Curious about ways you can support science and scientists (even if you aren't one yourself)? Well, there are numerous ways to contribute! Here are some to begin with:*
+P.S. Curious about ways you can support science and scientists (even if you aren't one yourself)? Well, there are numerous ways to contribute! Here are some to begin with:
 
-1. *Stay informed! Engage with the news (both national and local) and talk to people you know about science and the latest science news.*
-2. *Contact lawmakers and advocate for them to back science funding or bills that support the scientific ecosystem. You can call your representatives on the phone or send them an email, or sign up for SNAP's latest initiative, [Stance on Science](https://snapcoalition.org/initiatives/stance-on-science), to get involved in supporting science in the 2026 midterms.*
-3. *Get involved in local science events near you, such as school science fairs or university-based science communication events.*
-4. *Invite a scientist near you into your community, whatever type of community that may be! They'll likely be much happier to make the connection than you might expect. See programs like [Skype a Scientist](https://www.skypeascientist.com/) for good examples.*
+1. Stay informed! Engage with the news (both national and local) and talk to people you know about science and the latest science news.
+2. Contact lawmakers and advocate for them to back science funding or bills that support the scientific ecosystem. You can call your representatives on the phone or send them an email, or sign up for SNAP's latest initiative, [Stance on Science](https://snapcoalition.org/initiatives/stance-on-science), to get involved in supporting science in the 2026 midterms.
+3. Get involved in local science events near you, such as school science fairs or university-based science communication events.
+4. Invite a scientist near you into your community, whatever type of community that may be! They'll likely be much happier to make the connection than you might expect. See programs like [Skype a Scientist](https://www.skypeascientist.com/) for good examples.
 
-*[Click here](https://sciencesaves.org/) to learn more about ScienceSaves and how you can get involved.*
+Click [here](https://sciencesaves.org/) to learn more about ScienceSaves and how you can get involved.
 
 #### Recognition:
 
-*This post was written by SNAP members [Miles J. Arnett](https://medium.com/@milesarnett) and [Disha Patel](https://medium.com/@dpatel33).*
+*This post was written by SNAP members [Miles J. Arnett](https://medium.com/@arnett.miles) and [Disha Patel](https://medium.com/@dpatel33).*
 
-*[Miles J. Arnett](https://medium.com/@milesarnett) is a Bioengineering PhD candidate at the University of Pennsylvania studying how cells coordinate to regenerate damaged tissues. He is also the President of the Penn Science Policy and Diplomacy Group (PSPDG).*
+*[Miles J. Arnett](https://medium.com/@arnett.miles) is a Bioengineering PhD candidate at the University of Pennsylvania studying how cells coordinate to regenerate damaged tissues. He is also the President of the Penn Science Policy and Diplomacy Group (PSPDG).*
 
 *[Disha Patel](https://medium.com/@dpatel33) is a biochemist studying protein folding and secretion by leveraging high-throughput methodologies.*
 
