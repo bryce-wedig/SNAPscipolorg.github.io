@@ -12,6 +12,24 @@ img {
 .navbar {
   margin-bottom: 20px;
   border-bottom: 4px solid var(--secondary);
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar > .mx-auto {
+  max-width: 960px;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar .navbar-collapse {
+  flex-grow: 1;
+}
+
+.navbar .navbar-nav {
+  width: 100%;
 }
 
 .btn {
