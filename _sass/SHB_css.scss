@@ -12,6 +12,24 @@ img {
 .navbar {
   margin-bottom: 20px;
   border-bottom: 4px solid var(--secondary);
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar > .mx-auto {
+  max-width: 960px;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar .navbar-collapse {
+  flex-grow: 1;
+}
+
+.navbar .navbar-nav {
+  width: 100%;
 }
 
 .btn {
@@ -20,13 +38,13 @@ img {
 }
 
 .container-fluid {
-  max-width: 800px;
+  max-width: 960px;
 }
 
 .container-footer {
   margin-right: auto;
   margin-left: auto;
-  max-width: 800px;
+  max-width: 960px;
   padding-left:  20px;
   padding-right: 20px;
 }
