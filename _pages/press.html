@@ -9,7 +9,7 @@ permalink: /press/
   {% for entry in site.data.pubs_reports %}
   <li>
     <p>{{ entry.date | date: '%b %d, %Y' }}:
-      <a href="{{ article.website }}">{{ entry.headline }}</a> in <i>{{ entry.source }}</i></p>
+      <a href="{{ entry.website }}">{{ entry.headline }}</a> in <i>{{ entry.source }}</i></p>
   </li>
   {% endfor %}
 </ul>
