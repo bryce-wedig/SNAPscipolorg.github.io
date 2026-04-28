@@ -6,10 +6,10 @@ permalink: /press/
 ---
 <h2>Publication & Report Mentions</h2> 
 <ul>
-  {% for article in site.data.pubs_reports %}
+  {% for entry in site.data.pubs_reports %}
   <li>
-    <p>{{ article.date | date: '%b %d, %Y' }}:
-      <a href="{{ article.website }}">{{ article.headline }}</a> in <i>{{ article.source }}</i></p>
+    <p>{{ entry.date | date: '%b %d, %Y' }}:
+      <a href="{{ article.website }}">{{ entry.headline }}</a> in <i>{{ entry.source }}</i></p>
   </li>
   {% endfor %}
 </ul>
