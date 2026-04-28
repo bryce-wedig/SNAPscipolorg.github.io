@@ -1,9 +1,18 @@
 ---
-title: "Press Mentions"
+title: "Press, Publication, & Report Mentions"
 layout: gridlay
 sitemap: false
 permalink: /press/
 ---
+<h2>Publication & Report Mentions</h2> 
+<ul>
+  {% for article in site.data.pubs_reports %}
+  <li>
+    <p>{{ article.date | date: '%b %d, %Y' }}:
+      <a href="{{ article.website }}">{{ article.headline }}</a> in <i>{{ article.source }}</i></p>
+  </li>
+  {% endfor %}
+</ul>
 
 <h2>Press Mentions</h2>
 <ul>
