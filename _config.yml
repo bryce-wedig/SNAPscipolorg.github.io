@@ -18,6 +18,9 @@ contact: >
 # Pages shown in navbar
 nav_pages:
   - name: about
+  - subitems: 
+    - name: press
+    - name: team
   - name: calendar
   - name: initiatives
   - name: resources
