@@ -16,6 +16,11 @@
 #   4. Add `_data/stance_responses/<state-code>.yml` with the candidate
 #      responses. Until that file exists, the page will show "no responses
 #      yet" automatically.
+#   5. Add `_data/stance_questions/<state-code>.yml` with the questions
+#      posed to each candidate. Each entry has a `question` (markdown) and
+#      a `tag` (a single tag or list of tags from
+#      _data/stance_filters.yml). The question list and "available tags"
+#      sentence on this page are rendered from that file.
 #
 # Required front matter:
 #   state       — lowercase USPS code, must match the YAML file under
@@ -35,6 +40,16 @@ state_name: TODO State Name               # TODO: full state name
 published: true                          # TODO: delete this line (or set to true) to publish
 ---
 {%- assign responses = site.data.stance_responses[page.state] | default: empty -%}
+{%- assign questions = site.data.stance_questions[page.state] | default: empty -%}
+{%- assign question_tags = "" | split: "" -%}
+{%- for q in questions -%}
+  {%- if q.tag.first -%}
+    {%- assign question_tags = question_tags | concat: q.tag -%}
+  {%- else -%}
+    {%- assign question_tags = question_tags | push: q.tag -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign question_tags = question_tags | uniq -%}
 
 <header class="stance-state-header">
   <h1>TODO Candidate Page</h1>
@@ -47,11 +62,10 @@ published: true                          # TODO: delete this line (or set to tru
 
 <section class="stance-state-howto">
   <h2>How to use this resource</h2>
-  <p>This webpage houses the responses to TODO questions crafted by the TODO
-  Stance on Science team. To find candidates' responses for each election,
-  you can filter by tag, race, district, and party. Available tags include:
-  <strong>TODO Tag 1</strong>, <strong>TODO Tag 2</strong>,
-  <strong>TODO Tag 3</strong>.</p>
+  <p>This webpage houses the responses to {{ questions.size }} questions
+  crafted by the TODO Stance on Science team. To find candidates' responses
+  for each election, you can filter by tag, race, district, and party.
+  Available tags include: {{ question_tags | join: ", " }}.</p>
   <p>Only official candidates who will appear on ballots were contacted.</p>
   <p>To find your district and who is on your ballot, please visit the
     <a href="TODO_URL" target="_blank" rel="noopener">TODO state voter resource</a>.</p>
@@ -72,8 +86,19 @@ published: true                          # TODO: delete this line (or set to tru
 <section class="stance-state-questions">
   <h3>The questions posed to each candidate</h3>
   <ol>
-    <li>TODO question 1. <em>(see <strong>TODO TAG</strong>)</em></li>
-    <li>TODO question 2. <em>(see <strong>TODO TAG</strong>)</em></li>
+    {%- for q in questions -%}
+      {%- if q.tag.first -%}
+        {%- assign q_tag_list = q.tag -%}
+      {%- else -%}
+        {%- assign q_tag_list = "" | split: "" | push: q.tag -%}
+      {%- endif -%}
+      <li>{{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}
+        <em>(see
+          {%- for t in q_tag_list -%}
+            {%- unless forloop.first %} &amp;{% endunless %} <strong>{{ t }}</strong>
+          {%- endfor -%}
+        )</em></li>
+    {%- endfor -%}
   </ol>
 </section>
 

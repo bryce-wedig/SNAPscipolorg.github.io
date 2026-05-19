@@ -12,6 +12,16 @@ state: co
 state_name: Colorado
 ---
 {%- assign responses = site.data.stance_responses[page.state] | default: empty -%}
+{%- assign questions = site.data.stance_questions[page.state] | default: empty -%}
+{%- assign question_tags = "" | split: "" -%}
+{%- for q in questions -%}
+  {%- if q.tag.first -%}
+    {%- assign question_tags = question_tags | concat: q.tag -%}
+  {%- else -%}
+    {%- assign question_tags = question_tags | push: q.tag -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign question_tags = question_tags | uniq -%}
 
 <header class="stance-state-header">
   <h1>Colorado Candidate Page</h1>
@@ -24,11 +34,10 @@ state_name: Colorado
 
 <section class="stance-state-howto">
   <h2>How to use this resource</h2>
-  <p>This webpage houses the responses to 5 questions crafted by the Stance
-  on Science - Colorado team. To find candidates' responses for each
-  election, you can filter by tag, race, district, and party. Available
-  tags include: Policymaking process, Agriculture, Artificial intelligence,
-  Public health, K-12 science education.</p>
+  <p>This webpage houses the responses to {{ questions.size }} questions
+  crafted by the Stance on Science - Colorado team. To find candidates'
+  responses for each election, you can filter by tag, race, district, and
+  party. Available tags include: {{ question_tags | join: ", " }}.</p>
   <p>Only official candidates who will appear on ballots were contacted.</p>
   <p>To find your district and who is on your ballot, please visit the
     <a href="https://myballot.coloradosos.gov/app/home" target="_blank" rel="noopener">Colorado Secretary of State "My Ballot" website</a>.</p>
@@ -99,27 +108,19 @@ state_name: Colorado
 <section class="stance-state-questions">
   <h3>The questions posed to each candidate are:</h3>
   <ol>
-    <li>What advisory mechanisms will you implement to ensure that evidence and scientific findings play a crucial role in your policymaking process? <em>(see <strong>Policymaking Process</strong>)</em></li>
-    <li>Colorado farmers are facing multiple threats, amidst water scarcity
-      and rising prices for fertilizer and other imported materials. As
-      agriculture is our #1 export sector, in what ways do you imagine using
-      your role to support evidence-based advancements to protect and support
-      our farmers and natural resources in the years ahead?
-      <em>(see <strong>Agriculture</strong> &amp; <strong>Environment</strong>)</em></li>
-    <li>America has a growing AI industry, supporting cutting-edge innovation
-      but raising issues of resource use, privacy, and economics. What is the
-      right balance of costs and benefits for new data center construction in
-      Colorado, and how would your policies accomplish that balance?
-      <em>(see <strong>Artificial Intelligence</strong> &amp; <strong>Environment</strong>)</em></li>
-    <li>Colorado has experienced a lingering measles outbreak since March of
-      2025. What evidence-based policies do you support to improve community
-      and preventive health for your constituents, for infectious diseases
-      and other threats?
-      <em>(see <strong>Public Health</strong>)</em></li>
-    <li>What are your opinions on the current state of science literacy, and
-      how could K-12 education standards be adapted to form a better public
-      understanding of and relationship building in science?
-      <em>(see <strong>K-12 Science Education</strong> &amp; <strong>Trust in Science</strong>)</em></li>
+    {%- for q in questions -%}
+      {%- if q.tag.first -%}
+        {%- assign q_tag_list = q.tag -%}
+      {%- else -%}
+        {%- assign q_tag_list = "" | split: "" | push: q.tag -%}
+      {%- endif -%}
+      <li>{{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}
+        <em>(see
+          {%- for t in q_tag_list -%}
+            {%- unless forloop.first %} &amp;{% endunless %} <strong>{{ t }}</strong>
+          {%- endfor -%}
+        )</em></li>
+    {%- endfor -%}
   </ol>
 </section>
 

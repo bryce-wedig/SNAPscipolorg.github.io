@@ -4,8 +4,10 @@ require "date"
 module StanceResponseValidator
   FILTERS_KEY = "stance_filters".freeze
   RESPONSES_KEY = "stance_responses".freeze
+  QUESTIONS_KEY = "stance_questions".freeze
 
-  REQUIRED_FIELDS = %w[candidate state race party tag response date].freeze
+  RESPONSE_REQUIRED_FIELDS = %w[candidate state race party tag response date].freeze
+  QUESTION_REQUIRED_FIELDS = %w[question tag].freeze
 
   def self.validate(site)
     filters = site.data[FILTERS_KEY]
@@ -19,62 +21,75 @@ module StanceResponseValidator
     tag_set = valid_tags.to_set
     tag_lower = valid_tags.each_with_object({}) { |t, h| h[t.downcase] = t }
 
-    responses = site.data[RESPONSES_KEY]
-    return unless responses
-
     problems = []
 
-    responses.each do |state_slug, entries|
-      Array(entries).each_with_index do |entry, idx|
-        label = "#{state_slug}.yml[#{idx}] — #{entry.is_a?(Hash) ? (entry["candidate"] || "(unknown candidate)") : "(non-hash entry)"}"
+    responses = site.data[RESPONSES_KEY]
+    if responses
+      responses.each do |state_slug, entries|
+        Array(entries).each_with_index do |entry, idx|
+          label = "#{state_slug}.yml[#{idx}] — #{entry.is_a?(Hash) ? (entry["candidate"] || "(unknown candidate)") : "(non-hash entry)"}"
 
-        unless entry.is_a?(Hash)
-          problems << "  - #{label}: entry is not a mapping"
-          next
-        end
-
-        REQUIRED_FIELDS.each do |f|
-          if entry[f].nil? || (entry[f].is_a?(String) && entry[f].strip.empty?)
-            problems << %(  - #{label}: missing required field "#{f}")
+          unless entry.is_a?(Hash)
+            problems << "  - #{label}: entry is not a mapping"
+            next
           end
-        end
 
-        if entry["state"] && entry["state"].to_s != state_slug.to_s
-          problems << %(  - #{label}: state "#{entry["state"]}" does not match file slug "#{state_slug}")
-        end
-
-        if entry["race"] && !valid_races.include?(entry["race"])
-          problems << %(  - #{label}: race "#{entry["race"]}" is not in stance_filters.yml races)
-        end
-
-        if entry["party"] && !valid_parties.include?(entry["party"])
-          problems << %(  - #{label}: party "#{entry["party"]}" is not in stance_filters.yml parties)
-        end
-
-        district = entry["district"]
-        unless district.nil?
-          if !district.is_a?(Integer)
-            problems << %(  - #{label}: district "#{district}" is not an integer)
-          elsif district_min && district_max && (district < district_min || district > district_max)
-            problems << %(  - #{label}: district #{district} is outside range #{district_min}..#{district_max})
+          RESPONSE_REQUIRED_FIELDS.each do |f|
+            if entry[f].nil? || (entry[f].is_a?(String) && entry[f].strip.empty?)
+              problems << %(  - #{label}: missing required field "#{f}")
+            end
           end
-        end
 
-        date = entry["date"]
-        unless date.nil?
-          ok = date.is_a?(Date) || (date.is_a?(String) && (Date.parse(date) rescue nil))
-          problems << %(  - #{label}: date "#{date}" is not a valid ISO date) unless ok
-        end
-
-        tags = entry["tag"]
-        unless tags.nil?
-          tag_list = tags.is_a?(Array) ? tags : [tags]
-          tag_list.each do |tag|
-            next if tag_set.include?(tag)
-            hint = tag_lower[tag.to_s.downcase]
-            suffix = hint ? %( (did you mean "#{hint}"?)) : ""
-            problems << %(  - #{label}: tag "#{tag}" is not in stance_filters.yml tags#{suffix})
+          if entry["state"] && entry["state"].to_s != state_slug.to_s
+            problems << %(  - #{label}: state "#{entry["state"]}" does not match file slug "#{state_slug}")
           end
+
+          if entry["race"] && !valid_races.include?(entry["race"])
+            problems << %(  - #{label}: race "#{entry["race"]}" is not in stance_filters.yml races)
+          end
+
+          if entry["party"] && !valid_parties.include?(entry["party"])
+            problems << %(  - #{label}: party "#{entry["party"]}" is not in stance_filters.yml parties)
+          end
+
+          district = entry["district"]
+          unless district.nil?
+            if !district.is_a?(Integer)
+              problems << %(  - #{label}: district "#{district}" is not an integer)
+            elsif district_min && district_max && (district < district_min || district > district_max)
+              problems << %(  - #{label}: district #{district} is outside range #{district_min}..#{district_max})
+            end
+          end
+
+          date = entry["date"]
+          unless date.nil?
+            ok = date.is_a?(Date) || (date.is_a?(String) && (Date.parse(date) rescue nil))
+            problems << %(  - #{label}: date "#{date}" is not a valid ISO date) unless ok
+          end
+
+          validate_tags(label, entry["tag"], tag_set, tag_lower, problems)
+        end
+      end
+    end
+
+    questions = site.data[QUESTIONS_KEY]
+    if questions
+      questions.each do |state_slug, entries|
+        Array(entries).each_with_index do |entry, idx|
+          label = "stance_questions/#{state_slug}.yml[#{idx}]"
+
+          unless entry.is_a?(Hash)
+            problems << "  - #{label}: entry is not a mapping"
+            next
+          end
+
+          QUESTION_REQUIRED_FIELDS.each do |f|
+            if entry[f].nil? || (entry[f].is_a?(String) && entry[f].strip.empty?)
+              problems << %(  - #{label}: missing required field "#{f}")
+            end
+          end
+
+          validate_tags(label, entry["tag"], tag_set, tag_lower, problems)
         end
       end
     end
@@ -84,6 +99,17 @@ module StanceResponseValidator
     message = ["Stance response validation failed:", *problems,
                "Valid values are defined in _data/stance_filters.yml."].join("\n")
     raise message
+  end
+
+  def self.validate_tags(label, tags, tag_set, tag_lower, problems)
+    return if tags.nil?
+    tag_list = tags.is_a?(Array) ? tags : [tags]
+    tag_list.each do |tag|
+      next if tag_set.include?(tag)
+      hint = tag_lower[tag.to_s.downcase]
+      suffix = hint ? %( (did you mean "#{hint}"?)) : ""
+      problems << %(  - #{label}: tag "#{tag}" is not in stance_filters.yml tags#{suffix})
+    end
   end
 end
 
