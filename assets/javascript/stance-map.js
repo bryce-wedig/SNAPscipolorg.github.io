@@ -59,7 +59,6 @@
     var svg = d3.select(container).append("svg")
       .attr("viewBox", "0 0 " + width + " " + height)
       .attr("width", "100%")
-      .attr("height", "auto")
       .attr("preserveAspectRatio", "xMidYMid meet")
       .attr("class", "stance-map__svg")
       .attr("role", "img")
