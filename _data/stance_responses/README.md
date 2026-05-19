@@ -3,6 +3,8 @@
 Each entry is one response from one candidate, classified by one or more
 tags. A candidate addressing multiple tags appears in multiple entries.
 
+Note that if any of these fields are invalid (e.g., not present in _data/stance_filters.yml)
+
 ## Fields
 - `candidate`: full name
 - `state`: two-letter USPS code, lowercase ("ca"). Redundant with the file name, but kept on each row so it survives when the JSON feed is denormalized.
