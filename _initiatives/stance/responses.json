@@ -1,0 +1,62 @@
+---
+layout: stance_raw
+permalink: /initiatives/stance-on-science/responses.json
+sitemap: false
+---
+{%- comment -%}
+  Flat JSON feed of every candidate response. Consumed by stance-search.js.
+  Iterates the per-state response files (_data/stance_responses/*.yml) as a
+  hash and looks up each state's display name + URL by finding the matching
+  state page in `site.initiatives` (the one whose `state` front matter equals
+  the YAML file's basename).
+{%- endcomment -%}
+{
+  "responses": [
+    {%- assign first = true -%}
+    {%- for pair in site.data.stance_responses -%}
+      {%- assign state_code = pair[0] -%}
+      {%- assign rows = pair[1] -%}
+      {%- assign state_page = site.initiatives | where: "state", state_code | first -%}
+      {%- assign state_display = state_page.state_name | default: state_code -%}
+      {%- for r in rows -%}
+        {%- unless first -%},{%- endunless -%}
+        {%- assign first = false -%}
+        {
+          "candidate": {{ r.candidate | jsonify }},
+          "state": {{ state_code | jsonify }},
+          "state_name": {{ state_display | jsonify }},
+          "race": {{ r.race | jsonify }},
+          "district": {% if r.district %}{{ r.district }}{% else %}null{% endif %},
+          "party": {{ r.party | jsonify }},
+          "question": {{ r.question | jsonify }},
+          "date": {{ r.date | date: "%Y-%m-%d" | jsonify }},
+          "response_md": {{ r.response | jsonify }},
+          "response_html": {{ r.response | markdownify | jsonify }}
+        }
+      {%- endfor -%}
+    {%- endfor -%}
+  ],
+  "filters": {
+    "questions": {{ site.data.stance_filters.questions | jsonify }},
+    "races": {{ site.data.stance_filters.races | jsonify }},
+    "parties": {{ site.data.stance_filters.parties | jsonify }},
+    "district_min": {{ site.data.stance_filters.district_min | default: 1 }},
+    "district_max": {{ site.data.stance_filters.district_max | default: 52 }}
+  },
+  "states": {
+    {%- assign first_state = true -%}
+    {%- for pair in site.data.stance_responses -%}
+      {%- assign state_code = pair[0] -%}
+      {%- assign rows = pair[1] -%}
+      {%- if rows and rows.size > 0 -%}
+        {%- assign state_page = site.initiatives | where: "state", state_code | first -%}
+        {%- unless first_state -%},{%- endunless -%}
+        {%- assign first_state = false -%}
+        {{ state_code | jsonify }}: {
+          "name": {{ state_page.state_name | default: state_code | jsonify }},
+          "url": {{ '/initiatives/stance-on-science/states/' | append: state_code | relative_url | jsonify }}
+        }
+      {%- endif -%}
+    {%- endfor -%}
+  }
+}

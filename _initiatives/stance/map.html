@@ -1,0 +1,69 @@
+---
+layout: gridlay
+title: "Stance on Science — Map"
+excerpt: "Browse Stance on Science candidate responses by state."
+collection: initiatives
+permalink: /initiatives/stance-on-science/map
+sitemap: true
+---
+{%- comment -%}
+  Build the list of active state codes from the keys of
+  site.data.stance_responses (one YAML file per state under
+  _data/stance_responses/). A state counts as active only if it has at least
+  one response published AND a state page exists for it (with matching `state`
+  front matter).
+{%- endcomment -%}
+{%- assign active_csv = "" -%}
+{%- for pair in site.data.stance_responses -%}
+  {%- assign code = pair[0] -%}
+  {%- assign rows = pair[1] -%}
+  {%- if rows and rows.size > 0 -%}
+    {%- if active_csv == "" -%}
+      {%- assign active_csv = code -%}
+    {%- else -%}
+      {%- assign active_csv = active_csv | append: "," | append: code -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if active_csv == "" -%}
+  {%- assign active_states = "" | split: "," -%}
+{%- else -%}
+  {%- assign active_states = active_csv | split: "," -%}
+{%- endif -%}
+
+<h1>Stance on Science by State</h1>
+
+<p>Click an <strong style="color:#E89142">orange</strong> state to view
+candidate responses from that state's Stance on Science team.</p>
+
+<div class="stance-map" id="stance-map" role="img" aria-label="Map of the United States showing states with Stance on Science candidate responses highlighted in orange.">
+  <noscript>
+    <p><em>This map requires JavaScript to display. Browse responses directly:</em></p>
+    <ul>
+      {%- for code in active_states -%}
+        {%- assign sp = site.initiatives | where: "state", code | first -%}
+        {%- if sp -%}
+          <li><a href="{{ sp.url | relative_url }}">{{ sp.state_name | default: code | upcase }}</a></li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </noscript>
+</div>
+
+<p class="stance-map-legend">
+  <span class="stance-map-legend__swatch stance-map-legend__swatch--active"></span> States with published responses
+  &nbsp;&nbsp;
+  <span class="stance-map-legend__swatch stance-map-legend__swatch--inactive"></span> No responses yet
+</p>
+
+<p>Looking for a specific question, race, district, or party? Try the
+<a href="{{ '/initiatives/stance-on-science/search' | relative_url }}">global search page</a>
+or visit a state's page directly to filter within that state.</p>
+
+<script>
+  window.STANCE_ACTIVE_STATES = JSON.parse('{{ active_states | jsonify }}');
+  window.STANCE_STATES_URL = "{{ '/initiatives/stance-on-science/states/' | relative_url }}";
+</script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+<script src="{{ '/assets/javascript/stance-map.js' | relative_url }}"></script>

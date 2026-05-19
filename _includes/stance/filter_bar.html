@@ -1,0 +1,96 @@
+{%- comment -%}
+  Renders a four-control filter bar (question / race / district / party).
+
+  Inputs:
+    include.scope     — "state" or "global". When "state", the option lists are
+                        narrowed to values that appear in include.responses.
+    include.responses — the array of stance_responses entries the filters apply
+                        to (used to prune options when scope == "state").
+    include.id_prefix — element id prefix, e.g. "state-filters" or
+                        "search-filters". Lets the same page host multiple bars
+                        if ever needed.
+{%- endcomment -%}
+{%- assign filters = site.data.stance_filters -%}
+{%- assign responses = include.responses -%}
+{%- assign id_prefix = include.id_prefix | default: "stance-filters" -%}
+
+{%- if include.scope == "state" -%}
+  {%- assign present_questions = "" | split: "|||NONE|||" -%}
+  {%- for r in responses -%}
+    {%- if r.question.first -%}
+      {%- assign present_questions = present_questions | concat: r.question -%}
+    {%- else -%}
+      {%- assign one_q = r.question | split: "|||NONE|||" -%}
+      {%- assign present_questions = present_questions | concat: one_q -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign present_questions = present_questions | uniq -%}
+  {%- assign present_races = responses | map: "race" | uniq -%}
+  {%- assign present_districts = responses | map: "district" | uniq | compact -%}
+  {%- assign present_parties = responses | map: "party" | uniq -%}
+{%- else -%}
+  {%- assign present_questions = filters.questions -%}
+  {%- assign present_races = filters.races -%}
+  {%- assign present_parties = filters.parties -%}
+{%- endif -%}
+
+<div class="stance-filter-bar" id="{{ id_prefix }}">
+  <div class="stance-filter-bar__row">
+    <label class="stance-filter">
+      <span class="stance-filter__label">Question</span>
+      <select data-filter="question">
+        <option value="">All questions</option>
+        {%- for q in filters.questions -%}
+          {%- if include.scope != "state" or present_questions contains q -%}
+            <option value="{{ q | escape }}">{{ q }}</option>
+          {%- endif -%}
+        {%- endfor -%}
+      </select>
+    </label>
+
+    <label class="stance-filter">
+      <span class="stance-filter__label">Race</span>
+      <select data-filter="race">
+        <option value="">All races</option>
+        {%- for race in filters.races -%}
+          {%- if include.scope != "state" or present_races contains race -%}
+            <option value="{{ race | escape }}">{{ race }}</option>
+          {%- endif -%}
+        {%- endfor -%}
+      </select>
+    </label>
+
+    <label class="stance-filter">
+      <span class="stance-filter__label">District</span>
+      <select data-filter="district">
+        <option value="">All districts</option>
+        {%- if include.scope == "state" -%}
+          {%- assign sorted_districts = present_districts | sort -%}
+          {%- for d in sorted_districts -%}
+            <option value="{{ d }}">{{ d }}</option>
+          {%- endfor -%}
+        {%- else -%}
+          {%- assign dmin = filters.district_min | default: 1 -%}
+          {%- assign dmax = filters.district_max | default: 52 -%}
+          {%- for d in (dmin..dmax) -%}
+            <option value="{{ d }}">{{ d }}</option>
+          {%- endfor -%}
+        {%- endif -%}
+      </select>
+    </label>
+
+    <label class="stance-filter">
+      <span class="stance-filter__label">Party</span>
+      <select data-filter="party">
+        <option value="">All parties</option>
+        {%- for party in filters.parties -%}
+          {%- if include.scope != "state" or present_parties contains party -%}
+            <option value="{{ party | escape }}">{{ party }}</option>
+          {%- endif -%}
+        {%- endfor -%}
+      </select>
+    </label>
+
+    <button type="button" class="stance-filter__reset" data-filter-reset>Reset</button>
+  </div>
+</div>
