@@ -3,19 +3,19 @@
 # district number range. All Stance pages read from this file.
 
 tags:
-  - Public health
+  - Public Health
   - Environment
   - Agriculture
   - Climate
   - Energy
-  - Artificial intelligence
-  - K-12 science education
-  - Investment in higher education
-  - Jobs and workforce
-  - Science diplomacy
-  - Trust in science
-  - Science funding
-  - Policymaking process
+  - Artificial Intelligence
+  - K-12 Science Education
+  - Investment in Higher Education
+  - Jobs and Workforce
+  - Science Diplomacy
+  - Trust in Science
+  - Science Funding
+  - Policymaking Process
   - Transportation
 
 races:
