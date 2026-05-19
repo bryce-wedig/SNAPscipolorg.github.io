@@ -7,16 +7,16 @@
 {%- endcomment -%}
 {%- assign r = include.r -%}
 {%- assign district_attr = r.district | default: "" -%}
-{%- if r.question.first -%}
-  {%- assign question_list = r.question -%}
+{%- if r.tag.first -%}
+  {%- assign tag_list = r.tag -%}
 {%- else -%}
-  {%- assign question_list = r.question | split: "|||NONE|||" -%}
+  {%- assign tag_list = r.tag | split: "|||NONE|||" -%}
 {%- endif -%}
-{%- assign question_attr = question_list | join: "|" -%}
+{%- assign tag_attr = tag_list | join: "|" -%}
 <article class="stance-response-card"
          data-candidate="{{ r.candidate | downcase | escape }}"
          data-state="{{ r.state | downcase }}"
-         data-question="{{ question_attr | escape }}"
+         data-tag="{{ tag_attr | escape }}"
          data-race="{{ r.race | escape }}"
          data-district="{{ district_attr }}"
          data-party="{{ r.party | escape }}">
@@ -33,8 +33,8 @@
       {%- if r.party -%}
         <span class="stance-badge stance-badge--party">{{ r.party }}</span>
       {%- endif -%}
-      {%- for q in question_list -%}
-        <span class="stance-badge stance-badge--question">{{ q }}</span>
+      {%- for q in tag_list -%}
+        <span class="stance-badge stance-badge--tag">{{ q }}</span>
       {%- endfor -%}
     </div>
   </header>

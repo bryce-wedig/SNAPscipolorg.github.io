@@ -1,5 +1,5 @@
 {%- comment -%}
-  Renders a four-control filter bar (question / race / district / party).
+  Renders a four-control filter bar (tag / race / district / party).
 
   Inputs:
     include.scope     — "state" or "global". When "state", the option lists are
@@ -15,21 +15,21 @@
 {%- assign id_prefix = include.id_prefix | default: "stance-filters" -%}
 
 {%- if include.scope == "state" -%}
-  {%- assign present_questions = "" | split: "|||NONE|||" -%}
+  {%- assign present_tags = "" | split: "|||NONE|||" -%}
   {%- for r in responses -%}
-    {%- if r.question.first -%}
-      {%- assign present_questions = present_questions | concat: r.question -%}
+    {%- if r.tag.first -%}
+      {%- assign present_tags = present_tags | concat: r.tag -%}
     {%- else -%}
-      {%- assign one_q = r.question | split: "|||NONE|||" -%}
-      {%- assign present_questions = present_questions | concat: one_q -%}
+      {%- assign one_t = r.tag | split: "|||NONE|||" -%}
+      {%- assign present_tags = present_tags | concat: one_t -%}
     {%- endif -%}
   {%- endfor -%}
-  {%- assign present_questions = present_questions | uniq -%}
+  {%- assign present_tags = present_tags | uniq -%}
   {%- assign present_races = responses | map: "race" | uniq -%}
   {%- assign present_districts = responses | map: "district" | uniq | compact -%}
   {%- assign present_parties = responses | map: "party" | uniq -%}
 {%- else -%}
-  {%- assign present_questions = filters.questions -%}
+  {%- assign present_tags = filters.tags -%}
   {%- assign present_races = filters.races -%}
   {%- assign present_parties = filters.parties -%}
 {%- endif -%}
@@ -37,12 +37,12 @@
 <div class="stance-filter-bar" id="{{ id_prefix }}">
   <div class="stance-filter-bar__row">
     <label class="stance-filter">
-      <span class="stance-filter__label">Question</span>
-      <select data-filter="question">
-        <option value="">All questions</option>
-        {%- for q in filters.questions -%}
-          {%- if include.scope != "state" or present_questions contains q -%}
-            <option value="{{ q | escape }}">{{ q }}</option>
+      <span class="stance-filter__label">Tag</span>
+      <select data-filter="tag">
+        <option value="">All tags</option>
+        {%- for t in filters.tags -%}
+          {%- if include.scope != "state" or present_tags contains t -%}
+            <option value="{{ t | escape }}">{{ t }}</option>
           {%- endif -%}
         {%- endfor -%}
       </select>

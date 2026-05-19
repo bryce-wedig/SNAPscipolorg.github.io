@@ -28,7 +28,7 @@ sitemap: false
           "race": {{ r.race | jsonify }},
           "district": {% if r.district %}{{ r.district }}{% else %}null{% endif %},
           "party": {{ r.party | jsonify }},
-          "question": {{ r.question | jsonify }},
+          "tag": {{ r.tag | jsonify }},
           "date": {{ r.date | date: "%Y-%m-%d" | jsonify }},
           "response_md": {{ r.response | jsonify }},
           "response_html": {{ r.response | markdownify | jsonify }}
@@ -37,7 +37,7 @@ sitemap: false
     {%- endfor -%}
   ],
   "filters": {
-    "questions": {{ site.data.stance_filters.questions | jsonify }},
+    "tags": {{ site.data.stance_filters.tags | jsonify }},
     "races": {{ site.data.stance_filters.races | jsonify }},
     "parties": {{ site.data.stance_filters.parties | jsonify }},
     "district_min": {{ site.data.stance_filters.district_min | default: 1 }},

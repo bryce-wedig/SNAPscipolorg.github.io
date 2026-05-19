@@ -8,7 +8,7 @@
 (function () {
   "use strict";
 
-  var FILTER_KEYS = ["question", "race", "district", "party", "state"];
+  var FILTER_KEYS = ["tag", "race", "district", "party", "state"];
 
   function toArray(v) {
     if (v == null) return [];
@@ -30,8 +30,8 @@
     var partyHtml = r.party
       ? '<span class="stance-badge stance-badge--party">' + escapeHtml(r.party) + "</span>"
       : "";
-    var questionHtml = toArray(r.question).map(function (q) {
-      return '<span class="stance-badge stance-badge--question">' + escapeHtml(q) + "</span>";
+    var tagHtml = toArray(r.tag).map(function (t) {
+      return '<span class="stance-badge stance-badge--tag">' + escapeHtml(t) + "</span>";
     }).join("");
     var dateHtml = "";
     if (r.date) {
@@ -52,7 +52,7 @@
               escapeHtml(stateMeta.url) + '">' + escapeHtml(stateMeta.name) + "</a></span>" +
             '<span class="stance-badge stance-badge--race">' + escapeHtml(r.race) + escapeHtml(districtLabel) + "</span>" +
             partyHtml +
-            questionHtml +
+            tagHtml +
           "</div>" +
         "</header>" +
         '<div class="stance-response-card__body">' + r.response_html + "</div>" +
@@ -130,14 +130,14 @@
           var state = currentState();
           var ql = state.q.toLowerCase();
           var visible = responses.filter(function (r) {
-            if (state.question && toArray(r.question).indexOf(state.question) === -1) return false;
+            if (state.tag && toArray(r.tag).indexOf(state.tag) === -1) return false;
             if (state.race && r.race !== state.race) return false;
             if (state.district && String(r.district) !== String(state.district)) return false;
             if (state.party && r.party !== state.party) return false;
             if (state.state && r.state !== state.state) return false;
             if (ql) {
               var hay = (r.candidate + " " + (states[r.state] && states[r.state].name || r.state) +
-                         " " + r.race + " " + toArray(r.question).join(" ") + " " + (r.response_md || "")).toLowerCase();
+                         " " + r.race + " " + toArray(r.tag).join(" ") + " " + (r.response_md || "")).toLowerCase();
               if (hay.indexOf(ql) === -1) return false;
             }
             return true;

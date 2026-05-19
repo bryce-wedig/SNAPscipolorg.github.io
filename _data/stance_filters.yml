@@ -1,8 +1,8 @@
 # Master filter configuration for the Stance on Science search and per-state
-# pages. Update this file to add new question tags, races, parties, or to
-# change the district number range. All Stance pages read from this file.
+# pages. Update this file to add new tags, races, parties, or to change the
+# district number range. All Stance pages read from this file.
 
-questions:
+tags:
   - Public health
   - Environment
   - Agriculture

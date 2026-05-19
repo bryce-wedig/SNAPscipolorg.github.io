@@ -25,8 +25,8 @@
       cards.forEach(function (card) {
         var match = true;
         Object.keys(filters).forEach(function (key) {
-          if (key === "question") {
-            var tags = (card.dataset.question || "").split("|");
+          if (key === "tag") {
+            var tags = (card.dataset.tag || "").split("|");
             if (tags.indexOf(filters[key]) === -1) match = false;
           } else if (card.dataset[key] !== filters[key]) {
             match = false;
