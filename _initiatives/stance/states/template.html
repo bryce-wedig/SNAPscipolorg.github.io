@@ -2,8 +2,9 @@
 # ────────────────────────────────────────────────────────────────────────────
 # Stance on Science — state page TEMPLATE
 #
-# This file does NOT render on the live site because of `published: false`
-# below. To create a new state page:
+# This file temporarily renders at /initiatives/stance-on-science/states/xx. 
+#
+# To create a new state page:
 #
 #   1. Copy this file to `<state-code>.html` (use the lowercase USPS code,
 #      e.g. `ny.html`, `tx.html`).
@@ -31,7 +32,7 @@ permalink: /initiatives/stance-on-science/states/xx   # TODO: replace xx with US
 sitemap: true
 state: xx                                 # TODO: lowercase USPS code
 state_name: TODO State Name               # TODO: full state name
-published: false                          # TODO: delete this line (or set to true) to publish
+published: true                          # TODO: delete this line (or set to true) to publish
 ---
 {%- assign responses = site.data.stance_responses[page.state] | default: empty -%}
 
@@ -60,7 +61,7 @@ published: false                          # TODO: delete this line (or set to tr
   included. None of the candidates' responses were modified in any way before
   being published on this resource page.</p>
 
-  <p>For the <strong>TODO election cycle</strong>, only candidates in the
+  <p><u>For the <strong>TODO election cycle</strong></u>, only candidates in the
   following elections were contacted:</p>
   <ul>
     <li>TODO Contacted Race 1</li>
@@ -71,8 +72,8 @@ published: false                          # TODO: delete this line (or set to tr
 <section class="stance-state-questions">
   <h3>The questions posed to each candidate</h3>
   <ol>
-    <li>TODO question 1. <em>(see "TODO TAG")</em></li>
-    <li>TODO question 2. <em>(see "TODO TAG")</em></li>
+    <li>TODO question 1. <em>(see <strong>TODO TAG</strong>)</em></li>
+    <li>TODO question 2. <em>(see <strong>TODO TAG</strong>)</em></li>
   </ol>
 </section>
 
@@ -82,8 +83,8 @@ published: false                          # TODO: delete this line (or set to tr
   views of TODO Stance on Science or the Scientist Network for Advancing
   Policy (SNAP) Coalition. SNAP is a non-partisan organization (please see
   more about SNAP <a href="{{ '/about/' | relative_url }}">here</a>).
-  <strong>SNAP and TODO Stance on Science do not endorse any
-  candidates.</strong> The goals of this initiative can be found
+  <u>SNAP and TODO Stance on Science do not endorse any
+  candidates.</u> The goals of this initiative can be found
   <a href="{{ '/initiatives/stance-on-science' | relative_url }}">here</a>.
   Please contact <a href="mailto:TODO@example.com">TODO@example.com</a> with
   any questions.</p>
