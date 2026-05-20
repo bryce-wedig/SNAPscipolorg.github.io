@@ -1,0 +1,9 @@
+- candidate: [candidate]
+  state: [state]
+  race: [race]
+  district: [district]
+  party: [party]
+  question: [question]
+  date: 
+  response: |
+    [response]
