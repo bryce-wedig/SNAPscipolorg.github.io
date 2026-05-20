@@ -82,6 +82,14 @@ initiatives_category:
   upcoming:
     title: 'Upcoming Initiatives'
 
+# Sass
+sass:
+  silence_deprecations:
+    - mixed-decls
+    - import
+    - global-builtin
+    - color-functions
+
 # Conversion
 markdown: kramdown
 highlighter: rouge
