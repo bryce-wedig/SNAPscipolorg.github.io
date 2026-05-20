@@ -3,38 +3,38 @@
 # district number range. All Stance pages read from this file.
 
 tags:
-  - Public Health
-  - Environment
   - Agriculture
+  - Artificial Intelligence
   - Climate
   - Energy
-  - Artificial Intelligence
-  - K-12 Science Education
+  - Environment
   - Investment in Higher Education
   - Jobs and Workforce
-  - Science Diplomacy
-  - Trust in Science
-  - Science Funding
+  - K-12 Science Education
   - Policymaking Process
+  - Public Health
+  - Science Diplomacy
+  - Science Funding
   - Transportation
+  - Trust in Science
 
 races:
-  - US Senate
-  - US House of Representatives
-  - Governor
-  - Secretary of State
   - Attorney General
-  - State Board of Education
-  - University Board of Regents
-  - State Senate
-  - State House of Representatives
+  - Governor
   - Mayor
+  - Secretary of State
+  - State Board of Education
+  - State House of Representatives
+  - State Senate
+  - University Board of Regents
+  - US House of Representatives
+  - US Senate
 
 parties:
   - Democratic
+  - Libertarian
   - Republican
   - Unity
-  - Libertarian
 
 district_min: 1
 district_max: 52
