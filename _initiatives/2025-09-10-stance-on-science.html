@@ -55,6 +55,7 @@ permalink: /initiatives/stance-on-science
 {%- assign active_csv = "" -%}
 {%- for pair in site.data.stance_responses -%}
   {%- assign code = pair[0] -%}
+  {%- if code == "_blank" -%}{%- continue -%}{%- endif -%}
   {%- assign rows = pair[1] -%}
   {%- if rows and rows.size > 0 -%}
     {%- if active_csv == "" -%}
@@ -99,6 +100,7 @@ candidate responses from that state's Stance on Science team. <a href="{{ '/init
 <ul>
   {%- assign published_csv = "" -%}
     {%- for pair in site.data.stance_responses -%}
+      {%- if pair[0] == "_blank" -%}{%- continue -%}{%- endif -%}
       {%- if pair[1] and pair[1].size > 0 -%}
         {%- if published_csv == "" -%}
           {%- assign published_csv = pair[0] -%}
