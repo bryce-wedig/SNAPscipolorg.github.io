@@ -6,7 +6,7 @@ module StanceResponseValidator
   RESPONSES_KEY = "stance_responses".freeze
   QUESTIONS_KEY = "stance_questions".freeze
 
-  RESPONSE_REQUIRED_FIELDS = %w[candidate state race party question response date].freeze
+  RESPONSE_REQUIRED_FIELDS = %w[candidate state race party question response].freeze
   QUESTION_REQUIRED_FIELDS = %w[id question tag].freeze
 
   def self.validate(site)
