@@ -10,6 +10,14 @@ sitemap: true
 # at _data/stance_responses/co.yml.
 state: co
 state_name: Colorado
+team_name: Stance on Science - Colorado
+team_email: stanceonsciencecolorado@gmail.com
+last_updated: 2026-05-18
+ballot_lookup_url: https://myballot.coloradosos.gov/app/home
+ballot_lookup_label: Colorado Secretary of State "My Ballot" website
+instagram_url: https://www.instagram.com/stanceonsciencecolorado/
+x_url: https://x.com/StanceCO
+bluesky_url: https://bsky.app/profile/stanceonsciencecolorado.bsky.social
 ---
 {%- assign responses = site.data.stance_responses[page.state] | default: empty -%}
 {%- assign questions = site.data.stance_questions[page.state] | default: empty -%}
@@ -26,21 +34,21 @@ state_name: Colorado
 <header class="stance-state-header">
   <h1>Colorado Candidate Page</h1>
   <p>
-    Created by the Stance on Science - Colorado team.<br/>
-    Please contact <a href="mailto:stanceonsciencecolorado@gmail.com">stanceonsciencecolorado@gmail.com</a> with any questions.
+    Created by the {{ page.team_name }} team.<br/>
+    Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> with any questions.
   </p>
-  <p><em>Last updated: May 18, 2026</em></p>
+  <p><em>Last updated: {{ page.last_updated | date: "%B %-d, %Y" }}</em></p>
 </header>
 
 <section class="stance-state-howto">
   <h2>How to use this resource</h2>
   <p>This webpage houses the responses to {{ questions.size }} questions
-  crafted by the Stance on Science - Colorado team. To find candidates'
+  crafted by the {{ page.team_name }} team. To find candidates'
   responses for each election, you can filter by tag, race, district, and
   party. Available tags include: {{ question_tags | join: ", " }}.</p>
   <p>Only official candidates who will appear on ballots were contacted.</p>
   <p>To find your district and who is on your ballot, please visit the
-    <a href="https://myballot.coloradosos.gov/app/home" target="_blank" rel="noopener">Colorado Secretary of State "My Ballot" website</a>.</p>
+    <a href="{{ page.ballot_lookup_url }}" target="_blank" rel="noopener">{{ page.ballot_lookup_label }}</a>.</p>
   <p>Candidates were contacted in May 2026 (with a follow-up to those who did
   not initially respond) and given the opportunity to answer all five
   questions. Only the responses of candidates who answered the questions are
@@ -127,13 +135,13 @@ state_name: Colorado
 <section class="stance-state-disclaimer">
   <h3>Disclaimer</h3>
   <p>The responses of candidates shared on this webpage do not reflect the
-  views of the Stance on Science - Colorado team or the Scientist Network for
+  views of the {{ page.team_name }} team or the Scientist Network for
   Advancing Policy (SNAP) Coalition. SNAP is a non-partisan organization
   (please see more about SNAP <a href="{{ '/about/' | relative_url }}">here</a>).
-  <u>SNAP and the Stance on Science Colorado team do not endorse any
+  <u>SNAP and the {{ page.team_name }} team do not endorse any
   candidates.</u> The goals of this initiative can be found
   <a href="{{ '/initiatives/stance-on-science' | relative_url }}">here</a>.
-  Please contact <a href="mailto:stanceonsciencecolorado@gmail.com">stanceonsciencecolorado@gmail.com</a>
+  Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a>
   with any questions.</p>
 </section>
 
@@ -167,13 +175,31 @@ state_name: Colorado
   {%- endif -%}
 </section>
 
+{%- assign socials = "" | split: "" -%}
+{%- if page.instagram_url -%}
+  {%- capture _ig -%}<a href="{{ page.instagram_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _ig -%}
+{%- endif -%}
+{%- if page.x_url -%}
+  {%- capture _x -%}<a href="{{ page.x_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i> X</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _x -%}
+{%- endif -%}
+{%- if page.bluesky_url -%}
+  {%- capture _bs -%}<a href="{{ page.bluesky_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky"></i> Bluesky</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _bs -%}
+{%- endif -%}
+{%- if socials.size > 0 %}
 <footer class="stance-state-socials">
-  <p>Follow Stance on Science - Colorado on
-    <a href="https://www.instagram.com/stanceonsciencecolorado/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a>,
-    <a href="https://x.com/StanceCO" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i> X</a>,
-    and
-    <a href="https://bsky.app/profile/stanceonsciencecolorado.bsky.social" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky"></i> Bluesky</a>.
+  <p>Follow {{ page.team_name }} on
+    {%- for s in socials -%}
+      {%- if forloop.first %} {{ s }}
+      {%- elsif forloop.last -%}
+        {%- if socials.size > 2 %}, and {% else %} and {% endif -%}{{ s }}
+      {%- else %}, {{ s }}
+      {%- endif -%}
+    {%- endfor -%}.
   </p>
 </footer>
+{%- endif %}
 
 <script src="{{ '/assets/javascript/stance-filters.js' | relative_url }}"></script>
