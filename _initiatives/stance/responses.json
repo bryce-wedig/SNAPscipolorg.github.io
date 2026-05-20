@@ -18,7 +18,14 @@ sitemap: false
       {%- assign rows = pair[1] -%}
       {%- assign state_page = site.initiatives | where: "state", state_code | first -%}
       {%- assign state_display = state_page.state_name | default: state_code -%}
+      {%- assign state_questions = site.data.stance_questions[state_code] -%}
       {%- for r in rows -%}
+        {%- assign linked_question = state_questions | where: "id", r.question | first -%}
+        {%- if linked_question.tag.first -%}
+          {%- assign q_tags = linked_question.tag -%}
+        {%- else -%}
+          {%- assign q_tags = linked_question.tag | split: "|||NONE|||" -%}
+        {%- endif -%}
         {%- unless first -%},{%- endunless -%}
         {%- assign first = false -%}
         {
@@ -28,7 +35,8 @@ sitemap: false
           "race": {{ r.race | jsonify }},
           "district": {% if r.district %}{{ r.district }}{% else %}null{% endif %},
           "party": {{ r.party | jsonify }},
-          "tag": {{ r.tag | jsonify }},
+          "tag": {{ q_tags | jsonify }},
+          "question_html": {{ linked_question.question | markdownify | jsonify }},
           "date": {{ r.date | date: "%Y-%m-%d" | jsonify }},
           "response_md": {{ r.response | jsonify }},
           "response_html": {{ r.response | markdownify | jsonify }}

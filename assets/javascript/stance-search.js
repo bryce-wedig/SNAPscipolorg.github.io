@@ -55,7 +55,14 @@
             tagHtml +
           "</div>" +
         "</header>" +
-        '<div class="stance-response-card__body">' + r.response_html + "</div>" +
+        '<div class="stance-response-card__body">' +
+          (r.question_html
+            ? '<p class="stance-response-card__question"><em>' +
+                r.question_html.replace(/^<p>/, "").replace(/<\/p>\s*$/, "").trim() +
+              "</em></p>"
+            : "") +
+          r.response_html +
+        "</div>" +
         dateHtml +
       "</article>"
     );
