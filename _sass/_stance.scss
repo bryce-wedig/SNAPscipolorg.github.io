@@ -210,10 +210,14 @@ $stance-gray-bg: #f6f6f6;
   }
 
   &--race,
-  &--tag,
   &--party {
     background: #e6ecf2;
     color: #213863;
+  }
+
+  &--tag {
+    background: $stance-orange;
+    color: #fff;
   }
 }
 
