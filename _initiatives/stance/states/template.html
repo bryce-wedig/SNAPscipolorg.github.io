@@ -13,14 +13,18 @@
 #   3. Edit the body — the boilerplate below mirrors the California and
 #      Colorado pages, but you can change anything. Each state team controls
 #      its own copy.
-#   4. Add `_data/stance_responses/<state-code>.yml` with the candidate
-#      responses. Until that file exists, the page will show "no responses
-#      yet" automatically.
-#   5. Add `_data/stance_questions/<state-code>.yml` with the questions
-#      posed to each candidate. Each entry has a `question` (markdown) and
-#      a `tag` (a single tag or list of tags from
-#      _data/stance_filters.yml). The question list and "available tags"
-#      sentence on this page are rendered from that file.
+#   4. Add `_data/stance_questions/<state-code>.yml` with the questions
+#      posed to each candidate. Each entry has a unique `id` (e.g. `q1`,
+#      `q2`), a `question` (markdown), and a `tag` (a single tag or list
+#      of tags from _data/stance_filters.yml). The question list and
+#      "available tags" sentence on this page are rendered from that file.
+#   5. Add `_data/stance_responses/<state-code>.yml` with the candidate
+#      responses. Each response sets `question:` to one of the question
+#      ids from the file above — that link is how the card knows which
+#      question to display and which tag(s) to apply. Responses do not
+#      carry their own `tag` field; tags come from the linked question.
+#      Until this file exists, the page will show "no responses yet"
+#      automatically.
 #
 # Required front matter:
 #   state       — lowercase USPS code, must match the YAML file under

@@ -7,10 +7,12 @@
 {%- endcomment -%}
 {%- assign r = include.r -%}
 {%- assign district_attr = r.district | default: "" -%}
-{%- if r.tag.first -%}
-  {%- assign tag_list = r.tag -%}
+{%- assign state_questions = site.data.stance_questions[r.state] -%}
+{%- assign linked_question = state_questions | where: "id", r.question | first -%}
+{%- if linked_question.tag.first -%}
+  {%- assign tag_list = linked_question.tag -%}
 {%- else -%}
-  {%- assign tag_list = r.tag | split: "|||NONE|||" -%}
+  {%- assign tag_list = linked_question.tag | split: "|||NONE|||" -%}
 {%- endif -%}
 {%- assign tag_attr = tag_list | join: "|" -%}
 <article class="stance-response-card"
@@ -39,6 +41,9 @@
     </div>
   </header>
   <div class="stance-response-card__body">
+    {%- if linked_question -%}
+      <p class="stance-response-card__question"><em>{{ linked_question.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</em></p>
+    {%- endif -%}
     {{ r.response | markdownify }}
   </div>
   {%- if r.date -%}

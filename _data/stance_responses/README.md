@@ -1,16 +1,15 @@
-# Stance on Science candidate responses
+# Candidate responses
 
-Each entry is one response from one candidate, classified by one or more
-tags. A candidate addressing multiple tags appears in multiple entries.
+Each entry is one response from one candidate.
 
-Note that if any of these fields are invalid (e.g., not present in _data/stance_filters.yml)
+Note that if any of these fields are invalid (e.g., not present in _data/stance_filters.yml), the website build will fail.
 
 ## Fields
 - `candidate`: full name
 - `state`: two-letter USPS code, lowercase ("ca"). Redundant with the file name, but kept on each row so it survives when the JSON feed is denormalized.
-- `tag`: one tag (or a YAML list of tags) — each must match a value from `tags` in _data/stance_filters.yml
 - `race`: must match a value from `races` in _data/stance_filters.yml
 - `district`: integer (omit or leave null for statewide races)
 - `party`: must match a value from `parties` in _data/stance_filters.yml
-- `response`: candidate response in Markdown format
+- `question`: must match the `id` attribute on the corresponding question
 - `date`: ISO date the candidate submitted the response
+- `response`: candidate response in Markdown format

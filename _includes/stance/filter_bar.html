@@ -17,10 +17,11 @@
 {%- if include.scope == "state" -%}
   {%- assign present_tags = "" | split: "|||NONE|||" -%}
   {%- for r in responses -%}
-    {%- if r.tag.first -%}
-      {%- assign present_tags = present_tags | concat: r.tag -%}
-    {%- else -%}
-      {%- assign one_t = r.tag | split: "|||NONE|||" -%}
+    {%- assign rq = site.data.stance_questions[r.state] | where: "id", r.question | first -%}
+    {%- if rq.tag.first -%}
+      {%- assign present_tags = present_tags | concat: rq.tag -%}
+    {%- elsif rq.tag -%}
+      {%- assign one_t = rq.tag | split: "|||NONE|||" -%}
       {%- assign present_tags = present_tags | concat: one_t -%}
     {%- endif -%}
   {%- endfor -%}

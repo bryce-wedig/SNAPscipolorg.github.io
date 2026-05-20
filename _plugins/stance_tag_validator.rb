@@ -6,8 +6,8 @@ module StanceResponseValidator
   RESPONSES_KEY = "stance_responses".freeze
   QUESTIONS_KEY = "stance_questions".freeze
 
-  RESPONSE_REQUIRED_FIELDS = %w[candidate state race party tag response date].freeze
-  QUESTION_REQUIRED_FIELDS = %w[question tag].freeze
+  RESPONSE_REQUIRED_FIELDS = %w[candidate state race party question response date].freeze
+  QUESTION_REQUIRED_FIELDS = %w[id question tag].freeze
 
   def self.validate(site)
     filters = site.data[FILTERS_KEY]
@@ -23,9 +23,44 @@ module StanceResponseValidator
 
     problems = []
 
+    question_ids_by_state = {}
+    questions = site.data[QUESTIONS_KEY]
+    if questions
+      questions.each do |state_slug, entries|
+        seen_ids = {}
+        Array(entries).each_with_index do |entry, idx|
+          label = "stance_questions/#{state_slug}.yml[#{idx}]"
+
+          unless entry.is_a?(Hash)
+            problems << "  - #{label}: entry is not a mapping"
+            next
+          end
+
+          QUESTION_REQUIRED_FIELDS.each do |f|
+            if entry[f].nil? || (entry[f].is_a?(String) && entry[f].strip.empty?)
+              problems << %(  - #{label}: missing required field "#{f}")
+            end
+          end
+
+          id = entry["id"]
+          if id && !id.to_s.strip.empty?
+            if seen_ids.key?(id)
+              problems << %(  - #{label}: id "#{id}" is duplicated (also at index #{seen_ids[id]}))
+            else
+              seen_ids[id] = idx
+            end
+          end
+
+          validate_tags(label, entry["tag"], tag_set, tag_lower, problems)
+        end
+        question_ids_by_state[state_slug] = seen_ids.keys.to_set
+      end
+    end
+
     responses = site.data[RESPONSES_KEY]
     if responses
       responses.each do |state_slug, entries|
+        valid_question_ids = question_ids_by_state[state_slug] || Set.new
         Array(entries).each_with_index do |entry, idx|
           label = "#{state_slug}.yml[#{idx}] — #{entry.is_a?(Hash) ? (entry["candidate"] || "(unknown candidate)") : "(non-hash entry)"}"
 
@@ -67,29 +102,10 @@ module StanceResponseValidator
             problems << %(  - #{label}: date "#{date}" is not a valid ISO date) unless ok
           end
 
-          validate_tags(label, entry["tag"], tag_set, tag_lower, problems)
-        end
-      end
-    end
-
-    questions = site.data[QUESTIONS_KEY]
-    if questions
-      questions.each do |state_slug, entries|
-        Array(entries).each_with_index do |entry, idx|
-          label = "stance_questions/#{state_slug}.yml[#{idx}]"
-
-          unless entry.is_a?(Hash)
-            problems << "  - #{label}: entry is not a mapping"
-            next
+          question_ref = entry["question"]
+          if question_ref && !question_ref.to_s.strip.empty? && !valid_question_ids.include?(question_ref)
+            problems << %(  - #{label}: question "#{question_ref}" does not match any question id in stance_questions/#{state_slug}.yml)
           end
-
-          QUESTION_REQUIRED_FIELDS.each do |f|
-            if entry[f].nil? || (entry[f].is_a?(String) && entry[f].strip.empty?)
-              problems << %(  - #{label}: missing required field "#{f}")
-            end
-          end
-
-          validate_tags(label, entry["tag"], tag_set, tag_lower, problems)
         end
       end
     end
