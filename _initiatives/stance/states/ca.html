@@ -1,47 +1,4 @@
 ---
-# To create a new state page:
-#
-#   1. Copy this file to `<state-code>.html` (use the lowercase USPS code,
-#      e.g. `ny.html`, `tx.html`).
-#   2. Edit every front-matter field marked TODO. Most per-team strings the
-#      body needs (team name, contact email, voter-lookup link, socials,
-#      last-updated date) come from front matter — so the body should not
-#      need editing for those.
-#   3. Edit the body to describe this state's specific election cycle and
-#      contacted races. The boilerplate below mirrors the California and
-#      Colorado pages; each state team controls its own copy.
-#   4. Add `_data/stance_questions/<state-code>.yml` with the questions
-#      posed to each candidate. Each entry has a unique `id` (e.g. `q1`,
-#      `q2`), a `question` (markdown), and a `tag` (a single tag or list
-#      of tags from _data/stance_filters.yml). The question list and
-#      "available tags" sentence on this page are rendered from that file.
-#   5. Add `_data/stance_responses/<state-code>.yml` with the candidate
-#      responses. Each response sets `question:` to one of the question
-#      ids from the file above — that link is how the card knows which
-#      question to display and which tag(s) to apply. Responses do not
-#      carry their own `tag` field; tags come from the linked question.
-#      Until this file exists, the page will show "no responses yet"
-#      automatically.
-#
-# Required front matter:
-#   state               — lowercase USPS code, must match the YAML file under
-#                         _data/stance_responses/. Used by the global search/map.
-#   state_name          — display name for the state (e.g. "New York"). Used by
-#                         the global search badge and map tooltip.
-#   permalink           — must follow the pattern /initiatives/stance-on-science/states/<code>
-#   team_name           — e.g. "Stance on Science - New York". Rendered in the
-#                         header, how-to, disclaimer, and footer sentences.
-#   team_email          — contact address. Used for both the `mailto:` and
-#                         the visible link text in the header and disclaimer.
-#   last_updated        — ISO date (YYYY-MM-DD). Rendered as "Month D, YYYY".
-#   ballot_lookup_url   — link to this state's voter/district lookup tool.
-#   ballot_lookup_label — visible text for that link.
-#
-# Optional front matter (omit or leave blank to hide):
-#   instagram_url, x_url, bluesky_url
-#                       — social links shown in the footer. The footer is
-#                         hidden entirely if all three are blank.
-# ────────────────────────────────────────────────────────────────────────────
 layout: gridlay
 title: "California Stance on Science"
 excerpt: "Responses from California candidates to the Stance on Science - California questionnaire."
@@ -53,12 +10,12 @@ state_name: California
 team_name: California Stance on Science
 team_email: ca.stanceonscience@gmail.com
 last_updated: 2026-05-18
-ballot_lookup_url: TODO_URL               # TODO: voter/district lookup URL
+ballot_lookup_url: https://findyourrep.legislature.ca.gov/
 ballot_lookup_label: Find Your California Representatives
 # Socials (optional — leave blank to hide a link, or all blank to hide the footer):
-instagram_url:
+instagram_url: https://www.instagram.com/castanceonscience
 x_url:
-bluesky_url:
+bluesky_url: https://bsky.app/profile/castanceonscience.bsky.social
 published: true
 ---
 {%- assign responses = site.data.stance_responses[page.state] | default: empty -%}
