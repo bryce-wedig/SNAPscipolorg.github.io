@@ -27,6 +27,7 @@ module StanceResponseValidator
     questions = site.data[QUESTIONS_KEY]
     if questions
       questions.each do |state_slug, entries|
+        next if state_slug == "_blank"
         seen_ids = {}
         Array(entries).each_with_index do |entry, idx|
           label = "stance_questions/#{state_slug}.yml[#{idx}]"
@@ -60,6 +61,7 @@ module StanceResponseValidator
     responses = site.data[RESPONSES_KEY]
     if responses
       responses.each do |state_slug, entries|
+        next if state_slug == "_blank"
         valid_question_ids = question_ids_by_state[state_slug] || Set.new
         Array(entries).each_with_index do |entry, idx|
           label = "#{state_slug}.yml[#{idx}] — #{entry.is_a?(Hash) ? (entry["candidate"] || "(unknown candidate)") : "(non-hash entry)"}"
