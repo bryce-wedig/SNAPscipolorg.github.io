@@ -21,7 +21,7 @@ tags:
 races:
   - Attorney General
   - Governor
-  - Local Country Races [All]
+  - Local County Races [All]
   - Mayor
   - Secretary of State
   - State Board of Education
@@ -38,4 +38,4 @@ parties:
   - Unity
 
 district_min: 1
-district_max: 52
+district_max: 54
