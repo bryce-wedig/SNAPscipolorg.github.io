@@ -30,6 +30,9 @@
     var partyHtml = r.party
       ? '<span class="stance-badge stance-badge--party">' + escapeHtml(r.party) + "</span>"
       : "";
+    var countyRaceHtml = r.county_race
+      ? '<span class="stance-badge stance-badge--county-race">' + escapeHtml(r.county_race) + "</span>"
+      : "";
     var tagHtml = toArray(r.tag).map(function (t) {
       return '<span class="stance-badge stance-badge--tag">' + escapeHtml(t) + "</span>";
     }).join("");
@@ -51,6 +54,7 @@
             '<span class="stance-badge stance-badge--state"><a href="' +
               escapeHtml(stateMeta.url) + '">' + escapeHtml(stateMeta.name) + "</a></span>" +
             '<span class="stance-badge stance-badge--race">' + escapeHtml(r.race) + escapeHtml(districtLabel) + "</span>" +
+            countyRaceHtml +
             partyHtml +
             tagHtml +
           "</div>" +
@@ -144,7 +148,9 @@
             if (state.state && r.state !== state.state) return false;
             if (ql) {
               var hay = (r.candidate + " " + (states[r.state] && states[r.state].name || r.state) +
-                         " " + r.race + " " + toArray(r.tag).join(" ") + " " + (r.response_md || "")).toLowerCase();
+                         " " + r.race + " " + (r.district != null ? "district " + r.district : "") +
+                         " " + (r.county_race || "") +
+                         " " + toArray(r.tag).join(" ") + " " + (r.response_md || "")).toLowerCase();
               if (hay.indexOf(ql) === -1) return false;
             }
             return true;

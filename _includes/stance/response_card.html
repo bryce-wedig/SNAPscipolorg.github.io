@@ -21,7 +21,8 @@
          data-tag="{{ tag_attr | escape }}"
          data-race="{{ r.race | escape }}"
          data-district="{{ district_attr }}"
-         data-party="{{ r.party | escape }}">
+         data-party="{{ r.party | escape }}"
+         data-county-race="{{ r.county_race | escape }}">
   <header class="stance-response-card__header">
     <h4 class="stance-response-card__candidate">{{ r.candidate }}</h4>
     <div class="stance-response-card__meta">
@@ -32,6 +33,9 @@
         </span>
       {%- endif -%}
       <span class="stance-badge stance-badge--race">{{ r.race }}{% if r.district %} — District {{ r.district }}{% endif %}</span>
+      {%- if r.county_race -%}
+        <span class="stance-badge stance-badge--county-race">{{ r.county_race }}</span>
+      {%- endif -%}
       {%- if r.party -%}
         <span class="stance-badge stance-badge--party">{{ r.party }}</span>
       {%- endif -%}

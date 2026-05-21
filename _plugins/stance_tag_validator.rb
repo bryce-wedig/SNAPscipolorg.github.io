@@ -8,6 +8,7 @@ module StanceResponseValidator
 
   RESPONSE_REQUIRED_FIELDS = %w[candidate state race party question response].freeze
   QUESTION_REQUIRED_FIELDS = %w[id question tag].freeze
+  COUNTY_RACE_RACE = "Local County Races [All]".freeze
 
   def self.validate(site)
     filters = site.data[FILTERS_KEY]
@@ -107,6 +108,15 @@ module StanceResponseValidator
           question_ref = entry["question"]
           if question_ref && !question_ref.to_s.strip.empty? && !valid_question_ids.include?(question_ref)
             problems << %(  - #{label}: question "#{question_ref}" does not match any question id in stance_questions/#{state_slug}.yml)
+          end
+
+          race_val = entry["race"]
+          county_race_val = entry["county_race"]
+          county_race_blank = county_race_val.nil? || (county_race_val.is_a?(String) && county_race_val.strip.empty?)
+          if race_val == COUNTY_RACE_RACE && county_race_blank
+            problems << %(  - #{label}: race "#{COUNTY_RACE_RACE}" requires county_race to be populated)
+          elsif !county_race_blank && race_val != COUNTY_RACE_RACE
+            problems << %(  - #{label}: county_race "#{county_race_val}" is only allowed when race is "#{COUNTY_RACE_RACE}")
           end
         end
       end

@@ -29,6 +29,7 @@
   {%- assign present_races = responses | map: "race" | uniq -%}
   {%- assign present_districts = responses | map: "district" | uniq | compact -%}
   {%- assign present_parties = responses | map: "party" | uniq -%}
+  {%- assign present_county_races = responses | map: "county_race" | compact | uniq | sort -%}
 {%- else -%}
   {%- assign present_tags = filters.tags -%}
   {%- assign present_races = filters.races -%}
@@ -91,6 +92,18 @@
         {%- endfor -%}
       </select>
     </label>
+
+    {%- if include.scope == "state" and present_county_races.size > 0 -%}
+      <label class="stance-filter">
+        <span class="stance-filter__label">County Race</span>
+        <select data-filter="county_race">
+          <option value="">All county races</option>
+          {%- for cr in present_county_races -%}
+            <option value="{{ cr | escape }}">{{ cr }}</option>
+          {%- endfor -%}
+        </select>
+      </label>
+    {%- endif -%}
 
     <button type="button" class="stance-filter__reset" data-filter-reset>Reset</button>
   </div>

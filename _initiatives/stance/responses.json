@@ -36,6 +36,7 @@ sitemap: false
           "race": {{ r.race | jsonify }},
           "district": {% if r.district %}{{ r.district }}{% else %}null{% endif %},
           "party": {{ r.party | jsonify }},
+          "county_race": {{ r.county_race | jsonify }},
           "tag": {{ q_tags | jsonify }},
           "question_html": {{ linked_question.question | markdownify | jsonify }},
           "date": {{ r.date | date: "%Y-%m-%d" | jsonify }},

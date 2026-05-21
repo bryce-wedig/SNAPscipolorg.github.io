@@ -16,3 +16,4 @@ Required:
 Optional:
 - `district`: integer (omit or leave null for statewide races)
 - `date`: ISO date the candidate submitted the response
+- `county_race`: free-text name of the specific county-level race (e.g., "Baca County Commissioner"). Required when `race` is "Local County Races [All]", and only allowed when `race` is "Local County Races [All]". The value itself is not validated against a picklist.

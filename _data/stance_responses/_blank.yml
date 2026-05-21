@@ -4,6 +4,7 @@
   district: [district]
   party: [party]
   question: [question]
-  date: 
+  date:
+  # county_race: [optional, free-text, e.g. "Baca County Commissioner"]
   response: |
     [response]

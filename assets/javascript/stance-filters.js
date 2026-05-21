@@ -28,8 +28,9 @@
           if (key === "tag") {
             var tags = (card.dataset.tag || "").split("|");
             if (tags.indexOf(filters[key]) === -1) match = false;
-          } else if (card.dataset[key] !== filters[key]) {
-            match = false;
+          } else {
+            var attr = "data-" + key.replace(/_/g, "-");
+            if (card.getAttribute(attr) !== filters[key]) match = false;
           }
         });
         card.hidden = !match;
