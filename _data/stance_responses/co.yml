@@ -1,9 +1,9 @@
 - candidate: Kubs Lalchandani
   state: co
   race: University Board of Regents
+  district: 2
   party: Democratic
   question: co-q1
-  district: 2
   date: 05-13-2026
   response: |
      “As a tech lawyer, I'm used to bringing in experts whenever a matter turns on technical knowledge outside my own. That discipline of knowing what you don't know and getting the right specialists at the table is exactly what I'll bring to the CU Board of Regents. On every consequential decision, whether it's research policy, campus safety, financial stewardship, or academic affairs, I'll rely on qualified professionals in the relevant field to inform my judgment and shape sound policy.”
@@ -12,9 +12,9 @@
 - candidate: Kubs Lalchandani
   state: co
   race: University Board of Regents
+  district: 2
   party: Democratic
   question: co-q2
-  district: 2
   date: 05-13-2026
   response: |
       “CU Regents don't set agriculture policy, but we are involved with research priorities, and CU has real assets for Colorado's farmers: world class water and climate science at CIRES, leading water law scholarship at our law school, and engineering programs ready to advance ag tech. As CU Regent, I'll promote that CU translate that research into tools farmers can actually use, deepen our partnership with CSU, and listen to the agronomists, hydrologists, and farmers closest to the problem.”
@@ -22,9 +22,9 @@
 - candidate: Kubs Lalchandani
   state: co
   race: University Board of Regents
+  district: 2
   party: Democratic
   question: co-q3
-  district: 2
   date: 05-13-2026
   response: |
       “Data centers offer potential economic upside and real costs in water, power, grid strain, and general community harm. The right balance demands transparency, true cost pricing, and binding community benefit standards before approval. As a tech lawyer, I've navigated these tradeoffs professionally.”
@@ -32,9 +32,9 @@
 - candidate: Kubs Lalchandani
   state: co
   race: University Board of Regents
+  district: 2
   party: Democratic
   question: co-q4
-  district: 2
   date: 05-13-2026
   response: |
       “Medicine runs through my life. I represent medical professionals, I own a veterinary oncology clinic, and as an Indian American, half my family wears a white coat. I believe in evidence based medicine, full stop. As Regent, I'll champion CU Anschutz as a national leader in vaccine science, infectious disease research, and public health, and ensure CU's expertise informs Colorado's response to measles and whatever threat comes next. Science should guide policy.”
@@ -42,9 +42,9 @@
 - candidate: Kubs Lalchandani
   state: co
   race: University Board of Regents
+  district: 2
   party: Democratic
   question: co-q5
-  district: 2
   date: 05-13-2026
   response: |
       “Science literacy in America is in trouble, and CU Regents don't set K-12 standards. But CU does train Colorado's teachers, run dual enrollment programs, and produce public facing science through various programs. As CU Regent, I'll champion stronger STEM teacher preparation, K-12 partnerships that bring CU scientists into classrooms, and science communication training.”
@@ -173,3 +173,181 @@ That commitment to transparency and public trust is central to how I approach pu
       Students are subjected to stress-inducing incoherent electromagnetic fields all day at school and home. Excessive stress is the biggest root cause of poor academic performance, violence, substance abuse, suicides, and dropping out of school. Creating coherence in these electromagnetic fields increases brainwave coherence. Increases in EEG brainwave coherence have been scientifically correlated with increased creativity, improved task performance, faster reaction time, improved learning ability, improved grades in school, higher moral reasoning, better decision-making, and increased IQ, etc. These benefits can be expected to increase appreciation and importance of science among students. 
 
       Like everyone, students want to be happy and have a good life. Science, especially in the area of the science and technology of coherence, can help achieve that for them.”
+
+
+- candidate: Jason Bias
+  state: co
+  race: State House of Representatives
+  district: 54
+  party: Republican
+  question: co-q1
+  date: 05-14-2026
+  response: |
+      “Studying and providing factual statistics to ensure coherent policies across the board.”
+
+
+- candidate: Jason Bias
+  state: co
+  race: State House of Representatives
+  district: 54
+  party: Republican
+  question: co-q2
+  date: 05-14-2026
+  response: |
+      “I plan on supporting to keep our reservoirs full. Most irrigations come from rivers and snowpack, but when water is scarce and there has been no snowpack then the reservoirs play a vital role in protecting our farmers and ranchers. In addition, I am a huge proponent of flood irrigation, for the reason it keeps our soil moist and raises the water bank underground. This will all allow our agricultural producers to feel protected and heard in the legislature.”
+
+- candidate: Jason Bias
+  state: co
+  race: State House of Representatives
+  district: 54
+  party: Republican
+  question: co-q3
+  date: 05-14-2026
+  response: |
+      “My policies would be to prioritize high economic returns through employment and tax revenue while mitigating infrastructure costs. The data centers would pay their full costs without subsidies that affects the affect the markets and burden our residents.”
+
+- candidate: Jason Bias
+  state: co
+  race: State House of Representatives
+  district: 54
+  party: Republican
+  question: co-q4
+  date: 05-14-2026
+  response: |
+      “Expand no-cost vaccinations to allow for barrier-free opportunities for those who want the vaccine.”
+
+
+
+- candidate: Andrés Carrera
+  state: co
+  race: State Senate
+  district: 34
+  party: Democratic
+  question: co-q1
+  date: 05-15-2026
+  response: |
+      “As a policymaker, to gain a comprehensive understanding of an issue of public concern, I would eagerly consult organizations like Scientist Network for Advancing Policy (SNAP) and other leading groups of scientists, researchers, and industry experts to gain insights and recommendations based on current evidence. 
+
+      Policymakers must know what they don't know -- and in those moments, it is paramount to seek support and guidance from experts to ensure important decisions are always guided by an objective set of facts rather than the passions of the day.”
+
+
+- candidate: Andrés Carrera
+  state: co
+  race: State Senate
+  district: 34
+  party: Democratic
+  question: co-q2
+  date: 05-15-2026
+  response: |
+      “As a grandson of a farmworker, this issue is deeply personal to me.
+
+      First, I would advocate for increased funding for agricultural research focused on drought-resistant crops, sustainable farming practices, and innovative irrigation solutions. As a proud graduate of Colorado State University - Fort Collins, I believe supporting land-grant universities and research institutions can yield tremendous practical advancement in these areas in particular.
+
+      I would also enhance agricultural extension services to disseminate the latest scientific findings and best practices to farmers in order to help them optimize resource use, improve crop yields, and implement sustainable practices. But I would pair this dissemination of information with financial assistance or loans to farmers to purchase sustainable inputs or upgrade technology to reduce dependency on expensive imported materials.”
+
+
+- candidate: Andrés Carrera
+  state: co
+  race: State Senate
+  district: 34
+  party: Democratic
+  question: co-q3
+  date: 05-15-2026
+  response: |
+      “It's difficult to imagine allowing data centers to move forward in the current environment. 
+
+      Denver residents are currently barred from watering their lawns due to historically low levels of snowpack in the high country, and I'm not convinced we should make matters worse by constructing data centers that sometimes use about as much water as a small town.
+
+      Due to the sheer amount of energy required to power the facilities as well, they will also likely lead to spikes in the electric bills of nearby residents at a time when they're already barely making ends meet.
+
+      While I understand the need to add to the technological capacity of our state, I don't think it should come at the expense of Coloradans' livelihoods.”
+
+
+- candidate: Andrés Carrera
+  state: co
+  race: State Senate
+  district: 34
+  party: Democratic
+  question: co-q4
+  date: 05-15-2026
+  response: |
+      “I would strongly support an enhanced vaccination program to directly combat this issue. Vaccines do not cause autism -- in fact, they cause children to grow into adults through their lifesaving capabilities.
+
+      Specifically, I would implement outreach initiatives to increase vaccination rates, especially among vulnerable populations, that would include mobile vaccination clinics, educational campaigns, and partnerships with local healthcare providers to make vaccines more accessible.
+
+      I would pair this with a robust public awareness campaign and leverage my background as a son of Mexican immigrants and fluency in Spanish to ensure all Coloradans learn about the effectiveness and safety of vaccines, targeting misinformation and promoting the importance of herd immunity. It would be vital to work with Spanish-language media and influencers on social media to reach diverse audiences.”
+
+
+- candidate: Andrés Carrera
+  state: co
+  race: State Senate
+  district: 34
+  party: Democratic
+  question: co-q5
+  date: 05-15-2026
+  response: |
+      “The current state of science literacy is simply unacceptable, and it is having a direct and immediate impact on our public discourse around important issues like getting vaccinated against measles. 
+
+      We can combat this by reforming K-12 education standards to integrate science with other subjects -- like history and social studies, for example -- to provide context and relevance, showing students how science relates to everyday life and various societal issues.
+
+      We must also foster partnerships between schools and local scientists, researchers, and organizations to bring real-world science into the classroom through exciting and engaging guest lectures, workshops, and community outreach programs. This would add meaningful depth to students' relationship with science as not just another subject in school, but instead as a highly fascinating tool to understand their day-to-day lives.”
+
+- candidate: Anne Keke
+  state: co
+  race: State House of Representatives
+  district: 41
+  party: Democratic
+  question: co-q1
+  date: 05-17-2026
+  response: |
+      “I believe policymaking should be grounded in evidence, data, and real-world results, not ideology alone. As a State House representative, I will work with independent experts, local educators, healthcare professionals, scientists, and community leaders to make informed decisions that reflect both research and the needs of Aurora families. I support transparent, evidence-based policymaking with clear goals, measurable outcomes, and regular public review so taxpayers can see what is working and what is not. I also believe leaders must be willing to adjust policies when new evidence emerges. To me good policy comes from combining sound science with community input and practical experience. My focus will always be on solutions that improve lives, strengthen trust in government, and deliver results for Colorado families.”
+
+
+- candidate: Anne Keke
+  state: co
+  race: State House of Representatives
+  district: 41
+  party: Democratic
+  question: co-q2
+  date: 05-17-2026
+  response: |
+      “Colorado’s farmers and ranchers are essential to our economy, our food supply, and our way of life. As water scarcity and rising costs put increasing pressure on agriculture, we need practical, science-based solutions that help producers stay competitive while protecting our natural resources. I support investments in water conservation technology, precision agriculture, soil health programs, and drought resilience strategies that are backed by research and proven results. Colorado’s own Water Plan emphasizes the importance of supporting robust agriculture while improving long-term water sustainability. I also believe the state should strengthen partnerships with Colorado universities, agricultural experts, and local producers so policy decisions are informed by real data and on-the-ground experience, not one-size-fits-all mandates. Supporting innovation in irrigation efficiency, crop management, and fertilizer alternatives can help farmers reduce costs while conserving resources. Most importantly, we must treat farmers and ranchers as partners. Colorado succeeds when we protect both our agricultural economy and the natural resources future generations depend on.”
+
+
+- candidate: Anne Keke
+  state: co
+  race: State House of Representatives
+  district: 41
+  party: Democratic
+  question: co-q3
+  date: 05-17-2026
+  response: |
+      “Colorado has a chance to lead the nation in responsible AI innovation — creating good-paying jobs and strengthening our clean energy economy while protecting the natural resources that define our state. I support a balanced approach to data center growth that requires strong standards for energy efficiency, water conservation, transparency, and community impact. The right balance is encouraging economic growth and technological innovation while ensuring communities are not left with higher utility costs, strained water supplies, or environmental burdens. In a water-scarce state like Colorado, growth must be sustainable and backed by evidence-based planning. Any public incentives should deliver clear benefits for Coloradans: quality jobs, investments in renewable energy and grid modernization, workforce partnerships, and protections for taxpayers and local communities. My approach would tie incentives and permitting to measurable standards and long-term accountability so companies that benefit from doing business in Colorado also contribute to Colorado’s future. Colorado can lead in innovation without compromising our values or our future.”
+
+
+- candidate: Anne Keke
+  state: co
+  race: State House of Representatives
+  district: 41
+  party: Democratic
+  question: co-q4
+  date: 05-17-2026
+  response: |
+      “I am not a health expert, but Colorado’s recent measles outbreak is a reminder that public health preparedness matters. We have also seen concerns around illnesses like hantavirus, which highlight how important it is for communities to have accurate information, strong local healthcare systems, and the ability to respond quickly to emerging health threats.
+
+      I support evidence-based policies that expand vaccination access, strengthen public health communication, and ensure families receive accurate information from trusted medical professionals. The MMR vaccine is highly effective at preventing measles, and health experts consistently point to declining vaccination rates as a major factor behind recent outbreaks. I support expanding access to preventive care through schools, community clinics, and local healthcare providers, especially in underserved communities like mine. We also need stronger investment in public health infrastructure, disease surveillance, and emergency response so communities can respond quickly to outbreaks and future health threats. Protecting public health requires transparency, clear communication, and policies grounded in science while respecting individual freedoms. At the end of the day, preventive health is about keeping children safe, protecting vulnerable neighbors, reducing long-term healthcare costs, and making sure every Colorado community is prepared for the future.”
+
+
+- candidate: Anne Keke
+  state: co
+  race: State House of Representatives
+  district: 41
+  party: Democratic
+  question: co-q5
+  date: 05-17-2026
+  response: |
+      “Science literacy is more important than ever in a world shaped by technology, public health challenges, and an overwhelming amount of information and misinformation. Students need more than facts to memorize. They need to know how to think critically, evaluate evidence, solve problems, and make informed decisions in their daily lives. Most students are naturally curious about science when it feels connected to the real world. Colorado has already made important progress with science standards that emphasize inquiry, hands-on learning, and real-world application, and we should continue building on that foundation.
+
+      I support strengthening STEM education through high-quality science instruction, career and technical education, lab opportunities, and partnerships with universities and industry. Students should have opportunities to explore pathways in healthcare, aerospace, clean energy, artificial intelligence, and other growing fields that are shaping Colorado’s economy. We should also do more to teach media literacy, data interpretation, and the scientific process itself so students can better evaluate claims, understand evidence, and participate thoughtfully in civic life. Good science education should help students become informed citizens, not just future scientists.
+
+      That commitment should continue beyond K-12 education. Colorado’s colleges and universities play a critical role in research, innovation, and workforce development. Strong partnerships between higher education, local schools, and industry can help students connect classroom learning to meaningful careers and real-world challenges. Most importantly, science education should inspire curiosity and confidence. When students see how science connects to issues like healthcare, water conservation, energy, and emerging technology, learning becomes more relevant, engaging, and empowering.”
