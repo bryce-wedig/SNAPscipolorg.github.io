@@ -198,6 +198,10 @@
       })
       .then(function (data) {
         var responses = data.responses || [];
+        for (var _i = responses.length - 1; _i > 0; _i--) {
+          var _j = Math.floor(Math.random() * (_i + 1));
+          var _t = responses[_i]; responses[_i] = responses[_j]; responses[_j] = _t;
+        }
         var states = data.states || {};
         if (totalEl) totalEl.textContent = String(responses.length);
 

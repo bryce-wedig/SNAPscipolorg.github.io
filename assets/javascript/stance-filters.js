@@ -66,6 +66,11 @@
 
     var records = [];
     cards.forEach(function (card) { records.push(recordFromCard(card)); });
+    for (var _i = records.length - 1; _i > 0; _i--) {
+      var _j = Math.floor(Math.random() * (_i + 1));
+      var _t = records[_i]; records[_i] = records[_j]; records[_j] = _t;
+    }
+    records.forEach(function (r) { list.appendChild(r.el); });
 
     function apply() {
       var filters = {};
