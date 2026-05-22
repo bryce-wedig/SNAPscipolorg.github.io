@@ -52,24 +52,7 @@ permalink: /initiatives/stance-on-science
 
 <h3>Find My Candidate's Responses</h3>
 
-{%- assign active_csv = "" -%}
-{%- for pair in site.data.stance_responses -%}
-  {%- assign code = pair[0] -%}
-  {%- if code == "_blank" -%}{%- continue -%}{%- endif -%}
-  {%- assign rows = pair[1] -%}
-  {%- if rows and rows.size > 0 -%}
-    {%- if active_csv == "" -%}
-      {%- assign active_csv = code -%}
-    {%- else -%}
-      {%- assign active_csv = active_csv | append: "," | append: code -%}
-    {%- endif -%}
-  {%- endif -%}
-{%- endfor -%}
-{%- if active_csv == "" -%}
-  {%- assign active_states = "" | split: "," -%}
-{%- else -%}
-  {%- assign active_states = active_csv | split: "," -%}
-{%- endif -%}
+{%- assign active_states = site.initiatives | where_exp: "p", "p.state != nil and p.state != 'xx'" | map: "state" | sort -%}
 
 <p>Click an <strong style="color:#E89142">orange</strong> state to view
 candidate responses from that state's Stance on Science team. <a href="{{ '/initiatives/stance-on-science/search' | relative_url }}">Click here for all responses.</a> Scroll down for a list of states.</p>
@@ -98,26 +81,10 @@ candidate responses from that state's Stance on Science team. <a href="{{ '/init
  <h4>List of States</h4>
  
 <ul>
-  {%- assign published_csv = "" -%}
-    {%- for pair in site.data.stance_responses -%}
-      {%- if pair[0] == "_blank" -%}{%- continue -%}{%- endif -%}
-      {%- if pair[1] and pair[1].size > 0 -%}
-        {%- if published_csv == "" -%}
-          {%- assign published_csv = pair[0] -%}
-        {%- else -%}
-          {%- assign published_csv = published_csv | append: "," | append: pair[0] -%}
-        {%- endif -%}
-      {%- endif -%}
-    {%- endfor -%}
-    {%- if published_csv != "" -%}
-      {%- assign published = published_csv | split: "," | sort -%}
-      {%- for code in published -%}
-        {%- assign sp = site.initiatives | where: "state", code | first -%}
-        {%- if sp -%}
-          <li><a href="{{ sp.url | relative_url }}">{{ sp.state_name | default: code | capitalize }}</a></li>
-        {%- endif -%}
-      {%- endfor -%}
-    {%- endif -%}
+  {%- assign state_pages = site.initiatives | where_exp: "p", "p.state != nil and p.state != 'xx'" | sort: "state" -%}
+  {%- for sp in state_pages -%}
+    <li><a href="{{ sp.url | relative_url }}">{{ sp.state_name | default: sp.state | capitalize }}</a></li>
+  {%- endfor -%}
 </ul>
 
 <div class="jumbotron">
