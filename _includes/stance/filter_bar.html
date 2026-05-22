@@ -1,0 +1,119 @@
+{%- comment -%}
+  Renders a four-control filter bar (tag / race / district / party).
+
+  Inputs:
+    include.scope     — "state" or "global". When "state", the option lists are
+                        narrowed to values that appear in include.responses.
+    include.responses — the array of stance_responses entries the filters apply
+                        to (used to prune options when scope == "state").
+    include.id_prefix — element id prefix, e.g. "state-filters" or
+                        "search-filters". Lets the same page host multiple bars
+                        if ever needed.
+{%- endcomment -%}
+{%- assign filters = site.data.stance_filters -%}
+{%- assign responses = include.responses -%}
+{%- assign id_prefix = include.id_prefix | default: "stance-filters" -%}
+
+{%- if include.scope == "state" -%}
+  {%- assign present_tags = "" | split: "|||NONE|||" -%}
+  {%- for r in responses -%}
+    {%- assign rq = site.data.stance_questions[r.state] | where: "id", r.question | first -%}
+    {%- if rq.tag.first -%}
+      {%- assign present_tags = present_tags | concat: rq.tag -%}
+    {%- elsif rq.tag -%}
+      {%- assign one_t = rq.tag | split: "|||NONE|||" -%}
+      {%- assign present_tags = present_tags | concat: one_t -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign present_tags = present_tags | uniq -%}
+  {%- assign present_races = responses | map: "race" | uniq -%}
+  {%- assign present_districts = responses | map: "district" | uniq | compact -%}
+  {%- assign present_parties = responses | map: "party" | uniq -%}
+  {%- assign present_county_races = responses | map: "county_race" | compact | uniq | sort -%}
+{%- else -%}
+  {%- assign present_tags = filters.tags -%}
+  {%- assign present_races = filters.races -%}
+  {%- assign present_parties = filters.parties -%}
+{%- endif -%}
+
+<div class="stance-filter-bar" id="{{ id_prefix }}">
+  <div class="stance-filter-bar__row">
+    <label class="stance-filter">
+      <span class="stance-filter__label">Tag</span>
+      <select data-filter="tag">
+        <option value="">All tags</option>
+        {%- for t in filters.tags -%}
+          {%- if include.scope != "state" or present_tags contains t -%}
+            <option value="{{ t | escape }}">{{ t }}</option>
+          {%- endif -%}
+        {%- endfor -%}
+      </select>
+    </label>
+
+    <label class="stance-filter">
+      <span class="stance-filter__label">Race</span>
+      <select data-filter="race">
+        <option value="">All races</option>
+        {%- for race in filters.races -%}
+          {%- if include.scope != "state" or present_races contains race -%}
+            <option value="{{ race | escape }}">{{ race }}</option>
+          {%- endif -%}
+        {%- endfor -%}
+      </select>
+    </label>
+
+    <label class="stance-filter">
+      <span class="stance-filter__label">District</span>
+      <select data-filter="district">
+        <option value="">All districts</option>
+        {%- if include.scope == "state" -%}
+          {%- assign sorted_districts = present_districts | sort -%}
+          {%- for d in sorted_districts -%}
+            <option value="{{ d }}">{{ d }}</option>
+          {%- endfor -%}
+        {%- else -%}
+          {%- assign dmin = filters.district_min | default: 1 -%}
+          {%- assign dmax = filters.district_max | default: 52 -%}
+          {%- for d in (dmin..dmax) -%}
+            <option value="{{ d }}">{{ d }}</option>
+          {%- endfor -%}
+        {%- endif -%}
+      </select>
+    </label>
+
+    <label class="stance-filter">
+      <span class="stance-filter__label">Party</span>
+      <select data-filter="party">
+        <option value="">All parties</option>
+        {%- for party in filters.parties -%}
+          {%- if include.scope != "state" or present_parties contains party -%}
+            <option value="{{ party | escape }}">{{ party }}</option>
+          {%- endif -%}
+        {%- endfor -%}
+      </select>
+    </label>
+
+    {%- if include.scope == "state" -%}
+      {%- if present_county_races.size > 0 -%}
+        <label class="stance-filter">
+          <span class="stance-filter__label">County Race</span>
+          <select data-filter="county_race">
+            <option value="">All county races</option>
+            {%- for cr in present_county_races -%}
+              <option value="{{ cr | escape }}">{{ cr }}</option>
+            {%- endfor -%}
+          </select>
+        </label>
+      {%- endif -%}
+    {%- else -%}
+      <label class="stance-filter">
+        <span class="stance-filter__label">County Race</span>
+        <select data-filter="county_race">
+          <option value="">All county races</option>
+        </select>
+      </label>
+    {%- endif -%}
+
+    <button type="button" class="stance-filter__reset" data-filter-reset>Reset</button>
+  </div>
+</div>

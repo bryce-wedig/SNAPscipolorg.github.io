@@ -9,7 +9,7 @@ permalink: /initiatives/stance-on-science
 ---
 <img src="{{ site.url }}{{ site.baseurl }}/images/STANCE_Logo.png"  width="100%">
 
-<img src="/images/SNAPStanceSlide.png" alt="SNAP Stance on Science Initiative Slide" style="max-width: 100%; height: auto;" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/SNAPStanceSlide.png" alt="SNAP Stance on Science Initiative Slide" style="max-width: 100%; height: auto;" />
 
 <p></p>
 <h2>About Stance on Science</h2>
@@ -50,9 +50,75 @@ permalink: /initiatives/stance-on-science
 
 <p>If you'd like to support this initiative, <a href="https://docs.google.com/forms/d/e/1FAIpQLSem6bVuZnK7eWls-CTMpxWxaxHpuElNj4oOXIvLkgDYRO6YNg/viewform?usp=header">fill out our interest form</a>, and we'll be in touch! There are opportunities for everyone—whether you're ready to help lead outreach in your state or make a few calls or send emails to political candidates. Every contribution helps hold our political candidates accountable and strengthens our collective voice.</p>
 
-<!-- <h3>Find My Candidate's Responses</h3>
+<h3>Find My Candidate's Responses</h3>
 
-<p>Navigate to your state's page here to see responses for the 2026 Primary Elections</p> -->
+{%- assign active_csv = "" -%}
+{%- for pair in site.data.stance_responses -%}
+  {%- assign code = pair[0] -%}
+  {%- if code == "_blank" -%}{%- continue -%}{%- endif -%}
+  {%- assign rows = pair[1] -%}
+  {%- if rows and rows.size > 0 -%}
+    {%- if active_csv == "" -%}
+      {%- assign active_csv = code -%}
+    {%- else -%}
+      {%- assign active_csv = active_csv | append: "," | append: code -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if active_csv == "" -%}
+  {%- assign active_states = "" | split: "," -%}
+{%- else -%}
+  {%- assign active_states = active_csv | split: "," -%}
+{%- endif -%}
+
+<p>Click an <strong style="color:#E89142">orange</strong> state to view
+candidate responses from that state's Stance on Science team. <a href="{{ '/initiatives/stance-on-science/search' | relative_url }}">Click here for all responses.</a> Scroll down for a list of states.</p>
+
+<div class="stance-map" id="stance-map" role="img" aria-label="Map of the United States showing states with Stance on Science candidate responses highlighted in orange.">
+  <noscript>
+    <p><em>This map requires JavaScript to display. Browse responses directly:</em></p>
+    <ul>
+      {%- for code in active_states -%}
+        {%- assign sp = site.initiatives | where: "state", code | first -%}
+        {%- if sp -%}
+          <li><a href="{{ sp.url | relative_url }}">{{ sp.state_name | default: code | upcase }}</a></li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </noscript>
+</div>
+
+<p class="stance-map-legend">
+  <span class="stance-map-legend__swatch stance-map-legend__swatch--active"></span> States with published responses
+  &nbsp;&nbsp;
+  <span class="stance-map-legend__swatch stance-map-legend__swatch--inactive"></span> No responses yet
+</p>
+
+<!-- <p>Navigate to your state's page here to see responses for the 2026 Primary Elections</p> -->
+ <h4>List of States</h4>
+ 
+<ul>
+  {%- assign published_csv = "" -%}
+    {%- for pair in site.data.stance_responses -%}
+      {%- if pair[0] == "_blank" -%}{%- continue -%}{%- endif -%}
+      {%- if pair[1] and pair[1].size > 0 -%}
+        {%- if published_csv == "" -%}
+          {%- assign published_csv = pair[0] -%}
+        {%- else -%}
+          {%- assign published_csv = published_csv | append: "," | append: pair[0] -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if published_csv != "" -%}
+      {%- assign published = published_csv | split: "," | sort -%}
+      {%- for code in published -%}
+        {%- assign sp = site.initiatives | where: "state", code | first -%}
+        {%- if sp -%}
+          <li><a href="{{ sp.url | relative_url }}">{{ sp.state_name | default: code | capitalize }}</a></li>
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+</ul>
 
 <div class="jumbotron">
   <h2>Press Mentions</h2>
@@ -72,3 +138,11 @@ permalink: /initiatives/stance-on-science
     {% endif %}
   </ul>
 </div>
+
+<script>
+  window.STANCE_ACTIVE_STATES = JSON.parse('{{ active_states | jsonify }}');
+  window.STANCE_STATES_URL = "{{ '/initiatives/stance-on-science/states/' | relative_url }}";
+</script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+<script src="{{ '/assets/javascript/stance-map.js' | relative_url }}"></script>

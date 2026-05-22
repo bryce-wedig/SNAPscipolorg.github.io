@@ -1,0 +1,58 @@
+{%- comment -%}
+  Renders one candidate response as a filterable card.
+
+  Inputs:
+    include.r          — a response entry (a hash from _data/stance_responses.yml)
+    include.show_state — if "true", display the state name as a badge (used on global search)
+{%- endcomment -%}
+{%- assign r = include.r -%}
+{%- assign district_attr = r.district | default: "" -%}
+{%- assign state_questions = site.data.stance_questions[r.state] -%}
+{%- assign linked_question = state_questions | where: "id", r.question | first -%}
+{%- if linked_question.tag.first -%}
+  {%- assign tag_list = linked_question.tag -%}
+{%- else -%}
+  {%- assign tag_list = linked_question.tag | split: "|||NONE|||" -%}
+{%- endif -%}
+{%- assign tag_attr = tag_list | join: "|" -%}
+<article class="stance-response-card"
+         data-candidate="{{ r.candidate | downcase | escape }}"
+         data-state="{{ r.state | downcase }}"
+         data-tag="{{ tag_attr | escape }}"
+         data-race="{{ r.race | escape }}"
+         data-district="{{ district_attr }}"
+         data-party="{{ r.party | escape }}"
+         data-county-race="{{ r.county_race | escape }}">
+  <header class="stance-response-card__header">
+    <h4 class="stance-response-card__candidate">{{ r.candidate }}</h4>
+    <div class="stance-response-card__meta">
+      {%- if include.show_state == "true" -%}
+        {%- assign state_page = site.initiatives | where: "state", r.state | first -%}
+        <span class="stance-badge stance-badge--state">
+          <a href="{{ '/initiatives/stance-on-science/states/' | append: r.state | relative_url }}">{{ state_page.state_name | default: r.state | upcase }}</a>
+        </span>
+      {%- endif -%}
+      <span class="stance-badge stance-badge--race">{{ r.race }}{% if r.district %} — District {{ r.district }}{% endif %}</span>
+      {%- if r.county_race -%}
+        <span class="stance-badge stance-badge--county-race">{{ r.county_race }}</span>
+      {%- endif -%}
+      {%- if r.party -%}
+        <span class="stance-badge stance-badge--party">{{ r.party }}</span>
+      {%- endif -%}
+      {%- for q in tag_list -%}
+        <span class="stance-badge stance-badge--tag">{{ q }}</span>
+      {%- endfor -%}
+    </div>
+  </header>
+  <div class="stance-response-card__body">
+    {%- if linked_question -%}
+      <p class="stance-response-card__question"><em>{{ linked_question.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</em></p>
+    {%- endif -%}
+    {{ r.response | markdownify }}
+  </div>
+  {%- if r.date -%}
+    <footer class="stance-response-card__footer">
+      <small>Submitted {{ r.date | date: "%B %-d, %Y" }}</small>
+    </footer>
+  {%- endif -%}
+</article>

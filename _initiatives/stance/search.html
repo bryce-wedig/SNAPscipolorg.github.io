@@ -1,0 +1,86 @@
+---
+layout: gridlay
+title: "Stance on Science — Search"
+excerpt: "Search candidate responses across all Stance on Science state teams."
+collection: initiatives
+permalink: /initiatives/stance-on-science/search
+sitemap: true
+---
+<h1>Search Candidate Responses</h1>
+
+<p>Filter responses across every state. To browse one state at a time, click the state on the
+<a href="{{ '/initiatives/stance-on-science' | relative_url }}#find-my-candidates-responses">map</a> to see that state's page.</p>
+
+<div class="stance-search-grid" id="stance-search">
+
+  <div class="stance-search-grid__searchbar">
+    <form data-search-form onsubmit="return false;">
+      <label class="sr-only" for="stance-search-q">Search responses</label>
+      <input
+        id="stance-search-q"
+        type="search"
+        placeholder="Search candidates and responses…"
+        data-search-input
+        autocomplete="off"
+      />
+    </form>
+  </div>
+
+  <aside class="stance-search-grid__filters">
+    <h2>Filters</h2>
+
+    <fieldset class="stance-filter stance-filter--state">
+      <legend class="stance-filter__label">State</legend>
+      <select data-filter="state">
+        <option value="">All states</option>
+        {%- comment -%}
+          Collect state codes that have at least one published response,
+          then sort by display name (looked up from the state page's
+          `state_name` front matter).
+        {%- endcomment -%}
+        {%- assign present_csv = "" -%}
+        {%- for pair in site.data.stance_responses -%}
+          {%- if pair[0] == "_blank" -%}{%- continue -%}{%- endif -%}
+          {%- if pair[1] and pair[1].size > 0 -%}
+            {%- if present_csv == "" -%}
+              {%- assign present_csv = pair[0] -%}
+            {%- else -%}
+              {%- assign present_csv = present_csv | append: "," | append: pair[0] -%}
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- if present_csv != "" -%}
+          {%- assign present_states = present_csv | split: "," | sort -%}
+          {%- for code in present_states -%}
+            {%- assign sp = site.initiatives | where: "state", code | first -%}
+            {%- if sp.state_name -%}
+              <option value="{{ code }}">{{ sp.state_name }}</option>
+            {%- else -%}
+              <option value="{{ code }}">{{ code | upcase }}</option>
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+      </select>
+    </fieldset>
+
+    {% include stance/filter_bar.html scope="global" id_prefix="search-filters" %}
+  </aside>
+
+  <main class="stance-search-grid__results">
+    <p class="stance-results-count">
+      Showing <span data-results-count>0</span> of
+      <span data-results-total>0</span> responses.
+    </p>
+    <div class="stance-response-list" data-results-list>
+      <p><em>Loading responses…</em></p>
+    </div>
+    <p class="stance-empty-state" data-empty-state hidden>
+      <em>No responses match your search.</em>
+    </p>
+  </main>
+</div>
+
+<script>
+  window.STANCE_RESPONSES_URL = "{{ '/initiatives/stance-on-science/responses.json' | relative_url }}";
+</script>
+<script src="{{ '/assets/javascript/stance-search.js' | relative_url }}"></script>

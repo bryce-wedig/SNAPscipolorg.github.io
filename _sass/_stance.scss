@@ -1,0 +1,332 @@
+// Stance on Science — styles for the map, state pages, and global search.
+
+$stance-orange: #E89142;
+$stance-orange-dark: #C47830;
+$stance-blue: #213863;
+$stance-gray-border: #dadada;
+$stance-gray-bg: #f6f6f6;
+
+// ---------------------------------------------------------------------------
+// US states map
+// ---------------------------------------------------------------------------
+
+.stance-map {
+  margin: 1rem 0 0.5rem;
+  min-height: 200px;
+
+  &__svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  &__state {
+    fill: #ffffff;
+    stroke: #000000;
+    stroke-width: 0.5;
+    cursor: default;
+
+    &--active {
+      fill: $stance-orange;
+      cursor: pointer;
+
+      &:hover,
+      &:focus {
+        fill: $stance-orange-dark;
+        outline: none;
+      }
+    }
+  }
+
+  &__borders {
+    pointer-events: none;
+  }
+}
+
+.stance-map-legend {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+
+  &__swatch {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #000;
+    vertical-align: middle;
+
+    &--active { background: $stance-orange; }
+    &--inactive { background: #fff; }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// State page layout
+// ---------------------------------------------------------------------------
+
+.stance-state-header h1 {
+  margin-top: 0.5rem;
+}
+
+.stance-state-howto,
+.stance-state-questions,
+.stance-state-disclaimer {
+  margin-bottom: 1.5rem;
+}
+
+.stance-state-disclaimer {
+  background: $stance-gray-bg;
+  border-left: 4px solid $stance-blue;
+  padding: 1rem 1.25rem;
+  border-radius: 4px;
+}
+
+.stance-state-socials {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.05rem;
+
+  a { margin: 0 0.4rem; }
+}
+
+// ---------------------------------------------------------------------------
+// Filter bar (shared between state pages and search)
+// ---------------------------------------------------------------------------
+
+.stance-filter-bar {
+  background: $stance-gray-bg;
+  border: 1px solid $stance-gray-border;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1rem;
+    align-items: flex-end;
+  }
+}
+
+.stance-filter {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  min-width: 8rem;
+
+  &__label {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+
+  select {
+    padding: 0.35rem 0.5rem;
+    border: 1px solid $stance-gray-border;
+    border-radius: 4px;
+    background: #fff;
+    min-width: 8rem;
+  }
+
+  &__reset {
+    background: #fff;
+    border: 1px solid $stance-gray-border;
+    border-radius: 4px;
+    padding: 0.4rem 0.9rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    height: 2.1rem;
+    align-self: flex-end;
+
+    &:hover { background: $stance-gray-bg; }
+  }
+}
+
+.stance-results-count {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.75rem 0;
+}
+
+// ---------------------------------------------------------------------------
+// Response cards
+// ---------------------------------------------------------------------------
+
+.stance-response-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.stance-response-card {
+  border: 1px solid $stance-gray-border;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  background: #fff;
+
+  &[hidden] { display: none; }
+
+  &__header {
+    margin-bottom: 0.5rem;
+  }
+
+  &__candidate {
+    margin: 0 0 0.4rem;
+    color: $stance-blue;
+  }
+
+  &__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 0.25rem;
+  }
+
+  &__body {
+    p:last-child { margin-bottom: 0; }
+  }
+
+  &__footer {
+    margin-top: 0.75rem;
+    color: #777;
+  }
+}
+
+.stance-badge {
+  display: inline-block;
+  font-size: 0.78rem;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  background: #eee;
+  color: #333;
+  line-height: 1.4;
+
+  a { color: inherit; text-decoration: underline; }
+
+  &--state {
+    background: $stance-blue;
+    color: #fff;
+    a { color: #fff; text-decoration: none; }
+  }
+
+  &--race,
+  &--party,
+  &--county-race {
+    background: #e6ecf2;
+    color: #213863;
+  }
+
+  &--tag {
+    background: $stance-orange;
+    color: #fff;
+  }
+}
+
+.stance-empty-state {
+  padding: 1rem;
+  color: #555;
+}
+
+// ---------------------------------------------------------------------------
+// Search page Amazon-style grid
+// ---------------------------------------------------------------------------
+
+.stance-search-grid {
+  display: grid;
+  grid-template-columns: minmax(220px, 260px) 1fr;
+  grid-template-areas:
+    "searchbar searchbar"
+    "filters   results";
+  gap: 1.25rem;
+  margin-top: 1rem;
+
+  &__searchbar {
+    grid-area: searchbar;
+
+    input[type="search"] {
+      width: 100%;
+      padding: 0.65rem 0.9rem;
+      font-size: 1rem;
+      border: 1px solid $stance-gray-border;
+      border-radius: 6px;
+    }
+  }
+
+  &__filters {
+    grid-area: filters;
+
+    h2 {
+      font-size: 1.1rem;
+      margin: 0 0 0.5rem;
+    }
+
+    .stance-filter-bar {
+      margin: 0;
+      padding: 0.75rem;
+    }
+
+    .stance-filter-bar__row {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0.6rem;
+    }
+
+    .stance-filter {
+      min-width: 0;
+
+      select {
+        width: 100%;
+        min-width: 0;
+      }
+    }
+
+    .stance-filter--state {
+      border: none;
+      padding: 0;
+      margin-bottom: 0.75rem;
+
+      legend {
+        font-weight: 600;
+        font-size: 0.9rem;
+        margin-bottom: 0.25rem;
+        width: auto;
+        border: none;
+      }
+
+      select {
+        width: 100%;
+        padding: 0.35rem 0.5rem;
+        border: 1px solid $stance-gray-border;
+        border-radius: 4px;
+        background: #fff;
+      }
+    }
+  }
+
+  &__results {
+    grid-area: results;
+  }
+}
+
+@media (max-width: 768px) {
+  .stance-search-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "searchbar"
+      "filters"
+      "results";
+  }
+}
+
+// Screen-reader-only label helper (Bootstrap 4 already ships .sr-only, but
+// guard in case styles load in a different order).
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
