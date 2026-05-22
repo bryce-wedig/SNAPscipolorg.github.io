@@ -75,6 +75,17 @@ $stance-gray-bg: #f6f6f6;
   margin-bottom: 1.5rem;
 }
 
+.stance-race-group {
+  > summary {
+    cursor: pointer;
+    list-style: revert;
+
+    &:hover { color: $stance-blue; }
+  }
+
+  > ul { margin-top: 0.25rem; }
+}
+
 .stance-state-disclaimer {
   background: $stance-gray-bg;
   border-left: 4px solid $stance-blue;

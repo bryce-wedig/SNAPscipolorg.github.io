@@ -104,9 +104,20 @@ published: true                           # TODO: delete this line (or set to tr
 
   <p><u>For the <strong>TODO election cycle</strong></u>, only candidates in the
   following elections were contacted:</p>
+  {%- comment -%}
+    For races that have district/party sub-bullets, wrap them in a
+    <details class="stance-race-group"> so the sub-list collapses by default.
+  {%- endcomment -%}
   <ul>
     <li>TODO Contacted Race 1</li>
-    <li>TODO Contacted Race 2</li>
+    <li>
+      <details class="stance-race-group">
+        <summary>TODO Contacted Race 2</summary>
+        <ul>
+          <li>TODO District / party sub-bullet</li>
+        </ul>
+      </details>
+    </li>
   </ul>
 </section>
 
