@@ -38,28 +38,10 @@ sitemap: true
           then sort by display name (looked up from the state page's
           `state_name` front matter).
         {%- endcomment -%}
-        {%- assign present_csv = "" -%}
-        {%- for pair in site.data.stance_responses -%}
-          {%- if pair[0] == "_blank" -%}{%- continue -%}{%- endif -%}
-          {%- if pair[1] and pair[1].size > 0 -%}
-            {%- if present_csv == "" -%}
-              {%- assign present_csv = pair[0] -%}
-            {%- else -%}
-              {%- assign present_csv = present_csv | append: "," | append: pair[0] -%}
-            {%- endif -%}
-          {%- endif -%}
+        {%- assign present_states = site.initiatives | where_exp: "p", "p.state != nil and p.state != 'xx'" | sort: "state" -%}
+        {%- for sp in present_states -%}
+          <option value="{{ sp.state }}">{{ sp.state_name | default: sp.state | upcase }}</option>
         {%- endfor -%}
-        {%- if present_csv != "" -%}
-          {%- assign present_states = present_csv | split: "," | sort -%}
-          {%- for code in present_states -%}
-            {%- assign sp = site.initiatives | where: "state", code | first -%}
-            {%- if sp.state_name -%}
-              <option value="{{ code }}">{{ sp.state_name }}</option>
-            {%- else -%}
-              <option value="{{ code }}">{{ code | upcase }}</option>
-            {%- endif -%}
-          {%- endfor -%}
-        {%- endif -%}
       </select>
     </fieldset>
 

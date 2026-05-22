@@ -54,20 +54,13 @@ sitemap: false
     "district_max": {{ site.data.stance_filters.district_max | default: 52 }}
   },
   "states": {
-    {%- assign first_state = true -%}
-    {%- for pair in site.data.stance_responses -%}
-      {%- assign state_code = pair[0] -%}
-      {%- if state_code == "_blank" -%}{%- continue -%}{%- endif -%}
-      {%- assign rows = pair[1] -%}
-      {%- if rows and rows.size > 0 -%}
-        {%- assign state_page = site.initiatives | where: "state", state_code | first -%}
-        {%- unless first_state -%},{%- endunless -%}
-        {%- assign first_state = false -%}
-        {{ state_code | jsonify }}: {
-          "name": {{ state_page.state_name | default: state_code | jsonify }},
-          "url": {{ '/initiatives/stance-on-science/states/' | append: state_code | relative_url | jsonify }}
-        }
-      {%- endif -%}
+    {%- assign state_pages = site.initiatives | where_exp: "p", "p.state != nil and p.state != 'xx'" | sort: "state" -%}
+    {%- for sp in state_pages -%}
+      {%- unless forloop.first -%},{%- endunless -%}
+      {{ sp.state | jsonify }}: {
+        "name": {{ sp.state_name | default: sp.state | jsonify }},
+        "url": {{ sp.url | relative_url | jsonify }}
+      }
     {%- endfor -%}
   }
 }
