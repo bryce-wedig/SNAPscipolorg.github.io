@@ -8,7 +8,7 @@
 (function () {
   "use strict";
 
-  var FILTER_KEYS = ["tag", "race", "district", "party", "state"];
+  var FILTER_KEYS = ["tag", "race", "district", "party", "state", "county_race"];
 
   function toArray(v) {
     if (v == null) return [];
@@ -22,6 +22,28 @@
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#39;");
+  }
+
+  // Tests whether a response matches the current filter state. `except` (a
+  // filter key) lets the caller omit one filter so we can ask "which values
+  // would still be valid for THIS dropdown given everything else?"
+  function matches(r, state, statesMeta, except) {
+    if (except !== "tag" && state.tag && toArray(r.tag).indexOf(state.tag) === -1) return false;
+    if (except !== "race" && state.race && r.race !== state.race) return false;
+    if (except !== "district" && state.district && String(r.district) !== String(state.district)) return false;
+    if (except !== "party" && state.party && r.party !== state.party) return false;
+    if (except !== "state" && state.state && r.state !== state.state) return false;
+    if (except !== "county_race" && state.county_race && r.county_race !== state.county_race) return false;
+    if (state.q) {
+      var ql = state.q.toLowerCase();
+      var stateName = (statesMeta[r.state] && statesMeta[r.state].name) || r.state;
+      var hay = (r.candidate + " " + stateName +
+                 " " + r.race + " " + (r.district != null ? "district " + r.district : "") +
+                 " " + (r.county_race || "") +
+                 " " + toArray(r.tag).join(" ") + " " + (r.response_md || "")).toLowerCase();
+      if (hay.indexOf(ql) === -1) return false;
+    }
+    return true;
   }
 
   function renderCard(r, statesMeta) {
@@ -70,6 +92,61 @@
         dateHtml +
       "</article>"
     );
+  }
+
+  // Returns the set (as an object map) of values that key `K` takes across all
+  // responses that pass every filter EXCEPT the one for K.
+  function validValuesFor(key, responses, state, statesMeta) {
+    var set = Object.create(null);
+    for (var i = 0; i < responses.length; i++) {
+      var r = responses[i];
+      if (!matches(r, state, statesMeta, key)) continue;
+      if (key === "tag") {
+        var tags = toArray(r.tag);
+        for (var j = 0; j < tags.length; j++) set[tags[j]] = true;
+      } else if (key === "district") {
+        if (r.district != null) set[String(r.district)] = true;
+      } else {
+        var v = r[key];
+        if (v != null && v !== "") set[v] = true;
+      }
+    }
+    return set;
+  }
+
+  function updateOptionVisibility(selects, responses, state, statesMeta) {
+    selects.forEach(function (sel) {
+      var key = sel.dataset.filter;
+      var valid = validValuesFor(key, responses, state, statesMeta);
+      var current = sel.value;
+      var opts = sel.options;
+      for (var i = 0; i < opts.length; i++) {
+        var opt = opts[i];
+        if (opt.value === "") { opt.hidden = false; continue; }
+        if (opt.value === current) { opt.hidden = false; continue; }
+        opt.hidden = !valid[opt.value];
+      }
+    });
+  }
+
+  // For dropdowns that the server didn't pre-populate (e.g. County Race on
+  // global search), build the option list once from the data.
+  function populateOptionsFromData(sel, responses) {
+    if (sel.options.length > 1) return; // already populated
+    var key = sel.dataset.filter;
+    var values = Object.create(null);
+    for (var i = 0; i < responses.length; i++) {
+      var r = responses[i];
+      var v = key === "district" ? (r.district != null ? String(r.district) : null) : r[key];
+      if (v != null && v !== "") values[v] = true;
+    }
+    var sorted = Object.keys(values).sort();
+    for (var k = 0; k < sorted.length; k++) {
+      var opt = document.createElement("option");
+      opt.value = sorted[k];
+      opt.textContent = sorted[k];
+      sel.appendChild(opt);
+    }
   }
 
   function parseHashFilters() {
@@ -124,6 +201,8 @@
         var states = data.states || {};
         if (totalEl) totalEl.textContent = String(responses.length);
 
+        selects.forEach(function (sel) { populateOptionsFromData(sel, responses); });
+
         var initial = parseHashFilters();
         if (input && initial.q) input.value = initial.q;
         selects.forEach(function (sel) {
@@ -139,21 +218,8 @@
 
         function apply() {
           var state = currentState();
-          var ql = state.q.toLowerCase();
           var visible = responses.filter(function (r) {
-            if (state.tag && toArray(r.tag).indexOf(state.tag) === -1) return false;
-            if (state.race && r.race !== state.race) return false;
-            if (state.district && String(r.district) !== String(state.district)) return false;
-            if (state.party && r.party !== state.party) return false;
-            if (state.state && r.state !== state.state) return false;
-            if (ql) {
-              var hay = (r.candidate + " " + (states[r.state] && states[r.state].name || r.state) +
-                         " " + r.race + " " + (r.district != null ? "district " + r.district : "") +
-                         " " + (r.county_race || "") +
-                         " " + toArray(r.tag).join(" ") + " " + (r.response_md || "")).toLowerCase();
-              if (hay.indexOf(ql) === -1) return false;
-            }
-            return true;
+            return matches(r, state, states, null);
           });
 
           if (listEl) {
@@ -165,6 +231,7 @@
           }
           if (countEl) countEl.textContent = String(visible.length);
           if (emptyEl) emptyEl.hidden = visible.length !== 0;
+          updateOptionVisibility(selects, responses, state, states);
           writeHashFilters(state);
         }
 

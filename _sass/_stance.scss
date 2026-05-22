@@ -273,6 +273,11 @@ $stance-gray-bg: #f6f6f6;
 
     .stance-filter {
       min-width: 0;
+
+      select {
+        width: 100%;
+        min-width: 0;
+      }
     }
 
     .stance-filter--state {

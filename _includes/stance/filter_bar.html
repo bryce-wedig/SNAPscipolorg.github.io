@@ -93,14 +93,23 @@
       </select>
     </label>
 
-    {%- if include.scope == "state" and present_county_races.size > 0 -%}
+    {%- if include.scope == "state" -%}
+      {%- if present_county_races.size > 0 -%}
+        <label class="stance-filter">
+          <span class="stance-filter__label">County Race</span>
+          <select data-filter="county_race">
+            <option value="">All county races</option>
+            {%- for cr in present_county_races -%}
+              <option value="{{ cr | escape }}">{{ cr }}</option>
+            {%- endfor -%}
+          </select>
+        </label>
+      {%- endif -%}
+    {%- else -%}
       <label class="stance-filter">
         <span class="stance-filter__label">County Race</span>
         <select data-filter="county_race">
           <option value="">All county races</option>
-          {%- for cr in present_county_races -%}
-            <option value="{{ cr | escape }}">{{ cr }}</option>
-          {%- endfor -%}
         </select>
       </label>
     {%- endif -%}
