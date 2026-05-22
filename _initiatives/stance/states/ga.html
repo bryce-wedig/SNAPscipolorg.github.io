@@ -1,0 +1,171 @@
+---
+layout: gridlay
+title: "Georgia Stance on Science"
+excerpt: "Responses from Georgia candidates to the Georgia Stance on Science questionnaire."
+collection: initiatives
+permalink: /initiatives/stance-on-science/states/ga
+sitemap: true
+state: ga
+state_name: Georgia
+team_name: Stance on Science - Georgia
+team_email: coalitionofathensscientists@gmail.com
+last_updated: 2026-05-21
+ballot_lookup_url: TODO_URL               # TODO: voter/district lookup URL
+ballot_lookup_label: TODO voter resource  # TODO: visible link text
+# Socials (optional — leave blank to hide a link, or all blank to hide the footer):
+instagram_url:
+x_url:
+bluesky_url:
+published: true
+---
+{%- assign responses = site.data.stance_responses[page.state] | default: empty -%}
+{%- assign questions = site.data.stance_questions[page.state] | default: empty -%}
+{%- assign question_tags = "" | split: "" -%}
+{%- for q in questions -%}
+  {%- if q.tag.first -%}
+    {%- assign question_tags = question_tags | concat: q.tag -%}
+  {%- else -%}
+    {%- assign question_tags = question_tags | push: q.tag -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign question_tags = question_tags | uniq -%}
+
+<header class="stance-state-header">
+  <h1>{{ page.state_name }} Candidate Page</h1>
+  <p>
+    Created by the {{ page.team_name }} team, <a href="https://www.instagram.com/coalitionofathensscientists/" target="_blank" rel="noopener">Coalition of Athens Scientists</a>, <a href="https://scienceforgeorgia.org/" target="_blank" rel="noopener">Science for Georgia</a>, <a href="https://esal.us/" target="_blank" rel="noopener">Engineers and Scientists Acting Locally</a>, <a href="https://athenspoliticsnerd.com/" target="_blank" rel="noopener">Athens Politics Nerd</a>, <a href="https://www.facebook.com/iotapsiomega/" target="_blank" rel="noopener">Alpha Kappa Alpha Iota Psi Omega Chapter</a>, <a href="https://southernsustainabilityinstitute.org/" target="_blank" rel="noopener">Southern Sustainability Institute</a>, <a href="https://www.100percentathens.org/" target="_blank" rel="noopener">100% Athens</a>, <a href="https://athenslandtrust.org/" target="_blank" rel="noopener">Athens Land Trust</a>, <a href="https://c-changeconversations.org/" target="_blank" rel="noopener">C-Change</a>, and <a href="https://citizensclimatelobby.org/about-ccl/chapters/" target="_blank" rel="noopener">Citizen's Climate Lobby Athens</a>.<br/>
+    Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> with any questions.
+  </p>
+  <p><em>Last updated: {{ page.last_updated | date: "%B %-d, %Y" }}</em></p>
+</header>
+
+<!-- <section class="stance-state-howto">
+  <h2>How to use this resource</h2>
+  <p>This webpage houses the responses to {{ questions.size }} questions
+  crafted by the {{ page.team_name }} team. To find candidates' responses
+  for each election, you can filter by tag, race, district, and party.
+  Available tags include: {{ question_tags | join: ", " }}.</p>
+  <p>Only official candidates who will appear on ballots were contacted.</p>
+  <p>To find your district and who is on your ballot, please visit the
+    <a href="{{ page.ballot_lookup_url }}" target="_blank" rel="noopener">{{ page.ballot_lookup_label }}</a>.</p>
+  <p>Candidates were contacted in TODO Month Year (with a follow-up to those
+  who did not initially respond) and given the opportunity to answer all
+  questions. Only the responses of candidates who answered the questions are
+  included. None of the candidates' responses were modified in any way before
+  being published on this resource page.</p>
+
+  <p><u>For the <strong>TODO election cycle</strong></u>, only candidates in the
+  following elections were contacted:</p>
+  {%- comment -%}
+    For races that have district/party sub-bullets, wrap them in a
+    <details class="stance-race-group"> so the sub-list collapses by default.
+  {%- endcomment -%}
+  <ul>
+    <li>TODO Contacted Race 1</li>
+    <li>
+      <details class="stance-race-group">
+        <summary>TODO Contacted Race 2</summary>
+        <ul>
+          <li>TODO District / party sub-bullet</li>
+        </ul>
+      </details>
+    </li>
+  </ul>
+</section> -->
+
+<!-- <section class="stance-state-questions">
+  <h3>The questions posed to each candidate</h3>
+  <ol>
+    {%- for q in questions -%}
+      {%- if q.tag.first -%}
+        {%- assign q_tag_list = q.tag -%}
+      {%- else -%}
+        {%- assign q_tag_list = "" | split: "" | push: q.tag -%}
+      {%- endif -%}
+      <li>{{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}
+        <em>(see
+          {%- for t in q_tag_list -%}
+            {%- unless forloop.first %} &amp;{% endunless %} <strong>{{ t }}</strong>
+          {%- endfor -%}
+        )</em></li>
+    {%- endfor -%}
+  </ol>
+</section> -->
+
+<section class="stance-state-disclaimer">
+  <h3>Disclaimer</h3>
+  <p>The responses of candidates shared on this webpage do not reflect the
+  views of the {{ page.team_name }} team or the Scientist Network for
+  Advancing Policy (SNAP) Coalition. SNAP is a non-partisan organization
+  (please see more about SNAP <a href="{{ '/about/' | relative_url }}">here</a>).
+  <u>SNAP and the {{ page.team_name }} team do not endorse any
+  candidates.</u> The goals of this initiative can be found
+  <a href="{{ '/initiatives/stance-on-science' | relative_url }}">here</a>.
+  Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a>
+  with any questions.</p>
+</section>
+
+<hr/>
+
+<section class="stance-state-results">
+  <h2>Athens, Georgia 2026 Candidate Survey on Energy and the Environment</h2>
+
+  <p>The candidate responses to the Athens, Georgia 2026 Candidate Survey on Energy and the Environment are hosted on the <a href="https://athenspoliticsnerd.com/local-candidate-positions-on-energy-and-the-environment/" target="_blank" rel="noopener">Athens Politics Nerd website</a>.</p>
+
+  <!-- <h2>TODO Election Cycle</h2>
+
+  <p><i>If you cannot find a candidate, it means they have not yet submitted their response to Stance on Science. Please check back soon.</i></p>
+
+  {%- if responses == empty or responses.size == 0 -%}
+    <p><em>No candidate responses have been published yet. Please check back
+    soon.</em></p>
+  {%- else -%}
+
+    {% include stance/filter_bar.html scope="state" responses=responses id_prefix="state-filters" %}
+
+    <p class="stance-results-count">
+      Showing <span data-results-count>{{ responses.size }}</span> of
+      {{ responses.size }} response{% if responses.size != 1 %}s{% endif %}.
+    </p>
+
+    <div class="stance-response-list">
+      {%- assign sorted = responses | sort: "race" -%}
+      {%- for r in sorted -%}
+        {% include stance/response_card.html r=r %}
+      {%- endfor -%}
+    </div>
+
+    <p class="stance-empty-state" data-empty-state hidden>
+      <em>No responses match the selected filters.</em>
+    </p>
+  {%- endif -%} -->
+</section>
+
+{%- assign socials = "" | split: "" -%}
+{%- if page.instagram_url -%}
+  {%- capture _ig -%}<a href="{{ page.instagram_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _ig -%}
+{%- endif -%}
+{%- if page.x_url -%}
+  {%- capture _x -%}<a href="{{ page.x_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i> X</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _x -%}
+{%- endif -%}
+{%- if page.bluesky_url -%}
+  {%- capture _bs -%}<a href="{{ page.bluesky_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky"></i> Bluesky</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _bs -%}
+{%- endif -%}
+{%- if socials.size > 0 %}
+<footer class="stance-state-socials">
+  <p>Follow {{ page.team_name }} on
+    {%- for s in socials -%}
+      {%- if forloop.first %} {{ s }}
+      {%- elsif forloop.last -%}
+        {%- if socials.size > 2 %}, and {% else %} and {% endif -%}{{ s }}
+      {%- else %}, {{ s }}
+      {%- endif -%}
+    {%- endfor -%}.
+  </p>
+</footer>
+{%- endif %}
+
+<script src="{{ '/assets/javascript/stance-filters.js' | relative_url }}"></script>
