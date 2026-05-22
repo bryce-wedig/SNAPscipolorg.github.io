@@ -160,3 +160,106 @@
 
     KEYWORDS: Common family
     
+- candidate: Nathan Deer
+  state: ca
+  race: State House of Representatives
+  district: 11
+  party: No Party Preference
+  question: ca-q1
+  date: 
+  response: |
+    “Our greatest natural resource is the preservation of our State's natural beauty and ecosystems. We exist in a time of technological development where the extraction of fossil fuels is neither necessary for energy purposes, nor for consumables like plastics. The only limits in how quickly we move away from fossil fuels are the political will to do so, and pricing in the external costs of carbon emissions to encourage transitions to clean energy. I would push for additional taxes on fossil fuel extraction, distribution, and sales, to account for externalized costs. I would additionally push to wind down existing, and prohibit future drilling, while providing federal funding to conserve more land.”
+    
+    KEYWORDS: No more drilling
+
+- candidate: Nathan Deer
+  state: ca
+  race: State House of Representatives
+  district: 11
+  party: No Party Preference
+  question: ca-q2
+  date: 
+  response: |
+   “While moratoriums on data centers are important at this moment to constrain uncontrolled development, we should be using this time to legislate environmentally protective requirements around their construction. Specifically, all data centers should be responsible for creating self-sufficient, green (i.e. zero carbon renewables only), micro-grids, to protect ratepayers from absorbing the extra generation capacity cost. The generation capacity should be made available to the state at large during heat waves or other power crises, with de-prioritization of data center operations. On the water usage front, all cooling systems should be closed loop, with design preference given to non-water based cooling. For noise, given that most noise comes in limited frequency generation due to the cooling infrastructure, this is a prime opportunity for industrial scale, active noise cancellation."
+    
+    KEYWORDS: green, closed-loop, noise cancellation
+
+- candidate: Nathan Deer
+  state: ca
+  race: State House of Representatives
+  district: 11
+  party: No Party Preference
+  question: ca-q3
+  date: 
+  response: |
+   "My actions would fall within a framework of ridership rights:
+
+    1) The Right to Transit First infrastructure: I would push for additional federal funding for automated camera enforcement of bus lanes, the expansion of existing transit corridors, constant rail line construction (both surface and subway), Transit Ambassadors on every Muni line and BART train after 8pm, and for 24/7 operation. 
+
+    2) The Right to Frequency (The 15 Minute Rule): I would leverage SB63 funds and federal operating grants to mandate a ""floor"" for frequency of no more than 15 minutes, which cannot be cut by future budget boards. Additionally, I would support federal funding for localized, electric micro-shuttles to connect lower density neighborhoods to the main BART/MUNI lines. 
+
+    3) The Right to a Seamless Network: I would fight for a ""Public Transit Operating Support Act"", which would change federal law to allow MUNI and BART to use federal funds for operations and maintenance. Furthermore, our system should connect easily to the future California High Speed Rail (CHSR), enabling a commuter to take MUNI or BART to CHSR in the same way a New Yorker can get to Penn Station and get on a train to just about anywhere." 
+
+    KEYWORDS: 24/7, 15-Minute Rule, Seamless
+
+- candidate: Nathan Deer
+  state: ca
+  race: State House of Representatives
+  district: 11
+  party: No Party Preference
+  question: ca-q4
+  date: 
+  response: |
+    "Our education crisis is rooted in our affordability crisis. We don't budget enough for teachers, so we don't pay teachers enough, so teachers can't afford to live where they work. If we want to attract the best teachers, we have to compete for talent by increasing funding to school systems. We also need to restore and strengthen the Department of Education, to ensure equitable access to education nationwide."
+   
+    KEYWORDS: Pay teachers more
+
+- candidate: Nathan Deer
+  state: ca
+  race: State House of Representatives
+  district: 11
+  party: No Party Preference
+  question: ca-q5
+  date: 
+  response: |
+    “Healthcare is a human right, and everyone should have access to a nationalized, single payer health system. Beyond the moral obligation to provide coverage for everyone, under and uninsured individuals indirectly drive up costs by only seeking acute care. The lack of focus on prevention, and increased costs of emergency treatment, drive up overall costs for everyone. Additionally, private insurers innate profit incentive adds to these cost runups. So if we want to bring healthcare costs down, we need to focus on access for all, and preventative care.” 
+    
+    KEYWORDS: Universal healthcare, prevention
+
+- candidate: Nathan Deer
+  state: ca
+  race: State House of Representatives
+  district: 11
+  party: No Party Preference
+  question: ca-q6
+  date: 
+  response: |
+    “I would support initiatives, like SB895, which ensure access to funding for scientific research. In an ideal world, scientific research would be treated as the apolitical topic that it is, but the unfortunate reality is that we've seen significant contraction in research funding at the federal level. California deserves to remain at the forefront of research, and owes it to her residents to continue doing so.”
+    
+    KEYWORDS: more research funding
+
+- candidate: Saikat Chakrabarti
+  state: ca
+  race: State House of Representatives
+  district: 11
+  party: Democrat
+  question: ca-q1
+  date: 
+  response: |
+    "California's land use choices matter for the entire country and San Francisco deserves a fighter in Congress who will protect these lands. I support ending new oil and gas leases on federal public lands and waters, and managing down existing production as we build out the clean energy economy. I have been proudly endorsed by Center for Biological Diversity Action Fund, Clean Water Action, and Oil Change Action because of my longtime leadership in the climate movement, from helping author the Green New Deal as Representative Ocasio-Cortez’s Chief of Staff to leading the Mission for America project at New Consensus.
+
+    Beyond phasing out fossil fuel extraction, the federal government has to be a serious steward of the public lands we already have. I support the national 30x30 conservation goal, defending national monuments and protected areas from Trump's rollback efforts, and meaningful Tribal co-management of federal lands and waters."
+    
+    KEYWORDS: California Land Conservation, Clean Energy Transition, Federal Climate Policy
+
+- candidate: Saikat Chakrabarti
+  state: ca
+  race: State House of Representatives
+  district: 11
+  party: Democrat
+  question: ca-q2
+  date: 
+  response: |
+    “I support a moratorium on data centers until we pass legislation requiring AI companies to do the following:  fully pay for any grid upgrades their facilities require, utilize 100% clean electricity for data center operations, and adopt closed-loop liquid cooling (which has been proven to save water). Ratepayers should not be subsidizing the infrastructure costs of some of the most profitable companies in the world. Once these conditions have been met, I support lifting the moratorium and resuming data center construction under this new framework. I also believe that the federal government should operate its own data centers and computing power for challenges like curing rare diseases and modeling climate systems, and use publicly owned AI to deliver public services at the actual cost of running them.”
+    
+    KEYWORDS: Clean energy, public AI, grid upgrades
