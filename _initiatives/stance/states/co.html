@@ -10,6 +10,7 @@ sitemap: true
 # at _data/stance_responses/co.yml.
 state: co
 state_name: Colorado
+demonym_plural: Coloradans
 team_name: Stance on Science - Colorado
 team_email: stanceonsciencecolorado@gmail.com
 last_updated: 2026-05-23
@@ -40,6 +41,18 @@ bluesky_url: https://bsky.app/profile/stanceonsciencecolorado.bsky.social
   <p><em>Last updated: {{ page.last_updated | date: "%B %-d, %Y" }}</em></p>
 </header>
 
+<p>
+  {{ page.state_name }} will face many challenges in the coming years, and it is increasingly critical that our policymakers understand the importance of evidence-based decision-making. The goals of this resource are to:
+
+  <ol>
+    <li>Provide voters with clear, accessible information so they can see how candidates value science in decision-making.</li>
+    <li>Hold candidates accountable by sharing their responses publicly on our website and via local media.</li>
+    <li>Encourage thoughtful engagement between communities and policymakers on science policy-related topics in our state.</li>
+  </ol>
+
+  Through Stance on Science, we hope to help {{ page.demonym_plural }} understand how their elected representatives will utilize science to improve the state that they love. Learn more about this initiative on the <a href="{{ '/initiatives/stance-on-science' | relative_url }}">home page</a>.
+</p>
+
 <section class="stance-state-howto">
   <h2>How to use this resource</h2>
   <p>This webpage houses the responses to {{ questions.size }} questions
@@ -57,7 +70,14 @@ bluesky_url: https://bsky.app/profile/stanceonsciencecolorado.bsky.social
   <p><u>For the <strong>June 2026 primary election</strong></u>, only candidates in
   the following elections were contacted<sup>1</sup>:</p>
   <ul>
-    <li>US Senate (Democratic Primary for Colorado Representative)</li>
+    <li>
+      <details class="stance-race-group">
+        <summary>US Senate</summary>
+        <ul>
+          <li>Democratic Primary for Colorado Representative</li>
+        </ul>
+      </details>
+    </li>
     <li>
       <details class="stance-race-group">
         <summary>US House of Representatives</summary>
@@ -95,7 +115,14 @@ bluesky_url: https://bsky.app/profile/stanceonsciencecolorado.bsky.social
         </ul>
       </details>
     </li>
-    <li>State Board of Education District 7</li>
+    <li>
+      <details class="stance-race-group">
+        <summary>State Board of Education</summary>
+        <ul>
+          <li>District 7</li>
+        </ul>
+      </details>
+    </li>
     <li>
       <details class="stance-race-group">
         <summary>University of Colorado Board of Regents</summary>
