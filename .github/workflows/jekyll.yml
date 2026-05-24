@@ -19,6 +19,8 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  issues: write
+  actions: read
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
@@ -65,3 +67,62 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  notify-on-failure:
+    if: ${{ failure() && github.repository == 'snapcoalition/SNAPscipolorg.github.io' }}
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      actions: read
+    steps:
+      - name: Fetch failed-step logs and extract error excerpt
+        id: excerpt
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set +e
+          gh run view "${{ github.run_id }}" --log-failed > full.log 2>/dev/null
+
+          sed -E 's/^[^\t]*\t[^\t]*\t[0-9T:.\-]+Z[[:space:]]?//' full.log > clean.log
+
+          awk '/Generating\.\.\./{found=NR} END{print found}' clean.log > start.txt
+          START=$(cat start.txt)
+          if [ -z "$START" ] || [ "$START" = "0" ]; then
+            tail -n 150 clean.log > excerpt.txt
+          else
+            tail -n +"$START" clean.log | head -n 150 > excerpt.txt
+          fi
+          head -c 12000 excerpt.txt > excerpt.trimmed.txt
+          mv excerpt.trimmed.txt excerpt.txt
+
+          {
+            echo 'excerpt<<__EOF__'
+            cat excerpt.txt
+            echo
+            echo '__EOF__'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Open issue on deploy failure
+        uses: dacbd/create-issue-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: "Pages deploy failed on ${{ github.ref_name }} (${{ github.sha }})"
+          labels: deploy-failure
+          body: |
+            The **Deploy Jekyll site to Pages** workflow failed.
+
+            - **Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            - **Commit:** ${{ github.sha }}
+            - **Triggered by:** @${{ github.actor }}
+            - **Branch:** ${{ github.ref_name }}
+            - **Event:** ${{ github.event_name }}
+
+            ### Error excerpt
+
+            ```
+            ${{ steps.excerpt.outputs.excerpt }}
+            ```
+
+            _Truncated to the last 150 lines / 12 KB of the failed step's output, starting at the most recent `Generating...` marker. See the full log via the Run link above._
