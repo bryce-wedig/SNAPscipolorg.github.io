@@ -216,7 +216,15 @@
   response: |
       “Expand no-cost vaccinations to allow for barrier-free opportunities for those who want the vaccine.”
 
-
+- candidate: Jason Bias
+  state: co
+  race: State House of Representatives
+  district: 54
+  party: Republican
+  question: co-q5
+  date: 2026-05-14
+  response: |
+      “K-12 learning should prioritize math, reading, writing, science, and history. The state of science literacy begins with education our youth. ”
 
 - candidate: Andrés Carrera
   state: co
