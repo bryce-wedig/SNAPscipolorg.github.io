@@ -946,3 +946,67 @@
   response: |
       “As someone who is serving on a school board (started in 2021) I do believe that K-12 standards need to be reviewed to ensure are based on actual science and not political agendas.  
       When there are multiple positions on the cause of some issue such as COVID-19 or climate change, curriculum must include ALL positions with supporting evidence."
+
+- candidate: Maya Wheeler
+  state: co
+  race: Local County Races [All]
+  county_race: Arapahoe County Commissioner
+  district: 4
+  party: Democratic
+  question: co-q1
+  date: 2026-05-24
+  response: |
+      “Evidence and scientific findings should play an important role in policymaking, especially on issues such as healthcare access, infrastructure, water resources, transportation, behavioral health, and environmental sustainability.
+      As County Commissioner, I would support a research-driven decision-making process that includes regular consultation with subject matter experts, review of credible studies and local conditions, and partnerships with universities, healthcare professionals, and technical experts when evaluating major policy decisions affecting Arapahoe County."
+
+- candidate: Maya Wheeler
+  state: co
+  race: Local County Races [All]
+  county_race: Arapahoe County Commissioner
+  district: 4
+  party: Democratic
+  question: co-q2
+  date: 2026-05-24
+  response: |
+      “Colorado agriculture is critical to our economy and food systems, and farmers are facing serious pressures from water scarcity, rising costs, and long-term environmental challenges.
+      As County Commissioner, I would support data-informed water management, conservation strategies, and long-term infrastructure planning that help protect agricultural land and natural resources while supporting sustainability for farmers and rural communities.
+      I believe counties should work with producers, conservation experts, universities, and state agencies to support practical solutions around water efficiency, land use, and emerging technologies that strengthen Colorado agriculture for future generations."
+
+- candidate: Maya Wheeler
+  state: co
+  race: Local County Races [All]
+  county_race: Arapahoe County Commissioner
+  district: 4
+  party: Democratic
+  question: co-q3
+  date: 2026-05-24
+  response: |
+      “Artificial intelligence and emerging technologies are creating new economic opportunities, but data centers can also place major demands on water, electricity, land use, and public infrastructure.
+      Currently, large-scale data centers are generally not permitted under existing land use and zoning regulations in unincorporated Arapahoe County. I believe any future discussions about changing those policies should be approached cautiously, transparently, and with strong public input.
+      As County Commissioner, I would support data-informed evaluation of impacts on water resources, energy demand, infrastructure capacity, environmental sustainability, and long-term community benefit before considering any major land-use changes."
+
+- candidate: Maya Wheeler
+  state: co
+  race: Local County Races [All]
+  county_race: Arapahoe County Commissioner
+  district: 4
+  party: Democratic
+  question: co-q4
+  date: 2026-05-24
+  response: |
+      “Counties play an important role in supporting public health education, prevention, emergency preparedness, and access to accurate health information during outbreaks and other public health threats.
+      I support data-informed public health strategies that improve vaccination access, community outreach, early detection, and coordination between public health agencies, schools, healthcare providers, and local governments. I also believe public trust is strengthened through transparency, clear communication, and culturally responsive outreach that helps residents make informed health decisions."
+
+- candidate: Maya Wheeler
+  state: co
+  race: Local County Races [All]
+  county_race: Arapahoe County Commissioner
+  district: 4
+  party: Democratic
+  question: co-q5
+  date: 2026-05-24
+  response: |
+      “Science literacy is increasingly important because scientific and technological issues affect everyday life, including public health, water, energy, agriculture, and emerging technologies.
+      I believe K-12 education should emphasize hands-on learning, critical thinking, media literacy, and real-world problem solving so students better understand how science connects to their communities and future careers. 
+      Building trust in science also requires transparency, strong communication, and helping students learn how to evaluate information critically and engage respectfully with different perspectives."
+
