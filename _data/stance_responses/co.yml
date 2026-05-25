@@ -216,7 +216,15 @@
   response: |
       “Expand no-cost vaccinations to allow for barrier-free opportunities for those who want the vaccine.”
 
-
+- candidate: Jason Bias
+  state: co
+  race: State House of Representatives
+  district: 54
+  party: Republican
+  question: co-q5
+  date: 2026-05-14
+  response: |
+      “K-12 learning should prioritize math, reading, writing, science, and history. The state of science literacy begins with education our youth. ”
 
 - candidate: Andrés Carrera
   state: co
@@ -351,8 +359,6 @@
       I support strengthening STEM education through high-quality science instruction, career and technical education, lab opportunities, and partnerships with universities and industry. Students should have opportunities to explore pathways in healthcare, aerospace, clean energy, artificial intelligence, and other growing fields that are shaping Colorado’s economy. We should also do more to teach media literacy, data interpretation, and the scientific process itself so students can better evaluate claims, understand evidence, and participate thoughtfully in civic life. Good science education should help students become informed citizens, not just future scientists.
 
       That commitment should continue beyond K-12 education. Colorado’s colleges and universities play a critical role in research, innovation, and workforce development. Strong partnerships between higher education, local schools, and industry can help students connect classroom learning to meaningful careers and real-world challenges. Most importantly, science education should inspire curiosity and confidence. When students see how science connects to issues like healthcare, water conservation, energy, and emerging technology, learning becomes more relevant, engaging, and empowering.”
-
-
 
 - candidate: Jacque Phillips
   state: co
@@ -769,4 +775,238 @@
       I am not particularly familiar with the current K-12 education standards. In my political experience, the K-12 system's greatest challenges in Colorado are fiscal. Colorado ranks low for teacher pay, per pupil expenditures, etc. We need to more fully fund public education to most seriously address this problem. 
 
       In my personal view, students seem to have far less of a grasp on the scientific method than my generation did. As budgets are cut, so are labs and experiential learning. If possible, I would like to see these better integrated into public education. But again, what we need most of all are new sources of revenue. "
+
+
+- candidate: Christina Blunt (Ducommun)
+  state: co
+  race: US House of Representatives
+  district: 2
+  party: Republican
+  question: co-q1
+  date: 2026-05-22
+  response: |
+      “I will require input from multiple scientists and backgrounds."
+
+
+- candidate: Christina Blunt (Ducommun)
+  state: co
+  race: US House of Representatives
+  district: 2
+  party: Republican
+  question: co-q2
+  date: 2026-05-22
+  response: |
+      “I have farmers in my rolodex. I will reach out to them. They know."
+
+
+- candidate: Christina Blunt (Ducommun)
+  state: co
+  race: US House of Representatives
+  district: 2
+  party: Republican
+  question: co-q3
+  date: 2026-05-22
+  response: |
+      “AI is pointless without people. People over AI. People first."
+
+
+- candidate: Christina Blunt (Ducommun)
+  state: co
+  race: US House of Representatives
+  district: 2
+  party: Republican
+  question: co-q4
+  date: 2026-05-22
+  response: |
+      “Common Sense policies."
+
+
+- candidate: Christina Blunt (Ducommun)
+  state: co
+  race: US House of Representatives
+  district: 2
+  party: Republican
+  question: co-q5
+  date: 2026-05-22
+  response: |
+      “Our standards need to be raised to be on par with other countries who don't allow vaccines and most of the toxic chemicals we allow in the USA."
+      
+- candidate: Michelle D. Lee
+  state: co
+  race: State House of Representatives
+  district: 32
+  party: Republican
+  question: co-q1
+  date: 2026-05-23
+  response: |
+      “Focus on Individual Freedom & Market-Based Solutions
+      Scientific evidence is valued where it supports market solutions, innovation, and consumer choice. Republicans might be more skeptical of evidence used to justify heavy regulation or centralized control."
+           
+- candidate: Michelle D. Lee
+  state: co
+  race: State House of Representatives
+  district: 32
+  party: Republican
+  question: co-q2
+  date: 2026-05-23
+  response: |
+      “Avoid Overreach on Climate Regulation
+      Policies framed mostly around climate change (e.g. carbon taxes or strict greenhouse gas mandates), unless there are strong local economic benefits and clear evidence that costs won’t hurt producers and familes ."
+
+
+- candidate: Michelle D. Lee
+  state: co
+  race: State House of Representatives
+  district: 32
+  party: Republican
+  question: co-q3
+  date: 2026-05-23
+  response: |
+      “Caution Around Regulatory Costs & Overreach
+      Be skeptical of very tight mandates that could raise costs, deter investment, or create uncertainty.
+      Weigh the economic trade-offs: jobs, local tax bases, tech leadership versus regulation cost."
+
+- candidate: Michelle D. Lee
+  state: co
+  race: State House of Representatives
+  district: 32
+  party: Republican
+  question: co-q4
+  date: 2026-05-23
+  response: |
+      “Avoiding Discrimination or Social Division
+      Avoid harsh exclusionary rules that could block children from school or deny services—see such exclusions as potential overreach or unfair burden on families."
+
+- candidate: Michelle D. Lee
+  state: co
+  race: State House of Representatives
+  district: 32
+  party: Republican
+  question: co-q5
+  date: 2026-05-23
+  response: |
+      “Local Control & Parental Input
+      Parents and local school districts should have significant say over curricula, especially in socially sensitive areas (evolution, climate policy, health).
+      Approval processes, transparency of materials, opt-out options."
+
+- candidate: Nancy Rumfelt
+  state: co
+  race: State House of Representatives
+  district: 51
+  party: Republican
+  question: co-q1
+  date: 2026-05-23
+  response: |
+      “Depending on the legislation, I would research which organizations I need to contact to ask questions and to learn if the proposed bill is good, bad or needs amendments to work.  My goal is will always be to do no harm and to ensure a law is actually necessary and doesn't violate the constitution. "
+
+- candidate: Nancy Rumfelt
+  state: co
+  race: State House of Representatives
+  district: 51
+  party: Republican
+  question: co-q2
+  date: 2026-05-23
+  response: |
+      “Given that Colorado is a semi-arid state, we must focus on developing water storage with reasonable rules and regulations.  No civilization can survive without water and so we must collaborate to ensure water storage is built in a timely manner with minimal impact to the environment.
+
+      As for fertilizers there must be balance between what is needed to increase crop production using safe ingredients that can be verified and tested.  
+
+      As agriculture is not my "wheel house" I would work to find credible resources to help me understand the issues before I voted on any legislation."
+
+- candidate: Nancy Rumfelt
+  state: co
+  race: State House of Representatives
+  district: 51
+  party: Republican
+  question: co-q3
+  date: 2026-05-23
+  response: |
+      “The AI industry is new which means there are many unknowns and before policy is decided, the state must make sure all facts are gathered and are based on actual evidence.  
+
+      I worked at Noosa Yoghurt, and the company did a great job of recirculating the water used for producing yoghurt.  Noosa also  invested in a system that cleaned the water before sending back to the Poudre River.  I don't know what impact AI data centers have on water quality, but companies such as Noosa show that solutions can be found!"
+
+- candidate: Nancy Rumfelt
+  state: co
+  race: State House of Representatives
+  district: 51
+  party: Republican
+  question: co-q4
+  date: 2026-05-23
+  response: |
+      “Measles is something that recently became an issue again and it is important to understand why.  I am a strong believer in root cause analysis and therefore we need to understand WHY measles outbreaks are occurring and increasing. 
+      Is it because of influx of illegal aliens? Is it because number of people receiving vaccination is decreasing? Is it because of both or something else?  People much smarter than me need to research and then present the evidence to legislators before new laws are written."
+
+- candidate: Nancy Rumfelt
+  state: co
+  race: State House of Representatives
+  district: 51
+  party: Republican
+  question: co-q5
+  date: 2026-05-23
+  response: |
+      “As someone who is serving on a school board (started in 2021) I do believe that K-12 standards need to be reviewed to ensure are based on actual science and not political agendas.  
+      When there are multiple positions on the cause of some issue such as COVID-19 or climate change, curriculum must include ALL positions with supporting evidence."
+
+- candidate: Maya Wheeler
+  state: co
+  race: Local County Races [All]
+  county_race: Arapahoe County Commissioner
+  district: 4
+  party: Democratic
+  question: co-q1
+  date: 2026-05-24
+  response: |
+      “Evidence and scientific findings should play an important role in policymaking, especially on issues such as healthcare access, infrastructure, water resources, transportation, behavioral health, and environmental sustainability.
+      As County Commissioner, I would support a research-driven decision-making process that includes regular consultation with subject matter experts, review of credible studies and local conditions, and partnerships with universities, healthcare professionals, and technical experts when evaluating major policy decisions affecting Arapahoe County."
+
+- candidate: Maya Wheeler
+  state: co
+  race: Local County Races [All]
+  county_race: Arapahoe County Commissioner
+  district: 4
+  party: Democratic
+  question: co-q2
+  date: 2026-05-24
+  response: |
+      “Colorado agriculture is critical to our economy and food systems, and farmers are facing serious pressures from water scarcity, rising costs, and long-term environmental challenges.
+      As County Commissioner, I would support data-informed water management, conservation strategies, and long-term infrastructure planning that help protect agricultural land and natural resources while supporting sustainability for farmers and rural communities.
+      I believe counties should work with producers, conservation experts, universities, and state agencies to support practical solutions around water efficiency, land use, and emerging technologies that strengthen Colorado agriculture for future generations."
+
+- candidate: Maya Wheeler
+  state: co
+  race: Local County Races [All]
+  county_race: Arapahoe County Commissioner
+  district: 4
+  party: Democratic
+  question: co-q3
+  date: 2026-05-24
+  response: |
+      “Artificial intelligence and emerging technologies are creating new economic opportunities, but data centers can also place major demands on water, electricity, land use, and public infrastructure.
+      Currently, large-scale data centers are generally not permitted under existing land use and zoning regulations in unincorporated Arapahoe County. I believe any future discussions about changing those policies should be approached cautiously, transparently, and with strong public input.
+      As County Commissioner, I would support data-informed evaluation of impacts on water resources, energy demand, infrastructure capacity, environmental sustainability, and long-term community benefit before considering any major land-use changes."
+
+- candidate: Maya Wheeler
+  state: co
+  race: Local County Races [All]
+  county_race: Arapahoe County Commissioner
+  district: 4
+  party: Democratic
+  question: co-q4
+  date: 2026-05-24
+  response: |
+      “Counties play an important role in supporting public health education, prevention, emergency preparedness, and access to accurate health information during outbreaks and other public health threats.
+      I support data-informed public health strategies that improve vaccination access, community outreach, early detection, and coordination between public health agencies, schools, healthcare providers, and local governments. I also believe public trust is strengthened through transparency, clear communication, and culturally responsive outreach that helps residents make informed health decisions."
+
+- candidate: Maya Wheeler
+  state: co
+  race: Local County Races [All]
+  county_race: Arapahoe County Commissioner
+  district: 4
+  party: Democratic
+  question: co-q5
+  date: 2026-05-24
+  response: |
+      “Science literacy is increasingly important because scientific and technological issues affect everyday life, including public health, water, energy, agriculture, and emerging technologies.
+      I believe K-12 education should emphasize hands-on learning, critical thinking, media literacy, and real-world problem solving so students better understand how science connects to their communities and future careers. 
+      Building trust in science also requires transparency, strong communication, and helping students learn how to evaluate information critically and engage respectfully with different perspectives."
 

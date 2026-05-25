@@ -9,48 +9,9 @@ permalink: /initiatives/stance-on-science
 ---
 <img src="{{ site.url }}{{ site.baseurl }}/images/STANCE_Logo.png"  width="100%">
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/SNAPStanceSlide.png" alt="SNAP Stance on Science Initiative Slide" style="max-width: 100%; height: auto;" />
-
 <p></p>
-<h2>About Stance on Science</h2>
 
-<p>Science affects every part of our daily lives—from the safety of our food and water, to the health of our communities, to the jobs and technologies that power our future. Yet too often, science is left out of political debates.</p>
-
-<p>SNAP is launching a new initiative for the 2026 elections to change that. Our goals are to:</p>
-
-<ol>
-  <li>Show candidates that science matters by directly asking where they stand on pressing science policy-related issues.</li>
-  <li>Provide voters with clear, accessible information so they can see which candidates value science in decision-making.</li>
-  <li>Hold candidates accountable by sharing their responses publicly on our website and via local media.</li>
-  <li>Encourage thoughtful engagement between communities and policymakers on science policy-related policies.</li>
-</ol>
-
-<h3>How It Works</h3>
-
-<p>Individual state teams will send political candidates a set of science policy-related (and state-specific) questions and ask for written responses. Their answers will be posted publicly on our website so that voters can easily compare positions. Find your state's page below!</p>
-
-<p><i>The responses shared by candidates do not reflect the views of the Stance state teams nor SNAP. SNAP is a non-partisan organization. SNAP and the Stance state teams do not endorse any candidates.</i></p>
-
-<p>Some, <i>but not all</i>, of the states will be evaluating candidate answers with the publicly available grading rubric (which you can access here). The evaluations are intended to assist constituents as they interpret candidates' stances. The rubric is based on the following criteria:</p>
-<ul>
-  <li>Evidence-Based positions: this candidate regularly cites scientific findings as the basis for their policy goals (ends)</li>
-  <li>Sound policy-making: this candidate cites or pledges to utilize scientific findings or expertise in the design of their policies (means)</li>
-  <li>Thoroughness of Response: this candidate provides a well-thought-out, detailed response to this question</li>
-</ul>
-
-<p>To find out if your state is evaluating responses, check out the individual state pages. Teams will not be modifying candidate responses in any way.</p>
-
-<p>Additionally, some states are organizing local town halls where candidates for office can answer questions about their Stance on Science for the public directly.</p>
-
-<h3>Why This Matters</h3>
-
-<p>By highlighting candidates' views on science, SNAP and local state teams aim to elevate science as a key part of the political conversation and remind candidates that voters care about evidence-based leadership.</p>
-
-<h3>How to Get Involved</h3>
-
-<p>If you'd like to support this initiative, <a href="https://docs.google.com/forms/d/e/1FAIpQLSem6bVuZnK7eWls-CTMpxWxaxHpuElNj4oOXIvLkgDYRO6YNg/viewform?usp=header">fill out our interest form</a>, and we'll be in touch! There are opportunities for everyone—whether you're ready to help lead outreach in your state or make a few calls or send emails to political candidates. Every contribution helps hold our political candidates accountable and strengthens our collective voice.</p>
-
-<h3>Find My Candidate's Responses</h3>
+<h2>Find My Candidate's Responses</h2>
 
 {%- assign active_states = site.initiatives | where_exp: "p", "p.state != nil and p.state != 'xx'" | map: "state" | sort -%}
 
@@ -77,7 +38,6 @@ candidate responses from that state's Stance on Science team. <a href="{{ '/init
   <span class="stance-map-legend__swatch stance-map-legend__swatch--inactive"></span> No responses yet
 </p>
 
-<!-- <p>Navigate to your state's page here to see responses for the 2026 Primary Elections</p> -->
  <h4>List of States</h4>
  
 <ul>
@@ -86,6 +46,46 @@ candidate responses from that state's Stance on Science team. <a href="{{ '/init
     <li><a href="{{ sp.url | relative_url }}">{{ sp.state_name | default: sp.state | capitalize }}</a></li>
   {%- endfor -%}
 </ul>
+
+<h2>About Stance on Science</h2>
+
+<p>Science affects every part of our daily lives—from the safety of our food and water, to the health of our communities, to the jobs and technologies that power our future. Yet too often, science is left out of political debates.</p>
+
+<p>SNAP is launching a new initiative for the 2026 elections to change that. Our goals are to:</p>
+
+<ol>
+  <li>Show candidates that science matters by directly asking where they stand on pressing science policy-related issues.</li>
+  <li>Provide voters with clear, accessible information so they can see which candidates value science in decision-making.</li>
+  <li>Hold candidates accountable by sharing their responses publicly on our website and via local media.</li>
+  <li>Encourage thoughtful engagement between communities and policymakers on science policy-related policies.</li>
+</ol>
+
+<h3>How It Works</h3>
+
+<p>Individual state teams will send political candidates a set of science policy-related (and state-specific) questions and ask for written responses. Their answers will be posted publicly on our website so that voters can easily compare positions. Find your state's page below!</p>
+
+<p><i>The responses shared by candidates do not reflect the views of the Stance state teams nor SNAP. SNAP is a non-partisan organization. SNAP and the Stance state teams do not endorse any candidates.</i></p>
+
+<p>Some, <i>but not all</i>, of the states will be evaluating candidate answers with the publicly available grading rubric (which you can access <a href="https://docs.google.com/document/d/1HFpqoIsq8DpBhChrxs-jU6NXkgSFmi7FEaasIwx6oKU/edit?usp=sharing">here</a>). The evaluations are intended to assist constituents as they interpret candidates' stances. The rubric is based on the following criteria:</p>
+<ul>
+  <li>Evidence-Based positions: this candidate regularly cites scientific findings as the basis for their policy goals (ends)</li>
+  <li>Sound policy-making: this candidate cites or pledges to utilize scientific findings or expertise in the design of their policies (means)</li>
+  <li>Thoroughness of Response: this candidate provides a well-thought-out, detailed response to this question</li>
+</ul>
+
+<p>To find out if your state is evaluating responses, check out the individual state pages. Teams will not be modifying candidate responses in any way.</p>
+
+<p>Additionally, some states are organizing local town halls where candidates for office can answer questions about their Stance on Science for the public directly.</p>
+
+<h3>Why This Matters</h3>
+
+<p>By highlighting candidates' views on science, SNAP and local state teams aim to elevate science as a key part of the political conversation and remind candidates that voters care about evidence-based leadership.</p>
+
+<h3>How to Get Involved</h3>
+
+<p>If you'd like to support this initiative, <a href="https://docs.google.com/forms/d/e/1FAIpQLSem6bVuZnK7eWls-CTMpxWxaxHpuElNj4oOXIvLkgDYRO6YNg/viewform?usp=header">fill out our interest form</a>, and we'll be in touch! There are opportunities for everyone—whether you're ready to help lead outreach in your state or make a few calls or send emails to political candidates. Every contribution helps hold our political candidates accountable and strengthens our collective voice.</p>
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/SNAPStanceSlide.png" alt="SNAP Stance on Science Initiative Slide" style="max-width: 100%; height: auto;" />
 
 <div class="jumbotron">
   <h2>Press Mentions</h2>

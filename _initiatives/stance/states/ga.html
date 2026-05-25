@@ -1,22 +1,22 @@
 ---
 layout: gridlay
-title: "California Stance on Science"
-excerpt: "Responses from California candidates to the Stance on Science - California questionnaire."
+title: "Georgia Stance on Science"
+excerpt: "Responses from Georgia candidates to the Georgia Stance on Science questionnaire."
 collection: initiatives
-permalink: /initiatives/stance-on-science/states/ca
+permalink: /initiatives/stance-on-science/states/ga
 sitemap: true
-state: ca
-state_name: California
-demonym_plural: Californians
-team_name: California Stance on Science
-team_email: ca.stanceonscience@gmail.com
+state: ga
+state_name: Georgia
+demonym_plural: Georgians
+team_name: Stance on Science - Georgia
+team_email: coalitionofathensscientists@gmail.com
 last_updated: 2026-05-22
-ballot_lookup_url: https://findyourrep.legislature.ca.gov/
-ballot_lookup_label: Find Your California Representatives
+ballot_lookup_url: TODO_URL               # TODO: voter/district lookup URL
+ballot_lookup_label: TODO voter resource  # TODO: visible link text
 # Socials (optional — leave blank to hide a link, or all blank to hide the footer):
-instagram_url: https://www.instagram.com/castanceonscience
+instagram_url:
 x_url:
-bluesky_url: https://bsky.app/profile/castanceonscience.bsky.social
+bluesky_url:
 published: true
 ---
 {%- assign responses = site.data.stance_responses[page.state] | default: empty -%}
@@ -34,25 +34,13 @@ published: true
 <header class="stance-state-header">
   <h1>{{ page.state_name }} Candidate Page</h1>
   <p>
-    Created by the {{ page.team_name }} team.<br/>
+    Created by the {{ page.team_name }} team, <a href="https://www.instagram.com/coalitionofathensscientists/" target="_blank" rel="noopener">Coalition of Athens Scientists</a>, <a href="https://scienceforgeorgia.org/" target="_blank" rel="noopener">Science for Georgia</a>, <a href="https://esal.us/" target="_blank" rel="noopener">Engineers and Scientists Acting Locally</a>, <a href="https://athenspoliticsnerd.com/" target="_blank" rel="noopener">Athens Politics Nerd</a>, <a href="https://www.facebook.com/iotapsiomega/" target="_blank" rel="noopener">Alpha Kappa Alpha Iota Psi Omega Chapter</a>, <a href="https://southernsustainabilityinstitute.org/" target="_blank" rel="noopener">Southern Sustainability Institute</a>, <a href="https://www.100percentathens.org/" target="_blank" rel="noopener">100% Athens</a>, <a href="https://athenslandtrust.org/" target="_blank" rel="noopener">Athens Land Trust</a>, <a href="https://c-changeconversations.org/" target="_blank" rel="noopener">C-Change</a>, and <a href="https://citizensclimatelobby.org/about-ccl/chapters/" target="_blank" rel="noopener">Citizen's Climate Lobby Athens</a>.<br/>
     Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> with any questions.
   </p>
   <p><em>Last updated: {{ page.last_updated | date: "%B %-d, %Y" }}</em></p>
 </header>
 
-<p>
-  {{ page.state_name }} will face many challenges in the coming years, and it is increasingly critical that our policymakers understand the importance of evidence-based decision-making. The goals of this resource are to:
-
-  <ol>
-    <li>Provide voters with clear, accessible information so they can see how candidates value science in decision-making.</li>
-    <li>Hold candidates accountable by sharing their responses publicly on our website and via local media.</li>
-    <li>Encourage thoughtful engagement between communities and policymakers on science policy-related topics in our state.</li>
-  </ol>
-
-  Through Stance on Science, we hope to help {{ page.demonym_plural }} understand how their elected representatives will utilize science to improve the state that they love. Learn more about this initiative on the <a href="{{ '/initiatives/stance-on-science' | relative_url }}">home page</a>.
-</p>
-
-<section class="stance-state-howto">
+<!-- <section class="stance-state-howto">
   <h2>How to use this resource</h2>
   <p>This webpage houses the responses to {{ questions.size }} questions
   crafted by the {{ page.team_name }} team. To find candidates' responses
@@ -61,28 +49,30 @@ published: true
   <p>Only official candidates who will appear on ballots were contacted.</p>
   <p>To find your district and who is on your ballot, please visit the
     <a href="{{ page.ballot_lookup_url }}" target="_blank" rel="noopener">{{ page.ballot_lookup_label }}</a>.</p>
-  <p>Candidates were contacted in May 2026 (with a follow-up to those
+  <p>Candidates were contacted in TODO Month Year (with a follow-up to those
   who did not initially respond) and given the opportunity to answer all
   questions. Only the responses of candidates who answered the questions are
   included. None of the candidates' responses were modified in any way before
   being published on this resource page.</p>
 
-  <p><u>For the <strong>June 2026 primary election</strong></u>, only candidates in the
+  <p><u>For the <strong>TODO election cycle</strong></u>, only candidates in the
   following elections were contacted:</p>
+  {%- comment -%}
+    For races that have district/party sub-bullets, wrap them in a
+    <details class="stance-race-group"> so the sub-list collapses by default.
+  {%- endcomment -%}
   <ul>
+    <li>TODO Contacted Race 1</li>
     <details class="stance-race-group">
-      <summary>US House of Representatives for California</summary>
+      <summary>TODO Contacted Race 2</summary>
         <ul>
-          <li>Representative for District 11</li>
-          <li>Representative for District 40</li>
+          <li>TODO District / party sub-bullet</li>
         </ul>
     </details>
-    <li class="stance-race-flat">California Governor</li>
-    <li class="stance-race-flat">Los Angeles Mayor</li>
   </ul>
-</section>
+</section> -->
 
-<section class="stance-state-questions">
+<!-- <section class="stance-state-questions">
   <h3>The questions posed to each candidate</h3>
   <ol>
     {%- for q in questions -%}
@@ -99,7 +89,7 @@ published: true
         )</em></li>
     {%- endfor -%}
   </ol>
-</section>
+</section> -->
 
 <section class="stance-state-disclaimer">
   <h3>Disclaimer</h3>
@@ -117,7 +107,11 @@ published: true
 <hr/>
 
 <section class="stance-state-results">
-  <h2>June 2026 Primary Elections</h2>
+  <h2>Athens, Georgia 2026 Candidate Survey on Energy and the Environment</h2>
+
+  <p>The candidate responses to the Athens, Georgia 2026 Candidate Survey on Energy and the Environment are hosted on the <a href="https://athenspoliticsnerd.com/local-candidate-positions-on-energy-and-the-environment/" target="_blank" rel="noopener">Athens Politics Nerd website</a>.</p>
+
+  <!-- <h2>TODO Election Cycle</h2>
 
   <p><i>If you cannot find a candidate, it means they have not yet submitted their response to Stance on Science. Please check back soon.</i></p>
 
@@ -143,7 +137,7 @@ published: true
     <p class="stance-empty-state" data-empty-state hidden>
       <em>No responses match the selected filters.</em>
     </p>
-  {%- endif -%}
+  {%- endif -%} -->
 </section>
 
 {%- assign socials = "" | split: "" -%}

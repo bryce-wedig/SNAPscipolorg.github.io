@@ -75,7 +75,7 @@ $stance-gray-bg: #f6f6f6;
   margin-bottom: 1.5rem;
 }
 
-.stance-race-group {
+.stance-election-group {
   > summary {
     cursor: pointer;
     list-style: revert;
@@ -84,6 +84,11 @@ $stance-gray-bg: #f6f6f6;
   }
 
   > ul { margin-top: 0.25rem; }
+}
+
+.stance-race-flat {
+  list-style: none;
+  margin-left: 1rem;
 }
 
 .stance-state-disclaimer {
