@@ -34,7 +34,7 @@ While the initiative is still fairly new, we have promising momentum. Since join
 
 #### Recognition:
 
-*[Liam Russell](https://medium.com/@liamjrussell99) is a Molecular and Cellular Biophysics PhD candidate at the University of Denver, studying epithelial remodeling during embryonic development. He is also a current science communication intern for the Society of Developmental Biology, and a STEM writing consultant in the [DU Writing Center](https://academicaffairs.du.edu/writing/writing-center).*
+*[Liam Russell](https://medium.com/@liamjrussell99) is a Molecular and Cellular Biophysics PhD candidate at the University of Denver, studying epithelial remodeling during embryonic development. He is also a current [science communication intern for the Society of Developmental Biology](https://www.sdbonline.org/science_communication_internship), and a STEM writing consultant in the [DU Writing Center](https://academicaffairs.du.edu/writing/writing-center).*
 
 *Special thanks to fellow SNAP members who provided feedback on this article: [Sneha Rao](https://medium.com/@sneharao_56428), leader of the Science Policy Group at UCSF and developmental biology PhD candidate studying how an embryo prepares for implantation in the uterus; [Anna Rader Groves](https://medium.com/@anna.rader9), who received her PhD in Neuroscience from Georgia State University where she studied visual development in adolescence and related neuropsychiatric vulnerabilities, now working in science communications and government relations; and [Jordan Williams](https://jolybdenum.medium.com/), a pharmacology PhD candidate studying how to alter the lung's innate immune responses to better treat chronic respiratory diseases.*
 
