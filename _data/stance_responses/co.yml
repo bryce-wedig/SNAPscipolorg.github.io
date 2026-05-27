@@ -1111,7 +1111,7 @@
   district: 1
   party: Democratic
   question: co-q1
-  date: 2026-05-26
+  date: 2026-05-27
   response: |
       "As a member of Congress, I would like to establish a Colorado Science and Public Health Advisory Council made up of independent scientists, health professionals, climate and water experts, educators, farmers, labor representatives, and community voices. I will convene regular public briefings on the issues that directly affect Coloradans, including water, air quality, public health, energy, artificial intelligence, environmental justice, and emerging technologies.
       
@@ -1125,7 +1125,7 @@
   district: 1
   party: Democratic
   question: co-q2
-  date: 2026-05-26
+  date: 2026-05-27
   response: |
       "Colorado farmers and ranchers are essential to our economy, our food security, and our way of life. They are also on the front lines of drought, water scarcity, unpredictable weather, rising costs, and unstable supply chains.
 
@@ -1143,7 +1143,7 @@
   district: 1
   party: Democratic
   question: co-q3
-  date: 2026-05-26
+  date: 2026-05-27
   response: |
       "Artificial intelligence and advanced computing can create real opportunity in medicine, clean energy, education, small business, scientific discovery, and our national economy. I support innovation, but I do not support an economy where technology moves forward by leaving workers, families, and communities behind.
 
@@ -1163,7 +1163,7 @@
   district: 1
   party: Democratic
   question: co-q4
-  date: 2026-05-26
+  date: 2026-05-27
   response: |
       "Measles is preventable, and outbreaks are a warning that our public health system must be strengthened, not weakened. I support vaccination as one of the most effective public health tools ever developed. Families deserve accurate information from trusted medical professionals, convenient access to vaccines, and a public health system capable of responding quickly when outbreaks occur.
 
@@ -1179,7 +1179,7 @@
   district: 1
   party: Democratic
   question: co-q5
-  date: 2026-05-26
+  date: 2026-05-27
   response: |
       "Science literacy is essential to democracy. People are being asked to make decisions about vaccines, climate change, artificial intelligence, water, energy, food safety, and public health while misinformation spreads faster than reliable information. When people lose confidence in science, it is often because science has not been made accessible, relevant, or connected to the challenges they face every day.
 
@@ -1192,4 +1192,54 @@
       We must also make sure that students from every background see themselves in science and understand that these careers and fields of study belong to them. That means investing in qualified teachers, modern laboratories, strong public schools, community partnerships, after school programs, and pathways into higher education, health care, technology, engineering, environmental science, and the skilled trades.
 
       A better relationship with science begins when young people see that education is not only preparation for a job. It is a source of power, opportunity, critical thinking, and the ability to shape the future of their communities. As someone whose own life was changed by access to public higher education, I will always fight to ensure that every child has that same opportunity."
+
+- candidate: Anil Pesaramelli
+  state: co
+  race: State House of Representatives
+  district: 19
+  party: Democratic
+  question: co-q1
+  date: 2026-05-27
+  response: |
+      "I will make evidence-based policymaking a core part of my work by creating advisory circles of scientists, educators, public health experts, engineers, economists, workers, and community members. I will rely on nonpartisan research, expert briefings, and transparent review of evidence before major decisions. I will also support clear goals, data tracking, and regular policy reviews so we can adjust when the facts show something is not working."
+      
+- candidate: Anil Pesaramelli
+  state: co
+  race: State House of Representatives
+  district: 19
+  party: Democratic
+  question: co-q2
+  date: 2026-05-27
+  response: |
+      "Colorado farmers are facing water scarcity, rising costs, and climate pressures, and I would support practical, evidence-based solutions that protect both farms and natural resources. That includes water-smart agriculture, drought-resilient crops, soil health, precision irrigation, stronger local supply chains, and partnerships with CSU, conservation districts, and farmers. Farmers must be at the table so policy reflects both science and real-world experience."
+
+- candidate: Anil Pesaramelli
+  state: co
+  race: State House of Representatives
+  district: 19
+  party: Democratic
+  question: co-q3
+  date: 2026-05-27
+  response: |
+      "Colorado should welcome AI innovation and good jobs, but not at the expense of our water, energy grid, neighborhoods, or ratepayers. I would support data centers only with strong standards for water efficiency, clean energy, grid reliability, land-use compatibility, and public transparency. Large users should pay their fair share for grid upgrades, and tax incentives should be tied to local hiring, efficiency, renewable energy, water conservation, and community benefit. We should also put job protections and utility rate protections in place. "
+
+- candidate: Anil Pesaramelli
+  state: co
+  race: State House of Representatives
+  district: 19
+  party: Democratic
+  question: co-q4
+  date: 2026-05-27
+  response: |
+      "I support evidence-based public health policies focused on prevention, trust, and rapid response. That means expanding vaccine access and education, strengthening local public health departments, improving outbreak tracking and communication, and protecting schools, seniors, and vulnerable residents. I would also invest in broader preventive health, including mental health, maternal health, chronic disease prevention, nutrition, air quality, and affordable primary care."
+
+- candidate: Anil Pesaramelli
+  state: co
+  race: State House of Representatives
+  district: 19
+  party: Democratic
+  question: co-q5
+  date: 2026-05-27
+  response: |
+      "Science literacy should help students understand evidence, ask good questions, recognize misinformation, and make informed decisions. I would support K-12 standards that focus on hands-on learning, critical thinking, data interpretation, source evaluation, and real-world problem solving. We should also connect students with local scientists, farmers, engineers, healthcare workers, and universities so science feels relevant to their lives and prepares them for future careers."
 
