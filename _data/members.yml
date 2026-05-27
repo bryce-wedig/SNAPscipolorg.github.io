@@ -121,7 +121,7 @@
 - name: Bryce Wedig
   pronouns: 
   photo: Bryce.jpg
-  info: Bryce is a 4th year PhD candidate in the Department of Physics at Washington University in St. Louis. He studies small-scale dark matter in distant galaxies using space telescopes. He is a co-president of WashU's science policy group [ProSPER](https://sites.wustl.edu/prosper/) and works on the SNAP website.
+  info: Bryce is a PhD candidate in the Department of Physics at Washington University in St. Louis. He studies small-scale dark matter in distant galaxies using space telescopes. He is a co-president of WashU's science policy group [ProSPER](https://sites.wustl.edu/prosper/) and works on the SNAP website.
   email: 
   bluesky: 
   medium: 
@@ -139,6 +139,18 @@
   medium: 
   instagram: 
   linkedin: 
+  twitter: 
+  website: 
+
+- name: Celine Tsoi
+  pronouns: 
+  photo: Celine.jpg
+  info: Celine is a PhD student in Social Psychology at UC Santa Barbara. Her research focuses on identity and morality and their relationship with solidarity. Her other research interests include intergroup friendship, protest perceptions, public health, and open science efforts.
+  email: 
+  bluesky: celinetsoi.bsky.social
+  medium: 
+  instagram: celinetsoi_cat
+  linkedin: celine-tsoi
   twitter: 
   website: 
 
@@ -174,7 +186,7 @@
   bluesky: goldmandoran.bsky.social
   medium: 
   instagram: 
-  linkedin: doran-goldman-aa30b11b7/
+  linkedin: doran-goldman-aa30b11b7
   twitter: 
   website: 
 
