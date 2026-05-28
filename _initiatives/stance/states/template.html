@@ -51,7 +51,6 @@
 # ────────────────────────────────────────────────────────────────────────────
 layout: gridlay
 title: "TODO Stance on Science"           # TODO: e.g. "New York Stance on Science"
-excerpt: "Responses from TODO candidates to the TODO Stance on Science questionnaire."
 collection: initiatives
 permalink: /initiatives/stance-on-science/states/xx   # TODO: replace xx with USPS code
 sitemap: true
@@ -81,11 +80,31 @@ published: true                           # TODO: delete this line (or set to tr
 {%- endfor -%}
 {%- assign question_tags = question_tags | uniq -%}
 
+{%- assign socials = "" | split: "" -%}
+{%- if page.instagram_url -%}
+  {%- capture _ig -%}<a href="{{ page.instagram_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _ig -%}
+{%- endif -%}
+{%- if page.x_url -%}
+  {%- capture _x -%}<a href="{{ page.x_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i> X</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _x -%}
+{%- endif -%}
+{%- if page.bluesky_url -%}
+  {%- capture _bs -%}<a href="{{ page.bluesky_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky"></i> Bluesky</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _bs -%}
+{%- endif -%}
+
 <header class="stance-state-header">
   <h1>{{ page.state_name }} Candidate Page</h1>
   <p>
-    Created by the {{ page.team_name }} team.<br/>
-    Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> with any questions.
+    Created by the {{ page.team_name }} team. Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> with any questions. Follow us on
+    {%- for s in socials -%}
+      {%- if forloop.first %} {{ s }}
+      {%- elsif forloop.last -%}
+        {%- if socials.size > 2 %}, and {% else %} and {% endif -%}{{ s }}
+      {%- else %}, {{ s }}
+      {%- endif -%}
+    {%- endfor -%}.
   </p>
   <p><em>Last updated: {{ page.last_updated | date: "%B %-d, %Y" }}</em></p>
 </header>
@@ -124,7 +143,12 @@ published: true                           # TODO: delete this line (or set to tr
     <details class="stance-race-group"> so the sub-list collapses by default.
   {%- endcomment -%}
   <ul>
-    <li>TODO Contacted Race 1</li>
+    <details class="stance-race-group">
+      <summary>TODO Contacted Race 1</summary>
+        <ul>
+          <li>TODO District / party sub-bullet</li>
+        </ul>
+    </details>
     <details class="stance-race-group">
       <summary>TODO Contacted Race 2</summary>
         <ul>
@@ -197,32 +221,5 @@ published: true                           # TODO: delete this line (or set to tr
     </p>
   {%- endif -%}
 </section>
-
-{%- assign socials = "" | split: "" -%}
-{%- if page.instagram_url -%}
-  {%- capture _ig -%}<a href="{{ page.instagram_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a>{%- endcapture -%}
-  {%- assign socials = socials | push: _ig -%}
-{%- endif -%}
-{%- if page.x_url -%}
-  {%- capture _x -%}<a href="{{ page.x_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i> X</a>{%- endcapture -%}
-  {%- assign socials = socials | push: _x -%}
-{%- endif -%}
-{%- if page.bluesky_url -%}
-  {%- capture _bs -%}<a href="{{ page.bluesky_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky"></i> Bluesky</a>{%- endcapture -%}
-  {%- assign socials = socials | push: _bs -%}
-{%- endif -%}
-{%- if socials.size > 0 %}
-<footer class="stance-state-socials">
-  <p>Follow {{ page.team_name }} on
-    {%- for s in socials -%}
-      {%- if forloop.first %} {{ s }}
-      {%- elsif forloop.last -%}
-        {%- if socials.size > 2 %}, and {% else %} and {% endif -%}{{ s }}
-      {%- else %}, {{ s }}
-      {%- endif -%}
-    {%- endfor -%}.
-  </p>
-</footer>
-{%- endif %}
 
 <script src="{{ '/assets/javascript/stance-filters.js' | relative_url }}"></script>

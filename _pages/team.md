@@ -29,7 +29,7 @@ permalink: /team/
 <div style="display: flex; gap: 0.25em; align-items: flex-start; flex-wrap: wrap;">
 {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa-solid fa-link fa-2x"></i></a> {% endif %}
 {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a> {% endif %}
-{% if member.linkedin %} <a href="https://www.linkedin.com/in/{{ member.linkedin }}/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a> {% endif %}
+{% if member.linkedin %} <a href="https://www.linkedin.com/in/{{ member.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a> {% endif %}
 {% if member.bluesky %} <a href="https://bsky.app/profile/{{ member.bluesky }}" target="_blank"><i class="fa-brands fa-bluesky fa-2x"></i></a> {% endif %}
 {% if member.medium %} <a href="https://medium.com/@{{ member.medium }}" target="_blank"><i class="fa-brands fa-medium fa-2x"></i></a> {% endif %}
 {% if member.instagram %} <a href="https://www.instagram.com/{{ member.instagram }}" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a> {% endif %}
