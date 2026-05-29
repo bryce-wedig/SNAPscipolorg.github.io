@@ -1,8 +1,13 @@
 // Stance on Science — styles for the map, state pages, and global search.
 
-$stance-orange: #E89142;
-$stance-orange-dark: #C47830;
-$stance-blue: #213863;
+$snap-orange: #E89142;
+$snap-orange-dark: #C47830;
+$snap-blue: #213863;
+$snap-light-blue: #687DA2;
+$snap-purple: #310A45;
+$snap-cream: #F4D294;
+$snap-yellow: #F2F493;
+$snap-green: #C2C354;
 $stance-gray-border: #dadada;
 $stance-gray-bg: #f6f6f6;
 
@@ -27,12 +32,12 @@ $stance-gray-bg: #f6f6f6;
     cursor: default;
 
     &--active {
-      fill: $stance-orange;
+      fill: $snap-orange;
       cursor: pointer;
 
       &:hover,
       &:focus {
-        fill: $stance-orange-dark;
+        fill: $snap-orange-dark;
         outline: none;
       }
     }
@@ -56,7 +61,7 @@ $stance-gray-bg: #f6f6f6;
     border: 1px solid #000;
     vertical-align: middle;
 
-    &--active { background: $stance-orange; }
+    &--active { background: $snap-orange; }
     &--inactive { background: #fff; }
   }
 }
@@ -80,7 +85,7 @@ $stance-gray-bg: #f6f6f6;
     cursor: pointer;
     list-style: revert;
 
-    &:hover { color: $stance-blue; }
+    &:hover { color: $snap-blue; }
   }
 
   > ul { margin-top: 0.25rem; }
@@ -93,7 +98,7 @@ $stance-gray-bg: #f6f6f6;
 
 .stance-state-disclaimer {
   background: $stance-gray-bg;
-  border-left: 4px solid $stance-blue;
+  border-left: 4px solid $snap-blue;
   padding: 1rem 1.25rem;
   border-radius: 4px;
 }
@@ -188,7 +193,7 @@ $stance-gray-bg: #f6f6f6;
 
   &__candidate {
     margin: 0 0 0.4rem;
-    color: $stance-blue;
+    color: $snap-blue;
   }
 
   &__meta {
@@ -210,7 +215,7 @@ $stance-gray-bg: #f6f6f6;
 
 .stance-badge {
   display: inline-block;
-  font-size: 0.78rem;
+  font-size: 0.9rem;
   padding: 0.18rem 0.55rem;
   border-radius: 999px;
   background: #eee;
@@ -220,20 +225,24 @@ $stance-gray-bg: #f6f6f6;
   a { color: inherit; text-decoration: underline; }
 
   &--state {
-    background: $stance-blue;
+    background: $snap-blue;
     color: #fff;
     a { color: #fff; text-decoration: none; }
   }
 
   &--race,
-  &--party,
   &--county-race {
-    background: #e6ecf2;
-    color: #213863;
+    background: $snap-light-blue;
+    color: #fff;
+  }
+
+  &--party {
+    background: $snap-green;
+    color: #fff;
   }
 
   &--tag {
-    background: $stance-orange;
+    background: $snap-orange;
     color: #fff;
   }
 }
@@ -331,6 +340,16 @@ $stance-gray-bg: #f6f6f6;
       "searchbar"
       "filters"
       "results";
+  }
+}
+
+.stance-jump-btn {
+  background-color: $snap-blue;
+  border-color: $snap-blue;
+
+  &:hover, &:focus, &:active {
+    background-color: darken($snap-blue, 8%);
+    border-color: darken($snap-blue, 8%);
   }
 }
 
