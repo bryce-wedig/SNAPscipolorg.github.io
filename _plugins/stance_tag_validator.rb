@@ -6,7 +6,7 @@ module StanceResponseValidator
   RESPONSES_KEY = "stance_responses".freeze
   QUESTIONS_KEY = "stance_questions".freeze
 
-  RESPONSE_REQUIRED_FIELDS = %w[candidate state race party question response].freeze
+  RESPONSE_REQUIRED_FIELDS = %w[candidate_first_name candidate_last_name state race party question response].freeze
   QUESTION_REQUIRED_FIELDS = %w[id question tag].freeze
   COUNTY_RACE_RACE = "Local County Races [All]".freeze
 
@@ -65,7 +65,7 @@ module StanceResponseValidator
         next if state_slug == "_blank"
         valid_question_ids = question_ids_by_state[state_slug] || Set.new
         Array(entries).each_with_index do |entry, idx|
-          label = "#{state_slug}.yml[#{idx}] — #{entry.is_a?(Hash) ? (entry["candidate"] || "(unknown candidate)") : "(non-hash entry)"}"
+          label = "#{state_slug}.yml[#{idx}] — #{entry.is_a?(Hash) ? ([entry["candidate_first_name"], entry["candidate_last_name"]].compact.join(" ").then { |n| n.empty? ? "(unknown candidate)" : n }) : "(non-hash entry)"}"
 
           unless entry.is_a?(Hash)
             problems << "  - #{label}: entry is not a mapping"

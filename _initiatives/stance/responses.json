@@ -30,7 +30,8 @@ sitemap: false
         {%- unless first -%},{%- endunless -%}
         {%- assign first = false -%}
         {
-          "candidate": {{ r.candidate | jsonify }},
+          "candidate": {{ r.candidate_first_name | append: " " | append: r.candidate_last_name | jsonify }},
+          "candidate_last_name": {{ r.candidate_last_name | jsonify }},
           "state": {{ state_code | jsonify }},
           "state_name": {{ state_display | jsonify }},
           "race": {{ r.race | jsonify }},

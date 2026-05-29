@@ -16,7 +16,7 @@
 {%- endif -%}
 {%- assign tag_attr = tag_list | join: "|" -%}
 <article class="stance-response-card"
-         data-candidate="{{ r.candidate | downcase | escape }}"
+         data-candidate="{{ r.candidate_last_name | downcase | escape }}"
          data-date="{{ r.date }}"
          data-state="{{ r.state | downcase }}"
          data-tag="{{ tag_attr | escape }}"
@@ -25,7 +25,7 @@
          data-party="{{ r.party | escape }}"
          data-county-race="{{ r.county_race | escape }}">
   <header class="stance-response-card__header">
-    <h4 class="stance-response-card__candidate">{{ r.candidate }}</h4>
+    <h4 class="stance-response-card__candidate">{{ r.candidate_first_name }} {{ r.candidate_last_name }}</h4>
     <div class="stance-response-card__meta">
       {%- if include.show_state == "true" -%}
         {%- assign state_page = site.initiatives | where: "state", r.state | first -%}

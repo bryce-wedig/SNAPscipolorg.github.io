@@ -52,9 +52,9 @@
     {%- endif -%}
 
     <label class="stance-filter">
-      <span class="stance-filter__label">Tag</span>
+      <span class="stance-filter__label">Question Tag</span>
       <select data-filter="tag">
-        <option value="">All tags</option>
+        <option value="">All question tags</option>
         {%- for t in filters.tags -%}
           {%- if include.scope != "state" or present_tags contains t -%}
             <option value="{{ t | escape }}">{{ t }}</option>
@@ -129,13 +129,13 @@
 
     {%- unless include.hide_sort -%}
       <label class="stance-filter">
-        <span class="stance-filter__label">Sort</span>
+        <span class="stance-filter__label">Sort By</span>
         <select data-sort>
           <option value="random">Random</option>
           <option value="newest">Newest</option>
           <option value="oldest">Oldest</option>
-          <option value="alpha">A–Z</option>
-          <option value="alpha-rev">Z–A</option>
+          <option value="alpha">Last Name A–Z</option>
+          <option value="alpha-rev">Last Name Z–A</option>
         </select>
       </label>
     {%- endunless -%}

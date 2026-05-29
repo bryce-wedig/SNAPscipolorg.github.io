@@ -13,8 +13,8 @@
   function sortResponses(arr, sortVal) {
     if (sortVal === "newest") return arr.slice().sort(function (a, b) { return (b.date || "").localeCompare(a.date || ""); });
     if (sortVal === "oldest") return arr.slice().sort(function (a, b) { return (a.date || "").localeCompare(b.date || ""); });
-    if (sortVal === "alpha") return arr.slice().sort(function (a, b) { return a.candidate.localeCompare(b.candidate); });
-    if (sortVal === "alpha-rev") return arr.slice().sort(function (a, b) { return b.candidate.localeCompare(a.candidate); });
+    if (sortVal === "alpha") return arr.slice().sort(function (a, b) { return a.candidate_last_name.localeCompare(b.candidate_last_name); });
+    if (sortVal === "alpha-rev") return arr.slice().sort(function (a, b) { return b.candidate_last_name.localeCompare(a.candidate_last_name); });
     return arr;
   }
 
