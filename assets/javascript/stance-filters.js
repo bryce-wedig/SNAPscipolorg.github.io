@@ -10,12 +10,22 @@
     var tagAttr = card.dataset.tag || "";
     return {
       el: card,
+      candidate: card.getAttribute("data-candidate") || "",
+      date: card.getAttribute("data-date") || "",
       tag: tagAttr ? tagAttr.split("|") : [],
       race: card.getAttribute("data-race") || "",
       district: card.getAttribute("data-district") || "",
       party: card.getAttribute("data-party") || "",
       county_race: card.getAttribute("data-county-race") || ""
     };
+  }
+
+  function sortedRecords(recs, sortVal) {
+    if (sortVal === "newest") return recs.slice().sort(function (a, b) { return b.date.localeCompare(a.date); });
+    if (sortVal === "oldest") return recs.slice().sort(function (a, b) { return a.date.localeCompare(b.date); });
+    if (sortVal === "alpha") return recs.slice().sort(function (a, b) { return a.candidate.localeCompare(b.candidate); });
+    if (sortVal === "alpha-rev") return recs.slice().sort(function (a, b) { return b.candidate.localeCompare(a.candidate); });
+    return recs;
   }
 
   function matches(r, filters, except) {
@@ -59,6 +69,7 @@
     if (!bar || !list) return;
 
     var selects = bar.querySelectorAll("select[data-filter]");
+    var sortSel = bar.querySelector("[data-sort]");
     var reset = bar.querySelector("[data-filter-reset]");
     var emptyState = document.querySelector("[data-empty-state]");
     var countEl = document.querySelector("[data-results-count]");
@@ -88,6 +99,9 @@
       if (countEl) countEl.textContent = String(visible);
       if (emptyState) emptyState.hidden = visible !== 0;
 
+      var sortVal = sortSel ? sortSel.value : "random";
+      sortedRecords(records, sortVal).forEach(function (r) { list.appendChild(r.el); });
+
       selects.forEach(function (sel) {
         var key = sel.dataset.filter;
         var valid = validValuesFor(key, records, filters);
@@ -106,9 +120,12 @@
       sel.addEventListener("change", apply);
     });
 
+    if (sortSel) sortSel.addEventListener("change", apply);
+
     if (reset) {
       reset.addEventListener("click", function () {
         selects.forEach(function (sel) { sel.value = ""; });
+        if (sortSel) sortSel.value = "random";
         apply();
       });
     }

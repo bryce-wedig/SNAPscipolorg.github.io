@@ -38,6 +38,19 @@
 
 <div class="stance-filter-bar" id="{{ id_prefix }}">
   <div class="stance-filter-bar__row">
+    {%- if include.show_state -%}
+      <label class="stance-filter">
+        <span class="stance-filter__label">State</span>
+        <select data-filter="state">
+          <option value="">All states</option>
+          {%- assign present_states = site.initiatives | where_exp: "p", "p.state != nil and p.state != 'xx'" | sort: "state" -%}
+          {%- for sp in present_states -%}
+            <option value="{{ sp.state }}">{{ sp.state_name | default: sp.state | upcase }}</option>
+          {%- endfor -%}
+        </select>
+      </label>
+    {%- endif -%}
+
     <label class="stance-filter">
       <span class="stance-filter__label">Tag</span>
       <select data-filter="tag">
@@ -114,6 +127,21 @@
       </label>
     {%- endif -%}
 
-    <button type="button" class="stance-filter__reset" data-filter-reset>Reset</button>
+    {%- unless include.hide_sort -%}
+      <label class="stance-filter">
+        <span class="stance-filter__label">Sort</span>
+        <select data-sort>
+          <option value="random">Random</option>
+          <option value="newest">Newest</option>
+          <option value="oldest">Oldest</option>
+          <option value="alpha">A–Z</option>
+          <option value="alpha-rev">Z–A</option>
+        </select>
+      </label>
+    {%- endunless -%}
+
+    {%- unless include.hide_reset -%}
+      <button type="button" class="stance-filter__reset" data-filter-reset>Reset</button>
+    {%- endunless -%}
   </div>
 </div>

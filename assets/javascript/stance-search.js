@@ -10,6 +10,14 @@
 
   var FILTER_KEYS = ["tag", "race", "district", "party", "state", "county_race"];
 
+  function sortResponses(arr, sortVal) {
+    if (sortVal === "newest") return arr.slice().sort(function (a, b) { return (b.date || "").localeCompare(a.date || ""); });
+    if (sortVal === "oldest") return arr.slice().sort(function (a, b) { return (a.date || "").localeCompare(b.date || ""); });
+    if (sortVal === "alpha") return arr.slice().sort(function (a, b) { return a.candidate.localeCompare(b.candidate); });
+    if (sortVal === "alpha-rev") return arr.slice().sort(function (a, b) { return b.candidate.localeCompare(a.candidate); });
+    return arr;
+  }
+
   function toArray(v) {
     if (v == null) return [];
     return Array.isArray(v) ? v : [v];
@@ -64,7 +72,7 @@
       if (!isNaN(d.getTime())) {
         dateHtml =
           '<footer class="stance-response-card__footer"><small>Submitted ' +
-          d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" }) +
+          d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }) +
           "</small></footer>";
       }
     }
@@ -187,6 +195,7 @@
     var emptyEl = root.querySelector("[data-empty-state]");
     var input = root.querySelector("[data-search-input]");
     var selects = root.querySelectorAll("select[data-filter]");
+    var sortSel = root.querySelector("[data-sort]");
     var reset = root.querySelector("[data-filter-reset]");
 
     var url = window.STANCE_RESPONSES_URL || "/initiatives/stance-on-science/responses.json";
@@ -217,14 +226,16 @@
         function currentState() {
           var s = { q: input ? input.value.trim() : "" };
           selects.forEach(function (sel) { s[sel.dataset.filter] = sel.value; });
+          s.sort = sortSel ? sortSel.value : "random";
           return s;
         }
 
         function apply() {
           var state = currentState();
-          var visible = responses.filter(function (r) {
+          var matched = responses.filter(function (r) {
             return matches(r, state, states, null);
           });
+          var visible = sortResponses(matched, state.sort);
 
           if (listEl) {
             if (visible.length === 0) {
@@ -241,10 +252,12 @@
 
         if (input) input.addEventListener("input", apply);
         selects.forEach(function (sel) { sel.addEventListener("change", apply); });
+        if (sortSel) sortSel.addEventListener("change", apply);
         if (reset) {
           reset.addEventListener("click", function () {
             if (input) input.value = "";
             selects.forEach(function (sel) { sel.value = ""; });
+            if (sortSel) sortSel.value = "random";
             apply();
           });
         }
