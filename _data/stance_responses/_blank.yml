@@ -1,4 +1,5 @@
-- candidate: [candidate]
+- candidate_first_name: [candidate_first_name]
+  candidate_last_name: [candidate_last_name]
   state: [state]
   race: [race]
   district: [district]
