@@ -334,6 +334,16 @@ $stance-gray-bg: #f6f6f6;
   }
 }
 
+.stance-jump-btn {
+  background-color: #213863;
+  border-color: #213863;
+
+  &:hover, &:focus, &:active {
+    background-color: darken(#213863, 8%);
+    border-color: darken(#213863, 8%);
+  }
+}
+
 // Screen-reader-only label helper (Bootstrap 4 already ships .sr-only, but
 // guard in case styles load in a different order).
 .sr-only {
