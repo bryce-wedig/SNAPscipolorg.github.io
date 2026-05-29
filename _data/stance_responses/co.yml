@@ -1542,3 +1542,54 @@
   response: |
       "Science literacy in America is declining because many classrooms prioritize political narratives over the scientific method, critical thinking, and empirical evidence. Students deserve facts, not activism disguised as science. To improve K-12 standards, we must emphasize rigorous teaching of the scientific method, hypothesis testing, data analysis, and debate of competing evidence. Students should also develop a foundational understanding of emerging technologies such as artificial intelligence, including how to evaluate AI-generated content, identify manipulated images and deepfake videos, and verify information using credible sources. AI should be a tool that enhances human intelligence, not a substitute for human judgment."
 
+- candidate: Alex Kelloff
+  state: co
+  race: US House of Representatives
+  district: 3
+  party: Democratic
+  question: co-q1
+  date: 2026-05-29
+  response: |
+      "I believe in a practical, bipartisan approach that brings in independent experts, local stakeholders, and community leaders from across the district. Throughout my career, I’ve worked in infrastructure, technology, and strategic advisory roles where data-driven decision-making was essential. Therefore, evidence and scientific findings should inform policy, but they should be balanced with the realities facing rural communities, small businesses, farmers, and families in Western and Southern Colorado. My goal would be to keep the process transparent, open to different viewpoints, and focused on getting results that actually work for our district."
+
+- candidate: Alex Kelloff
+  state: co
+  race: US House of Representatives
+  district: 3
+  party: Democratic
+  question: co-q2
+  date: 2026-05-29
+  response: |
+      "Agriculture is foundational to Colorado’s economy, culture, and way of life, especially across the 3rd District. I would approach this by focusing on practical, evidence-based solutions that help farmers stay productive while protecting our water and natural resources. That means supporting modern irrigation technology, soil-health practices, drought-resilient crops, and water reuse where appropriate, while making sure farmers have access to the research, technical assistance, and financing they need to adopt these tools. I would also work to strengthen partnerships with Colorado State University, Extension, USDA, and local water users so policy is grounded in what works on the ground. And because agriculture depends on long-term certainty, I would support policies that reward conservation, expand domestic supply chains, invest in rural infrastructure, and improve access to research and innovation that help lower costs and improve productivity."
+
+- candidate: Alex Kelloff
+  state: co
+  race: US House of Representatives
+  district: 3
+  party: Democratic
+  question: co-q3
+  date: 2026-05-29
+  response: |
+      "Colorado should be competitive for data center investment, but it must be responsible and shouldn’t strain our limited water, energy, and infrastructure resources. My view is that we should prioritize projects that clearly benefit local communities, fully account for their costs, and do not compete with agriculture or other essential needs. The reality is that CD3 does not have the inexpensive land, abundant water or utility infrastructure, and therefor it is not attractive for data center developers."
+
+- candidate: Alex Kelloff
+  state: co
+  race: US House of Representatives
+  district: 3
+  party: Democratic
+  question: co-q4
+  date: 2026-05-29
+  response: |
+      "We need evidence-based public health policies that help educate families and prevent disease before it spreads. That means ensuring vaccines are easy to access, using clear and respectful outreach to build trust, and supporting local health departments and clinics with the resources they need for testing and rapid response. We also need to  keep schools, childcare centers, and health providers aligned on infection prevention. I also support better data sharing, so public health officials can spot outbreaks earlier and respond quickly, along with common-sense steps like staying current on immunizations, improving communication about exposure risks, and making preventive care more affordable and accessible. For me, public health works best when it is science-based, local, transparent, and focused on protecting vulnerable people. Furthermore, my father has worked at the National Institutes of Health as a scientist for almost 60 years, so this is a topic I know something about and have appreciation for."
+
+- candidate: Alex Kelloff
+  state: co
+  race: US House of Representatives
+  district: 3
+  party: Democratic
+  question: co-q5
+  date: 2026-05-29
+  response: |
+      "Science literacy is too often treated as memorization when it should be taught as a way of thinking, questioning, and solving problems. We do a better job for students and for the public when science education focuses on how to evaluate evidence, understand uncertainty, read data, and separate credible information from misinformation. I would support K-12 standards that put more emphasis on hands-on learning, real-world applications, and critical thinking. That means connecting science with reading, writing, and math, and making sure students learn how science relates to everyday issues like water, agriculture, health, energy, and land management. We should also help students build a more positive relationship with science by making it more local, practical, and collaborative. If young people see science as something that helps their communities and hear from local experts, teachers, and researchers, they are much more likely to trust it and use it throughout their lives."
+
+
