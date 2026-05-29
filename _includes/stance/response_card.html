@@ -17,6 +17,7 @@
 {%- assign tag_attr = tag_list | join: "|" -%}
 <article class="stance-response-card"
          data-candidate="{{ r.candidate | downcase | escape }}"
+         data-date="{{ r.date }}"
          data-state="{{ r.state | downcase }}"
          data-tag="{{ tag_attr | escape }}"
          data-race="{{ r.race | escape }}"

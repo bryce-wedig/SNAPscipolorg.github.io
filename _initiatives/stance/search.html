@@ -29,23 +29,25 @@ sitemap: true
   <aside class="stance-search-grid__filters">
     <h2>Filters</h2>
 
-    <fieldset class="stance-filter stance-filter--state">
-      <legend class="stance-filter__label">State</legend>
-      <select data-filter="state">
-        <option value="">All states</option>
-        {%- comment -%}
-          Collect state codes that have at least one published response,
-          then sort by display name (looked up from the state page's
-          `state_name` front matter).
-        {%- endcomment -%}
-        {%- assign present_states = site.initiatives | where_exp: "p", "p.state != nil and p.state != 'xx'" | sort: "state" -%}
-        {%- for sp in present_states -%}
-          <option value="{{ sp.state }}">{{ sp.state_name | default: sp.state | upcase }}</option>
-        {%- endfor -%}
-      </select>
-    </fieldset>
+    {% include stance/filter_bar.html scope="global" id_prefix="search-filters" show_state=true hide_sort=true hide_reset=true %}
 
-    {% include stance/filter_bar.html scope="global" id_prefix="search-filters" %}
+    <h2>Sort</h2>
+    <div class="stance-filter-bar" id="search-sort">
+      <div class="stance-filter-bar__row">
+        <label class="stance-filter">
+          <span class="stance-filter__label">Sort by</span>
+          <select data-sort>
+            <option value="random">Random</option>
+            <option value="newest">Newest</option>
+            <option value="oldest">Oldest</option>
+            <option value="alpha">A–Z</option>
+            <option value="alpha-rev">Z–A</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <button type="button" class="stance-filter__reset" data-filter-reset>Reset</button>
   </aside>
 
   <main class="stance-search-grid__results">

@@ -135,6 +135,7 @@ $stance-gray-bg: #f6f6f6;
   flex-direction: column;
   font-size: 0.9rem;
   min-width: 8rem;
+  margin-bottom: 0;
 
   &__label {
     font-weight: 600;
@@ -305,26 +306,12 @@ $stance-gray-bg: #f6f6f6;
       }
     }
 
-    .stance-filter--state {
-      border: none;
-      padding: 0;
-      margin-bottom: 0.75rem;
+    .stance-filter-bar + h2 {
+      margin-top: 1rem;
+    }
 
-      legend {
-        font-weight: 600;
-        font-size: 0.9rem;
-        margin-bottom: 0.25rem;
-        width: auto;
-        border: none;
-      }
-
-      select {
-        width: 100%;
-        padding: 0.35rem 0.5rem;
-        border: 1px solid $stance-gray-border;
-        border-radius: 4px;
-        background: #fff;
-      }
+    .stance-filter__reset {
+      margin-top: 1rem;
     }
   }
 
