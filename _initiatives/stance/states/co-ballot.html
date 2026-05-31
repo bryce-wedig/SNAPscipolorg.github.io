@@ -1,0 +1,144 @@
+---
+# ────────────────────────────────────────────────────────────────────────────
+# Stance on Science — alternate response view: B · Find My Ballot
+#
+# Ballot-first view of the Colorado responses. The voter picks a district and/or
+# race and sees exactly the candidates they'll vote on, grouped by race, with
+# each candidate's answers collapsed into one expandable card. Reads the same
+# data and filter vocabulary as the standard state page.
+#
+# `stance_state` (not `state`) keeps this page out of the map / global search
+# `where: "state"` lookups, which must still resolve to the canonical co.html.
+# ────────────────────────────────────────────────────────────────────────────
+layout: gridlay
+title: "Find My Colorado Ballot"
+collection: initiatives
+permalink: /initiatives/stance-on-science/states/co/ballot
+sitemap: false
+stance_state: co
+state_name: Colorado
+ballot_lookup_url: https://myballot.coloradosos.gov/app/home
+ballot_lookup_label: Colorado Secretary of State "My Ballot" website
+---
+{%- assign state = page.stance_state -%}
+{%- assign responses = site.data.stance_responses[state] | default: empty -%}
+{%- assign questions = site.data.stance_questions[state] -%}
+{%- assign filters = site.data.stance_filters -%}
+
+<header class="stance-state-header">
+  <h1>Find My {{ page.state_name }} Ballot</h1>
+  <p class="stance-view-intro">Choose your district and/or a race to see exactly
+  the candidates you'll vote on. Each candidate's answers are tucked into one
+  card — expand only the ones you care about.</p>
+</header>
+
+<nav class="stance-view-switch" aria-label="Other ways to view these responses">
+  <a href="{{ '/initiatives/stance-on-science/states/co' | relative_url }}">Standard list</a>
+  <a href="{{ '/initiatives/stance-on-science/states/co/topics' | relative_url }}">Browse by topic</a>
+  <a href="{{ '/initiatives/stance-on-science/states/co/compare' | relative_url }}">Compare a race</a>
+</nav>
+
+{%- if responses == empty or responses.size == 0 -%}
+  <p><em>No candidate responses have been published yet. Please check back
+  soon.</em></p>
+{%- else -%}
+
+{%- assign present_races = responses | map: "race" | uniq -%}
+{%- assign present_districts = responses | map: "district" | uniq | compact | sort -%}
+
+<section data-ballot>
+  <div class="stance-ballot-picker">
+    <div class="stance-ballot-picker__title">Show me what's on my ballot</div>
+    <div class="stance-ballot-picker__row">
+      <label class="stance-filter">
+        <span class="stance-filter__label">District</span>
+        <select data-ballot-district>
+          <option value="">Any district</option>
+          {%- for d in present_districts -%}
+            <option value="{{ d }}">District {{ d }}</option>
+          {%- endfor -%}
+        </select>
+      </label>
+      <label class="stance-filter">
+        <span class="stance-filter__label">Race</span>
+        <select data-ballot-race>
+          <option value="">All races</option>
+          {%- for race in filters.races -%}
+            {%- if present_races contains race -%}
+              <option value="{{ race | escape }}">{{ race }}</option>
+            {%- endif -%}
+          {%- endfor -%}
+        </select>
+      </label>
+      <button type="button" class="btn btn-primary stance-jump-btn" data-ballot-find>Find candidates</button>
+      <button type="button" class="stance-filter__reset" data-ballot-reset>Reset</button>
+    </div>
+    <p class="stance-ballot-picker__hint">Not sure of your district? Look it up on
+    the <a href="{{ page.ballot_lookup_url }}" target="_blank" rel="noopener">{{ page.ballot_lookup_label }}</a>.</p>
+  </div>
+
+  {%- for race in filters.races -%}
+    {%- if present_races contains race -%}
+      {%- assign in_race = responses | where: "race", race -%}
+      {%- assign cand_groups = in_race | group_by_exp: "r", "r.candidate_last_name | append: '|||' | append: r.candidate_first_name | append: '|||' | append: r.district | append: '|||' | append: r.county_race" -%}
+      {%- assign cand_count = cand_groups | size -%}
+      <details class="stance-race-group" data-race="{{ race | escape }}">
+        <summary>
+          <span>{{ race }}</span>
+          <span class="stance-race-group__count" data-group-count>{{ cand_count }}</span>
+          <span class="stance-race-group__spacer"></span>
+          <span class="stance-race-group__note">{{ cand_count }} candidate{% if cand_count != 1 %}s{% endif %}</span>
+        </summary>
+        <div class="stance-race-group__body">
+          {%- assign sorted_cands = cand_groups | sort: "name" -%}
+          {%- for cg in sorted_cands -%}
+            {%- assign cand = cg.items | first -%}
+            {%- assign answered = cg.items | size -%}
+            <details class="stance-candidate"
+                     data-district="{{ cand.district }}"
+                     data-county-race="{{ cand.county_race | escape }}">
+              <summary>
+                <span class="stance-candidate__name">{{ cand.candidate_first_name }} {{ cand.candidate_last_name }}</span>
+                {%- if cand.party -%}<span class="stance-badge stance-badge--party">{{ cand.party }}</span>{%- endif -%}
+                {%- if cand.district -%}<span class="stance-badge stance-badge--race">District {{ cand.district }}</span>{%- endif -%}
+                {%- if cand.county_race -%}<span class="stance-badge stance-badge--county-race">{{ cand.county_race }}</span>{%- endif -%}
+                <span class="stance-candidate__spacer"></span>
+                <span class="stance-candidate__toggle">{{ answered }} answer{% if answered != 1 %}s{% endif %}</span>
+              </summary>
+              <div class="stance-candidate__body">
+                {%- for q in questions -%}
+                  {%- assign resp = cg.items | where: "question", q.id | first -%}
+                  {%- if resp -%}
+                    {%- if q.tag.first -%}
+                      {%- assign q_tag_list = q.tag -%}
+                    {%- else -%}
+                      {%- assign q_tag_list = q.tag | split: "|||NONE|||" -%}
+                    {%- endif -%}
+                    <div class="stance-qa">
+                      <div class="stance-qa__q">{{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</div>
+                      <div class="stance-response-card__meta">
+                        {%- for t in q_tag_list -%}
+                          <span class="stance-badge stance-badge--tag">{{ t }}</span>
+                        {%- endfor -%}
+                      </div>
+                      <div class="stance-qa__a">{{ resp.response | markdownify }}</div>
+                    </div>
+                  {%- endif -%}
+                {%- endfor -%}
+              </div>
+            </details>
+          {%- endfor -%}
+        </div>
+      </details>
+    {%- endif -%}
+  {%- endfor -%}
+
+  <p class="stance-empty-state" data-ballot-empty hidden>
+    <em>No candidates match — try a different district or race. (They may not
+    have responded yet.)</em>
+  </p>
+</section>
+
+{%- endif -%}
+
+<script src="{{ '/assets/javascript/stance-ballot.js' | relative_url }}"></script>

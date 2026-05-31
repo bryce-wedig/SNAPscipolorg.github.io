@@ -1,0 +1,125 @@
+---
+# ────────────────────────────────────────────────────────────────────────────
+# Stance on Science — alternate response view: D · Compare Matrix
+#
+# Head-to-head view of the Colorado responses. Pick a race and get a grid:
+# candidates down the side, the questions across the top, so every candidate's
+# answer to the same question reads on one line. Only races with two or more
+# candidates are offered. Reads the same data as the standard state page.
+#
+# `stance_state` (not `state`) keeps this page out of the map / global search
+# `where: "state"` lookups, which must still resolve to the canonical co.html.
+# ────────────────────────────────────────────────────────────────────────────
+layout: gridlay
+title: "Compare Colorado Candidates"
+collection: initiatives
+permalink: /initiatives/stance-on-science/states/co/compare
+sitemap: false
+stance_state: co
+state_name: Colorado
+---
+{%- assign state = page.stance_state -%}
+{%- assign responses = site.data.stance_responses[state] | default: empty -%}
+{%- assign questions = site.data.stance_questions[state] -%}
+{%- assign filters = site.data.stance_filters -%}
+
+<header class="stance-state-header">
+  <h1>Compare {{ page.state_name }} Candidates</h1>
+  <p class="stance-view-intro">Pick a race to read its candidates side by side.
+  The matrix below displays candidates' responses organized by question. Both questions and responses are shown in full to provide a comprehensive view of candidate positions. Only races with two or more responding candidates are shown.</p>
+</header>
+
+<nav class="stance-view-switch" aria-label="Other ways to view these responses">
+  <a href="{{ '/initiatives/stance-on-science/states/co' | relative_url }}">Standard list</a>
+  <a href="{{ '/initiatives/stance-on-science/states/co/topics' | relative_url }}">Browse by topic</a>
+  <a href="{{ '/initiatives/stance-on-science/states/co/ballot' | relative_url }}">Find my ballot</a>
+</nav>
+
+{%- if responses == empty or responses.size == 0 -%}
+  <p><em>No candidate responses have been published yet. Please check back
+  soon.</em></p>
+{%- else -%}
+
+{%- comment -%} Build the list of races that have 2+ responding candidates. {%- endcomment -%}
+{%- assign present_races = responses | map: "race" | uniq -%}
+{%- assign comparable_races = "" | split: "" -%}
+{%- for race in filters.races -%}
+  {%- if present_races contains race -%}
+    {%- assign in_race = responses | where: "race", race -%}
+    {%- assign cand_groups = in_race | group_by_exp: "r", "r.candidate_last_name | append: '|||' | append: r.candidate_first_name | append: '|||' | append: r.district | append: '|||' | append: r.county_race" -%}
+    {%- assign cand_count = cand_groups | size -%}
+    {%- if cand_count >= 2 -%}
+      {%- assign comparable_races = comparable_races | push: race -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if comparable_races.size == 0 -%}
+  <p><em>No race has two or more responding candidates yet. Please check back
+  soon.</em></p>
+{%- else -%}
+
+<section data-compare>
+  <div class="stance-filter-bar">
+    <div class="stance-filter-bar__row">
+      <label class="stance-filter">
+        <span class="stance-filter__label">Race to compare</span>
+        <select data-compare-race>
+          {%- for race in comparable_races -%}
+            <option value="{{ race | escape }}">{{ race }}</option>
+          {%- endfor -%}
+        </select>
+      </label>
+    </div>
+  </div>
+
+  {%- for race in comparable_races -%}
+    {%- assign in_race = responses | where: "race", race -%}
+    {%- assign cand_groups = in_race | group_by_exp: "r", "r.candidate_last_name | append: '|||' | append: r.candidate_first_name | append: '|||' | append: r.district | append: '|||' | append: r.county_race" -%}
+    {%- assign sorted_cands = cand_groups | sort: "name" -%}
+    <div class="stance-matrix-wrap" data-compare-table="{{ race | escape }}"{% unless forloop.first %} hidden{% endunless %}>
+      <table class="stance-matrix">
+        <thead>
+          <tr>
+            <th scope="col" style="min-width: 250px;">Question</th>
+            {%- for cg in sorted_cands -%}
+              {%- assign cand = cg.items | first -%}
+              <th scope="col">
+                <div class="stance-matrix__cand">{{ cand.candidate_first_name }} {{ cand.candidate_last_name }}</div>
+                <div class="stance-matrix__cand-meta">
+                  {%- if cand.party -%}<span class="stance-badge stance-badge--party">{{ cand.party }}</span>{%- endif -%}
+                </div>
+                {%- if cand.district -%}<div class="stance-matrix__hint">District {{ cand.district }}</div>{%- endif -%}
+                {%- if cand.county_race -%}<div class="stance-matrix__hint">{{ cand.county_race }}</div>{%- endif -%}
+              </th>
+            {%- endfor -%}
+          </tr>
+        </thead>
+        <tbody>
+          {%- for q in questions -%}
+            <tr>
+              <th scope="row" style="text-align: left; vertical-align: top;">
+                <strong>{{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</strong>
+              </th>
+              {%- for cg in sorted_cands -%}
+                {%- assign resp = cg.items | where: "question", q.id | first -%}
+                <td style="vertical-align: top;">
+                  {%- if resp -%}
+                    <div class="stance-answer-text">{{ resp.response | markdownify }}</div>
+                  {%- else -%}
+                    <span class="stance-matrix__empty text-muted">No response</span>
+                  {%- endif -%}
+                </td>
+              {%- endfor -%}
+            </tr>
+          {%- endfor -%}
+        </tbody>
+      </table>
+    </div>
+  {%- endfor -%}
+</section>
+
+{%- endif -%}
+{%- endif -%}
+
+<script src="{{ '/assets/javascript/stance-compare.js' | relative_url }}"></script>
