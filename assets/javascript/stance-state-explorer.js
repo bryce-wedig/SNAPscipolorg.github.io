@@ -23,7 +23,7 @@
   var RACE_ORDER = [
     "US Senate", "US House of Representatives", "Governor", "Secretary of State",
     "Attorney General", "State Board of Education", "University Board of Regents",
-    "State Senate", "State House of Representatives", "Mayor", "Local County Races [All]"
+    "State Senate", "State House of Representatives", "Local County Races [All]", "Mayor"
   ];
 
   var SORT_LABEL = {
@@ -154,12 +154,9 @@
     }
 
     function navItem(c, f) {
-      var n = f.tag ? c.answers.filter(function (a) { return a.tags.indexOf(f.tag) !== -1; }).length : c.answered;
-      var metaText = c.location + " · " + n + (f.tag ? (n === 1 ? " response" : " responses") : "/" + c.qtotal);
       var item = el("button", { class: "rail-item", type: "button", "data-id": c.id }, [
         el("span", { class: "rail-item__body" }, [
-          el("span", { class: "rail-item__name", text: c.name.replace(/\b\w/g, function (m) { return m.toUpperCase(); }) }),
-          el("span", { class: "rail-item__meta", text: metaText })
+          el("span", { class: "rail-item__name", text: c.name.replace(/\b\w/g, function (m) { return m.toUpperCase(); }) })
         ])
       ]);
       // Use the human card name instead of the downcased data-name.
@@ -305,7 +302,10 @@
       for (var k in navMap) navMap[k].classList.toggle("is-active", k === id);
       var item = navMap[id];
       if (item && !fromClick && !navScrollLock) {
-        var top = item.offsetTop, bot = top + item.offsetHeight;
+        // offsetTop is relative to the nearest positioned ancestor (not the
+        // rail), so measure against navList directly to stay correct.
+        var top = item.getBoundingClientRect().top - navList.getBoundingClientRect().top + navList.scrollTop;
+        var bot = top + item.offsetHeight;
         if (top < navList.scrollTop) navList.scrollTop = top - 12;
         else if (bot > navList.scrollTop + navList.clientHeight) navList.scrollTop = bot - navList.clientHeight + 12;
       }
@@ -340,10 +340,11 @@
     if (sortSel) sortSel.addEventListener("change", rebuild);
     if (search) search.addEventListener("input", function () { query = search.value.toLowerCase().trim(); rebuild(); });
     if (resetBtn) resetBtn.addEventListener("click", function () {
-      // Keep the current sort (stable order) and re-focus the selected
-      // candidate after clearing filters & search.
+      // Reset filters, search, and sort (back to the default) while
+      // re-focusing the selected candidate.
       var focusId = currentId;
       for (var key in selects) selects[key].value = "";
+      if (sortSel) sortSel.value = "random";
       if (search) search.value = "";
       query = "";
       rebuild(focusId);
