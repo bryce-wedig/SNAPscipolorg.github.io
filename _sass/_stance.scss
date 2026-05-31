@@ -11,6 +11,16 @@ $snap-green: #C2C354;
 $stance-gray-border: #dadada;
 $stance-gray-bg: #f6f6f6;
 
+// Derived tokens used by the redesigned state-page explorer (Direction C).
+$snap-navy-dark: #18294a;
+$snap-navy-tint: #eef1f6;
+$snap-brick: #b0413a;
+$stance-ink: #2b2b2b;
+$stance-muted: #6a6f76;
+$stance-answer: #333333;
+$stance-shadow: 0 1px 2px rgba(20, 30, 55, 0.06), 0 6px 18px rgba(20, 30, 55, 0.06);
+$stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
+
 // ---------------------------------------------------------------------------
 // US states map
 // ---------------------------------------------------------------------------
@@ -337,6 +347,869 @@ $stance-gray-bg: #f6f6f6;
   &:hover, &:focus, &:active {
     background-color: darken($snap-blue, 8%);
     border-color: darken($snap-blue, 8%);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Alternate response views (Topic Hub / Find My Ballot / Compare Matrix)
+//
+// Three standalone ways of displaying the same candidate responses. They reuse
+// the shared SNAP palette, the response-card markup, and the same filter
+// vocabulary as the main state page.
+// ---------------------------------------------------------------------------
+
+.stance-view-intro {
+  margin-bottom: 1.25rem;
+  color: #555;
+}
+
+// Shared "jump back to the standard list" / cross-view links.
+.stance-view-switch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  margin: 0.75rem 0 1.5rem;
+  font-size: 0.95rem;
+
+  a { white-space: nowrap; }
+}
+
+// --- A · Topic Hub ----------------------------------------------------------
+
+.stance-topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.85rem;
+  margin: 1.25rem 0;
+}
+
+.stance-topic-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  text-align: left;
+  padding: 0.9rem 1rem;
+  min-height: 6rem;
+  border: 1px solid $stance-gray-border;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  font: inherit;
+  transition: background 0.12s ease, border-color 0.12s ease, box-shadow 0.12s ease;
+
+  &:hover { background: $stance-gray-bg; }
+
+  &:focus-visible {
+    outline: 2px solid $snap-orange;
+    outline-offset: 2px;
+  }
+
+  &__name {
+    font-weight: 600;
+    color: $snap-blue;
+    line-height: 1.2;
+  }
+
+  &__meta {
+    margin-top: auto;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    color: #666;
+  }
+
+  &__count {
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: $snap-orange-dark;
+  }
+
+  &.is-active {
+    background: $snap-orange;
+    border-color: $snap-orange;
+
+    .stance-topic-tile__name,
+    .stance-topic-tile__meta,
+    .stance-topic-tile__count { color: #fff; }
+  }
+
+  &--empty {
+    cursor: default;
+    border-style: dashed;
+    opacity: 0.55;
+
+    &:hover { background: #fff; }
+  }
+}
+
+.stance-topic-panel {
+  &[hidden] { display: none; }
+
+  &__head {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.5rem 0 0.75rem;
+  }
+
+  &__count { color: #666; font-size: 0.95rem; }
+}
+
+.stance-topic-placeholder {
+  padding: 1.5rem 0;
+  color: #666;
+}
+
+// Race-filter chips (within a topic panel).
+.stance-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+
+  &__label { font-size: 0.9rem; color: #666; margin-right: 0.15rem; }
+}
+
+.stance-chip {
+  font: inherit;
+  font-size: 0.85rem;
+  padding: 0.2rem 0.7rem;
+  border: 1px solid $stance-gray-border;
+  border-radius: 999px;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+
+  &:hover { background: $stance-gray-bg; }
+
+  &.is-active {
+    background: $snap-blue;
+    border-color: $snap-blue;
+    color: #fff;
+  }
+}
+
+// --- B · Find My Ballot -----------------------------------------------------
+
+.stance-ballot-picker {
+  background: $stance-gray-bg;
+  border: 1px solid $stance-gray-border;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+
+  &__title {
+    font-weight: 600;
+    color: $snap-blue;
+    margin-bottom: 0.6rem;
+  }
+
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1rem;
+    align-items: flex-end;
+  }
+
+  &__hint {
+    margin: 0.6rem 0 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+}
+
+.stance-race-group {
+  border: 1px solid $stance-gray-border;
+  border-radius: 6px;
+  background: #fff;
+  margin-bottom: 0.85rem;
+  overflow: hidden;
+
+  &[hidden] { display: none; }
+
+  > summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.75rem 1rem;
+    font-weight: 600;
+    color: $snap-blue;
+
+    &::-webkit-details-marker { display: none; }
+    &:hover { background: $stance-gray-bg; }
+  }
+
+  &__count {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.05rem 0.5rem;
+    border-radius: 999px;
+    background: $snap-light-blue;
+    color: #fff;
+  }
+
+  &__spacer { flex: 1; }
+  &__note { font-size: 0.85rem; font-weight: 400; color: #777; }
+  &__body { padding: 0.25rem 1rem 0.75rem; }
+}
+
+.stance-candidate {
+  border-top: 1px solid #eee;
+
+  &[hidden] { display: none; }
+  &:first-child { border-top: 0; }
+
+  > summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    padding: 0.65rem 0.25rem;
+
+    &::-webkit-details-marker { display: none; }
+    &:hover { background: $stance-gray-bg; }
+  }
+
+  &__name { font-weight: 600; color: $snap-blue; }
+  &__spacer { flex: 1; }
+  &__toggle { font-size: 0.85rem; color: #777; }
+  &__body { padding: 0.25rem 0.25rem 0.75rem; }
+}
+
+.stance-qa {
+  padding: 0.6rem 0;
+  border-top: 1px dashed $stance-gray-border;
+
+  &:first-child { border-top: 0; }
+
+  &__q {
+    font-weight: 600;
+    color: $snap-orange-dark;
+    margin-bottom: 0.25rem;
+  }
+
+  &__a {
+    p:last-child { margin-bottom: 0; }
+  }
+}
+
+// --- D · Compare Matrix -----------------------------------------------------
+
+.stance-matrix-wrap {
+  overflow-x: auto;
+  border: 1px solid $stance-gray-border;
+  border-radius: 6px;
+
+  &[hidden] { display: none; }
+}
+
+.stance-matrix {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 760px;
+
+  th,
+  td {
+    border: 1px solid $stance-gray-border;
+    vertical-align: top;
+    padding: 0.6rem 0.75rem;
+    text-align: left;
+  }
+
+  thead th {
+    position: sticky;
+    top: 0;
+    background: $stance-gray-bg;
+    color: $snap-blue;
+    font-size: 0.9rem;
+    z-index: 2;
+  }
+
+  tbody th {
+    position: sticky;
+    left: 0;
+    background: #fbfbfb;
+    min-width: 9.5rem;
+    z-index: 1;
+  }
+
+  &__cand { font-weight: 600; color: $snap-blue; }
+  &__cand-meta { margin-top: 0.3rem; }
+
+  td {
+    font-size: 0.9rem;
+    color: #333;
+    min-width: 11rem;
+    cursor: pointer;
+
+    &:hover { background: #fffaf0; }
+  }
+
+  &__empty { color: #aaa; text-align: center; cursor: default; }
+  &__hint { font-size: 0.85rem; color: #999; display: block; margin-top: 0.3rem; }
+}
+
+// Multi-line truncation used by the matrix cells.
+.stance-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  p { margin: 0; }
+}
+
+// ---------------------------------------------------------------------------
+// Redesigned state-page explorer (Direction C — approved hi-fi design)
+//
+// Two-pane "candidate explorer": a sticky candidate-directory rail on the left
+// and an internally-scrolling feed of per-candidate cards on the right. Reuses
+// the shared $snap-* palette. Scoped under .stance-responses so it does not
+// affect the legacy list view used by the other state pages and search.
+// ---------------------------------------------------------------------------
+
+.stance-rule {
+  border: none;
+  border-top: 1px solid $stance-gray-border;
+  margin: 30px 0;
+}
+
+// --- intro (jump CTA, goals, info accordions, disclaimer) -------------------
+.stance-intro {
+  .lede { font-size: 17px; }
+
+  .jump-cta-wrap {
+    margin-top: -12px;
+    margin-bottom: 12px;
+  }
+
+  .jump-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    margin: 18px 0 6px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    background: $snap-blue;
+    border-radius: 7px;
+    padding: 11px 20px;
+    text-decoration: none;
+    box-shadow: $stance-shadow;
+
+    &:hover,
+    &:focus { background: $snap-navy-dark; color: #fff; text-decoration: none; }
+  }
+
+  .goals {
+    margin: 18px 0 8px;
+    padding-left: 22px;
+
+    li { margin: 0 0 7px; }
+  }
+
+  // collapsible info cards
+  .info {
+    border: 1px solid $stance-gray-border;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: $stance-shadow;
+    margin: 18px 0;
+    overflow: hidden;
+
+    > summary {
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 16px 20px;
+      font-weight: 700;
+      font-size: 17px;
+      color: $snap-blue;
+
+      &::-webkit-details-marker { display: none; }
+
+      .chev { margin-left: auto; transition: transform 0.18s; color: $snap-light-blue; }
+
+      .ic {
+        width: 30px;
+        height: 30px;
+        border-radius: 7px;
+        display: grid;
+        place-items: center;
+        background: $snap-navy-tint;
+        color: $snap-blue;
+        font-size: 14px;
+      }
+    }
+
+    &[open] > summary .chev { transform: rotate(90deg); }
+
+    &__body {
+      padding: 2px 20px 18px;
+
+      p { margin: 0 0 11px; }
+      p:last-child { margin-bottom: 0; }
+    }
+  }
+
+  // numbered question list with Q chips
+  .qlist {
+    counter-reset: q;
+    list-style: none;
+    margin: 4px 0 0;
+    padding: 0;
+    display: grid;
+    gap: 12px;
+
+    li {
+      counter-increment: q;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 14px;
+      align-items: start;
+
+      &::before {
+        content: "Q" counter(q);
+        font-weight: 800;
+        font-size: 13px;
+        color: #fff;
+        background: $snap-blue;
+        border-radius: 7px;
+        padding: 6px 9px;
+        line-height: 1;
+        margin-top: 2px;
+      }
+    }
+
+    .qtags {
+      margin-top: 5px;
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+  }
+
+  .disclaimer {
+    background: $stance-gray-bg;
+    border: 1px solid $stance-gray-border;
+    border-left: 5px solid $snap-blue;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 18px 0;
+
+    h3 { margin: 0 0 8px; font-size: 17px; color: $snap-blue; }
+    p { margin: 0; font-size: 14.5px; color: #444; }
+  }
+
+  // badge variant reused from the explorer for the question tag chips
+  .badge {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 3px 11px;
+    border-radius: 999px;
+    color: #fff;
+    background: $snap-light-blue;
+    white-space: nowrap;
+
+    &--tag { background: $snap-orange; }
+  }
+}
+
+.stance-responses {
+  scroll-margin-top: 84px;
+
+  &__title {
+    font-size: 26px;
+    margin: 6px 0 6px;
+    color: $snap-blue;
+  }
+
+  &__note {
+    color: $stance-muted;
+    font-size: 14.5px;
+    margin: 0 0 4px;
+  }
+
+  // --- filter & sort bar ----------------------------------------------------
+  .sbar {
+    background: $stance-gray-bg;
+    border: 1px solid $stance-gray-border;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin: 16px 0 12px;
+
+    &__head {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      font-weight: 700;
+      font-size: 14px;
+      color: $snap-blue;
+      margin-bottom: 11px;
+
+      .fa-sliders { color: $snap-orange-dark; }
+    }
+
+    &__row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      gap: 11px 13px;
+    }
+
+    &__spacer { flex: 1 1 auto; min-width: 0; }
+
+    &__reset {
+      align-self: flex-end;
+      font-weight: 600;
+      font-size: 13.5px;
+      color: $snap-blue;
+      background: #fff;
+      border: 1px solid $stance-gray-border;
+      border-radius: 7px;
+      padding: 9px 16px;
+      cursor: pointer;
+
+      &:hover { background: $snap-navy-tint; border-color: $snap-light-blue; }
+    }
+  }
+
+  .sfield {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 0;
+
+    > span {
+      font-weight: 600;
+      font-size: 11px;
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+      color: $stance-muted;
+    }
+
+    select {
+      font-size: 14px;
+      color: $stance-ink;
+      padding: 8px 30px 8px 11px;
+      border: 1px solid $stance-gray-border;
+      border-radius: 7px;
+      background: #fff url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path d='M2 4l4 4 4-4' fill='none' stroke='%23687DA2' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/></svg>") no-repeat right 10px center;
+      appearance: none;
+      -webkit-appearance: none;
+      cursor: pointer;
+      max-width: 230px;
+
+      &:hover { border-color: $snap-light-blue; }
+
+      &:focus {
+        outline: none;
+        border-color: $snap-blue;
+        box-shadow: $stance-focus-ring;
+      }
+    }
+
+    &--sort select {
+      background-color: $snap-navy-tint;
+      font-weight: 600;
+    }
+  }
+
+  .results-count {
+    font-size: 14px;
+    color: $stance-muted;
+    margin: 0 0 16px;
+
+    &.is-filtered { color: $snap-blue; font-weight: 600; }
+  }
+
+  // --- two-pane grid --------------------------------------------------------
+  .responses__grid {
+    display: grid;
+    grid-template-columns: 286px 1fr;
+    gap: 28px;
+    align-items: stretch;
+    height: calc(100vh - 92px);
+    max-height: 880px;
+    min-height: 540px;
+  }
+
+  // --- left rail ------------------------------------------------------------
+  .rail {
+    min-height: 0;
+    height: 100%;
+
+    &__box {
+      border: 1px solid $stance-gray-border;
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: $stance-shadow;
+      overflow: hidden;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .rail-head {
+    padding: 15px 15px 13px;
+    border-bottom: 1px solid $stance-gray-border;
+    background: linear-gradient(180deg, #fff, #fbfcfd);
+
+    &__title {
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+      color: $stance-muted;
+      margin-bottom: 9px;
+    }
+  }
+
+  .rail-search {
+    position: relative;
+
+    input {
+      width: 100%;
+      font-size: 14px;
+      padding: 9px 11px 9px 32px;
+      border: 1px solid $stance-gray-border;
+      border-radius: 8px;
+      background: #fff;
+
+      &:focus {
+        outline: none;
+        border-color: $snap-blue;
+        box-shadow: $stance-focus-ring;
+      }
+    }
+
+    .fa-magnifying-glass {
+      position: absolute;
+      left: 11px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: $snap-light-blue;
+      font-size: 13px;
+    }
+  }
+
+  .rail-list {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    padding: 7px;
+  }
+
+  .rail-group {
+    font-weight: 700;
+    font-size: 10.5px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: $snap-light-blue;
+    padding: 12px 9px 5px;
+  }
+
+  .rail-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    border-radius: 9px;
+    padding: 8px 9px;
+    cursor: pointer;
+    color: $stance-ink;
+    border-left: 3px solid transparent;
+
+    &:hover { background: $stance-gray-bg; }
+
+    &.is-active {
+      background: $snap-navy-tint;
+      border-left-color: $snap-blue;
+
+      .rail-item__name { color: $snap-navy-dark; }
+    }
+
+    &__body { min-width: 0; display: flex; flex-direction: column; }
+
+    &__name {
+      font-weight: 600;
+      font-size: 14.5px;
+      color: $snap-blue;
+      line-height: 1.2;
+    }
+
+    &__meta { font-size: 12px; color: $stance-muted; margin-top: 1px; }
+  }
+
+  // --- right feed -----------------------------------------------------------
+  .feed-scroll {
+    min-width: 0;
+    height: 100%;
+    min-height: 0;
+    overflow-y: auto;
+    padding-right: 8px;
+  }
+
+  .feed {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 8px;
+  }
+
+  .feed-race {
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: $snap-light-blue;
+    margin: 14px 0 -2px;
+    padding-bottom: 7px;
+    border-bottom: 2px solid $snap-navy-tint;
+    scroll-margin-top: 84px;
+
+    &:first-child { margin-top: 0; }
+  }
+
+  .feed-empty {
+    padding: 40px;
+    text-align: center;
+    color: $stance-muted;
+    background: $stance-gray-bg;
+    border: 1px dashed $stance-gray-border;
+    border-radius: 10px;
+  }
+
+  // --- candidate card -------------------------------------------------------
+  .cand-card {
+    border: 1px solid $stance-gray-border;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: $stance-shadow;
+    padding: 20px 22px;
+    scroll-margin-top: 84px;
+
+    &[hidden] { display: none; }
+
+    &__head {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    &__name {
+      font-size: 21px;
+      font-weight: 700;
+      margin: 0;
+      color: $snap-blue;
+    }
+
+    &__meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin: 9px 0 0;
+    }
+
+    &__sub { color: $stance-muted; font-size: 13px; margin-top: 9px; }
+  }
+
+  .qa {
+    border-top: 1px solid $stance-gray-border;
+    margin-top: 14px;
+    padding-top: 13px;
+
+    &[hidden] { display: none; }
+
+    &__q {
+      font-weight: 600;
+      font-size: 15.5px;
+      color: $snap-blue;
+      margin: 0 0 7px;
+      line-height: 1.4;
+      text-wrap: pretty;
+    }
+
+    &__n {
+      display: inline-block;
+      font-weight: 800;
+      font-size: 12px;
+      color: #fff;
+      background: $snap-blue;
+      border-radius: 6px;
+      padding: 3px 7px;
+      margin-right: 7px;
+    }
+
+    &__tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 9px; }
+
+    &__a {
+      margin: 0;
+      color: $stance-answer;
+      font-size: 15px;
+      line-height: 1.62;
+      text-wrap: pretty;
+
+      p:last-child { margin-bottom: 0; }
+    }
+  }
+
+  // --- badges (scoped pill variants for the explorer) -----------------------
+  .badge {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 3px 11px;
+    border-radius: 999px;
+    color: #fff;
+    background: $snap-light-blue;
+    white-space: nowrap;
+
+    &--race,
+    &--county { background: $snap-light-blue; }
+    &--dist { background: $snap-navy-tint; color: $snap-blue; }
+    &--tag { background: $snap-orange; }
+    &--tag-on { background: $snap-orange-dark; box-shadow: 0 0 0 2px rgba(196, 120, 48, 0.28); }
+    &--party { background: $snap-green; color: #243010; }
+  }
+
+  @media (max-width: 860px) {
+    .responses__grid {
+      grid-template-columns: 1fr;
+      height: auto;
+      max-height: none;
+    }
+
+    .rail,
+    .rail__box { height: auto; }
+    .rail-list { max-height: 320px; }
+
+    .feed-scroll {
+      height: auto;
+      overflow: visible;
+      padding-right: 0;
+    }
+
+    .rail-item { min-height: 44px; }
   }
 }
 
