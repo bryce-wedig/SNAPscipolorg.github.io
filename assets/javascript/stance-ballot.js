@@ -14,7 +14,6 @@
 
     var distSel = root.querySelector("[data-ballot-district]");
     var raceSel = root.querySelector("[data-ballot-race]");
-    var findBtn = root.querySelector("[data-ballot-find]");
     var resetBtn = root.querySelector("[data-ballot-reset]");
     var emptyState = root.querySelector("[data-ballot-empty]");
     var groups = root.querySelectorAll(".stance-race-group");
@@ -61,7 +60,6 @@
       apply();
     }
 
-    if (findBtn) findBtn.addEventListener("click", apply);
     if (resetBtn) resetBtn.addEventListener("click", reset);
     if (distSel) distSel.addEventListener("change", apply);
     if (raceSel) raceSel.addEventListener("change", apply);

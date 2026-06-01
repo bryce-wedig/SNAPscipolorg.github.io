@@ -11,6 +11,25 @@ $snap-green: #C2C354;
 $stance-gray-border: #dadada;
 $stance-gray-bg: #f6f6f6;
 
+// Political Party Extensions
+$stance-republican:   #CD4F4B; // Muted Crimson
+$stance-democrat:     #4272A1; // Steady Mid-Blue
+$stance-unity:        #78528C; // Soft Amethyst
+$stance-libertarian:  #DCA237; // Rich Gold
+$stance-no-party:     #6a6f76; // Neutral Slate (no party preference)
+
+// Per-party bubble colors as (background, text) pairs, keyed by the slug
+// emitted at each render site ({{ party | downcase | replace: ' ', '-' }}).
+// Text colors are chosen for legibility against each background: white on the
+// darker hues, near-black on the light gold.
+$stance-party-colors: (
+  "republican":          ($stance-republican,  #ffffff),
+  "democratic":          ($stance-democrat,    #ffffff),
+  "unity":               ($stance-unity,       #ffffff),
+  "libertarian":         ($stance-libertarian, #3a2a05),
+  "no-party-preference": ($stance-no-party,    #ffffff),
+);
+
 // Derived tokens used by the redesigned state-page explorer (Direction C).
 $snap-navy-dark: #18294a;
 $snap-navy-tint: #eef1f6;
@@ -128,14 +147,14 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
 .stance-filter-bar {
   background: $stance-gray-bg;
   border: 1px solid $stance-gray-border;
-  border-radius: 6px;
-  padding: 0.75rem 1rem;
-  margin: 1rem 0;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin: 16px 0 12px;
 
   &__row {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.75rem 1rem;
+    gap: 11px 13px;
     align-items: flex-end;
   }
 }
@@ -143,34 +162,62 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
 .stance-filter {
   display: flex;
   flex-direction: column;
-  font-size: 0.9rem;
-  min-width: 8rem;
+  gap: 5px;
+  min-width: 0;
   margin-bottom: 0;
 
   &__label {
     font-weight: 600;
-    margin-bottom: 0.25rem;
+    font-size: 11px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: $stance-muted;
   }
 
   select {
-    padding: 0.35rem 0.5rem;
+    font-size: 14px;
+    color: $stance-ink;
+    padding: 0 30px 0 11px;
+    height: 37px;
     border: 1px solid $stance-gray-border;
-    border-radius: 4px;
-    background: #fff;
+    border-radius: 7px;
+    background: #fff url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path d='M2 4l4 4 4-4' fill='none' stroke='%23687DA2' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/></svg>") no-repeat right 10px center;
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
     min-width: 8rem;
+    max-width: 230px;
+
+    &:hover { border-color: $snap-light-blue; }
+
+    &:focus {
+      outline: none;
+      border-color: $snap-blue;
+      box-shadow: $stance-focus-ring;
+    }
+  }
+
+  // Sort control gets the same tinted accent as the state page's Sort By.
+  select[data-sort] {
+    background-color: $snap-navy-tint;
+    font-weight: 600;
   }
 
   &__reset {
+    align-self: flex-end;
+    font-weight: 600;
+    font-size: 13.5px;
+    color: $snap-blue;
     background: #fff;
     border: 1px solid $stance-gray-border;
-    border-radius: 4px;
-    padding: 0.4rem 0.9rem;
+    border-radius: 7px;
+    padding: 0 16px;
+    height: 37px;
+    margin-bottom: 0;
+    line-height: normal;
     cursor: pointer;
-    font-size: 0.9rem;
-    height: 2.1rem;
-    align-self: flex-end;
 
-    &:hover { background: $stance-gray-bg; }
+    &:hover { background: $snap-navy-tint; border-color: $snap-light-blue; }
   }
 }
 
@@ -248,13 +295,21 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
   }
 
   &--party {
-    background: $snap-green;
+    background: $stance-no-party;
     color: #fff;
   }
 
+  // Per-party colors override the neutral fallback above.
+  @each $slug, $pair in $stance-party-colors {
+    &--party-#{$slug} {
+      background: nth($pair, 1);
+      color: nth($pair, 2);
+    }
+  }
+
   &--tag {
-    background: $snap-orange;
-    color: #fff;
+    background: $snap-cream;
+    color: $snap-blue;
   }
 }
 
@@ -298,13 +353,13 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
 
     .stance-filter-bar {
       margin: 0;
-      padding: 0.75rem;
+      padding: 12px 14px;
     }
 
     .stance-filter-bar__row {
       flex-direction: column;
       align-items: stretch;
-      gap: 0.6rem;
+      gap: 0.7rem;
     }
 
     .stance-filter {
@@ -313,6 +368,7 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
       select {
         width: 100%;
         min-width: 0;
+        max-width: none;
       }
     }
 
@@ -498,20 +554,21 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
 .stance-ballot-picker {
   background: $stance-gray-bg;
   border: 1px solid $stance-gray-border;
-  border-radius: 6px;
-  padding: 1rem 1.25rem;
-  margin: 1rem 0;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin: 16px 0 12px;
 
   &__title {
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 14px;
     color: $snap-blue;
-    margin-bottom: 0.6rem;
+    margin-bottom: 11px;
   }
 
   &__row {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.75rem 1rem;
+    gap: 11px 13px;
     align-items: flex-end;
   }
 
@@ -593,8 +650,22 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
 
   &__q {
     font-weight: 600;
-    color: $snap-orange-dark;
+    color: $snap-blue;
     margin-bottom: 0.25rem;
+    line-height: 1.4;
+    text-wrap: pretty;
+  }
+
+  &__n {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 12px;
+    color: #fff;
+    background: $snap-blue;
+    border-radius: 6px;
+    padding: 3px 7px;
+    margin-right: 7px;
+    vertical-align: middle;
   }
 
   &__a {
@@ -602,70 +673,86 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
   }
 }
 
-// --- D · Compare Matrix -----------------------------------------------------
+// --- D · Compare view -------------------------------------------------------
+//
+// Grouped by question: each question gets its own full-width heading, then the
+// candidate answers sit in a responsive grid below it. Cards wrap to the next
+// line instead of squeezing into ever-thinner columns when a race has many
+// candidates, so no answer text ever gets clipped.
 
-.stance-matrix-wrap {
-  overflow-x: auto;
-  border: 1px solid $stance-gray-border;
-  border-radius: 6px;
-
+.stance-compare {
   &[hidden] { display: none; }
 }
 
-.stance-matrix {
-  border-collapse: collapse;
-  width: 100%;
-  min-width: 760px;
+.stance-compare-q {
+  & + & { margin-top: 1.75rem; }
 
-  th,
-  td {
-    border: 1px solid $stance-gray-border;
-    vertical-align: top;
-    padding: 0.6rem 0.75rem;
-    text-align: left;
-  }
-
-  thead th {
-    position: sticky;
-    top: 0;
-    background: $stance-gray-bg;
+  &__title {
+    margin: 0 0 0.5rem;
+    font-size: 1.05rem;
+    line-height: 1.4;
     color: $snap-blue;
-    font-size: 0.9rem;
-    z-index: 2;
+    text-wrap: pretty;
   }
 
-  tbody th {
-    position: sticky;
-    left: 0;
-    background: #fbfbfb;
-    min-width: 9.5rem;
-    z-index: 1;
+  &__n {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 12px;
+    color: #fff;
+    background: $snap-blue;
+    border-radius: 6px;
+    padding: 3px 7px;
+    margin-right: 7px;
+    vertical-align: middle;
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 0 0 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid $stance-gray-border;
+  }
+}
+
+.stance-compare-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 0.75rem;
+}
+
+.stance-compare-card {
+  border: 1px solid $stance-gray-border;
+  border-radius: 6px;
+  padding: 0.75rem 0.85rem;
+  background: #fff;
+
+  &__head {
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid $stance-gray-border;
   }
 
   &__cand { font-weight: 600; color: $snap-blue; }
-  &__cand-meta { margin-top: 0.3rem; }
 
-  td {
-    font-size: 0.9rem;
-    color: #333;
-    min-width: 11rem;
-    cursor: pointer;
-
-    &:hover { background: #fffaf0; }
+  &__meta {
+    margin-top: 0.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
   }
 
-  &__empty { color: #aaa; text-align: center; cursor: default; }
-  &__hint { font-size: 0.85rem; color: #999; display: block; margin-top: 0.3rem; }
-}
+  &__hint { font-size: 0.85rem; color: #999; }
 
-// Multi-line truncation used by the matrix cells.
-.stance-clamp {
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  .stance-answer-text {
+    font-size: 0.9rem;
+    color: #333;
+  }
 
-  p { margin: 0; }
+  &__empty { color: #aaa; }
 }
 
 // ---------------------------------------------------------------------------
@@ -824,7 +911,7 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
     background: $snap-light-blue;
     white-space: nowrap;
 
-    &--tag { background: $snap-orange; }
+    &--tag { background: $snap-cream; color: $snap-blue; }
   }
 }
 
@@ -1192,9 +1279,17 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
     &--race,
     &--county { background: $snap-light-blue; }
     &--dist { background: $snap-navy-tint; color: $snap-blue; }
-    &--tag { background: $snap-orange; }
-    &--tag-on { background: $snap-orange-dark; box-shadow: 0 0 0 2px rgba(196, 120, 48, 0.28); }
-    &--party { background: $snap-green; color: #243010; }
+    &--tag { background: $snap-cream; color: $snap-blue; }
+    &--tag-on { background: $snap-cream; color: $snap-blue; box-shadow: 0 0 0 2px rgba(33, 56, 99, 0.35); }
+    &--party { background: $stance-no-party; color: #fff; }
+
+    // Per-party colors override the neutral fallback above.
+    @each $slug, $pair in $stance-party-colors {
+      &--party-#{$slug} {
+        background: nth($pair, 1);
+        color: nth($pair, 2);
+      }
+    }
   }
 
   @media (max-width: 860px) {

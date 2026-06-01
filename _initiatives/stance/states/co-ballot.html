@@ -27,9 +27,7 @@ ballot_lookup_label: Colorado Secretary of State "My Ballot" website
 
 <header class="stance-state-header">
   <h1>Find My {{ page.state_name }} Ballot</h1>
-  <p class="stance-view-intro">Choose your district and/or a race to see exactly
-  the candidates you'll vote on. Each candidate's answers are tucked into one
-  card — expand only the ones you care about.</p>
+  <p class="stance-view-intro">Choose your district and/or a race to see the candidates you'll vote on.</p>
 </header>
 
 <nav class="stance-view-switch" aria-label="Other ways to view these responses">
@@ -45,6 +43,21 @@ ballot_lookup_label: Colorado Secretary of State "My Ballot" website
 
 {%- assign present_races = responses | map: "race" | uniq -%}
 {%- assign present_districts = responses | map: "district" | uniq | compact | sort -%}
+
+{%- comment -%}
+  Order the race groups the same way the standard page's "Sort By: Race" option
+  does: canonical ballot order first (mirrors RACE_ORDER in
+  stance-state-explorer.js), then any remaining races alphabetically.
+{%- endcomment -%}
+{%- assign race_order = "US Senate|US House of Representatives|Governor|Secretary of State|Attorney General|State Board of Education|University Board of Regents|State Senate|State House of Representatives|Local County Races [All]|Mayor" | split: "|" -%}
+{%- assign ordered_races = "" | split: "" -%}
+{%- for race in race_order -%}
+  {%- if present_races contains race -%}{%- assign ordered_races = ordered_races | push: race -%}{%- endif -%}
+{%- endfor -%}
+{%- assign extra_races = present_races | sort -%}
+{%- for race in extra_races -%}
+  {%- unless race_order contains race -%}{%- assign ordered_races = ordered_races | push: race -%}{%- endunless -%}
+{%- endfor -%}
 
 <section data-ballot>
   <div class="stance-ballot-picker">
@@ -70,14 +83,13 @@ ballot_lookup_label: Colorado Secretary of State "My Ballot" website
           {%- endfor -%}
         </select>
       </label>
-      <button type="button" class="btn btn-primary stance-jump-btn" data-ballot-find>Find candidates</button>
-      <button type="button" class="stance-filter__reset" data-ballot-reset>Reset</button>
+      <button type="button" class="stance-filter__reset" data-ballot-reset><i class="fa-solid fa-rotate-left"></i> Reset</button>
     </div>
     <p class="stance-ballot-picker__hint">Not sure of your district? Look it up on
     the <a href="{{ page.ballot_lookup_url }}" target="_blank" rel="noopener">{{ page.ballot_lookup_label }}</a>.</p>
   </div>
 
-  {%- for race in filters.races -%}
+  {%- for race in ordered_races -%}
     {%- if present_races contains race -%}
       {%- assign in_race = responses | where: "race", race -%}
       {%- assign cand_groups = in_race | group_by_exp: "r", "r.candidate_last_name | append: '|||' | append: r.candidate_first_name | append: '|||' | append: r.district | append: '|||' | append: r.county_race" -%}
@@ -99,7 +111,7 @@ ballot_lookup_label: Colorado Secretary of State "My Ballot" website
                      data-county-race="{{ cand.county_race | escape }}">
               <summary>
                 <span class="stance-candidate__name">{{ cand.candidate_first_name }} {{ cand.candidate_last_name }}</span>
-                {%- if cand.party -%}<span class="stance-badge stance-badge--party">{{ cand.party }}</span>{%- endif -%}
+                {%- if cand.party -%}<span class="stance-badge stance-badge--party stance-badge--party-{{ cand.party | downcase | replace: ' ', '-' }}">{{ cand.party }}</span>{%- endif -%}
                 {%- if cand.district -%}<span class="stance-badge stance-badge--race">District {{ cand.district }}</span>{%- endif -%}
                 {%- if cand.county_race -%}<span class="stance-badge stance-badge--county-race">{{ cand.county_race }}</span>{%- endif -%}
                 <span class="stance-candidate__spacer"></span>
@@ -115,7 +127,7 @@ ballot_lookup_label: Colorado Secretary of State "My Ballot" website
                       {%- assign q_tag_list = q.tag | split: "|||NONE|||" -%}
                     {%- endif -%}
                     <div class="stance-qa">
-                      <div class="stance-qa__q">{{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</div>
+                      <div class="stance-qa__q"><span class="stance-qa__n">Q{{ forloop.index }}</span> {{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</div>
                       <div class="stance-response-card__meta">
                         {%- for t in q_tag_list -%}
                           <span class="stance-badge stance-badge--tag">{{ t }}</span>
