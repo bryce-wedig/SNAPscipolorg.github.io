@@ -25,8 +25,7 @@ state_name: Colorado
 
 <header class="stance-state-header">
   <h1>Compare {{ page.state_name }} Candidates</h1>
-  <p class="stance-view-intro">Pick a race to read its candidates side by side.
-  The matrix below displays candidates' responses organized by question. Both questions and responses are shown in full to provide a comprehensive view of candidate positions. Only races with two or more responding candidates are shown.</p>
+  <p class="stance-view-intro">Pick a race to view candidate responses side by side. Only races with two or more responding candidates are shown.</p>
 </header>
 
 <nav class="stance-view-switch" aria-label="Other ways to view these responses">
@@ -77,44 +76,43 @@ state_name: Colorado
     {%- assign in_race = responses | where: "race", race -%}
     {%- assign cand_groups = in_race | group_by_exp: "r", "r.candidate_last_name | append: '|||' | append: r.candidate_first_name | append: '|||' | append: r.district | append: '|||' | append: r.county_race" -%}
     {%- assign sorted_cands = cand_groups | sort: "name" -%}
-    <div class="stance-matrix-wrap" data-compare-table="{{ race | escape }}"{% unless forloop.first %} hidden{% endunless %}>
-      <table class="stance-matrix">
-        <thead>
-          <tr>
-            <th scope="col" style="min-width: 250px;">Question</th>
+    <div class="stance-compare" data-compare-table="{{ race | escape }}"{% unless forloop.first %} hidden{% endunless %}>
+      {%- for q in questions -%}
+        {%- if q.tag.first -%}
+          {%- assign q_tag_list = q.tag -%}
+        {%- else -%}
+          {%- assign q_tag_list = q.tag | split: "|||NONE|||" -%}
+        {%- endif -%}
+        <section class="stance-compare-q">
+          <h3 class="stance-compare-q__title"><span class="stance-compare-q__n">Q{{ forloop.index }}</span> {{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</h3>
+          <div class="stance-compare-q__tags">
+            {%- for t in q_tag_list -%}
+              <span class="stance-badge stance-badge--tag">{{ t }}</span>
+            {%- endfor -%}
+          </div>
+          <div class="stance-compare-grid">
             {%- for cg in sorted_cands -%}
               {%- assign cand = cg.items | first -%}
-              <th scope="col">
-                <div class="stance-matrix__cand">{{ cand.candidate_first_name }} {{ cand.candidate_last_name }}</div>
-                <div class="stance-matrix__cand-meta">
-                  {%- if cand.party -%}<span class="stance-badge stance-badge--party">{{ cand.party }}</span>{%- endif -%}
-                </div>
-                {%- if cand.district -%}<div class="stance-matrix__hint">District {{ cand.district }}</div>{%- endif -%}
-                {%- if cand.county_race -%}<div class="stance-matrix__hint">{{ cand.county_race }}</div>{%- endif -%}
-              </th>
+              {%- assign resp = cg.items | where: "question", q.id | first -%}
+              <article class="stance-compare-card">
+                <header class="stance-compare-card__head">
+                  <div class="stance-compare-card__cand">{{ cand.candidate_first_name }} {{ cand.candidate_last_name }}</div>
+                  <div class="stance-compare-card__meta">
+                    {%- if cand.party -%}<span class="stance-badge stance-badge--party stance-badge--party-{{ cand.party | downcase | replace: ' ', '-' }}">{{ cand.party }}</span>{%- endif -%}
+                    {%- if cand.district -%}<span class="stance-compare-card__hint">District {{ cand.district }}</span>{%- endif -%}
+                    {%- if cand.county_race -%}<span class="stance-compare-card__hint">{{ cand.county_race }}</span>{%- endif -%}
+                  </div>
+                </header>
+                {%- if resp -%}
+                  <div class="stance-answer-text">{{ resp.response | markdownify }}</div>
+                {%- else -%}
+                  <span class="stance-compare-card__empty text-muted">No response</span>
+                {%- endif -%}
+              </article>
             {%- endfor -%}
-          </tr>
-        </thead>
-        <tbody>
-          {%- for q in questions -%}
-            <tr>
-              <th scope="row" style="text-align: left; vertical-align: top;">
-                <strong>{{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</strong>
-              </th>
-              {%- for cg in sorted_cands -%}
-                {%- assign resp = cg.items | where: "question", q.id | first -%}
-                <td style="vertical-align: top;">
-                  {%- if resp -%}
-                    <div class="stance-answer-text">{{ resp.response | markdownify }}</div>
-                  {%- else -%}
-                    <span class="stance-matrix__empty text-muted">No response</span>
-                  {%- endif -%}
-                </td>
-              {%- endfor -%}
-            </tr>
-          {%- endfor -%}
-        </tbody>
-      </table>
+          </div>
+        </section>
+      {%- endfor -%}
     </div>
   {%- endfor -%}
 </section>
