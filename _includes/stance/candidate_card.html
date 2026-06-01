@@ -46,7 +46,7 @@
   <div class="cand-card__head">
     <h3 class="cand-card__name">{{ full_name }}</h3>
     {%- if cand.party -%}
-      <span class="badge badge--party">{{ cand.party }}</span>
+      <span class="badge badge--party badge--party-{{ cand.party | downcase | replace: ' ', '-' }}">{{ cand.party }}</span>
     {%- endif -%}
   </div>
   <div class="cand-card__meta">
