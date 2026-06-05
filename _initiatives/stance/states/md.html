@@ -1,0 +1,470 @@
+---
+layout: gridlay
+title: "Maryland Stance on Science"
+collection: initiatives
+permalink: /initiatives/stance-on-science/states/md
+sitemap: true
+state: md                                 
+state_name: Maryland
+demonym_plural: Marylanders
+team_name: Stance on Science - Maryland
+team_email: sabrinayasmeenkhan@gmail.com
+last_updated: 2026-06-05
+ballot_lookup_url: https://elections.maryland.gov/elections/2026/primary_candidates/2026_GP_statewide_candidatelist.html
+ballot_lookup_label: Maryland State Board of Elections Website
+# Socials (optional — leave blank to hide a link, or all blank to hide the footer):
+instagram_url:
+x_url:
+bluesky_url:
+published: true
+---
+{%- assign responses = site.data.stance_responses[page.state] | default: empty -%}
+{%- assign questions = site.data.stance_questions[page.state] | default: empty -%}
+{%- assign question_tags = "" | split: "" -%}
+{%- for q in questions -%}
+  {%- if q.tag.first -%}
+    {%- assign question_tags = question_tags | concat: q.tag -%}
+  {%- else -%}
+    {%- assign question_tags = question_tags | push: q.tag -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign question_tags = question_tags | uniq -%}
+
+{%- assign socials = "" | split: "" -%}
+{%- if page.instagram_url -%}
+  {%- capture _ig -%}<a href="{{ page.instagram_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _ig -%}
+{%- endif -%}
+{%- if page.x_url -%}
+  {%- capture _x -%}<a href="{{ page.x_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i> X</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _x -%}
+{%- endif -%}
+{%- if page.bluesky_url -%}
+  {%- capture _bs -%}<a href="{{ page.bluesky_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky"></i> Bluesky</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _bs -%}
+{%- endif -%}
+
+<header class="stance-state-header">
+  <h1>{{ page.state_name }} Candidate Page</h1>
+  <p>
+    Created by the {{ page.team_name }} team. Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> with any questions.{%- if socials.size > 0 %} Follow us on
+    {%- for s in socials -%}
+      {%- if forloop.first %} {{ s }}
+      {%- elsif forloop.last -%}
+        {%- if socials.size > 2 %}, and {% else %} and {% endif -%}{{ s }}
+      {%- else %}, {{ s }}
+      {%- endif -%}
+    {%- endfor -%}.{%- endif %}
+  </p>
+  <p><em>Last updated: {{ page.last_updated | date: "%B %-d, %Y" }}</em></p>
+</header>
+
+<div class="stance-intro">
+
+<p class="jump-cta-wrap">
+  <a href="#responses" class="jump-cta"><i class="fa-solid fa-arrow-down-long"></i> Jump to candidate responses</a>
+</p>
+
+<p class="lede">{{ page.state_name }} will face many challenges in the coming years, and it is increasingly critical that our policymakers understand the importance of evidence-based decision-making. The goals of this resource are to:</p>
+
+<ol class="goals">
+  <li>Provide voters with clear, accessible information so they can see how candidates value science in decision-making.</li>
+  <li>Hold candidates accountable by sharing their responses publicly on our website and via local media.</li>
+  <li>Encourage thoughtful engagement between communities and policymakers on science policy-related topics in our state.</li>
+</ol>
+
+<p>Through Stance on Science, we hope to help {{ page.demonym_plural }} understand how their elected representatives will utilize science to improve the state that they love. Learn more about this initiative on the <a href="{{ '/initiatives/stance-on-science' | relative_url }}">home page</a>.</p>
+
+<details class="info">
+  <summary><span class="ic"><i class="fa-solid fa-circle-info"></i></span> How to use this resource <i class="fa-solid fa-chevron-right chev"></i></summary>
+  <div class="info__body">
+  <p>This webpage houses the responses to {{ questions.size }} questions
+  crafted by the {{ page.team_name }} team. To find candidates'
+  responses for each election, you can filter by tag, race, district, and
+  party, or jump straight to a candidate using the directory on the left.
+  Available tags include: {{ question_tags | join: ", " }}.</p>
+  <p>Only official candidates who will appear on ballots were contacted.</p>
+  <p>Candidates were contacted in April 2026 (with a follow-up to those who
+  did not initially respond) and given the opportunity to answer all questions. Only the responses of candidates who answered the questions are
+  included. None of the candidates' responses were modified in any way before
+  being published on this resource page.</p>
+
+  <p><u>For the <strong>June 2026 Primary Election</strong></u>, only candidates in
+  the following elections were contacted<sup>1</sup>:</p>
+  {%- comment -%}
+    For races that have district/party sub-bullets, wrap them in a
+    <details class="stance-race-group"> so the sub-list collapses by default.
+    For a race with no sub-bullets, use <div class="stance-race-flat">.
+  {%- endcomment -%}
+  <div>
+    <details class="stance-race-group">
+      <summary>US House of Representatives</summary>
+        <ul>
+          <li>District 5, 6, and 7</li>
+        </ul>
+    </details>
+    <div class="stance-race-flat">Maryland Governor</div>
+    <div class="stance-race-flat">Maryland Lieutenant Governor</div>
+    <div class="stance-race-flat">Baltimore Sheriff</div>
+  </div>
+  <p><small><sup>1</sup> These primary elections were prioritized because
+  they have more than one official candidate on the ballot.</small></p>
+
+  <!-- <p>Prior to the <u>TODO general election cycle</u>,
+  additional candidates will be contacted across all state districts. For a
+  complete list of which elections will be targeted at that time, please
+  check back TODO timeframe.</p> -->
+  </div>
+</details>
+
+<details class="info">
+  <summary><span class="ic"><i class="fa-solid fa-list-check"></i></span> The {{ questions.size }} questions posed to each candidate <i class="fa-solid fa-chevron-right chev"></i></summary>
+  <div class="info__body">
+    <ol class="qlist">
+      {%- for q in questions -%}
+        {%- if q.tag.first -%}
+          {%- assign q_tag_list = q.tag -%}
+        {%- else -%}
+          {%- assign q_tag_list = "" | split: "" | push: q.tag -%}
+        {%- endif -%}
+        <li>
+          <div>
+            {{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}
+            <div class="qtags">
+              {%- for t in q_tag_list -%}
+                <span class="badge badge--tag">{{ t }}</span>
+              {%- endfor -%}
+            </div>
+          </div>
+        </li>
+      {%- endfor -%}
+    </ol>
+  </div>
+</details>
+
+<div class="disclaimer">
+  <h3>Disclaimer</h3>
+  <p>The responses of candidates shared on this webpage do not reflect the
+  views of the {{ page.team_name }} team or the Scientist Network for
+  Advancing Policy (SNAP) Coalition. SNAP is a non-partisan organization
+  (please see more about SNAP <a href="{{ '/about/' | relative_url }}">here</a>).
+  <u>SNAP and the {{ page.team_name }} team do not endorse any
+  candidates.</u> The goals of this initiative can be found
+  <a href="{{ '/initiatives/stance-on-science' | relative_url }}">here</a>.
+  Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a>
+  with any questions.</p>
+</div>
+
+<div class="ballot-lookup-callout">
+  <p>To find your districts for state and federal races and see who is on your ballot, please visit the
+    <a href="{{ page.ballot_lookup_url }}" target="_blank" rel="noopener">{{ page.ballot_lookup_label }}</a>.</p>
+</div>
+
+</div><!-- /.stance-intro -->
+
+<hr class="stance-rule"/>
+
+<section id="responses" class="stance-responses">
+  <h2 class="stance-responses__title">June 2026 Primary Election</h2>
+
+  {%- if responses == empty or responses.size == 0 -%}
+    <p><em>No candidate responses have been published yet. Please check back
+    soon.</em></p>
+  {%- else -%}
+
+  <p><i> If you cannot find a candidate, it means they have not yet submitted their response to Stance on Science. Please check back soon.</i></p>
+
+    {%- comment -%} Filter vocabulary present in this state's responses. {%- endcomment -%}
+    {%- assign filters = site.data.stance_filters -%}
+    {%- assign present_tags = "" | split: "|||NONE|||" -%}
+    {%- for r in responses -%}
+      {%- assign rq = questions | where: "id", r.question | first -%}
+      {%- if rq.tag.first -%}
+        {%- assign present_tags = present_tags | concat: rq.tag -%}
+      {%- elsif rq.tag -%}
+        {%- assign one_t = rq.tag | split: "|||NONE|||" -%}
+        {%- assign present_tags = present_tags | concat: one_t -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- assign present_tags = present_tags | uniq -%}
+    {%- assign present_races = responses | map: "race" | uniq -%}
+    {%- assign present_districts = responses | map: "district" | uniq | compact | sort -%}
+    {%- assign present_parties = responses | map: "party" | uniq -%}
+    {%- assign present_county_races = responses | map: "county_race" | compact | uniq | sort -%}
+
+    {%- comment -%} Ballot order for race grouping (mirrors RACE_ORDER in the design). {%- endcomment -%}
+    {%- assign race_order = "US Senate|US House of Representatives|Governor|Secretary of State|Attorney General|State Board of Education|University Board of Regents|State Senate|State House of Representatives|Mayor|Local County Races [All]" | split: "|" -%}
+
+    {%- comment -%} View switch: the same responses, read three ways. The panels
+    below all read `responses` / `questions` / `filters`; only one is visible at a
+    time, toggled client-side by stance-view-toggle.js. {%- endcomment -%}
+    <div class="stance-view-toggle" role="tablist" aria-label="How to view candidate responses">
+      <button type="button" class="stance-view-toggle__btn is-active" data-view-btn="candidate" role="tab" aria-selected="true">Group by candidate</button>
+      <button type="button" class="stance-view-toggle__btn" data-view-btn="topic" role="tab" aria-selected="false">Group by topic</button>
+      <button type="button" class="stance-view-toggle__btn" data-view-btn="compare" role="tab" aria-selected="false">Compare</button>
+    </div>
+
+    <div class="stance-view-panel" data-view-panel="candidate">
+    <p class="stance-responses__note">The order of responses is randomized by default. Use the filters below to find the candidate and race you are interested in.</p>
+
+    <div class="sbar" id="state-filters">
+      <div class="sbar__head"><i class="fa-solid fa-sliders"></i> Filter &amp; sort responses</div>
+      <div class="sbar__row">
+        <label class="sfield"><span>Question Tag</span>
+          <select data-filter="tag" aria-label="Filter by question tag">
+            <option value="">All question tags</option>
+            {%- for t in filters.tags -%}
+              {%- if present_tags contains t -%}<option value="{{ t | escape }}">{{ t }}</option>{%- endif -%}
+            {%- endfor -%}
+          </select></label>
+        <label class="sfield"><span>Race</span>
+          <select data-filter="race" aria-label="Filter by race">
+            <option value="">All races</option>
+            {%- for race in filters.races -%}
+              {%- if present_races contains race -%}<option value="{{ race | escape }}">{{ race | remove: ' [All]' }}</option>{%- endif -%}
+            {%- endfor -%}
+          </select></label>
+        <label class="sfield"><span>District</span>
+          <select data-filter="district" aria-label="Filter by district">
+            <option value="">All districts</option>
+            {%- for d in present_districts -%}<option value="{{ d }}">District {{ d }}</option>{%- endfor -%}
+          </select></label>
+        <label class="sfield"><span>Party</span>
+          <select data-filter="party" aria-label="Filter by party">
+            <option value="">All parties</option>
+            {%- for party in filters.parties -%}
+              {%- if present_parties contains party -%}<option value="{{ party | escape }}">{{ party }}</option>{%- endif -%}
+            {%- endfor -%}
+          </select></label>
+        {%- if present_county_races.size > 0 -%}
+          <label class="sfield"><span>County Race</span>
+            <select data-filter="county_race" aria-label="Filter by county race">
+              <option value="">All county races</option>
+              {%- for cr in present_county_races -%}<option value="{{ cr | escape }}">{{ cr }}</option>{%- endfor -%}
+            </select></label>
+        {%- endif -%}
+        <span class="sbar__spacer"></span>
+        <label class="sfield sfield--sort"><span>Sort By</span>
+          <select data-sort aria-label="Sort candidates">
+            <option value="random">Random</option>
+            <option value="race">Race</option>
+            <option value="newest">Newest</option>
+            <option value="oldest">Oldest</option>
+            <option value="alpha">Last Name A–Z</option>
+            <option value="alpha-rev">Last Name Z–A</option>
+          </select></label>
+        <button type="button" class="sbar__reset" data-filter-reset><i class="fa-solid fa-rotate-left"></i> Reset</button>
+      </div>
+    </div>
+
+    <p class="results-count" id="results-count" data-results-count></p>
+
+    <div class="responses__grid">
+      <aside class="rail" id="rail">
+        <div class="rail__box">
+          <div class="rail-head">
+            <div class="rail-head__title">Candidate directory</div>
+            <div class="rail-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input id="rail-search" type="search" placeholder="Jump to a candidate…" aria-label="Search candidates" />
+            </div>
+          </div>
+          <div class="rail-list" id="rail-list"></div>
+        </div>
+      </aside>
+
+      <div class="feed-scroll" id="feed-scroll">
+        <div class="feed" id="feed-list">
+          {%- assign card_index = 0 -%}
+          {%- for race in race_order -%}
+            {%- if present_races contains race -%}
+              {%- assign in_race = responses | where: "race", race -%}
+              {%- assign cand_groups = in_race | group_by_exp: "r", "r.candidate_last_name | append: '|||' | append: r.candidate_first_name | append: '|||' | append: r.district | append: '|||' | append: r.party | append: '|||' | append: r.county_race" -%}
+              {%- assign sorted_cands = cand_groups | sort: "name" -%}
+              {%- for cg in sorted_cands -%}
+                {%- assign card_index = card_index | plus: 1 -%}
+                {%- assign cand = cg.items | first -%}
+                {% include stance/candidate_card.html cand=cand items=cg.items questions=questions id=card_index %}
+              {%- endfor -%}
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+    </div><!-- /[data-view-panel="candidate"] -->
+
+    {%- comment -%} ── View B · Group by topic ──────────────────────────────────
+      Issue-first: a grid of topic tiles, each revealing every candidate's answer
+      on that topic across all races. Driven by stance-topic-hub.js. {%- endcomment -%}
+    <div class="stance-view-panel" data-view-panel="topic" hidden>
+      <p class="stance-responses__note">Pick a topic to see how every candidate answered the related question(s), then optionally narrow by race.</p>
+
+      <section data-topic-hub>
+        <div class="stance-topic-grid">
+          {%- for tag in filters.tags -%}
+            {%- assign matching = "" | split: "" -%}
+            {%- for r in responses -%}
+              {%- assign lq = questions | where: "id", r.question | first -%}
+              {%- if lq.tag.first -%}
+                {%- assign tl = lq.tag -%}
+              {%- else -%}
+                {%- assign tl = lq.tag | split: "|||NONE|||" -%}
+              {%- endif -%}
+              {%- if tl contains tag -%}
+                {%- assign matching = matching | push: r -%}
+              {%- endif -%}
+            {%- endfor -%}
+            {%- if matching.size > 0 -%}
+              <button type="button" class="stance-topic-tile" data-topic="{{ tag | escape }}">
+                <span class="stance-topic-tile__name">{{ tag }}</span>
+                <span class="stance-topic-tile__meta">
+                  <span>candidate answers</span>
+                  <span class="stance-topic-tile__count">{{ matching.size }}</span>
+                </span>
+              </button>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+
+        <p class="stance-topic-placeholder" data-topic-placeholder>
+          <em>Select a topic above to see the candidate responses.</em>
+        </p>
+
+        {%- for tag in filters.tags -%}
+          {%- assign matching = "" | split: "" -%}
+          {%- for r in responses -%}
+            {%- assign lq = questions | where: "id", r.question | first -%}
+            {%- if lq.tag.first -%}
+              {%- assign tl = lq.tag -%}
+            {%- else -%}
+              {%- assign tl = lq.tag | split: "|||NONE|||" -%}
+            {%- endif -%}
+            {%- if tl contains tag -%}
+              {%- assign matching = matching | push: r -%}
+            {%- endif -%}
+          {%- endfor -%}
+          {%- if matching.size > 0 -%}
+            {%- assign races_present = matching | map: "race" | uniq -%}
+            <div class="stance-topic-panel" data-topic-panel="{{ tag | escape }}" hidden>
+              <div class="stance-topic-panel__head">
+                <h3>{{ tag }}</h3>
+                <span class="stance-topic-panel__count"><span data-panel-count>{{ matching.size }}</span> response{% if matching.size != 1 %}s{% endif %}</span>
+              </div>
+
+              {%- if races_present.size > 1 -%}
+                <div class="stance-chip-row">
+                  <span class="stance-chip-row__label">Race:</span>
+                  <button type="button" class="stance-chip is-active" data-race-filter="">All</button>
+                  {%- for race in filters.races -%}
+                    {%- if races_present contains race -%}
+                      <button type="button" class="stance-chip" data-race-filter="{{ race | escape }}">{{ race }}</button>
+                    {%- endif -%}
+                  {%- endfor -%}
+                </div>
+              {%- endif -%}
+
+              <div class="stance-response-list">
+                {%- assign sorted = matching | sort: "candidate_last_name" -%}
+                {%- for r in sorted -%}
+                  {% include stance/response_card.html r=r %}
+                {%- endfor -%}
+              </div>
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
+      </section>
+    </div><!-- /[data-view-panel="topic"] -->
+
+    {%- comment -%} ── View C · Compare ─────────────────────────────────────────
+      Head-to-head matrix for a single race: candidates' answers to each question
+      side by side. Only races with 2+ responding candidates are offered. Driven
+      by stance-compare.js. {%- endcomment -%}
+    <div class="stance-view-panel" data-view-panel="compare" hidden>
+      <p class="stance-responses__note">Pick a race to view candidate responses side by side. Only races with two or more responding candidates are shown.</p>
+
+      {%- comment -%} Build the list of races that have 2+ responding candidates. {%- endcomment -%}
+      {%- assign comparable_races = "" | split: "" -%}
+      {%- for race in filters.races -%}
+        {%- if present_races contains race -%}
+          {%- assign in_race = responses | where: "race", race -%}
+          {%- assign cand_groups = in_race | group_by_exp: "r", "r.candidate_last_name | append: '|||' | append: r.candidate_first_name | append: '|||' | append: r.district | append: '|||' | append: r.county_race" -%}
+          {%- assign cand_count = cand_groups | size -%}
+          {%- if cand_count >= 2 -%}
+            {%- assign comparable_races = comparable_races | push: race -%}
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+      {%- if comparable_races.size == 0 -%}
+        <p><em>No race has two or more responding candidates yet. Please check back
+        soon.</em></p>
+      {%- else -%}
+
+      <section data-compare>
+        <div class="stance-filter-bar">
+          <div class="stance-filter-bar__row">
+            <label class="stance-filter">
+              <span class="stance-filter__label">Race to compare</span>
+              <select data-compare-race>
+                {%- for race in comparable_races -%}
+                  <option value="{{ race | escape }}">{{ race }}</option>
+                {%- endfor -%}
+              </select>
+            </label>
+          </div>
+        </div>
+
+        {%- for race in comparable_races -%}
+          {%- assign in_race = responses | where: "race", race -%}
+          {%- assign cand_groups = in_race | group_by_exp: "r", "r.candidate_last_name | append: '|||' | append: r.candidate_first_name | append: '|||' | append: r.district | append: '|||' | append: r.county_race" -%}
+          {%- assign sorted_cands = cand_groups | sort: "name" -%}
+          <div class="stance-compare" data-compare-table="{{ race | escape }}"{% unless forloop.first %} hidden{% endunless %}>
+            {%- for q in questions -%}
+              {%- if q.tag.first -%}
+                {%- assign q_tag_list = q.tag -%}
+              {%- else -%}
+                {%- assign q_tag_list = q.tag | split: "|||NONE|||" -%}
+              {%- endif -%}
+              <section class="stance-compare-q">
+                <h3 class="stance-compare-q__title"><span class="stance-compare-q__n">Q{{ forloop.index }}</span> {{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</h3>
+                <div class="stance-compare-q__tags">
+                  {%- for t in q_tag_list -%}
+                    <span class="stance-badge stance-badge--tag">{{ t }}</span>
+                  {%- endfor -%}
+                </div>
+                <div class="stance-compare-grid">
+                  {%- for cg in sorted_cands -%}
+                    {%- assign cand = cg.items | first -%}
+                    {%- assign resp = cg.items | where: "question", q.id | first -%}
+                    <article class="stance-compare-card">
+                      <header class="stance-compare-card__head">
+                        <div class="stance-compare-card__cand">{{ cand.candidate_first_name }} {{ cand.candidate_last_name }}</div>
+                        <div class="stance-compare-card__meta">
+                          {%- if cand.party -%}<span class="stance-badge stance-badge--party stance-badge--party-{{ cand.party | downcase | replace: ' ', '-' }}">{{ cand.party }}</span>{%- endif -%}
+                          {%- if cand.district -%}<span class="stance-compare-card__hint">District {{ cand.district }}</span>{%- endif -%}
+                          {%- if cand.county_race -%}<span class="stance-compare-card__hint">{{ cand.county_race }}</span>{%- endif -%}
+                        </div>
+                      </header>
+                      {%- if resp -%}
+                        <div class="stance-answer-text">{{ resp.response | markdownify }}</div>
+                      {%- else -%}
+                        <span class="stance-compare-card__empty text-muted">No response</span>
+                      {%- endif -%}
+                    </article>
+                  {%- endfor -%}
+                </div>
+              </section>
+            {%- endfor -%}
+          </div>
+        {%- endfor -%}
+      </section>
+
+      {%- endif -%}
+    </div><!-- /[data-view-panel="compare"] -->
+  {%- endif -%}
+</section>
+
+<script src="{{ '/assets/javascript/stance-state-explorer.js' | relative_url }}"></script>
+<script src="{{ '/assets/javascript/stance-topic-hub.js' | relative_url }}"></script>
+<script src="{{ '/assets/javascript/stance-compare.js' | relative_url }}"></script>
+<script src="{{ '/assets/javascript/stance-view-toggle.js' | relative_url }}"></script>
