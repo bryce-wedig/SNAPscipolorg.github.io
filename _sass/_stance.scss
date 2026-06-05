@@ -407,27 +407,54 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
 }
 
 // ---------------------------------------------------------------------------
-// Alternate response views (Topic Hub / Find My Ballot / Compare Matrix)
+// Alternate response views (Topic Hub / Compare Matrix)
 //
-// Three standalone ways of displaying the same candidate responses. They reuse
-// the shared SNAP palette, the response-card markup, and the same filter
-// vocabulary as the main state page.
+// Two extra ways of displaying the same candidate responses, shown inside the
+// main state page's #responses section as toggleable panels alongside the
+// standard "group by candidate" explorer. They reuse the shared SNAP palette,
+// the response-card markup, and the same filter vocabulary.
 // ---------------------------------------------------------------------------
 
-.stance-view-intro {
-  margin-bottom: 1.25rem;
-  color: #555;
-}
-
-// Shared "jump back to the standard list" / cross-view links.
-.stance-view-switch {
+// Segmented control under the section title: candidate / topic / compare.
+.stance-view-toggle {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem 0.75rem;
-  margin: 0.75rem 0 1.5rem;
-  font-size: 0.95rem;
+  gap: 0.4rem;
+  margin: 0.5rem 0 1.25rem;
 
-  a { white-space: nowrap; }
+  &__btn {
+    font: inherit;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.4rem 0.95rem;
+    border: 1px solid $stance-gray-border;
+    border-radius: 999px;
+    background: #fff;
+    color: $snap-blue;
+    cursor: pointer;
+    transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+
+    &:hover { background: $stance-gray-bg; }
+
+    &:focus-visible {
+      outline: 2px solid $snap-orange;
+      outline-offset: 2px;
+    }
+
+    &.is-active {
+      background: $snap-blue;
+      border-color: $snap-blue;
+      color: #fff;
+    }
+  }
+}
+
+// Only the active view's panel is shown; the others are server-rendered but
+// kept hidden until toggled in.
+.stance-view-panel[hidden] { display: none; }
+
+.stance-view-panel__title {
+  margin-top: 0;
 }
 
 // --- A · Topic Hub ----------------------------------------------------------
@@ -815,6 +842,25 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
     p { margin: 0; font-size: 14.5px; color: #444; }
   }
 
+  // emphasized callout pointing voters to their official ballot lookup
+  .ballot-lookup-callout {
+    background: $snap-cream;
+    border: 1px solid $snap-orange-dark;
+    border-left: 5px solid $snap-orange;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 18px 0;
+
+    p {
+      margin: 0;
+      font-size: 15.5px;
+      font-weight: 600;
+      color: $snap-blue;
+    }
+
+    a { color: $snap-orange-dark; }
+  }
+
   // badge variant reused from the explorer for the question tag chips
   .badge {
     display: inline-block;
@@ -841,8 +887,6 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
   }
 
   &__note {
-    color: $stance-muted;
-    font-size: 14.5px;
     margin: 0 0 4px;
   }
 
