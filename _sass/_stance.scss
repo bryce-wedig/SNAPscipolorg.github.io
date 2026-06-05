@@ -549,35 +549,7 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
   }
 }
 
-// --- B · Find My Ballot -----------------------------------------------------
-
-.stance-ballot-picker {
-  background: $stance-gray-bg;
-  border: 1px solid $stance-gray-border;
-  border-radius: 10px;
-  padding: 14px 16px;
-  margin: 16px 0 12px;
-
-  &__title {
-    font-weight: 700;
-    font-size: 14px;
-    color: $snap-blue;
-    margin-bottom: 11px;
-  }
-
-  &__row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 11px 13px;
-    align-items: flex-end;
-  }
-
-  &__hint {
-    margin: 0.6rem 0 0;
-    font-size: 0.9rem;
-    color: #666;
-  }
-}
+// --- Race-group accordions (shared by the standard state pages) -------------
 
 .stance-race-group {
   border: 1px solid $stance-gray-border;
@@ -615,62 +587,6 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
   &__spacer { flex: 1; }
   &__note { font-size: 0.85rem; font-weight: 400; color: #777; }
   &__body { padding: 0.25rem 1rem 0.75rem; }
-}
-
-.stance-candidate {
-  border-top: 1px solid #eee;
-
-  &[hidden] { display: none; }
-  &:first-child { border-top: 0; }
-
-  > summary {
-    list-style: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-    padding: 0.65rem 0.25rem;
-
-    &::-webkit-details-marker { display: none; }
-    &:hover { background: $stance-gray-bg; }
-  }
-
-  &__name { font-weight: 600; color: $snap-blue; }
-  &__spacer { flex: 1; }
-  &__toggle { font-size: 0.85rem; color: #777; }
-  &__body { padding: 0.25rem 0.25rem 0.75rem; }
-}
-
-.stance-qa {
-  padding: 0.6rem 0;
-  border-top: 1px dashed $stance-gray-border;
-
-  &:first-child { border-top: 0; }
-
-  &__q {
-    font-weight: 600;
-    color: $snap-blue;
-    margin-bottom: 0.25rem;
-    line-height: 1.4;
-    text-wrap: pretty;
-  }
-
-  &__n {
-    display: inline-block;
-    font-weight: 800;
-    font-size: 12px;
-    color: #fff;
-    background: $snap-blue;
-    border-radius: 6px;
-    padding: 3px 7px;
-    margin-right: 7px;
-    vertical-align: middle;
-  }
-
-  &__a {
-    p:last-child { margin-bottom: 0; }
-  }
 }
 
 // --- D · Compare view -------------------------------------------------------
