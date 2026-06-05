@@ -38,7 +38,7 @@
         <span class="stance-badge stance-badge--county-race">{{ r.county_race }}</span>
       {%- endif -%}
       {%- if r.party -%}
-        <span class="stance-badge stance-badge--party">{{ r.party }}</span>
+        <span class="stance-badge stance-badge--party stance-badge--party-{{ r.party | downcase | replace: ' ', '-' }}">{{ r.party }}</span>
       {%- endif -%}
       {%- for q in tag_list -%}
         <span class="stance-badge stance-badge--tag">{{ q }}</span>

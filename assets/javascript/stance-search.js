@@ -57,8 +57,13 @@
   function renderCard(r, statesMeta) {
     var districtLabel = r.district != null ? " — District " + r.district : "";
     var stateMeta = statesMeta[r.state] || { name: r.state, url: "#" };
+    var partySlug = r.party ? r.party.toLowerCase().replace(/ /g, "-") : "";
     var partyHtml = r.party
-      ? '<span class="stance-badge stance-badge--party">' + escapeHtml(r.party) + "</span>"
+      ? '<span class="stance-badge stance-badge--party stance-badge--party-' +
+        escapeHtml(partySlug) +
+        '">' +
+        escapeHtml(r.party) +
+        "</span>"
       : "";
     var countyRaceHtml = r.county_race
       ? '<span class="stance-badge stance-badge--county-race">' + escapeHtml(r.county_race) + "</span>"

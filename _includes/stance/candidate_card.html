@@ -1,0 +1,84 @@
+{%- comment -%}
+  Renders one candidate as a per-candidate response card for the redesigned
+  two-pane state explorer (the "Hi-Fi / Direction C" design).
+
+  Inputs:
+    include.cand      — the representative response entry for the candidate
+                        (any item from the group; supplies name / race /
+                        district / party / county_race / date).
+    include.items     — the array of all response entries for this candidate
+                        (one entry per answered question).
+    include.questions — site.data.stance_questions[state] (the ordered
+                        question list; drives Q-number + tag lookup).
+    include.id        — unique DOM id suffix for this card (e.g. an index).
+
+  Tags are not stored on responses — they come from the linked question.
+{%- endcomment -%}
+{%- assign cand = include.cand -%}
+{%- assign items = include.items -%}
+{%- assign questions = include.questions -%}
+{%- assign qtotal = questions | size -%}
+{%- assign answered = items | size -%}
+
+{%- assign full_name = cand.candidate_first_name | append: ' ' | append: cand.candidate_last_name -%}
+{%- assign date_display = cand.date | date: "%B %-d, %Y" -%}
+{%- if cand.district and cand.district != '' -%}
+  {%- assign location = 'Dist. ' | append: cand.district -%}
+{%- elsif cand.county_race and cand.county_race != '' -%}
+  {%- assign location = 'County' -%}
+{%- else -%}
+  {%- assign location = 'Statewide' -%}
+{%- endif -%}
+
+<article class="cand-card"
+         id="card-{{ include.id }}"
+         data-name="{{ full_name | downcase | escape }}"
+         data-last="{{ cand.candidate_last_name | escape }}"
+         data-race="{{ cand.race | escape }}"
+         data-district="{{ cand.district }}"
+         data-party="{{ cand.party | escape }}"
+         data-county-race="{{ cand.county_race | escape }}"
+         data-date="{{ cand.date }}"
+         data-date-display="{{ date_display }}"
+         data-answered="{{ answered }}"
+         data-qtotal="{{ qtotal }}"
+         data-location="{{ location }}">
+  <div class="cand-card__head">
+    <h3 class="cand-card__name">{{ full_name }}</h3>
+    {%- if cand.party -%}
+      <span class="badge badge--party badge--party-{{ cand.party | downcase | replace: ' ', '-' }}">{{ cand.party }}</span>
+    {%- endif -%}
+  </div>
+  <div class="cand-card__meta">
+    <span class="badge badge--race">{{ cand.race | remove: ' [All]' }}</span>
+    {%- if cand.district and cand.district != '' -%}
+      <span class="badge badge--dist">District {{ cand.district }}</span>
+    {%- endif -%}
+    {%- if cand.county_race and cand.county_race != '' -%}
+      <span class="badge badge--county">{{ cand.county_race }}</span>
+    {%- endif -%}
+  </div>
+  <div class="cand-card__sub"
+       data-sub-default="Submitted {{ date_display }} · {{ answered }} of {{ qtotal }} questions answered">Submitted {{ date_display }} · {{ answered }} of {{ qtotal }} questions answered</div>
+
+  {%- for q in questions -%}
+    {%- assign resp = items | where: "question", q.id | first -%}
+    {%- if resp -%}
+      {%- if q.tag.first -%}
+        {%- assign q_tag_list = q.tag -%}
+      {%- else -%}
+        {%- assign q_tag_list = q.tag | split: "|||NONE|||" -%}
+      {%- endif -%}
+      {%- assign tag_attr = q_tag_list | join: "|" -%}
+      <div class="qa" data-tags="{{ tag_attr | escape }}">
+        <p class="qa__q"><span class="qa__n">Q{{ forloop.index }}</span> {{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</p>
+        <div class="qa__tags">
+          {%- for t in q_tag_list -%}
+            <span class="badge badge--tag" data-tag="{{ t | escape }}">{{ t }}</span>
+          {%- endfor -%}
+        </div>
+        <div class="qa__a">{{ resp.response | markdownify }}</div>
+      </div>
+    {%- endif -%}
+  {%- endfor -%}
+</article>
