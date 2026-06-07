@@ -1,81 +1,22 @@
 ---
-# ────────────────────────────────────────────────────────────────────────────
-# Stance on Science — state page TEMPLATE
-#
-# This file temporarily renders at /initiatives/stance-on-science/states/xx.
-#
-# To create a new state page:
-#
-#   1. Copy this file to `<state-code>.html` (use the lowercase USPS code,
-#      e.g. `ny.html`, `tx.html`).
-#   2. Edit every front-matter field marked TODO. Most per-team strings the
-#      body needs (team name, contact email, voter-lookup link, socials,
-#      last-updated date) come from front matter — so the body should not
-#      need editing for those.
-#   3. Edit the body to describe this state's specific election cycle and
-#      contacted races. The only blocks that need per-state editing are the
-#      "How to use this resource" race list and the two election-cycle
-#      headings (all marked TODO below). The boilerplate mirrors the
-#      California and Colorado pages; each state team controls its own copy.
-#   4. Add `_data/stance_questions/<state-code>.yml` with the questions
-#      posed to each candidate. Each entry has a unique `id` (e.g. `q1`,
-#      `q2`), a `question` (markdown), and a `tag` (a single tag or list
-#      of tags from _data/stance_filters.yml). The question list and
-#      "available tags" sentence on this page are rendered from that file.
-#   5. Add `_data/stance_responses/<state-code>.yml` with the candidate
-#      responses. Each response sets `question:` to one of the question
-#      ids from the file above — that link is how the card knows which
-#      question to display and which tag(s) to apply. Responses do not
-#      carry their own `tag` field; tags come from the linked question.
-#      Until this file exists, the page will show "no responses yet"
-#      automatically.
-#
-#   The responses section offers three views of the same data — "Group by
-#   candidate" (the searchable directory + feed), "Group by topic", and
-#   "Compare" (a head-to-head matrix). All three read `responses` /
-#   `questions` / `_data/stance_filters.yml`, so there is nothing per-state
-#   to wire up. The four <script> tags at the bottom power these views; keep
-#   them.
-#
-# Required front matter:
-#   state               — lowercase USPS code, must match the YAML file under
-#                         _data/stance_responses/. Used by the global search/map.
-#   state_name          — display name for the state (e.g. "New York"). Used by
-#                         the global search badge and map tooltip.
-#   demonym_plural      — plural resident name (e.g. "New Yorkers"). Used in
-#                         body copy that refers to people from the state.
-#   permalink           — must follow the pattern /initiatives/stance-on-science/states/<code>
-#   team_name           — e.g. "Stance on Science - New York". Rendered in the
-#                         header, how-to, disclaimer, and footer sentences.
-#   team_email          — contact address. Used for both the `mailto:` and
-#                         the visible link text in the header and disclaimer.
-#   last_updated        — ISO date (YYYY-MM-DD). Rendered as "Month D, YYYY".
-#   ballot_lookup_url   — link to this state's voter/district lookup tool.
-#   ballot_lookup_label — visible text for that link.
-#
-# Optional front matter (omit or leave blank to hide):
-#   instagram_url, x_url, bluesky_url
-#                       — social links shown in the header sentence. The
-#                         "Follow us on …" clause is hidden if all three are blank.
-# ────────────────────────────────────────────────────────────────────────────
 layout: gridlay
-title: "TODO Stance on Science"           # TODO: e.g. "New York Stance on Science"
+title: "Maryland Stance on Science"
 collection: initiatives
-permalink: /initiatives/stance-on-science/states/xx   # TODO: replace xx with USPS code
+permalink: /initiatives/stance-on-science/states/md
 sitemap: true
-state: xx                                 # TODO: lowercase USPS code
-state_name: TODO State Name               # TODO: full state name
-demonym_plural: TODO Demonyms             # TODO: plural resident name (e.g. "New Yorkers")
-team_name: TODO Stance on Science Team    # TODO: e.g. "Stance on Science - New York"
-team_email: TODO@example.com              # TODO: contact email
-last_updated: 1970-01-01                  # TODO: YYYY-MM-DD
-ballot_lookup_url: TODO_URL               # TODO: voter/district lookup URL
-ballot_lookup_label: TODO voter resource  # TODO: visible link text
+state: md                                 
+state_name: Maryland
+demonym_plural: Marylanders
+team_name: Stance on Science - Maryland
+team_email: sabrinayasmeenkhan@gmail.com
+last_updated: 2026-06-05
+ballot_lookup_url: https://elections.maryland.gov/elections/2026/primary_candidates/2026_GP_statewide_candidatelist.html
+ballot_lookup_label: Maryland State Board of Elections Website
 # Socials (optional — leave blank to hide a link, or all blank to hide the footer):
 instagram_url:
 x_url:
 bluesky_url:
-published: true                           # TODO: delete this line (or set to true) to publish
+published: true
 ---
 {%- assign responses = site.data.stance_responses[page.state] | default: empty -%}
 {%- assign questions = site.data.stance_questions[page.state] | default: empty -%}
@@ -106,7 +47,7 @@ published: true                           # TODO: delete this line (or set to tr
 <header class="stance-state-header">
   <h1>{{ page.state_name }} Candidate Page</h1>
   <p>
-    Created by the {{ page.team_name }} team. Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> with any questions.{%- if socials.size > 0 %} Follow us on
+    Created by the {{ page.team_name }} team. Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> and <a href="mailto:andrewhmattson@gmail.com">andrewhmattson@gmail.com</a> with any questions.{%- if socials.size > 0 %} Follow us on
     {%- for s in socials -%}
       {%- if forloop.first %} {{ s }}
       {%- elsif forloop.last -%}
@@ -143,12 +84,12 @@ published: true                           # TODO: delete this line (or set to tr
   party, or jump straight to a candidate using the directory on the left.
   Available tags include: {{ question_tags | join: ", " }}.</p>
   <p>Only official candidates who will appear on ballots were contacted.</p>
-  <p>Candidates were contacted in TODO Month Year (with a follow-up to those who
+  <p>Candidates were contacted in April 2026 (with a follow-up to those who
   did not initially respond) and given the opportunity to answer all questions. Only the responses of candidates who answered the questions are
   included. None of the candidates' responses were modified in any way before
   being published on this resource page.</p>
 
-  <p><u>For the <strong>TODO election cycle</strong></u>, only candidates in
+  <p><u>For the <strong>June 2026 Primary Election</strong></u>, only candidates in
   the following elections were contacted<sup>1</sup>:</p>
   {%- comment -%}
     For races that have district/party sub-bullets, wrap them in a
@@ -157,20 +98,22 @@ published: true                           # TODO: delete this line (or set to tr
   {%- endcomment -%}
   <div>
     <details class="stance-race-group">
-      <summary>TODO Contacted Race 1</summary>
+      <summary>US House of Representatives</summary>
         <ul>
-          <li>TODO District / party sub-bullet</li>
+          <li>District 5, 6, and 7</li>
         </ul>
     </details>
-    <div class="stance-race-flat">TODO Contacted Race 2</div>
+    <div class="stance-race-flat">Maryland Governor</div>
+    <div class="stance-race-flat">Maryland Lieutenant Governor</div>
+    <div class="stance-race-flat">Baltimore Sheriff</div>
   </div>
   <p><small><sup>1</sup> These primary elections were prioritized because
   they have more than one official candidate on the ballot.</small></p>
 
-  <p>Prior to the <u>TODO general election cycle</u>,
+  <!-- <p>Prior to the <u>TODO general election cycle</u>,
   additional candidates will be contacted across all state districts. For a
   complete list of which elections will be targeted at that time, please
-  check back TODO timeframe.</p>
+  check back TODO timeframe.</p> -->
   </div>
 </details>
 
@@ -209,7 +152,7 @@ published: true                           # TODO: delete this line (or set to tr
   candidates.</u> The goals of this initiative can be found
   <a href="{{ '/initiatives/stance-on-science' | relative_url }}">here</a>.
   Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a>
-  with any questions.</p>
+   and <a href="mailto:andrewhmattson@gmail.com">andrewhmattson@gmail.com</a> with any questions.</p>
 </div>
 
 <div class="ballot-lookup-callout">
@@ -222,7 +165,7 @@ published: true                           # TODO: delete this line (or set to tr
 <hr class="stance-rule"/>
 
 <section id="responses" class="stance-responses">
-  <h2 class="stance-responses__title">TODO Election Cycle</h2>
+  <h2 class="stance-responses__title">June 2026 Primary Election</h2>
 
   {%- if responses == empty or responses.size == 0 -%}
     <p><em>No candidate responses have been published yet. Please check back

@@ -30,7 +30,9 @@
 
     buttons.forEach(function (btn) {
       btn.addEventListener("click", function () {
+        var savedY = window.scrollY;
         show(btn.getAttribute("data-view-btn"));
+        window.scrollTo(0, savedY);
       });
     });
   }
