@@ -85,14 +85,17 @@ jobs:
           set +e
           gh run view "${{ github.run_id }}" --log-failed > full.log 2>/dev/null
 
-          sed -E 's/^[^\t]*\t[^\t]*\t[0-9T:.\-]+Z[[:space:]]?//' full.log > clean.log
+          # Strip everything up to and including the ISO-8601 timestamp on each
+          # line, leaving just the message. This is layout-agnostic: it works
+          # whether or not the line is prefixed with job/step tab columns.
+          sed -E 's/.*[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9:.]+Z[[:space:]]*//' full.log > clean.log
 
-          awk '/Generating\.\.\./{found=NR} END{print found}' clean.log > start.txt
-          START=$(cat start.txt)
-          if [ -z "$START" ] || [ "$START" = "0" ]; then
+          # Take everything after the last "Generating..." marker.
+          START=$(grep -n 'Generating\.\.\.' clean.log | tail -n1 | cut -d: -f1)
+          if [ -z "$START" ]; then
             tail -n 150 clean.log > excerpt.txt
           else
-            tail -n +"$START" clean.log | head -n 150 > excerpt.txt
+            tail -n +"$((START + 1))" clean.log > excerpt.txt
           fi
           head -c 12000 excerpt.txt > excerpt.trimmed.txt
           mv excerpt.trimmed.txt excerpt.txt
@@ -125,4 +128,4 @@ jobs:
             ${{ steps.excerpt.outputs.excerpt }}
             ```
 
-            _Truncated to the last 150 lines / 12 KB of the failed step's output, starting at the most recent `Generating...` marker. See the full log via the Run link above._
+            _Shows everything after the most recent `Generating...` marker in the failed step's output (capped at 12 KB). See the full log via the Run link above._
