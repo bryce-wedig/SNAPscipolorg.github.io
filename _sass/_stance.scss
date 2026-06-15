@@ -99,6 +99,18 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
 // State page layout
 // ---------------------------------------------------------------------------
 
+.stance-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-size: 0.875rem;
+  color: $snap-blue;
+  text-decoration: none;
+  margin-bottom: 0.75rem;
+
+  &:hover { text-decoration: underline; }
+}
+
 .stance-state-header h1 {
   margin-top: 0.5rem;
 }
