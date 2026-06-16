@@ -42,6 +42,7 @@
          data-date-display="{{ date_display }}"
          data-answered="{{ answered }}"
          data-qtotal="{{ qtotal }}"
+         data-primary-candidate="{{ cand.primary_candidate | default: false }}"
          data-location="{{ location }}">
   <div class="cand-card__head">
     <h3 class="cand-card__name">{{ full_name }}</h3>

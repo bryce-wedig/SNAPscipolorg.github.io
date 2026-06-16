@@ -7,5 +7,6 @@
   question: [question]
   date:
   # county_race: [optional, free-text, e.g. "Baca County Commissioner"]
+  # primary_candidate: true   # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
   response: |
     [response]
