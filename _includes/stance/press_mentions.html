@@ -1,0 +1,38 @@
+{%- comment -%}
+  Reusable "Press Mentions" section for Stance on Science pages.
+
+  Params:
+    include.state — (optional) lowercase USPS code. When provided (state pages),
+      only press entries whose category equals "Stance on Science {state}" are
+      shown (compared case-insensitively). When omitted (main page), every entry
+      whose category starts with "Stance on Science" is shown.
+{%- endcomment -%}
+{%- if include.state -%}
+  {%- assign press_target = "Stance on Science " | append: include.state | downcase -%}
+{%- endif -%}
+<div class="jumbotron">
+  <h2>Press Mentions</h2>
+  <ul>
+    {% assign found = 0 %}
+    {% for article in site.data.press %}
+      {%- assign press_cat = article.category | downcase -%}
+      {%- assign press_match = false -%}
+      {%- if include.state -%}
+        {%- if press_cat == press_target -%}{%- assign press_match = true -%}{%- endif -%}
+      {%- else -%}
+        {%- assign press_prefix = press_cat | slice: 0, 17 -%}
+        {%- if press_prefix == "stance on science" -%}{%- assign press_match = true -%}{%- endif -%}
+      {%- endif -%}
+      {%- if press_match -%}
+        <li>
+          <p><b>{{ article.date | date: '%b %d, %Y' }}:
+        <a href="{{ article.website }}">{{ article.headline }}</a> in <i>{{ article.source }}</i></b></p>
+        </li>
+        {% assign found = found | plus: 1 %}
+      {%- endif -%}
+    {% endfor %}
+    {% if found == 0 %}
+      <p><b>None yet! Check back soon for updates!</b></p>
+    {% endif %}
+  </ul>
+</div>
