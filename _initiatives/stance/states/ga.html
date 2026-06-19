@@ -467,6 +467,8 @@ published: true
   {%- endif -%}
 </section>
 
+{% include stance/press_mentions.html state=page.state %}
+
 <script src="{{ '/assets/javascript/stance-state-explorer.js' | relative_url }}"></script>
 <script src="{{ '/assets/javascript/stance-topic-hub.js' | relative_url }}"></script>
 <script src="{{ '/assets/javascript/stance-compare.js' | relative_url }}"></script>
@@ -525,3 +527,5 @@ published: true
   </p>
 </footer>
 {%- endif %}
+
+{% include stance/press_mentions.html state=page.state %}

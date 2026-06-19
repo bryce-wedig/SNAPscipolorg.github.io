@@ -87,24 +87,7 @@ candidate responses from that state's Stance on Science team. <a href="{{ '/init
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/SNAPStanceSlide.png" alt="SNAP Stance on Science Initiative Slide" style="max-width: 100%; height: auto;" />
 
-<div class="jumbotron">
-  <h2>Press Mentions</h2>
-  <ul>
-    {% assign found = 0 %}
-    {% for article in site.data.press %}
-      {% if article.category contains 'Stance on Science' %}
-        <li>
-          <p><b>{{ article.date | date: '%b %d, %Y' }}:
-        <a href="{{ article.website }}">{{ article.headline }}</a> in <i>{{ article.source }}</i></b></p>
-        </li>
-        {% assign found = found | plus: 1 %}
-      {% endif %}
-    {% endfor %}
-    {% if found == 0 %}
-      <p><b>None yet! Check back soon for updates!</b></p>
-    {% endif %}
-  </ul>
-</div>
+{% include stance/press_mentions.html %}
 
 <script>
   window.STANCE_ACTIVE_STATES = JSON.parse('{{ active_states | jsonify }}');
