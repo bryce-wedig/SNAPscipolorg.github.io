@@ -18,3 +18,4 @@ Optional:
 - `district`: integer (omit or leave null for statewide races)
 - `date`: ISO date the candidate submitted the response
 - `county_race`: free-text name of the specific county-level race (e.g., "Baca County Commissioner"). Required when `race` is "Local County Races [All]", and only allowed when `race` is "Local County Races [All]". The value itself is not validated against a picklist
+- `primary_candidate`: boolean. Set `true` for a candidate who ran in the primary election but did not advance past it. Defaults to `false` when omitted (a missing field and `false` mean the same thing). These responses are hidden by default and revealed by the "Show primary candidates" toggle. Because the flag is a property of the candidate (not the individual response), it must be the same on every row for a given candidate — the build will fail if a candidate's rows disagree

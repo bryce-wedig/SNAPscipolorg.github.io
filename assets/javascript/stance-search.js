@@ -36,6 +36,10 @@
   // filter key) lets the caller omit one filter so we can ask "which values
   // would still be valid for THIS dropdown given everything else?"
   function matches(r, state, statesMeta, except) {
+    // Primary candidates (who didn't advance past the primary) are hidden unless
+    // the "Show primary candidates" box is checked. Unkeyed, so option-narrowing
+    // (validValuesFor) respects it too.
+    if (!state.show_primary && r.primary_candidate) return false;
     if (except !== "tag" && state.tag && toArray(r.tag).indexOf(state.tag) === -1) return false;
     if (except !== "race" && state.race && r.race !== state.race) return false;
     if (except !== "district" && state.district && String(r.district) !== String(state.district)) return false;
@@ -202,6 +206,7 @@
     var selects = root.querySelectorAll("select[data-filter]");
     var sortSel = root.querySelector("[data-sort]");
     var reset = root.querySelector("[data-filter-reset]");
+    var primaryChk = root.querySelector("[data-filter-primary]");
 
     var url = window.STANCE_RESPONSES_URL || "/initiatives/stance-on-science/responses.json";
 
@@ -232,6 +237,7 @@
           var s = { q: input ? input.value.trim() : "" };
           selects.forEach(function (sel) { s[sel.dataset.filter] = sel.value; });
           s.sort = sortSel ? sortSel.value : "random";
+          s.show_primary = primaryChk ? primaryChk.checked : false;
           return s;
         }
 
@@ -258,11 +264,13 @@
         if (input) input.addEventListener("input", apply);
         selects.forEach(function (sel) { sel.addEventListener("change", apply); });
         if (sortSel) sortSel.addEventListener("change", apply);
+        if (primaryChk) primaryChk.addEventListener("change", apply);
         if (reset) {
           reset.addEventListener("click", function () {
             if (input) input.value = "";
             selects.forEach(function (sel) { sel.value = ""; });
             if (sortSel) sortSel.value = "random";
+            if (primaryChk) primaryChk.checked = false;
             apply();
           });
         }

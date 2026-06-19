@@ -64,6 +64,7 @@ module StanceResponseValidator
       responses.each do |state_slug, entries|
         next if state_slug == "_blank"
         valid_question_ids = question_ids_by_state[state_slug] || Set.new
+        primary_by_candidate = {}
         Array(entries).each_with_index do |entry, idx|
           label = "#{state_slug}.yml[#{idx}] — #{entry.is_a?(Hash) ? ([entry["candidate_first_name"], entry["candidate_last_name"]].compact.join(" ").then { |n| n.empty? ? "(unknown candidate)" : n }) : "(non-hash entry)"}"
 
@@ -117,6 +118,26 @@ module StanceResponseValidator
             problems << %(  - #{label}: race "#{COUNTY_RACE_RACE}" requires county_race to be populated)
           elsif !county_race_blank && race_val != COUNTY_RACE_RACE
             problems << %(  - #{label}: county_race "#{county_race_val}" is only allowed when race is "#{COUNTY_RACE_RACE}")
+          end
+
+          primary = entry["primary_candidate"]
+          unless primary.nil?
+            if primary != true && primary != false
+              problems << %(  - #{label}: primary_candidate "#{primary}" must be true or false)
+            end
+          end
+          # primary_candidate is a property of the candidate, not the individual
+          # response, so it must be the same on every row for a given candidate.
+          # A missing field and false mean the same thing.
+          cand_name = [entry["candidate_first_name"], entry["candidate_last_name"]].compact.join(" ")
+          unless cand_name.strip.empty?
+            (primary_by_candidate[cand_name] ||= Set.new) << (primary == true)
+          end
+        end
+
+        primary_by_candidate.each do |cand_name, values|
+          if values.size > 1
+            problems << %(  - #{state_slug}.yml — #{cand_name}: primary_candidate is inconsistent across responses (must be the same on every row))
           end
         end
       end

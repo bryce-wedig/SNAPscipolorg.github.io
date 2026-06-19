@@ -66,6 +66,7 @@
       dateDisplay: card.getAttribute("data-date-display") || "",
       answered: parseInt(card.getAttribute("data-answered"), 10) || answers.length,
       qtotal: parseInt(card.getAttribute("data-qtotal"), 10) || answers.length,
+      primary: card.getAttribute("data-primary-candidate") === "true",
       location: card.getAttribute("data-location") || "Statewide",
       sub: card.querySelector(".cand-card__sub"),
       answers: answers
@@ -86,6 +87,8 @@
     bar.querySelectorAll("select[data-filter]").forEach(function (s) { selects[s.dataset.filter] = s; });
     var sortSel = bar.querySelector("[data-sort]");
     var resetBtn = bar.querySelector("[data-filter-reset]");
+    var primaryToggle = bar.querySelector("[data-filter-primary]");
+    function showPrimary() { return !!(primaryToggle && primaryToggle.checked); }
 
     var query = "";
     var currentId = null;
@@ -103,6 +106,7 @@
       return f;
     }
     function candMatch(c, f, except) {
+      if (!showPrimary() && c.primary) return false;
       if (except !== "tag" && f.tag && !c.answers.some(function (a) { return a.tags.indexOf(f.tag) !== -1; })) return false;
       if (except !== "race" && f.race && c.race !== f.race) return false;
       if (except !== "district" && f.district && String(c.district) !== String(f.district)) return false;
@@ -338,6 +342,7 @@
     /* ---- wire ---- */
     for (var k in selects) selects[k].addEventListener("change", rebuild);
     if (sortSel) sortSel.addEventListener("change", rebuild);
+    if (primaryToggle) primaryToggle.addEventListener("change", function () { rebuild(); });
     if (search) search.addEventListener("input", function () { query = search.value.toLowerCase().trim(); rebuild(); });
     if (resetBtn) resetBtn.addEventListener("click", function () {
       // Reset filters, search, and sort (back to the default) while
@@ -345,6 +350,7 @@
       var focusId = currentId;
       for (var key in selects) selects[key].value = "";
       if (sortSel) sortSel.value = "random";
+      if (primaryToggle) primaryToggle.checked = false;
       if (search) search.value = "";
       query = "";
       rebuild(focusId);

@@ -23,7 +23,8 @@
          data-race="{{ r.race | escape }}"
          data-district="{{ district_attr }}"
          data-party="{{ r.party | escape }}"
-         data-county-race="{{ r.county_race | escape }}">
+         data-county-race="{{ r.county_race | escape }}"
+         data-primary-candidate="{{ r.primary_candidate | default: false }}">
   <header class="stance-response-card__header">
     <h4 class="stance-response-card__candidate">{{ r.candidate_first_name }} {{ r.candidate_last_name }}</h4>
     <div class="stance-response-card__meta">
