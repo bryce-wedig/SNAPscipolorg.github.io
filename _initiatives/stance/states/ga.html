@@ -12,7 +12,6 @@ state_name: Georgia
 demonym_plural: Georgians
 team_name: Stance on Science - Georgia
 team_email: coalitionofathensscientists@gmail.com
-last_updated: 2026-05-22
 ballot_lookup_url: TODO_URL               # TODO: voter/district lookup URL
 ballot_lookup_label: TODO voter resource  # TODO: visible link text
 # Socials (optional — leave blank to hide a link, or all blank to hide the footer):
@@ -40,7 +39,7 @@ published: true
     Created by the {{ page.team_name }} team, <a href="https://www.instagram.com/coalitionofathensscientists/" target="_blank" rel="noopener">Coalition of Athens Scientists</a>, <a href="https://scienceforgeorgia.org/" target="_blank" rel="noopener">Science for Georgia</a>, <a href="https://esal.us/" target="_blank" rel="noopener">Engineers and Scientists Acting Locally</a>, <a href="https://athenspoliticsnerd.com/" target="_blank" rel="noopener">Athens Politics Nerd</a>, <a href="https://www.facebook.com/iotapsiomega/" target="_blank" rel="noopener">Alpha Kappa Alpha Iota Psi Omega Chapter</a>, <a href="https://southernsustainabilityinstitute.org/" target="_blank" rel="noopener">Southern Sustainability Institute</a>, <a href="https://www.100percentathens.org/" target="_blank" rel="noopener">100% Athens</a>, <a href="https://athenslandtrust.org/" target="_blank" rel="noopener">Athens Land Trust</a>, <a href="https://c-changeconversations.org/" target="_blank" rel="noopener">C-Change</a>, and <a href="https://citizensclimatelobby.org/about-ccl/chapters/" target="_blank" rel="noopener">Citizen's Climate Lobby Athens</a>.<br/>
     Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> with any questions.
   </p>
-  <p><em>Last updated: {{ page.last_updated | date: "%B %-d, %Y" }}</em></p>
+  {%- if page.last_updated %}<p><em>Last updated: {{ page.last_updated | date: "%B %-d, %Y" }}</em></p>{%- endif %}
 </header>
 
 {%- comment -%}

@@ -12,7 +12,6 @@ state_name: Colorado
 demonym_plural: Coloradans
 team_name: Stance on Science - Colorado
 team_email: stanceonsciencecolorado@gmail.com
-last_updated: 2026-05-31
 ballot_lookup_url: https://myballot.coloradosos.gov/app/home
 ballot_lookup_label: Colorado Secretary of State "My Ballot" website
 instagram_url: https://www.instagram.com/stanceonscience.colorado/
@@ -58,7 +57,7 @@ bluesky_url: https://bsky.app/profile/co-stanceonscience.bsky.social
       {%- endif -%}
     {%- endfor -%}.
   </p>
-  <p><em>Last updated: {{ page.last_updated | date: "%B %-d, %Y" }}</em></p>
+  {%- if page.last_updated %}<p><em>Last updated: {{ page.last_updated | date: "%B %-d, %Y" }}</em></p>{%- endif %}
 </header>
 
 <div class="stance-intro">

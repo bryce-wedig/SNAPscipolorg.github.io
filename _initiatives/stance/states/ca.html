@@ -12,7 +12,6 @@ state_name: California
 demonym_plural: Californians
 team_name: California Stance on Science
 team_email: ca.stanceonscience@gmail.com
-last_updated: 2026-05-22
 ballot_lookup_url: https://findyourrep.legislature.ca.gov/
 ballot_lookup_label: Find Your California Representatives
 # Socials (optional — leave blank to hide a link, or all blank to hide the footer):
@@ -60,7 +59,7 @@ published: true
       {%- endif -%}
     {%- endfor -%}.
   </p>
-  <p><em>Last updated: {{ page.last_updated | date: "%B %-d, %Y" }}</em></p>
+  {%- if page.last_updated %}<p><em>Last updated: {{ page.last_updated | date: "%B %-d, %Y" }}</em></p>{%- endif %}
 </header>
 
 <div class="stance-intro">
