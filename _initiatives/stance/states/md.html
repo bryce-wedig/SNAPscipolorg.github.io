@@ -9,7 +9,6 @@ state_name: Maryland
 demonym_plural: Marylanders
 team_name: Stance on Science - Maryland
 team_email: sabrinayasmeenkhan@gmail.com
-last_updated: 2026-06-09
 ballot_lookup_url: https://elections.maryland.gov/elections/2026/primary_candidates/2026_GP_statewide_candidatelist.html
 ballot_lookup_label: Maryland State Board of Elections Website
 # Socials (optional — leave blank to hide a link, or all blank to hide the footer):
@@ -57,7 +56,7 @@ published: true
       {%- endif -%}
     {%- endfor -%}.{%- endif %}
   </p>
-  <p><em>Last updated: {{ page.last_updated | date: "%B %-d, %Y" }}</em></p>
+  {%- if page.last_updated %}<p><em>Last updated: {{ page.last_updated | date: "%B %-d, %Y" }}</em></p>{%- endif %}
 </header>
 
 <div class="stance-intro">

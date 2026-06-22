@@ -9,7 +9,6 @@ state_name: Missouri
 demonym_plural: Missourians
 team_name: Stance on Science - Missouri
 team_email: stanceonsciencemissouri@gmail.com
-last_updated: 2026-06-19
 ballot_lookup_url: https://voteroutreach.sos.mo.gov/portal/
 ballot_lookup_label: Missouri Secretary of State "Check Your Voter Registration" portal
 # Socials (optional — leave blank to hide a link, or all blank to hide the footer):
@@ -57,7 +56,7 @@ published: true
       {%- endif -%}
     {%- endfor -%}.{%- endif %}
   </p>
-  <p><em>Last updated: {{ page.last_updated | date: "%B %-d, %Y" }}</em></p>
+  {%- if page.last_updated %}<p><em>Last updated: {{ page.last_updated | date: "%B %-d, %Y" }}</em></p>{%- endif %}
 </header>
 
 <div class="stance-intro">
