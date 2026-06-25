@@ -3618,6 +3618,13 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+.btn-xl, .btn-group-xl > .btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  border-radius: 0.4rem;
+}
+
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
