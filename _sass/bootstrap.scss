@@ -4034,6 +4034,11 @@ input[type="button"].btn-block {
   padding-left: 0.75rem;
 }
 
+.btn-xl + .dropdown-toggle-split, .btn-group-xl > .btn + .dropdown-toggle-split {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
 .btn-group-vertical {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
