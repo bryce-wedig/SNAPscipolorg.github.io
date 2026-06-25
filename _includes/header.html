@@ -13,7 +13,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse text-right" id="navbarColor03">
-            <div class="navbar-nav">
+            <div class="navbar-nav mr-auto">
                 {% for page in site.nav_pages %}
                 <a class="nav-item nav-link" href="{{ site.url }}{{ site.baseurl }}/{{page.name}}">{{page.name | capitalize }}</a>
             {% endfor %}
