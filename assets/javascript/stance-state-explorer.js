@@ -181,10 +181,6 @@
       currentId = null;
 
       var matched = records.filter(function (c) { return matchCand(c, f); });
-      var totalR = 0;
-      matched.forEach(function (c) {
-        totalR += f.tag ? c.answers.filter(function (a) { return a.tags.indexOf(f.tag) !== -1; }).length : c.answers.length;
-      });
 
       // hide everything first, then re-append matched in order
       records.forEach(function (c) { c.el.hidden = true; });
@@ -214,7 +210,6 @@
 
       var anyFilter = f.tag || f.race || f.district || f.party || f.county_race || query;
       var label = "Showing " + matched.length + " of " + totalCandidates + (matched.length === 1 ? " candidate" : " candidates");
-      if (f.tag) label += " · " + totalR + (totalR === 1 ? " response" : " responses") + " on " + f.tag;
       if (countLine) {
         countLine.textContent = label;
         countLine.classList.toggle("is-filtered", !!anyFilter);
@@ -354,6 +349,27 @@
       if (search) search.value = "";
       query = "";
       rebuild(focusId);
+    });
+
+    // Clicking a badge applies its value to the matching filter (clicking the
+    // active one clears it). Delegated on feedList since cards are moved but
+    // never re-created. Keeps the clicked card in view via rebuild(focusId).
+    function badgeFromEvent(e) {
+      var badge = e.target.closest && e.target.closest(".badge[data-filter]");
+      if (!badge || !feedList.contains(badge)) return;
+      var sel = selects[badge.getAttribute("data-filter")];
+      if (!sel) return;
+      var val = badge.getAttribute("data-value");
+      if (val == null) val = badge.getAttribute("data-tag");
+      if (val == null || val === "") return;
+      e.preventDefault();
+      sel.value = sel.value === val ? "" : val;
+      var card = badge.closest(".cand-card");
+      rebuild(card ? card.id : null);
+    }
+    feedList.addEventListener("click", badgeFromEvent);
+    feedList.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") badgeFromEvent(e);
     });
 
     rebuild();

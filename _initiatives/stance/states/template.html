@@ -195,12 +195,7 @@ published: true                           # TODO: delete this line (or set to tr
         {%- endif -%}
         <li>
           <div>
-            {{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}
-            <div class="qtags">
-              {%- for t in q_tag_list -%}
-                <span class="badge badge--tag">{{ t }}</span>
-              {%- endfor -%}
-            </div>
+            {{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}{% if q_tag_list.size > 0 %} (<em>see{% for t in q_tag_list %}{% if forloop.first %} "{{ t }}"{% elsif forloop.last %}{% if q_tag_list.size > 2 %}, and "{{ t }}"{% else %} and "{{ t }}"{% endif %}{% else %}, "{{ t }}"{% endif %}{% endfor %}</em>){% endif %}
           </div>
         </li>
       {%- endfor -%}

@@ -73,7 +73,9 @@
       ? '<span class="stance-badge stance-badge--county-race">' + escapeHtml(r.county_race) + "</span>"
       : "";
     var tagHtml = toArray(r.tag).map(function (t) {
-      return '<span class="stance-badge stance-badge--tag">' + escapeHtml(t) + "</span>";
+      return '<span class="stance-badge stance-badge--tag" data-tag="' + escapeHtml(t) +
+        '" role="button" tabindex="0" aria-label="Filter by ' + escapeHtml(t) + '">' +
+        escapeHtml(t) + "</span>";
     }).join("");
     var dateHtml = "";
     if (r.date) {
@@ -272,6 +274,28 @@
             if (sortSel) sortSel.value = "random";
             if (primaryChk) primaryChk.checked = false;
             apply();
+          });
+        }
+
+        // Clicking a tag badge applies it to the Question Tag dropdown (clicking
+        // the active tag clears it). Delegated on listEl since cards are
+        // re-rendered on every apply(). Dispatching `change` reuses the existing
+        // listener, which re-renders and mirrors the tag into the URL hash.
+        var tagSel = root.querySelector('select[data-filter="tag"]');
+        function tagFromEvent(e) {
+          if (!tagSel || !listEl) return;
+          var badge = e.target.closest && e.target.closest(".stance-badge--tag");
+          if (!badge || !listEl.contains(badge)) return;
+          var tag = badge.getAttribute("data-tag");
+          if (!tag) return;
+          e.preventDefault();
+          tagSel.value = tagSel.value === tag ? "" : tag;
+          tagSel.dispatchEvent(new Event("change"));
+        }
+        if (listEl) {
+          listEl.addEventListener("click", tagFromEvent);
+          listEl.addEventListener("keydown", function (e) {
+            if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") tagFromEvent(e);
           });
         }
 

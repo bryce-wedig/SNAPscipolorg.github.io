@@ -345,6 +345,13 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
   &--tag {
     background: $snap-cream;
     color: $snap-blue;
+
+    &[role="button"] {
+      cursor: pointer;
+
+      &:hover { filter: brightness(0.95); }
+      &:focus-visible { outline: 2px solid $snap-blue; outline-offset: 1px; }
+    }
   }
 }
 
@@ -891,13 +898,6 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
         margin-top: 2px;
       }
     }
-
-    .qtags {
-      margin-top: 5px;
-      display: flex;
-      gap: 6px;
-      flex-wrap: wrap;
-    }
   }
 
   .disclaimer {
@@ -929,21 +929,6 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
     }
 
     a { color: $snap-orange-dark; }
-  }
-
-  // badge variant reused from the explorer for the question tag chips
-  .badge {
-    display: inline-block;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.5;
-    padding: 3px 11px;
-    border-radius: 999px;
-    color: #fff;
-    background: $snap-light-blue;
-    white-space: nowrap;
-
-    &--tag { background: $snap-cream; color: $snap-blue; }
   }
 }
 
@@ -1305,6 +1290,15 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
     color: #fff;
     background: $snap-light-blue;
     white-space: nowrap;
+
+    // Bubbles wired to a filter (party / race / district / county / tag) read as
+    // clickable; the inert variants keep the default cursor.
+    &[role="button"] {
+      cursor: pointer;
+
+      &:hover { filter: brightness(0.95); }
+      &:focus-visible { outline: 2px solid $snap-blue; outline-offset: 1px; }
+    }
 
     &--race,
     &--county { background: $snap-light-blue; }

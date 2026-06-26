@@ -47,16 +47,24 @@
   <div class="cand-card__head">
     <h3 class="cand-card__name">{{ full_name }}</h3>
     {%- if cand.party -%}
-      <span class="badge badge--party badge--party-{{ cand.party | downcase | replace: ' ', '-' }}">{{ cand.party }}</span>
+      <span class="badge badge--party badge--party-{{ cand.party | downcase | replace: ' ', '-' }}"
+            data-filter="party" data-value="{{ cand.party | escape }}"
+            role="button" tabindex="0" aria-label="Filter by {{ cand.party | escape }}">{{ cand.party }}</span>
     {%- endif -%}
   </div>
   <div class="cand-card__meta">
-    <span class="badge badge--race">{{ cand.race | remove: ' [All]' }}</span>
+    <span class="badge badge--race"
+          data-filter="race" data-value="{{ cand.race | escape }}"
+          role="button" tabindex="0" aria-label="Filter by {{ cand.race | remove: ' [All]' | escape }}">{{ cand.race | remove: ' [All]' }}</span>
     {%- if cand.district and cand.district != '' -%}
-      <span class="badge badge--dist">District {{ cand.district }}</span>
+      <span class="badge badge--dist"
+            data-filter="district" data-value="{{ cand.district | escape }}"
+            role="button" tabindex="0" aria-label="Filter by District {{ cand.district }}">District {{ cand.district }}</span>
     {%- endif -%}
     {%- if cand.county_race and cand.county_race != '' -%}
-      <span class="badge badge--county">{{ cand.county_race }}</span>
+      <span class="badge badge--county"
+            data-filter="county_race" data-value="{{ cand.county_race | escape }}"
+            role="button" tabindex="0" aria-label="Filter by {{ cand.county_race | escape }}">{{ cand.county_race }}</span>
     {%- endif -%}
   </div>
   <div class="cand-card__sub"
@@ -75,7 +83,7 @@
         <p class="qa__q"><span class="qa__n">Q{{ forloop.index }}</span> {{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</p>
         <div class="qa__tags">
           {%- for t in q_tag_list -%}
-            <span class="badge badge--tag" data-tag="{{ t | escape }}">{{ t }}</span>
+            <span class="badge badge--tag" data-tag="{{ t | escape }}" data-filter="tag" role="button" tabindex="0" aria-label="Filter by {{ t | escape }}">{{ t }}</span>
           {%- endfor -%}
         </div>
         <div class="qa__a">{{ resp.response | markdownify }}</div>
