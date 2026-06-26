@@ -3,17 +3,18 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
+<!-- Primary Navigation -->
 <nav class="navbar navbar-expand-sm navbar-light bg-light">
     <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
         <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">
-     <img src="{{ site.url }}{{ site.baseurl }}/favicon.ico" width="30" height="30" alt="">
-      {{ site.nick | escape }}
-    </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="{{ site.url }}{{ site.baseurl }}/favicon.ico" width="30" height="30" alt="">
+            {{ site.nick | escape }}
+        </a>
+        <button class="navbar-toggler float-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse text-center" id="navbarColor03">
-            <div class="navbar-nav">
+        <div class="navbar-collapse collapse" id="navbarColor03">
+            <div class="navbar-nav ms-auto text-right">
                 {% for page in site.nav_pages %}
                 <a class="nav-item nav-link" href="{{ site.url }}{{ site.baseurl }}/{{page.name}}">{{page.name | capitalize }}</a>
             {% endfor %}
@@ -22,3 +23,4 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </div>
 </nav>
+
