@@ -1,7 +1,7 @@
 ---
 layout: gridlay
 title: "Stance on Science"
-excerpt: "Learn more about our Stance on Science initiative!"
+excerpt: "Learn more about our Stance on Science initiative and explore candidate responses!"
 collection: initiatives
 category: current
 date: 2025-09-10
@@ -16,7 +16,7 @@ permalink: /initiatives/stance-on-science
 {%- assign active_states = site.initiatives | where_exp: "p", "p.state != nil and p.state != 'xx'" | map: "state" | sort -%}
 
 <p>Click an <strong style="color:#E89142">orange</strong> state to view
-candidate responses from that state's Stance on Science team. <a href="{{ '/initiatives/stance-on-science/search' | relative_url }}">Click here for all responses.</a> Scroll down for a list of states.</p>
+candidate responses from that state. <a href="{{ '/initiatives/stance-on-science/search' | relative_url }}">Click here for all responses.</a> Scroll down for a list of states. This map will be updated as more states publish candidate responses.</p>
 
 <div class="stance-map" id="stance-map" role="img" aria-label="Map of the United States showing states with Stance on Science candidate responses highlighted in orange.">
   <noscript>
