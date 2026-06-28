@@ -68,7 +68,7 @@
     {%- endif -%}
   </div>
   <div class="cand-card__sub"
-       data-sub-default="Submitted {{ date_display }} · {{ answered }} of {{ qtotal }} questions answered">Submitted {{ date_display }} · {{ answered }} of {{ qtotal }} questions answered</div>
+       data-sub-default="Submitted {{ date_display }}">Submitted {{ date_display }}</div>
 
   {%- for q in questions -%}
     {%- assign resp = items | where: "question", q.id | first -%}
