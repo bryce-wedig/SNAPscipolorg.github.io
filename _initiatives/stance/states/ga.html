@@ -1,6 +1,5 @@
 ---
 layout: gridlay
-title: "Georgia Stance on Science"
 collection: initiatives
 permalink: /initiatives/stance-on-science/states/ga
 sitemap: true
@@ -10,7 +9,6 @@ sitemap: true
 state: ga
 state_name: Georgia
 demonym_plural: Georgians
-team_name: Stance on Science - Georgia
 team_email: coalitionofathensscientists@gmail.com
 ballot_lookup_url: TODO_URL               # TODO: voter/district lookup URL
 ballot_lookup_label: TODO voter resource  # TODO: visible link text
@@ -31,12 +29,13 @@ published: true
   {%- endif -%}
 {%- endfor -%}
 {%- assign question_tags = question_tags | uniq -%}
+{%- assign team_name = page.state_name | append: " Stance on Science" -%}
 
 <header class="stance-state-header">
   <a href="{{ '/initiatives/stance-on-science#stance-map' | relative_url }}" class="stance-back-link"><i class="fa-solid fa-arrow-left"></i> Back to map</a>
   <h1>{{ page.state_name }} Candidate Page</h1>
   <p>
-    Created by the {{ page.team_name }} team, <a href="https://www.instagram.com/coalitionofathensscientists/" target="_blank" rel="noopener">Coalition of Athens Scientists</a>, <a href="https://scienceforgeorgia.org/" target="_blank" rel="noopener">Science for Georgia</a>, <a href="https://esal.us/" target="_blank" rel="noopener">Engineers and Scientists Acting Locally</a>, <a href="https://athenspoliticsnerd.com/" target="_blank" rel="noopener">Athens Politics Nerd</a>, <a href="https://www.facebook.com/iotapsiomega/" target="_blank" rel="noopener">Alpha Kappa Alpha Iota Psi Omega Chapter</a>, <a href="https://southernsustainabilityinstitute.org/" target="_blank" rel="noopener">Southern Sustainability Institute</a>, <a href="https://www.100percentathens.org/" target="_blank" rel="noopener">100% Athens</a>, <a href="https://athenslandtrust.org/" target="_blank" rel="noopener">Athens Land Trust</a>, <a href="https://c-changeconversations.org/" target="_blank" rel="noopener">C-Change</a>, and <a href="https://citizensclimatelobby.org/about-ccl/chapters/" target="_blank" rel="noopener">Citizen's Climate Lobby Athens</a>.<br/>
+    Created by the {{ team_name }} team, <a href="https://www.instagram.com/coalitionofathensscientists/" target="_blank" rel="noopener">Coalition of Athens Scientists</a>, <a href="https://scienceforgeorgia.org/" target="_blank" rel="noopener">Science for Georgia</a>, <a href="https://esal.us/" target="_blank" rel="noopener">Engineers and Scientists Acting Locally</a>, <a href="https://athenspoliticsnerd.com/" target="_blank" rel="noopener">Athens Politics Nerd</a>, <a href="https://www.facebook.com/iotapsiomega/" target="_blank" rel="noopener">Alpha Kappa Alpha Iota Psi Omega Chapter</a>, <a href="https://southernsustainabilityinstitute.org/" target="_blank" rel="noopener">Southern Sustainability Institute</a>, <a href="https://www.100percentathens.org/" target="_blank" rel="noopener">100% Athens</a>, <a href="https://athenslandtrust.org/" target="_blank" rel="noopener">Athens Land Trust</a>, <a href="https://c-changeconversations.org/" target="_blank" rel="noopener">C-Change</a>, and <a href="https://citizensclimatelobby.org/about-ccl/chapters/" target="_blank" rel="noopener">Citizen's Climate Lobby Athens</a>.<br/>
     Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> with any questions.
   </p>
   {%- if page.last_updated %}<p><em>Last updated: {{ page.last_updated | date: "%B %-d, %Y" }}</em></p>{%- endif %}
@@ -83,10 +82,7 @@ published: true
   <summary><span class="ic"><i class="fa-solid fa-circle-info"></i></span> How to use this resource <i class="fa-solid fa-chevron-right chev"></i></summary>
   <div class="info__body">
   <p>This webpage houses the responses to {{ questions.size }} questions
-  crafted by the {{ page.team_name }} team. To find candidates'
-  responses for each election, you can filter by tag, race, district, and
-  party, or jump straight to a candidate using the directory on the left.
-  Available tags include: {{ question_tags | join: ", " }}.</p>
+  crafted by the {{ team_name }} team.</p>
   <p>Only official candidates who will appear on ballots were contacted.</p>
   <p>Candidates were contacted in TODO Month Year (with a follow-up to those who
   did not initially respond) and given the opportunity to answer all questions. Only the responses of candidates who answered the questions are
@@ -120,7 +116,7 @@ published: true
 </details>
 
 <details class="info">
-  <summary><span class="ic"><i class="fa-solid fa-list-check"></i></span> The {{ questions.size }} questions posed to each candidate <i class="fa-solid fa-chevron-right chev"></i></summary>
+  <summary><span class="ic"><i class="fa-solid fa-list-check"></i></span> The questions posed<i class="fa-solid fa-chevron-right chev"></i></summary>
   <div class="info__body">
     <ol class="qlist">
       {%- for q in questions -%}
@@ -142,10 +138,10 @@ published: true
 <div class="disclaimer">
   <h3>Disclaimer</h3>
   <p>The responses of candidates shared on this webpage do not reflect the
-  views of the {{ page.team_name }} team or the Scientist Network for
+  views of the {{ team_name }} team or the Scientist Network for
   Advancing Policy (SNAP) Coalition. SNAP is a non-partisan organization
   (please see more about SNAP <a href="{{ '/about/' | relative_url }}">here</a>).
-  <u>SNAP and the {{ page.team_name }} team do not endorse any
+  <u>SNAP and the {{ team_name }} team do not endorse any
   candidates.</u> The goals of this initiative can be found
   <a href="{{ '/initiatives/stance-on-science' | relative_url }}">here</a>.
   Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a>
@@ -172,10 +168,10 @@ published: true
 <section class="stance-state-disclaimer">
   <h3>Disclaimer</h3>
   <p>The responses of candidates shared on this webpage do not reflect the
-  views of the {{ page.team_name }} team or the Scientist Network for
+  views of the {{ team_name }} team or the Scientist Network for
   Advancing Policy (SNAP) Coalition. SNAP is a non-partisan organization
   (please see more about SNAP <a href="{{ '/about/' | relative_url }}">here</a>).
-  <u>SNAP and the {{ page.team_name }} team do not endorse any
+  <u>SNAP and the {{ team_name }} team do not endorse any
   candidates.</u> The goals of this initiative can be found
   <a href="{{ '/initiatives/stance-on-science' | relative_url }}">here</a>.
   Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a>
@@ -205,7 +201,7 @@ published: true
 {%- endif -%}
 {%- if socials.size > 0 %}
 <footer class="stance-state-socials">
-  <p>Follow {{ page.team_name }} on
+  <p>Follow {{ team_name }} on
     {%- for s in socials -%}
       {%- if forloop.first %} {{ s }}
       {%- elsif forloop.last -%}

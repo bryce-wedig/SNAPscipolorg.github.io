@@ -1,13 +1,11 @@
 ---
 layout: gridlay
-title: "Missouri Stance on Science"
 collection: initiatives
 permalink: /initiatives/stance-on-science/states/mo
 sitemap: true
 state: mo
 state_name: Missouri
 demonym_plural: Missourians
-team_name: Stance on Science - Missouri
 team_email: stanceonsciencemissouri@gmail.com
 ballot_lookup_url: https://voteroutreach.sos.mo.gov/portal/
 ballot_lookup_label: Missouri Secretary of State "Check Your Voter Registration" portal
@@ -28,6 +26,7 @@ published: true
   {%- endif -%}
 {%- endfor -%}
 {%- assign question_tags = question_tags | uniq -%}
+{%- assign team_name = page.state_name | append: " Stance on Science" -%}
 
 {%- assign socials = "" | split: "" -%}
 {%- if page.instagram_url -%}
@@ -47,7 +46,7 @@ published: true
   <a href="{{ '/initiatives/stance-on-science#stance-map' | relative_url }}" class="stance-back-link"><i class="fa-solid fa-arrow-left"></i> Back to map</a>
   <h1>{{ page.state_name }} Candidate Page</h1>
   <p>
-    Created by the {{ page.team_name }} team. Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> with any questions.{%- if socials.size > 0 %} Follow us on
+    Created by the {{ team_name }} team. Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> with any questions.{%- if socials.size > 0 %} Follow us on
     {%- for s in socials -%}
       {%- if forloop.first %} {{ s }}
       {%- elsif forloop.last -%}
@@ -79,10 +78,7 @@ published: true
   <summary><span class="ic"><i class="fa-solid fa-circle-info"></i></span> How to use this resource <i class="fa-solid fa-chevron-right chev"></i></summary>
   <div class="info__body">
   <p>This webpage houses the responses to {{ questions.size }} questions
-  crafted by the {{ page.team_name }} team. To find candidates'
-  responses for each election, you can filter by tag, race, district, and
-  party, or jump straight to a candidate using the directory on the left.
-  Available tags include: {{ question_tags | join: ", " }}.</p>
+  crafted by the {{ team_name }} team.</p>
   <p>Only official candidates who will appear on ballots were contacted.</p>
   <p>Candidates were contacted in June 2026 (with a follow-up to those who
   did not initially respond) and given the opportunity to answer all questions. Only the responses of candidates who answered the questions are
@@ -120,7 +116,7 @@ published: true
 </details>
 
 <details class="info">
-  <summary><span class="ic"><i class="fa-solid fa-list-check"></i></span> The {{ questions.size }} questions posed to each candidate <i class="fa-solid fa-chevron-right chev"></i></summary>
+  <summary><span class="ic"><i class="fa-solid fa-list-check"></i></span> The questions posed<i class="fa-solid fa-chevron-right chev"></i></summary>
   <div class="info__body">
     <ol class="qlist">
       {%- for q in questions -%}
@@ -142,10 +138,10 @@ published: true
 <div class="disclaimer">
   <h3>Disclaimer</h3>
   <p>The responses of candidates shared on this webpage do not reflect the
-  views of the {{ page.team_name }} team or the Scientist Network for
+  views of the {{ team_name }} team or the Scientist Network for
   Advancing Policy (SNAP) Coalition. SNAP is a non-partisan organization
   (please see more about SNAP <a href="{{ '/about/' | relative_url }}">here</a>).
-  <u>SNAP and the {{ page.team_name }} team do not endorse any
+  <u>SNAP and the {{ team_name }} team do not endorse any
   candidates.</u> The goals of this initiative can be found
   <a href="{{ '/initiatives/stance-on-science' | relative_url }}">here</a>.
   Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a>
