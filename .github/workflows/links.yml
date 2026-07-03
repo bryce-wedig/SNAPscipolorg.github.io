@@ -30,7 +30,6 @@ jobs:
             --retry-wait-time 2
             --max-concurrency 8
             './_posts/**/*.md'
-            './_newsletters/**/*.md'
             './_pages/**/*.md'
             './_pages/**/*.html'
             './_initiatives/**/*.html'
