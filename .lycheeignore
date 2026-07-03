@@ -1,1 +1,6 @@
 file:///home/runner/work/SNAPscipolorg.github.io/SNAPscipolorg.github.io/*
+
+# LinkedIn returns 999/429 anti-bot blocks to CI and can't be verified without
+# a logged-in session; this also covers the {{ member.linkedin }} template
+# placeholders in about.md/team.md that lychee sees in the unrendered source.
+linkedin\.com
