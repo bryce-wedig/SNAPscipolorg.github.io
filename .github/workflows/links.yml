@@ -1,14 +1,18 @@
 name: Links
 
 on:
-  repository_dispatch:
-  workflow_dispatch:
+  pull_request:
   push:
     branches:
       - source
-      - feature/lychee-link-checker
+      - feature/lychee-link-checker  # for testing the workflow
   schedule:
     - cron: '0 0 * * 0' # every Sunday at midnight
+  workflow_dispatch:
+
+concurrency:
+  group: links-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   linkChecker:
@@ -28,23 +32,25 @@ jobs:
             --accept '200..=299,401,403'
             --max-retries 5
             --retry-wait-time 2
-            --max-concurrency 8
+            --max-concurrency 1
             './_posts/**/*.md'
             './_pages/**/*.md'
             './_pages/**/*.html'
             './_initiatives/**/*.html'
-          fail: false
+          # Fail the job on PRs so the check blocks merge;
+          # stay non-failing elsewhere so the issue-filing path runs.
+          fail: ${{ github.event_name == 'pull_request' }}
 
       - name: Find existing report issue
         id: last-issue
-        if: steps.lychee.outputs.exit_code != 0
+        if: github.event_name != 'pull_request' && steps.lychee.outputs.exit_code != 0
         uses: micalevisk/last-issue-action@v2
         with:
           state: open
           labels: lychee
 
       - name: Create/Update Issue From File
-        if: steps.lychee.outputs.exit_code != 0
+        if: github.event_name != 'pull_request' && steps.lychee.outputs.exit_code != 0
         uses: peter-evans/create-issue-from-file@v5
         with:
           title: Link Checker Report
