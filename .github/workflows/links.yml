@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - source
+      - feature/lychee-link-checker
   schedule:
     - cron: '0 0 * * 0' # every Sunday at midnight
 
@@ -21,13 +22,13 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          args: "--verbose ./_posts/*.md ./_newsletters/*.md ./_initiatives/*.html"
+          args: "--verbose --no-progress './_posts/**/*.md' './_newsletters/**/*.md' './_pages/**/*.md' './_pages/**/*.html' './_initiatives/**/*.html'"
           fail: false
 
-      # - name: Create Issue From File
-      #   if: steps.lychee.outputs.exit_code != 0
-      #   uses: peter-evans/create-issue-from-file@v5
-      #   with:
-      #     title: Link Checker Report
-      #     content-filepath: ./lychee/out.md
-      #     labels: report, automated issue
+      - name: Create Issue From File
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Link Checker Report
+          content-filepath: ./lychee/out.md
+          labels: report, automated issue
