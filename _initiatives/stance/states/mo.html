@@ -10,6 +10,8 @@ ballot_lookup_url: https://voteroutreach.sos.mo.gov/portal/
 ballot_lookup_label: Missouri Secretary of State "Check Your Voter Registration" portal
 # Socials (optional — leave blank to hide a link, or all blank to hide the footer):
 instagram_url: https://www.instagram.com/stanceonsciencemissouri/
+facebook_url:
+tiktok_url:
 x_url:
 bluesky_url:
 published: true
@@ -31,6 +33,14 @@ published: true
 {%- if page.instagram_url -%}
   {%- capture _ig -%}<a href="{{ page.instagram_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a>{%- endcapture -%}
   {%- assign socials = socials | push: _ig -%}
+{%- endif -%}
+{%- if page.facebook_url -%}
+  {%- capture _fb -%}<a href="{{ page.facebook_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i> Facebook</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _fb -%}
+{%- endif -%}
+{%- if page.tiktok_url -%}
+  {%- capture _tt -%}<a href="{{ page.tiktok_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-tiktok"></i> TikTok</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _tt -%}
 {%- endif -%}
 {%- if page.x_url -%}
   {%- capture _x -%}<a href="{{ page.x_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i> X</a>{%- endcapture -%}

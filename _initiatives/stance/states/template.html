@@ -67,9 +67,9 @@
 # front-matter field to maintain. (It stays blank until that file exists.)
 #
 # Optional front matter (omit or leave blank to hide):
-#   instagram_url, x_url, bluesky_url
+#   instagram_url, facebook_url, tiktok_url, x_url, bluesky_url
 #                       — social links shown in the header sentence. The
-#                         "Follow us on …" clause is hidden if all three are blank.
+#                         "Follow us on …" clause is hidden if all are blank.
 # ────────────────────────────────────────────────────────────────────────────
 layout: gridlay
 collection: initiatives
@@ -82,6 +82,8 @@ ballot_lookup_url: TODO_URL               # TODO: voter/district lookup URL
 ballot_lookup_label: TODO voter resource  # TODO: visible link text
 # Socials (optional — leave blank to hide a link, or all blank to hide the footer):
 instagram_url:
+facebook_url:
+tiktok_url:
 x_url:
 bluesky_url:
 published: true                           # TODO: delete this line (or set to true) to publish
@@ -103,6 +105,14 @@ published: true                           # TODO: delete this line (or set to tr
 {%- if page.instagram_url -%}
   {%- capture _ig -%}<a href="{{ page.instagram_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a>{%- endcapture -%}
   {%- assign socials = socials | push: _ig -%}
+{%- endif -%}
+{%- if page.facebook_url -%}
+  {%- capture _fb -%}<a href="{{ page.facebook_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i> Facebook</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _fb -%}
+{%- endif -%}
+{%- if page.tiktok_url -%}
+  {%- capture _tt -%}<a href="{{ page.tiktok_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-tiktok"></i> TikTok</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _tt -%}
 {%- endif -%}
 {%- if page.x_url -%}
   {%- capture _x -%}<a href="{{ page.x_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i> X</a>{%- endcapture -%}

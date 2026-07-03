@@ -9,9 +9,11 @@ team_email: stanceonsciencepa@gmail.com
 ballot_lookup_url: https://www.pavoterservices.pa.gov/Pages/PollingPlaceInfo.aspx
 ballot_lookup_label: PA Voter Services
 # Socials (optional — leave blank to hide a link, or all blank to hide the footer):
-instagram_url:
+instagram_url: https://www.instagram.com/stanceonsciencepa/
+facebook_url:
+tiktok_url:
 x_url: https://x.com/PAStanceonSci
-bluesky_url:
+bluesky_url: https://bsky.app/profile/stancepa.bsky.social
 published: true
 ---
 {%- assign responses = site.data.stance_responses[page.state] | default: empty -%}
@@ -31,6 +33,14 @@ published: true
 {%- if page.instagram_url -%}
   {%- capture _ig -%}<a href="{{ page.instagram_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a>{%- endcapture -%}
   {%- assign socials = socials | push: _ig -%}
+{%- endif -%}
+{%- if page.facebook_url -%}
+  {%- capture _fb -%}<a href="{{ page.facebook_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i> Facebook</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _fb -%}
+{%- endif -%}
+{%- if page.tiktok_url -%}
+  {%- capture _tt -%}<a href="{{ page.tiktok_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-tiktok"></i> TikTok</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _tt -%}
 {%- endif -%}
 {%- if page.x_url -%}
   {%- capture _x -%}<a href="{{ page.x_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i> X</a>{%- endcapture -%}
