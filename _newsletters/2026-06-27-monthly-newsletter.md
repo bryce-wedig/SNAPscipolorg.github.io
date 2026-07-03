@@ -30,7 +30,7 @@ Please join us to learn about interactive simulations as a method of engaging po
 
 #### SNAP Blog - Science Policy in a SNAP
 
-You can access our blog, Science Policy in a SNAP, [on our website](https://snapcoalition.org/2026/01/19/science-is-the-pursuit-of-knowledge.md.html) or give us a follow [on Medium](https://medium.com/@snapscipolorg/science-is-the-pursuit-of-knowledge-cb80eda8d220), where you'll hear from a variety of SNAP member voices on diverse science and science-policy topics.
+You can access our blog, Science Policy in a SNAP, [on our website](https://snapcoalition.org/2026/01/19/science-is-the-pursuit-of-knowledge.html) or give us a follow [on Medium](https://medium.com/@snapscipolorg/science-is-the-pursuit-of-knowledge-cb80eda8d220), where you'll hear from a variety of SNAP member voices on diverse science and science-policy topics.
 
 Earlier this month, SNAPper Sol Taylor-Brill published a thoughtful piece titled "Bias In, Bias Out: The responsibility of researchers to use AI with caution," which you can read [here](https://medium.com/science-policy-in-a-snap/bias-in-bias-out-the-responsibility-of-researchers-to-use-ai-with-caution-to-avoid-promoting-7eb62f1b73d5). You can also check out "The Past Is Our Present: A History of America's Complicated Relationship with Science" by SNAPpers Shreya Venkatesh, Daniel Affsprung, and Andrew Mattson, [here](https://medium.com/science-policy-in-a-snap/the-past-is-our-present-a-history-of-americas-complicated-relationship-with-science-ca1d22f77fff).
 

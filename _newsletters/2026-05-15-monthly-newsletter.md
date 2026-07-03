@@ -24,7 +24,7 @@ The Friends and Family for Scientists campaign is about inviting the people clos
 
 #### SNAP Blog - Science Policy in a SNAP
 
-You can access our blog, Science Policy in a SNAP, [on our website](https://snapcoalition.org/2026/01/19/science-is-the-pursuit-of-knowledge.md.html) or give us a follow [on Medium](https://medium.com/@snapscipolorg/science-is-the-pursuit-of-knowledge-cb80eda8d220), where you'll hear from a variety of SNAP member voices on diverse science and science-policy topics.
+You can access our blog, Science Policy in a SNAP, [on our website](https://snapcoalition.org/2026/01/19/science-is-the-pursuit-of-knowledge.html) or give us a follow [on Medium](https://medium.com/@snapscipolorg/science-is-the-pursuit-of-knowledge-cb80eda8d220), where you'll hear from a variety of SNAP member voices on diverse science and science-policy topics.
 
 Earlier this month, we published a thoughtful piece from SNAP members Sahana Kumar, Becca Blyn, and Emily Selland on the World Health Organization! Read **"Who is WHO? The World Health Organization is a Pillar of Science Policy Regulations"** [here](https://medium.com/science-policy-in-a-snap/who-is-who-the-world-health-organization-is-a-pillar-of-science-policy-regulations-fd518d534ef6). You can also check out "Why Everyone Should Care About Population Aging (And What's Being Done About It in Terms of Policy)," by SNAPper Edith Marie Green, who reflects on her community connections and research on population aging! You can read that [here](https://medium.com/science-policy-in-a-snap/why-everyone-should-care-about-population-aging-and-whats-being-done-about-it-in-terms-of-policy-fcf1bf228dff).
 

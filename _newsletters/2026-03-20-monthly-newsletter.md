@@ -18,7 +18,7 @@ Will you be there, too? Let us know - we'd love to connect in person and hope to
 <img src="/newsletters/images/2026_03_1.png" alt="SCIENCE TALK '26" style="max-width: 100%; height: auto;" />
 
 #### SNAP Blog - Science Policy in a SNAP
-We started a blog! You can access Science Policy in a SNAP [on our website](https://snapcoalition.org/2026/01/19/science-is-the-pursuit-of-knowledge.md.html) or give us a follow [on Medium](https://medium.com/@snapscipolorg/science-is-the-pursuit-of-knowledge-cb80eda8d220), where you'll hear from a variety of SNAP member voices on diverse science and science-policy topics.
+We started a blog! You can access Science Policy in a SNAP [on our website](https://snapcoalition.org/2026/01/19/science-is-the-pursuit-of-knowledge.html) or give us a follow [on Medium](https://medium.com/@snapscipolorg/science-is-the-pursuit-of-knowledge-cb80eda8d220), where you'll hear from a variety of SNAP member voices on diverse science and science-policy topics.
 
 Earlier this month, we published a thoughtful & well-researched piece from SNAP member Mikayla Smith-Craven diving into an aspect of the high cost of healthcare in the U.S. titled **"The Hidden Figure in the Drug Price Epidemic: Pharmacy Benefit Managers"**, which you can read [here](https://medium.com/science-policy-in-a-snap/the-hidden-figure-in-the-drug-price-epidemic-pharmacy-benefit-managers-5aba2dd1018e).
 
