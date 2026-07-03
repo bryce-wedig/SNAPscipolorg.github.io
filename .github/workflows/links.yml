@@ -42,9 +42,7 @@ jobs:
         uses: micalevisk/last-issue-action@v2
         with:
           state: open
-          labels: |
-            report
-            automated issue
+          labels: lychee
 
       - name: Create/Update Issue From File
         if: steps.lychee.outputs.exit_code != 0
@@ -53,4 +51,4 @@ jobs:
           title: Link Checker Report
           content-filepath: ./lychee/out.md
           issue-number: ${{ steps.last-issue.outputs.issue-number }}
-          labels: report, automated issue
+          labels: lychee, report, automated issue
