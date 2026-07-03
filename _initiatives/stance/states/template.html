@@ -52,11 +52,14 @@
 #                         the global search badge and map tooltip.
 #   demonym_plural      — plural resident name (e.g. "New Yorkers"). Used in
 #                         body copy that refers to people from the state.
-#   permalink           — must follow the pattern /initiatives/stance-on-science/states/<code>
 #   team_email          — contact address. Used for both the `mailto:` and
 #                         the visible link text in the header and disclaimer.
 #   ballot_lookup_url   — link to this state's voter/district lookup tool.
 #   ballot_lookup_label — visible text for that link.
+#
+# The page's URL (permalink) is computed automatically by the
+# _plugins/stance_permalink.rb plugin as
+# /initiatives/stance-on-science/states/<code> from the `state` field below
 #
 # The "Last updated" date shown in the header is computed automatically by the
 # _plugins/stance_last_updated.rb plugin from the last git commit that touched
@@ -70,7 +73,6 @@
 # ────────────────────────────────────────────────────────────────────────────
 layout: gridlay
 collection: initiatives
-permalink: /initiatives/stance-on-science/states/xx   # TODO: replace xx with USPS code
 sitemap: true
 state: xx                                 # TODO: lowercase USPS code
 state_name: TODO State Name               # TODO: full state name
