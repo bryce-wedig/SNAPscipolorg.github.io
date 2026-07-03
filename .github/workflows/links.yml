@@ -30,6 +30,7 @@ jobs:
             --no-progress
             --root-dir '${{ github.workspace }}'
             --accept '200..=299,401,403,415'
+            --user-agent 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
             --max-retries 5
             --retry-wait-time 2
             --max-concurrency 1
