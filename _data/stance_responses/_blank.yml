@@ -1,12 +1,25 @@
-- candidate_first_name: [candidate_first_name]
-  candidate_last_name: [candidate_last_name]
-  state: [state]
-  race: [race]
-  district: [district]
-  party: [party]
-  question: [question]
-  date:
-  # county_race: [optional, free-text, e.g. "Baca County Commissioner"]
-  # primary_candidate: true   # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+- candidate_first_name: Mr. Mozart # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Wedig # used for alphabetical sorting
+  state: wa
+  race: US Senate # must match one of the options!
+  district: # feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: wa-q1
+  date: 2026-07-04 # optional
+  county_race: # feel free to remove if not applicable
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
   response: |
-    [response]
+    meow. 
+    
+    and here's another paragraph. you can use Markdown formatting, so here's a [link to the SNAP website](https://www.snapcoalition.org/), *this is bolded*, and _this is italicized_.
+
+- candidate_first_name: Mr. Mozart
+  candidate_last_name: Wedig
+  state: wa
+  race: US Senate
+  party: Democratic
+  question: wa-q2
+  date: 2026-07-04
+  primary_candidate: false
+  response: |
+    here's another response
