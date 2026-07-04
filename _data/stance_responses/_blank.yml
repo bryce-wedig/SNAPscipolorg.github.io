@@ -11,7 +11,7 @@
   response: |
     meow. 
     
-    and here's another paragraph. you can use Markdown formatting, so here's a [link to the SNAP website](https://www.snapcoalition.org/), *this is bolded*, and _this is italicized_.
+    and here's another paragraph. you can use Markdown formatting, so here's a [link to the SNAP website](https://www.snapcoalition.org/), **this is bolded**, and _this is italicized_.
 
 - candidate_first_name: Mr. Mozart
   candidate_last_name: Wedig
