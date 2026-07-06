@@ -51,6 +51,7 @@ We would also like to highlight some of the groups we admire in the Science Poli
 - [Scientific Citizenship Initiative](https://scientific-citizenship.org/)
 - [National Science Policy Network](https://www.scipolnetwork.org/)
 - [Engineers and Scientists Acting Locally](https://esal.us/)
+- [Innovations in Science](https://www.innovationsinscience.com/)
 - Public Health Communications Collaborative (and their free [training hub!](https://academy.publichealthcollaborative.org/))
 
 Some of these groups are state-specific, such as
