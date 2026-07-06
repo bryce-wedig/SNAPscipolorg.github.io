@@ -1,7 +1,7 @@
 - candidate_first_name: Heather
   candidate_last_name: Smiley
   state: mi
-  race: US House Of Representatives
+  race: US House of Representatives
   district: 6
   party: Republican
   question: mi-q1-all-races
@@ -14,7 +14,7 @@
 - candidate_first_name: Heather
   candidate_last_name: Smiley
   state: mi
-  race: US House Of Representatives
+  race: US House of Representatives
   district: 6
   party: Republican
   question: mi-q2-all-races
@@ -27,7 +27,7 @@
 - candidate_first_name: Heather
   candidate_last_name: Smiley
   state: mi
-  race: US House Of Representatives
+  race: US House of Representatives
   district: 6
   party: Republican
   question: mi-q3-house-senate
@@ -40,7 +40,7 @@
 - candidate_first_name: Heather
   candidate_last_name: Smiley
   state: mi
-  race: US House Of Representatives
+  race: US House of Representatives
   district: 6
   party: Republican
   question: mi-q4-governor-house
@@ -53,7 +53,7 @@
 - candidate_first_name: Heather
   candidate_last_name: Smiley
   state: mi
-  race: US House Of Representatives
+  race: US House of Representatives
   district: 6
   party: Republican
   question: mi-q5-governor-house
@@ -66,7 +66,7 @@
 - candidate_first_name: Heather
   candidate_last_name: Smiley
   state: mi
-  race: US House Of Representatives
+  race: US House of Representatives
   district: 6
   party: Republican
   question: mi-q7-house-senate
@@ -79,7 +79,7 @@
 - candidate_first_name: Heather
   candidate_last_name: Smiley
   state: mi
-  race: US House Of Representatives
+  race: US House of Representatives
   district: 6
   party: Republican
   question: mi-q9-governor-house
