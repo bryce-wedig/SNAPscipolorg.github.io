@@ -1,7 +1,6 @@
 ---
 layout: gridlay
 collection: initiatives
-permalink: /initiatives/stance-on-science/states/co
 sitemap: true
 # `state` and `state_name` are used by the global search and map to look up
 # this page from a USPS code. Keep them in sync with the YAML responses file
@@ -13,6 +12,8 @@ team_email: stanceonsciencecolorado@gmail.com
 ballot_lookup_url: https://myballot.coloradosos.gov/app/home
 ballot_lookup_label: Colorado Secretary of State "My Ballot" website
 instagram_url: https://www.instagram.com/stanceonscience.colorado/
+facebook_url:
+tiktok_url:
 x_url: https://x.com/co_stancesci
 bluesky_url: https://bsky.app/profile/co-stanceonscience.bsky.social
 ---
@@ -33,6 +34,14 @@ bluesky_url: https://bsky.app/profile/co-stanceonscience.bsky.social
 {%- if page.instagram_url -%}
   {%- capture _ig -%}<a href="{{ page.instagram_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a>{%- endcapture -%}
   {%- assign socials = socials | push: _ig -%}
+{%- endif -%}
+{%- if page.facebook_url -%}
+  {%- capture _fb -%}<a href="{{ page.facebook_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i> Facebook</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _fb -%}
+{%- endif -%}
+{%- if page.tiktok_url -%}
+  {%- capture _tt -%}<a href="{{ page.tiktok_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-tiktok"></i> TikTok</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _tt -%}
 {%- endif -%}
 {%- if page.x_url -%}
   {%- capture _x -%}<a href="{{ page.x_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i> X</a>{%- endcapture -%}
