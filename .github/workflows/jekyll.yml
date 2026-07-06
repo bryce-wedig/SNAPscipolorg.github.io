@@ -87,7 +87,18 @@ jobs:
           GH_REPO: ${{ github.repository }}
         run: |
           set +e
-          gh run view "${{ github.run_id }}" --log-failed > full.log 2>/dev/null
+
+          # The whole-run log archive (gh run view --log-failed) isn't ready
+          # while this job is still running, so fetch the failed job's logs
+          # directly instead.
+          JOB_ID=$(gh api "repos/$GH_REPO/actions/runs/${{ github.run_id }}/jobs" \
+            --paginate --jq '.jobs[] | select(.conclusion=="failure") | .id' | head -n1)
+
+          if [ -n "$JOB_ID" ]; then
+            gh api "repos/$GH_REPO/actions/jobs/$JOB_ID/logs" > full.log 2>/dev/null
+          else
+            : > full.log
+          fi
 
           # Strip everything up to and including the ISO-8601 timestamp on each
           # line, leaving just the message. This is layout-agnostic: it works
