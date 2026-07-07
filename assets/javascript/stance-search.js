@@ -23,15 +23,6 @@
     return Array.isArray(v) ? v : [v];
   }
 
-  function escapeHtml(s) {
-    return String(s)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#39;");
-  }
-
   // Tests whether a response matches the current filter state. `except` (a
   // filter key) lets the caller omit one filter so we can ask "which values
   // would still be valid for THIS dropdown given everything else?"
@@ -58,59 +49,11 @@
     return true;
   }
 
-  function renderCard(r, statesMeta) {
-    var districtLabel = r.district != null ? " — District " + r.district : "";
-    var stateMeta = statesMeta[r.state] || { name: r.state, url: "#" };
-    var partySlug = r.party ? r.party.toLowerCase().replace(/ /g, "-") : "";
-    var partyHtml = r.party
-      ? '<span class="stance-badge stance-badge--party stance-badge--party-' +
-        escapeHtml(partySlug) +
-        '">' +
-        escapeHtml(r.party) +
-        "</span>"
-      : "";
-    var countyRaceHtml = r.county_race
-      ? '<span class="stance-badge stance-badge--county-race">' + escapeHtml(r.county_race) + "</span>"
-      : "";
-    var tagHtml = toArray(r.tag).map(function (t) {
-      return '<span class="stance-badge stance-badge--tag" data-tag="' + escapeHtml(t) +
-        '" role="button" tabindex="0" aria-label="Filter by ' + escapeHtml(t) + '">' +
-        escapeHtml(t) + "</span>";
-    }).join("");
-    var dateHtml = "";
-    if (r.date) {
-      var d = new Date(r.date + "T00:00:00");
-      if (!isNaN(d.getTime())) {
-        dateHtml =
-          '<footer class="stance-response-card__footer"><small>Submitted ' +
-          d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }) +
-          "</small></footer>";
-      }
-    }
-    return (
-      '<article class="stance-response-card">' +
-        '<header class="stance-response-card__header">' +
-          '<h4 class="stance-response-card__candidate">' + escapeHtml(r.candidate) + "</h4>" +
-          '<div class="stance-response-card__meta">' +
-            '<span class="stance-badge stance-badge--state"><a href="' +
-              escapeHtml(stateMeta.url) + '">' + escapeHtml(stateMeta.name) + "</a></span>" +
-            '<span class="stance-badge stance-badge--race">' + escapeHtml(r.race) + escapeHtml(districtLabel) + "</span>" +
-            countyRaceHtml +
-            partyHtml +
-            tagHtml +
-          "</div>" +
-        "</header>" +
-        '<div class="stance-response-card__body">' +
-          (r.question_html
-            ? '<p class="stance-response-card__question"><em>' +
-                r.question_html.replace(/^<p>/, "").replace(/<\/p>\s*$/, "").trim() +
-              "</em></p>"
-            : "") +
-          r.response_html +
-        "</div>" +
-        dateHtml +
-      "</article>"
-    );
+  // Cards are pre-rendered server-side by the shared Liquid include
+  // (_includes/stance/response_card.html) and shipped as `card_html` in the
+  // JSON feed, so this is the single source of truth for card markup.
+  function renderCard(r) {
+    return r.card_html;
   }
 
   // Returns the set (as an object map) of values that key `K` takes across all
@@ -262,7 +205,7 @@
             if (visible.length === 0) {
               listEl.innerHTML = "";
             } else {
-              listEl.innerHTML = visible.map(function (r) { return renderCard(r, states); }).join("");
+              listEl.innerHTML = visible.map(renderCard).join("");
             }
           }
           if (countEl) countEl.textContent = String(visible.length);

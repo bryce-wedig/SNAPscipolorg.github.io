@@ -2,8 +2,13 @@
   Renders one candidate response as a filterable card.
 
   Inputs:
-    include.r          — a response entry (a hash from _data/stance_responses.yml)
-    include.show_state — if "true", display the state name as a badge (used on global search)
+    include.r                — a response entry (a hash from _data/stance_responses.yml)
+    include.show_state       — if "true", display the state name as a badge (used on global search)
+    include.interactive_tags — if "true", render tag badges as clickable filter
+                               controls (data-tag / role="button"). Used on the
+                               global search page, whose JS wires tag clicks to the
+                               Question Tag filter. Omit on the state topic view,
+                               which has no tag-click handler.
 {%- endcomment -%}
 {%- assign r = include.r -%}
 {%- assign district_attr = r.district | default: "" -%}
@@ -34,7 +39,10 @@
           <a href="{{ '/initiatives/stance-on-science/states/' | append: r.state | relative_url }}">{{ state_page.state_name | default: r.state | upcase }}</a>
         </span>
       {%- endif -%}
-      <span class="stance-badge stance-badge--race">{{ r.race }}{% if r.district %} — District {{ r.district }}{% endif %}</span>
+      <span class="stance-badge stance-badge--race">{{ r.race }}</span>
+      {%- if r.district and r.district != '' -%}
+        <span class="stance-badge stance-badge--dist">District {{ r.district }}</span>
+      {%- endif -%}
       {%- if r.county_race -%}
         <span class="stance-badge stance-badge--county-race">{{ r.county_race }}</span>
       {%- endif -%}
@@ -42,7 +50,11 @@
         <span class="stance-badge stance-badge--party stance-badge--party-{{ r.party | downcase | replace: ' ', '-' }}">{{ r.party }}</span>
       {%- endif -%}
       {%- for q in tag_list -%}
-        <span class="stance-badge stance-badge--tag">{{ q }}</span>
+        {%- if include.interactive_tags == "true" -%}
+          <span class="stance-badge stance-badge--tag" data-tag="{{ q | escape }}" data-filter="tag" role="button" tabindex="0" aria-label="Filter by {{ q | escape }}">{{ q }}</span>
+        {%- else -%}
+          <span class="stance-badge stance-badge--tag">{{ q }}</span>
+        {%- endif -%}
       {%- endfor -%}
     </div>
   </header>

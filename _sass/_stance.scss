@@ -335,6 +335,11 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
     color: #fff;
   }
 
+  &--dist {
+    background: $snap-navy-tint;
+    color: $snap-blue;
+  }
+
   &--party {
     background: $stance-no-party;
     color: #fff;

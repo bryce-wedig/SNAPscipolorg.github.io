@@ -29,6 +29,13 @@ sitemap: false
         {%- endif -%}
         {%- unless first -%},{%- endunless -%}
         {%- assign first = false -%}
+        {%- comment -%}
+          Pre-render the card with the shared include so stance-search.js can
+          insert it verbatim — keeping response_card.html the single source of
+          truth for card markup. The data fields below remain for client-side
+          filtering, searching, and sorting.
+        {%- endcomment -%}
+        {%- capture card_html -%}{% include stance/response_card.html r=r show_state="true" interactive_tags="true" %}{%- endcapture -%}
         {
           "candidate": {{ r.candidate_first_name | append: " " | append: r.candidate_last_name | jsonify }},
           "candidate_last_name": {{ r.candidate_last_name | jsonify }},
@@ -40,10 +47,9 @@ sitemap: false
           "county_race": {{ r.county_race | jsonify }},
           "primary_candidate": {% if r.primary_candidate %}true{% else %}false{% endif %},
           "tag": {{ q_tags | jsonify }},
-          "question_html": {{ linked_question.question | markdownify | jsonify }},
           "date": {{ r.date | date: "%Y-%m-%d" | jsonify }},
           "response_md": {{ r.response | jsonify }},
-          "response_html": {{ r.response | markdownify | jsonify }}
+          "card_html": {{ card_html | jsonify }}
         }
       {%- endfor -%}
     {%- endfor -%}
