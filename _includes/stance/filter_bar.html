@@ -45,7 +45,7 @@
           <option value="">All states</option>
           {%- assign present_states = site.initiatives | where_exp: "p", "p.state != nil and p.state != 'xx'" | sort: "state" -%}
           {%- for sp in present_states -%}
-            <option value="{{ sp.state }}">{{ sp.state_name | default: sp.state | upcase }}</option>
+            <option value="{{ sp.state }}">{{ sp.state_name }}</option>
           {%- endfor -%}
         </select>
       </label>

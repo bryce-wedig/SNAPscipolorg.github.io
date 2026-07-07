@@ -36,7 +36,7 @@
       {%- if include.show_state == "true" -%}
         {%- assign state_page = site.initiatives | where: "state", r.state | first -%}
         <span class="stance-badge stance-badge--state">
-          <a href="{{ '/initiatives/stance-on-science/states/' | append: r.state | relative_url }}">{{ state_page.state_name | default: r.state | upcase }}</a>
+          <a href="{{ '/initiatives/stance-on-science/states/' | append: r.state | relative_url }}">{{ state_page.state_name }}</a>
         </span>
       {%- endif -%}
       <span class="stance-badge stance-badge--race">{{ r.race }}</span>

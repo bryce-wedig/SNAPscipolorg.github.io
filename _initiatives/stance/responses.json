@@ -18,7 +18,7 @@ sitemap: false
       {%- if state_code == "_blank" -%}{%- continue -%}{%- endif -%}
       {%- assign rows = pair[1] -%}
       {%- assign state_page = site.initiatives | where: "state", state_code | first -%}
-      {%- assign state_display = state_page.state_name | default: state_code -%}
+      {%- assign state_display = state_page.state_name -%}
       {%- assign state_questions = site.data.stance_questions[state_code] -%}
       {%- for r in rows -%}
         {%- assign linked_question = state_questions | where: "id", r.question | first -%}
@@ -64,7 +64,7 @@ sitemap: false
     {%- for sp in state_pages -%}
       {%- unless forloop.first -%},{%- endunless -%}
       {{ sp.state | jsonify }}: {
-        "name": {{ sp.state_name | default: sp.state | jsonify }},
+        "name": {{ sp.state_name | jsonify }},
         "url": {{ sp.url | relative_url | jsonify }}
       }
     {%- endfor -%}
