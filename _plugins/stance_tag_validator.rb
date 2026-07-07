@@ -17,8 +17,6 @@ module StanceResponseValidator
     valid_tags = Array(filters["tags"])
     valid_races = Array(filters["races"]).to_set
     valid_parties = Array(filters["parties"]).to_set
-    district_min = filters["district_min"]
-    district_max = filters["district_max"]
     tag_set = valid_tags.to_set
     tag_lower = valid_tags.each_with_object({}) { |t, h| h[t.downcase] = t }
 
@@ -92,12 +90,8 @@ module StanceResponseValidator
           end
 
           district = entry["district"]
-          unless district.nil?
-            if !district.is_a?(Integer)
-              problems << %(  - #{label}: district "#{district}" is not an integer)
-            elsif district_min && district_max && (district < district_min || district > district_max)
-              problems << %(  - #{label}: district #{district} is outside range #{district_min}..#{district_max})
-            end
+          if !district.nil? && district.to_s.strip.empty?
+            problems << %(  - #{label}: district is present but blank; omit it for statewide races)
           end
 
           date = entry["date"]

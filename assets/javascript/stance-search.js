@@ -159,7 +159,15 @@
       var v = key === "district" ? (r.district != null ? String(r.district) : null) : r[key];
       if (v != null && v !== "") values[v] = true;
     }
-    var sorted = Object.keys(values).sort();
+    var sorted = Object.keys(values).sort(function (a, b) {
+      // Natural order for districts ("2" before "10", "14" before "14A");
+      // plain lexical order for every other filter key.
+      if (key === "district") {
+        var ai = parseInt(a, 10), bi = parseInt(b, 10);
+        if (!isNaN(ai) && !isNaN(bi) && ai !== bi) return ai - bi;
+      }
+      return a.localeCompare(b);
+    });
     for (var k = 0; k < sorted.length; k++) {
       var opt = document.createElement("option");
       opt.value = sorted[k];

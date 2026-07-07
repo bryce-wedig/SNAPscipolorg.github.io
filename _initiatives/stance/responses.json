@@ -35,7 +35,7 @@ sitemap: false
           "state": {{ state_code | jsonify }},
           "state_name": {{ state_display | jsonify }},
           "race": {{ r.race | jsonify }},
-          "district": {% if r.district %}{{ r.district }}{% else %}null{% endif %},
+          "district": {% if r.district %}{{ r.district | append: "" | jsonify }}{% else %}null{% endif %},
           "party": {{ r.party | jsonify }},
           "county_race": {{ r.county_race | jsonify }},
           "primary_candidate": {% if r.primary_candidate %}true{% else %}false{% endif %},
@@ -51,9 +51,7 @@ sitemap: false
   "filters": {
     "tags": {{ site.data.stance_filters.tags | jsonify }},
     "races": {{ site.data.stance_filters.races | jsonify }},
-    "parties": {{ site.data.stance_filters.parties | jsonify }},
-    "district_min": {{ site.data.stance_filters.district_min | default: 1 }},
-    "district_max": {{ site.data.stance_filters.district_max | default: 52 }}
+    "parties": {{ site.data.stance_filters.parties | jsonify }}
   },
   "states": {
     {%- assign state_pages = site.initiatives | where_exp: "p", "p.state != nil and p.state != 'xx'" | sort: "state" -%}
