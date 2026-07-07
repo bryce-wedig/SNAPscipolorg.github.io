@@ -306,14 +306,20 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
   }
 }
 
+// Kept in visual sync with the scoped `.badge` variants used by the
+// "Group by candidate" state-page cards (see `.stance-responses .badge`):
+// same pill geometry, weight, and colors so bubbles read identically on the
+// state pages (topic + compare views) and the global search page.
 .stance-badge {
   display: inline-block;
-  font-size: 0.9rem;
-  padding: 0.18rem 0.55rem;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 3px 11px;
   border-radius: 999px;
-  background: #eee;
-  color: #333;
-  line-height: 1.4;
+  background: $snap-light-blue;
+  color: #fff;
+  white-space: nowrap;
 
   a { color: inherit; text-decoration: underline; }
 
