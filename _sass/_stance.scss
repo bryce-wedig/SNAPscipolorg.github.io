@@ -300,6 +300,28 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
     p:last-child { margin-bottom: 0; }
   }
 
+  // Match the "Group by candidate" question styling (see `.qa__q` / `.qa__n`):
+  // a navy Q-number box followed by bold navy question text.
+  &__question {
+    font-weight: 600;
+    font-size: 15.5px;
+    color: $snap-blue;
+    margin: 0 0 7px;
+    line-height: 1.4;
+    text-wrap: pretty;
+  }
+
+  &__qn {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 12px;
+    color: #fff;
+    background: $snap-blue;
+    border-radius: 6px;
+    padding: 3px 7px;
+    margin-right: 7px;
+  }
+
   &__footer {
     margin-top: 0.75rem;
     color: #777;

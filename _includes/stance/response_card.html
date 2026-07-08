@@ -64,7 +64,11 @@
   </header>
   <div class="stance-response-card__body">
     {%- if linked_question -%}
-      <p class="stance-response-card__question"><em>{{ linked_question.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</em></p>
+      {%- assign q_num = 0 -%}
+      {%- for q in state_questions -%}
+        {%- if q.id == r.question -%}{%- assign q_num = forloop.index -%}{%- break -%}{%- endif -%}
+      {%- endfor -%}
+      <p class="stance-response-card__question"><span class="stance-response-card__qn">Q{{ q_num }}</span> {{ linked_question.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</p>
     {%- endif -%}
     {{ r.response | markdownify }}
   </div>
