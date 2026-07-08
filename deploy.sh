@@ -11,7 +11,7 @@ source $(brew --prefix chruby)/share/chruby/auto.sh
 # Reload shell configuration 
 source ~/.zshrc
 
-# Active correct Ruby version
+# Activate correct Ruby version
 chruby 3.4.1
 
 # Deploy
