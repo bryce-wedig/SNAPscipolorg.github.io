@@ -323,17 +323,19 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
 
   a { color: inherit; text-decoration: underline; }
 
+  // Bubbles wired to a filter (state / race / district / party / tag) read as
+  // clickable; the inert variants keep the default cursor.
+  &[role="button"] {
+    cursor: pointer;
+
+    &:hover { filter: brightness(0.95); }
+    &:focus-visible { outline: 2px solid $snap-blue; outline-offset: 1px; }
+  }
+
   &--state {
     background: $snap-blue;
     color: #fff;
     a { color: #fff; text-decoration: none; }
-
-    &[role="button"] {
-      cursor: pointer;
-
-      &:hover { filter: brightness(0.95); }
-      &:focus-visible { outline: 2px solid $snap-blue; outline-offset: 1px; }
-    }
   }
 
   &--race,
@@ -363,13 +365,6 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
   &--tag {
     background: $snap-cream;
     color: $snap-blue;
-
-    &[role="button"] {
-      cursor: pointer;
-
-      &:hover { filter: brightness(0.95); }
-      &:focus-visible { outline: 2px solid $snap-blue; outline-offset: 1px; }
-    }
   }
 }
 

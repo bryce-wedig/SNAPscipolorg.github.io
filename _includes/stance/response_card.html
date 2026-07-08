@@ -43,15 +43,15 @@
           </span>
         {%- endif -%}
       {%- endif -%}
-      <span class="stance-badge stance-badge--race">{{ r.race }}</span>
+      <span class="stance-badge stance-badge--race"{% if include.interactive_tags == "true" %} data-race="{{ r.race | escape }}" data-filter="race" role="button" tabindex="0" aria-label="Filter by {{ r.race | escape }}"{% endif %}>{{ r.race }}</span>
       {%- if r.district and r.district != '' -%}
-        <span class="stance-badge stance-badge--dist">District {{ r.district }}</span>
+        <span class="stance-badge stance-badge--dist"{% if include.interactive_tags == "true" %} data-district="{{ district_attr | escape }}" data-filter="district" role="button" tabindex="0" aria-label="Filter by District {{ district_attr | escape }}"{% endif %}>District {{ r.district }}</span>
       {%- endif -%}
       {%- if r.county_race -%}
-        <span class="stance-badge stance-badge--county-race">{{ r.county_race }}</span>
+        <span class="stance-badge stance-badge--county-race"{% if include.interactive_tags == "true" %} data-county_race="{{ r.county_race | escape }}" data-filter="county_race" role="button" tabindex="0" aria-label="Filter by {{ r.county_race | escape }}"{% endif %}>{{ r.county_race }}</span>
       {%- endif -%}
       {%- if r.party -%}
-        <span class="stance-badge stance-badge--party stance-badge--party-{{ r.party | downcase | replace: ' ', '-' }}">{{ r.party }}</span>
+        <span class="stance-badge stance-badge--party stance-badge--party-{{ r.party | downcase | replace: ' ', '-' }}"{% if include.interactive_tags == "true" %} data-party="{{ r.party | escape }}" data-filter="party" role="button" tabindex="0" aria-label="Filter by {{ r.party | escape }}"{% endif %}>{{ r.party }}</span>
       {%- endif -%}
       {%- for q in tag_list -%}
         {%- if include.interactive_tags == "true" -%}
