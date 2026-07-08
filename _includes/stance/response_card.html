@@ -35,9 +35,13 @@
     <div class="stance-response-card__meta">
       {%- if include.show_state == "true" -%}
         {%- assign state_page = site.initiatives | where: "state", r.state | first -%}
-        <span class="stance-badge stance-badge--state">
-          <a href="{{ '/initiatives/stance-on-science/states/' | append: r.state | relative_url }}">{{ state_page.state_name }}</a>
-        </span>
+        {%- if include.interactive_tags == "true" -%}
+          <span class="stance-badge stance-badge--state" data-state="{{ r.state | escape }}" data-filter="state" role="button" tabindex="0" aria-label="Filter by {{ state_page.state_name | escape }}">{{ state_page.state_name }}</span>
+        {%- else -%}
+          <span class="stance-badge stance-badge--state">
+            <a href="{{ '/initiatives/stance-on-science/states/' | append: r.state | relative_url }}">{{ state_page.state_name }}</a>
+          </span>
+        {%- endif -%}
       {%- endif -%}
       <span class="stance-badge stance-badge--race">{{ r.race }}</span>
       {%- if r.district and r.district != '' -%}

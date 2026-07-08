@@ -327,6 +327,13 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
     background: $snap-blue;
     color: #fff;
     a { color: #fff; text-decoration: none; }
+
+    &[role="button"] {
+      cursor: pointer;
+
+      &:hover { filter: brightness(0.95); }
+      &:focus-visible { outline: 2px solid $snap-blue; outline-offset: 1px; }
+    }
   }
 
   &--race,

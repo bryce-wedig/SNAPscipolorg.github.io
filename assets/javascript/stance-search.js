@@ -228,25 +228,28 @@
           });
         }
 
-        // Clicking a tag badge applies it to the Question Tag dropdown (clicking
-        // the active tag clears it). Delegated on listEl since cards are
-        // re-rendered on every apply(). Dispatching `change` reuses the existing
-        // listener, which re-renders and mirrors the tag into the URL hash.
-        var tagSel = root.querySelector('select[data-filter="tag"]');
-        function tagFromEvent(e) {
-          if (!tagSel || !listEl) return;
-          var badge = e.target.closest && e.target.closest(".stance-badge--tag");
+        // Clicking a badge that carries data-filter (question tag or state)
+        // applies it to the matching dropdown; clicking the already-active value
+        // clears it. Delegated on listEl since cards are re-rendered on every
+        // apply(). Dispatching `change` reuses the existing listener, which
+        // re-renders and mirrors the filter into the URL hash.
+        function filterFromEvent(e) {
+          if (!listEl) return;
+          var badge = e.target.closest && e.target.closest(".stance-badge[data-filter]");
           if (!badge || !listEl.contains(badge)) return;
-          var tag = badge.getAttribute("data-tag");
-          if (!tag) return;
+          var key = badge.getAttribute("data-filter");
+          var value = badge.getAttribute("data-" + key);
+          if (!key || !value) return;
+          var sel = root.querySelector('select[data-filter="' + key + '"]');
+          if (!sel) return;
           e.preventDefault();
-          tagSel.value = tagSel.value === tag ? "" : tag;
-          tagSel.dispatchEvent(new Event("change"));
+          sel.value = sel.value === value ? "" : value;
+          sel.dispatchEvent(new Event("change"));
         }
         if (listEl) {
-          listEl.addEventListener("click", tagFromEvent);
+          listEl.addEventListener("click", filterFromEvent);
           listEl.addEventListener("keydown", function (e) {
-            if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") tagFromEvent(e);
+            if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") filterFromEvent(e);
           });
         }
 
