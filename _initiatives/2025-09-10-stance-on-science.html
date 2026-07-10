@@ -25,7 +25,7 @@ candidate responses from that state. <a href="{{ '/initiatives/stance-on-science
       {%- for code in active_states -%}
         {%- assign sp = site.initiatives | where: "state", code | first -%}
         {%- if sp -%}
-          <li><a href="{{ sp.url | relative_url }}">{{ sp.state_name | default: code | upcase }}</a></li>
+          <li><a href="{{ sp.url | relative_url }}">{{ sp.state_name }}</a></li>
         {%- endif -%}
       {%- endfor -%}
     </ul>
@@ -43,7 +43,7 @@ candidate responses from that state. <a href="{{ '/initiatives/stance-on-science
 <ul>
   {%- assign state_pages = site.initiatives | where_exp: "p", "p.state != nil and p.state != 'xx'" | sort: "state" -%}
   {%- for sp in state_pages -%}
-    <li><a href="{{ sp.url | relative_url }}">{{ sp.state_name | default: sp.state | capitalize }}</a></li>
+    <li><a href="{{ sp.url | relative_url }}">{{ sp.state_name }}</a></li>
   {%- endfor -%}
 </ul>
 

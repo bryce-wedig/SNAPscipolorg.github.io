@@ -2,8 +2,13 @@
   Renders one candidate response as a filterable card.
 
   Inputs:
-    include.r          — a response entry (a hash from _data/stance_responses.yml)
-    include.show_state — if "true", display the state name as a badge (used on global search)
+    include.r                — a response entry (a hash from _data/stance_responses.yml)
+    include.show_state       — if "true", display the state name as a badge (used on global search)
+    include.interactive_tags — if "true", render tag badges as clickable filter
+                               controls (data-tag / role="button"). Used on the
+                               global search page, whose JS wires tag clicks to the
+                               Question Tag filter. Omit on the state topic view,
+                               which has no tag-click handler.
 {%- endcomment -%}
 {%- assign r = include.r -%}
 {%- assign district_attr = r.district | default: "" -%}
@@ -30,25 +35,40 @@
     <div class="stance-response-card__meta">
       {%- if include.show_state == "true" -%}
         {%- assign state_page = site.initiatives | where: "state", r.state | first -%}
-        <span class="stance-badge stance-badge--state">
-          <a href="{{ '/initiatives/stance-on-science/states/' | append: r.state | relative_url }}">{{ state_page.state_name | default: r.state | upcase }}</a>
-        </span>
+        {%- if include.interactive_tags == "true" -%}
+          <span class="stance-badge stance-badge--state" data-state="{{ r.state | escape }}" data-filter="state" role="button" tabindex="0" aria-label="Filter by {{ state_page.state_name | escape }}">{{ state_page.state_name }}</span>
+        {%- else -%}
+          <span class="stance-badge stance-badge--state">
+            <a href="{{ '/initiatives/stance-on-science/states/' | append: r.state | relative_url }}">{{ state_page.state_name }}</a>
+          </span>
+        {%- endif -%}
       {%- endif -%}
-      <span class="stance-badge stance-badge--race">{{ r.race }}{% if r.district %} — District {{ r.district }}{% endif %}</span>
+      <span class="stance-badge stance-badge--race"{% if include.interactive_tags == "true" %} data-race="{{ r.race | escape }}" data-filter="race" role="button" tabindex="0" aria-label="Filter by {{ r.race | escape }}"{% endif %}>{{ r.race }}</span>
+      {%- if r.district and r.district != '' -%}
+        <span class="stance-badge stance-badge--dist"{% if include.interactive_tags == "true" %} data-district="{{ district_attr | escape }}" data-filter="district" role="button" tabindex="0" aria-label="Filter by District {{ district_attr | escape }}"{% endif %}>District {{ r.district }}</span>
+      {%- endif -%}
       {%- if r.county_race -%}
-        <span class="stance-badge stance-badge--county-race">{{ r.county_race }}</span>
+        <span class="stance-badge stance-badge--county-race"{% if include.interactive_tags == "true" %} data-county_race="{{ r.county_race | escape }}" data-filter="county_race" role="button" tabindex="0" aria-label="Filter by {{ r.county_race | escape }}"{% endif %}>{{ r.county_race }}</span>
       {%- endif -%}
       {%- if r.party -%}
-        <span class="stance-badge stance-badge--party stance-badge--party-{{ r.party | downcase | replace: ' ', '-' }}">{{ r.party }}</span>
+        <span class="stance-badge stance-badge--party stance-badge--party-{{ r.party | downcase | replace: ' ', '-' }}"{% if include.interactive_tags == "true" %} data-party="{{ r.party | escape }}" data-filter="party" role="button" tabindex="0" aria-label="Filter by {{ r.party | escape }}"{% endif %}>{{ r.party }}</span>
       {%- endif -%}
       {%- for q in tag_list -%}
-        <span class="stance-badge stance-badge--tag">{{ q }}</span>
+        {%- if include.interactive_tags == "true" -%}
+          <span class="stance-badge stance-badge--tag" data-tag="{{ q | escape }}" data-filter="tag" role="button" tabindex="0" aria-label="Filter by {{ q | escape }}">{{ q }}</span>
+        {%- else -%}
+          <span class="stance-badge stance-badge--tag">{{ q }}</span>
+        {%- endif -%}
       {%- endfor -%}
     </div>
   </header>
   <div class="stance-response-card__body">
     {%- if linked_question -%}
-      <p class="stance-response-card__question"><em>{{ linked_question.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</em></p>
+      {%- assign q_num = 0 -%}
+      {%- for q in state_questions -%}
+        {%- if q.id == r.question -%}{%- assign q_num = forloop.index -%}{%- break -%}{%- endif -%}
+      {%- endfor -%}
+      <p class="stance-response-card__question"><span class="stance-response-card__qn">Q{{ q_num }}</span> {{ linked_question.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</p>
     {%- endif -%}
     {{ r.response | markdownify }}
   </div>

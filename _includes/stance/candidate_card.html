@@ -22,6 +22,7 @@
 
 {%- assign full_name = cand.candidate_first_name | append: ' ' | append: cand.candidate_last_name -%}
 {%- assign date_display = cand.date | date: "%B %-d, %Y" -%}
+{%- if cand.date and cand.date != '' -%}{%- assign sub_default = date_display | prepend: 'Submitted ' -%}{%- else -%}{%- assign sub_default = '' -%}{%- endif -%}
 {%- if cand.district and cand.district != '' -%}
   {%- assign location = 'Dist. ' | append: cand.district -%}
 {%- elsif cand.county_race and cand.county_race != '' -%}
@@ -68,7 +69,7 @@
     {%- endif -%}
   </div>
   <div class="cand-card__sub"
-       data-sub-default="Submitted {{ date_display }}">Submitted {{ date_display }}</div>
+       data-sub-default="{{ sub_default }}">{{ sub_default }}</div>
 
   {%- for q in questions -%}
     {%- assign resp = items | where: "question", q.id | first -%}

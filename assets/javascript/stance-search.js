@@ -23,15 +23,6 @@
     return Array.isArray(v) ? v : [v];
   }
 
-  function escapeHtml(s) {
-    return String(s)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#39;");
-  }
-
   // Tests whether a response matches the current filter state. `except` (a
   // filter key) lets the caller omit one filter so we can ask "which values
   // would still be valid for THIS dropdown given everything else?"
@@ -58,59 +49,11 @@
     return true;
   }
 
-  function renderCard(r, statesMeta) {
-    var districtLabel = r.district != null ? " — District " + r.district : "";
-    var stateMeta = statesMeta[r.state] || { name: r.state, url: "#" };
-    var partySlug = r.party ? r.party.toLowerCase().replace(/ /g, "-") : "";
-    var partyHtml = r.party
-      ? '<span class="stance-badge stance-badge--party stance-badge--party-' +
-        escapeHtml(partySlug) +
-        '">' +
-        escapeHtml(r.party) +
-        "</span>"
-      : "";
-    var countyRaceHtml = r.county_race
-      ? '<span class="stance-badge stance-badge--county-race">' + escapeHtml(r.county_race) + "</span>"
-      : "";
-    var tagHtml = toArray(r.tag).map(function (t) {
-      return '<span class="stance-badge stance-badge--tag" data-tag="' + escapeHtml(t) +
-        '" role="button" tabindex="0" aria-label="Filter by ' + escapeHtml(t) + '">' +
-        escapeHtml(t) + "</span>";
-    }).join("");
-    var dateHtml = "";
-    if (r.date) {
-      var d = new Date(r.date + "T00:00:00");
-      if (!isNaN(d.getTime())) {
-        dateHtml =
-          '<footer class="stance-response-card__footer"><small>Submitted ' +
-          d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }) +
-          "</small></footer>";
-      }
-    }
-    return (
-      '<article class="stance-response-card">' +
-        '<header class="stance-response-card__header">' +
-          '<h4 class="stance-response-card__candidate">' + escapeHtml(r.candidate) + "</h4>" +
-          '<div class="stance-response-card__meta">' +
-            '<span class="stance-badge stance-badge--state"><a href="' +
-              escapeHtml(stateMeta.url) + '">' + escapeHtml(stateMeta.name) + "</a></span>" +
-            '<span class="stance-badge stance-badge--race">' + escapeHtml(r.race) + escapeHtml(districtLabel) + "</span>" +
-            countyRaceHtml +
-            partyHtml +
-            tagHtml +
-          "</div>" +
-        "</header>" +
-        '<div class="stance-response-card__body">' +
-          (r.question_html
-            ? '<p class="stance-response-card__question"><em>' +
-                r.question_html.replace(/^<p>/, "").replace(/<\/p>\s*$/, "").trim() +
-              "</em></p>"
-            : "") +
-          r.response_html +
-        "</div>" +
-        dateHtml +
-      "</article>"
-    );
+  // Cards are pre-rendered server-side by the shared Liquid include
+  // (_includes/stance/response_card.html) and shipped as `card_html` in the
+  // JSON feed, so this is the single source of truth for card markup.
+  function renderCard(r) {
+    return r.card_html;
   }
 
   // Returns the set (as an object map) of values that key `K` takes across all
@@ -159,7 +102,15 @@
       var v = key === "district" ? (r.district != null ? String(r.district) : null) : r[key];
       if (v != null && v !== "") values[v] = true;
     }
-    var sorted = Object.keys(values).sort();
+    var sorted = Object.keys(values).sort(function (a, b) {
+      // Natural order for districts ("2" before "10", "14" before "14A");
+      // plain lexical order for every other filter key.
+      if (key === "district") {
+        var ai = parseInt(a, 10), bi = parseInt(b, 10);
+        if (!isNaN(ai) && !isNaN(bi) && ai !== bi) return ai - bi;
+      }
+      return a.localeCompare(b);
+    });
     for (var k = 0; k < sorted.length; k++) {
       var opt = document.createElement("option");
       opt.value = sorted[k];
@@ -254,7 +205,7 @@
             if (visible.length === 0) {
               listEl.innerHTML = "";
             } else {
-              listEl.innerHTML = visible.map(function (r) { return renderCard(r, states); }).join("");
+              listEl.innerHTML = visible.map(renderCard).join("");
             }
           }
           if (countEl) countEl.textContent = String(visible.length);
@@ -277,25 +228,28 @@
           });
         }
 
-        // Clicking a tag badge applies it to the Question Tag dropdown (clicking
-        // the active tag clears it). Delegated on listEl since cards are
-        // re-rendered on every apply(). Dispatching `change` reuses the existing
-        // listener, which re-renders and mirrors the tag into the URL hash.
-        var tagSel = root.querySelector('select[data-filter="tag"]');
-        function tagFromEvent(e) {
-          if (!tagSel || !listEl) return;
-          var badge = e.target.closest && e.target.closest(".stance-badge--tag");
+        // Clicking a badge that carries data-filter (question tag or state)
+        // applies it to the matching dropdown; clicking the already-active value
+        // clears it. Delegated on listEl since cards are re-rendered on every
+        // apply(). Dispatching `change` reuses the existing listener, which
+        // re-renders and mirrors the filter into the URL hash.
+        function filterFromEvent(e) {
+          if (!listEl) return;
+          var badge = e.target.closest && e.target.closest(".stance-badge[data-filter]");
           if (!badge || !listEl.contains(badge)) return;
-          var tag = badge.getAttribute("data-tag");
-          if (!tag) return;
+          var key = badge.getAttribute("data-filter");
+          var value = badge.getAttribute("data-" + key);
+          if (!key || !value) return;
+          var sel = root.querySelector('select[data-filter="' + key + '"]');
+          if (!sel) return;
           e.preventDefault();
-          tagSel.value = tagSel.value === tag ? "" : tag;
-          tagSel.dispatchEvent(new Event("change"));
+          sel.value = sel.value === value ? "" : value;
+          sel.dispatchEvent(new Event("change"));
         }
         if (listEl) {
-          listEl.addEventListener("click", tagFromEvent);
+          listEl.addEventListener("click", filterFromEvent);
           listEl.addEventListener("keydown", function (e) {
-            if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") tagFromEvent(e);
+            if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") filterFromEvent(e);
           });
         }
 

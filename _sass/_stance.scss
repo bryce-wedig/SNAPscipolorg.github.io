@@ -300,22 +300,59 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
     p:last-child { margin-bottom: 0; }
   }
 
+  // Match the "Group by candidate" question styling (see `.qa__q` / `.qa__n`):
+  // a navy Q-number box followed by bold navy question text.
+  &__question {
+    font-weight: 600;
+    font-size: 15.5px;
+    color: $snap-blue;
+    margin: 0 0 7px;
+    line-height: 1.4;
+    text-wrap: pretty;
+  }
+
+  &__qn {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 12px;
+    color: #fff;
+    background: $snap-blue;
+    border-radius: 6px;
+    padding: 3px 7px;
+    margin-right: 7px;
+  }
+
   &__footer {
     margin-top: 0.75rem;
     color: #777;
   }
 }
 
+// Kept in visual sync with the scoped `.badge` variants used by the
+// "Group by candidate" state-page cards (see `.stance-responses .badge`):
+// same pill geometry, weight, and colors so bubbles read identically on the
+// state pages (topic + compare views) and the global search page.
 .stance-badge {
   display: inline-block;
-  font-size: 0.9rem;
-  padding: 0.18rem 0.55rem;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 3px 11px;
   border-radius: 999px;
-  background: #eee;
-  color: #333;
-  line-height: 1.4;
+  background: $snap-light-blue;
+  color: #fff;
+  white-space: nowrap;
 
   a { color: inherit; text-decoration: underline; }
+
+  // Bubbles wired to a filter (state / race / district / party / tag) read as
+  // clickable; the inert variants keep the default cursor.
+  &[role="button"] {
+    cursor: pointer;
+
+    &:hover { filter: brightness(0.95); }
+    &:focus-visible { outline: 2px solid $snap-blue; outline-offset: 1px; }
+  }
 
   &--state {
     background: $snap-blue;
@@ -327,6 +364,11 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
   &--county-race {
     background: $snap-light-blue;
     color: #fff;
+  }
+
+  &--dist {
+    background: $snap-navy-tint;
+    color: $snap-blue;
   }
 
   &--party {
@@ -345,13 +387,6 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
   &--tag {
     background: $snap-cream;
     color: $snap-blue;
-
-    &[role="button"] {
-      cursor: pointer;
-
-      &:hover { filter: brightness(0.95); }
-      &:focus-visible { outline: 2px solid $snap-blue; outline-offset: 1px; }
-    }
   }
 }
 

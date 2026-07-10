@@ -1,6 +1,7 @@
 # Master filter configuration for the Stance on Science search and per-state
-# pages. Update this file to add new tags, races, parties, or to change the
-# district number range. All Stance pages read from this file.
+# pages. Update this file to add new tags, races, or parties. All Stance pages
+# read from this file. (Districts are free-form strings on each response and are
+# not enumerated here.)
 
 tags:
   - Agriculture
@@ -37,6 +38,3 @@ parties:
   - Republican
   - Unity
   - No Party Preference
-
-district_min: 1
-district_max: 54

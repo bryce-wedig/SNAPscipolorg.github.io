@@ -37,7 +37,7 @@
     {%- endfor -%}
     {%- assign present_tags = present_tags | uniq -%}
     {%- assign present_races = responses | map: "race" | uniq -%}
-    {%- assign present_districts = responses | map: "district" | uniq | compact | sort -%}
+    {%- assign present_districts = responses | map: "district" | sort_districts -%}
     {%- assign present_parties = responses | map: "party" | uniq -%}
     {%- assign present_county_races = responses | map: "county_race" | compact | uniq | sort -%}
 

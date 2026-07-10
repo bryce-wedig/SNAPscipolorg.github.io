@@ -27,7 +27,7 @@
   {%- endfor -%}
   {%- assign present_tags = present_tags | uniq -%}
   {%- assign present_races = responses | map: "race" | uniq -%}
-  {%- assign present_districts = responses | map: "district" | uniq | compact -%}
+  {%- assign present_districts = responses | map: "district" | sort_districts -%}
   {%- assign present_parties = responses | map: "party" | uniq -%}
   {%- assign present_county_races = responses | map: "county_race" | compact | uniq | sort -%}
 {%- else -%}
@@ -45,7 +45,7 @@
           <option value="">All states</option>
           {%- assign present_states = site.initiatives | where_exp: "p", "p.state != nil and p.state != 'xx'" | sort: "state" -%}
           {%- for sp in present_states -%}
-            <option value="{{ sp.state }}">{{ sp.state_name | default: sp.state | upcase }}</option>
+            <option value="{{ sp.state }}">{{ sp.state_name }}</option>
           {%- endfor -%}
         </select>
       </label>
@@ -79,15 +79,14 @@
       <span class="stance-filter__label">District</span>
       <select data-filter="district">
         <option value="">All districts</option>
+        {%- comment -%}
+          State scope: enumerate the districts present in this state's responses.
+          Global scope (search page): leave only the "All districts" option and
+          let stance-search.js populate it from the data — a numeric range can't
+          express lettered districts like "14A".
+        {%- endcomment -%}
         {%- if include.scope == "state" -%}
-          {%- assign sorted_districts = present_districts | sort -%}
-          {%- for d in sorted_districts -%}
-            <option value="{{ d }}">{{ d }}</option>
-          {%- endfor -%}
-        {%- else -%}
-          {%- assign dmin = filters.district_min | default: 1 -%}
-          {%- assign dmax = filters.district_max | default: 52 -%}
-          {%- for d in (dmin..dmax) -%}
+          {%- for d in present_districts -%}
             <option value="{{ d }}">{{ d }}</option>
           {%- endfor -%}
         {%- endif -%}

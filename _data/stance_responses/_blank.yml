@@ -2,7 +2,7 @@
   candidate_last_name: Wedig # used for alphabetical sorting
   state: wa
   race: US Senate # must match one of the options!
-  district: # feel free to remove if not applicable
+  district: # string, e.g. 14 or 14A; feel free to remove if not applicable
   party: Democratic # must match one of the options!
   question: wa-q1
   date: 2026-07-04 # optional

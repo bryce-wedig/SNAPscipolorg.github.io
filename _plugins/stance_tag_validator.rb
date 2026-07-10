@@ -17,8 +17,6 @@ module StanceResponseValidator
     valid_tags = Array(filters["tags"])
     valid_races = Array(filters["races"]).to_set
     valid_parties = Array(filters["parties"]).to_set
-    district_min = filters["district_min"]
-    district_max = filters["district_max"]
     tag_set = valid_tags.to_set
     tag_lower = valid_tags.each_with_object({}) { |t, h| h[t.downcase] = t }
 
@@ -92,12 +90,8 @@ module StanceResponseValidator
           end
 
           district = entry["district"]
-          unless district.nil?
-            if !district.is_a?(Integer)
-              problems << %(  - #{label}: district "#{district}" is not an integer)
-            elsif district_min && district_max && (district < district_min || district > district_max)
-              problems << %(  - #{label}: district #{district} is outside range #{district_min}..#{district_max})
-            end
+          if !district.nil? && district.to_s.strip.empty?
+            problems << %(  - #{label}: district is present but blank; omit it for statewide races)
           end
 
           date = entry["date"]
@@ -150,6 +144,50 @@ module StanceResponseValidator
     raise message
   end
 
+  # Every state page must declare the front matter its body and the shared
+  # includes depend on. These are the single source of truth for the state's
+  # code, display name, contact link, and voter-lookup link across the map,
+  # filter bar, response cards, responses.json feed, and page header — a missing
+  # value silently leaks blanks or broken links, so fail the build instead. This
+  # list mirrors the "Required front matter" section documented in template.html.
+  #
+  # State pages are identified by their location (files under the states
+  # directory) rather than by the presence of a `state` field, so that a page
+  # which forgot `state` entirely is still caught instead of silently ignored.
+  TEMPLATE_STATE_CODE = "xx".freeze
+  STATE_PAGE_DIR = "stance/states/".freeze
+  TEMPLATE_BASENAME = "template.html".freeze
+  STATE_PAGE_REQUIRED_FIELDS = %w[
+    state state_name demonym_plural team_email ballot_lookup_url ballot_lookup_label
+  ].freeze
+
+  def self.validate_state_pages(site)
+    collection = site.collections["initiatives"]
+    return unless collection
+
+    problems = []
+    collection.docs.each do |doc|
+      path = doc.relative_path.to_s
+      next unless path.include?(STATE_PAGE_DIR)
+      next if File.basename(path) == TEMPLATE_BASENAME
+      # The template placeholder renders at the `xx` code; skip any copy still
+      # carrying it (it isn't a real, published state page).
+      next if doc.data["state"].to_s == TEMPLATE_STATE_CODE
+
+      STATE_PAGE_REQUIRED_FIELDS.each do |f|
+        value = doc.data[f]
+        if value.nil? || (value.is_a?(String) && value.strip.empty?)
+          problems << %(  - #{path}: missing required front matter "#{f}")
+        end
+      end
+    end
+
+    return if problems.empty?
+
+    raise ["Stance state page validation failed:", *problems,
+           "Every state page must define these non-empty front-matter fields: #{STATE_PAGE_REQUIRED_FIELDS.join(", ")}."].join("\n")
+  end
+
   def self.validate_tags(label, tags, tag_set, tag_lower, problems)
     return if tags.nil?
     tag_list = tags.is_a?(Array) ? tags : [tags]
@@ -163,5 +201,6 @@ module StanceResponseValidator
 end
 
 Jekyll::Hooks.register :site, :post_read do |site|
+  StanceResponseValidator.validate_state_pages(site)
   StanceResponseValidator.validate(site)
 end

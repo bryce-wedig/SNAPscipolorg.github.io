@@ -18,7 +18,7 @@ sitemap: false
       {%- if state_code == "_blank" -%}{%- continue -%}{%- endif -%}
       {%- assign rows = pair[1] -%}
       {%- assign state_page = site.initiatives | where: "state", state_code | first -%}
-      {%- assign state_display = state_page.state_name | default: state_code -%}
+      {%- assign state_display = state_page.state_name -%}
       {%- assign state_questions = site.data.stance_questions[state_code] -%}
       {%- for r in rows -%}
         {%- assign linked_question = state_questions | where: "id", r.question | first -%}
@@ -29,21 +29,27 @@ sitemap: false
         {%- endif -%}
         {%- unless first -%},{%- endunless -%}
         {%- assign first = false -%}
+        {%- comment -%}
+          Pre-render the card with the shared include so stance-search.js can
+          insert it verbatim — keeping response_card.html the single source of
+          truth for card markup. The data fields below remain for client-side
+          filtering, searching, and sorting.
+        {%- endcomment -%}
+        {%- capture card_html -%}{% include stance/response_card.html r=r show_state="true" interactive_tags="true" %}{%- endcapture -%}
         {
           "candidate": {{ r.candidate_first_name | append: " " | append: r.candidate_last_name | jsonify }},
           "candidate_last_name": {{ r.candidate_last_name | jsonify }},
           "state": {{ state_code | jsonify }},
           "state_name": {{ state_display | jsonify }},
           "race": {{ r.race | jsonify }},
-          "district": {% if r.district %}{{ r.district }}{% else %}null{% endif %},
+          "district": {% if r.district %}{{ r.district | append: "" | jsonify }}{% else %}null{% endif %},
           "party": {{ r.party | jsonify }},
           "county_race": {{ r.county_race | jsonify }},
           "primary_candidate": {% if r.primary_candidate %}true{% else %}false{% endif %},
           "tag": {{ q_tags | jsonify }},
-          "question_html": {{ linked_question.question | markdownify | jsonify }},
           "date": {{ r.date | date: "%Y-%m-%d" | jsonify }},
           "response_md": {{ r.response | jsonify }},
-          "response_html": {{ r.response | markdownify | jsonify }}
+          "card_html": {{ card_html | jsonify }}
         }
       {%- endfor -%}
     {%- endfor -%}
@@ -51,16 +57,14 @@ sitemap: false
   "filters": {
     "tags": {{ site.data.stance_filters.tags | jsonify }},
     "races": {{ site.data.stance_filters.races | jsonify }},
-    "parties": {{ site.data.stance_filters.parties | jsonify }},
-    "district_min": {{ site.data.stance_filters.district_min | default: 1 }},
-    "district_max": {{ site.data.stance_filters.district_max | default: 52 }}
+    "parties": {{ site.data.stance_filters.parties | jsonify }}
   },
   "states": {
     {%- assign state_pages = site.initiatives | where_exp: "p", "p.state != nil and p.state != 'xx'" | sort: "state" -%}
     {%- for sp in state_pages -%}
       {%- unless forloop.first -%},{%- endunless -%}
       {{ sp.state | jsonify }}: {
-        "name": {{ sp.state_name | default: sp.state | jsonify }},
+        "name": {{ sp.state_name | jsonify }},
         "url": {{ sp.url | relative_url | jsonify }}
       }
     {%- endfor -%}
