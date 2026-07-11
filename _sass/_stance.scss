@@ -1383,3 +1383,161 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
+// --- Meet the Team ----------------------------------------------------------
+// Horizontal, swipeable scroll strip at the bottom of a state page. Each card
+// is either a finished Instagram-style graphic (<img>) or a live Instagram
+// embed. Driven by _data/stance_team/<state>.yml via
+// _includes/stance/meet_the_team.html.
+.stance-team {
+  margin: 40px 0 8px;
+
+  // Matches the election-cycle heading (.stance-responses__title) above.
+  &__title {
+    font-size: 26px;
+    margin: 6px 0 16px;
+    color: $snap-blue;
+  }
+
+  // The scroll container: only this scrolls horizontally, never the page body.
+  &__scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+    padding-bottom: 12px; // room for the scrollbar
+
+    // Thin, unobtrusive scrollbar.
+    scrollbar-width: thin;
+    scrollbar-color: $snap-light-blue $snap-navy-tint;
+
+    &::-webkit-scrollbar { height: 8px; }
+    &::-webkit-scrollbar-track { background: $snap-navy-tint; border-radius: 8px; }
+    &::-webkit-scrollbar-thumb {
+      background: $snap-light-blue;
+      border-radius: 8px;
+    }
+  }
+
+  &__track {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  // Image cards: height is the source of truth (defaults here, then matched to
+  // the Instagram embed's rendered height by stance-team-equalize.js). Width is
+  // auto so the image widens to keep its aspect ratio at that height. Sharp
+  // corners to align with the Instagram embed.
+  &__card {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: auto;
+    height: 460px;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  &__img {
+    display: block;
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  // Enhanced by JS into a clickable "zoom" target.
+  &__img--zoomable {
+    cursor: zoom-in;
+
+    &:focus-visible {
+      outline: 3px solid $snap-light-blue;
+      outline-offset: 2px;
+    }
+  }
+
+  // --- Lightbox overlay -----------------------------------------------------
+  &__lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 1050; // above the sticky header
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: rgba(15, 20, 35, 0.85);
+
+    &[hidden] { display: none; }
+  }
+
+  &__lb-img {
+    max-width: min(92vw, 620px);
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  }
+
+  &__lb-btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    cursor: pointer;
+    line-height: 1;
+    border-radius: 50%;
+    transition: background 0.15s ease;
+
+    &:hover,
+    &:focus-visible { background: rgba(255, 255, 255, 0.28); }
+    &:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+  }
+
+  &__lb-close {
+    top: 16px;
+    right: 16px;
+    width: 44px;
+    height: 44px;
+    font-size: 28px;
+  }
+
+  &__lb-prev,
+  &__lb-next {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 52px;
+    height: 52px;
+    font-size: 34px;
+  }
+
+  &__lb-prev { left: 16px; }
+  &__lb-next { right: 16px; }
+
+  @media (max-width: 600px) {
+    &__lb-prev { left: 8px; }
+    &__lb-next { right: 8px; }
+    &__lb-prev,
+    &__lb-next { width: 44px; height: 44px; font-size: 28px; }
+  }
+
+  // Instagram embeds size themselves (~326px min-width, variable height); let
+  // the blockquote drive the card so it isn't clipped by the fixed image size.
+  &__card--ig {
+    width: auto;
+    min-width: 326px;
+    height: auto;
+    align-self: flex-start;
+    overflow: visible;
+    border: 0;
+    box-shadow: none;
+    background: transparent;
+
+    .instagram-media { margin: 0 !important; }
+  }
+}
