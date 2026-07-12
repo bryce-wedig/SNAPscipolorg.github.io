@@ -1,0 +1,69 @@
+{%- comment -%}
+  Reusable "Meet the Team" horizontal scroll strip for Stance on Science state pages.
+
+  Params:
+    include.state — lowercase USPS code (e.g. "pa"). Selects
+      site.data.stance_team[state], a list where each entry is EITHER an image
+      card ({ image, alt }) OR an Instagram embed ({ instagram }). See
+      _data/stance_team/README.md.
+
+  Renders nothing when the state has no data file (graceful no-op), so the
+  include is safe to add to every state page.
+{%- endcomment -%}
+{%- assign members = site.data.stance_team[include.state] -%}
+{%- if members and members.size > 0 -%}
+{%- assign ig_items = members | where_exp: "m", "m.instagram" -%}
+<section class="stance-team" aria-label="Meet the team">
+  <h2 class="stance-team__title">Meet the Team</h2>
+  <div class="stance-team__scroll">
+    <ul class="stance-team__track">
+      {%- for item in members -%}
+        <li class="stance-team__card{% if item.instagram %} stance-team__card--ig{% endif %}">
+          {%- if item.image -%}
+            <img class="stance-team__img" loading="lazy"
+                 src="{{ site.url }}{{ site.baseurl }}/images/stance_teams/{{ include.state }}/{{ item.image }}"
+                 alt="{{ item.alt | default: 'Meet the team' | escape }}">
+          {%- elsif item.instagram -%}
+            {%- comment -%}
+              Normalize any Instagram URL form (share URL with a username segment,
+              /reel/, /tv/, trailing query) to the canonical /{type}/{shortcode}/
+              permalink that embed.js requires, so pasting any post/reel link works.
+            {%- endcomment -%}
+            {%- assign ig_segs = item.instagram | split: "?" | first | split: "/" -%}
+            {%- assign ig_type = "p" -%}
+            {%- assign ig_code = "" -%}
+            {%- assign ig_take = false -%}
+            {%- for seg in ig_segs -%}
+              {%- if ig_take and ig_code == "" -%}{%- assign ig_code = seg -%}{%- assign ig_take = false -%}{%- endif -%}
+              {%- if seg == "p" or seg == "reel" or seg == "tv" -%}{%- assign ig_type = seg -%}{%- assign ig_take = true -%}{%- endif -%}
+            {%- endfor -%}
+            {%- if ig_code != "" -%}
+              {%- assign ig_permalink = "https://www.instagram.com/" | append: ig_type | append: "/" | append: ig_code | append: "/" -%}
+            {%- else -%}
+              {%- assign ig_permalink = item.instagram -%}
+            {%- endif -%}
+            <blockquote class="instagram-media"
+                        data-instgrm-permalink="{{ ig_permalink }}"
+                        data-instgrm-version="14"></blockquote>
+          {%- endif -%}
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+
+  {%- comment -%} Lightbox overlay (image cards only). Enhanced by stance-team-lightbox.js. {%- endcomment -%}
+  <div class="stance-team__lightbox" role="dialog" aria-modal="true" aria-label="Team card viewer" hidden>
+    <button type="button" class="stance-team__lb-btn stance-team__lb-close" aria-label="Close">&times;</button>
+    <button type="button" class="stance-team__lb-btn stance-team__lb-prev" aria-label="Previous card">&#8249;</button>
+    <img class="stance-team__lb-img" alt="">
+    <button type="button" class="stance-team__lb-btn stance-team__lb-next" aria-label="Next card">&#8250;</button>
+  </div>
+</section>
+<script src="{{ '/assets/javascript/stance-team-lightbox.js' | relative_url }}"></script>
+<script src="{{ '/assets/javascript/stance-team-equalize.js' | relative_url }}"></script>
+{%- if ig_items.size > 0 -%}
+<script async src="https://www.instagram.com/embed.js"
+        onload="window.instgrm &amp;&amp; window.instgrm.Embeds.process();"></script>
+<script>window.instgrm && window.instgrm.Embeds.process();</script>
+{%- endif -%}
+{%- endif -%}

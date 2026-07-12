@@ -52,7 +52,7 @@
 # front-matter field to maintain. (It stays blank until that file exists.)
 #
 # Optional front matter (omit or leave blank to hide):
-#   instagram_url, facebook_url, tiktok_url, x_url, bluesky_url
+#   instagram_url, facebook_url, tiktok_url, x_url, bluesky_url, reddit_url
 #                       — social links shown in the header sentence. The
 #                         "Follow us on …" clause is hidden if all are blank.
 # ────────────────────────────────────────────────────────────────────────────
@@ -71,6 +71,7 @@ facebook_url:
 tiktok_url:
 x_url:
 bluesky_url:
+reddit_url:
 published: true                           # TODO: delete this line (or set to true) to publish
 ---
 {%- assign responses = site.data.stance_responses[page.state] | default: empty -%}
@@ -106,6 +107,10 @@ published: true                           # TODO: delete this line (or set to tr
 {%- if page.bluesky_url -%}
   {%- capture _bs -%}<a href="{{ page.bluesky_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky"></i> Bluesky</a>{%- endcapture -%}
   {%- assign socials = socials | push: _bs -%}
+{%- endif -%}
+{%- if page.reddit_url -%}
+  {%- capture _rd -%}<a href="{{ page.reddit_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-reddit"></i> Reddit</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _rd -%}
 {%- endif -%}
 
 <header class="stance-state-header">
