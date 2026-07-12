@@ -17,6 +17,7 @@ facebook_url:
 tiktok_url:
 x_url:
 bluesky_url: https://bsky.app/profile/castanceonscience.bsky.social
+reddit_url:
 published: true
 ---
 {%- assign responses = site.data.stance_responses[page.state] | default: empty -%}
@@ -52,6 +53,10 @@ published: true
 {%- if page.bluesky_url -%}
   {%- capture _bs -%}<a href="{{ page.bluesky_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky"></i> Bluesky</a>{%- endcapture -%}
   {%- assign socials = socials | push: _bs -%}
+{%- endif -%}
+{%- if page.reddit_url -%}
+  {%- capture _rd -%}<a href="{{ page.reddit_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-reddit"></i> Reddit</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _rd -%}
 {%- endif -%}
 
 <header class="stance-state-header">
