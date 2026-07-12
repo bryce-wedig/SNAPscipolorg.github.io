@@ -8,7 +8,7 @@
   date:
   response: |
     "My career background in global engineering/manufacturing/logistics and data analytics regularly leveraged peer-reviewed research/science, empirical evidence, proactive outreach to industry experts, and self/team performed research and development leading to global, industry-leading innovation/insights. Scientific evidence combined with technical expert testimony is pivotal to making informed decisions, but I also recognize that data can be skewed to fit a biased narrative. I have a history of asking logic-based questions that reveal now/near/far benefits and risks, translating technical concepts into terms everyday people can understand, and recognize that tradeoffs often exist."
-    
+
     KEYWORDS: Evidence-Driven, Pragmatist, Innovator 
 
 - candidate_first_name: Heather
@@ -21,7 +21,7 @@
   date:
   response: |
     "Government funded research often occurs where private markets/entities underinvest, but there is also a place for Public-Private Partnerships to augment/accelerate progress where innovation urgency and/or critical gaps exist that adversely impact the country now/near/far. The free market can reward innovators with lucrative deals, patents, tax incentives/credits, etc., but it is also recognized that recruiting/retaining talented researchers can be difficult due to funding grants variability and outcome/deliverable timing/expectations. I am in favor of open competition grants rather than ‘picking winners’ and believe there needs to be a balanced approach to investment where some research has more immediate/obvious applied ROI, and other ‘building block’ research that may be hypothetical now but leads to extraordinary insights/solutions later."
-    
+
     KEYWORDS: Pragmatic, Collaborative, Investment
 
 - candidate_first_name: Heather
@@ -34,7 +34,7 @@
   date:
   response: |
     "During the tenure of the current Michigan state administration, 500,000 acres of farmland are ‘gone’ due to solar fields and data centers. Recently passed legislation in the US House strengthens farm risk insurance, food security & safety, improves the cost of doing business, etc. Reciprocal global tariff policies will improve & expand/open export markets, but I incrementally support & advocate for an increase in Advancing Regenerative Agriculture and Strengthening American Farm Resilience to first improve domestic; soil/environmental health, product yield/quality, and resilience/profitability for which research will play a pivotal role. Abundant research opportunities include reduced reliance on pesticides, use of organic vs chemical treatments, non-GMO expansion, vertical farming, hydro/aero/aquaponics, operation automation/robotics/optimization, applied AI/ML/IoT, etc."
-    
+
     KEYWORDS: Resilience, Viability, Innovation 
 
 - candidate_first_name: Heather
@@ -47,7 +47,7 @@
   date:
   response: |
     "Ensure existing/future municipal water providers are accountable for making continued/ongoing infrastructure improvements/investments, safety/testing, and leak reductions. I believe that policies should focus on areas of greatest risk first i.e. lead pipes, contamination and invasive species prevention/mitigation, etc. Competitive bidding and Public-Private Partnerships with performance-based funding are needed to implement. I advocate for expanded research in areas such as use of IoT/biosensors, advanced oxidation processes, nanofiltration, bioremediation, irradiation/ultrasonic/acoustic treatments, runoff interception/mitigation strategies, etc."
-    
+
     KEYWORDS: Accountability, Environment, Innovation
 
 - candidate_first_name: Heather
@@ -60,7 +60,7 @@
   date:
   response: |
     "Ongoing research, clinical trials, and implementation of biotech and life science research continues to deliver breakthrough advances in the delivery, treatment, care, and related biopharmaceuticals. I advocate for increased research in nutraceuticals, psychedelics, nano/targeted-drug delivery, microbiology analysis, remote care delivery, robotics, etc. for disease and ailment therapies/treatments and overall health optimization. Improving costs and patient outcomes through rigorous evidence-based medicine and technologies combined with predictive outcome analysis benefits the patients, healthcare staff/companies, and lowers overall costs for all. I also advocate for research into the expanded use of biomaterials to reduce medical waste."
-    
+
     KEYWORDS: Evidence-Based, Health, Innovation
 
 - candidate_first_name: Heather
@@ -73,7 +73,7 @@
   date:
   response: |
     "Michigan is nationally ranked 50th (worst) for energy reliability and has an energy monopoly held by 2 companies. I believe that there is a place for all sources of energy, and that a pragmatic approach needs to be taken that considers demand/capacity, cost/affordability, and the weather/environment. The U.S. should be energy independent and needs to expand research, development, and implementation of nuclear Small Modular Reactors, natural gas/CNG, hydro, and geothermal as sources of complimentary, reliable energy sources for which permitting and regulatory reform is needed. Further research is needed to increase the diversity, reliability, safety, scalability, and interconnectedness of sources, dispatchable power technologies/strategies, and transmission/grid design and safety from load/outage surges, and hacking/espionage."
-    
+
     KEYWORDS: Pragmatic, Energy, Reliability
 
 - candidate_first_name: Heather
@@ -88,3 +88,276 @@
     "Data centers are needed to support next-generation technologies, but not at the unbalanced expense/detriment of people, infrastructure, and environment. The free-market combined with existing zoning and regulatory requirements should be instrumental in determining data center volume/density, location(s), and size. Incremental research is needed to condense the size of data storage units/centers and associated energy/resource consumption, make more efficient use of natural resources in the technologies/solutions used, perform cause/effect modeling that accurately reflects now/near/far benefits and risks, establish regulatory guidelines/requirements, and also reference my interdependent “Energy” questionnaire response. Data center strategies/plans should ideally include self-contained/sustaining power generation, grid-independent water sources/treatment/reclamation facilities, EMF transmission mitigation, and sound wave/noise abatements."
 
     KEYWORDS: Balanced, Sustainable, Growth
+
+- candidate_first_name: Jamie
+  candidate_last_name: Hill
+  state: mi
+  race: US House of Representatives
+  district: 2
+  party: Democratic
+  question: mi-q1-all-races
+  date:
+  response: |
+    "We’ve all seen the harm that emotional based legislation can cause. I’m a firm believer in evidence based research and listening to subject matter experts. As a healthcare provider I can’t possibly know the answer to every question but I am trained to find the person who knows the answer and verify their answer. That is the same method I plan to legislate with. I communicate this everyday with my patients. It involves a little bit of story telling and a lot of metaphors. The average person doesn’t speak scientist so we need people that can translate to living room language."
+
+    KEYWORDS: Evidence-Based, Subject Matter Expert, Communication
+
+- candidate_first_name: Jamie
+  candidate_last_name: Hill
+  state: mi
+  race: US House of Representatives
+  district: 2
+  party: Democratic
+  question: mi-q2-all-races
+  date:
+  response: |
+    "The government serves to fund the research that might be world changing but lacks a clear path to profitability. I view university and government funded research as the foundation builders of our scientific advancement. No single block in your foundation is remarkable but it might be the bearing point for the entire structure above it. The basis of success is that someone somewhere uses a piece of government funded research to make the world a better place."
+
+    KEYWORDS: Foundational
+
+- candidate_first_name: Jamie
+  candidate_last_name: Hill
+  state: mi
+  race: US House of Representatives
+  district: 2
+  party: Democratic
+  question: mi-q3-house-senate
+  date:
+  response: |
+    "From a scientific standpoint I fully support research and investment into reducing human impact on the climate, alternative fuel sources for farm equipment, more efficient farm equipment, better soil science to reduce the fertilizer input needed, more efficient and less energy intensive fertilizers, combining renewable energy sources with agriculture, crops that are lest reliant on pesticides/herbicides, and the development of healthier end products for the consumer."
+
+    KEYWORDS: Research, Renewable Energy, Climate Change
+
+- candidate_first_name: Jamie
+  candidate_last_name: Hill
+  state: mi
+  race: US House of Representatives
+  district: 2
+  party: Democratic
+  question: mi-q4-governor-house
+  date:
+  response: |
+    "Without clean drinking water we die so water protection needs to be a number one priority. The first step is to increase enforcement against polluters because it’s easier to prevent pollution than it is to clean it up. Funding research into reducing the amount of water needed in any number of industrial or agriculture processes will protect the resources we have. Significant funding and research needs to go into developing water purification and reclamation systems that give us access to previously contaminated water sources. All of America’s infrastructure needs a significant overhaul to improve reliability and safety which will also provide good high paying jobs for communities."
+
+    KEYWORDS: Prevention, Infrastructure Funding, Resource Protection
+
+- candidate_first_name: Jamie
+  candidate_last_name: Hill
+  state: mi
+  race: US House of Representatives
+  district: 2
+  party: Democratic
+  question: mi-q5-governor-house
+  date:
+  response: |
+    "Single payer healthcare is the biggest improvement we could make. Reducing the multiple layers of bureaucracy and profit taking in the system would free money up for providers and reducing the administrative burden will increase the likelihood that providers stay in the field. Providing more innovation in the telehealth field will allow more access to specialist care but it will have to come with an overhaul of the payment system to allow providers to be reimbursed for their time when utilizing telehealth."
+
+    KEYWORDS: Single Payer Healthcare, Telehealth, Reimbursement
+
+- candidate_first_name: Jamie
+  candidate_last_name: Hill
+  state: mi
+  race: US House of Representatives
+  district: 2
+  party: Democratic
+  question: mi-q7-house-senate
+  date:
+  response: |
+    "We should be looking at every available power generation method and be looking at how to make them more efficient. There isn’t a magical single solution to our problem, different environments and applications will have specialized needs. Again the governments role is to create the foundational research that allows private industry a boost to create a commercially viable product. We shouldn’t be protecting legacy industry when there is a better alternative but on the other hand we shouldn’t blindly push a new technology just because it’s new. Fund the research and follow the science to the best solution for the problem."
+
+    KEYWORDS: Diversification, Evidence Based
+
+- candidate_first_name: Jamie
+  candidate_last_name: Hill
+  state: mi
+  race: US House of Representatives
+  district: 2
+  party: Democratic
+  question: mi-q9-governor-house
+  date:
+  response: |
+    "Data centers should be placed in industrial areas where the infrastructure is already in place to support them. They should be required to use recycled water for cooling or some other methods that doesn’t draw from ground water, build a green energy source that supplies their power, not pass on any infrastructure cost to the public via utility price hikes or cost to government services, limit noise and heat pollution from reaching neighbors, and provide the community it’s located in a reclamation bond to restore the site when the AI data bubble bursts and the site is abandoned."
+
+    KEYWORDS: Green Energy, Resource Sparing, Pollution Limiting
+
+- candidate_first_name: Benjamin
+  candidate_last_name: Ambrose
+  state: mi
+  race: US House of Representatives
+  district: 2
+  party: Democratic
+  question: mi-q1-all-races
+  date:
+  response: |
+    "Scientific evidence and expert input should play a central role in policymaking, but experts should inform decisions, not replace democratic accountability. My background in anthropology, federal healthcare, and technology taught me to evaluate peer-reviewed research, understand the limits of data, and ask who is affected by a policy in practice. When evidence is incomplete or evolving, government should be honest about uncertainty rather than pretending every answer is settled. Policymakers should explain what is known, what is not known, what risks are involved, and why a decision is being made. As new evidence emerges, policy should be reviewed and adjusted accordingly. Good government requires humility, transparency, and a willingness to change course when the facts change."
+
+    KEYWORDS: Evidence, Transparency, Accountability
+
+- candidate_first_name: Benjamin
+  candidate_last_name: Ambrose
+  state: mi
+  race: US House of Representatives
+  district: 2
+  party: Democratic
+  question: mi-q2-all-races
+  date:
+  response: |
+    "The federal government has an important role in supporting research that the private market may underfund because the benefits are long-term, widely shared, or too risky for short-term investors. I support strong federal investment in medical research, agricultural science, advanced manufacturing, energy technology, artificial intelligence, and research conducted through universities and national laboratories. I would evaluate these investments by asking whether they improve quality of life, strengthen national competitiveness, create useful public knowledge, reduce costs, and translate into real benefits for communities. Public funding should also support basic research, because many transformative technologies begin with discoveries whose practical value was not immediately obvious. Michigan should benefit from these investments through stronger universities, research partnerships, advanced manufacturing, and new opportunities for students and workers."
+
+    KEYWORDS: Innovation, Competitiveness, Discovery 
+
+- candidate_first_name: Benjamin
+  candidate_last_name: Ambrose
+  state: mi
+  race: US House of Representatives
+  district: 2
+  party: Democratic
+  question: mi-q3-house-senate
+  date:
+  response: |
+    "Michigan farmers need a stronger safety net and better tools to manage increasingly unpredictable conditions. I support improving crop insurance, strengthening agricultural research and extension services, expanding access to precision agriculture and broadband, and investing in research on drought resilience, soil health, crop disease, fertilizer efficiency, and water management. Scientific innovation should help farmers lower input costs, increase yields, and respond to changing conditions without forcing one-size-fits-all mandates on them. Farmers should be partners in research and implementation, not an afterthought. I also support strengthening trade enforcement, expanding markets for Michigan agricultural products, and ensuring that family farms have access to the financing and technology needed to remain competitive. The goal should be simple: keep farmers productive, profitable, and able to pass their farms to the next generation."
+
+    KEYWORDS: Resilience, Innovation, Family Farms
+
+- candidate_first_name: Benjamin
+  candidate_last_name: Ambrose
+  state: mi
+  race: US House of Representatives
+  district: 2
+  party: Democratic
+  question: mi-q4-governor-house
+  date:
+  response: |
+    "Michigan’s water is one of our greatest resources, and protecting it must be a federal priority. I support stronger federal action on PFAS, including enforceable standards, expanded testing, cleanup funding, protection for consumers, and holding polluters financially responsible rather than leaving families and local governments with the bill. I also support major investment in aging drinking water and wastewater infrastructure, especially in rural and underserved communities that cannot afford large upgrades on their own. Federal support should help replace lead service lines, modernize treatment systems, and protect groundwater. Great Lakes protection must remain a long-term national commitment. Clean water should never depend on a family’s income or zip code, and communities should not have to wait decades for action after contamination is discovered."
+
+    KEYWORDS: Clean Water, PFAS, Accountability
+
+- candidate_first_name: Benjamin
+  candidate_last_name: Ambrose
+  state: mi
+  race: US House of Representatives
+  district: 2
+  party: Democratic
+  question: mi-q5-governor-house
+  date:
+  response: |
+    "Rural Michigan faces serious shortages in physicians, nurses, specialists, mental health professionals, and emergency services. I support loan repayment and incentive programs for providers who serve rural communities, stronger funding for rural hospitals and clinics, expanded telehealth, and investment in broadband so telemedicine actually works where it is needed most. My work in the Department of Veterans Affairs showed me how technology can expand access when it is implemented responsibly. Telehealth, remote monitoring, artificial intelligence, and better data systems can help clinicians identify risk earlier and extend specialty care into underserved areas. Technology should support healthcare professionals, not replace them. The goal must be to reduce administrative burden, improve access, and give clinicians better tools while preserving human judgment and the patient-provider relationship."
+
+    KEYWORDS: Access, Telehealth, Rural Health
+
+- candidate_first_name: Benjamin
+  candidate_last_name: Ambrose
+  state: mi
+  race: US House of Representatives
+  district: 2
+  party: Democratic
+  question: mi-q7-house-senate
+  date:
+  response: |
+    "America needs a more diverse and more independent energy system. I support an all-of-the-above strategy that includes nuclear energy, wind, solar, hydroelectric power, storage, and continued research into emerging technologies. Our priorities should be reliability, affordability, energy independence, and environmental protection. I support federal research and development, grid modernization, domestic manufacturing incentives, and policies that encourage cleaner energy without forcing working families to absorb unnecessary costs. I also believe local communities deserve a meaningful voice in how large energy projects are developed. Clean energy policy should create advantages for innovation and adoption, not simply shift burdens onto rural communities. Michigan should produce more of the energy it uses, strengthen its grid, and create skilled jobs in manufacturing, construction, engineering, and the trades."
+
+    KEYWORDS: Independence, Reliability, Innovation
+
+- candidate_first_name: Benjamin
+  candidate_last_name: Ambrose
+  state: mi
+  race: US House of Representatives
+  district: 2
+  party: Democratic
+  question: mi-q9-governor-house
+  date:
+  response: |
+    "Artificial intelligence has enormous potential, but large-scale data centers can place major demands on local water systems, power grids, and public infrastructure while creating relatively few permanent jobs. I do not support federal policies that simply subsidize data center expansion without requiring clear public benefits and strong protections for host communities. Projects should pay their fair share of infrastructure costs, demonstrate reliable water and energy plans, disclose resource demands, and avoid shifting utility costs onto local residents. My background in AI and federal technology programs has taught me that innovation should be judged by what it contributes to society, not simply by how quickly it can expand. We should support responsible AI research and advanced computing while ensuring that growth does not undermine water security, grid reliability, environmental protection, or local control."
+
+    KEYWORDS: Responsibility, Infrastructure, Local Control
+
+- candidate_first_name: Steffan
+  candidate_last_name: Demetropoulos
+  state: mi
+  race: US House of Representatives
+  district: 10
+  party: Republican
+  question: mi-q1-all-races
+  date:
+  response: |
+    "Scientific and technical experts provide valuable information that should inform policy decisions, especially in healthcare, infrastructure, manufacturing, agriculture, and energy. However, experts should advise elected officials, not replace them. Policymakers must balance scientific evidence with economic impacts, public input, constitutional principles, and local needs. When evidence evolves, government officials should communicate honestly about what is known, what remains uncertain, and why decisions are being made. Transparency builds trust and leads to better outcomes."
+
+    KEYWORDS: Evidence-Based, Transparency, Accountability
+
+- candidate_first_name: Steffan
+  candidate_last_name: Demetropoulos
+  state: mi
+  race: US House of Representatives
+  district: 10
+  party: Republican
+  question: mi-q2-all-races
+  date:
+  response: |
+    "Scientific research has helped improve healthcare, agriculture, manufacturing, and national security. Federal investment should focus on areas that strengthen America's competitiveness, improve quality of life, and address clear national priorities. Taxpayer-funded research should be subject to rigorous oversight, measurable outcomes, and public accountability. I support investments that advance innovation, develop new technologies, support critical industries, and produce tangible benefits for American families and businesses."
+
+    KEYWORDS: Innovation, Accountability, Competitiveness 
+
+- candidate_first_name: Steffan
+  candidate_last_name: Demetropoulos
+  state: mi
+  race: US House of Representatives
+  district: 10
+  party: Republican
+  question: mi-q3-house-senate
+  date:
+  response: |
+    "Michigan's farmers face increasing challenges from weather variability, global competition, labor shortages, and rising costs. Research and innovation can help improve productivity, crop resilience, resource efficiency, and profitability. I support partnerships among farmers, universities, and the private sector to develop practical solutions that help producers remain competitive. Investments should prioritize real-world applications that strengthen domestic food production, reduce costs, and support rural communities."
+
+    KEYWORDS: Agriculture, Innovation, Competitiveness
+
+- candidate_first_name: Steffan
+  candidate_last_name: Demetropoulos
+  state: mi
+  race: US House of Representatives
+  district: 10
+  party: Republican
+  question: mi-q4-governor-house
+  date:
+  response: |
+    "Every Michigan resident deserves access to safe drinking water and reliable infrastructure. I support investments in upgrading aging water systems, replacing failing infrastructure, and addressing contamination that threatens public health. Protecting the Great Lakes is both an environmental and economic priority. Federal resources should be used responsibly and in partnership with state and local governments to ensure clean water while minimizing unnecessary regulatory burdens that hinder growth and development."
+
+    KEYWORDS: Infrastructure, Clean Water, Great Lakes
+
+- candidate_first_name: Steffan
+  candidate_last_name: Demetropoulos
+  state: mi
+  race: US House of Representatives
+  district: 10
+  party: Republican
+  question: mi-q5-governor-house
+  date:
+  response: |
+    "Many communities face shortages of healthcare providers, especially in rural and underserved areas. Expanding access to telehealth, supporting workforce development, and reducing barriers to care can help address these challenges. Emerging technologies can improve healthcare delivery, enhance diagnostics, and increase efficiency, but they should complement, not replace, the relationship between patients and healthcare professionals. The goal should be accessible, affordable, high-quality care for all communities."
+
+    KEYWORDS: Access, Telehealth, Workforce
+
+- candidate_first_name: Steffan
+  candidate_last_name: Demetropoulos
+  state: mi
+  race: US House of Representatives
+  district: 10
+  party: Republican
+  question: mi-q7-house-senate
+  date:
+  response: |
+    "America needs a reliable, affordable, and secure energy supply to support economic growth, manufacturing, and national security. I support an all-of-the-above energy strategy that includes natural gas, nuclear power, renewables, and emerging technologies. Energy policy should prioritize reliability, affordability, and domestic production while encouraging innovation and responsible stewardship. No single energy source can meet future demand alone, especially as manufacturing and data centers increase electricity consumption."
+
+    KEYWORDS: Reliability, Affordability, Energy Security
+
+- candidate_first_name: Steffan
+  candidate_last_name: Demetropoulos
+  state: mi
+  race: US House of Representatives
+  district: 10
+  party: Republican
+  question: mi-q9-governor-house
+  date:
+  response: |
+    "Artificial intelligence and data centers are becoming increasingly important to economic growth, manufacturing, healthcare, and national security. Policies should encourage innovation while ensuring adequate energy infrastructure, grid reliability, and responsible resource management. The federal government should support infrastructure improvements that allow technological growth without compromising affordability or reliability for households and businesses. Regulatory approaches should provide clear rules while preserving America's leadership in innovation and technological development."
+
+    KEYWORDS: Privacy, Grid Reliability, Local Control
