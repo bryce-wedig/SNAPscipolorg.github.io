@@ -177,7 +177,10 @@ published: true
 
 <hr class="stance-rule"/>
 
-{% include stance/response_explorer.html heading="August 2026 Primary Election" additional_note="Senator Amy Klobuchar, running for Governor, provided [this letter](/files/stance/klobuchar_letter.pdf) to the Minnesota Stance on Science team." %}
+{%- capture mn_additional_note -%}
+Senator Amy Klobuchar, running for Governor, provided [this letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team.
+{%- endcapture -%}
+{% include stance/response_explorer.html heading="August 2026 Primary Election" additional_note=mn_additional_note %}
 
 {% include stance/press_mentions.html state=page.state %}
   
