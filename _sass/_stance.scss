@@ -1,13 +1,7 @@
 // Stance on Science — styles for the map, state pages, and global search.
 
-$snap-orange: #E89142;
-$snap-orange-dark: #C47830;
-$snap-blue: #213863;
-$snap-light-blue: #687DA2;
-$snap-purple: #310A45;
-$snap-cream: #F4D294;
-$snap-yellow: #F2F493;
-$snap-green: #C2C354;
+// The $snap-* brand colors used below are defined in _snap-colors.scss.
+
 $stance-gray-border: #dadada;
 $stance-gray-bg: #f6f6f6;
 
@@ -31,6 +25,8 @@ $stance-party-colors: (
 );
 
 // Derived tokens used by the redesigned state-page explorer (Direction C).
+// Despite the $snap- prefix these are Stance-specific, not style-guide colors,
+// so they stay here rather than in _snap-colors.scss.
 $snap-navy-dark: #18294a;
 $snap-navy-tint: #eef1f6;
 $snap-brick: #b0413a;
@@ -38,7 +34,7 @@ $stance-ink: #2b2b2b;
 $stance-muted: #6a6f76;
 $stance-answer: #333333;
 $stance-shadow: 0 1px 2px rgba(20, 30, 55, 0.06), 0 6px 18px rgba(20, 30, 55, 0.06);
-$stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
+$stance-focus-ring: 0 0 0 3px rgba($snap-blue, 0.14);
 
 // ---------------------------------------------------------------------------
 // US states map
@@ -216,6 +212,7 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
     height: 37px;
     border: 1px solid $stance-gray-border;
     border-radius: 7px;
+    // Chevron stroke %23687DA2 is $snap-light-blue URL-encoded — keep in sync.
     background: #fff url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path d='M2 4l4 4 4-4' fill='none' stroke='%23687DA2' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/></svg>") no-repeat right 10px center;
     appearance: none;
     -webkit-appearance: none;
@@ -814,7 +811,8 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
 //
 // Two-pane "candidate explorer": a sticky candidate-directory rail on the left
 // and an internally-scrolling feed of per-candidate cards on the right. Reuses
-// the shared $snap-* palette. Scoped under .stance-responses so it does not
+// the shared $snap-* palette from _snap-colors.scss. Scoped under
+// .stance-responses so it does not
 // affect the legacy list view used by the other state pages and search.
 // ---------------------------------------------------------------------------
 
@@ -1048,6 +1046,7 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
       height: 37px;
       border: 1px solid $stance-gray-border;
       border-radius: 7px;
+      // Chevron stroke %23687DA2 is $snap-light-blue URL-encoded — keep in sync.
       background: #fff url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path d='M2 4l4 4 4-4' fill='none' stroke='%23687DA2' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/></svg>") no-repeat right 10px center;
       appearance: none;
       -webkit-appearance: none;
@@ -1338,7 +1337,7 @@ $stance-focus-ring: 0 0 0 3px rgba(33, 56, 99, 0.14);
     &--county { background: $snap-light-blue; }
     &--dist { background: $snap-navy-tint; color: $snap-blue; }
     &--tag { background: $snap-cream; color: $snap-blue; }
-    &--tag-on { background: $snap-cream; color: $snap-blue; box-shadow: 0 0 0 2px rgba(33, 56, 99, 0.35); }
+    &--tag-on { background: $snap-cream; color: $snap-blue; box-shadow: 0 0 0 2px rgba($snap-blue, 0.35); }
     &--party { background: $stance-no-party; color: #fff; }
 
     // Per-party colors override the neutral fallback above.
