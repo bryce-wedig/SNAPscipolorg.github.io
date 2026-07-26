@@ -11,6 +11,7 @@ $stance-democrat:     #4272A1; // Steady Mid-Blue
 $stance-unity:        #78528C; // Soft Amethyst
 $stance-libertarian:  #DCA237; // Rich Gold
 $stance-no-party:     #6a6f76; // Neutral Slate (no party preference)
+$stance-independent:  #310A45; // Deep Purple
 
 // Per-party bubble colors as (background, text) pairs, keyed by the slug
 // emitted at each render site ({{ party | downcase | replace: ' ', '-' }}).
@@ -22,6 +23,7 @@ $stance-party-colors: (
   "unity":               ($stance-unity,       #ffffff),
   "libertarian":         ($stance-libertarian, #3a2a05),
   "no-party-preference": ($stance-no-party,    #ffffff),
+  "independent":         ($stance-independent, #ffffff),
 );
 
 // Derived tokens used by the redesigned state-page explorer (Direction C).

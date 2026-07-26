@@ -1,71 +1,71 @@
 - candidate_first_name: Andrew
   candidate_last_name: Rice
   state: ct
-  race: US House of Representatives
+  race: US House of Representatives # must match one of the options!
   district: 3
-  party: Democratic
+  party: Democratic # must match one of the options!
   question: ct-q1
   date: 2026-07-09
-  primary_candidate: false
+  primary_candidate: true
   response: |
     We need to recommit to the World Health Organization (WHO) to ensure global efforts continue to monitor for re-emerging or novel viruses and other infectious disease. There needs to be reforms made to WHO with increased oversight. The heavy top-down bureaucracy needs to be reorganized to allow for better rapid on the ground decision making during localized crises while streamlining communications to better respond to health emergencies.  Protections need to be put in place to limit political influence liability from more powerful member states. The CDC cuts are also impacting public health. Staffing and funding need to be returned to 2024 levels with reforms. Trust in our public health systems have eroded, and care must be taken to restore that trust. Accountable learning for emerging novel diseases should be implemented, while also providing protections to ensure communication is free from political or corporate pressures and biases. People need to have the information but more importantly, must trust the information being given. The public also needs to be educated more on the realities of how policy develops especially during dynamic and rapidly evolving situations involving novel disease.  The public must have guarantees of transparency especially after unavoidable erroneous guidance is issued.   
 
 - candidate_first_name: Andrew
   candidate_last_name: Rice
   state: ct
-  race: US House of Representatives
+  race: US House of Representatives # must match one of the options!
   district: 3
-  party: Democratic
+  party: Democratic # must match one of the options!
   question: ct-q2
   date: 2026-07-09
-  primary_candidate: false
+  primary_candidate: true
   response: |
     Science is the foundation for which societies advance and improve the human condition. We need to increase the NIH Budget by 25% above its real (versus nominal) high in 2003 currently equating to $62.5 billion indexed to inflation to ensure scientific purchasing power remains constant. The same should be done for the NSF budget which would equate to a new budget of $15.5 billion. These research dollars continuously produce 150%-300% returns on economic activity through investments, jobs, and local spending on other economic sectors. To ensure trust in science, we must move away from a profit driven system and focus on a people driven model such that medicine prioritizes prevention and cures over treatment, with treatment still being an integral part of research. To further increase trust, we should restructure the Peer Review process and grant process to increase transparency and ensure equal access to all publicly funded data. We should impose fees on private industry using federally funded university research data to ensure these companies are paying into the system they are benefitting from. Lastly, federal dollars for research should only be used within the domestic United States with the exception of travel or similar necessities for collaborative efforts. 
 
 - candidate_first_name: Andrew
   candidate_last_name: Rice
   state: ct
-  race: US House of Representatives
+  race: US House of Representatives # must match one of the options!
   district: 3
-  party: Democratic
+  party: Democratic # must match one of the options!
   question: ct-q3
   date: 2026-07-09
-  primary_candidate: false
+  primary_candidate: true
   response: |
     We can address rising costs of energy in Connecticut by breaking up large utilities into publicly owned energy sectors that would save customers money by not having to subsidize the profit these companies seek. We need to pursue avenues of generating more electricity in an environmentally and economically savvy manner. There needs to be great investment in wind and solar energy. The Revolution Wind offshore wind initiative is a great example of expanding wind energy. We can also expand solar energy by making it easier and cheaper to install solar panels on homes and businesses by getting rid of permitting barriers that would enable easy-to-install, small-scale solar for renters and homeowners without requiring permits or rooftop installation. We should also be creating incentives for businesses to have solar panels placed on their property to avoid using open space for solar farms. I am not in favor of nuclear power. It is not as cost effective and is environmentally problematic. The National Public Utilities Council’s Levelized cost of electricity shows that solar and wind energy is 50% cheaper or higher. Nuclear fission, although zero-carbon emission, still produces radioactive waste, thermally pollutes the surrounding water, and uranium extraction can disrupt local habitats.
 
 - candidate_first_name: Andrew
   candidate_last_name: Rice
   state: ct
-  race: US House of Representatives
+  race: US House of Representatives # must match one of the options!
   district: 3
-  party: Democratic
+  party: Democratic # must match one of the options!
   question: ct-q4
   date: 2026-07-09
-  primary_candidate: false
+  primary_candidate: true
   response: |
     Environmental policy should focus on urban greenspaces that include native plants to support biodiversity and local gardens providing climate-friendly food. We need to pursue environmental restoration in frontline communities, especially along the coast for the effects of climate change we cannot prevent. Preservations and restoration of salt marshes need to be a priority, both for conservation of biodiversity and their capacity to mitigate coastal flooding. I would form a task force on microplastics to present legislation to study and reduce impacts, find ways to reduce dependency on single-use plastics, and fund research for plastic alternatives. Increase funding and expand research to identify important habitats for imperiled species and expand protections for those habitats. Industries take an immense toll on biodiversity by driving resource extraction that destroys and degrades natural ecosystems. We need to reduce the demand for extraction of natural resources. I would introduce legislation that will shift us toward a more circular economy, wherein food and material waste is reduced, and resources are used and reused more efficiently. I would also work with the Nature Conservancy to draft legislation that supports the “30 x 30” framework to protect 30% of the planet’s oceans, lands, and freshwaters by 2030. 
 
 - candidate_first_name: Andrew
   candidate_last_name: Rice
   state: ct
-  race: US House of Representatives
+  race: US House of Representatives # must match one of the options!
   district: 3
-  party: Democratic
+  party: Democratic # must match one of the options!
   question: ct-q5
   date: 2026-07-09
-  primary_candidate: false
+  primary_candidate: true
   response: |
     I favor a moratorium on AI until its effects on the human brain, the environment, energy and water consumption, data privacy, human health, and impact on the workforce can be thoroughly studied. New technologies that have the potential to fundamentally change humanity should be pursued but not until we have a better understanding the risks and measuring them against the possible benefits. Once we have been able to study the effects of the above variables and determine that this technology can be safely used, I would favor moving forward cautiously with implementing AI into society and the economy if there are strict regulations in place. These regulations should include environmental protections, workplace protections, restrictions on data usage to prevent the furtherance of a surveillance state, and a focus on using the technology to improve work conditions through reduced hours with no loss in pay. AI must never be used to replace workers with possible exceptions for high risk positions where AI could mitigate harm to human life. There needs to be strict limit on where construction of AI data centers may occur to prevent harm to residential neighborhoods and protected habitats. 
 
 - candidate_first_name: Ned
   candidate_last_name: Lamont
   state: ct
-  race: Governor
-  party: Democratic
+  race: Governor # must match one of the options!
+  party: Democratic # must match one of the options!
   question: ct-q1
   date: 2026-07-07
-  primary_candidate: false
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
   response: |
     Connecticut has one of the strongest public health infrastructures in the nation, and we will continue to lead regardless of shifts in Washington. To address emerging threats like Hantavirus or Ebola, we are ready to take the lead if needed, with state-level surveillance and rapid response. Our Department of Public Health (DPH) can rely on our world-class health institutions here, from UConn Health to Yale.
 
@@ -76,11 +76,11 @@
 - candidate_first_name: Ned
   candidate_last_name: Lamont
   state: ct
-  race: Governor
-  party: Democratic
+  race: Governor # must match one of the options!
+  party: Democratic # must match one of the options!
   question: ct-q2
   date: 2026-07-07
-  primary_candidate: false
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
   response: |
     Connecticut’s research universities, like UConn and Yale, are the economic engines of our state. When federal funding falters, Connecticut must step up through direct state investment and smart public-private partnerships. We recently approved $35 million in grant research funding for Uconn and Uconn health to fill in from cuts from the Trump Administration, and we will continue to do so. 
 
@@ -91,11 +91,11 @@
 - candidate_first_name: Ned
   candidate_last_name: Lamont
   state: ct
-  race: Governor
-  party: Democratic
+  race: Governor # must match one of the options!
+  party: Democratic # must match one of the options!
   question: ct-q3
   date: 2026-07-07
-  primary_candidate: false
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
   response: |
     There’s no sugarcoating it: energy costs in Connecticut are too high, and it impacts our families and our economic competitiveness. My strategy focuses on two pillars: strict utility accountability and aggressive source diversification.
 
@@ -106,11 +106,11 @@
 - candidate_first_name: Ned
   candidate_last_name: Lamont
   state: ct
-  race: Governor
-  party: Democratic
+  race: Governor # must match one of the options!
+  party: Democratic # must match one of the options!
   question: ct-q4
   date: 2026-07-07
-  primary_candidate: false
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
   response: |
     Protecting Connecticut’s environment means safeguarding both our natural beauty and the health of our residents. Clean air and clean water are fundamental rights, and our policies ensure a healthier, more sustainable Connecticut for generations to come.
 
@@ -121,11 +121,11 @@
 - candidate_first_name: Ned
   candidate_last_name: Lamont
   state: ct
-  race: Governor
-  party: Democratic
+  race: Governor # must match one of the options!
+  party: Democratic # must match one of the options!
   question: ct-q5
   date: 2026-07-07
-  primary_candidate: false
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
   response: |
     The rapidly developing technology of artificial intelligence has the potential of enhancing productivity, fostering innovation, and driving efficiency across nearly all industries. It also carries significant risks for workers, as it can potentially erode accountability, representation, and labor protections. 
 
@@ -133,4 +133,141 @@
 
     This session, I supported and signed legislation regulating automated monitoring and surveillance for warehouse workers. In addition, I worked with Senator Maroney to pass legislation that makes sure workers know when AI is used to make employment-related decisions. Humans should be making the final decision in that process. The legislation also makes sure that employers cannot use AI to try to avoid our anti-discrimination laws. 
 
+- candidate_first_name: Timothy
+  candidate_last_name: Wilcox
+  state: ct
+  race: Governor # must match one of the options!
+  party: Republican # must match one of the options!
+  question: ct-q1
+  date: 2026-07-15
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  response: |
+    CDC and CT public health  
 
+- candidate_first_name: Timothy
+  candidate_last_name: Wilcox
+  state: ct
+  race: Governor # must match one of the options!
+  party: Republican # must match one of the options!
+  question: ct-q3
+  date: 2026-07-15
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  response: |
+    I will stop the public benefit charge and stop the green new scam and cap public utilities on there rates 
+
+- candidate_first_name: Timothy
+  candidate_last_name: Wilcox
+  state: ct
+  race: Governor # must match one of the options!
+  party: Republican # must match one of the options!
+  question: ct-q4
+  date: 2026-07-15
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  response: |
+    [no answer provided]
+
+- candidate_first_name: Timothy
+  candidate_last_name: Wilcox
+  state: ct
+  race: Governor # must match one of the options!
+  party: Republican # must match one of the options!
+  question: ct-q5
+  date: 2026-07-15
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  response: |
+    No data center in Connecticut 
+
+- candidate_first_name: Josh
+  candidate_last_name: Elliott
+  state: ct
+  race: Governor # must match one of the options!
+  party: Democratic # must match one of the options!
+  question: ct-q1
+  date: 2026-07-16
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  response: |
+    When the federal government cuts CDC funding, dismantles vaccine advisory infrastructure, and politicizes outbreak response, states have to fill the gap. Connecticut should treat public health as core infrastructure.
+
+    As governor, I would strengthen the state's own capacity: sustained funding for local and district health departments, and close partnership with the research resources we have right here in Connecticut, whether that is UConn, Yale, or any of our higher education institutions. Modernized disease surveillance and data systems would let us detect outbreaks early instead of reacting late.
+
+    My record backs this up. I led the fight to eliminate the religious exemption for school vaccinations, one of the hardest public health votes in recent memory. We need to keep following the evidence, and the new frontier is HPV and preventable cancers. Connecticut should lead on vaccination and screening programs that stop cancers before they start.
+
+    I would also deepen regional partnerships with neighboring states on stockpiles, lab capacity, and shared guidance. The federal government no longer appears interested in letting data determine the best course of action. Connecticut must stay committed to it, and to being a trusted messenger with the public, explaining that science always evolves and acting on new insights as the data provides them.
+
+    Public health only works when people can afford to use it. Expanding access to primary care, paid sick leave, and safe housing means building an economic system that serves everyone. 
+
+- candidate_first_name: Josh
+  candidate_last_name: Elliott
+  state: ct
+  race: Governor # must match one of the options!
+  party: Democratic # must match one of the options!
+  question: ct-q2
+  date: 2026-07-16
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  response: |
+    Federal cuts to NIH and NSF funding are an attack on Connecticut's economy and its future. Research at UConn, Yale, and our other institutions drives discovery, trains our workforce, and anchors thousands of jobs in bioscience, engineering, and medicine. When Washington pulls back, the state has an obligation to act.
+
+    This moment is also an opportunity. As the federal government and other states pull away from research, now is the time to make deep investments and become a beacon for the science community. Connecticut can brand itself the science state.
+
+    As chair of the Higher Education Committee, I fought for public investment in our universities and against the disinvestment that pushes costs onto students. As governor, I would build on that record: a state bridge fund to sustain research programs and retain scientists when federal grants are cut or frozen, expanded state matching for research that serves Connecticut's needs in public health, clean energy, and advanced manufacturing, and stronger pipelines connecting our universities to Connecticut employers so the talent we train stays here.
+
+    Oversight should mean stewardship of public dollars. State investment will never come with ideological screening of grants, banned topics, or censored findings, the political strings Washington now attaches to research funding.
+
+    The outcome is straightforward: Connecticut becomes the state where researchers come when Washington abandons science, and the discoveries made here translate into jobs, cures, and lower costs for our residents.
+
+- candidate_first_name: Josh
+  candidate_last_name: Elliott
+  state: ct
+  race: Governor # must match one of the options!
+  party: Democratic # must match one of the options!
+  question: ct-q3
+  date: 2026-07-16
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  response: |
+    Connecticut families and businesses pay among the highest electric rates in the country because our energy system is built to serve utility shareholders. Eversource and UI operate as monopolies guaranteed a profit on every dollar they spend, and ratepayers carry the cost.
+
+    I am the only candidate in this race calling for structural change. State law, CGS §16-10a, allows Connecticut to revoke utility franchises for failure to serve the public interest. I would use that authority to move toward public ownership of our distribution system, so decisions about the grid answer to ratepayers.
+
+    On diversification, Connecticut should build out every clean resource available to us: offshore wind, solar paired with storage, and continued operation of Millstone, which already supplies the largest share of our carbon-free power. Expanded storage and grid modernization reduce our dependence on natural gas peaker plants, which set the price of electricity in New England and drive rate spikes.
+
+    I would also expand energy efficiency and weatherization programs, the cheapest kilowatt being the one we never use, and pursue deeper regional coordination on transmission so New England states stop bidding against each other.
+
+    Lower bills come from changing who the system works for.
+
+- candidate_first_name: Josh
+  candidate_last_name: Elliott
+  state: ct
+  race: Governor # must match one of the options!
+  party: Democratic # must match one of the options!
+  question: ct-q4
+  date: 2026-07-16
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  response: |
+    Environmental protection in Connecticut is a matter of health and economic justice. The communities living closest to legacy industrial pollution, highways, and peaker plants are working families in cities like New Haven, Bridgeport, and Hartford, and they carry the asthma rates and health costs to prove it.
+
+    My priorities start there. I would fully fund DEEP so permits, inspections, and enforcement actually happen, and strengthen Connecticut's environmental justice law so overburdened communities have the power to say no to new pollution sources. Brownfield remediation should accelerate, turning contaminated sites into housing and open space instead of leaving them fenced off for decades.
+
+    On coastal flooding, Connecticut needs a serious climate resilience program: state investment in flood protection for shoreline towns, updated building and zoning standards, and concrete planning about where we build. Every dollar spent on resilience saves multiples in disaster recovery.
+
+    It's easy to say we are a small state and we don't matter. Our size should make us nimble, the most forward-thinking state on the environment in the country. Decades of misinformation from big energy has perverted the conversation. It's time to be brave in the face of that misinformation and make the big investments we need to leave a livable planet for the next generation.
+
+    Air quality is a regional fight. Much of our pollution blows in from upwind states, and Connecticut should press that case through the courts and regional compacts while cutting our own emissions.
+
+- candidate_first_name: Josh
+  candidate_last_name: Elliott
+  state: ct
+  race: Governor # must match one of the options!
+  party: Democratic # must match one of the options!
+  question: ct-q5
+  date: 2026-07-16
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  response: |
+    AI is arriving the way every major technology has: with enormous potential and with the costs falling on working families unless government sets the rules. Connecticut should shape this transition instead of reacting to it.
+
+    Workforce comes first. Workers deserve a say in how AI is deployed in their workplaces, protection from algorithmic surveillance and automated firing, and deep investment in retraining as jobs change. When AI displaces workers, the productivity gains should flow to the people affected, through wages, hours, and transition support.
+
+    On privacy, Connecticut already has data privacy laws. I would strengthen it: limits on how companies collect and use personal data to train AI systems, transparency requirements when AI makes decisions about housing, credit, hiring, or insurance, and a right to human review of those decisions.
+
+    Equity of access means every district's students learn to use these tools, and broadband reaches every home, so AI widens opportunity instead of concentrating it.
+
+    The competitiveness case runs through our universities. The research investments I described earlier apply here directly: Connecticut can be a hub for AI research and the jobs that come with it, on terms that serve the public.
