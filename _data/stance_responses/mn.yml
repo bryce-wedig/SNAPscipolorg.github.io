@@ -1683,6 +1683,72 @@
     
     KEYWORDS: Working with other states and countries.
 
+- candidate_first_name: Amy
+  candidate_last_name: Klobuchar
+  state: mn
+  race: Governor
+  district: 
+  party: Democratic
+  date: 2026-07-20
+  question: mn-q1
+  response: |
+    _Sen. Klobuchar provided this [letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team._
+
+- candidate_first_name: Amy
+  candidate_last_name: Klobuchar
+  state: mn
+  race: Governor
+  district: 
+  party: Democratic
+  date: 2026-07-20
+  question: mn-q2
+  response: |
+    _Sen. Klobuchar provided this [letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team._
+
+- candidate_first_name: Amy
+  candidate_last_name: Klobuchar
+  state: mn
+  race: Governor
+  district: 
+  party: Democratic
+  date: 2026-07-20
+  question: mn-q3
+  response: |
+    _Sen. Klobuchar provided this [letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team._
+
+- candidate_first_name: Amy
+  candidate_last_name: Klobuchar
+  state: mn
+  race: Governor
+  district: 
+  party: Democratic
+  date: 2026-07-20
+  question: mn-q4
+  response: |
+    _Sen. Klobuchar provided this [letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team._
+
+- candidate_first_name: Amy
+  candidate_last_name: Klobuchar
+  state: mn
+  race: Governor
+  district: 
+  party: Democratic
+  date: 2026-07-20
+  question: mn-q5
+  response: |
+    _Sen. Klobuchar provided this [letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team._
+
+- candidate_first_name: Amy
+  candidate_last_name: Klobuchar
+  state: mn
+  race: Governor
+  district: 
+  party: Democratic
+  date: 2026-07-20
+  question: mn-q6
+  response: |
+    _Sen. Klobuchar provided this [letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team._
+
 - candidate_first_name: Louis
   candidate_last_name: McNutt
   state: mn

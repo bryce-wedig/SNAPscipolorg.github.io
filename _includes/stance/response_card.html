@@ -70,7 +70,7 @@
       {%- endfor -%}
       <p class="stance-response-card__question"><span class="stance-response-card__qn">Q{{ q_num }}</span> {{ linked_question.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</p>
     {%- endif -%}
-    {{ r.response | markdownify }}
+    {{ r.response | liquify | markdownify }}
   </div>
   {%- if r.date -%}
     <footer class="stance-response-card__footer">
