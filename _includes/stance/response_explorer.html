@@ -310,7 +310,7 @@
                         </div>
                       </header>
                       {%- if resp -%}
-                        <div class="stance-answer-text">{{ resp.response | markdownify }}</div>
+                        <div class="stance-answer-text">{{ resp.response | liquify | markdownify }}</div>
                       {%- else -%}
                         <span class="stance-compare-card__empty text-muted">No response</span>
                       {%- endif -%}
