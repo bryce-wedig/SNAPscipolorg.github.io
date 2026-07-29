@@ -2,12 +2,12 @@
 layout: gridlay
 collection: initiatives
 sitemap: true
-state: md                                 
-state_name: Maryland
-demonym_plural: Marylanders
-team_email: sabrinayasmeenkhan@gmail.com
-ballot_lookup_url: https://elections.maryland.gov/elections/2026/primary_candidates/2026_GP_statewide_candidatelist.html
-ballot_lookup_label: Maryland State Board of Elections Website
+state: ma
+state_name: Massachusetts
+demonym_plural: Bay Staters
+team_email: stanceonscience.massachusetts@gmail.com
+ballot_lookup_url: https://www.sec.state.ma.us/divisions/elections/recent-updates/upcoming-elections.htm
+ballot_lookup_label: website of the Secretary of the Commonwealth of Massachusetts
 # Socials (optional — leave blank to hide a link, or all blank to hide the footer):
 instagram_url:
 facebook_url:
@@ -60,7 +60,7 @@ published: true
   <a href="{{ '/initiatives/stance-on-science#stance-map' | relative_url }}" class="stance-back-link"><i class="fa-solid fa-arrow-left"></i> Back to map</a>
   <h1>{{ page.state_name }} Candidate Page</h1>
   <p>
-    Created by the {{ team_name }} team. Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> and <a href="mailto:amattso1@jhu.edu">amattso1@jhu.edu</a> with any questions.{%- if socials.size > 0 %} Follow us on
+    Created by the {{ team_name }} team. Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> with any questions.{%- if socials.size > 0 %} Follow us on
     {%- for s in socials -%}
       {%- if forloop.first %} {{ s }}
       {%- elsif forloop.last -%}
@@ -94,12 +94,12 @@ published: true
   <p>This webpage houses the responses to {{ questions.size }} questions
   crafted by the {{ team_name }} team.</p>
   <p>Only official candidates who will appear on ballots were contacted.</p>
-  <p>Candidates were contacted in April 2026 (with a follow-up to those who
+  <p>Candidates were contacted in late June 2026 (with a follow-up to those who
   did not initially respond) and given the opportunity to answer all questions. Only the responses of candidates who answered the questions are
   included. None of the candidates' responses were modified in any way before
   being published on this resource page.</p>
 
-  <p><u>For the <strong>June 2026 Primary Election</strong></u>, only candidates in
+  <p><u>For the <strong>2026 Massachusetts elections</strong></u>, only candidates in
   the following elections were contacted<sup>1</sup>:</p>
   {%- comment -%}
     For races that have district/party sub-bullets, wrap them in a
@@ -108,22 +108,46 @@ published: true
   {%- endcomment -%}
   <div>
     <details class="stance-race-group">
-      <summary>US House of Representatives</summary>
+      <summary>US Senate</summary>
         <ul>
-          <li>District 5, 6, and 7</li>
+          <li>Democratic and Republican primary candidates</li>
+          <li>General election candidates, including independent candidates</li>
         </ul>
     </details>
-    <div class="stance-race-flat">Maryland Governor</div>
-    <div class="stance-race-flat">Maryland Lieutenant Governor</div>
-    <div class="stance-race-flat">Baltimore Sheriff</div>
+    <details class="stance-race-group">
+      <summary>US House</summary>
+        <ul>
+          <li>Democratic and Republican primary candidates</li>
+          <li>General election candidates, including independent candidates</li>
+        </ul>
+    </details>
+    <details class="stance-race-group">
+      <summary>Governor</summary>
+        <ul>
+          <li>Democratic and Republican primary candidates</li>
+          <li>General election candidates, including independent candidates</li>
+        </ul>
+    </details>
+    <details class="stance-race-group">
+      <summary>Massachusetts Senate</summary>
+        <ul>
+          <li>All contested races in the Democratic and Republican primaries</li>
+          <li>Independent candidates running in the general election</li>
+        </ul>
+    </details>
+    <details class="stance-race-group">
+      <summary>Massachusetts House</summary>
+        <ul>
+          <li>All contested races in the Democratic and Republican primaries</li>
+          <li>Independent candidates running in the general election</li>
+        </ul>
+    </details>
   </div>
   <p><small><sup>1</sup> These primary elections were prioritized because
   they have more than one official candidate on the ballot.</small></p>
 
-  <p>Prior to the <u>general election in November 2026</u>,
-  additional candidates will be contacted across all state districts. For a
-  complete list of which elections will be targeted at that time, please
-  check back in Summer 2026.</p>
+  <p>The contacted candidates include candidates running in the 2026 primary
+  and general elections.</p>
   </div>
 </details>
 
@@ -157,7 +181,7 @@ published: true
   candidates.</u> The goals of this initiative can be found
   <a href="{{ '/initiatives/stance-on-science' | relative_url }}">here</a>.
   Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a>
-   and <a href="mailto:amattso1@jhu.edu">amattso1@jhu.edu</a> with any questions.</p>
+  with any questions.</p>
 </div>
 
 <div class="ballot-lookup-callout">
@@ -169,6 +193,7 @@ published: true
 
 <hr class="stance-rule"/>
 
-{% include stance/response_explorer.html heading="June 2026 Primary Election" %}
-  
+{% include stance/response_explorer.html heading="2026 Massachusetts Elections" %}
+
 {% include stance/press_mentions.html state=page.state %}
+  

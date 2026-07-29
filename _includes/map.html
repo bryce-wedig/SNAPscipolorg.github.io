@@ -5,7 +5,7 @@
 
 
 <!-- Content starts here -->
-<p>SNAP boasts over <span style="font-weight: bold; color: #E89142;">150 active members</span> across <span style="font-weight: bold; color: #213863;">30 member organizations</span>. Check some out using the interactive map below!</p>
+<p>SNAP boasts over <span style="font-weight: bold; color: var(--snap-orange);">150 active members</span> across <span style="font-weight: bold; color: var(--snap-blue);">30 member organizations</span>. Check some out using the interactive map below!</p>
 
 <div class="container">
 <div class="row" align="center">
@@ -19,10 +19,14 @@
 		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 	}).addTo(map);
 
-	const memberColor = '#E89142';
+	const snap = (name) => getComputedStyle(document.documentElement)
+		.getPropertyValue(name).trim();
+
+	const memberColor = snap('--snap-orange');
+	const memberStroke = snap('--snap-orange-dark');
 	const memberIcon = L.divIcon({
 		html: '<svg xmlns="http://www.w3.org/2000/svg" width="25" height="41" viewBox="0 0 25 41">' +
-			'<path d="M12.5 0C5.6 0 0 5.6 0 12.5C0 21.9 12.5 41 12.5 41S25 21.9 25 12.5C25 5.6 19.4 0 12.5 0Z" fill="' + memberColor + '" stroke="#C47830" stroke-width="1"/>' +
+			'<path d="M12.5 0C5.6 0 0 5.6 0 12.5C0 21.9 12.5 41 12.5 41S25 21.9 25 12.5C25 5.6 19.4 0 12.5 0Z" fill="' + memberColor + '" stroke="' + memberStroke + '" stroke-width="1"/>' +
 			'<circle cx="12.5" cy="12.5" r="4" fill="white"/>' +
 			'</svg>',
 		className: '',
@@ -31,7 +35,7 @@
 		popupAnchor: [0, -41],
 	});
 
-	const orgColor = '#213863';
+	const orgColor = snap('--snap-blue');
 	const orgIcon = L.divIcon({
 		html: '<svg xmlns="http://www.w3.org/2000/svg" width="25" height="41" viewBox="0 0 25 41">' +
 			'<path d="M12.5 0C5.6 0 0 5.6 0 12.5C0 21.9 12.5 41 12.5 41S25 21.9 25 12.5C25 5.6 19.4 0 12.5 0Z" fill="' + orgColor + '" stroke="#182847" stroke-width="1"/>' +

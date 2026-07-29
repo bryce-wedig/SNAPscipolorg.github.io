@@ -2,15 +2,15 @@
 layout: gridlay
 collection: initiatives
 sitemap: true
-state: md                                 
-state_name: Maryland
-demonym_plural: Marylanders
-team_email: sabrinayasmeenkhan@gmail.com
-ballot_lookup_url: https://elections.maryland.gov/elections/2026/primary_candidates/2026_GP_statewide_candidatelist.html
-ballot_lookup_label: Maryland State Board of Elections Website
+state: fl
+state_name: Florida
+demonym_plural: Floridians
+team_email: stanceonscienceflorida@gmail.com
+ballot_lookup_url: https://dos.fl.gov/elections/for-voters/check-your-voter-status-and-polling-place
+ballot_lookup_label: Florida Department of State Voter Information Lookup
 # Socials (optional — leave blank to hide a link, or all blank to hide the footer):
-instagram_url:
-facebook_url:
+instagram_url: https://www.instagram.com/stanceonscienceflorida/
+facebook_url: https://www.facebook.com/profile.php?id=61591393215552
 tiktok_url:
 x_url:
 bluesky_url:
@@ -60,7 +60,7 @@ published: true
   <a href="{{ '/initiatives/stance-on-science#stance-map' | relative_url }}" class="stance-back-link"><i class="fa-solid fa-arrow-left"></i> Back to map</a>
   <h1>{{ page.state_name }} Candidate Page</h1>
   <p>
-    Created by the {{ team_name }} team. Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> and <a href="mailto:amattso1@jhu.edu">amattso1@jhu.edu</a> with any questions.{%- if socials.size > 0 %} Follow us on
+    Created by the {{ team_name }} team. Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> with any questions.{%- if socials.size > 0 %} Follow us on
     {%- for s in socials -%}
       {%- if forloop.first %} {{ s }}
       {%- elsif forloop.last -%}
@@ -92,14 +92,16 @@ published: true
   <summary><span class="ic"><i class="fa-solid fa-circle-info"></i></span> How to use this resource <i class="fa-solid fa-chevron-right chev"></i></summary>
   <div class="info__body">
   <p>This webpage houses the responses to {{ questions.size }} questions
-  crafted by the {{ team_name }} team.</p>
+  crafted by the {{ team_name }} team. Every question was sent to candidates
+  in both English and Spanish.</p>
   <p>Only official candidates who will appear on ballots were contacted.</p>
-  <p>Candidates were contacted in April 2026 (with a follow-up to those who
+  <p>Candidates were contacted in July 2026 (with a follow-up to those who
   did not initially respond) and given the opportunity to answer all questions. Only the responses of candidates who answered the questions are
   included. None of the candidates' responses were modified in any way before
   being published on this resource page.</p>
 
-  <p><u>For the <strong>June 2026 Primary Election</strong></u>, only candidates in
+  <p><u>For the <strong>August 2026 Primary Election and November 2026 General
+  Election</strong></u>, only candidates in
   the following elections were contacted<sup>1</sup>:</p>
   {%- comment -%}
     For races that have district/party sub-bullets, wrap them in a
@@ -107,29 +109,41 @@ published: true
     For a race with no sub-bullets, use <div class="stance-race-flat">.
   {%- endcomment -%}
   <div>
+    <div class="stance-race-flat">US Senate Special Election</div>
     <details class="stance-race-group">
       <summary>US House of Representatives</summary>
         <ul>
-          <li>District 5, 6, and 7</li>
+          <li>Districts 24, 27, and 28</li>
         </ul>
     </details>
-    <div class="stance-race-flat">Maryland Governor</div>
-    <div class="stance-race-flat">Maryland Lieutenant Governor</div>
-    <div class="stance-race-flat">Baltimore Sheriff</div>
+    <div class="stance-race-flat">Florida Governor</div>
+    <details class="stance-race-group">
+      <summary>Florida State Senate</summary>
+        <ul>
+          <li>Districts 34, 36, 38, and 40</li>
+        </ul>
+    </details>
+    <details class="stance-race-group">
+      <summary>Florida State House of Representatives</summary>
+        <ul>
+          <li>Districts 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116,
+          117, 118, 119, and 120</li>
+        </ul>
+    </details>
   </div>
   <p><small><sup>1</sup> These primary elections were prioritized because
   they have more than one official candidate on the ballot.</small></p>
 
-  <p>Prior to the <u>general election in November 2026</u>,
-  additional candidates will be contacted across all state districts. For a
-  complete list of which elections will be targeted at that time, please
-  check back in Summer 2026.</p>
+  <p>The contacted candidates include those running in both the August 2026
+  primary election and the November 2026 general election.</p>
   </div>
 </details>
 
 <details class="info">
   <summary><span class="ic"><i class="fa-solid fa-list-check"></i></span> The questions posed<i class="fa-solid fa-chevron-right chev"></i></summary>
   <div class="info__body">
+    <p>Each question is shown below in English, followed by the Spanish
+    translation that was sent to candidates.</p>
     <ol class="qlist">
       {%- for q in questions -%}
         {%- if q.tag.first -%}
@@ -139,7 +153,10 @@ published: true
         {%- endif -%}
         <li>
           <div>
-            {{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}{% if q_tag_list.size > 0 %} (<em>see{% for t in q_tag_list %}{% if forloop.first %} "{{ t }}"{% elsif forloop.last %}{% if q_tag_list.size > 2 %}, and "{{ t }}"{% else %} and "{{ t }}"{% endif %}{% else %}, "{{ t }}"{% endif %}{% endfor %}</em>){% endif %}
+            <p>{{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}{% if q_tag_list.size > 0 %} (<em>see{% for t in q_tag_list %}{% if forloop.first %} "{{ t }}"{% elsif forloop.last %}{% if q_tag_list.size > 2 %}, and "{{ t }}"{% else %} and "{{ t }}"{% endif %}{% else %}, "{{ t }}"{% endif %}{% endfor %}</em>){% endif %}</p>
+            {%- if q.question_es %}
+            <p lang="es"><em>{{ q.question_es | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</em></p>
+            {%- endif %}
           </div>
         </li>
       {%- endfor -%}
@@ -157,7 +174,7 @@ published: true
   candidates.</u> The goals of this initiative can be found
   <a href="{{ '/initiatives/stance-on-science' | relative_url }}">here</a>.
   Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a>
-   and <a href="mailto:amattso1@jhu.edu">amattso1@jhu.edu</a> with any questions.</p>
+  with any questions.</p>
 </div>
 
 <div class="ballot-lookup-callout">
@@ -169,6 +186,6 @@ published: true
 
 <hr class="stance-rule"/>
 
-{% include stance/response_explorer.html heading="June 2026 Primary Election" %}
-  
+{% include stance/response_explorer.html heading="August 2026 Primary Election and November 2026 General Election" %}
+
 {% include stance/press_mentions.html state=page.state %}

@@ -87,7 +87,7 @@
             <span class="badge badge--tag" data-tag="{{ t | escape }}" data-filter="tag" role="button" tabindex="0" aria-label="Filter by {{ t | escape }}">{{ t }}</span>
           {%- endfor -%}
         </div>
-        <div class="qa__a">{{ resp.response | markdownify }}</div>
+        <div class="qa__a">{{ resp.response | liquify | markdownify }}</div>
       </div>
     {%- endif -%}
   {%- endfor -%}

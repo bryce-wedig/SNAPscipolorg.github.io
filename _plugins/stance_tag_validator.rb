@@ -10,6 +10,31 @@ module StanceResponseValidator
   QUESTION_REQUIRED_FIELDS = %w[id question tag].freeze
   COUNTY_RACE_RACE = "Local County Races [All]".freeze
 
+  # `races` is the canonical list of allowed race values; `race_ballot_order` is
+  # the same set reordered by ballot position for the "Group by candidate" view.
+  # A race in only one list drifts silently — it either sorts to the end of the
+  # explorer or sits in the config as a dead entry — so require exact agreement.
+  def self.validate_filters(site)
+    filters = site.data[FILTERS_KEY]
+    return unless filters
+
+    races = Array(filters["races"])
+    ballot_order = Array(filters["race_ballot_order"])
+
+    problems = []
+    (races - ballot_order).each do |race|
+      problems << %(  - race "#{race}" is in `races` but missing from `race_ballot_order`)
+    end
+    (ballot_order - races).each do |race|
+      problems << %(  - race "#{race}" is in `race_ballot_order` but missing from `races`)
+    end
+
+    return if problems.empty?
+
+    raise ["Stance filter validation failed:", *problems,
+           "`races` and `race_ballot_order` in _data/stance_filters.yml must contain the same entries."].join("\n")
+  end
+
   def self.validate(site)
     filters = site.data[FILTERS_KEY]
     return unless filters
@@ -201,6 +226,7 @@ module StanceResponseValidator
 end
 
 Jekyll::Hooks.register :site, :post_read do |site|
+  StanceResponseValidator.validate_filters(site)
   StanceResponseValidator.validate_state_pages(site)
   StanceResponseValidator.validate(site)
 end

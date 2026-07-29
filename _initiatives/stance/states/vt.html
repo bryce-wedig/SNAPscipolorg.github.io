@@ -2,12 +2,12 @@
 layout: gridlay
 collection: initiatives
 sitemap: true
-state: md                                 
-state_name: Maryland
-demonym_plural: Marylanders
-team_email: sabrinayasmeenkhan@gmail.com
-ballot_lookup_url: https://elections.maryland.gov/elections/2026/primary_candidates/2026_GP_statewide_candidatelist.html
-ballot_lookup_label: Maryland State Board of Elections Website
+state: vt
+state_name: Vermont
+demonym_plural: Vermonters
+team_email: jessaburling0606@gmail.com
+ballot_lookup_url: https://legislature.vermont.gov/reports-and-research/research/reapportionment/2022-house-of-representatives-reapportionment/districts-by-town-2/
+ballot_lookup_label: Vermont General Assembly "House Districts by Town" website
 # Socials (optional — leave blank to hide a link, or all blank to hide the footer):
 instagram_url:
 facebook_url:
@@ -60,7 +60,7 @@ published: true
   <a href="{{ '/initiatives/stance-on-science#stance-map' | relative_url }}" class="stance-back-link"><i class="fa-solid fa-arrow-left"></i> Back to map</a>
   <h1>{{ page.state_name }} Candidate Page</h1>
   <p>
-    Created by the {{ team_name }} team. Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> and <a href="mailto:amattso1@jhu.edu">amattso1@jhu.edu</a> with any questions.{%- if socials.size > 0 %} Follow us on
+    Created by the {{ team_name }} team. Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> with any questions.{%- if socials.size > 0 %} Follow us on
     {%- for s in socials -%}
       {%- if forloop.first %} {{ s }}
       {%- elsif forloop.last -%}
@@ -94,12 +94,13 @@ published: true
   <p>This webpage houses the responses to {{ questions.size }} questions
   crafted by the {{ team_name }} team.</p>
   <p>Only official candidates who will appear on ballots were contacted.</p>
-  <p>Candidates were contacted in April 2026 (with a follow-up to those who
+  <p>Candidates were contacted in June 2026 (with a follow-up to those who
   did not initially respond) and given the opportunity to answer all questions. Only the responses of candidates who answered the questions are
   included. None of the candidates' responses were modified in any way before
   being published on this resource page.</p>
 
-  <p><u>For the <strong>June 2026 Primary Election</strong></u>, only candidates in
+  <p><u>For the <strong>August 2026 Primary Election and November 2026 General
+  Election</strong></u>, only candidates in
   the following elections were contacted<sup>1</sup>:</p>
   {%- comment -%}
     For races that have district/party sub-bullets, wrap them in a
@@ -110,20 +111,72 @@ published: true
     <details class="stance-race-group">
       <summary>US House of Representatives</summary>
         <ul>
-          <li>District 5, 6, and 7</li>
+          <li>Republican Primary for VT Representative for At-Large District</li>
+          <li>Democratic Primary for VT Representative for At-Large District</li>
+          <li>Independent Primary for VT Representative for At-Large District</li>
         </ul>
     </details>
-    <div class="stance-race-flat">Maryland Governor</div>
-    <div class="stance-race-flat">Maryland Lieutenant Governor</div>
-    <div class="stance-race-flat">Baltimore Sheriff</div>
+    <details class="stance-race-group">
+      <summary>Vermont State Senate</summary>
+        <ul>
+          <li>Republican & Democratic Primaries for Addison District, Bennington District, Caledonia District, Chittenden Central District, Chittenden North District, Chittenden Southeast District, Essex District, Franklin District, Grand Isle District, Lamoille District, Orange District, Rutland District, Washington District, Windham District, Windsor District</li>
+        </ul>
+    </details>
+    <details class="stance-race-group">
+      <summary>Vermont House of Representatives</summary>
+        <ul>
+          <li>Republican & Democratic Primaries for Addison Districts 1-5, Bennington Districts 1-5, Rutland District, Caledonia-Essex District, Caledonia-Washington District, Caledonia Districts 1-3, Chittenden-Franklin District, Chittenden Districts 1-25, Franklin Districts 1-8, Isle-Chittenden District, Lamoille-Washington District, Lamoille Districts 1-3, Orange-Caledonia District, Orange-Washington-Addison District, Orange Districts 1-3, Orleans-Lamoille District, Orleans Districts 1-4, Rutland-Bennington District, Rutland-Windsor District, Rutland Districts 1-11, Washington Districts 1-6, Washington-Chittenden District, Windham-Windsor-Bennington District, Windham Districts 1-9, Windsor-Addison District, Windsor-Orange Districts 1-2, Windsor-Windham District, Windsor Districts 1-6</li>
+        </ul>
+    </details>
+    <details class="stance-race-group">
+      <summary>Vermont Governor</summary>
+        <ul>
+          <li>Republican Primary</li>
+          <li>Democratic Primary</li>
+          <li>Independent Primary</li>
+        </ul>
+    </details>
+    <details class="stance-race-group">
+      <summary>Vermont Lieutenant Governor</summary>
+        <ul>
+          <li>Republican Primary</li>
+          <li>Democratic Primary</li>
+        </ul>
+    </details>
+    <details class="stance-race-group">
+      <summary>Vermont Attorney General</summary>
+        <ul>
+          <li>Republican Primary</li>
+          <li>Democratic Primary</li>
+        </ul>
+    </details>
+    <details class="stance-race-group">
+      <summary>Vermont Secretary of State</summary>
+        <ul>
+          <li>Republican Primary</li>
+          <li>Democratic Primary</li>
+        </ul>
+    </details>
+    <details class="stance-race-group">
+      <summary>Vermont Treasurer</summary>
+        <ul>
+          <li>Republican Primary</li>
+          <li>Democratic Primary</li>
+        </ul>
+    </details>
+    <details class="stance-race-group">
+      <summary>Vermont Auditor</summary>
+        <ul>
+          <li>Republican Primary</li>
+          <li>Democratic Primary</li>
+        </ul>
+    </details>
   </div>
   <p><small><sup>1</sup> These primary elections were prioritized because
   they have more than one official candidate on the ballot.</small></p>
 
-  <p>Prior to the <u>general election in November 2026</u>,
-  additional candidates will be contacted across all state districts. For a
-  complete list of which elections will be targeted at that time, please
-  check back in Summer 2026.</p>
+  <p>The contacted candidates include those running in both the August 2026
+  primary election and the November 2026 general election.</p>
   </div>
 </details>
 
@@ -157,7 +210,7 @@ published: true
   candidates.</u> The goals of this initiative can be found
   <a href="{{ '/initiatives/stance-on-science' | relative_url }}">here</a>.
   Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a>
-   and <a href="mailto:amattso1@jhu.edu">amattso1@jhu.edu</a> with any questions.</p>
+  with any questions.</p>
 </div>
 
 <div class="ballot-lookup-callout">
@@ -169,6 +222,6 @@ published: true
 
 <hr class="stance-rule"/>
 
-{% include stance/response_explorer.html heading="June 2026 Primary Election" %}
-  
+{% include stance/response_explorer.html heading="August 2026 Primary Election and November 2026 General Election" %}
+
 {% include stance/press_mentions.html state=page.state %}
