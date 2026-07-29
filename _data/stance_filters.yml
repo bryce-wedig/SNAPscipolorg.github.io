@@ -36,6 +36,26 @@ races:
   - US House of Representatives
   - US Senate
 
+# Ballot order for grouping candidates in the "Group by candidate" view. Must
+# contain exactly the entries in `races` above — the build fails if the two
+# lists disagree.
+race_ballot_order:
+  - US Senate
+  - US House of Representatives
+  - Governor
+  - Lieutenant Governor
+  - Attorney General
+  - Secretary of State
+  - State Treasurer
+  - State Auditor
+  - State Senate
+  - State Assembly
+  - State House of Representatives
+  - State Board of Education
+  - University Board of Regents
+  - Mayor
+  - Local County Races [All]
+
 parties:
   - Democratic
   - Libertarian
