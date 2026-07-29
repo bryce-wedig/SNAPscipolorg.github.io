@@ -1682,3 +1682,225 @@
     “Border security, mail security, US random highway checks for drug trafficking 90 and 35. Stricter border checks between the U>S> and Canada. Both governments working together to target drug trafficking.” 
     
     KEYWORDS: Working with other states and countries.
+
+- candidate_first_name: Amy
+  candidate_last_name: Klobuchar
+  state: mn
+  race: Governor
+  district: 
+  party: Democratic
+  date: 2026-07-20
+  question: mn-q1
+  response: |
+    _Sen. Klobuchar provided this [letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team._
+
+- candidate_first_name: Amy
+  candidate_last_name: Klobuchar
+  state: mn
+  race: Governor
+  district: 
+  party: Democratic
+  date: 2026-07-20
+  question: mn-q2
+  response: |
+    _Sen. Klobuchar provided this [letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team._
+
+- candidate_first_name: Amy
+  candidate_last_name: Klobuchar
+  state: mn
+  race: Governor
+  district: 
+  party: Democratic
+  date: 2026-07-20
+  question: mn-q3
+  response: |
+    _Sen. Klobuchar provided this [letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team._
+
+- candidate_first_name: Amy
+  candidate_last_name: Klobuchar
+  state: mn
+  race: Governor
+  district: 
+  party: Democratic
+  date: 2026-07-20
+  question: mn-q4
+  response: |
+    _Sen. Klobuchar provided this [letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team._
+
+- candidate_first_name: Amy
+  candidate_last_name: Klobuchar
+  state: mn
+  race: Governor
+  district: 
+  party: Democratic
+  date: 2026-07-20
+  question: mn-q5
+  response: |
+    _Sen. Klobuchar provided this [letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team._
+
+- candidate_first_name: Amy
+  candidate_last_name: Klobuchar
+  state: mn
+  race: Governor
+  district: 
+  party: Democratic
+  date: 2026-07-20
+  question: mn-q6
+  response: |
+    _Sen. Klobuchar provided this [letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team._
+
+- candidate_first_name: Louis
+  candidate_last_name: McNutt
+  state: mn
+  race: State Senate
+  district: 29
+  party: Democratic
+  date: 2026-07-23
+  question: mn-q1
+  response: |
+    “I would refer to scientists on any vote that came up around issues of health, safety, environmental protections or whatever other subject enjoys a broad consensus from the scientific community.” 
+    
+    KEYWORDS: Health, Safety, Environment, Consensus
+
+- candidate_first_name: Louis
+  candidate_last_name: McNutt
+  state: mn
+  race: State Senate
+  district: 29
+  party: Democratic
+  date: 2026-07-23
+  question: mn-q2
+  response: |
+    “I believe that the Boundary Waters should be protected from extractive mining. Our children deserve to grow up with the same great outdoors that we did, and the proposed mine poses a significant risk to the BWCA. We know that mining activity poses a huge environmental risk based on decades of experience. I would support restoring and expanding the 20-year ban.” 
+    
+    KEYWORDS: Boundary Waters, Preservation. Protection, Extractive Mining
+
+- candidate_first_name: Louis
+  candidate_last_name: McNutt
+  state: mn
+  race: State Senate
+  district: 29
+  party: Democratic
+  date: 2026-07-23
+  question: mn-q3
+  response: |
+    “I want strong protections around Minnesota’s drinking water and I want the companies responsible for putting forever chemicals into our water and environment to pay to clean them up. I would explore ways of making that happen. I would also support measures to expand testing in areas that need it.” 
+    
+    KEYWORDS: Environment, PFAS, Forever Chemicals, Clean Up
+
+- candidate_first_name: Louis
+  candidate_last_name: McNutt
+  state: mn
+  race: State Senate
+  district: 29
+  party: Democratic
+  date: 2026-07-23
+  question: mn-q4
+  response: |
+    “I strongly support policies that would measure the impact of data centers as well as strong environmental and community-impact review processes to be carried out prior to approval for new centers. No center should be built if it will negatively impact people’s health, quality of life in their homes and communities, or the legacy of our natural spaces.” 
+    
+    KEYWORDS: Data Center, Review, Health, Quality of Life, Environment
+
+- candidate_first_name: Louis
+  candidate_last_name: McNutt
+  state: mn
+  race: State Senate
+  district: 29
+  party: Democratic
+  date: 2026-07-23
+  question: mn-q5
+  response: |
+    “I will support whatever measures come up to continue funding scientific research in our state. The economic activity that it contributes is important and so is the impact that research has on our lives and those of our children.” 
+    
+    KEYWORDS: Preserve, Support, Research, Funding, Benefits, Economic
+
+- candidate_first_name: Louis
+  candidate_last_name: McNutt
+  state: mn
+  race: State Senate
+  district: 29
+  party: Democratic
+  date: 2026-07-23
+  question: mn-q6
+  response: |
+    “I support education and community intervention pathways to reduce overdose deaths, including programs that allow advocates to work with police departments to enhance public health and safety.” 
+    
+    KEYWORDS: Education, Intervention, Overdose, Health, Safety, Partnerships
+
+- candidate_first_name: Latonya
+  candidate_last_name: Reeves
+  state: mn
+  race: US House of Representatives
+  district: 5
+  party: Democratic
+  date: 2026-07-24
+  question: mn-q1
+  response: |
+    “As a union president, I know that it is imperative that we reach out to subject matter experts, especially when it comes to matters of great importance. It would be a pleasure to work with all to get pertinent information in regards to Policy and issues.” 
+    
+    KEYWORDS: Pleasure to work with all
+
+- candidate_first_name: Latonya
+  candidate_last_name: Reeves
+  state: mn
+  race: US House of Representatives
+  district: 5
+  party: Democratic
+  date: 2026-07-24
+  question: mn-q2
+  response: |
+    “Overturning the 20 year mining band was a significant blow to this beautiful area. Twin Metals which is a subsidiary of a Chilean mining company, is looking for profits over environmental protections. While I want good paying jobs in the region, we also need to look at protecting our most valuable resource here in Minnesota: our water. I was support legislation to protect the watershed and to ban mining in the Boundary Waters.” 
+    
+    KEYWORDS: Valuable resource
+
+- candidate_first_name: Latonya
+  candidate_last_name: Reeves
+  state: mn
+  race: US House of Representatives
+  district: 5
+  party: Democratic
+  date: 2026-07-24
+  question: mn-q3
+  response: |
+    “PFAS have major health risks associated with exposure. The chemicals travel from industrial processes up and down the region. The way that the legislation was written was that there could be no future bans on mining. This is unacceptable. We must regulate significantly around environmental protections and mining in the boundary waters.” 
+    
+    KEYWORDS: Environmental harm
+
+- candidate_first_name: Latonya
+  candidate_last_name: Reeves
+  state: mn
+  race: US House of Representatives
+  district: 5
+  party: Democratic
+  date: 2026-07-24
+  question: mn-q4
+  response: |
+    “Data centers must be regulated in order to protect Community. They have been significant environmental impacts as well as an impact on jobs. I have talked to several union members about artificial intelligence and how it can impact their employment. Many want technological advances, but they don’t want it at the expense of the environment. We must explore options such as cold water input into data centers and an increase in environmental legislation/ordinances from the city government all the way up to the Federal level” 
+    
+    KEYWORDS: Cold water input
+
+- candidate_first_name: Latonya
+  candidate_last_name: Reeves
+  state: mn
+  race: US House of Representatives
+  district: 5
+  party: Democratic
+  date: 2026-07-24
+  question: mn-q5
+  response: |
+    “Research in science is how we move communities. We must allow our skilled scientists to be able to research their areas of interest and discuss legislation to policy makers in orderto make informed decisions.” 
+    
+    KEYWORDS: Skilled workers
+
+- candidate_first_name: Latonya
+  candidate_last_name: Reeves
+  state: mn
+  race: US House of Representatives
+  district: 5
+  party: Democratic
+  date: 2026-07-24
+  question: mn-q6
+  response: |
+    “As a probation officer, I see firsthand how our in action harms the most vulnerable. We need to invest in chemical dependency treatment, sober  housing, alternatives to Policing, mental health initiatives, and housing programs that will allow people the time to work on their sobriety. This is very hard to do if you’re homeless. We need to look at the programs being realized and ensuring quality assurance,  accountability and oversight. This is a public health crisis not just a public safety one.” 
+    
+    KEYWORDS: Public health crisis

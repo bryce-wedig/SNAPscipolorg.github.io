@@ -7,6 +7,9 @@
   Inputs:
     include.heading — the election-cycle title shown above the responses
                       (e.g. "June 2026 Primary Elections").
+    include.additional_note — optional extra line shown right after the
+                      "check back soon" / "If you cannot find a candidate"
+                      note, regardless of whether responses exist yet.
 
   Reads page.state to load this state's responses + questions, so the host page
   does not need to pass them in.
@@ -19,9 +22,15 @@
   {%- if responses == empty or responses.size == 0 -%}
     <p><em>No candidate responses have been published yet. Please check back
     soon.</em></p>
+    {%- if include.additional_note -%}
+    <p><i>{{ include.additional_note | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</i></p>
+    {%- endif -%}
   {%- else -%}
 
   <p><i> If you cannot find a candidate, it means they have not yet submitted their response to Stance on Science. Please check back soon.</i></p>
+  {%- if include.additional_note -%}
+  <p><i>{{ include.additional_note | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</i></p>
+  {%- endif -%}
 
     {%- comment -%} Filter vocabulary present in this state's responses. {%- endcomment -%}
     {%- assign filters = site.data.stance_filters -%}
@@ -312,7 +321,7 @@
                         </div>
                       </header>
                       {%- if resp -%}
-                        <div class="stance-answer-text">{{ resp.response | markdownify }}</div>
+                        <div class="stance-answer-text">{{ resp.response | liquify | markdownify }}</div>
                       {%- else -%}
                         <span class="stance-compare-card__empty text-muted">No response</span>
                       {%- endif -%}
