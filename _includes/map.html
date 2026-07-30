@@ -131,6 +131,28 @@
 
 	map.on('click', onMapClick);
 
+	const legend = L.control.Legend({
+            position: "bottomright",
+            collapsed: false,
+            opacity: 1,
+            legends: [{
+                label: "Active Members",
+                type: "polygon",
+                sides: 4,
+                color: memberStroke,
+                fillColor: memberColor,
+                weight: 2
+            }, {
+                label: "Member Organizations",
+                type: "polygon",
+                sides: 4,
+                color: "#182847",
+                fillColor: orgColor,
+                weight: 2
+            }]
+        })
+        .addTo(map);
+
 </script>
 </div>
 </div>
