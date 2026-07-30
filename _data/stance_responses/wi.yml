@@ -92,7 +92,7 @@
   race: US House of Representatives
   district: 8
   party: Democratic
-  question: wi-q2
+  question: wi-q3
   date: 2026-07-10
   primary_candidate: false
   response: |
@@ -251,9 +251,9 @@
   state: wi
   race: State Assembly
   district: 57
-  party: Democratic
+  party: Republican
   question: wi-q1
-  date: 2026-07-18
+  date: 2026-07-20
   primary_candidate: false
   response: |
     I support responsible growth of AI and the data centers that power it because they are essential to America's economic competitiveness and national security. At the same time, data center projects should be transparent, respect local decision-making, and address impacts on water, energy, and infrastructure without unfairly shifting costs onto residents. My views are informed by research from industry, government, and academic sources, as well as discussions about AI's impact on jobs, privacy, energy, and rural communities. AI should strengthen American innovation while protecting taxpayers and individual rights.
@@ -265,9 +265,9 @@
   state: wi
   race: State Assembly
   district: 57
-  party: Democratic
+  party: Republican
   question: wi-q2
-  date: 2026-07-18
+  date: 2026-07-20
   primary_candidate: false
   response: |
     I support workforce development that prepares Wisconsinites for careers in agriculture, biotechnology, manufacturing, energy, and other high-demand industries. Strong partnerships between employers, technical colleges, and universities can help fill workforce shortages while keeping Wisconsin competitive. My priority is investing in education and training that leads to real jobs, supports innovation, and strengthens our rural and local economies.
@@ -279,9 +279,9 @@
   state: wi
   race: State Assembly
   district: 57
-  party: Democratic
+  party: Republican
   question: wi-q3
-  date: 2026-07-18
+  date: 2026-07-20
   primary_candidate: false
   response: |
     I support strengthening K-12 education by focusing on core academics, empowering parents, supporting teachers, and giving local school districts the flexibility to meet their communities' needs. I also support expanding career and technical education and STEM opportunities so students are prepared for college, the skilled trades, military service, or the workforce.
@@ -293,9 +293,9 @@
   state: wi
   race: State Assembly
   district: 57
-  party: Democratic
+  party: Republican
   question: wi-q5
-  date: 2026-07-18
+  date: 2026-07-20
   primary_candidate: false
   response: |
     I believe scientific expertise should inform public policy, especially on technical and emerging issues. At the same time, elected officials must also consider the Constitution, economic impacts, public input, and individual rights. My decisions will be informed by credible scientific evidence while balancing the broader responsibilities of representative government.
@@ -307,11 +307,323 @@
   state: wi
   race: State Assembly
   district: 57
-  party: Democratic
+  party: Republican
   question: wi-q7
-  date: 2026-07-18
+  date: 2026-07-20
   primary_candidate: false
   response: |
     I support strong disease surveillance, public health preparedness, and protecting Wisconsin's agriculture from outbreaks that threaten people and livestock. Government should provide timely, accurate information and coordinate with health professionals and producers while respecting individual rights and avoiding unnecessary mandates. Our response should be guided by science, transparency, and proportional measures.
 
     KEYWORDS: PUBLIC HEALTH
+
+- candidate_first_name: Emily
+  candidate_last_name: Berge
+  state: wi
+  race: US House of Representatives
+  district: 3
+  party: Democratic
+  question: wi-q1
+  date: 2026-07-29
+  primary_candidate: false
+  response: |
+    I support a meaningful moratorium on data centers so that local, state, and federal regulations may be implemented: regular folks must not see their rates increase, we must protect our natural resources and the peace of our communities, and these developments must use renewable energies to generate most of their energy needs. We also need to address the demand side of this equation and place human protections on the use of AI. As a mental health provider, I have seen the harmful effects of generative AI, particularly on our youth. Whether it be the shortcutting of our education system or unauthorized use of our personal images, AI must be regulated.
+
+    One of the reasons I support a moratorium on data centers and guardrails on the use of AI is that we do not have enough evidence yet on all of the potential harm that these structures and systems might have. As the only candidate with local elected experience, I value deeply the input from our local communities and believe that we have to give our communities a say in these massive developments.
+
+    KEYWORDS: Protect our people
+
+- candidate_first_name: Emily
+  candidate_last_name: Berge
+  state: wi
+  race: US House of Representatives
+  district: 3
+  party: Democratic
+  question: wi-q2
+  date: 2026-07-29
+  primary_candidate: false
+  response: |
+    In Congress, I will invest in high quality jobs in America, and particularly in Wisconsin. We should be leading the way in innovative practices that increase food production and efficiency while properly caring for the long-term health of our natural resources. I also believe that we must be investing in renewable energies, not just the energy generation, but also the infrastructure to support electrification. Wisconsin has seen the harmful impacts of lost manufacturing jobs, I would like to support these vacant spaces to become thriving hubs of economic growth with production of everything from electric vehicles to the mounting brackets for residential solar panels. Any decision on these policies will include experts and those most impacted at the table, I will always put Wisconsinites first.
+
+    KEYWORDS: Invest in local infrastructure
+
+- candidate_first_name: Emily
+  candidate_last_name: Berge
+  state: wi
+  race: US House of Representatives
+  district: 3
+  party: Democratic
+  question: wi-q3
+  date: 2026-07-29
+  primary_candidate: false
+  response: |
+    Wisconsin has been a case study for privatization of public goods and the harmful impacts vouchers have had on our public schools, our kids, and our communities. In Congress, I will fight against any attempts at a national voucher program, I will fight to increase special education funding, and I will fight to reduce childcare costs and increase investments in public post-high school opportunities. 
+
+    As City Council President in Eau Claire, I authored and passed legislation to provide transparency on our tax bills about how much money is leaving our community and going to voucher schools. I believe that families should be able to decide where there children go to school, but public dollars should stay with public schools. In Congress, I will continue to work with state and local partners to support our public schools and deliver the special education funding that is promised by the federal government.
+
+    KEYWORDS: Fund public schools
+
+- candidate_first_name: Emily
+  candidate_last_name: Berge
+  state: wi
+  race: US House of Representatives
+  district: 3
+  party: Democratic
+  question: wi-q5
+  date: 2026-07-29
+  primary_candidate: false
+  response: |
+    I believe that those closest to the problems are closest to the solutions and I will ensure that   scientists and other experts are at the table when making policy decisions.
+
+    KEYWORDS: Empower local leaders
+
+- candidate_first_name: Emily
+  candidate_last_name: Berge
+  state: wi
+  race: US House of Representatives
+  district: 3
+  party: Democratic
+  question: wi-q6
+  date: 2026-07-29
+  primary_candidate: false
+  response: |
+    I believe in using public dollars to support our communities and one of the most successful ways to improve our lives and build local economies is to fund research at public universities and labs. I will fight for a budget that restores research grants to public institutions. As the only candidate with local-elected experience, I have worked hand-in-hand with our universities to build partnerships that improve both our universities and communities.
+
+    Our budget is a moral document, I believe that what makes our country strong is investing in our people and communities. In Congress, I will push for budgets that improve quality of life, make life more affordable, and uplift communities. I would be proud to fund research grants to improve our health and economic outcomes.
+
+    KEYWORDS: Improve our communities
+
+- candidate_first_name: Ben
+  candidate_last_name: Brist
+  state: wi
+  race: State Assembly
+  district: 61
+  party: Democratic
+  question: wi-q1
+  date: 2026-07-24
+  primary_candidate: false
+  response: |
+    My stance on AI and data centers is one of caution. I support a data center moratorium to implement safeguards for Wisconsin citizens. I support making the companies building these data centers pay for the costs, not the communities they reside in, so citizens are not burdened with higher utility costs, worsened water quality, and worsened air quality through the consumption of fossil fuels. Data centers should require input from community members before ground is broken, while also running on clean energy, paying for their own electricity usage, and not impacting the local water sources. These positions are informed by local advocacy organizations such as those in Port Washington, existing research in public policy and scientific communities regarding the impact of data centers, and previous data center projects.
+
+    KEYWORDS: Caution, Moratorium, Self-Funded, Clean Energy, Regulation, Local Authority 
+
+- candidate_first_name: Ben
+  candidate_last_name: Brist
+  state: wi
+  race: State Assembly
+  district: 61
+  party: Democratic
+  question: wi-q2
+  date: 2026-07-24
+  primary_candidate: false
+  response: |
+    I support investing in agriculture, biotechnology, and energy, particularly to fix the issues caused by agricultural pollution. These industries are going to power economic growth in the future, and it is vital that Wisconsin, as America’s dairyland and agricultural hub, is at the forefront of investment and development of the workforce in these key sectors. Areas such as renewable energy are continuing to grow in the state of Wisconsin; backing policies surrounding economic development of the energy workforce must include expansion of renewable energy developments to expand our energy grid and create job developments in these growing sectors. I have experience working on biotech investment in particular while working in Tammy Baldwin’s office. I have seen firsthand the desire to expand Wisconsin’s biotech industry and will continue this work as an Assembly member.
+
+    KEYWORDS: Investment, Biotech, Development 
+
+- candidate_first_name: Ben
+  candidate_last_name: Brist
+  state: wi
+  race: State Assembly
+  district: 61
+  party: Democratic
+  question: wi-q3
+  date: 2026-07-24
+  primary_candidate: false
+  response: |
+    One of my core focuses centers around fully funding our public schools by using existing state funds. We need to use our budget surplus to fund public schools and lessen the property tax burden on Wisconsin residents. I also believe in the importance of teachers on the outcomes of students, especially in crucial subjects in STEM. We need to improve the working conditions of our educators by strengthening labor protections and providing them the pay and coverage so they can afford to stay in Wisconsin and educate the next generation. Rural communities cannot be left out of the equation either, as they face a crisis in funding. I want to end the voucher program that takes away state dollars to fund private schools and put that money back into our public schools, so that schools in the city center and our rural communities both receive the resources that they need to help students succeed. 
+
+    KEYWORDS: Proper Funding, Property Taxes, STEM
+  
+- candidate_first_name: Ben
+  candidate_last_name: Brist
+  state: wi
+  race: State Assembly
+  district: 61
+  party: Democratic
+  question: wi-q5
+  date: 2026-07-24
+  primary_candidate: false
+  response: |
+    I have great respect for the academic communities in our state and across the nation. I attended the Harvard Kennedy School because I believe in the importance of conducting research that informs policy. Therefore, I would refer to scientific research and new findings to inform my policy positions. I would ensure my policy votes balance public and expert opinions, because my role as a legislator is to answer the tough questions and how they apply to our community. I also know that I cannot be an expert on every subject, but that we have expansive research being done everyday by fields of experts, and we must support those communities by putting their research into our policy. My experience as a fellow in Dane County Executive Melissa Agard’s office on water pollution issues required me to balance stakeholders and expert opinions, and I will bring that same level of nuance to Madison.
+
+    KEYWORDS: Trust, Research, Policy
+
+- candidate_first_name: Ben
+  candidate_last_name: Brist
+  state: wi
+  race: State Assembly
+  district: 61
+  party: Democratic
+  question: wi-q7
+  date: 2026-07-24
+  primary_candidate: false
+  response: |
+    It is vital that we support our public health within the state to prepare for and defend against any infectious disease outbreak. That starts with ensuring everyone has access to healthcare so they can be covered in case of emergency. I support a public option at the state level so no Wisconsin resident faces rising healthcare costs and avoids getting necessary care. In doing so, our preventative health measures will be strengthened to catch infectious diseases that enter our state and prevent outbreaks. On a large scale, I support public health measures that protect every citizen, especially those who are most vulnerable. I support ensuring the Wisconsin DHS Division of Public Health is fully funded to prevent outbreaks like bird flu or the ongoing cyclospora outbreak. This also includes using our community health facilities to regularly screen for infectious diseases and providing them funding for PPE or other community health safety measures to distribute to our neighbors.
+
+    KEYWORDS: Affordable, Accessible, Public Option, Community Safety
+
+- candidate_first_name: Steve
+  candidate_last_name: Wicklund
+  state: wi
+  race: State Assembly
+  district: 33
+  party: Republican
+  question: wi-q1
+  date: 2026-07-27
+  primary_candidate: false
+  response: |
+    Artificial intelligence is already improving manufacturing, agriculture, healthcare, and small business, and Wisconsin should position itself to benefit from that innovation. Government’s role is to encourage responsible growth while protecting taxpayers and local communities.
+
+    I support data centers when they are located responsibly, use existing infrastructure whenever possible, pay the full cost of the utilities they require, and create measurable economic benefits. I do not support forcing projects into communities over local objections or allowing utility costs to be shifted onto Wisconsin families and businesses. Productive farmland, water resources, and grid reliability must all be considered before approval.
+
+    State policy should encourage AI research, workforce training, and cybersecurity while protecting personal privacy and critical infrastructure. Wisconsin’s technical colleges and universities should play a leading role in preparing workers for AI-related careers.
+
+    My views are informed by discussions with local governments, utility providers, economic development professionals, manufacturers, and the practical experience of balancing growth with responsible planning as a Village President.
+
+    KEYWORDS: Innovation, Local Control, Responsible Growth
+
+- candidate_first_name: Steve
+  candidate_last_name: Wicklund
+  state: wi
+  race: State Assembly
+  district: 33
+  party: Republican
+  question: wi-q2
+  date: 2026-07-27
+  primary_candidate: false
+  response: |
+    Wisconsin’s greatest strength is its skilled workforce. As a business owner who employs electricians and apprentices, I understand firsthand that our biggest challenge isn’t finding work—it’s finding qualified people.
+
+    I support expanding apprenticeship programs, strengthening technical colleges, and creating stronger partnerships between employers, schools, and workforce development organizations. Careers in manufacturing, agriculture, biotechnology, construction, and energy should be promoted alongside four-year college pathways.
+
+    Government should reduce unnecessary regulations that make it harder for businesses to hire and grow while encouraging investment in infrastructure, broadband, and reliable energy that supports private-sector job creation. I also support policies that keep taxes competitive so Wisconsin businesses can expand rather than relocate.
+
+    The goal should be simple: prepare Wisconsin workers for high-paying careers, help employers fill critical positions, and keep our state’s economy competitive without growing government.
+
+    KEYWORDS: Apprenticeships, Skilled Workforce, Economic Growth
+
+- candidate_first_name: Steve
+  candidate_last_name: Wicklund
+  state: wi
+  race: State Assembly
+  district: 33
+  party: Republican
+  question: wi-q3
+  date: 2026-07-27
+  primary_candidate: false
+  response: |
+    Every child deserves access to a high-quality education regardless of where they live. Wisconsin should fully honor its commitment to fund education while addressing the special education funding gap that places increasing pressure on local property taxpayers.
+
+    I support giving parents meaningful educational choices while ensuring public schools have the resources to succeed. We should expand career and technical education, apprenticeships, STEM programs, and partnerships with local employers so students graduate prepared for college, skilled trades, military service, or the workforce.
+
+    Rural schools face unique challenges from declining enrollment, so state policies should provide flexibility rather than one-size-fits-all mandates. Decisions are best made by local school boards, parents, and educators who understand their communities.
+
+    As a business owner, I know employers need graduates with strong academic skills, practical experience, and a solid work ethic. Education should focus on preparing students for success in life while maintaining high academic standards.
+
+    KEYWORDS: School Choice, Workforce Development, Local Control
+
+- candidate_first_name: Steve
+  candidate_last_name: Wicklund
+  state: wi
+  race: State Assembly
+  district: 33
+  party: Republican
+  question: wi-q5
+  date: 2026-07-27
+  primary_candidate: false
+  response: |
+    I believe science is an essential tool for making good public policy, but it should never be treated as unquestionable. History reminds us that scientific understanding evolves. During my lifetime, I’ve heard predictions of global cooling, imminent resource depletion, and other forecasts that never materialized as expected. More recently, the COVID-19 pandemic demonstrated that even experts can disagree and that recommendations can change as new evidence emerges.
+
+    That’s why I believe lawmakers should rely on transparent data, peer-reviewed research, open debate, and experts who are willing to challenge one another—not simply accept the prevailing narrative. Good policy weighs scientific evidence alongside economic impacts, constitutional rights, practical experience, and the needs of Wisconsin families.
+
+    Science is strongest when it welcomes questions, tests assumptions, and adjusts to new evidence. That’s the approach I’ll bring to the Legislature.
+
+    KEYWORDS: Scientific Integrity, Transparency, Critical Thinking
+
+- candidate_first_name: Steve
+  candidate_last_name: Wicklund
+  state: wi
+  race: State Assembly
+  district: 33
+  party: Republican
+  question: wi-q7
+  date: 2026-07-27
+  primary_candidate: false
+  response: |
+    Protecting public health is a core responsibility of government, but public trust is just as important. Wisconsin should invest in disease surveillance, laboratory capacity, emergency preparedness, and strong coordination between local health departments, healthcare providers, veterinarians, and agricultural producers so outbreaks can be identified and addressed quickly.
+
+    Public health decisions should be based on the best available evidence while recognizing that scientific understanding evolves. Officials should communicate honestly about what is known, what remains uncertain, and adjust recommendations as new information becomes available. Transparency builds trust.
+
+    I support targeted, evidence-based responses that protect vulnerable populations while respecting constitutional rights and individual freedoms whenever possible. Our goal should be to safeguard both public health and Wisconsin’s economy through preparation, accurate information, and practical decision-making—not fear or politics."
+
+    KEYWORDS: Preparedness, Transparency, Evidence-Based
+
+- candidate_first_name: John
+  candidate_last_name: Perryman
+  state: wi
+  race: State Assembly
+  district: 31
+  party: Democratic
+  question: wi-q1
+  date: 2026-07-29
+  primary_candidate: false
+  response: |
+    Regarding data centers, given that AI is almost certainly going to continue expanding, they will be built somewhere. Currently in Wisconsin there is no statewide regulation or guidance regarding these facilities. The only action taken was to extend a sales tax credit, which has cost the state about $2 billion. I would support a moratorium on new construction until we have better guidance for communities. This guidance would include forbidding the use of NDA's, requiring the builder to cover all infrastructure costs, and have rigorous environmental impact studies related to land use, electricity and water consumption. Other local impacts such as noise and light pollution would have to be factored in as well. This is not an exhaustive list, but a starting point. The final decision belongs to the community. Regarding AI itself, I have deep concerns based on reporting in multiple sources of entities hallucinating, performing in unexpected ways, and most recently escaping a contained environment and hacking into a different (and sophisticated) AI company. If we don't start building rigorous guardrails controlling AI behavior, I fear we will face a potential calamity.
+
+    KEYWORDS: Safety. Accountability. Full disclosure.
+
+- candidate_first_name: John
+  candidate_last_name: Perryman
+  state: wi
+  race: State Assembly
+  district: 31
+  party: Democratic
+  question: wi-q2
+  date: 2026-07-29
+  primary_candidate: false
+  response: |
+    First, we need to make Wisconsin a more attractive place to live so we can recruit talent. While we have much to offer, we need to find ways to help workers and families with high costs. From a state government standpoint, the areas that would have the most impact would be cutting childcare and health care costs and improving access to both. Restoring grants to childcare providers, improving tax incentives for businesses to provide on-site childcare, and providing improved rural health care access at lower costs would be priorities. Cutting health care costs would also help to relieve some financial strain these companies face. Expanding the pool of people going into these fields can be accomplished by earlier exposure (high school) to businesses in these fields, scholarship opportunities and/or tuition breaks for related course programs.
+
+    KEYWORDS: healthcare, childcare, education
+
+- candidate_first_name: John
+  candidate_last_name: Perryman
+  state: wi
+  race: State Assembly
+  district: 31
+  party: Democratic
+  question: wi-q3
+  date: 2026-07-29
+  primary_candidate: false
+  response: |
+    The school funding formula needs to be completely revamped. Funding tied to enrollment in a state with open enrollment leads to decreased revenues for a district without a decrease in costs when students leave. The lack of inflation adjustment in the formula has led to a roughly $3,500 deficit per student in funding. I would de-link funding from enrollment, allow inflation adjustment, increase funding for special education, pay our teachers more by permitting collective bargaining, and stop sending taxpayer dollars to private charter and religious schools. These steps will provide greater resources for STEM education.
+
+    KEYWORDS: Funding, voucher restriction, teacher comp
+
+- candidate_first_name: John
+  candidate_last_name: Perryman
+  state: wi
+  race: State Assembly
+  district: 31
+  party: Democratic
+  question: wi-q5
+  date: 2026-07-29
+  primary_candidate: false
+  response: |
+    A great deal. I am a pediatrician and realize the value of peer reviewed high-quality information. I am a firm believer in reaching out to those on the front lines of a field to get the benefit of their experience and expertise. I recognize the danger of unsubstantiated claims and drawing conclusions from poorly designed studies. My background and approach has led to endorsement by 314Action, an organization that supports scientists in political races.
+
+    KEYWORDS: Expertise, sound scientific practices
+
+- candidate_first_name: John
+  candidate_last_name: Perryman
+  state: wi
+  race: State Assembly
+  district: 31
+  party: Democratic
+  question: wi-q7
+  date: 2026-07-29
+  primary_candidate: false
+  response: |
+    Follow the science. Eliminate vaccine exemptions for highly communicable diseases in public schools. Change how we communicate about vaccines, highlighting that immunization does not only protect the individual, but families and communities. Respond forcefully to false claims and information.
+
+    KEYWORDS: Evidence based, public outreach
