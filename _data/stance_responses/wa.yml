@@ -1448,3 +1448,228 @@
     
     KEYWORDS: Top 20% of farms receive 80% of the subsidies.
 
+- candidate_first_name: Jillian
+  candidate_last_name: England
+  state: wa
+  race:  State Senate
+  district: 36
+  party: Republican
+  question: wa-q1
+  date: 2026-07-29
+  response: |
+    We should reduce barriers that prevent people from u sing AI and computers to improve their productivity.  There is nothing wrong with doing things manually but higher quality and easier learning are a great thing for everyone. 
+    
+    KEYWORDS: Exegesis Role Context Prompt Examples”Think Carefully/ Reason rigerous”
+    
+- candidate_first_name: Jillian
+  candidate_last_name: England
+  state: wa
+  race:  State Senate
+  district: 36
+  party: Republican
+  question: wa-q2
+  date: 2026-07-29
+  response: |
+    Build more nuclear power plants to provide more reliable power and less expensive energy for more people.   Our economy and lives depend on this. 
+    
+    KEYWORDS: Oceans Life Oxygen Forests Rain Quiet Wild
+    
+- candidate_first_name: Jillian
+  candidate_last_name: England
+  state: wa
+  race: State Senate
+  district: 36
+  party: Republican
+  question: wa-q3
+  date: 2026-07-29
+  response: |
+    Science literacy has tremendous potential now that everyone has access to AI to learn and patiently teach them basic abstract mathematics and history There is no reason that special relativity should be an abstract remote concept anymore.
+  
+    KEYWORDS: Deep learning engagement practice egalitarian everyday everyone
+    
+- candidate_first_name: Jillian
+  candidate_last_name: England
+  state: wa
+  race: State Senate
+  district: 36
+  party: Republican
+  question: wa-q4
+  date: 2026-07-29
+  response: |
+    Fires are part of the forest life cycle. We need to prosecute arson and do yearly  controlled  burns and timber harvesting to to control insects and reduce larger wildfires. 
+
+    Protect people and water
+    
+    KEYWORDS: Forest management independent ownership water management trail and road maintenance 
+    
+- candidate_first_name: Jillian
+  candidate_last_name: England
+  state: wa
+  race: State Senate
+  district: 36
+  party: Republican
+  question: wa-q5
+  date: 2026-07-29
+  response: |
+    Enforcement of fish pouching laws to prevent foreign fleets from poaching and overfishing our coasts
+    
+    KEYWORDS: International treaties poaching factory fishing creation protection noise offshore “wind farm prohibitions”
+
+- candidate_first_name: Ira
+  candidate_last_name: McBee
+  state: wa
+  race: State Senate
+  district: 32
+  party: Republican
+  question: wa-q1
+  date: 2026-07-29
+  response: |
+    Artificial intelligence is one of the most significant technologies of our time, and Washington has a real opportunity to lead in both innovation and responsible governance. I support policies that encourage AI research, entrepreneurship, and high-paying jobs while protecting privacy, intellectual property, public safety, and critical infrastructure.
+
+    Data centers are an important part of that future, but growth should pay its own way. Utilities in Grant, Douglas, and Chelan counties have already flagged rising demand from server farms, and ratepayers deserve to know how those costs are allocated before bills rise further. I support transparent, publicly disclosed agreements between utilities and data center operators so communities can understand the costs, benefits, and tradeoffs before approving new capacity. Infrastructure costs should be borne by those creating the demand, not shifted onto residential ratepayers.
+
+    Evidence should guide these decisions, but evidence alone doesn’t determine public policy. Legislators must also weigh constitutional rights, economic tradeoffs, and the long-term interests of Washington families. My approach is simple: welcome innovation, protect taxpayers, and insist that accountability keeps pace with technological change.
+
+    My views are informed by reporting on Washington’s data center growth, utility filings, and conversations with business leaders and constituents, along with a commitment to evidence-based policymaking.
+    
+    KEYWORDS:  innovation, accountability, evidence
+
+- candidate_first_name: Ira
+  candidate_last_name: McBee
+  state: wa
+  race: State Senate
+  district: 32
+  party: Republican
+  question: wa-q2
+  date: 2026-07-29
+  response: |
+    Washington has a responsibility to be a good steward of its natural resources, and stewardship requires accountability. My priority is funding projects that address clear environmental needs, produce measurable results, and make responsible use of taxpayer dollars.
+
+    I would prioritize research and projects that improve water quality, reduce wildfire risk through better forest management, strengthen salmon habitat where outcomes can be measured, improve the resilience of critical infrastructure to natural hazards, and encourage clean technology innovation that can compete on its merits while creating long-term economic opportunities for Washington.
+
+    Good stewardship means listening to the best available evidence, wherever it comes from—scientific research, independent performance data, local land managers, and tribal nations, whose generations of experience with practices such as cultural burning have helped shape healthy landscapes in the Pacific Northwest.
+
+    Evidence should guide these decisions, but it isn’t the only consideration. Legislators must also weigh constitutional rights, economic impacts, and the long-term interests of Washington families. I’d rather fund fewer projects well and prove they work than fund many and hope.
+    
+    KEYWORDS: stewardship, accountability, evidence
+
+- candidate_first_name: Ira
+  candidate_last_name: McBee
+  state: wa
+  race: State Senate
+  district: 32
+  party: Republican
+  question: wa-q3
+  date: 2026-07-29
+  response: |
+    Science literacy is about more than memorizing facts. It’s about learning how to ask good questions, evaluate evidence, understand uncertainty, and change your mind when better evidence emerges. Those skills matter whether a student becomes a scientist, an electrician, a nurse, an entrepreneur, or simply an informed citizen.
+
+    My approach starts with the same principle I bring to every issue: evidence over assumption. Before adding new standards, I’d want to know what’s actually working in our classrooms today. Are students able to evaluate a claim, understand a data set, and recognize the difference between correlation and causation? I’d rather strengthen those foundational skills than simply add more material to cover.
+
+    I’d also like to see science education connect more directly to the real world through hands-on learning and partnerships with universities, research institutions, and local industries. If we’re investing in science education, we should measure whether students are gaining real understanding, not simply checking boxes. The goal is to help students learn how to think critically, not just what to think.
+    
+    KEYWORDS: critical thinking, evidence
+
+- candidate_first_name: Ira
+  candidate_last_name: McBee
+  state: wa
+  race: State Senate
+  district: 32
+  party: Republican
+  question: wa-q4
+  date: 2026-07-29
+  response: |
+    Washington cannot treat wildfire primarily as an emergency-response problem. By the time a major fire is burning, many of the most important decisions should already have been made.
+
+    I support sustained investment in forest thinning, hazardous fuel removal, prescribed burning, defensible-space programs around vulnerable communities, and reliable staffing for early detection and rapid response.
+
+    I also believe Washington should partner more closely with tribal nations. Indigenous communities have stewarded these landscapes for generations through practices such as cultural burning to reduce fuel loads and lower the risk of catastrophic wildfire. That knowledge belongs in the conversation alongside foresters, firefighters, researchers, and local land managers—not apart from it. Good stewardship means listening to the best available evidence, wherever it comes from.
+
+    Finally, I’d expect real accountability for wildfire funding by tracking whether prevention dollars are producing measurable results, not just appropriations that sound good on paper. My goal is to reduce catastrophic wildfire risk before disaster strikes rather than simply become better at responding afterward.
+    
+    KEYWORDS: prevention, stewardship, accountability
+
+- candidate_first_name: Ira
+  candidate_last_name: McBee
+  state: wa
+  race: State Senate
+  district: 32
+  party: Republican
+  question: wa-q5
+  date: 2026-07-29
+  response: |
+    Washington’s fisheries are both an environmental resource and a way of life for many communities. Protecting them requires good science, long-term stewardship, and a willingness to adapt as conditions change.
+
+    I support sustained funding for scientific monitoring of water temperature, ocean acidification, fish populations, and habitat conditions because good policy requires current evidence, not outdated assumptions. We should also measure whether existing monitoring and habitat restoration investments are producing measurable improvements before committing additional funding.
+
+    I believe tribal nations should be central partners in fisheries management. They hold treaty fishing rights and bring generations of knowledge about these waters. That expertise belongs alongside state scientists, commercial and recreational fishermen, conservation organizations, and local communities. The best decisions come from bringing practical experience and scientific research together.
+
+    Communities that depend on Washington’s fisheries should also have practical support as they adapt to changing conditions. Good stewardship means listening to the best available evidence, measuring results, and making adjustments when the evidence supports it.
+    
+    KEYWORDS: stewardship, evidence, partnership
+
+- candidate_first_name: Kim
+  candidate_last_name: Harless
+  state: wa
+  race: State House of Representatives
+  district: 49
+  party: Democratic
+  question: wa-q1
+  date: 2026-07-29
+  response: |
+    AI innovation is real and happening quickly right now, but Washington families should not pay the price for it. Data centers are driving the largest surge in electricity demand in decades, and they consume enormous amounts of water and land. Treaty violations and harm to workers or the environment are not acceptable trade-offs for the jobs some advocates promise. I do not believe ratepayers and communities should absorb higher utility bills and hidden environmental costs while corporations take the profits. I support transparency requirements, public disclosure of water and energy use, and fair cost-sharing so data centers pay for the infrastructure they demand. That is the direction of legislation like HB 2515, which I would support in Olympia. On AI more broadly, I want strong protections around data privacy, ownership, and security as these tools expand. My positions are informed by my environmental science background, utility and ratepayer data, and direct work with my community.
+
+    KEYWORDS: Ratepayers, Transparency, Accountability
+
+- candidate_first_name: Kim
+  candidate_last_name: Harless
+  state: wa
+  race: State House of Representatives
+  district: 49
+  party: Democratic
+  question: wa-q2
+  date: 2026-07-29
+  response: |
+    My approach to environmental funding is grounded in my background in environmental science and my record on Vancouver City Council. I will fight to restore and defend Climate Commitment Act funding rather than let it be raided to patch budget shortfalls, since it is one of our most important tools for cutting climate pollution and is supported by the voters; it is a promise to voters of this state. On Council, I helped lead our Climate Action Framework, secured a moratorium on bulk fossil fuel storage that impacted what could happen at our port, and pushed for PFAS accountability and drinking water filtration before the state required it. When setting priorities I use a science-based approach that puts overburdened and frontline communities first and that respects Tribal co-management and treaty rights. We need to make sure we are using the most up to date science for decision making and to ensure the largest greenhouse gas emitters, manufacturers of products and fossil fuels, and other environmental polluters pick up the bill, not the public.
+
+    KEYWORDS: science, justice, accountability
+
+- candidate_first_name: Kim
+  candidate_last_name: Harless
+  state: wa
+  race: State House of Representatives
+  district: 49
+  party: Democratic
+  question: wa-q3
+  date: 2026-07-29
+  response: |
+    Science literacy is essential to a more fair and just society, and too many students leave school without the tools to evaluate evidence, understand climate change, or separate fact from growing misinformation. I support fully funding science literacy, and good science education is hands-on, where students investigate and figure things out instead of just memorizing. I want that learning connected to the places students live, so the science is relevant and connects them to their community. It takes real investment, and it must be equitable in access, so every school and not just wealthy districts can have it. If you allow me to nerd out a second, I love to tell people about one of the only optimistic sci-fis where the future Earth is a utopia, Star Trek, and remind people how they got there. It was by becoming a society that took science seriously, and embraced reason and inclusion. This topic is also personal for me because I earned my college degree in environmental science, and I visit local students to talk about public service and how a science background led to my career.
+
+    KEYWORDS: Access, Standards, Future
+
+- candidate_first_name: Kim
+  candidate_last_name: Harless
+  state: wa
+  race: State House of Representatives
+  district: 49
+  party: Democratic
+  question: wa-q4
+  date: 2026-07-29
+  response: |
+    Wildfire is now a statewide threat, not just an eastside one. The Bear Gulch Fire on the Olympic Peninsula shows that even our wetter forests are burning. The Legislature has committed millions for wildfire response, forest health, and community resilience, but recent budgets have fallen short and our top public lands officials warn this puts prevention at risk. I will fight to protect and restore that funding. My priorities are prevention and preparedness; forest health and thinning, prescribed and cultural burning done in partnership with Tribes who have managed these lands with fire for generations, protecting the wildland-urban interface where homes meet forest, and strong firefighter capacity and workforce investment. I also prioritize smoke and public health planning, since wildfire smoke harms vulnerable residents far from the flames. My approach is guided by science, experts, Tribes, and climate projections showing longer, more severe fire seasons.
+
+    KEYWORDS: Protection, Prevention, Tribes
+
+- candidate_first_name: Kim
+  candidate_last_name: Harless
+  state: wa
+  race: State House of Representatives
+  district: 49
+  party: Democratic
+  question: wa-q5
+  date: 2026-07-29
+  response: |
+    Puget Sound and our coast are changing fast. Fish, shellfish, and the fishing communities and Tribes that depend on them are already feeling it. I would prioritize funding salmon and habitat recovery, including removing fish passage barriers and culverts the state is obligated to fix under treaties, and protecting the cold, clean water salmon need as rivers warm. Ocean acidification is a direct threat to our shellfish, and I support sustained scientific monitoring and acting on the recommendations the state has developed to address it. Recovery has to be done in genuine partnership with Tribes, whose treaty fishing rights and co-management authority make them essential leaders, not just stakeholders to check a box. I would also support helping coastal and Sound communities adapt as ecosystems shift. My environmental science background tells me that monitoring and long-term data are not optional. I even did a summer course off campus to study marine ecosystems. The data, quantitative and qualitative, are how we make good decisions and I will protect that funding rather than treat science as expendable when budgets tighten.
+
+    KEYWORDS: Tribes, Monitoring, Adaption
+
