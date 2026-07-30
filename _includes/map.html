@@ -131,26 +131,18 @@
 
 	map.on('click', onMapClick);
 
-	const legend = L.control({
-            position: "bottomright",
-            opacity: 1,
-            legends: [{
-                label: "Active Members",
-                type: "polygon",
-                sides: 4,
-                color: memberStroke,
-                fillColor: memberColor,
-                weight: 2
-            }, {
-                label: "Member Organizations",
-                type: "polygon",
-                sides: 4,
-                color: "#182847",
-                fillColor: orgColor,
-                weight: 2
-            }]
-        })
-        .addTo(map);
+	var legend = L.control({ position: "bottomright" });
+
+	legend.onAdd = function(map) {
+		var div = L.DomUtil.create("div", "legend");
+		div.innerHTML += "<h4>Markers</h4>";
+		div.innerHTML += '<i style="background: #E89142"></i><span>Active Members</span><br>';
+		div.innerHTML += '<i style="background: #213863"></i><span>Member Organizations</span><br>';
+		
+		return div;
+	};
+	
+	legend.addTo(map);
 
 </script>
 </div>
