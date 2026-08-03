@@ -7,6 +7,9 @@
   Inputs:
     include.heading — the election-cycle title shown above the responses
                       (e.g. "June 2026 Primary Elections").
+    include.additional_note — optional extra line shown right after the
+                      "check back soon" / "If you cannot find a candidate"
+                      note, regardless of whether responses exist yet.
 
   Reads page.state to load this state's responses + questions, so the host page
   does not need to pass them in.
@@ -19,9 +22,15 @@
   {%- if responses == empty or responses.size == 0 -%}
     <p><em>No candidate responses have been published yet. Please check back
     soon.</em></p>
+    {%- if include.additional_note -%}
+    <p><i>{{ include.additional_note | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</i></p>
+    {%- endif -%}
   {%- else -%}
 
   <p><i> If you cannot find a candidate, it means they have not yet submitted their response to Stance on Science. Please check back soon.</i></p>
+  {%- if include.additional_note -%}
+  <p><i>{{ include.additional_note | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</i></p>
+  {%- endif -%}
 
     {%- comment -%} Filter vocabulary present in this state's responses. {%- endcomment -%}
     {%- assign filters = site.data.stance_filters -%}
@@ -41,8 +50,21 @@
     {%- assign present_parties = responses | map: "party" | uniq -%}
     {%- assign present_county_races = responses | map: "county_race" | compact | uniq | sort -%}
 
-    {%- comment -%} Ballot order for race grouping (mirrors RACE_ORDER in the design). {%- endcomment -%}
-    {%- assign race_order = "US Senate|US House of Representatives|Governor|Secretary of State|Attorney General|State Board of Education|University Board of Regents|State Senate|State House of Representatives|Mayor|Local County Races [All]" | split: "|" -%}
+    {%- comment -%} Ballot order for race grouping, from the master filter file.
+    Races present in the responses but missing from that list are appended rather
+    than dropped, so a new race is never silently invisible here. {%- endcomment -%}
+    {%- assign race_order = filters.race_ballot_order -%}
+    {%- assign ordered_races = "" | split: "" -%}
+    {%- for race in race_order -%}
+      {%- if present_races contains race -%}
+        {%- assign ordered_races = ordered_races | push: race -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- for race in present_races -%}
+      {%- unless race_order contains race -%}
+        {%- assign ordered_races = ordered_races | push: race -%}
+      {%- endunless -%}
+    {%- endfor -%}
 
     {%- comment -%} View switch: the same responses, read three ways. The panels
     below all read `responses` / `questions` / `filters`; only one is visible at a
@@ -126,19 +148,17 @@
       </aside>
 
       <div class="feed-scroll" id="feed-scroll">
-        <div class="feed" id="feed-list">
+        <div class="feed" id="feed-list" data-race-order="{{ ordered_races | join: '|' | escape }}">
           {%- assign card_index = 0 -%}
-          {%- for race in race_order -%}
-            {%- if present_races contains race -%}
-              {%- assign in_race = responses | where: "race", race -%}
-              {%- assign cand_groups = in_race | group_by_exp: "r", "r.candidate_last_name | append: '|||' | append: r.candidate_first_name | append: '|||' | append: r.district | append: '|||' | append: r.party | append: '|||' | append: r.county_race" -%}
-              {%- assign sorted_cands = cand_groups | sort: "name" -%}
-              {%- for cg in sorted_cands -%}
-                {%- assign card_index = card_index | plus: 1 -%}
-                {%- assign cand = cg.items | first -%}
-                {% include stance/candidate_card.html cand=cand items=cg.items questions=questions id=card_index %}
-              {%- endfor -%}
-            {%- endif -%}
+          {%- for race in ordered_races -%}
+            {%- assign in_race = responses | where: "race", race -%}
+            {%- assign cand_groups = in_race | group_by_exp: "r", "r.candidate_last_name | append: '|||' | append: r.candidate_first_name | append: '|||' | append: r.district | append: '|||' | append: r.party | append: '|||' | append: r.county_race" -%}
+            {%- assign sorted_cands = cand_groups | sort: "name" -%}
+            {%- for cg in sorted_cands -%}
+              {%- assign card_index = card_index | plus: 1 -%}
+              {%- assign cand = cg.items | first -%}
+              {% include stance/candidate_card.html cand=cand items=cg.items questions=questions id=card_index %}
+            {%- endfor -%}
           {%- endfor -%}
         </div>
       </div>
@@ -301,7 +321,7 @@
                         </div>
                       </header>
                       {%- if resp -%}
-                        <div class="stance-answer-text">{{ resp.response | markdownify }}</div>
+                        <div class="stance-answer-text">{{ resp.response | liquify | markdownify }}</div>
                       {%- else -%}
                         <span class="stance-compare-card__empty text-muted">No response</span>
                       {%- endif -%}

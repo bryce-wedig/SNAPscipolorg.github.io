@@ -8,6 +8,10 @@ permalink: /about/
 ## About SNAP
 Scientist Network for Advancing Policy (SNAP) was conceptualized in early 2025 and formed through a (still ongoing!) gathering of science policy-minded early career researchers from across the United States. SNAP is a nationwide non-partisan grassroots organization.
 
+#### SNAPper research
+
+[Check out scientific publications by SNAPpers]({{ site.url }}{{ site.baseurl }}/publications)!
+
 #### Looking for SNAP's upcoming meetings and events?
 Check out our [events calendar]({{ site.url }}{{ site.baseurl }}/calendar)!
 

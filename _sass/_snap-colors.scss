@@ -1,0 +1,28 @@
+// SNAP brand colors — from the SNAP style guide.
+// Single source of truth; import this before any partial that consumes it.
+//
+// Available two ways:
+//   SCSS  ->  color: $snap-blue;
+//   CSS   ->  color: var(--snap-blue);   (inline styles, JS, Liquid templates)
+
+$snap-orange:      #E89142;
+$snap-orange-dark: #C47830;
+$snap-blue:        #213863;
+$snap-light-blue:  #687DA2;
+$snap-purple:      #310A45;
+$snap-cream:       #F4D294;
+$snap-yellow:      #F2F493;
+$snap-green:       #C2C354;
+
+// Interpolation is required — Sass parses custom-property values as literal
+// text, so `--snap-blue: $snap-blue;` would emit the variable name, not the hex.
+:root {
+  --snap-orange:      #{$snap-orange};
+  --snap-orange-dark: #{$snap-orange-dark};
+  --snap-blue:        #{$snap-blue};
+  --snap-light-blue:  #{$snap-light-blue};
+  --snap-purple:      #{$snap-purple};
+  --snap-cream:       #{$snap-cream};
+  --snap-yellow:      #{$snap-yellow};
+  --snap-green:       #{$snap-green};
+}

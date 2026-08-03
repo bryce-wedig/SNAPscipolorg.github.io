@@ -1,0 +1,102 @@
+---
+layout: post
+title: "The Maze of STEM Graduate Education"
+date: 2026-07-28
+category: 
+---
+
+[Read this post on Medium](https://medium.com/science-policy-in-a-snap/the-maze-of-stem-graduate-education-7895aff779ca)
+
+**Some are welcomed, others have hurdles to overcome, but all deserve a spot.**
+
+Written by SNAP members [Andrew Mattson](https://medium.com/@andrewhmattson), [Andrew Ramirez](https://medium.com/u/dae21ae6da2b), and [Sari Terrazas](https://medium.com/u/73031b32d3a3), who all contributed equally to this piece.
+
+<figure style="margin: 1em 0; text-align: center;">
+<img src="/images/blog_figures/2026-07-28_1.jpg" alt="A person walking along a path through a large green hedge maze" style="max-width: 100%; height: auto; border-radius: 0;" />
+<figcaption style="margin-top: 0.5em; font-size: 0.875em; color: #6b6b6b; text-align: center; line-height: 1.4;">
+<a href="https://openverse.org/image/9f37fe82-6afc-45d3-96c2-c0e8fbf37ff4?q=maze&amp;p=59">https://openverse.org/image/9f37fe82-6afc-45d3-96c2-c0e8fbf37ff4?q=maze&amp;p=59</a>
+</figcaption>
+</figure>
+
+*Footnotes are denoted with superscript numbers. References are denoted with brackets.*
+
+Gaining admission to graduate school in STEM fields is an increasingly exclusionary process. Beyond academic performance, obtaining the extensive experiences now required to stand out depends heavily on a student's socioeconomic background and institutional access. As a result, the scientific community loses out on diverse perspectives from promising and innovative talent. Targeted support programs are essential to remove these obstacles and ensure that all students can navigate the academic maze toward a STEM career.
+
+#### On a Personal Note
+
+**Andrew Ramirez**
+
+As a child of Mexican immigrants, a low-income student, and a first-generation college and graduate student, this hits home deeply. Navigating my undergraduate education was overwhelming because I didn't even know which questions to ask to succeed and thrive. I learned very quickly while at UC Davis that grades were not enough to secure a job or continue to graduate school. Fortunately, I found a supportive bridge program for first-generation engineers where I learned how to access opportunities in research, how to network, how to approach professors, and so much more. Through this program, and guidance from advisors and peers, I subsequently joined federally-funded programs, Louis Stokes Alliances for Minority Participation (LSAMP) and the McNairs Scholars Program. Through these programs, I was able to connect with research advisors, learn how to prepare and present my research, and paid me for conducting research. I would not have been able to start my journey in research if it wasn't funded due to my financial situation at the time. This altered my path completely to where I started to learn what graduate school was and that it could be a possibility for me. Federally funded research and programs increase the STEM pipeline because they financially support students directly, inform them of opportunities, and train them to be inquisitive scientists. The pipeline suffers when there is no programming or financial gain for marginalized and underrepresented students. More students with a similar background as myself will fall through the cracks and not pursue a STEM graduate education due to lack of support, both financially and mentorship that are needed to flourish to the next stage.
+
+**Sari Terrazas**
+
+My path to higher education was completely unmapped. While my parents worked hard to ensure that I wanted for nothing, when it came time to apply to college, I went in blind. I distinctly remember getting to the personal statement section of an application, and having no idea what that section was for. I had accumulated copious volunteer hours simply because I enjoyed the work and was completely unaware that this was the kind of experience that I was supposed to leverage to strengthen my application. During my time at the University of Alabama at Birmingham, I found a mentor in my Microbiology professor who introduced me to research and saw potential in me that I never would have recognized in myself. Through her guidance, I found the McNair Scholars Program, a federally funded program to guide underrepresented minorities by supporting research projects and unveiling the hidden curriculum of graduate school applications. Through McNair, I was able to draft and present my research in oral and poster presentations, prepare for the GRE, and spend an entire summer conducting research with financial support. In addition to helping me navigate the graduate school application process, the McNair program also instilled a confidence in me to be inquisitive that has anchored me throughout my graduate school journey. These experiences completely changed my trajectory. It is unlikely that I would be pursuing a doctorate in molecular biology without this guidance.
+
+#### Part 1: The evolution of graduate admissions
+
+Graduate admissions have fundamentally transformed over the last 50 years. A primary driver for this shift is the race for experience. The pipeline through academia, from bachelor's degree to a research doctorate, was once a relatively linear path. In the 1970s, a strong GPA and solid test scores were enough to secure admission [1]. The process is unrecognizable today. While there is variation across graduate school admissions, overall, programs are emphasizing practical experience. Today, in addition to highlighting their academic performance, students submit tailored personal statements, research statements, and a detailed CV highlighting relevant experience, volunteer hours, presentations, publications. Many applicants take a gap year (or years) to gain exposure or experience to make themselves competitive enough to stand out. These gap years can defer degree matriculation leading some students to dedicate not only their 20s, but a decent portion of their 30s, to their higher education [2]. When access to a degree depends heavily on uncompensated work or extended preparation, equity inevitably suffers.
+
+Students from families with academic experience often have greater access to unpaid research, mentorship, and insider knowledge. However, first-generation students may lack the time, money, or connections to build the same credentials. This shift towards competing for the longest CV therefore tells an unfortunate story: more than ever, first-generation graduate students are encountering structural barriers and disadvantages that make their chances of earning a research doctorate significantly lower. In 1970, 47.9% of research doctorates were earned by people whose parents earned only a high school education or less, but that number dropped to 15.8% by 2024 [3]. Furthermore, parental education is not the only factor impacting the success of today's students. Members of underrepresented minority groups (URM) "experience a larger penalty to their mean overall and STEM GPA than even the most disadvantaged non-URM students" [4]. In other words, URM students face additional challenges that have a greater negative impact on their grades than socioeconomic disadvantage alone.
+
+Today, students have more obstacles to overcome and need a substantial application package to be accepted to STEM graduate programs than they used to. Unfortunately, not all students have the same ability to bridge this gap.
+
+#### Part 2: Navigating the hidden curriculum to graduate school
+
+The choice to pursue a graduate school education is a pivotal moment in one's academic journey and should ideally be decided by the individual and their career aspirations. However, for many, the pathway to STEM is littered with obstacles long before college or university, heavily dictated by their socioeconomic status and educational access during K-12 years. For example, researchers have demonstrated [5] that attending a well-resourced and funded high school provides distinct advantages in terms of STEM exposure, preparation, and eventual access to competitive postgraduate programs. It is not only important to excel in courses, but also to navigate the complexities of the "hidden curriculum" to maintain a competitive edge among peers by fulfilling the ever-growing demands of the academic CV. Researchers define that "hidden curriculum" to include knowing what to highlight in your personal statement, what experiences will give you that competitive edge in your application, and even how to ask for help [6].
+
+For students without a support system or safety net, delaying full-time employment to attain "experience" simply isn't an option. Spending formative adult years in low-wage assistantships, unpaid gap years, or taking on overwhelming debt is too great a financial risk. Some forgo graduate school entirely, while others may postpone it. But for everyone, this shifting landscape forces a difficult decision between postponing major life milestones or attempting to build a life in parallel with the academic load. However, it is far easier to traverse for students who come from families with higher education and financial backing. Research has shown that the compounded effect of STEM-specific financial barriers, along with general costs like housing, creates a significant disadvantage for students from a low-income background, making pursuing graduate education in STEM a challenge [5]. Financial literacy and abundance allows one to have the freedom to delay full-time employment, while others cannot wait several years to begin making a substantial income.
+
+#### Part 3: The power of diversity and representation among graduate students
+
+A young scientist from an underrepresented group who looks at the graduate student roster of almost any department is unlikely to see many faces that reflect their own background. But there is a crucial need for these students to be in these spaces. Diverse backgrounds and lived experiences, that come from differing socioeconomic statuses, contribute to the array of perspectives that are crucial to tackling difficult problems across STEM. These unique perspectives come with both insight and generational knowledge. As researchers at the University of Michigan concluded, "groups of diverse problem solvers can outperform groups of high-ability problem solvers" [7]. This diversity in teams yields more comprehensive solutions, and opens the door for even more inclusion.
+
+This creates a positive feedback loop: expanding STEM opportunities for students from all walks of life leads to stronger research and technology from an academic community that better reflects the country. This in turn inspires the next generation of underrepresented scientists to pursue STEM.
+
+#### Part 4: Expanding the pipeline
+
+Clearly, the current STEM pipeline must widen for those who should and could be included. In a world with stark contrasts in lived experiences, early educational equity and quality instructional opportunities are essential. We must build a strong STEM foundation for the next generation while providing support for students at every step along the process from kindergarten to graduate school.
+
+Beyond strengthening academic environments, a more representative pipeline helps bridge the growing gap between the scientific enterprise and the general public. Public trust in science relies on this shared connection. Yet, only 52% of Americans are aware that science and technology research is conducted in all 50 U.S. states [8]. Understanding and appreciation of science, built through STEM education, is important not only for performance in academic settings but for interacting with the technologies and medicines that surround us every day. As scientists provide recommendations for policymakers who subsequently make decisions for the country, it is best for everyone to share the same set of evidence-based facts. Therefore, a stronger STEM educational pipeline will provide benefits for scientists, doctors, legislators, and most importantly, the public they serve.
+
+There are various support programs that work to minimize these barriers. These programs typically fund research opportunities, create opportunities to share research, improve scientific communication, host academic courses to prepare for graduate school exams (e.g. GRE), and identify mentors to support with the application process<sup>1</sup>. Even so, there is much more that can be done. This could include:
+
+1. **Providing more *paid* research opportunities.** These include opportunities provided by the U.S. Department of Energy, NSF Research Experiences for Undergraduates (REUs), NIH Summer Internship Program, NIST Summer Undergraduate Research Fellowship (SURF) and other programs that are funded at the federal level. However, opportunities funded at the state level are also important. Undergraduate and postbaccalaureates cannot attend graduate school without hands-on experience. These types of opportunities are necessary to move into the field of research, and they can only benefit marginalised and low-income students if they can forgo other employment knowing they will still have an income.
+
+2. **Expanding bridge programs that support the graduate school application process.** Graduate school applications are an arduous and lengthy process involving contacting professors in advance, crafting a personal statement and statement of purpose, and repeating the steps for multiple universities. It also includes identifying potential schools and programs that best fit your goals. The application process is also often completed while applicants are enrolled as undergraduates or working full time. Having a mentor and receiving guidance from those who have successfully navigated the process can help remove barriers for individuals who lack personal connections in the field.
+
+3. **Creating scholarships to pay for application and test fees.** The financial burden of continuing school is not possible for some. Adding in related fees for the GRE and each individual application, a student often spends hundreds or thousands of dollars just to see if they get admitted to a program.
+
+4. **Creating more opportunities to share and discuss research.** An important aspect of applying to graduate school is not only highlighting the work you have done, but also demonstrating your ability to communicate that work in oral and written formats. Many programs have an end-of-year or end-of-program research symposium. This allows students to craft a story around their research and talk with other scientists. Beyond this, opportunities for publication (where those involved in research can disseminate their work) should be plentiful. Lastly, it is not only important to discuss research with other scientists, but to the general public, law makers and stakeholders. Opportunities for public-facing science communication should be plentiful, so that students can learn how to discuss research with people of varying backgrounds and illustrate to others the importance of their research.
+
+5. **Increasing seminars and webinars sharing how to obtain research opportunities.** People deserve awareness of opportunities early and should be given time to prepare themselves for the graduate school pipeline. As such, there needs to be better information distribution to students of diverse backgrounds at all levels of education.
+
+6. **Building resources to identify mentors to break down the hidden curriculum.** The process of preparing for graduate school, being involved with research, preparing applications, and getting admitted is a marathon that can feel extremely isolating and overwhelming. Programs that match students and post-baccalaureates with a mentor who has gone through the application process themselves would be crucial for increasing the quantity and breadth of people that go into STEM graduate school. These mentors could provide advice, share resources, give feedback on application materials, and serve as emotional support throughout the process.
+
+This is by no means an exhaustive list of improvements, but action is needed before the opportunity gap widens. Universities and government agencies should expand programs that provide students with the experience, mentorship, and technical skills needed to pursue graduate education. Although no single initiative can eliminate every barrier, sustained investment and intervention can ensure that opportunities and resources are broadly available.
+
+Rather than limiting graduate school to students with existing financial, familial, or academic advantages, it is in our collective interest to clear a path through the maze for all.
+
+#### Recognition:
+
+*[Andrew Mattson](https://medium.com/@andrewhmattson) is a physics PhD student developing quantum technologies for dark matter detection, gravitational wave observation, and life science/medical applications. He also serves as President of the Science Policy and Diplomacy Group at Johns Hopkins.*
+
+*[Andrew Ramirez](https://medium.com/u/dae21ae6da2b) is a postdoctoral researcher at Rutgers University-New Brunswick investigating immunotherapy response for melanoma patients. He received his PhD from UCLA developing machine learning models to analyze multi-sample single-cell gene expression data.*
+
+*[Sari Terrazas](https://medium.com/u/73031b32d3a3) is molecular biology PhD candidate studying double-stranded (dsRNA) localization and dynamics in paraspeckles at UCLA.*
+
+*Special thanks to the following SNAP members who provided feedback on this article: [Aislinn Gilmour](https://medium.com/@aislinn.gilmour), a PhD student studying environmental epidemiology at Dartmouth, with a focus on how environmental chemicals impact maternal and child health; [Emily Selland](https://medium.com/@eselland), an ecologist and public health scientist whose research focuses on sustainable and economically viable innovations for infectious disease control; and [Jordan Williams](https://medium.com/@jolybdenum), a pharmacology PhD candidate studying how to alter the lung's innate immune responses to better treat chronic respiratory diseases.*
+
+#### Footnotes:
+
+1. Here are existing supportive programs that focus on helping postbaccalaureates attend graduate school through research experiences, application process mentoring, test preparation, and more. This is not an exhaustive list but here are a few programs listed: The McNair Scholars Program, NIH Office of Intramural Training & Education, Research Experience for Undergraduates, Summer Research Opportunities Program, Maximizing Access to Research Careers.
+
+#### References:
+
+1. [Rojstaczer, S., & Healy, C. (2012). Where a is Ordinary: The Evolution of American College and University Grading, 1940–2009. *Teachers College Record: The Voice of Scholarship in Education, 114*(7), 1–23.](https://doi.org/10.1177/016146811211400707)
+2. [National Center for Science and Engineering Statistics (NCSES. (2021, November 30). *Doctorate Recipients from U.S. Universities: 2020*. Nsf.Gov.](https://ncses.nsf.gov/pubs/nsf22300/table/31#)
+3. [National Center for Science and Engineering Statistics. (2025). *Survey of Earned Doctorates: 2024*. National Science Foundation.](https://ncses.nsf.gov/surveys/earned-doctorates/2024)
+4. [Whitcomb, K. M., & Singh, C. (2021). Not all disadvantages are equal: Racial/ethnic minority students have largest disadvantage of all demographic groups in both STEM and non-STEM GPA. *AERA Open, 7*(1), 1–16.](https://doi.org/10.1177/23328584211059823)
+5. [McClain, C. R. (2025). Too poor to science: How wealth determines who succeeds in STEM. *PLOS Biology, 23*(6), e3003243.](https://doi.org/10.1371/journal.pbio.3003243)
+6. [Calarco, J. M. (2020). *A field guide to grad school: Uncovering the hidden curriculum*. Princeton University Press.](https://doi.org/10.2307/j.ctv102bhw5)
+7. [Hong, L., & Page, S. E. (2004). Groups of diverse problem solvers can outperform groups of high-ability problem solvers. *Proceedings of the National Academy of Sciences, 101*(46), 16385–16389.](https://doi.org/10.1073/pnas.0403723101)
+8. [Research!America. (n.d.). *To the best of your knowledge, would you say that science and technology research in the U.S. is conducted in all 50 states?* \[Survey question\].](https://www.researchamerica.org/sd_question/to-the-best-of-your-knowledge-would-you-say-that-science-and-technology-research-in-the-u-s-is-conducted-in-all-50-states)

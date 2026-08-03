@@ -20,10 +20,14 @@
 (function () {
   "use strict";
 
-  var RACE_ORDER = [
+  // Ballot order for race grouping. The feed carries the canonical order from
+  // _data/stance_filters.yml in data-race-order; this is only the fallback for
+  // when that attribute is missing.
+  var DEFAULT_RACE_ORDER = [
     "US Senate", "US House of Representatives", "Governor", "Secretary of State",
     "Attorney General", "State Board of Education", "University Board of Regents",
-    "State Senate", "State House of Representatives", "Local County Races [All]", "Mayor"
+    "State Senate", "State Assembly", "State House of Representatives",
+    "Local County Races [All]", "Mayor"
   ];
 
   var SORT_LABEL = {
@@ -83,6 +87,9 @@
     var stickyTopEl = document.querySelector(".navbar") || document.querySelector("header");
     if (!bar || !feedList || !navList) return;
 
+    var raceOrderAttr = feedList.getAttribute("data-race-order");
+    var raceOrder = raceOrderAttr ? raceOrderAttr.split("|") : DEFAULT_RACE_ORDER;
+
     var selects = {};
     bar.querySelectorAll("select[data-filter]").forEach(function (s) { selects[s.dataset.filter] = s; });
     var sortSel = bar.querySelector("[data-sort]");
@@ -130,7 +137,7 @@
     function racesPresent() {
       var set = {};
       records.forEach(function (c) { set[c.race] = true; });
-      var ordered = RACE_ORDER.filter(function (r) { return set[r]; });
+      var ordered = raceOrder.filter(function (r) { return set[r]; });
       // append any race not in the canonical order, alphabetically
       Object.keys(set).sort().forEach(function (r) { if (ordered.indexOf(r) === -1) ordered.push(r); });
       return ordered;

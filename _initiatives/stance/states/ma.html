@@ -1,76 +1,4 @@
 ---
-# do NOT delete the line above -- jekyll needs this to render the page
-# ────────────────────────────────────────────────────────────────────────────
-# Stance on Science — state page TEMPLATE
-#
-# This file temporarily renders at /initiatives/stance-on-science/states/xx.
-#
-# To create a new state page:
-#
-#   1. Copy this file to `<state-code>.html` (use the lowercase USPS code,
-#      e.g. `ny.html`, `tx.html`).
-#   2. Edit every front-matter field marked TODO. Most per-team strings the
-#      body needs (contact email, voter-lookup link, socials) come from front
-#      matter — so the body should not need editing for those. The page title
-#      and team name are derived automatically from state_name (as
-#      "{state_name} Stance on Science"), so they are not set here.
-#      The "Last updated" date is NOT set here: it is computed automatically
-#      (see the note in the "Required front matter" list below).
-#   3. Edit the body to describe this state's specific election cycle and
-#      contacted races. The only blocks that need per-state editing are the
-#      "How to use this resource" race list and the election-cycle heading
-#      (the `heading="…"` on the response_explorer include near the bottom;
-#      all marked TODO below). The boilerplate mirrors the California and
-#      Colorado pages; each state team controls its own copy.
-#   4. Add `_data/stance_questions/<state-code>.yml` with the questions
-#      posed to each candidate. Each entry has a unique `id` (e.g. `q1`,
-#      `q2`), a `question` (markdown), and a `tag` (a single tag or list
-#      of tags from _data/stance_filters.yml). The question list and
-#      "available tags" sentence on this page are rendered from that file.
-#   5. Add `_data/stance_responses/<state-code>.yml` with the candidate
-#      responses. Each response sets `question:` to one of the question
-#      ids from the file above — that link is how the card knows which
-#      question to display and which tag(s) to apply. Responses do not
-#      carry their own `tag` field; tags come from the linked question.
-#      Until this file exists, the page will show "no responses yet"
-#      automatically.
-#
-#   The response viewer itself is a shared include,
-#   `_includes/stance/response_explorer.html`, rendered by the
-#   `{% include stance/response_explorer.html heading="…" %}` line near the
-#   bottom of this file. It offers three views of the same data — "Group by
-#   candidate" (the searchable directory + feed), "Group by topic", and
-#   "Compare" (a head-to-head matrix) — and loads this state's `responses` /
-#   `questions` from `page.state`, so the only per-state input is the
-#   `heading` (the election-cycle title). Tweaks to the viewer itself are made
-#   once, in that include, and apply to every state.
-#
-# Required front matter:
-#   state               — lowercase USPS code, must match the YAML file under
-#                         _data/stance_responses/. Used by the global search/map.
-#   state_name          — display name for the state (e.g. "New York"). Used by
-#                         the global search badge and map tooltip.
-#   demonym_plural      — plural resident name (e.g. "New Yorkers"). Used in
-#                         body copy that refers to people from the state.
-#   team_email          — contact address. Used for both the `mailto:` and
-#                         the visible link text in the header and disclaimer.
-#   ballot_lookup_url   — link to this state's voter/district lookup tool.
-#   ballot_lookup_label — visible text for that link.
-#
-# The page's URL (permalink) is computed automatically by the
-# _plugins/stance_permalink.rb plugin as
-# /initiatives/stance-on-science/states/<code> from the `state` field below
-#
-# The "Last updated" date shown in the header is computed automatically by the
-# _plugins/stance_last_updated.rb plugin from the last git commit that touched
-# this page's _data/stance_responses/<code>.yml file — there is no last_updated
-# front-matter field to maintain. (It stays blank until that file exists.)
-#
-# Optional front matter (omit or leave blank to hide):
-#   instagram_url, facebook_url, tiktok_url, x_url, bluesky_url, reddit_url
-#                       — social links shown in the header sentence. The
-#                         "Follow us on …" clause is hidden if all are blank.
-# ────────────────────────────────────────────────────────────────────────────
 layout: gridlay
 collection: initiatives
 sitemap: true
@@ -79,7 +7,7 @@ state_name: Massachusetts
 demonym_plural: Bay Staters
 team_email: stanceonscience.massachusetts@gmail.com
 ballot_lookup_url: https://www.sec.state.ma.us/divisions/elections/recent-updates/upcoming-elections.htm
-ballot_lookup_label: Secretary of the Commonwealth of Massachusetts
+ballot_lookup_label: website of the Secretary of the Commonwealth of Massachusetts
 # Socials (optional — leave blank to hide a link, or all blank to hide the footer):
 instagram_url:
 facebook_url:
@@ -130,7 +58,7 @@ published: true
 
 <header class="stance-state-header">
   <a href="{{ '/initiatives/stance-on-science#stance-map' | relative_url }}" class="stance-back-link"><i class="fa-solid fa-arrow-left"></i> Back to map</a>
-  <h1>{{ page.state_name }} Candidate Page</h1>
+  <h1>{{ page.state_name }}</h1>
   <p>
     Created by the {{ team_name }} team. Please contact <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> with any questions.{%- if socials.size > 0 %} Follow us on
     {%- for s in socials -%}
