@@ -37,3 +37,22 @@ permalink: /initiatives/district-visits/
 <p>SNAP will provide materials such as district-specific one-pagers to help you convey your points effectively during your meeting.</p>
 
 <p><em>Learn more about our <a href="{{ '/initiatives/district-visits-2025/' | relative_url }}">August 2025 District Visits</a>.</em></p>
+
+<div class="jumbotron">
+  <h2>Press Mentions</h2>
+  <ul>
+    {% assign found = 0 %}
+    {% for article in site.data.press %}
+      {% if article.category contains 'Congressional Visits 2026' %}
+        <li>
+          <p><b>{{ article.date | date: '%b %d, %Y' }}:
+        <a href="{{ article.website }}">{{ article.headline }}</a> in <i>{{ article.source }}</i></b></p>
+        </li>
+        {% assign found = found | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+    {% if found == 0 %}
+      <p><b>None yet! Check back soon for updates!</b></p>
+    {% endif %}
+  </ul>
+</div>
