@@ -140,7 +140,7 @@
       KEYWORDS: Solar, wind, responsibility
 
 - candidate_first_name: Jon
-  candidate_late_name: Lloyd
+  candidate_last_name: Lloyd
   state: pa
   race: State House of Representatives
   party: Democratic
@@ -860,7 +860,7 @@
   response: |
     I support PA's HPAI Recovery Fund and the implementation of increasing biosecurity measures for commercial and backyard producers. I would support supplying personal protective equipment to producers to prevent the spread of avian influenza.
 
-   KEYWORDS: HPAI Recovery Fund  
+    KEYWORDS: HPAI Recovery Fund  
 
 - candidate_first_name: Michael
   candidate_last_name: Walker
@@ -1020,7 +1020,7 @@
 - candidate_first_name: Jared
   candidate_last_name: Bitting
   state: pa
-  race: State House of REpresentatives
+  race: State House of Representatives
   party: Democratic
   question: pa-q5
   date: 2026-07-24
