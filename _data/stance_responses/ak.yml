@@ -112,17 +112,6 @@
   state: ak
   race: Governor
   party: Republican
-  question: ak-q4
-  date: 2026-07-24
-  primary_candidate: false
-  response: |
-    Advancement in transportation will be managed for those areas preferring transportation for their regions.
-
-- candidate_first_name: Edna
-  candidate_last_name: DeVries
-  state: ak
-  race: Governor
-  party: Republican
   question: ak-q5
   date: 2026-07-24
   primary_candidate: false
