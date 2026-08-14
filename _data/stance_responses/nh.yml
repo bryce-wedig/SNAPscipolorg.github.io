@@ -2,7 +2,7 @@
   candidate_last_name: Howard
   state: nh
   race: US House of Representatives
-  district: 4
+  district: 1
   party: Democratic
   question: nh-q1
   date: 
@@ -15,7 +15,7 @@
   candidate_last_name: Howard
   state: nh
   race: US House of Representatives
-  district: 4
+  district: 1
   party: Democratic
   question: nh-q2
   date: 
@@ -28,7 +28,7 @@
   candidate_last_name: Howard
   state: nh
   race: US House of Representatives
-  district: 4
+  district: 1
   party: Democratic
   question: nh-q3
   date: 
@@ -41,7 +41,7 @@
   candidate_last_name: Howard
   state: nh
   race: US House of Representatives
-  district: 4
+  district: 1
   party: Democratic
   question: nh-q4
   date: 
@@ -54,7 +54,7 @@
   candidate_last_name: Howard
   state: nh
   race: US House of Representatives
-  district: 4
+  district: 1
   party: Democratic
   question: nh-q5
   date: 
@@ -128,3 +128,457 @@
 
     KEYWORDS: nuclear
 
+- candidate_first_name: Carleigh
+  candidate_last_name: Beriont
+  state: nh
+  race: US House of Representatives
+  district: 1
+  party: Democratic
+  question: nh-q1
+  date: 
+  response: |
+    "I support protecting our air, water and land-based resources from climate change, deforestation, and pollution. Our forests, mountains, coastline, and parks are what ensure our stateʼs vitality and drive our tourism industry. Safeguarding these resources requires a whole-of-government approach that holds corporate polluters accountable, supports people in making sustainable choices, and brings communities together to take action. Regulating AI and Big Tech is crucial to protecting our environment. I support a data center moratorium, so we can better regulate the usage of our water and land before more data centers are built. Corporate polluters must be held accountable for how their actions impact our state. Additionally, I support funding the UNH Water Resources Research Center, which researches issues like PFAS contamination and groundwater quality to keep New Hampshire's drinking water clean. We also must hold every corporation accountable for operating facilities and making products that have contributed to the degradation of our environment. Our parks, forests, and natural beauty should all be available for future generations. I will vote to fund and protect these areas."
+
+    KEYWORDS: Quality, Accountability, Sustainability
+
+- candidate_first_name: Carleigh
+  candidate_last_name: Beriont
+  state: nh
+  race: US House of Representatives
+  district: 1
+  party: Democratic
+  question: nh-q2
+  date: 
+  response: |
+    "Vaccines are an area in which collaboration between scientists and policymakers matters most. Vaccines are one of modern medicine's great achievements, protecting communities from diseases like measles and COVID-19. We have clear data thanks to science on the public health benefits and safety provided by vaccines. I support New Hampshire’s current law requiring vaccinations for public school enrollment. In Congress, I will vote against efforts to roll back these laws and protections. In regards to vaccine policy, I will follow the expertise of scientists and public health researchers to guide my vote. The recent resurgence of measles, driven by declining vaccination rates, is a clear example of what happens when we ignore decades of scientific consensus and expert opinion. Vaccinations are vital to public health, and we must follow scientific evidence to guide policies that support and advance the health and wellbeing of every person that calls the United States home."
+
+    KEYWORDS: Science advises policy 
+
+- candidate_first_name: Carleigh
+  candidate_last_name: Beriont
+  state: nh
+  race: US House of Representatives
+  district: 1
+  party: Democratic
+  question: nh-q3
+  date: 
+  response: |
+    "Living and serving in Hampton, I’ve felt climate change’s impacts on New Hampshire firsthand. Working on Hampton's Coastal Resilience Roadmap, funded through NOAA's Office for Coastal Management and NH's Coastal Program, taught me that small local teams often understand resilience better than Washington does. New Hampshire’s risk also goes beyond the coast. Reduced snowpack threatens winter tourism and impacts water supply. Communities around the state face severe flood risk from rivers that overflow their banks after storms that bring extremely heavy rainfall, an increasingly common occurrence. I'll fight to protect NOAA's Office for Coastal Management, the Coastal Zone Management Act, and Sea Grant, and I'll push to rewrite resilience grants so towns can actually use them. We must cut match requirements that disqualify the communities that need help most, and move toward predictable, formula-based funding. I support reforming the National Flood Insurance Program: modernized flood maps, protected affordability for working families already in floodplains, and fair pricing for new high-risk development."
+
+    KEYWORDS: Local Funding, Leadership
+
+- candidate_first_name: Carleigh
+  candidate_last_name: Beriont
+  state: nh
+  race: US House of Representatives
+  district: 1
+  party: Democratic
+  question: nh-q4
+  date: 
+  response: |
+    "Our lives have already become beholden to the priorities and profits of technology corporations, and we never had a say in it; AI has put the problems created by an unregulated tech industry into hyperdrive. It is being used to deny people healthcare, replace workers, surveil communities, and make military decisions that should require human judgment. I support a moratorium on new data centers until companies are required to address and offset their impact on public health, water use, energy prices, and the environment. Alongside that pause, I want aggressive antitrust enforcement and real data privacy protections. New Hampshire is a private state, you can’t film people without consent, and AI shouldn't get a pass to surveil and profile us without it. We cannot trust Big Tech to regulate themselves. Before we let this revolution reshape manufacturing, healthcare, education, and transportation, I want to hear directly from educators and healthcare workers about where AI is helping, and where it is hurting. We must ensure that the prosperity created by new technology is shared by working families and not just the wealthy and well-connected."
+
+    KEYWORDS: Big Tech Accountability
+
+- candidate_first_name: Carleigh
+  candidate_last_name: Beriont
+  state: nh
+  race: US House of Representatives
+  district: 1
+  party: Democratic
+  question: nh-q5
+  date: 
+  response: |
+    "I believe alternative energy is the future; for our climate, and for reducing our reliance on oil which has driven conflicts abroad. I support the vision behind the Green New Deal, a serious, national commitment to a clean energy economy. I support concrete steps to get us there like the Build Green, which invests in electrifying public transportation and cutting emissions nationwide. New Hampshire is too often the outlier in New England, blocking regional progress on clean energy and grid modernization instead of leading it. I want to change that. Offshore wind is a real opportunity for our Seacoast communities. I know small towns can’t build these things alone. In Congress, I’ll vote for federal investment and tax credits needed to bring the cost of wind, solar, and grid upgrades down far enough that towns can actually afford them, without raising local property taxes. This is also a job creation strategy. Wind and solar development means construction, engineering, and maintenance jobs that can't be outsourced, and grid modernization means union labor upgrading our infrastructure for decades. I want New Hampshire workers building this future, along with the other New England States."
+
+    KEYWORDS: Clean Energy Leadership
+
+- candidate_first_name: Cathleen
+  candidate_last_name: Fountain
+  state: nh
+  race: State Senate
+  district: 1
+  party: Democratic
+  question: nh-q1
+  date: 
+  response: |
+    "I support protecting New Hampshire’s water, forests, open spaces, and public lands through responsible stewardship and science-based policymaking. Clean drinking water is especially important in rural communities where many residents rely on private wells. That is why I support strong environmental oversight to prevent contamination from landfill leachate, PFAS, and other pollutants. I believe we must balance economic development with the long-term protection of our natural resources. Our parks, lakes, forests, and conserved lands are vital to wildlife, recreation, tourism, and our quality of life. Decisions affecting these resources should be transparent, data-driven, and include meaningful community input. I also support clear standards for the siting, operation, monitoring, and closure of landfills to ensure communities and ecosystems are protected. As a legislator, I will work with environmental professionals, local leaders, and fellow lawmakers to preserve New Hampshire’s natural heritage while addressing environmental challenges in a practical and bipartisan way."
+
+    KEYWORDS: Stewardship science-based
+
+- candidate_first_name: Cathleen
+  candidate_last_name: Fountain
+  state: nh
+  race: State Senate
+  district: 1
+  party: Democratic
+  question: nh-q2
+  date: 
+  response: |
+    "I believe public health decisions should be based on sound science, transparency, and informed consent. I do not support state mandates that remove an individual's ability to make healthcare decisions for themselves or their families. At the same time, I support ensuring that residents have access to accurate, unbiased information about vaccines so they can make informed choices in consultation with their healthcare providers. Collaboration between scientists, medical professionals, and policymakers is essential. Scientists provide research and evidence, while policymakers must weigh that information alongside public concerns, individual rights, and practical impacts on communities. Good policy requires open communication, transparency, and public trust. As a state legislator, my role is not to direct federal vaccine policy, but to support policies in New Hampshire that protect public health, respect individual liberties, and ensure health decisions are guided by credible scientific evidence and informed discussion."
+
+    KEYWORDS: science transparency collaboration
+
+- candidate_first_name: Cathleen
+  candidate_last_name: Fountain
+  state: nh
+  race: State Senate
+  district: 1
+  party: Democratic
+  question: nh-q3
+  date: 
+  response: |
+    "I believe New Hampshire must take practical, common-sense steps to protect our communities, businesses, and infrastructure from the growing impacts of flooding and other natural disasters. Investing in resilient roads, bridges, culverts, and drainage systems can reduce damage, improve public safety, and save taxpayers money over the long term. I also support protecting wetlands, forests, and open spaces that naturally absorb floodwaters and help maintain water quality. These resources not only reduce flood risks but also support recreation, tourism, wildlife habitat, and our quality of life. The state should work with local communities, emergency management officials, scientists, and industry leaders to identify risks and prioritize cost-effective solutions. Whether preparing municipalities for severe weather, supporting affected businesses, or improving emergency response capabilities, planning ahead is far less costly than recovery after disaster strikes. My focus is on protecting people, property, and New Hampshire's natural resources through responsible planning, sound science, and practical investments that strengthen our resilience for the future."
+
+    KEYWORDS: protecting infrastructure communities businesses
+
+- candidate_first_name: Cathleen
+  candidate_last_name: Fountain
+  state: nh
+  race: State Senate
+  district: 1
+  party: Democratic
+  question: nh-q4
+  date: 
+  response: |
+    "Artificial intelligence will affect many industries, but we need to approach it with caution as well as curiosity. Even many of the engineers and researchers who helped develop AI acknowledge that it can produce false information, unintended results, and biased outputs. While the people designing these systems use critical thinking, judgment, and accountability, AI itself does not. It can process information and recognize patterns, but it cannot replace human experience, common sense, or critical reasoning. I support innovation, but I also believe policymakers have a responsibility to ask hard questions before embracing new technologies on a large scale. The same applies to data centers. Many of the facilities being proposed across the country raise concerns about energy use, land use, natural resources, and long-term impacts on local communities. New Hampshire should establish clear guidelines that ensure transparency, environmental review, and meaningful local input before major projects are approved. My goal is to encourage responsible innovation while protecting our communities, natural resources, and quality of life for future generations."
+
+    KEYWORDS: AI analytical infrastructure
+
+- candidate_first_name: Cathleen
+  candidate_last_name: Fountain
+  state: nh
+  race: State Senate
+  district: 1
+  party: Democratic
+  question: nh-q5
+  date: 
+  response: |
+    "Electricity demand is growing, and New Hampshire needs an energy strategy that is reliable, affordable, and practical. Alternative energy sources such as solar, hydro, and wind should be part of the mix, but no single source can meet all our needs. In the North Country, one of our biggest challenges is the electric grid. Parts of Coös County lack the capacity needed to support future economic growth, manufacturing, and other large energy users. Strengthening and modernizing the grid must be a priority. We should also be fair to homeowners, farms, businesses, and municipalities that invested in solar under existing net metering policies. Any changes should be transparent and not penalize those who acted in good faith. My focus is on improving infrastructure, supporting responsible energy development, creating good-paying jobs, and ensuring New Hampshire has the energy capacity needed for future growth while protecting ratepayers and local communities."
+
+    KEYWORDS: Renewable Affordable Reliable
+
+- candidate_first_name: Kurt
+  candidate_last_name: Webber
+  state: nh
+  race: State Senate
+  district: 2
+  party: Democratic
+  question: nh-q1
+  date: 
+  response: |
+    "We need to protect our environment both to protect the health of our citizens and to keep NH an attractive place to live and visit (particularly since tourism is important to our economy. Thus, I will support policies that protect our lakes and forests and also combat climate change."
+
+    KEYWORDS: lakes forests climate
+
+- candidate_first_name: Kurt
+  candidate_last_name: Webber
+  state: nh
+  race: State Senate
+  district: 2
+  party: Democratic
+  question: nh-q2
+  date: 
+  response: |
+    "I am an engineer (MSEE from Stanford), believe in the scientific method and thus think that policymakers absolutely need to listen to scientists and make policies that are in keeping with the accepted science. This goes for vaccines, other medical issues, mental health, the environment, etc. As a founder of Camp Resilience (https://www.camp-resilience.org/), I am a firm believer in wellness (for everyone, not just veterans and first responders) and think we need more programs to promote wellness."
+
+    KEYWORDS: "scientific method", pro-vaccine, wellness 
+
+- candidate_first_name: Kurt
+  candidate_last_name: Webber
+  state: nh
+  race: State Senate
+  district: 2
+  party: Democratic
+  question: nh-q3
+  date: 
+  response: |
+    "We need to do much more to combat climate change by encouraging and promoting renewable energy. We should also make policies that reduce carbon emissions from state agencies as much as possible. However, it will take time for policies like these make a difference so, in the meantime, we need to be prepared for the climate-based disasters we know are coming, i.e. take measures to prepare for rising sea levels, floods, etc."
+
+    KEYWORDS: climate change, carbon footprint, disaster preparedness
+
+- candidate_first_name: Kurt
+  candidate_last_name: Webber
+  state: nh
+  race: State Senate
+  district: 2
+  party: Democratic
+  question: nh-q4
+  date: 
+  response: |
+    "Whether you like or not, AI is here and going to stay. However, this doesn't mean we can't have reasonable regulations concerning it. We can also take steps to environmental issues related to AI data centers by requiring that they install solar panels or windmills to reduce their impact on the power grid and that they properly treat the water they use for cooling before releasing it back to the environment."
+
+    KEYWORDS: regulation, environment
+
+- candidate_first_name: Kurt
+  candidate_last_name: Webber
+  state: nh
+  race: State Senate
+  district: 2
+  party: Democratic
+  question: nh-q5
+  date: 
+  response: |
+    "WAs I mentioned in my previous answers, I am a big believer in renewable energy and think that we should promote and expand it as much as possible. This should include programs that help lower income families afford installing  solar, wind or geothermal power. We could also look at leasing state land for solar or wind arrays. This would supply more power to the grid which would reduce carbon emissions and also be an additional source of revenue for the state. As evidence that I also "walk the walk", I have solar panels on my roof and drive an EV."
+
+    KEYWORDS: solar, wind, geothermal
+
+- candidate_first_name: Mary
+  candidate_last_name: Maxwell
+  state: nh
+  race: US Senate
+  district: 
+  party: Republican
+  question: nh-q1
+  date: 
+  response: |
+    "Even at big sacrifice we must protect biodiversity. I want to know who is killing the bees? That person needs a talking to (perhaps in prison). My PhD in Politics relied heavily on Evolutionary biology. I was a student of EO Wilson. See the book I edited “The Sociobiological Imagination” (1991) -- but that was before our dear species started to fill the ocean with bottle caps. We must change our lifestyle to save Nature."
+
+    KEYWORDS: Honor Nature. Recognize our outdoor needs.
+
+- candidate_first_name: Mary
+  candidate_last_name: Maxwell
+  state: nh
+  race: US Senate
+  district: 
+  party: Republican
+  question: nh-q2
+  date: 
+  response: |
+    "In 1917, Ed Rosenow of Mayo Clinic found the cure for polio. It was subsequently suppressed. This is par for the course. See my lawsuit Maxwell v Dept of Defense, 2020, against mandatory vax. Also my 2013 book “Consider the Lilies: Comparing 18 Cures for Cancer and Their Legal Status.” Note: The Dept of Education (Just imagine a federal department being in charge of education!!) controls the accreditation of Schools of Public Health. Correcting that will be my priority."
+
+    KEYWORDS: Medical Integrity. No Hep-B at birth.
+
+- candidate_first_name: Mary
+  candidate_last_name: Maxwell
+  state: nh
+  race: US Senate
+  district: 
+  party: Republican
+  question: nh-q3
+  date: 
+  response: |
+    "I am running for federal office so will not really have a hand in the effect of disasters on industry. I do appreciate that industries need state protection. I am anti-globalism."
+
+    KEYWORDS: Enforce the Constitution.
+
+- candidate_first_name: Mary
+  candidate_last_name: Maxwell
+  state: nh
+  race: US Senate
+  district: 
+  party: Republican
+  question: nh-q4
+  date: 
+  response: |
+    "How can the technocrats possibly get government to legislate for AI when we citizens have not had any debate on whether we want it? Although I realize that AI is marvelous, nothing would get my signature in the US Senate until all ramifications were inspected."
+
+    KEYWORDS: Curtail AI’s takeover.
+
+- candidate_first_name: Mary
+  candidate_last_name: Maxwell
+  state: nh
+  race: US Senate
+  district: 
+  party: Republican
+  question: nh-q5
+  date: 
+  response: |
+    "I am too ignorant of physics to know if the “alternative” sources work. They certainly worked hunky dory for thousands of years of human history. It’s my guess that Nicola Tesla solved the problem and that his work is – as usual – suppressed."
+
+    KEYWORDS: Remove profit-making from energy decisions.
+
+- candidate_first_name: Victor
+  candidate_last_name: Orlando
+  state: nh
+  race: US House of Representatives
+  district: 2
+  party: Republican
+  question: nh-q1
+  date: 
+  response: |
+    "I support practical, common-sense approaches that protect New Hampshire’s land, working farms, forests, and outdoor heritage while actually solving our housing shortage. One of the best tools we have is well-designed open space (or conservation) developments. These allow builders to cluster homes on a portion of a property while permanently protecting a significant share of the land as open space, trails, or working land. Done right, this approach preserves more open space than traditional large-lot zoning, keeps the rural character people love, and still delivers more housing. That combination lowers pressure on undeveloped land elsewhere and helps ease the housing crisis that is driving up property taxes and pricing young families out of their own communities. New Hampshire’s strength has always been balancing freedom, responsibility, and respect for the land. I will back policies that deliver more housing, more preserved open space, and lower costs for working families, not slogans that sound good but make both housing and conservation harder."
+
+    KEYWORDS: Open space development, conservation subdivisions, housing + land preservation, private property rights, local control, working lands, housing
+
+- candidate_first_name: Victor
+  candidate_last_name: Orlando
+  state: nh
+  race: US House of Representatives
+  district: 2
+  party: Republican
+  question: nh-q2
+  date: 
+  response: |
+    "I believe vaccination should remain a personal medical decision made by individuals and parents in consultation with their doctors, not a decision forced by government. The proper role of government is limited: ensure that vaccines available to the public meet high standards of safety and efficacy, require transparent reporting of serious side effects, and protect the right of people to give informed consent. Beyond that, the government should not mandate vaccines, condition employment, education, or public life on vaccination status, or pressure people through mandates or penalties."
+
+    KEYWORDS: Vaccine personal choice, medical freedom, informed consent, no vaccine mandates, vaccine safety oversight, individual liberty
+
+- candidate_first_name: Victor
+  candidate_last_name: Orlando
+  state: nh
+  race: US House of Representatives
+  district: 2
+  party: Republican
+  question: nh-q3
+  date: 
+  response: |
+    "I support practical, common-sense approaches focused on resilience and preparedness, strengthening flood infrastructure, improving drainage and dam maintenance, updating emergency response capacity, and encouraging smarter local land-use practices such as open-space developments that reduce runoff while still allowing needed housing. These solutions should be driven by local decision-making and protect private property rights rather than impose costly top-down mandates. I will work to secure federal infrastructure funding for New Hampshire so our state can invest in the roads, bridges, culverts, stormwater systems, and flood-control projects needed to better withstand these challenges. Bringing those resources home helps protect families, businesses, tourism, and agriculture without raising energy costs or expanding unnecessary regulation. Strong infrastructure and local control are the most effective ways to keep New Hampshire resilient and affordable."
+
+    KEYWORDS: Flood resilience, infrastructure funding, emergency preparedness, local control, open space development, protecting outdoor industries
+
+- candidate_first_name: Victor
+  candidate_last_name: Orlando
+  state: nh
+  race: US House of Representatives
+  district: 2
+  party: Republican
+  question: nh-q4
+  date: 
+  response: |
+    "New Hampshire must secure affordable, reliable energy before expanding data centers or large-scale AI infrastructure. If electricity costs are already too high for families and small businesses, the economic case for data centers falls apart. I will prioritize energy abundance, supporting production, grid upgrades, and policies that lower rates, to strengthens our economy instead of shifting higher costs onto residents. Only when we have stable, affordable power should we talk about data centers. I also completely oppose Flock cameras and similar mass-surveillance systems. As artificial intelligence and data collection expand, we must protect privacy and civil liberties. Technology should create opportunity in manufacturing, healthcare, and education without turning into tools for constant tracking of law-abiding citizens. My focus is practical: lower energy costs first, support workforce training for new technical jobs, respect local control on siting, and defend personal freedom every step of the way."
+
+    KEYWORDS: Affordable energy first, energy abundance, data centers, oppose Flock cameras, privacy, local control, workforce training
+
+- candidate_first_name: Victor
+  candidate_last_name: Orlando
+  state: nh
+  race: US House of Representatives
+  district: 2
+  party: Republican
+  question: nh-q5
+  date: 
+  response: |
+    "New Hampshire needs energy abundance. Rising demand from manufacturing, electrification, and data infrastructure requires a reliable, affordable supply, not policies that drive up rates or create shortages. I support an all-of-the-above approach that includes nuclear, hydro, natural gas, and other sources that deliver consistent power at competitive prices. Alternative energy sources should contribute where they make economic and reliability sense, not through mandates or subsidies that raise costs for families and businesses. In New Hampshire, my priority is lowering electricity rates and strengthening our grid. I will support practical development of reliable sources, while protecting ratepayers. These projects can create good-paying jobs in construction, skilled trades, engineering, and ongoing operations. Affordable, reliable energy is the foundation for manufacturing growth, data infrastructure, and long-term job opportunity in our state. Without it, everything else becomes more expensive and less competitive."
+
+    KEYWORDS: Energy abundance, all-of-the-above, affordable electricity, reliable power, nuclear, hydro, lower rates, skilled trades jobs
+
+- candidate_first_name: Lee Ann
+  candidate_last_name: Potter
+  state: nh
+  race: State House of Representatives
+  district: 1
+  party: Democratic
+  question: nh-q1
+  date: 
+  response: |
+    "Policies intended to stop or prohibit the use or manufacture of forever chemicals are needed, as well as facilities to eliminate them once found in our environment. More science based studies needs to be done to demonstrate fungi and bacteria that can be used to eliminate both toxins and plastics."
+
+    KEYWORDS: BioScience, Toxins, Plastics
+
+- candidate_first_name: Lee Ann
+  candidate_last_name: Potter
+  state: nh
+  race: State House of Representatives
+  district: 1
+  party: Democratic
+  question: nh-q2
+  date: 
+  response: |
+    "We need to return to a mandatory child vaccine program to prevent the kinds of epidemics, like measles, that we are currently experiencing. Policy makers need to rely on (and trust) scientific studies that show the relationship between vaccines and communicable diseases."
+
+    KEYWORDS: Epidemics, vaccine schedules
+
+- candidate_first_name: Lee Ann
+  candidate_last_name: Potter
+  state: nh
+  race: State House of Representatives
+  district: 1
+  party: Democratic
+  question: nh-q3
+  date: 
+  response: |
+    "We need policies intended to better manage our forest resources so that water is retained rather than to allow unchecked runoff, while allowing for local needs. We should have minimum standards to address water runoff near roads and bridges, and we need more robust ways to channel runoff so that does not damage infrastructure."
+
+    KEYWORDS: Runoff, infrastructure, flooding
+
+- candidate_first_name: Lee Ann
+  candidate_last_name: Potter
+  state: nh
+  race: State House of Representatives
+  district: 1
+  party: Democratic
+  question: nh-q4
+  date: 
+  response: |
+    "AI capabilities need to be heavily regulated, and must not be released where they could harm humans or our environment. AI will never be less problematic than the humans who write the underlying code; it has been shown to be untruthful, and has begun to work to sustain its existence when faced with termination by humans. AI systems must not be allowed autonomy, as they are incapable of critical thinking."
+
+    KEYWORDS: Regulation, Faulty Software, D=dangerous responses
+
+- candidate_first_name: Lee Ann
+  candidate_last_name: Potter
+  state: nh
+  race: State House of Representatives
+  district: 1
+  party: Democratic
+  question: nh-q5
+  date: 
+  response: |
+    "We need to restore incentives for alternative energy resources to encourage their growth; we need transparent and stronger oversight of energy companies to ensure equitable fee structures for household energy consumers. We also need to incentivize energy efficiency by restoring funding to efficiency programs, including geothermal or heat pump systems, and we need to fund and mandate stronger energy infrastructure. "
+
+    KEYWORDS: heatpump, solar, wind, hydroelectric
+
+- candidate_first_name: Shawn
+  candidate_last_name: Mickelonis
+  state: nh
+  race: State Senate
+  district: 4
+  party: Republican
+  question: nh-q1
+  date: 
+  response: |
+    "I support responsible conservation of New Hampshire’s water, forests, parks, and open spaces while protecting private property rights. Government should be a responsible steward, not an obstacle to responsible development, agriculture, forestry, housing, and economic growth. We should protect drinking water supplies, address PFAS contamination, and hold responsible parties accountable when appropriate. I support maintaining our state parks and public lands while encouraging partnerships with local communities and the private sector. Conservation decisions should be based on sound science, fiscal responsibility, and local input not excessive regulation or one size fits all mandates. New Hampshire’s natural resources are a tremendous asset, and we can protect them while keeping our state affordable and economically competitive."
+
+    KEYWORDS: Conservation, Property Rights, Stewardship
+
+- candidate_first_name: Shawn
+  candidate_last_name: Mickelonis
+  state: nh
+  race: State Senate
+  district: 4
+  party: Republican
+  question: nh-q2
+  date: 
+  response: |
+    "I support access to vaccines, informed medical decisions, individual liberty, and parental rights. I oppose unnecessary government mandates that interfere with the doctor patient relationship or remove reasonable choices from families. Public health policies should be based on credible scientific evidence, transparency, and measurable results not politics. Scientists and medical professionals should provide policymakers with the best available evidence, while elected officials remain responsible for balancing public health with constitutional rights and individual freedom. New Hampshire residents deserve clear information about benefits, risks, and alternatives so they can make informed decisions. Government should build public trust through transparency and accountability rather than coercion."
+
+    KEYWORDS: Liberty, Choice, Science
+
+- candidate_first_name: Shawn
+  candidate_last_name: Mickelonis
+  state: nh
+  race: State Senate
+  district: 4
+  party: Republican
+  question: nh-q3
+  date: 
+  response: |
+    "New Hampshire should prepare for flooding, severe storms, changing winter conditions, and other natural hazards through responsible planning and infrastructure investment. I support strengthening roads, bridges, drainage systems, dams, and emergency response capabilities while avoiding unnecessary mandates that increase costs for homeowners and businesses. State and local governments should work together to identify risks and prioritize projects based on need, cost effectiveness, and public safety. Healthy forests and watersheds can also help reduce erosion and manage stormwater. I believe prevention and preparedness are better than reacting after disasters occur. We should use sound science, engineering, and fiscal responsibility to protect communities while ensuring taxpayers receive value for every dollar spent."
+
+    KEYWORDS: Preparedness, Infrastructure, Fiscal Responsibility
+
+- candidate_first_name: Shawn
+  candidate_last_name: Mickelonis
+  state: nh
+  race: State Senate
+  district: 4
+  party: Republican
+  question: nh-q4
+  date: 
+  response: |
+    "New Hampshire should embrace artificial intelligence and technological innovation while protecting individual rights and taxpayers. I support reducing unnecessary regulations that discourage businesses from investing and creating jobs in our state. At the same time, reasonable safeguards should protect privacy, cybersecurity, consumers, and sensitive information. Data centers should be welcomed when they provide economic benefits, but they must responsibly address electricity demand, infrastructure, water use, and impacts on surrounding communities without shifting unreasonable costs onto taxpayers. AI can also help government operate more efficiently and reduce unnecessary administrative expenses. We should prepare students and workers for new opportunities through education, workforce training, and partnerships with the private sector. New Hampshire should be a place where innovation and freedom can thrive."
+
+    KEYWORDS: Innovation, Jobs, Freedom
+
+- candidate_first_name: Shawn
+  candidate_last_name: Mickelonis
+  state: nh
+  race: State Senate
+  district: 4
+  party: Republican
+  question: nh-q5
+  date: 
+  response: |
+    "New Hampshire needs reliable, affordable, and abundant energy. I support an all of the above approach that includes nuclear power, natural gas, hydropower, solar, wind where appropriate, and emerging technologies. Nuclear power deserves serious consideration because it can provide reliable electricity while supporting economic growth. As demand increases from manufacturing, electrification, and data centers, we must expand generation and infrastructure without forcing unnecessary costs onto families and small businesses. I support reducing regulatory barriers, encouraging private investment, and allowing innovation to determine which technologies succeed. Responsible energy development can create high paying jobs in construction, engineering, manufacturing, technology, and infrastructure. Energy policy should prioritize affordability, reliability, consumer choice, and New Hampshire’s long-term economic competitiveness."
+
+    KEYWORDS: Affordability, Reliability, Jobs
