@@ -313,7 +313,8 @@
                     {%- assign resp = cg.items | where: "question", q.id | first -%}
                     <article class="stance-compare-card" data-primary-candidate="{{ cand.primary_candidate | default: false }}">
                       <header class="stance-compare-card__head">
-                        <div class="stance-compare-card__cand">{{ cand.candidate_first_name }} {{ cand.candidate_last_name }}</div>
+                        {%- assign compare_name = cand.candidate_first_name | append: " " | append: cand.candidate_last_name -%}
+                        <div class="stance-compare-card__cand"><a href="{{ compare_name | stance_candidate_url: cand.state | relative_url }}">{{ compare_name }}</a></div>
                         <div class="stance-compare-card__meta">
                           {%- if cand.party -%}<span class="stance-badge stance-badge--party stance-badge--party-{{ cand.party | downcase | replace: ' ', '-' }}">{{ cand.party }}</span>{%- endif -%}
                           {%- if cand.district -%}<span class="stance-compare-card__hint">District {{ cand.district }}</span>{%- endif -%}

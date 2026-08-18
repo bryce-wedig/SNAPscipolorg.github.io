@@ -1,5 +1,6 @@
 require "set"
 require "date"
+require_relative "stance_liquid_filters"
 
 module StanceResponseValidator
   FILTERS_KEY = "stance_filters".freeze
@@ -9,6 +10,13 @@ module StanceResponseValidator
   RESPONSE_REQUIRED_FIELDS = %w[candidate_first_name candidate_last_name state race party question response].freeze
   QUESTION_REQUIRED_FIELDS = %w[id question tag].freeze
   COUNTY_RACE_RACE = "Local County Races [All]".freeze
+
+  # Fields that describe the candidate rather than the individual answer. The
+  # group-by-candidate cards and the generated per-candidate pages both render
+  # these from whichever row happens to come first, so a candidate whose rows
+  # disagree renders differently depending on YAML order — and splits into two
+  # cards in the state explorer, which groups on exactly these values.
+  CANDIDATE_CONSISTENT_FIELDS = %w[race district party county_race].freeze
 
   # A single validation failure. `row` is the 0-based position in the YAML list
   # (nil for whole-file problems), `subject` is the human name the row belongs to
@@ -26,6 +34,10 @@ module StanceResponseValidator
     "state does not match file" => "the `state` field must equal the file's slug",
     "invalid primary_candidate" => "must be literally true or false",
     "inconsistent primary_candidate" => "it describes the candidate, so every row for them must agree",
+    "inconsistent candidate details" => "these describe the candidate, so every row for them must agree",
+    "duplicate response" => "one row per candidate per question",
+    "duplicate candidate slug" => "each candidate's page URL is derived from their name; two candidates in one state cannot share one",
+    "no state page for response file" => "responses are only reachable through their state page, and candidate pages link back to it",
     "missing county_race" => %(required whenever race is "#{COUNTY_RACE_RACE}"),
     "unexpected county_race" => %(only allowed when race is "#{COUNTY_RACE_RACE}"),
     "invalid races list" => "omit `races` when the question applies to every race",
@@ -129,6 +141,9 @@ module StanceResponseValidator
         file = "_data/stance_responses/#{state_slug}.yml"
         valid_question_ids = question_ids_by_state[state_slug] || Set.new
         primary_by_candidate = {}
+        details_by_candidate = {}
+        questions_by_candidate = {}
+        names_by_slug = {}
         Array(entries).each_with_index do |entry, idx|
           name = candidate_name(entry)
           add = lambda do |kind, detail = nil|
@@ -175,6 +190,17 @@ module StanceResponseValidator
             add.call("unknown question id", %("#{question_ref}" — no match in _data/stance_questions/#{state_slug}.yml))
           end
 
+          # A candidate answers each question once. A repeat is a copy-paste slip
+          # that would otherwise render as the same answer twice on their page.
+          if !name.empty? && question_ref && !question_ref.to_s.strip.empty?
+            seen_questions = (questions_by_candidate[name] ||= {})
+            if seen_questions.key?(question_ref)
+              add.call("duplicate response", %("#{question_ref}" — also at entry #{seen_questions[question_ref]}))
+            else
+              seen_questions[question_ref] = idx
+            end
+          end
+
           race_val = entry["race"]
           county_race_val = entry["county_race"]
           county_race_blank = county_race_val.nil? || (county_race_val.is_a?(String) && county_race_val.strip.empty?)
@@ -195,12 +221,40 @@ module StanceResponseValidator
           # A missing field and false mean the same thing.
           unless name.empty?
             (primary_by_candidate[name] ||= Set.new) << (primary == true)
+
+            # Districts arrive from YAML as integers, so compare as strings, and
+            # treat an absent value and a blank one as the same thing.
+            fields = (details_by_candidate[name] ||= {})
+            CANDIDATE_CONSISTENT_FIELDS.each do |f|
+              value = entry[f]
+              value = nil if value.is_a?(String) && value.strip.empty?
+              (fields[f] ||= Set.new) << value&.to_s
+            end
+
+            (names_by_slug[StanceCandidate.slug(name)] ||= Set.new) << name
           end
         end
 
         primary_by_candidate.each do |cand_name, values|
           next unless values.size > 1
           problems << Problem.new(:file => file, :subject => cand_name, :kind => "inconsistent primary_candidate")
+        end
+
+        details_by_candidate.each do |cand_name, fields|
+          fields.each do |field, values|
+            next unless values.size > 1
+            shown = values.map { |v| v.nil? ? "(none)" : %("#{v}") }.sort.join(" vs ")
+            problems << Problem.new(:file => file, :subject => cand_name,
+                                    :kind => "inconsistent candidate details", :detail => "#{field}: #{shown}")
+          end
+        end
+
+        # Jekyll only logs a soft "Conflict:" warning when two pages want the same
+        # destination, so a collision here would silently drop one candidate's page.
+        names_by_slug.each do |slug, names|
+          next unless names.size > 1
+          problems << Problem.new(:file => file, :subject => names.sort.join(" / "),
+                                  :kind => "duplicate candidate slug", :detail => %("#{slug}"))
         end
       end
     end
@@ -236,6 +290,7 @@ module StanceResponseValidator
     return unless collection
 
     problems = []
+    page_states = Set.new
     collection.docs.each do |doc|
       path = doc.relative_path.to_s
       next unless path.include?(STATE_PAGE_DIR)
@@ -244,12 +299,27 @@ module StanceResponseValidator
       # carrying it (it isn't a real, published state page).
       next if doc.data["state"].to_s == TEMPLATE_STATE_CODE
 
+      page_states << doc.data["state"].to_s
+
       STATE_PAGE_REQUIRED_FIELDS.each do |f|
         value = doc.data[f]
         if value.nil? || (value.is_a?(String) && value.strip.empty?)
           problems << Problem.new(:file => path, :kind => "missing required front matter", :detail => %("#{f}"))
         end
       end
+    end
+
+    # The reverse direction: a response file with no state page would strand its
+    # candidates. Their names still link to generated candidate pages, and those
+    # pages link back to a state page that does not exist. (A state page with no
+    # response file is fine — it just has nothing to show yet.)
+    (site.data[RESPONSES_KEY] || {}).each_key do |state_slug|
+      next if state_slug == "_blank"
+      next if page_states.include?(state_slug.to_s)
+
+      problems << Problem.new(:file => "_data/stance_responses/#{state_slug}.yml",
+                              :kind => "no state page for response file",
+                              :detail => %(no page under _initiatives/#{STATE_PAGE_DIR} declares state: "#{state_slug}"))
     end
 
     report_and_raise("Stance state page validation failed", problems,

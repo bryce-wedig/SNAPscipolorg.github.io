@@ -298,6 +298,15 @@ $stance-focus-ring: 0 0 0 3px rgba($snap-blue, 0.14);
   &__candidate {
     margin: 0 0 0.4rem;
     color: $snap-blue;
+
+    // Links to the candidate's own page. Inherit the heading colour so the card
+    // reads unchanged; the underline on hover is the only affordance.
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover { text-decoration: underline; }
+    }
   }
 
   &__meta {
@@ -800,7 +809,17 @@ $stance-focus-ring: 0 0 0 3px rgba($snap-blue, 0.14);
     border-bottom: 1px solid $stance-gray-border;
   }
 
-  &__cand { font-weight: 600; color: $snap-blue; }
+  &__cand {
+    font-weight: 600;
+    color: $snap-blue;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover { text-decoration: underline; }
+    }
+  }
 
   &__meta {
     margin-top: 0.3rem;
@@ -1281,6 +1300,13 @@ $stance-focus-ring: 0 0 0 3px rgba($snap-blue, 0.14);
       font-weight: 700;
       margin: 0;
       color: $snap-blue;
+
+      a {
+        color: inherit;
+        text-decoration: none;
+
+        &:hover { text-decoration: underline; }
+      }
     }
 
     &__meta {

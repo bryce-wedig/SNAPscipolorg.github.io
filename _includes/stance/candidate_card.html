@@ -46,7 +46,9 @@
          data-primary-candidate="{{ cand.primary_candidate | default: false }}"
          data-location="{{ location }}">
   <div class="cand-card__head">
-    <h3 class="cand-card__name">{{ full_name }}</h3>
+    {%- comment -%} Anchor kept on one line: stance-state-explorer.js copies this
+      element's textContent into the candidate directory rail. {%- endcomment -%}
+    <h3 class="cand-card__name"><a href="{{ full_name | stance_candidate_url: cand.state | relative_url }}">{{ full_name }}</a></h3>
     {%- if cand.party -%}
       <span class="badge badge--party badge--party-{{ cand.party | downcase | replace: ' ', '-' }}"
             data-filter="party" data-value="{{ cand.party | escape }}"
