@@ -9,6 +9,10 @@
     include.id_prefix — element id prefix, e.g. "state-filters" or
                         "search-filters". Lets the same page host multiple bars
                         if ever needed.
+    include.show_state — render the State dropdown (global search only).
+    include.show_primary — render the "Show primary candidates" checkbox.
+    include.hide_sort — omit the Sort By dropdown.
+    include.hide_reset — omit the Reset button.
 {%- endcomment -%}
 {%- assign filters = site.data.stance_filters -%}
 {%- assign responses = include.responses -%}
