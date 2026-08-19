@@ -38,6 +38,9 @@
       {%- endif -%}
     </div>
     <div class="cand-card__meta">
+      <span class="badge badge--state">
+        <a href="{{ '/initiatives/stance-on-science/states/' | append: page.state | relative_url }}">{{ state_page.state_name }}</a>
+      </span>
       <span class="badge badge--race">{{ cand.race | remove: ' [All]' }}</span>
       {%- if cand.district and cand.district != '' -%}
         <span class="badge badge--dist">District {{ cand.district }}</span>

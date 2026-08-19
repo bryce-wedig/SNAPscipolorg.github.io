@@ -1380,6 +1380,12 @@ $stance-focus-ring: 0 0 0 3px rgba($snap-blue, 0.14);
       &:focus-visible { outline: 2px solid $snap-blue; outline-offset: 1px; }
     }
 
+    // Matches `.stance-badge--state` so the state pill reads identically on the
+    // per-candidate pages and the search / state-page cards.
+    &--state {
+      background: $snap-blue;
+      a { color: #fff; text-decoration: none; }
+    }
     &--race,
     &--county { background: $snap-light-blue; }
     &--dist { background: $snap-navy-tint; color: $snap-blue; }
