@@ -11,14 +11,14 @@ permalink: /initiatives/stance-on-science
 
 <p></p>
 
-<h2>Find My Candidate's Responses</h2>
+<h2 id="stance-map" class="stance-map-anchor">Find My Candidate's Responses</h2>
 
 {%- assign active_states = site.initiatives | where_exp: "p", "p.state != nil and p.state != 'xx'" | map: "state" | sort -%}
 
 <p>Click an <strong style="color:var(--snap-orange)">orange</strong> state to view
 candidate responses from that state. <a href="{{ '/initiatives/stance-on-science/search' | relative_url }}">Click here for all responses.</a> Scroll down for a list of states. This map will be updated as more states publish candidate responses.</p>
 
-<div class="stance-map" id="stance-map" role="img" aria-label="Map of the United States showing states with Stance on Science candidate responses highlighted in orange.">
+<div class="stance-map" id="stance-map-canvas" role="img" aria-label="Map of the United States showing states with Stance on Science candidate responses highlighted in orange.">
   <noscript>
     <p><em>This map requires JavaScript to display. Browse responses directly:</em></p>
     <ul>

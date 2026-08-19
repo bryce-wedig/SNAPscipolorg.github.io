@@ -1,0 +1,89 @@
+{%- comment -%}
+  The body of a generated per-candidate page: every response one candidate gave.
+
+  Takes no include.* parameters. It is rendered by the pages built in
+  _plugins/stance_candidate_pages.rb and reads their front matter:
+
+    page.state                 — lowercase USPS code, keys into the _data hashes
+    page.candidate_first_name  — together these identify the candidate, matching
+    page.candidate_last_name     how the plugin grouped the response rows
+
+  Tags are not stored on responses — they come from the linked question, hence the
+  scalar-or-list normalization repeated from candidate_card.html.
+
+  The .stance-responses and .stance-intro wrappers are load-bearing, not cosmetic:
+  .cand-card, .qa, .badge and .ballot-lookup-callout are all nested inside them in
+  _sass/_stance.scss, so the markup renders unstyled without them.
+{%- endcomment -%}
+{%- assign rows = site.data.stance_responses[page.state] -%}
+{%- assign questions = site.data.stance_questions[page.state] -%}
+{%- assign state_page = site.initiatives | where: "state", page.state | first -%}
+{%- assign items = rows | where_exp: "r", "r.candidate_first_name == page.candidate_first_name and r.candidate_last_name == page.candidate_last_name" -%}
+{%- comment -%}
+  Every row for a candidate carries the same race / district / party / county_race
+  (enforced by stance_tag_validator.rb), so the first is representative — the same
+  idiom response_explorer.html uses to build the group-by-candidate cards.
+{%- endcomment -%}
+{%- assign cand = items | first -%}
+{%- assign full_name = cand.candidate_first_name | append: ' ' | append: cand.candidate_last_name -%}
+
+<a href="{{ '/initiatives/stance-on-science/states/' | append: page.state | append: '#responses' | relative_url }}" class="stance-back-link"><i class="fa-solid fa-arrow-left"></i> Back to all {{ state_page.state_name }} responses</a>
+
+<section class="stance-responses">
+  <article class="cand-card">
+    <div class="cand-card__head">
+      <h1 class="cand-card__name">{{ full_name }}</h1>
+      {%- if cand.party -%}
+        <span class="badge badge--party badge--party-{{ cand.party | downcase | replace: ' ', '-' }}">{{ cand.party }}</span>
+      {%- endif -%}
+    </div>
+    <div class="cand-card__meta">
+      <span class="badge badge--state">
+        <a href="{{ '/initiatives/stance-on-science/states/' | append: page.state | relative_url }}">{{ state_page.state_name }}</a>
+      </span>
+      <span class="badge badge--race">{{ cand.race | remove: ' [All]' }}</span>
+      {%- if cand.district and cand.district != '' -%}
+        <span class="badge badge--dist">District {{ cand.district }}</span>
+      {%- endif -%}
+      {%- if cand.county_race and cand.county_race != '' -%}
+        <span class="badge badge--county">{{ cand.county_race }}</span>
+      {%- endif -%}
+    </div>
+    {%- if cand.date and cand.date != '' -%}
+      <div class="cand-card__sub">Submitted {{ cand.date | date: "%B %-d, %Y" }}</div>
+    {%- endif -%}
+
+    {%- if cand.did_not_respond -%}
+      <div class="cand-card__none stance-no-response">This candidate did not respond to Stance on Science.</div>
+    {%- else -%}
+    {%- for q in questions -%}
+      {%- assign resp = items | where: "question", q.id | first -%}
+      {%- if resp -%}
+        {%- if q.tag.first -%}
+          {%- assign q_tag_list = q.tag -%}
+        {%- else -%}
+          {%- assign q_tag_list = q.tag | split: "|||NONE|||" -%}
+        {%- endif -%}
+        <div class="qa">
+          <p class="qa__q"><span class="qa__n">Q{{ forloop.index }}</span> {{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</p>
+          <div class="qa__tags">
+            {%- for t in q_tag_list -%}
+              <span class="badge badge--tag">{{ t }}</span>
+            {%- endfor -%}
+          </div>
+          <div class="qa__a">{{ resp.response | liquify | markdownify }}</div>
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
+    {%- endif -%}
+  </article>
+
+  {%- if state_page.ballot_lookup_url -%}
+    <div class="stance-intro">
+      <div class="ballot-lookup-callout">
+        <p>To find your districts for state and federal races and see who is on your ballot, please visit the
+          <a href="{{ state_page.ballot_lookup_url }}" target="_blank" rel="noopener">{{ state_page.ballot_lookup_label }}</a>.</p>
+      </div>
+    </div>
+  {%- endif -%}
+</section>

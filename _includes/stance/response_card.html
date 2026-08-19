@@ -29,9 +29,11 @@
          data-district="{{ district_attr }}"
          data-party="{{ r.party | escape }}"
          data-county-race="{{ r.county_race | escape }}"
-         data-primary-candidate="{{ r.primary_candidate | default: false }}">
+         data-primary-candidate="{{ r.primary_candidate | default: false }}"
+         data-did-not-respond="{{ r.did_not_respond | default: false }}">
   <header class="stance-response-card__header">
-    <h4 class="stance-response-card__candidate">{{ r.candidate_first_name }} {{ r.candidate_last_name }}</h4>
+    {%- assign candidate_name = r.candidate_first_name | append: " " | append: r.candidate_last_name -%}
+    <h4 class="stance-response-card__candidate"><a href="{{ candidate_name | stance_candidate_url: r.state | relative_url }}">{{ candidate_name }}</a></h4>
     <div class="stance-response-card__meta">
       {%- if include.show_state == "true" -%}
         {%- assign state_page = site.initiatives | where: "state", r.state | first -%}
@@ -70,7 +72,11 @@
       {%- endfor -%}
       <p class="stance-response-card__question"><span class="stance-response-card__qn">Q{{ q_num }}</span> {{ linked_question.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}</p>
     {%- endif -%}
-    {{ r.response | liquify | markdownify }}
+    {%- if r.did_not_respond -%}
+      <p class="stance-no-response">This candidate did not respond to Stance on Science.</p>
+    {%- else -%}
+      {{ r.response | liquify | markdownify }}
+    {%- endif -%}
   </div>
   {%- if r.date -%}
     <footer class="stance-response-card__footer">

@@ -1,5 +1,43 @@
 # Liquid filters shared across the Stance on Science templates.
+
+# Candidate identity for Stance on Science.
+#
+# A candidate is not an entity anywhere in _data — it is an emergent grouping of
+# response rows sharing a state and a name. This module is the single definition
+# of that identity (and of the URL derived from it), shared by the page generator
+# (stance_candidate_pages.rb), the validator, and the Liquid filter below that
+# templates use to build hrefs.
+#
+# Slugs come from Jekyll::Utils.slugify, which Liquid also exposes as
+# `| slugify: "latin"` — the same Ruby method, so the two sides cannot drift.
+# "latin" mode transliterates accented characters (Andrés -> andres). Honorifics
+# and suffixes ("M.D.", "IV") are deliberately kept: they disambiguate.
+module StanceCandidate
+  URL_PREFIX = "/initiatives/stance-on-science/candidates".freeze
+
+  # A response row's candidate as a display string, e.g. "Jane Q. Doe".
+  def self.full_name(row)
+    [row["candidate_first_name"], row["candidate_last_name"]].compact.join(" ").strip
+  end
+
+  def self.slug(full_name)
+    Jekyll::Utils.slugify(full_name.to_s.strip, :mode => "latin")
+  end
+
+  # Site-root path (no baseurl); callers pipe through relative_url.
+  def self.url(state, full_name)
+    "#{URL_PREFIX}/#{state}/#{slug(full_name)}"
+  end
+end
+
 module Jekyll
+  module StanceCandidateFilter
+    # {{ full_name | stance_candidate_url: state | relative_url }}
+    def stance_candidate_url(full_name, state)
+      ::StanceCandidate.url(state, full_name)
+    end
+  end
+
   module StanceDistrictFilter
     # Coerce a list of district values to strings, de-duplicate, and sort in
     # natural order: numeric districts ascending (2 before 10), a lettered
@@ -31,5 +69,6 @@ module Jekyll
   end
 end
 
+Liquid::Template.register_filter(Jekyll::StanceCandidateFilter)
 Liquid::Template.register_filter(Jekyll::StanceDistrictFilter)
 Liquid::Template.register_filter(Jekyll::StanceLiquifyFilter)

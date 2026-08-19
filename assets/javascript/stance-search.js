@@ -31,6 +31,8 @@
     // the "Show primary candidates" box is checked. Unkeyed, so option-narrowing
     // (validValuesFor) respects it too.
     if (!state.show_primary && r.primary_candidate) return false;
+    // Likewise for candidates who never responded at all.
+    if (!state.show_no_response && r.did_not_respond) return false;
     if (except !== "tag" && state.tag && toArray(r.tag).indexOf(state.tag) === -1) return false;
     if (except !== "race" && state.race && r.race !== state.race) return false;
     if (except !== "district" && state.district && String(r.district) !== String(state.district)) return false;
@@ -160,6 +162,7 @@
     var sortSel = root.querySelector("[data-sort]");
     var reset = root.querySelector("[data-filter-reset]");
     var primaryChk = root.querySelector("[data-filter-primary]");
+    var noResponseChk = root.querySelector("[data-filter-noresponse]");
 
     var url = window.STANCE_RESPONSES_URL || "/initiatives/stance-on-science/responses.json";
 
@@ -191,6 +194,7 @@
           selects.forEach(function (sel) { s[sel.dataset.filter] = sel.value; });
           s.sort = sortSel ? sortSel.value : "random";
           s.show_primary = primaryChk ? primaryChk.checked : false;
+          s.show_no_response = noResponseChk ? noResponseChk.checked : false;
           return s;
         }
 
@@ -218,12 +222,14 @@
         selects.forEach(function (sel) { sel.addEventListener("change", apply); });
         if (sortSel) sortSel.addEventListener("change", apply);
         if (primaryChk) primaryChk.addEventListener("change", apply);
+        if (noResponseChk) noResponseChk.addEventListener("change", apply);
         if (reset) {
           reset.addEventListener("click", function () {
             if (input) input.value = "";
             selects.forEach(function (sel) { sel.value = ""; });
             if (sortSel) sortSel.value = "random";
             if (primaryChk) primaryChk.checked = false;
+            if (noResponseChk) noResponseChk.checked = false;
             apply();
           });
         }

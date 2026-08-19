@@ -114,9 +114,13 @@
               {%- for cr in present_county_races -%}<option value="{{ cr | escape }}">{{ cr }}</option>{%- endfor -%}
             </select></label>
         {%- endif -%}
+        <div class="sbar__break"></div>
         <label class="stance-filter stance-filter--check">
           <input type="checkbox" data-filter-primary
             aria-label="Show candidates who did not advance past the primary" /> Show primary candidates</label>
+        <label class="stance-filter stance-filter--check">
+          <input type="checkbox" data-filter-noresponse
+            aria-label="Show candidates who did not respond to Stance on Science" /> Show candidates who did not respond</label>
         <span class="sbar__spacer"></span>
         <label class="sfield sfield--sort"><span>Sort By</span>
           <select data-sort aria-label="Sort candidates">
@@ -286,6 +290,8 @@
             </label>
             <label class="stance-filter stance-filter--check">
               <input type="checkbox" data-compare-primary /> Show primary candidates</label>
+            <label class="stance-filter stance-filter--check">
+              <input type="checkbox" data-compare-noresponse /> Show candidates who did not respond</label>
           </div>
         </div>
 
@@ -311,9 +317,10 @@
                   {%- for cg in sorted_cands -%}
                     {%- assign cand = cg.items | first -%}
                     {%- assign resp = cg.items | where: "question", q.id | first -%}
-                    <article class="stance-compare-card" data-primary-candidate="{{ cand.primary_candidate | default: false }}">
+                    <article class="stance-compare-card" data-primary-candidate="{{ cand.primary_candidate | default: false }}" data-did-not-respond="{{ cand.did_not_respond | default: false }}">
                       <header class="stance-compare-card__head">
-                        <div class="stance-compare-card__cand">{{ cand.candidate_first_name }} {{ cand.candidate_last_name }}</div>
+                        {%- assign compare_name = cand.candidate_first_name | append: " " | append: cand.candidate_last_name -%}
+                        <div class="stance-compare-card__cand"><a href="{{ compare_name | stance_candidate_url: cand.state | relative_url }}">{{ compare_name }}</a></div>
                         <div class="stance-compare-card__meta">
                           {%- if cand.party -%}<span class="stance-badge stance-badge--party stance-badge--party-{{ cand.party | downcase | replace: ' ', '-' }}">{{ cand.party }}</span>{%- endif -%}
                           {%- if cand.district -%}<span class="stance-compare-card__hint">District {{ cand.district }}</span>{%- endif -%}
@@ -322,6 +329,8 @@
                       </header>
                       {%- if resp -%}
                         <div class="stance-answer-text">{{ resp.response | liquify | markdownify }}</div>
+                      {%- elsif cand.did_not_respond -%}
+                        <span class="stance-compare-card__empty stance-no-response">Did not respond</span>
                       {%- else -%}
                         <span class="stance-compare-card__empty text-muted">No response</span>
                       {%- endif -%}
