@@ -104,7 +104,7 @@
   date: 2026-07-15
   primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
   response: |
-    [no answer provided]
+    _[no answer provided]_
 
 - candidate_first_name: Timothy
   candidate_last_name: Wilcox
