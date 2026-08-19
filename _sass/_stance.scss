@@ -42,6 +42,10 @@ $stance-focus-ring: 0 0 0 3px rgba($snap-blue, 0.14);
 // US states map
 // ---------------------------------------------------------------------------
 
+.stance-map-anchor {
+  scroll-margin-top: 84px;
+}
+
 .stance-map {
   margin: 1rem 0 0.5rem;
   min-height: 200px;

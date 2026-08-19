@@ -43,7 +43,7 @@
   var TOPOJSON_URL = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
   function init() {
-    var container = document.getElementById("stance-map");
+    var container = document.getElementById("stance-map-canvas");
     if (!container || typeof d3 === "undefined" || typeof topojson === "undefined") {
       return;
     }
