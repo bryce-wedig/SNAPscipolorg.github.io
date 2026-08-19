@@ -833,7 +833,7 @@
   party: Democratic
   question: pa-q4
   date: 2026-07-16
-  primary_candidate: false
+  priamry_candidate: false
   response: |
     Pennsylvania has been an energy leader for generations, and I believe we can continue to be one by embracing an “all-of-the-above” approach. Natural gas, nuclear, coal, renewables, and emerging technologies all have a role to play as we work toward affordable, reliable, and cleaner energy.
 
@@ -1671,7 +1671,8 @@
 - candidate_first_name: Chris
   candidate_last_name: Rabb
   state: pa
-  race: State House of Representatives
+  race: US House of Representatives
+  district: 3
   party: Democratic
   question: pa-q1
   date: 2026-07-31
@@ -1684,7 +1685,8 @@
 - candidate_first_name: Chris
   candidate_last_name: Rabb
   state: pa
-  race: State House of Representatives
+  race: US House of Representatives
+  district: 3
   party: Democratic
   question: pa-q2
   date: 2026-07-31
@@ -1697,7 +1699,8 @@
 - candidate_first_name: Chris
   candidate_last_name: Rabb
   state: pa
-  race: State House of Representatives
+  race: US House of Representatives
+  district: 3
   party: Democratic
   question: pa-q3
   date: 2026-07-31
@@ -1710,7 +1713,8 @@
 - candidate_first_name: Chris
   candidate_last_name: Rabb
   state: pa
-  race: State House of Representatives
+  race: US House of Representatives
+  district: 3
   party: Democratic
   question: pa-q4
   date: 2026-07-31
@@ -1723,7 +1727,8 @@
 - candidate_first_name: Chris
   candidate_last_name: Rabb
   state: pa
-  race: State House of Representatives
+  race: US House of Representatives
+  district: 3
   party: Democratic
   question: pa-q5
   date: 2026-07-31
