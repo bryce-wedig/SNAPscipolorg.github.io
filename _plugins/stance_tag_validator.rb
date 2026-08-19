@@ -11,6 +11,14 @@ module StanceResponseValidator
   QUESTION_REQUIRED_FIELDS = %w[id question tag].freeze
   COUNTY_RACE_RACE = "Local County Races [All]".freeze
 
+  # A candidate who never answered has no question to answer and no answer text,
+  # so these are not required on a row flagged `did_not_respond: true`.
+  NON_RESPONDER_EXEMPT_FIELDS = %w[question response].freeze
+
+  # Booleans that describe the candidate rather than the individual answer, and
+  # that hide their rows from every view unless the matching checkbox is ticked.
+  CANDIDATE_FLAG_FIELDS = %w[primary_candidate did_not_respond].freeze
+
   # Fields that describe the candidate rather than the individual answer. The
   # group-by-candidate cards and the generated per-candidate pages both render
   # these from whichever row happens to come first, so a candidate whose rows
@@ -34,6 +42,9 @@ module StanceResponseValidator
     "state does not match file" => "the `state` field must equal the file's slug",
     "invalid primary_candidate" => "must be literally true or false",
     "inconsistent primary_candidate" => "it describes the candidate, so every row for them must agree",
+    "invalid did_not_respond" => "must be literally true or false",
+    "inconsistent did_not_respond" => "it describes the candidate, so every row for them must agree",
+    "response on non-responder" => "omit `response` (and `question`) when did_not_respond is true",
     "inconsistent candidate details" => "these describe the candidate, so every row for them must agree",
     "duplicate response" => "one row per candidate per question",
     "duplicate candidate slug" => "each candidate's page URL is derived from their name; two candidates in one state cannot share one",
@@ -140,7 +151,7 @@ module StanceResponseValidator
         next if state_slug == "_blank"
         file = "_data/stance_responses/#{state_slug}.yml"
         valid_question_ids = question_ids_by_state[state_slug] || Set.new
-        primary_by_candidate = {}
+        flags_by_candidate = {}
         details_by_candidate = {}
         questions_by_candidate = {}
         names_by_slug = {}
@@ -156,7 +167,9 @@ module StanceResponseValidator
             next
           end
 
-          RESPONSE_REQUIRED_FIELDS.each do |f|
+          required = entry["did_not_respond"] == true ?
+            RESPONSE_REQUIRED_FIELDS - NON_RESPONDER_EXEMPT_FIELDS : RESPONSE_REQUIRED_FIELDS
+          required.each do |f|
             if entry[f].nil? || (entry[f].is_a?(String) && entry[f].strip.empty?)
               add.call("missing required field", %("#{f}"))
             end
@@ -210,17 +223,29 @@ module StanceResponseValidator
             add.call("unexpected county_race", %("#{county_race_val}"))
           end
 
-          primary = entry["primary_candidate"]
-          unless primary.nil?
-            if primary != true && primary != false
-              add.call("invalid primary_candidate", %("#{primary}"))
+          CANDIDATE_FLAG_FIELDS.each do |f|
+            flag = entry[f]
+            next if flag.nil?
+            add.call("invalid #{f}", %("#{flag}")) if flag != true && flag != false
+          end
+
+          # A candidate flagged as not having responded has nothing to say, so
+          # answer text on the same row means one of the two is wrong.
+          if entry["did_not_respond"] == true
+            answer = entry["response"]
+            unless answer.nil? || (answer.is_a?(String) && answer.strip.empty?)
+              add.call("response on non-responder")
             end
           end
-          # primary_candidate is a property of the candidate, not the individual
-          # response, so it must be the same on every row for a given candidate.
-          # A missing field and false mean the same thing.
+
+          # These flags describe the candidate, not the individual response, so
+          # each must be the same on every row for a given candidate. A missing
+          # field and false mean the same thing.
           unless name.empty?
-            (primary_by_candidate[name] ||= Set.new) << (primary == true)
+            flags = (flags_by_candidate[name] ||= {})
+            CANDIDATE_FLAG_FIELDS.each do |f|
+              (flags[f] ||= Set.new) << (entry[f] == true)
+            end
 
             # Districts arrive from YAML as integers, so compare as strings, and
             # treat an absent value and a blank one as the same thing.
@@ -235,9 +260,11 @@ module StanceResponseValidator
           end
         end
 
-        primary_by_candidate.each do |cand_name, values|
-          next unless values.size > 1
-          problems << Problem.new(:file => file, :subject => cand_name, :kind => "inconsistent primary_candidate")
+        flags_by_candidate.each do |cand_name, flags|
+          flags.each do |field, values|
+            next unless values.size > 1
+            problems << Problem.new(:file => file, :subject => cand_name, :kind => "inconsistent #{field}")
+          end
         end
 
         details_by_candidate.each do |cand_name, fields|

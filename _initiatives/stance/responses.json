@@ -46,6 +46,7 @@ sitemap: false
           "party": {{ r.party | jsonify }},
           "county_race": {{ r.county_race | jsonify }},
           "primary_candidate": {% if r.primary_candidate %}true{% else %}false{% endif %},
+          "did_not_respond": {% if r.did_not_respond %}true{% else %}false{% endif %},
           "tag": {{ q_tags | jsonify }},
           "date": {{ r.date | date: "%Y-%m-%d" | jsonify }},
           "response_md": {{ r.response | jsonify }},

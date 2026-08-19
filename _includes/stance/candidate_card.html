@@ -19,6 +19,8 @@
 {%- assign questions = include.questions -%}
 {%- assign qtotal = questions | size -%}
 {%- assign answered = items | size -%}
+{%- comment -%} A non-responder's single row is a placeholder, not an answer. {%- endcomment -%}
+{%- if cand.did_not_respond -%}{%- assign answered = 0 -%}{%- endif -%}
 
 {%- assign full_name = cand.candidate_first_name | append: ' ' | append: cand.candidate_last_name -%}
 {%- assign date_display = cand.date | date: "%B %-d, %Y" -%}
@@ -44,6 +46,7 @@
          data-answered="{{ answered }}"
          data-qtotal="{{ qtotal }}"
          data-primary-candidate="{{ cand.primary_candidate | default: false }}"
+         data-did-not-respond="{{ cand.did_not_respond | default: false }}"
          data-location="{{ location }}">
   <div class="cand-card__head">
     {%- comment -%} Anchor kept on one line: stance-state-explorer.js copies this
@@ -73,6 +76,12 @@
   <div class="cand-card__sub"
        data-sub-default="{{ sub_default }}">{{ sub_default }}</div>
 
+  {%- comment -%} A non-responder has no answers to list. The stand-in must not
+    carry class .qa — stance-state-explorer.js reads every .qa as an answer, and a
+    tagless one would survive the Question Tag filter. {%- endcomment -%}
+  {%- if cand.did_not_respond -%}
+    <div class="cand-card__none stance-no-response">This candidate did not respond to Stance on Science.</div>
+  {%- else -%}
   {%- for q in questions -%}
     {%- assign resp = items | where: "question", q.id | first -%}
     {%- if resp -%}
@@ -93,4 +102,5 @@
       </div>
     {%- endif -%}
   {%- endfor -%}
+  {%- endif -%}
 </article>

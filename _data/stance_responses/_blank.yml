@@ -8,6 +8,7 @@
   date: 2026-07-04 # optional
   county_race: # feel free to remove if not applicable
   primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
   response: |
     meow. 
     
@@ -23,3 +24,11 @@
   primary_candidate: false
   response: |
     here's another response
+
+# a candidate who did not respond to any questions gets ONE entry like this. Omit `question` and `response`; the build fails if either is filled in here
+- candidate_first_name: Bryce
+  candidate_last_name: Wedig
+  state: in
+  race: US Senate
+  party: Republican
+  did_not_respond: true

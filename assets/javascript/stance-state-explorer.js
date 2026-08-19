@@ -71,6 +71,7 @@
       answered: parseInt(card.getAttribute("data-answered"), 10) || answers.length,
       qtotal: parseInt(card.getAttribute("data-qtotal"), 10) || answers.length,
       primary: card.getAttribute("data-primary-candidate") === "true",
+      noResponse: card.getAttribute("data-did-not-respond") === "true",
       location: card.getAttribute("data-location") || "Statewide",
       sub: card.querySelector(".cand-card__sub"),
       answers: answers
@@ -96,6 +97,8 @@
     var resetBtn = bar.querySelector("[data-filter-reset]");
     var primaryToggle = bar.querySelector("[data-filter-primary]");
     function showPrimary() { return !!(primaryToggle && primaryToggle.checked); }
+    var noResponseToggle = bar.querySelector("[data-filter-noresponse]");
+    function showNoResponse() { return !!(noResponseToggle && noResponseToggle.checked); }
 
     var query = "";
     var currentId = null;
@@ -114,6 +117,7 @@
     }
     function candMatch(c, f, except) {
       if (!showPrimary() && c.primary) return false;
+      if (!showNoResponse() && c.noResponse) return false;
       if (except !== "tag" && f.tag && !c.answers.some(function (a) { return a.tags.indexOf(f.tag) !== -1; })) return false;
       if (except !== "race" && f.race && c.race !== f.race) return false;
       if (except !== "district" && f.district && String(c.district) !== String(f.district)) return false;
@@ -345,6 +349,7 @@
     for (var k in selects) selects[k].addEventListener("change", rebuild);
     if (sortSel) sortSel.addEventListener("change", rebuild);
     if (primaryToggle) primaryToggle.addEventListener("change", function () { rebuild(); });
+    if (noResponseToggle) noResponseToggle.addEventListener("change", function () { rebuild(); });
     if (search) search.addEventListener("input", function () { query = search.value.toLowerCase().trim(); rebuild(); });
     if (resetBtn) resetBtn.addEventListener("click", function () {
       // Reset filters, search, and sort (back to the default) while
@@ -353,6 +358,7 @@
       for (var key in selects) selects[key].value = "";
       if (sortSel) sortSel.value = "random";
       if (primaryToggle) primaryToggle.checked = false;
+      if (noResponseToggle) noResponseToggle.checked = false;
       if (search) search.value = "";
       query = "";
       rebuild(focusId);

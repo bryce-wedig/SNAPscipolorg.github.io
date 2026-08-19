@@ -41,9 +41,10 @@
       });
     });
 
-    // Wire up the race-filter chips and the "show primary candidates" toggle
-    // inside each panel. Primary candidates (who didn't advance past the
-    // primary) are hidden by default; the checkbox reveals them.
+    // Wire up the race-filter chips and the primary-candidate visibility
+    // toggle inside each panel. Primary candidates (who didn't advance past
+    // the primary) are hidden by default; the checkbox reveals them.
+    // Candidates who never responded are always hidden in this view.
     panels.forEach(function (panel) {
       var chips = panel.querySelectorAll(".stance-chip[data-race-filter]");
       var cards = panel.querySelectorAll(".stance-response-card");
@@ -57,7 +58,8 @@
           var raceMatch = !race || card.getAttribute("data-race") === race;
           var primaryHidden = !(primaryChk && primaryChk.checked) &&
             card.getAttribute("data-primary-candidate") === "true";
-          var match = raceMatch && !primaryHidden;
+          var noResponseHidden = card.getAttribute("data-did-not-respond") === "true";
+          var match = raceMatch && !primaryHidden && !noResponseHidden;
           card.hidden = !match;
           if (match) visible += 1;
         });
