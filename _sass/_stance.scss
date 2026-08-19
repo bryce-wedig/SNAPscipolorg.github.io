@@ -836,7 +836,11 @@ $stance-focus-ring: 0 0 0 3px rgba($snap-blue, 0.14);
     color: #333;
   }
 
-  &__empty { color: #aaa; }
+  &__empty {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #aaa;
+  }
 }
 
 // ---------------------------------------------------------------------------
