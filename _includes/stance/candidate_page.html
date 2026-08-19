@@ -27,7 +27,7 @@
 {%- assign cand = items | first -%}
 {%- assign full_name = cand.candidate_first_name | append: ' ' | append: cand.candidate_last_name -%}
 
-<a href="{{ '/initiatives/stance-on-science/states/' | append: page.state | relative_url }}" class="stance-back-link"><i class="fa-solid fa-arrow-left"></i> Back to all {{ state_page.state_name }} responses</a>
+<a href="{{ '/initiatives/stance-on-science/states/' | append: page.state | append: '#responses' | relative_url }}" class="stance-back-link"><i class="fa-solid fa-arrow-left"></i> Back to all {{ state_page.state_name }} responses</a>
 
 <section class="stance-responses">
   <article class="cand-card">
