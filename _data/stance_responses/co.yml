@@ -6,6 +6,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-13
+  primary_candidate: true
   response: |
      “As a tech lawyer, I'm used to bringing in experts whenever a matter turns on technical knowledge outside my own. That discipline of knowing what you don't know and getting the right specialists at the table is exactly what I'll bring to the CU Board of Regents. On every consequential decision, whether it's research policy, campus safety, financial stewardship, or academic affairs, I'll rely on qualified professionals in the relevant field to inform my judgment and shape sound policy.”
 
@@ -18,6 +19,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-13
+  primary_candidate: true
   response: |
       “CU Regents don't set agriculture policy, but we are involved with research priorities, and CU has real assets for Colorado's farmers: world class water and climate science at CIRES, leading water law scholarship at our law school, and engineering programs ready to advance ag tech. As CU Regent, I'll promote that CU translate that research into tools farmers can actually use, deepen our partnership with CSU, and listen to the agronomists, hydrologists, and farmers closest to the problem.”
 
@@ -29,6 +31,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-13
+  primary_candidate: true
   response: |
       “Data centers offer potential economic upside and real costs in water, power, grid strain, and general community harm. The right balance demands transparency, true cost pricing, and binding community benefit standards before approval. As a tech lawyer, I've navigated these tradeoffs professionally.”
 
@@ -40,6 +43,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-13
+  primary_candidate: true
   response: |
       “Medicine runs through my life. I represent medical professionals, I own a veterinary oncology clinic, and as an Indian American, half my family wears a white coat. I believe in evidence based medicine, full stop. As Regent, I'll champion CU Anschutz as a national leader in vaccine science, infectious disease research, and public health, and ensure CU's expertise informs Colorado's response to measles and whatever threat comes next. Science should guide policy.”
 
@@ -51,6 +55,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-13
+  primary_candidate: true
   response: |
       “Science literacy in America is in trouble, and CU Regents don't set K-12 standards. But CU does train Colorado's teachers, run dual enrollment programs, and produce public facing science through various programs. As CU Regent, I'll champion stronger STEM teacher preparation, K-12 partnerships that bring CU scientists into classrooms, and science communication training.”
 
@@ -61,6 +66,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-13
+  primary_candidate: true
   response: |
       “Throughout my time in the legislature, I have prioritized listening to experts, researchers, impacted communities, and frontline professionals when developing policy. The best policymaking happens when decisions are grounded in evidence and informed by people with direct expertise and lived experience. I will carry that same commitment  to the Secretary of State's office.”
 
@@ -71,6 +77,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-13
+  primary_candidate: true
   response: |
       “I grew up on a farm outside of Ault, Colorado, so I know firsthand how important Colorado’s agricultural community is to both our economy and our way of life. I’m very proud to have earned the endorsements of Voces Unidas and UFCW because of the work we have done to protect farmworkers, including the Farmworker Bill of Rights, which established critical workplace protections for the people who help power Colorado agriculture. 
 
@@ -83,6 +90,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-13
+  primary_candidate: true
   response: |
       “We have already been having important conversations at the legislature about the impacts data centers will have on our communities. Experts have raised concerns about the strain large facilities can place on the electric grid and water resources, particularly in drought-prone states like Colorado. I believe any major data center development should include strong accountability measures around water consumption, energy use, and impacts on surrounding communities. There have been proposals this session focused on exactly these kinds of guardrails, including renewable energy requirements, water efficiency standards, and protections for ratepayers.”
 
@@ -93,6 +101,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-13
+  primary_candidate: true
   response: |
       “As a Senator, I have supported policies that expand access to affordable healthcare, strengthen preventative care, and ensure families can make informed decisions based on accurate medical information. 
 
@@ -108,6 +117,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-13
+  primary_candidate: true
   response: |
       “Science literacy is critically important in today’s world. Whether we are talking about public health, climate resilience, water conservation, or election security. As a legislator, I have always believed that public education is one of the most important investments we can make, which is why I am proud to have earned the endorsements of both AFT Colorado and the Colorado Education Association. I have a 100% voting record with CEA because I have consistently supported investments in public schools, educators, and student success throughout my time in the legislature.
 
@@ -120,6 +130,7 @@
   party: Unity
   question: co-q1
   date: 2026-05-13
+  primary_candidate: false
   response: |
       “A highly qualified and competent science and technology advisory board will be a key party of my administration. As the former Vice President of Special Projects at the DaVinci Institute in Colorado, I have extraordinary contacts. Highly affordable, evidence-based scientific and technological solutions are already described in my SOLUTIONS BLUEPRINT. [see [jeffpeckman.com/solutions-blueprint](https://jeffpeckman.com/solutions-blueprint)] It’s not just about positions and policies. It’s about real solutions that can appeal to the full spectrum of political affiliations. 
 
@@ -138,6 +149,7 @@
   party: Unity
   question: co-q2
   date: 2026-05-13
+  primary_candidate: false
   response: |
       “As governor, I would give priority to solutions in agriculture that solve problems at the least expense, and in the safest, most sustainable and affordable way. Several technologies described in my SOLUTIONS BLUEPRINT have direct application to farmers and the agriculture economy. Some will provide new income streams for farmers and exports for Colorado. These will help solve global problems in food production to address world hunger and other struggling economies. 
 
@@ -150,6 +162,7 @@
   party: Unity
   question: co-q3
   date: 2026-05-13
+  primary_candidate: false
   response: |
       “First, I would allow time for stakeholders, including surrounding communities, to explore available and affordable solutions to meet exceptionally stringent conditions for data centers and AI. Some of these have been ignored by the Polis administration and environmental groups. That would require a moratorium on new data center construction. 
 
@@ -167,6 +180,7 @@
   party: Unity
   question: co-q4
   date: 2026-05-13
+  primary_candidate: false
   response: |
       “Stress and various forms of pollution compromise immunity in general. I would employ evidenced-based, macroscopic approaches to reduce stress and pollution of the People. Some of those are described in my SOLUTIONS BLUEPRINT. I would need to become more familiar with all of the evidence-based policies to determine which ones I’d support.
        I’m not opposed to measles vaccines in general. I would also support research into the underlying cause of measles and other ways that immunity is compromised. Gut health is essential for optimal immunity. This can be achieved through simple procedures. Some of these could involve organic agricultural products from Colorado farmers. That would give agriculture a bigger stake in health care as a side-benefit.”
@@ -179,6 +193,7 @@
   party: Unity
   question: co-q5
   date: 2026-05-13
+  primary_candidate: false
   response: |
       “The U.S. is ridiculously behind Asia and other countries in science literacy. That’s partly because too much science in the U.S. has been hijacked by corporate interests. Their profit motives have skewed their ethics and concern for human welfare. Consequently, there’s less trust and appreciation for science.
       One specific priority is to emphasize the importance of “coherence” in academic studies and student environments. Emerging coherence technologies are among the most promising solutions to a spectrum of societal problems and opportunities for jobs and economic development. I describe some of these in my SOLUTIONS BLUEPRINT and also my book ‘RAISE the ZONE”. 
@@ -198,6 +213,7 @@
   party: Republican
   question: co-q1
   date: 2026-05-14
+  primary_candidate: false
   response: |
       “Studying and providing factual statistics to ensure coherent policies across the board.”
 
@@ -210,6 +226,7 @@
   party: Republican
   question: co-q2
   date: 2026-05-14
+  primary_candidate: false
   response: |
       “I plan on supporting to keep our reservoirs full. Most irrigations come from rivers and snowpack, but when water is scarce and there has been no snowpack then the reservoirs play a vital role in protecting our farmers and ranchers. In addition, I am a huge proponent of flood irrigation, for the reason it keeps our soil moist and raises the water bank underground. This will all allow our agricultural producers to feel protected and heard in the legislature.”
 
@@ -221,6 +238,7 @@
   party: Republican
   question: co-q3
   date: 2026-05-14
+  primary_candidate: false
   response: |
       “My policies would be to prioritize high economic returns through employment and tax revenue while mitigating infrastructure costs. The data centers would pay their full costs without subsidies that affects the affect the markets and burden our residents.”
 
@@ -232,6 +250,7 @@
   party: Republican
   question: co-q4
   date: 2026-05-14
+  primary_candidate: false
   response: |
       “Expand no-cost vaccinations to allow for barrier-free opportunities for those who want the vaccine.”
 
@@ -243,6 +262,7 @@
   party: Republican
   question: co-q5
   date: 2026-05-14
+  primary_candidate: false
   response: |
       “K-12 learning should prioritize math, reading, writing, science, and history. The state of science literacy begins with education our youth. ”
 
@@ -254,6 +274,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-15
+  primary_candidate: true
   response: |
       “As a policymaker, to gain a comprehensive understanding of an issue of public concern, I would eagerly consult organizations like Scientist Network for Advancing Policy (SNAP) and other leading groups of scientists, researchers, and industry experts to gain insights and recommendations based on current evidence. 
 
@@ -268,6 +289,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-15
+  primary_candidate: true
   response: |
       “As a grandson of a farmworker, this issue is deeply personal to me.
 
@@ -284,6 +306,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-15
+  primary_candidate: true
   response: |
       “It's difficult to imagine allowing data centers to move forward in the current environment. 
 
@@ -302,6 +325,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-15
+  primary_candidate: true
   response: |
       “I would strongly support an enhanced vaccination program to directly combat this issue. Vaccines do not cause autism -- in fact, they cause children to grow into adults through their lifesaving capabilities.
 
@@ -318,6 +342,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-15
+  primary_candidate: true
   response: |
       “The current state of science literacy is simply unacceptable, and it is having a direct and immediate impact on our public discourse around important issues like getting vaccinated against measles. 
 
@@ -333,6 +358,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-17
+  primary_candidate: true
   response: |
       “I believe policymaking should be grounded in evidence, data, and real-world results, not ideology alone. As a State House representative, I will work with independent experts, local educators, healthcare professionals, scientists, and community leaders to make informed decisions that reflect both research and the needs of Aurora families. I support transparent, evidence-based policymaking with clear goals, measurable outcomes, and regular public review so taxpayers can see what is working and what is not. I also believe leaders must be willing to adjust policies when new evidence emerges. To me good policy comes from combining sound science with community input and practical experience. My focus will always be on solutions that improve lives, strengthen trust in government, and deliver results for Colorado families.”
 
@@ -345,6 +371,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-17
+  primary_candidate: true
   response: |
       “Colorado’s farmers and ranchers are essential to our economy, our food supply, and our way of life. As water scarcity and rising costs put increasing pressure on agriculture, we need practical, science-based solutions that help producers stay competitive while protecting our natural resources. I support investments in water conservation technology, precision agriculture, soil health programs, and drought resilience strategies that are backed by research and proven results. Colorado’s own Water Plan emphasizes the importance of supporting robust agriculture while improving long-term water sustainability. I also believe the state should strengthen partnerships with Colorado universities, agricultural experts, and local producers so policy decisions are informed by real data and on-the-ground experience, not one-size-fits-all mandates. Supporting innovation in irrigation efficiency, crop management, and fertilizer alternatives can help farmers reduce costs while conserving resources. Most importantly, we must treat farmers and ranchers as partners. Colorado succeeds when we protect both our agricultural economy and the natural resources future generations depend on.”
 
@@ -357,6 +384,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-17
+  primary_candidate: true
   response: |
       “Colorado has a chance to lead the nation in responsible AI innovation — creating good-paying jobs and strengthening our clean energy economy while protecting the natural resources that define our state. I support a balanced approach to data center growth that requires strong standards for energy efficiency, water conservation, transparency, and community impact. The right balance is encouraging economic growth and technological innovation while ensuring communities are not left with higher utility costs, strained water supplies, or environmental burdens. In a water-scarce state like Colorado, growth must be sustainable and backed by evidence-based planning. Any public incentives should deliver clear benefits for Coloradans: quality jobs, investments in renewable energy and grid modernization, workforce partnerships, and protections for taxpayers and local communities. My approach would tie incentives and permitting to measurable standards and long-term accountability so companies that benefit from doing business in Colorado also contribute to Colorado’s future. Colorado can lead in innovation without compromising our values or our future.”
 
@@ -369,6 +397,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-17
+  primary_candidate: true
   response: |
       “I am not a health expert, but Colorado’s recent measles outbreak is a reminder that public health preparedness matters. We have also seen concerns around illnesses like hantavirus, which highlight how important it is for communities to have accurate information, strong local healthcare systems, and the ability to respond quickly to emerging health threats.
 
@@ -383,6 +412,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-17
+  primary_candidate: true
   response: |
       “Science literacy is more important than ever in a world shaped by technology, public health challenges, and an overwhelming amount of information and misinformation. Students need more than facts to memorize. They need to know how to think critically, evaluate evidence, solve problems, and make informed decisions in their daily lives. Most students are naturally curious about science when it feels connected to the real world. Colorado has already made important progress with science standards that emphasize inquiry, hands-on learning, and real-world application, and we should continue building on that foundation.
 
@@ -398,6 +428,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-17
+  primary_candidate: true
   response: |
       “Good policy starts with listening to people closest to the problem and grounding decisions in facts. That is my approach as a legislator, but my experiences and trust in science is deeply informed by my years of experience as both a classroom teacher, as well as my previous experience as a Director of Special Education services where relying on best practices derived from science is critical to ensuring quality of outcomes with our most vulnerable students. 
 
@@ -414,6 +445,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-17
+  primary_candidate: true
   response: |
       “Colorado agriculture is essential to our economy, our food supply, and our way of life. My work in rural Colorado, including leading San Luis Valley BOCES (Board of Cooperative Educational Services) has given me a close look at how deeply water, land, workforce, and local economies are connected. 
 
@@ -434,6 +466,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-17
+  primary_candidate: true
   response: |
       “Colorado has a strong history of welcoming innovation, and as stewards of that progress we know not to write a blank check to any industry that puts major pressure on our electric grid, water supply, housing market, or household utility bills. As a former Thornton City Council member, I know local communities need a real voice when major projects affect infrastructure, land use, public services, and neighborhood quality of life.
 
@@ -452,6 +485,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-17
+  primary_candidate: true
   response: |
       “Preventative health is one of the clearest examples of why evidence matters in public policy. 
 
@@ -474,6 +508,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-17
+  primary_candidate: true
   response: |
       “Science literacy is not just about memorizing facts. It is about helping students ask good questions, evaluate evidence, understand data, and apply what they learn to the real world through critical and non-linear thinking. I started as a classroom teacher, including teaching math, so standards are not abstract to me.
 
@@ -492,6 +527,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-19
+  primary_candidate: false
   response: |
       “Science and evidence based research plays a huge rule in policymaking and lawmaking. I believe in science and peer reviewed research, I do not support using "junk science" as a measure of policy. Science and research takes time and potentially years, I'm very cautious on "new" or "revolutionary" research. I believe having a curious mind but healthy skepticism is important in the age of misinformation we live in together.”
 
@@ -504,6 +540,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-19
+  primary_candidate: false
   response: |
       “I believe in smart growth and I would support our farmers in the agricultural business in any way and capacity. Colorado has been known as a strong breadbasket/agricultural state for decades. We should ensure that fertilizer and materials can be accessible so that we have healthy food and products in our communities.”
 
@@ -516,6 +553,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-19
+  primary_candidate: false
   response: |
       “One of my prime bills was SB-70 which put guardrails and regulated FLOCK cameras technologies. I believe that there must be an environmentally friendly and supportive of people living new potentially new Data Centers. We cannot expect residents to pay for potentially high increased utility bills for Data Centers.”
 
@@ -528,6 +566,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-19
+  primary_candidate: false
   response: |
       “We must believe in science and support our doctors, people must get vaccinated and I encourage and support efforts for mass immunization efforts. I would advocate for PSA and more education on the merits of getting vaccinated.”
 
@@ -540,6 +579,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-19
+  primary_candidate: false
   response: |
       “I believe that science has a special core place in our education, however it is very known that our education system in Colorado is broken. We must ensure that our teachers and educators are paid living wages and that we invest much more to our education system. I support SB-135 for example to re-invest TABOR dollars back to our schools, students, and educators.”
  
@@ -553,6 +593,7 @@
   party: Republican
   question: co-q1
   date: 2026-05-21
+  primary_candidate: false
   response: |
       “I support and have in any past business projects that require deep subject matter expertise worked with and actively sought out counsel.  It is important to seek out unbiased and unemotional data that can drive decisions based on fact.”
 
@@ -566,6 +607,7 @@
   party: Republican
   question: co-q2
   date: 2026-05-21
+  primary_candidate: false
   response: |
       “We have many challenging topics related to resources that will be highly charged and highly emotional.  As someone who comes from a legacy ranch that has passed thru 5 generations of my family I am deeply rooted and understanding of the Ag  industry.  I have spent almost 30 years working in the cooperative system and supported our farm and ranch owner/customers in leadership roles.  In all crucial conversations I have found that the more we can root the discussion in fact and math the easier it is to find common ground.”
 
@@ -579,6 +621,7 @@
   party: Republican
   question: co-q3
   date: 2026-05-21
+  primary_candidate: false
   response: |
       “AI use can raise tax bases in the county but also increase demand on weak utility systems.  There is substantial electrical and water use that in some parts of the country are readily available such as the Pacific Northwest.  That is not the case in SE Colorado.  We must critically evaluate potential development in this area against the availability of these limited resources.”
 
@@ -592,6 +635,7 @@
   party: Republican
   question: co-q4
   date: 2026-05-21
+  primary_candidate: false
   response: |
       “Science and math can further the conversation but there is still an inherent personal right that we must also be protective of.  These are hard decisions that will have consequences on both sides of the topic.”
 
@@ -605,6 +649,7 @@
   party: Republican
   question: co-q5
   date: 2026-05-21
+  primary_candidate: false
   response: |
       “Educators and state boards must lead this discussion.  Running as a candidate for county commissioner my stance would be to support opportunities for education and literacy where possible in that role.”
 
@@ -618,6 +663,7 @@
   party: Republican
   question: co-q1
   date: 2026-05-21
+  primary_candidate: true
   response: |
       “As an elected official, it is vital to take into consideration all advisors including those from a scientific background.”
 
@@ -631,6 +677,7 @@
   party: Republican
   question: co-q2
   date: 2026-05-21
+  primary_candidate: true
   response: |
       “As a farmer myself, it is very important to be sure farmers have the best information available to them. My policy would be to include common sense to all information available to me”
 
@@ -644,6 +691,7 @@
   party: Republican
   question: co-q3
   date: 2026-05-21
+  primary_candidate: true
   response: |
       “It is my understanding that data centers require the equivalent of two Olympic sized swimming pools of water every day. Colorado is a very dry state incapable of sustaining that kind of water use. This being said, I would not consider placing data centers here in Colorado. The very same people screaming about climate change are being very hypocritical when pushing these data centers which would contribute to the very problem they claim will destroy the planet.”
 
@@ -657,6 +705,7 @@
   party: Republican
   question: co-q4
   date: 2026-05-21
+  primary_candidate: true
   response: |
       “What evidence is there that hasn’t gone down the path of a political agenda? With the gain of function research that has become questionable as to the purpose of population control and biological warfare it is becoming harder and harder for people to trust “the science “ when it comes to the health of the people. The CDC is now reporting vaccine harm and the people can’t retaliate against big Pharmaceutical companies that caused the harm. It will be increasingly difficult for me to adapt any policy that requires the people to harm themselves from questionable science.”
 
@@ -670,6 +719,7 @@
   party: Republican
   question: co-q5
   date: 2026-05-21
+  primary_candidate: true
   response: |
       “When science decided that woke ideology was the determining factor as what true science is and what is not, when science became a political tool over logical research, it has lost its credibility and can no longer be trusted in shaping the minds of the children.”
 
@@ -683,6 +733,7 @@
   party: Libertarian
   question: co-q1
   date: 2026-05-21
+  primary_candidate: false
   response: |
       “Some of my trusted friends and advisors include an Electromechanical Engineer that has been sent world wide to work on problems, and a leader in AI theory that has been invited to advise at Cern.  
 
@@ -698,6 +749,7 @@
   party: Libertarian
   question: co-q2
   date: 2026-05-21
+  primary_candidate: false
   response: |
       “As someone running for Commissioner in Clear Creek County,   I would want to work with community leaders, farmers,  and organizations "down stream" literally and figuratively to help ensure everyone gets the resources they need agriculturally, professionally and personally."
 
@@ -711,6 +763,7 @@
   party: Libertarian
   question: co-q3
   date: 2026-05-21
+  primary_candidate: false
   response: |
       “While I do claim knowing great minds in the AI industry as a friend and an advisor,  I personally do not know enough about this platform to speak on this question."
 
@@ -724,6 +777,7 @@
   party: Libertarian
   question: co-q4
   date: 2026-05-21
+  primary_candidate: false
   response: |
       “Sadly i do not believe there is any magic pill or ad campaign that will help.
 
@@ -743,6 +797,7 @@
   party: Libertarian
   question: co-q5
   date: 2026-05-21
+  primary_candidate: false
   response: |
       “Not thrilled.  
       I have a 1st and 2nd grader in school right now,   well 2nd and 3rd by the time you read this (promotion day was today).
@@ -760,6 +815,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-21
+  primary_candidate: true
   response: |
       “First of all, I will base decisions on peer-reviewed science and research above all else. I'm fortunate to have attended a graduate program with a robust focus on methodology. I regularly consume peer-reviewed research in fields adjacent to my own, including economics, sociology, anthropology, psychology, and more. I am better than the average person at consuming more "hard science" research and would consult peer-reviewed sources in public health, ecology, etc. when within my time and power.
 
@@ -776,6 +832,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-21
+  primary_candidate: true
   response: |
       “In Adams County we need a comprehensive zoning and planning update for agriculture. We need to incentivize moving away from soy and other feed crops and toward water-wise crops that we can sell here in our own community (thereby reducing our community's carbon footprint as well). Right now, farmers I'm talking to have feed crops that were supposed be destined for Mexico still rotting in their field after tariffs disrupted their normal economic model. We need to seize this disruption as an opportunity to become more self-sufficient and economically resilient. 
 
@@ -795,6 +852,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-21
+  primary_candidate: true
   response: |
       “Well, I answered this question partially above. Let me expand on two things: 
 
@@ -813,6 +871,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-21
+  primary_candidate: true
   response: |
       “This is a tricky question because it arrives against the backdrop of Trump defunding Medicaid and public health programs. This does make community health fairs and mobile clinics all the more important, and I will fight hard to ensure that these are funded to the fullest extent possible. We know that mobile clinics, in particular, can help address the vaccination gap between the insured and uninsured. 
 
@@ -829,6 +888,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-21
+  primary_candidate: true
   response: |
       “As an educator, I can confirm that science literacy is lacking. This is an issue beyond the purview of the Adams County Board of County Commissioners, however. 
 
@@ -845,6 +905,7 @@
   party: Republican
   question: co-q1
   date: 2026-05-22
+  primary_candidate: true
   response: |
       “I will require input from multiple scientists and backgrounds."
 
@@ -857,6 +918,7 @@
   party: Republican
   question: co-q2
   date: 2026-05-22
+  primary_candidate: true
   response: |
       “I have farmers in my rolodex. I will reach out to them. They know."
 
@@ -869,6 +931,7 @@
   party: Republican
   question: co-q3
   date: 2026-05-22
+  primary_candidate: true
   response: |
       “AI is pointless without people. People over AI. People first."
 
@@ -881,6 +944,7 @@
   party: Republican
   question: co-q4
   date: 2026-05-22
+  primary_candidate: true
   response: |
       “Common Sense policies."
 
@@ -893,6 +957,7 @@
   party: Republican
   question: co-q5
   date: 2026-05-22
+  primary_candidate: true
   response: |
       “Our standards need to be raised to be on par with other countries who don't allow vaccines and most of the toxic chemicals we allow in the USA."
       
@@ -904,6 +969,7 @@
   party: Republican
   question: co-q1
   date: 2026-05-23
+  primary_candidate: false
   response: |
       “Focus on Individual Freedom & Market-Based Solutions
       Scientific evidence is valued where it supports market solutions, innovation, and consumer choice. Republicans might be more skeptical of evidence used to justify heavy regulation or centralized control."
@@ -916,6 +982,7 @@
   party: Republican
   question: co-q2
   date: 2026-05-23
+  primary_candidate: false
   response: |
       “Avoid Overreach on Climate Regulation
       Policies framed mostly around climate change (e.g. carbon taxes or strict greenhouse gas mandates), unless there are strong local economic benefits and clear evidence that costs won’t hurt producers and familes ."
@@ -929,6 +996,7 @@
   party: Republican
   question: co-q3
   date: 2026-05-23
+  primary_candidate: false
   response: |
       “Caution Around Regulatory Costs & Overreach
       Be skeptical of very tight mandates that could raise costs, deter investment, or create uncertainty.
@@ -942,6 +1010,7 @@
   party: Republican
   question: co-q4
   date: 2026-05-23
+  primary_candidate: false
   response: |
       “Avoiding Discrimination or Social Division
       Avoid harsh exclusionary rules that could block children from school or deny services—see such exclusions as potential overreach or unfair burden on families."
@@ -954,6 +1023,7 @@
   party: Republican
   question: co-q5
   date: 2026-05-23
+  primary_candidate: false
   response: |
       “Local Control & Parental Input
       Parents and local school districts should have significant say over curricula, especially in socially sensitive areas (evolution, climate policy, health).
@@ -967,6 +1037,7 @@
   party: Republican
   question: co-q1
   date: 2026-05-23
+  primary_candidate: true
   response: |
       “Depending on the legislation, I would research which organizations I need to contact to ask questions and to learn if the proposed bill is good, bad or needs amendments to work.  My goal is will always be to do no harm and to ensure a law is actually necessary and doesn't violate the constitution. "
 
@@ -978,6 +1049,7 @@
   party: Republican
   question: co-q2
   date: 2026-05-23
+  primary_candidate: true
   response: |
       “Given that Colorado is a semi-arid state, we must focus on developing water storage with reasonable rules and regulations.  No civilization can survive without water and so we must collaborate to ensure water storage is built in a timely manner with minimal impact to the environment.
 
@@ -993,6 +1065,7 @@
   party: Republican
   question: co-q3
   date: 2026-05-23
+  primary_candidate: true
   response: |
       “The AI industry is new which means there are many unknowns and before policy is decided, the state must make sure all facts are gathered and are based on actual evidence.  
 
@@ -1006,6 +1079,7 @@
   party: Republican
   question: co-q4
   date: 2026-05-23
+  primary_candidate: true
   response: |
       “Measles is something that recently became an issue again and it is important to understand why.  I am a strong believer in root cause analysis and therefore we need to understand WHY measles outbreaks are occurring and increasing. 
       Is it because of influx of illegal aliens? Is it because number of people receiving vaccination is decreasing? Is it because of both or something else?  People much smarter than me need to research and then present the evidence to legislators before new laws are written."
@@ -1018,6 +1092,7 @@
   party: Republican
   question: co-q5
   date: 2026-05-23
+  primary_candidate: true
   response: |
       “As someone who is serving on a school board (started in 2021) I do believe that K-12 standards need to be reviewed to ensure are based on actual science and not political agendas.  
       When there are multiple positions on the cause of some issue such as COVID-19 or climate change, curriculum must include ALL positions with supporting evidence."
@@ -1031,6 +1106,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-24
+  primary_candidate: true
   response: |
       “Evidence and scientific findings should play an important role in policymaking, especially on issues such as healthcare access, infrastructure, water resources, transportation, behavioral health, and environmental sustainability.
       As County Commissioner, I would support a research-driven decision-making process that includes regular consultation with subject matter experts, review of credible studies and local conditions, and partnerships with universities, healthcare professionals, and technical experts when evaluating major policy decisions affecting Arapahoe County."
@@ -1044,6 +1120,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-24
+  primary_candidate: true
   response: |
       “Colorado agriculture is critical to our economy and food systems, and farmers are facing serious pressures from water scarcity, rising costs, and long-term environmental challenges.
       As County Commissioner, I would support data-informed water management, conservation strategies, and long-term infrastructure planning that help protect agricultural land and natural resources while supporting sustainability for farmers and rural communities.
@@ -1058,6 +1135,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-24
+  primary_candidate: true
   response: |
       “Artificial intelligence and emerging technologies are creating new economic opportunities, but data centers can also place major demands on water, electricity, land use, and public infrastructure.
       Currently, large-scale data centers are generally not permitted under existing land use and zoning regulations in unincorporated Arapahoe County. I believe any future discussions about changing those policies should be approached cautiously, transparently, and with strong public input.
@@ -1072,6 +1150,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-24
+  primary_candidate: true
   response: |
       “Counties play an important role in supporting public health education, prevention, emergency preparedness, and access to accurate health information during outbreaks and other public health threats.
       I support data-informed public health strategies that improve vaccination access, community outreach, early detection, and coordination between public health agencies, schools, healthcare providers, and local governments. I also believe public trust is strengthened through transparency, clear communication, and culturally responsive outreach that helps residents make informed health decisions."
@@ -1085,6 +1164,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-24
+  primary_candidate: true
   response: |
       “Science literacy is increasingly important because scientific and technological issues affect everyday life, including public health, water, energy, agriculture, and emerging technologies.
       I believe K-12 education should emphasize hands-on learning, critical thinking, media literacy, and real-world problem solving so students better understand how science connects to their communities and future careers. 
@@ -1098,6 +1178,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-26
+  primary_candidate: true
   response: |
       “Good decisions start with good information. My approach to evidence-based policymaking was shaped directly by my experience leading a science and technology roundtable for the Department of Defense — working with experts across disciplines to evaluate emerging technologies, research priorities, and long-term strategic investments. That experience taught me that strong policymaking depends not just on access to scientific expertise, but on building structured, ongoing channels so evidence informs decisions early.
       It also deepened my commitment to basic research. Many of the technologies most critical to national security and economic competitiveness originated from fundamental research conducted decades earlier. Policy that focuses only on immediate outcomes risks starving the innovation pipeline that sustains us long-term.
@@ -1118,6 +1199,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-26
+  primary_candidate: true
   response: |
       “Colorado's farmers and ranchers are facing real, compounding pressures — prolonged drought, water scarcity, and rising input costs driven by global supply disruptions. Supporting agriculture means combining sound science with practical solutions that work for the people actually working the land.
       My background gives me a direct connection to these challenges. In my most recent role, I partnered with organizations across the West to bring training and resources directly to veterans entering farming and ranching in Colorado. I've also worked with technologies that monitor crop health, soil saturation, and water usage — giving producers better tools to make informed decisions while conserving resources.
@@ -1138,6 +1220,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-26
+  primary_candidate: true
   response: |
       "Colorado is already at the center of the AI economy — and that's because we have the talent, research institutions, infrastructure, and innovative culture to lead. But growth without accountability is not a strategy, and the communities bearing the costs of rapid data center expansion deserve a real voice in the process.
       The right balance starts with honest recognition of both the opportunities and the tradeoffs. In some parts of Colorado, new data centers mean high-quality jobs, expanded tax revenue, and economic diversification. In other communities — especially water-stressed areas along the Front Range — they place additional pressure on already limited water and energy resources that families, agriculture, and ecosystems depend on. We need to be honest about those realities.
@@ -1157,6 +1240,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-26
+  primary_candidate: true
   response: |
       "The measles outbreak Colorado has experienced since 2025 is a stark reminder that public health infrastructure and trust in science cannot be taken for granted. The consequences of preventable disease outbreaks fall on real families, real children, and entire communities — and we should treat that with the seriousness it deserves.
       I support vaccines. The scientific evidence on safety and effectiveness is overwhelming, and I will not equivocate on that in Congress or anywhere else.
@@ -1177,6 +1261,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-26
+  primary_candidate: true
   response: |
       "I'm genuinely concerned about the state of science literacy in America — not because students are incapable, but because the world they're entering is becoming dramatically more complex. From AI and cybersecurity to climate, public health, and advanced manufacturing, today's students need the ability to evaluate evidence, understand uncertainty, and think critically about rapidly changing systems.
       Too often, science education has been treated as a collection of facts to memorize instead of a way of thinking to develop. When students learn science as a process of curiosity, experimentation, and problem-solving, they gain skills that extend far beyond the classroom.
@@ -1198,6 +1283,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-27
+  primary_candidate: true
   response: |
       "As a member of Congress, I would like to establish a Colorado Science and Public Health Advisory Council made up of independent scientists, health professionals, climate and water experts, educators, farmers, labor representatives, and community voices. I will convene regular public briefings on the issues that directly affect Coloradans, including water, air quality, public health, energy, artificial intelligence, environmental justice, and emerging technologies.
       
@@ -1213,6 +1299,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-27
+  primary_candidate: true
   response: |
       "Colorado farmers and ranchers are essential to our economy, our food security, and our way of life. They are also on the front lines of drought, water scarcity, unpredictable weather, rising costs, and unstable supply chains.
 
@@ -1232,6 +1319,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-27
+  primary_candidate: true
   response: |
       "Artificial intelligence and advanced computing can create real opportunity in medicine, clean energy, education, small business, scientific discovery, and our national economy. I support innovation, but I do not support an economy where technology moves forward by leaving workers, families, and communities behind.
 
@@ -1253,6 +1341,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-27
+  primary_candidate: true
   response: |
       "Measles is preventable, and outbreaks are a warning that our public health system must be strengthened, not weakened. I support vaccination as one of the most effective public health tools ever developed. Families deserve accurate information from trusted medical professionals, convenient access to vaccines, and a public health system capable of responding quickly when outbreaks occur.
 
@@ -1270,6 +1359,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-27
+  primary_candidate: true
   response: |
       "Science literacy is essential to democracy. People are being asked to make decisions about vaccines, climate change, artificial intelligence, water, energy, food safety, and public health while misinformation spreads faster than reliable information. When people lose confidence in science, it is often because science has not been made accessible, relevant, or connected to the challenges they face every day.
 
@@ -1291,6 +1381,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-27
+  primary_candidate: true
   response: |
       "I will make evidence-based policymaking a core part of my work by creating advisory circles of scientists, educators, public health experts, engineers, economists, workers, and community members. I will rely on nonpartisan research, expert briefings, and transparent review of evidence before major decisions. I will also support clear goals, data tracking, and regular policy reviews so we can adjust when the facts show something is not working."
       
@@ -1302,6 +1393,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-27
+  primary_candidate: true
   response: |
       "Colorado farmers are facing water scarcity, rising costs, and climate pressures, and I would support practical, evidence-based solutions that protect both farms and natural resources. That includes water-smart agriculture, drought-resilient crops, soil health, precision irrigation, stronger local supply chains, and partnerships with CSU, conservation districts, and farmers. Farmers must be at the table so policy reflects both science and real-world experience."
 
@@ -1313,6 +1405,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-27
+  primary_candidate: true
   response: |
       "Colorado should welcome AI innovation and good jobs, but not at the expense of our water, energy grid, neighborhoods, or ratepayers. I would support data centers only with strong standards for water efficiency, clean energy, grid reliability, land-use compatibility, and public transparency. Large users should pay their fair share for grid upgrades, and tax incentives should be tied to local hiring, efficiency, renewable energy, water conservation, and community benefit. We should also put job protections and utility rate protections in place. "
 
@@ -1324,6 +1417,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-27
+  primary_candidate: true
   response: |
       "I support evidence-based public health policies focused on prevention, trust, and rapid response. That means expanding vaccine access and education, strengthening local public health departments, improving outbreak tracking and communication, and protecting schools, seniors, and vulnerable residents. I would also invest in broader preventive health, including mental health, maternal health, chronic disease prevention, nutrition, air quality, and affordable primary care."
 
@@ -1335,6 +1429,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-27
+  primary_candidate: true
   response: |
       "Science literacy should help students understand evidence, ask good questions, recognize misinformation, and make informed decisions. I would support K-12 standards that focus on hands-on learning, critical thinking, data interpretation, source evaluation, and real-world problem solving. We should also connect students with local scientists, farmers, engineers, healthcare workers, and universities so science feels relevant to their lives and prepares them for future careers."
 
@@ -1346,6 +1441,7 @@
   party: Republican
   question: co-q1
   date: 2026-05-27
+  primary_candidate: true
   response: |
       "I make decisions by getting the facts, talking with the people who live the issue every day, and taking the time to understand what’s really going on. In my past work, I’ve always looked at what’s working and what isn’t by using real information from the folks closest to the process. Everyone sees a different angle, and the truth usually sits somewhere in the middle. Good policy making requires facts, data, and input from the people directly affected. That’s the approach I’d bring to policymaking."
 
@@ -1357,6 +1453,7 @@
   party: Republican
   question: co-q2
   date: 2026-05-27
+  primary_candidate: true
   response: |
       "My family has been in rural Colorado for five generations, starting as homesteaders in Routt County. Agriculture isn’t just an industry to me; it’s the people I grew up with and the way of life that shaped me.
 
@@ -1374,6 +1471,7 @@
   party: Republican
   question: co-q3
   date: 2026-05-27
+  primary_candidate: true
   response: |
       "New technology always shakes things up while it’s developing. AI and data centers are no exception. They can bring opportunity, but they can also put real pressure on local resources.
 
@@ -1391,6 +1489,7 @@
   party: Republican
   question: co-q4
   date: 2026-05-27
+  primary_candidate: true
   response: |
       "With the measles outbreak and other health concerns, I support practical, evidence based steps that help people stay healthy while respecting individual choice and keeping the public informed. That starts with clear information from local health departments, schools, and hospitals so we understand what’s actually happening. Public trust matters during health situation, and trust comes from transparency, accuracy, and consistency.
 
@@ -1404,6 +1503,7 @@
   party: Republican
   question: co-q5
   date: 2026-05-27
+  primary_candidate: true
   response: |
       "A lot of people feel overwhelmed by the amount of information out there, and I understand why. That’s why our schools should focus on practical science education that teaches kids how to think, not what to think.
 
@@ -1418,6 +1518,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-29
+  primary_candidate: false
   response: |
       "As Secretary of State, I will continue to make evidence-based policymaking a core principle of the office. Throughout my career, I have relied on data, research, and subject matter expertise to inform decisions, whether that was helping develop election laws as Executive Director of Colorado Common Cause, administering elections for nearly half a million voters as Jefferson County Clerk and Recorder, or modernizing services across our office.
 
@@ -1436,6 +1537,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-29
+  primary_candidate: false
   response: |
       "While the Secretary of State does not directly set agricultural or water policy, the office plays an important role in supporting Colorado's economy, businesses, and democratic institutions. Agriculture is one of Colorado's most important industries, and our farmers and ranchers deserve leaders who value science, data, and long-term planning.
 
@@ -1454,6 +1556,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-29
+  primary_candidate: false
   response: |
       "AI and data infrastructure are already shaping Colorado’s economy, democracy, and natural resources. New data center construction can support innovation, jobs, and economic growth, but it also raises serious questions about water use, energy demand, land use, privacy, cybersecurity, and whether the benefits are shared broadly across Colorado communities.
 
@@ -1470,6 +1573,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-29
+  primary_candidate: false
   response: |
       "Public health decisions should be grounded in evidence, science, and the expertise of trained public health professionals. I support policies that improve access to vaccines, strengthen public health communication, and ensure communities have accurate, trusted information about infectious disease prevention.
 
@@ -1490,6 +1594,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-29
+  primary_candidate: false
   response: |
       "Science literacy is an important skills a person can develop, and it is more important today than at any point in my lifetime. Yet I worry that many Americans are growing up without the tools they need to navigate an increasingly complex information environment.
 
@@ -1510,6 +1615,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "Many of the issues for Colorado can be viewed through a scientific lens to support how we build solutions for our communities and build a better future for Colorado. As a prosecutor who has specialized in the prosecution of sex crimes and homicides for over 25 years, I have always been guided by evidence and scientific findings in determining the right course. Whether it is as a leader, in the courtroom, or in the legislative process, I always look to science and data to guide my position on policies. For example, as District Attorney of Boulder County, I was the first District Attorney in Colorado to open five years of case files for an independent review. I shared, and continue to share, all of that data with the community. I made changes to our office as a result of the data. Then, I helped bring that approach statewide.
 
@@ -1524,6 +1630,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "This issue is a top priority for me. Colorado’s agricultural sector, our state’s leading export industry, is currently under siege from multiple directions. A severe water crisis, driven by climate change and an exceptionally dry winter with record-low snowfall, has left our farmers vulnerable. Simultaneously, the Trump Administration’s illegal conflict with Iran has triggered a looming fertilizer shortage that threatens their productivity.
 
@@ -1540,6 +1647,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "As the People’s Lawyer, I will protect our public lands and water while seeking justice against corporate misconduct, including data center developers. My commitment is personal; Antonia and I moved our family here for my role as Deputy Attorney General and to enjoy Colorado’s natural beauty. With the EPA being rolled back, my experience prosecuting environmental crimes is essential. I will aggressively target polluters, like Suncor, who disproportionately harms low-income and minority communities. My campaign is built on bipartisan support gathered through extensive statewide outreach and my commitment to doing justice – with integrity. That requires balance on complex issues, such as this one.
       Ensuring digital safety for children is a priority. 
@@ -1555,6 +1663,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "My commitment to science and the proven effectiveness of vaccinations is unwavering. The ongoing resurgence of measles is a direct consequence of anti-science narratives propagated by MAHA and Health Secretary Robert F. Kennedy, Jr. Historically, preventive healthcare and equitable vaccine access were instrumental in nearly eliminating this threat, which claimed the lives of children and vulnerable populations for centuries prior to their development.
 
@@ -1581,6 +1690,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "Significant gaps in health and science literacy across Colorado and the nation persist, exacerbated by recent funding cuts to public education that disproportionately affect our most vulnerable populations. These impacts are felt most acutely in rural and historically underserved communities, where limited healthcare access and systemic distrust threaten public health outcomes. As Attorney General, I will be a steadfast advocate for a robust, well-funded public education system, recognizing that science is fundamental to the future of our state.
 
@@ -1606,6 +1716,7 @@
   party: Republican
   question: co-q1
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "As a constitutional conservative with a PhD in Economics and 25 years in the Air Force analyzing data, science should not be politicized to justify government overreach. Scientific inquiry is strongest when data, assumptions, and methodologies are transparent and open to public scrutiny. I will support transparent advisory mechanisms including: independent, peer-reviewed studies from diverse sources (not just government-funded consensus), public hearings with cross-examination, rigorous cost-benefit and constitutional impact analyses, and input from affected Coloradans. Evidence must respect individual liberty, limited government, and empirical reality. I also support regular consultation with Colorado's universities, research institutions, agricultural experts, public health professionals, and private-sector innovators to ensure policymakers have access to the best available evidence."
 
@@ -1617,6 +1728,7 @@
   party: Republican
   question: co-q2
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "I support free-market solutions and limited government to empower Colorado's farmers. Thus, it is imperative to reduce regulatory burdens, streamlining water rights protections under the prior appropriation doctrine, and incentivize innovation in efficient irrigation and domestic fertilizer production to combat scarcity and rising costs. I support voluntary advancements in soil health and resource stewardship that respect property rights. I voted for SB26-121 (Overtime Threshold for Agricultural Employees), which reduced regulation, helped farmers to establish a fair overtime threshold for agricultural employees, and balance worker needs with farm viability. I support voluntary adoption of precision agriculture technologies, drought-resistant crop research, advanced irrigation systems, and data-driven resource management practices that help farmers produce more with fewer inputs while protecting natural resources."
 
@@ -1628,6 +1740,7 @@
   party: Republican
   question: co-q3
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "Data centers can drive technological innovation, economic growth, and high-quality job creation, but their development must be balanced with responsible stewardship of Colorado's water, energy, and taxpayer resources. Private enterprise should bear full costs via market pricing and local zoning. Any incentives offered to large technology companies should be subject to rigorous public cost-benefit analysis to ensure taxpayers receive measurable returns and are not subsidizing private profits. Most importantly, property rights must be upheld for those who were first established. Large data center projects should provide transparent reporting of projected water consumption and demonstrate how their operations will avoid negatively impacting existing agricultural, residential, and environmental water users."
 
@@ -1639,6 +1752,7 @@
   party: Republican
   question: co-q4
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "Vaccines have played a significant role in reducing the spread and severity of many infectious diseases, and public health communications should accurately reflect both the benefits and risks of available medical interventions. Individual rights and parental authority should be priority over government mandates. Evidence shows high vaccination rates in Colorado, with outbreaks often tied to pockets of low immunity. Thus, I support:
       -Transparent, evidence-based public education on vaccines and natural immunity.
@@ -1654,6 +1768,7 @@
   party: Republican
   question: co-q5
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "Science literacy in America is declining because many classrooms prioritize political narratives over the scientific method, critical thinking, and empirical evidence. Students deserve facts, not activism disguised as science. To improve K-12 standards, we must emphasize rigorous teaching of the scientific method, hypothesis testing, data analysis, and debate of competing evidence. Students should also develop a foundational understanding of emerging technologies such as artificial intelligence, including how to evaluate AI-generated content, identify manipulated images and deepfake videos, and verify information using credible sources. AI should be a tool that enhances human intelligence, not a substitute for human judgment."
 
@@ -1665,6 +1780,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "I believe in a practical, bipartisan approach that brings in independent experts, local stakeholders, and community leaders from across the district. Throughout my career, I’ve worked in infrastructure, technology, and strategic advisory roles where data-driven decision-making was essential. Therefore, evidence and scientific findings should inform policy, but they should be balanced with the realities facing rural communities, small businesses, farmers, and families in Western and Southern Colorado. My goal would be to keep the process transparent, open to different viewpoints, and focused on getting results that actually work for our district."
 
@@ -1676,6 +1792,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "Agriculture is foundational to Colorado’s economy, culture, and way of life, especially across the 3rd District. I would approach this by focusing on practical, evidence-based solutions that help farmers stay productive while protecting our water and natural resources. That means supporting modern irrigation technology, soil-health practices, drought-resilient crops, and water reuse where appropriate, while making sure farmers have access to the research, technical assistance, and financing they need to adopt these tools. I would also work to strengthen partnerships with Colorado State University, Extension, USDA, and local water users so policy is grounded in what works on the ground. And because agriculture depends on long-term certainty, I would support policies that reward conservation, expand domestic supply chains, invest in rural infrastructure, and improve access to research and innovation that help lower costs and improve productivity."
 
@@ -1687,6 +1804,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "Colorado should be competitive for data center investment, but it must be responsible and shouldn’t strain our limited water, energy, and infrastructure resources. My view is that we should prioritize projects that clearly benefit local communities, fully account for their costs, and do not compete with agriculture or other essential needs. The reality is that CD3 does not have the inexpensive land, abundant water or utility infrastructure, and therefor it is not attractive for data center developers."
 
@@ -1698,6 +1816,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "We need evidence-based public health policies that help educate families and prevent disease before it spreads. That means ensuring vaccines are easy to access, using clear and respectful outreach to build trust, and supporting local health departments and clinics with the resources they need for testing and rapid response. We also need to  keep schools, childcare centers, and health providers aligned on infection prevention. I also support better data sharing, so public health officials can spot outbreaks earlier and respond quickly, along with common-sense steps like staying current on immunizations, improving communication about exposure risks, and making preventive care more affordable and accessible. For me, public health works best when it is science-based, local, transparent, and focused on protecting vulnerable people. Furthermore, my father has worked at the National Institutes of Health as a scientist for almost 60 years, so this is a topic I know something about and have appreciation for."
 
@@ -1709,6 +1828,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "Science literacy is too often treated as memorization when it should be taught as a way of thinking, questioning, and solving problems. We do a better job for students and for the public when science education focuses on how to evaluate evidence, understand uncertainty, read data, and separate credible information from misinformation. I would support K-12 standards that put more emphasis on hands-on learning, real-world applications, and critical thinking. That means connecting science with reading, writing, and math, and making sure students learn how science relates to everyday issues like water, agriculture, health, energy, and land management. We should also help students build a more positive relationship with science by making it more local, practical, and collaborative. If young people see science as something that helps their communities and hear from local experts, teachers, and researchers, they are much more likely to trust it and use it throughout their lives."
 
@@ -1720,6 +1840,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "Having earned a Bachelor's Degree in Biological Sciences and a general science teaching certification in 3 states, I've dedicated a good portion of my life to not only teaching science, but also helping students learn how to evaluate evidence, distinguish facts from opinions, and make informed decisions based on data. Over the course of 15 years as a science teacher and tutor, I've seen firsthand the importance of asking good questions, examining multiple sources, and following the evidence wherever it leads.
       As a policymaker, I’ve had a strong leadership role in developing our own Board of Health. Having experienced a pandemic as an elected official, I felt it was vital to have experts at the helm. I would bring that same approach to public service at the state level. I believe elected officials should actively seek input from subject-matter experts, researchers, educators, industry professionals, and community stakeholders when considering legislation. I would support the use of expert advisory panels, public hearings with scientific experts, and partnerships with Colorado's universities, research institutions, and scientific organizations to ensure that policy decisions are informed by the best available evidence.
@@ -1734,6 +1855,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "Colorado agriculture is essential not only to our economy and food systems, but also to the stewardship of our land and natural resources. As a trained Climate Reality Ambassador, I also know that supporting Colorado's farmers and seasonal workers means respecting their expertise while ensuring they have the tools, training, and resources needed to adapt to a changing climate. It also means recognizing that climate-related challenges often fall hardest on low-income communities and communities of color, making resilient agricultural systems essential for both economic opportunity and environmental justice. 
       I support science-based investments in water conservation, healthy soils, drought preparedness, precision agriculture, and producer support programs. In Broomfield, we’ve had a strong working relationship with trusted partners such as CSU Extension and I would work on building stronger partnerships with conservation districts, and the Colorado Department of Agriculture. We can help farmers and ranchers adapt to changing conditions while remaining productive and competitive. Because agriculture, water management, and climate resilience are closely linked, I support continued implementation of strategies that advance both agricultural sustainability and the objectives of the Colorado Water Plan. 
@@ -1749,6 +1871,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "Broomfield and Thornton are home to a highly skilled technology workforce, and our region already hosts multiple data centers that serve as critical infrastructure for the digital economy that supports scientific data collection, interpretation, and implementation. We understand both the benefits and the challenges these facilities bring. The reality is that yesterday's data centers are not tomorrow's data centers, as they are centered on an AI-driven economy.
 
@@ -1770,6 +1893,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "I believe public health policy should be guided by evidence, transparency, and prevention. The recent measles outbreaks in Colorado remind us that infectious diseases do not recognize political boundaries, and that strong public health systems remain essential to protecting our communities.
       I am proud that Broomfield has consistently maintained high childhood vaccination rates compared to many communities across the country. Those high vaccination rates help protect not only individuals, but also infants, seniors, cancer patients, and others who may be especially vulnerable to infectious diseases. When measles cases were identified in our community, the Broomfield Department of Public Health and Environment acted quickly alongside state and regional partners to notify the public, identify potential exposure locations, conduct contact tracing, and provide clear guidance to families, schools, and healthcare providers. These rapid response measures help contain outbreaks before they become larger public health emergencies.
@@ -1785,6 +1909,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "As a science teacher and tutor for more than 15 years, I have spent my career helping students learn not just scientific facts, but engage with our world in outdoor classrooms and Project Based Learning, like Northglenn High School’s programming. I’ve taught students how fossil fuel extraction exacerbates climate change and how policy meets the scientific road in regard to health and safety, as well as vaccine access.  I've also engaged in community outreach as part of the Adams 12 ELEVATE program, with insight from thousands of community members, for our strategic plan, which serves as the roadmap for success in the Five Star District. This work expanded the impact our schools can have and why investing in schools is important.
       So, in today's world, science literacy is more important than ever. Whether people are evaluating health information, understanding emerging technologies like artificial intelligence, making decisions about energy and natural resources, or navigating misinformation online, the ability to assess evidence and think critically is an essential civic skill.
@@ -1794,12 +1919,13 @@
       Ultimately, science literacy is not about training every student to become a scientist. It is about preparing all students to be informed citizens who can evaluate evidence, make sound decisions, and participate thoughtfully in our democracy. That goal has guided my work in the classroom, and it would continue to guide my work as a legislator."
 
 - candidate_first_name: Paul 
-  candidate_last_name: Noel Fiorino (Up)
+  candidate_last_name: Noel Fiorino
   state: co
   race: Governor
   party: Unity
   question: co-q1
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "Many Candidates have great advice and I've got Jeff Peckman as my Lieutenant. 
       A brilliant mind that has ideas that literally are now in his new book. The others are 
@@ -1807,22 +1933,24 @@
       Climate Science and Atmospheric development with satellite technology can see below surfaces and above; too the beyond. Great strides have been hampered and tampered with this new National Administration. Colorado's leadership role can extend into a reversal of the value of Scientific research, discovery and discussion. Evidence must be presented to policymakers who are champions for environmental hope, health and " EARTH DAY IS EVERYDAY " attitude; That can assist legislation. STEAM in Education will Transform in FIORINO UNITY FOR GOVERNOR. Call County Clerk for your Unity Ballot today, for the betterment of the Planet."
 
 - candidate_first_name: Paul 
-  candidate_last_name: Noel Fiorino (Up)
+  candidate_last_name: Noel Fiorino
   state: co
   race: Governor
   party: Unity
   question: co-q2
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "Growing up in rural Douglas County with a 4-H Club that taught the valuable role of Water and Husbandry.  How much we use on a daily basis could be on each; as one backs off on the Tap. Agricultural practices may change as the Climate changes, with Crops that need less. Fertilizer is currently stuck in Hormuz Strait, and will have great impact on our growing season. Preparations for Drought must advance in the next Administration with an emphasis on Scientific Evidence and Actions. Colorado's hemp industries need new leadership and overall growth..Water is our Gold, needs protection from fracking waste water supply and other needed advancements in the Compact Agreements with seven States. Farmers are the best barometer for forecasting the problems, productivity of crops and the financial strains and challenges to the AG Industries. The Denver Basin among our other resources is Our collective strength and economy; However if it is a balanced environment of preservation, conservation and restorations, we can succeed."
 
 - candidate_first_name: Paul 
-  candidate_last_name: Noel Fiorino (Up)
+  candidate_last_name: Noel Fiorino
   state: co
   race: Governor
   party: Unity
   question: co-q3
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "Artificial Intelligence has been part of our existence for sometime. I introduced in my first Unaffiliated Gubernatorial 2006 the NANO TECHNOLOGY. Yes, I too was a  DaVinci Institute Fellow following information on this progress of smaller, faster and highly disturbing New Technologies. Businesses with Customer Service has a Bot Chatting at You. Media is following, as Mechanical might figure out another career as Robotics have their way. Data is what we seek now and the Energies demands
       Our attention. DATA CENTERS are being built rapidly for the Next Phase, yet our Resources must be Paid for and No Subsidies should be needed. Dark Energies. 
@@ -1837,24 +1965,26 @@
       Ballots sent. What a hassle, but legislation to reform Statute 108 may be needed for a True Open Primary. Democracy can only continue if we believe our Science."
 
 - candidate_first_name: Paul 
-  candidate_last_name: Noel Fiorino (Up)
+  candidate_last_name: Noel Fiorino
   state: co
   race: Governor
   party: Unity
   question: co-q4
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "Wash Your Hands. Still STANDS as the best deterrence from disease. Easily done with a small amount of "precious" water. I had measles at 6, and most recently 1993 a bout with Gullian-Barre Syndrome, which I experienced quadriplegia, until Plasmapherisis; saved my life. Thanks be to God, Physicians, Staff and just Everyone who got me back on my Feet. (Danced for televised Easter Sunrise at Red Rocks, for comeback.)
       Preventative heath practices will be available for free under my Administration with an emphasis on Seniors and early Childhood. Colorado is home to the finest of health facilities. Anchutz east, Lutheran west, Memorial south and C.S.U north.(AG) as the State makes medical tourism, Hospitality and Mental well-being a priority. Science and threats of new diseases, coming from Climate Change, overseas and
       A sneeze; PLEASE WASH YOUR HANDS. Thankyou. PLEASE CALL CLERK TO VOTE."
 
 - candidate_first_name: Paul 
-  candidate_last_name: Noel Fiorino (Up)
+  candidate_last_name: Noel Fiorino
   state: co
   race: Governor
   party: Unity
   question: co-q5
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "Add ARTS to STEM is a Start. Both sides of the Brain, educating the Whole Child.
       Left for logics and techniques, right intuition and creativity; Together they excel.
@@ -1869,6 +1999,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-29
+  primary_candidate: false
   response: |
       "As a former Colorado State Representative and a candidate for the CU Board of Regents, my approach to governance has always been data-driven. Within the CU system, our greatest asset is our world-class faculty,  researchers, and graduate students. To ensure scientific evidence directly informs university policy, I will advocate for formalizing advisory panels that bridge the gap between researchers and the Board. This includes regular briefings from CU's premier institutes (such as CIRES, JILA, and BioFrontiers) on critical issues such as climate resilience and sustainability (e.g., the SPIKE Center for Sustainability Education), public health, and technological innovation."
 
@@ -1880,6 +2011,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-29
+  primary_candidate: false
   response: |
       "As Regent, I will support inter-university research collaborations between CU and CSU focused on optimizing water use, improving soil health, and developing climate-resilient crop technologies. We must ensure that CU and CSU's cutting-edge climate and environmental data are accessible and actionable for Colorado's agricultural communities."
 
@@ -1891,6 +2023,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-29
+  primary_candidate: false
   response: |
       "AI offers massive economic and computational benefits, but it cannot come at the expense of Colorado's electrical grids and scarce water resources. As Regent, I will advocate for the university's role in researching energy-efficient computing, advanced cooling systems, and grid integration. CU must remain a leader in the ethical deployment of AI, with a focus on data privacy and digital equity."
 
@@ -1902,6 +2035,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-29
+  primary_candidate: false
   response: |
       "Public health policies must be rooted strictly in peer-reviewed medical science and epidemiological data. As Regent, my focus will be on supporting CU Anschutz Medical Campus and the Colorado School of Public Health. As a former legislator, I know how to reach out to members of the General Assembly to support public funding of public health outreach programs that actively counter misinformation with accessible, evidence-based science to rebuild community trust in preventative medicine."
 
@@ -1913,6 +2047,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-29
+  primary_candidate: false
   response: |
       "Science literacy is fundamental to a functioning democracy and a thriving economy. I support the current shift away from rote memorization, teaching to the test, toward inquiry-based learning - evaluating evidence, testing hypotheses, and understanding the peer-review process. CU can impact this by expanding its K-12 outreach, teacher training programs, and pipeline initiatives such as CU Teach."
 
@@ -1923,6 +2058,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "The Attorney General is not a traditional policymaker, although her advice and leadership can certainly impact policy.  
 
@@ -1935,6 +2071,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "There's nothing more important to Colorado farmers than water. And right now, between a changing climate, aridification, and growing uncertainty over the future of our allocations under the Colorado River Compact, our farmers and water users face impossible choices.
 
@@ -1949,6 +2086,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "AI is transforming every aspect of our economy. How we deal with these impacts on resource use, privacy rights, and economic opportunity deserves the attention of the legislative leaders who reflect our communities. It also merits priority from the Attorney General who must navigate the rapidly-evolving nature of the technologies against the inertia and lack of expertise in such subjects by judges and juries.
 
@@ -1961,6 +2099,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "Public health policy is rightly the work of our legislators and executive agencies. The Attorney General's role is to back them with sound legal advice and to make sure no Coloradan's rights are ever put at risk by bad actors, in or out of government. That means making sure that statewide policies and standards with respect to mandated vaccinations are grounded in clear, peer-reviewed, and validated research. Without a fully functioning CDC, there are certainly challenges in the space in the short term, but other state agencies outside of the AG’s office can step in to help, and I would support such efforts.  
 
@@ -1977,6 +2116,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "The current state of science literacy is poor.  This is the product of a number of social and economic conditions, and broader challenges in education.  Most fundamentally, the relationship between logic, analytical testing, and verification is undercovered and undertreated in educational environments.  The concept of “alternative facts” prevails, even when the definition of a “fact” is, of course, contrary to the idea that there are alternatives.  There may be different interpretations of facts, but science is grounded in observable, provable, and verifiable facts and our education system faces a crisis in teaching students about how to distinguish facts from characterization.  
 
@@ -1992,6 +2132,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "A regent's job is governance and oversight, making sure the Board's decisions are guided by the best available evidence. Shared governance is crucial. I'll treat the Faculty Council and campus faculty assemblies as a channel for expert input, and seek their analysis before votes on academic and research policy rather than after. 
       I'll also ask that major actions come to the Board accompanied by analysis from CU System Institutional Research and relevant faculty, so we're weighing actual data and not just anecdotes. 
@@ -2005,6 +2146,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "While CSU is Colorado's land-grant agricultural university that works directly with producers, CU's job is to be a stronger partner by supplying the science and forecasting that farmers depend on.
       CU's strength is water and climate. CU Boulder is a national leader in snowpack, drought forecasting, and hydrology, and better water forecasting means better planning for farmers. Our law school's water-law expertise is pivotal in an age of more frequent droughts, and our economists and engineers can help with input costs and efficiency with evidence.
@@ -2018,6 +2160,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "We are in a water crisis in the west and I don't think that large new data centers are a good trade for Colorado. These facilities consume enormous amounts of water for cooling—which competes directly with households—while delivering few permanent jobs. The costs land on ratepayers, rivers, and farmers.
 
@@ -2031,6 +2174,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "The measles resurgence is exactly why CU's immunization requirements matter. We need to listen to the experts by maintaining and strengthening CU's student immunization requirements, including MMR, and keeping exemptions narrow and evidence-based. With tens of thousands of students living and learning in close quarters, clear and well-enforced requirements protect the whole campus community and the cities they're in."
 
@@ -2042,6 +2186,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-29
+  primary_candidate: true
   response: |
       "Too much science education treats science as facts to memorize rather than as a method for asking questions and weighing evidence.
       A CU Regent doesn't set K-12 standards, but CU is the state's most powerful lever for science literacy, mainly through teacher preparation, since our schools of education train a large share of Colorado's teachers."
@@ -2054,6 +2199,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-30
+  primary_candidate: false
   response: |
       "Evidence based solutions and policy will always be a regular practice of my policymaking process. Ensuring that the experts I reach out to are looking up case studies, gathering data and researching all potential benefits as well as consequences should be the basis of putting together good policy from inception. Most of the policies I believe in have been studied and tried in real time situations and results have been measured."
 
@@ -2065,6 +2211,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-30
+  primary_candidate: false
   response: |
       "Protecting our natural resources should be one of our top priorities and I will work with top environmental leaders and organizations to conserve them and look for sustainable consumption and usage. Something like the Lower Colorado River Basin System Conservation and Efficiency Program within the Bureau of Reclamation is something I would seek to enhance and reproduce in other areas. With skyrocketing prices that our farmers are incurring, I will look for ways for Congress to cap the costs of supplies that are essential for our farmers survival and success."
 
@@ -2076,6 +2223,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-30
+  primary_candidate: false
   response: |
       "AI is a tool and with all tools, they can be used for both good and evil and it is incumbent on members of Congress to ensure that the people are protected from any harm with oversight and regulation. We need more information regarding how harmful data centers are to our environment, how it affects residents with respect to energy usage, how the technology is implemented and how it will affect jobs and our workers. I believe we should have a moratorium on data centers to force these corporations to the table to negotiate strong regulations that protect our resources and long term workers."
 
@@ -2087,6 +2235,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-30
+  primary_candidate: false
   response: |
       "I support the work that doctors and epidemiologists have been doing for many years to prevent and protect the public from these infectious diseases. I believe that it is our duty in Congress to trust science and medicine to make sure our vaccines are up to date to prevent these types of epidemics. We should be empowering the CDC and working with the World Health Organizations to track and combat all these types of threats. The outbreak in Utah, which has affected more than 670 people, includes many children whose parents chose not to vaccinate them. Not having these protections can endanger a whole community and increase the spread of the outbreak."
 
@@ -2098,6 +2247,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-30
+  primary_candidate: false
   response: |
       "I believe public education is an essential need for every human and that science literacy is part of that need. And with the current state of affairs in education, I think our society and our world can benefit so much more from a strengthened focus on science and math in K-12. Our innovation and development depends on the understanding and manipulation of science; Building more curriculum and having more science classrooms can correct some of the disconnect we have with all the disinformation we are seeing today."
 
@@ -2109,6 +2259,7 @@
   party: Democratic
   question: co-q1
   date: 2026-05-30
+  primary_candidate: false
   response: |
       "The Colorado Assembly has the nonpartisan Legislative Council Staff that researches and prepares policy analyses. I would make use of their services as well as weighing expert and scientific testimony on bills. I would like to see if there are ways to formalize the standards for such testimony. Many bills currently come with fiscal notes, and having similar advisory notes that summarize research and data, identify potential strengths and weaknesses and benefits and risks from an evidentiary and scientific perspective could be useful to legislators in their decision-making role."
 
@@ -2120,6 +2271,7 @@
   party: Democratic
   question: co-q2
   date: 2026-05-30
+  primary_candidate: false
   response: |
       "Current climate and economic conditions are certainly challenging for Colorado’s farmers, and any policy that legislators pass should focus on evidence-based measures that can promote productivity and profitability while also conserving natural resources. I would support policies that support innovation at CSU and by other agricultural researchers to create more drought-tolerant crops, healthy soil use, fertilizer alternatives, and improved irrigation technologies."
 
@@ -2131,6 +2283,7 @@
   party: Democratic
   question: co-q3
   date: 2026-05-30
+  primary_candidate: false
   response: |
       "The development of data centers in Colorado is a concern for me. While it is important that Colorado stays technologically advanced, it must not be at the expense of residents and our environment. There may, however, be an opportunity if we require data centers to get a certain portion of their energy from renewable sources. Colorado will then see more investment in our renewable energy infrastructure, which benefits everyone. The energy that data centers use should place an emphasis on green energy and must not result in rate increases for Colorado residents. Any incentives that Colorado offers should be for investing in the local communities and infrastructure that will be impacted by the data centers, not the data centers themselves. The legislature’s focus needs to be community welfare, not corporate welfare."
 
@@ -2142,6 +2295,7 @@
   party: Democratic
   question: co-q4
   date: 2026-05-30
+  primary_candidate: false
   response: |
       "The measles outbreaks across the country are an example of how quickly and devastatingly misinformation can put children and other vulnerable people at risk. Measles and many other diseases are easily preventable via vaccination. I believe the best way to address this issue is to use reputable, peer-reviewed research to get clear data. Government research agencies need to be independent from partisan influence and political pressure. They need to be free to base recommendations on the best science available. 
 
@@ -2155,6 +2309,7 @@
   party: Democratic
   question: co-q5
   date: 2026-05-30
+  primary_candidate: false
   response: |
       "While most Americans can answer basic science questions correctly, science literacy also involves an ability to interpret graphs, understand statistical relevance, and evaluate sources, among other things. K-12 education standards should include the necessary factual building blocks of scientific systems, but they should also include data interpretation, scientific reasoning, and understanding that science is not always certain because inquiry and learning is ongoing.
 
@@ -2167,6 +2322,7 @@
   party: Republican
   question: co-q1
   date: 2026-05-31
+  primary_candidate: true
   response: |
       "Would Want To Have Those Who Are Trusted Scientific Engineers, Bio. Engineers, etc.!
        Who I Would Want To Be Part Of My Policymaking Team! Unfortunately Both Have Passed Away, I Would Want To Utilized Information From My Professor Dr. Lindimore From Metro State College On Environmental Technology! And Dr. William Gray In Utilizing Technology To Balance Gas, Oil, Coal Production With Cleaning Up Emission Pollutants!"
@@ -2178,6 +2334,7 @@
   party: Republican
   question: co-q2
   date: 2026-05-31
+  primary_candidate: true
   response: |
       "Protecting Our Agricultural Rural Farmer Is A Top Priority! Saving The Family Farm While Incorporating Corporate Farmer Is An Important Balance! Water And Federal Taking Over Farmers Land Must Be Dealt With! Once GOP Governor For Colorado 2026 Candidate Ginsberg Has Purposed Bringing Water From The Gulf Of America To The Colorado River Is Worth Serious Consideration to See How It Can Work! Most Up-To-Date Engineering Technology Desalting Methods With Cooperation Of Feasibility And Multi- Communities Cooperation Would Be Key! Also Making Sure Federal Land Acquisitions During Biden Administration Must Be Amended Or Reversed To Allow The Agricultural Owners To Have Full Access And Rangership To There Lands! Global Warming Theories Of Al Gore See Cow Methane Emissions As A Threat Even though Resent University Of Nebraska Found That The Cows Environment Absorbs Any Cow Emissions! Example Of Beliefs Being Intermittent With Bad Scientific Theory! See What Resources Here In Colorado Can Be Make Manufactory Fertilizer Environmentally And Productively Attractive!"
 
@@ -2188,6 +2345,7 @@
   party: Republican
   question: co-q3
   date: 2026-05-31
+  primary_candidate: true
   response: |
       "AI Is The Emerging Technology We Are Now Dealing With That Requires Much Energy! First Of All I Agree With President Trump That These AI Technology Centers Should Be Able To Supply Their On Energy As Much As Possible! Let These Centers Be In Areas Most Accommodating To The I-25 Corridor And To Rural Areas As They Desire! This Would Provide Jobs! But Don't Tax Them To Be Ineffective! This Is Why We Need Oil, Gas, Coal, Self- Powering Individual New Housing, And Retrofitting Old Home To Be Self Powering! I'm Not A Fan Of Old Nuclear Power! But New Micro Reactors Might Be Promising To Utilize! Tax Incentives To Corporations That Would Sponsor Across The Public And Those Who Can Make It Work! Affordable Housing With The Right Rules And Tax Incentive Would Be Advantages To Bring Balance To Cost And Benefits To New Data Centers! Feasibility Of Incorporating This Would Be Brought By ASAP!"
 
@@ -2198,6 +2356,7 @@
   party: Republican
   question: co-q4
   date: 2026-05-31
+  primary_candidate: true
   response: |
       "Quarantined Policies Are Essential! This Is Grose, But I'm Noticing Certain Groups Because Of Misguided Masculinity Think It's Too Mucho To Wash Their Hands After Using The Restroom! Good Way For Germs To Spread! People Should Be Reminded To Simply Wash Their Hands! The Covid 19 Incident Made People Not Trust In Immunization! Colorado Did Better! Get The Right Trusted Immunologist To Aid With Any Outbreak That Don't Have Investment With Particular Pharmaceuticals! I'm In Favor Of Implementing After 15 Year Nurses To Start Sponsoring Homes Specifically For CNA With 5 People Bringing Healthcare To Physically Compromised Individual! This Would Also Increase Mechanical Engineering And Technology In Home Healthcare Systems! These Nurses Could Partnership With The Hospitals They Came From! Recertification Once Or Twice A Year! Then Open Up Insurance Company To Operate By Competition! These Nurses Sponsoring CNA Activity Would Be Trained To Deal With Outbreaks Of Infectious Deceased!"
 
@@ -2208,6 +2367,7 @@
   party: Republican
   question: co-q5
   date: 2026-05-31
+  primary_candidate: true
   response: |
       "From K-12, Make Math, Science, Technology And Trade School Attractive! Have Athletes With Certain Degrees Come To School Assembles To Introduce Math, Science, Sports, Technology, etc. Mentorship With Background Checks!
       These Are Some Of The Current Ideals With Evident Based Scientific Engineering!"
@@ -2219,6 +2379,7 @@
   party: Republican
   question: co-q1
   date: 2026-05-31
+  primary_candidate: true
   response: |
       "As a candidate for Governor of Colorado, I am committed to making evidence and scientific findings central to our policymaking process. If elected, I will implement several specific advisory mechanisms to ensure decisions are grounded in rigorous, transparent, and reproducible science rather than ideology or political pressure.
 
@@ -2237,6 +2398,7 @@
   party: Republican
   question: co-q2
   date: 2026-05-31
+  primary_candidate: true
   response: |
       "As a candidate for Governor of Colorado, I recognize that our farmers and ranchers face serious challenges including persistent water scarcity, high fertilizer and input costs, and regulatory burdens that threaten our number one export sector. Agriculture is the backbone of rural Colorado and our entire economy. In my administration, I will use the power of the Governor's office to support evidence-based advancements that protect both our farmers and our natural resources through practical, results-driven solutions rather than top-down mandates.
 
@@ -2253,6 +2415,7 @@
   party: Republican
   question: co-q3
   date: 2026-05-31
+  primary_candidate: true
   response: |
       "As a candidate for Governor of Colorado, I believe we must strike the right balance with new data center construction by welcoming the economic growth and innovation of the AI industry while protecting our limited water resources, reliable energy supply, and taxpayer interests. Data centers bring high-paying jobs, increased tax revenue, and positioning Colorado as a technology leader, but they must not come at the expense of our farmers, families, or grid stability.
 
@@ -2269,6 +2432,7 @@
   party: Republican
   question: co-q4
   date: 2026-05-31
+  primary_candidate: true
   response: |
       "As a candidate for Governor of Colorado, I am deeply concerned about the lingering measles outbreak that began in March 2025 and the broader threats to public health. While measles is a serious and highly contagious disease, effective policies must respect individual liberties, parental rights, and conscience protections rather than rely on coercive mandates that erode trust.
 
@@ -2287,6 +2451,7 @@
   party: Republican
   question: co-q5
   date: 2026-05-31
+  primary_candidate: true
   response: |
       "As a candidate for Governor of Colorado, I believe the current state of science literacy in our country and state is concerning. Too many students are graduating without a strong grasp of basic scientific principles, the scientific method, or critical thinking skills. This decline stems from years of politicized curricula that prioritize ideological agendas over rigorous education, resulting in confusion rather than clarity on topics like biology, climate, and human health.
 
