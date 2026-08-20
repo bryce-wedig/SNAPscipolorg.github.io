@@ -1,0 +1,51 @@
+- id: ok-q1
+  question: >-
+    Oklahoma's public research universities contribute substantially to the state's research capacity, innovation economy, and workforce development. The University of Oklahoma alone reported more than $400 million in research and development expenditures across its three campuses in fiscal year 2022. NIH grants reimburse institutions for both direct research costs and indirect costs, the facilities, administration, and support infrastructure that make research possible. A proposed federal policy change would cap NIH reimbursement for indirect costs at 15%, below the rates many institutions currently receive. What policies, if any, would you support at the state or federal level to protect the long-term stability of Oklahoma's university research infrastructure, and why?
+  tag:
+    - Investment in Higher Education
+    - Science Funding
+
+- id: ok-q2
+  question: >-
+    Tribal nations play an important role in Oklahoma’s environmental stewardship, but many face challenges in accessing resources and infrastructure for environmental science, land management, and water monitoring. What policies, if any, would you support to strengthen tribal capacity in these areas, and why?
+  tag:
+    - Environment
+    - Policymaking Process
+
+- id: ok-q3
+  question: >-
+    Oklahoma’s agricultural economy depends on reliable access to water, but competing demands among agricultural producers, rural communities, and growing industries have created challenges for managing the state’s water resources. Recent legislation has updated groundwater reporting requirements, enforcement mechanisms, and requirements for certain data center cooling systems while protecting permitted users who reduce water use through conservation. How effective do you believe current policies are in protecting Oklahoma’s water resources? What additional policies, if any, would you support to balance the needs of agricultural producers, rural communities, and economic development?
+  tag: Agriculture
+
+- id: ok-q4
+  question: >-
+    The Oklahoma Corporation Commission lists nearly 17,000 wells on its official Orphan Well List. In 2026, legislation was introduced in Oklahoma to allow abandoned oil and gas wells to be repurposed for geothermal energy or energy storage. What policies, if any, would you support to address the remediation of Oklahoma’s orphaned oil and gas wells, including opportunities to safely repurpose suitable wells?
+  tag:
+    - Energy
+    - Environment
+
+- id: ok-q5
+  question: >-
+    Oklahoma is home to nationally recognized severe weather research and forecasting facilities based in Norman, including NOAA’s National Severe Storms Laboratory and the National Weather Center. These facilities support research and forecasting efforts that improve severe weather preparedness and public safety. What policies, if any, would you support to ensure continued investment in severe weather research and forecasting?
+  tag:
+    - Climate
+    - Environment
+
+- id: ok-q6
+  question: >-
+    Oklahoma has experienced increased growth in data centers and artificial intelligence infrastructure, creating new considerations for energy demand, utility planning, and ratepayer impacts (Oklahoma Senate, 2026). What policies, if any, would you support to guide utility oversight and infrastructure planning as data center development continues?
+  tag:
+    - Artificial Intelligence
+    - Energy
+
+- id: ok-q7
+  question: >-
+    Proposed federal changes to Medicaid financing could affect healthcare coverage and rural hospital funding nationwide (Congressional Budget Office, 2025; Saunders et al., 2025). What evidence-based policies, if any, would you support to improve rural healthcare access, community health outcomes, and the sustainability of rural healthcare systems in Oklahoma?
+  tag: Public Health
+
+- id: ok-q8
+  question: >-
+    The Attorney General plays a role in shaping state policy through litigation, legal opinions, and multi-state coalitions; these decisions increasingly address scientific questions concerning environmental contamination, public health, energy regulation, and emerging technologies. What types of experts from scientific disciplines would you consult when providing legal counsel, and how would you evaluate the credibility and relevance of their input?
+  tag: Science Diplomacy
+  races:
+    - Attorney General
