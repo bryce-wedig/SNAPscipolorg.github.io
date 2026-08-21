@@ -1,0 +1,323 @@
+- candidate_first_name: Broadway # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Harewood # used for alphabetical sorting
+  state: fl
+  race: State House of Representatives # must match one of the options!
+  district: 109 # string; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: fl-q1
+  primary_candidate: true # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: | 
+    I support improving Florida's resilience to natural hazards. I believe infrastructure funding should be used for its intended purpose, with strong oversight and accountability to help ensure state funds reach the communities and projects they are allocated for. I also support exploring policies related to homeowners' insurance costs, including proposals that would place limits on premium increases. 
+
+    Keywords: Homeowners insurance,Property insurance, Hurricane preparedness, Disaster resilience, Infrastructure, Flood mitigation, Climate resilience, Emergency management, Public safety, Florida economy, Insurance reform, Building codes
+    
+- candidate_first_name: Broadway
+  candidate_last_name: Harewood
+  state: fl
+  race: State House of Representatives
+  district: 109 
+  party: Democratic
+  question: fl-q2
+  primary_candidate: true
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: |
+    I believe renewable energy and clean energy play an important role in Florida's economy. I support expanding trade schools, apprenticeships, and technical education programs to prepare workers for careers in these industries. Given Florida's abundant sunshine, I believe solar energy has significant potential, and I support initiatives that would expand the workforce and manufacturing capacity related to solar energy.
+
+    Keywords: Renewable energy, Clean energy, Solar energy, Solar panels, Workforce development ,Job creation, Trade schools, Apprenticeships,Technical education, Energy infrastructure, Economic development, Skilled workforce, Florida economy, Sustainability
+
+- candidate_first_name: Broadway
+  candidate_last_name: Harewood
+  state: fl
+  race: State House of Representatives
+  district: 109 
+  party: Democratic
+  question: fl-q3
+  primary_candidate: true
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: |
+    I seek information from independent experts and compare multiple sources. I weigh the benefits, risks, costs, and uncertainties before making decisions. I also consider existing policies and the concerns of the communities that would be affected. One example of putting these principles into practice was participating in an Adopt-a-Street initiative to help promote a cleaner environment in my community.
+
+    Keywords: Scientific evidence, Independent experts, Research, Multiple sources, Evidence-based decision-making, Public policy, Risk assessment, Cost-benefit analysis, Community engagement, Policymaking, Environmental stewardship
+
+- candidate_first_name: Broadway
+  candidate_last_name: Harewood
+  state: fl
+  race: State House of Representatives
+  district: 109 
+  party: Democratic
+  question: fl-q4
+  primary_candidate: true
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate  
+  response: |
+    I strongly support expanding access to high-quality STEM education across Florida because a child’s future should not depend on their ZIP code. Every student deserves the opportunity to learn science, technology, engineering, and math, whether they attend a large school, a small school, or live in an urban or rural community.
+    
+    As your State Representative, I will support: Expanding STEM programs in underserved schools. Investing in career and technical education so students graduate with real job skills. Creating stronger partnerships between schools, colleges, nonprofits, and local businesses to provide internships, mentoring, and hands-on learning. Ensuring every student has access to modern technology, high-speed internet, and qualified STEM teachers. 
+    
+    For me, STEM is about more than education it’s about creating pathways to good-paying jobs, entrepreneurship, and economic opportunity. If we prepare our young people today, we will build a stronger Florida tomorrow.
+
+    Keywords: Stem
+
+- candidate_first_name: Broadway
+  candidate_last_name: Harewood
+  state: fl
+  race: State House of Representatives
+  district: 109 
+  party: Democratic
+  question: fl-q5
+  primary_candidate: true
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate  
+  response: |
+    Cancer has touched far too many Florida families. I believe the best way to fight cancer is to prevent it whenever possible. 
+    
+    As your State Representative, I will support: Expanding access to cancer screenings and early detection, especially in underserved communities. Increasing education about the dangers of tobacco, excessive alcohol use, and unnecessary UV exposure. Supporting voluntary vaccination programs and giving families accurate information so they can make informed healthcare decisions. Working to reduce environmental risks, including radon exposure where appropriate, and promoting healthier homes and communities. Partnering with schools, nonprofits, healthcare providers, and local businesses to promote healthy lifestyles and prevention. 
+    
+    My goal is simple: keep people healthier, catch cancer earlier, and save lives. Preventing disease is not only good for families it’s also one of the smartest ways to reduce healthcare costs and build a stronger Florida.
+
+    Keywords: Cancer, Reduce risks, Florida families, Environmental risks
+
+- candidate_first_name: Broadway
+  candidate_last_name: Harewood
+  state: fl
+  race: State House of Representatives
+  district: 109 
+  party: Democratic
+  question: fl-q6
+  primary_candidate: true
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate  
+  response: |
+    I do not support the expansion of large data centers in Florida. I do not believe these projects are in the best interest of our communities, and I am opposed to approving them in our state. Instead of pursuing more large scale data center development, we should focus on protecting our existing residents, small businesses, and infrastructure from added strain.
+    I oppose
+    
+    Any increase in utility costs or resource demand placed on homeowners and small businesses due to data center development.
+    The approval of large data centers without full and transparent disclosure of their environmental and infrastructure impacts.
+    The use of significant water and energy resources for projects that do not directly benefit local communities.
+    Prioritizing corporate development over the needs and voices of Florida residents.
+    Moving forward with major projects without strong, binding protections for local communities.
+    
+    My position is clear: Florida should not sacrifice its resources, infrastructure, or quality of life for large data center projects. Our priority must always be the people who already live and work here.
+
+    Keywords: Florida residents, Priority, Infrastructure
+
+
+
+
+- candidate_first_name: Wancito # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Francius # used for alphabetical sorting
+  state: fl
+  race: State House of Representatives # must match one of the options!
+  district: 108 # string; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: fl-q1
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: | 
+    I believe Florida should be a state where everyone has the opportunity to live, work, and raise a family safely and affordably. Protecting our communities from hurricanes, flooding, extreme heat, and other natural hazards requires practical solutions, not politics.
+
+    As your State Representative, I will support strengthening Florida's infrastructure by investing in stormwater drainage systems, flood mitigation projects, and resilient roads and bridges that can better withstand severe weather. I also support protecting our coastlines, waterways, and natural resources because they are essential to our economy, tourism, and quality of life.
+
+    I believe we must address the homeowners' insurance crisis by increasing accountability in the insurance market, encouraging competition, combating fraud, and pursuing policies that help stabilize premiums for homeowners.
+
+    I also support working with local governments, emergency management officials, and the private sector to improve disaster preparedness, modernize building standards where appropriate, and ensure our communities recover quickly after storms. My goal is to protect Florida families, strengthen our economy, and make our state more resilient while being responsible with taxpayer dollars.
+
+    Keywords: Lower homeowners' insurance costs. Better hurricane and flood preparedness. Improved drainage and flood-control infrastructure. Protection of Biscayne Bay and local waterways. Responsible stewardship of Florida's environment. Strong emergency response and disaster recovery. Smart infrastructure investments that protect both residents and businesses.
+    
+- candidate_first_name: Wancito
+  candidate_last_name: Francius
+  state: fl
+  race: State House of Representatives
+  district: 108 
+  party: Republican
+  question: fl-q2
+  primary_candidate: false
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate  
+  response: |
+    Yes. I believe renewable energy and clean energy technologies have an important role in Florida's future, as long as they are practical, reliable, and economically responsible. Florida should pursue an "all-of-the-above" energy strategy that includes renewable energy alongside reliable traditional energy sources to ensure affordable and dependable power for families and businesses.
+
+    As your State Representative, I will support policies that encourage private-sector investment in clean energy industries, including solar energy, energy storage, and innovative technologies that create high-paying jobs for Floridians. I also support expanding workforce training through Florida's colleges, trade schools, apprenticeship programs, and technical education so our workers have the skills needed to compete in the growing energy sector.
+
+    My priority is to promote economic growth, strengthen our energy independence, keep energy affordable, and create opportunities for small businesses and skilled workers while protecting taxpayers and maintaining a reliable electric grid. Florida can be a leader in innovation by supporting responsible energy development that benefits both our economy and our environment.
+
+    Keywords: Energy independence American energy Energy reliability Private-sector innovation Free-market solutions Affordable energy Balanced energy policy Responsible energy development Grid reliability Infrastructure investment Workforce training Economic growth Technology innovation Domestic manufacturing Reduce government barriers Streamlined permitting
+
+- candidate_first_name: Wancito
+  candidate_last_name: Francius
+  state: fl
+  race: State House of Representatives
+  district: 108
+  party: Republican
+  question: fl-q3
+  primary_candidate: false
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate  
+  response: |
+    I believe good public policy should be based on facts, transparency, and accountability. As a legislator, I will seek information from multiple credible sources, including scientists, medical professionals, engineers, economists, business leaders, and the people who will be directly affected by the policy. I also believe it is important to review data, consider differing viewpoints, ask thoughtful questions, and evaluate both the scientific evidence and the real-world economic and social impacts before making a decision.
+
+    Science plays an important role in informing policy, but policymakers must also consider constitutional principles, individual rights, fiscal responsibility, and the practical consequences of legislation. My goal is to make decisions based on reliable evidence while ensuring that policies serve the best interests of Florida's families, businesses, and communities.
+
+    One example is Florida's increasing vulnerability to hurricanes and flooding. Scientific research, engineering studies, and historical storm data demonstrate the need for stronger infrastructure, improved stormwater systems, and better disaster preparedness. Those findings reinforce my support for investing in resilient infrastructure that protects lives, reduces long-term costs, and strengthens our economy while being responsible with taxpayer dollars.
+
+    As your State Representative, I will always remain open to new evidence, listen respectfully to experts and constituents, and make decisions that are informed, balanced, and focused on achieving the best outcomes for District 108 and the State of Florida.
+
+    Keywords: Evidence-based policy Common-sense solutions Fiscal responsibility Transparency Government accountability Individual freedom Constitutional government Public safety Innovation Private-sector expertise Local input Practical results Cost-effective solutions Responsible stewardship Balanced decision-making
+
+- candidate_first_name: Wancito
+  candidate_last_name: Francius
+  state: fl
+  race: State House of Representatives
+  district: 108
+  party: Republican
+  question: fl-q4
+  primary_candidate: false
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate  
+  response: |
+    I believe every student in Florida, regardless of their ZIP code, should have access to a high-quality education that prepares them for success in college, the workforce, or military service. STEM education science, technology, engineering, and mathematics is essential to developing the skilled workforce that will drive Florida's future economy.
+
+    As your State Representative, I will support expanding access to STEM programs by increasing partnerships between K-12 schools, career and technical education (CTE) programs, colleges, universities, and private industry. I also support increasing opportunities for students to participate in robotics, coding, engineering, cybersecurity, artificial intelligence, and other high-demand career fields.
+
+    I believe we should invest in teacher recruitment and professional development, modern classroom technology, and career academies while ensuring that rural and underserved communities have access to the same high-quality STEM opportunities as larger school districts.
+
+    I also support strengthening apprenticeship programs, internships, and dual-enrollment opportunities so students can earn industry certifications and college credit while still in high school. These programs help prepare students for high-paying careers, reduce workforce shortages, and strengthen Florida's economy.
+
+    My goal is to ensure every student has the opportunity to develop the knowledge, skills, and critical thinking needed to succeed in an increasingly competitive and technology-driven world.    
+
+    Keywords: Educational excellence School choice Parental rights Career readiness Workforce development Merit-based achievement Accountability Local control Innovation Fiscal responsibility Skilled workforce Public-private partnerships Technology education STEM workforce Opportunity for every student
+
+- candidate_first_name: Wancito
+  candidate_last_name: Francius
+  state: fl
+  race: State House of Representatives
+  district: 108
+  party: Republican
+  question: fl-q5
+  primary_candidate: false
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate  
+  response: |
+    I believe preventing disease is one of the most effective ways to improve public health and reduce healthcare costs. Florida should continue investing in evidence-based public health initiatives that educate residents about cancer risks while respecting individual freedom and informed decision-making.
+
+    As your State Representative, I would support expanding public education campaigns on tobacco cessation, healthy lifestyles, sun safety, and environmental health risks such as radon exposure. I also support increasing access to cancer screenings and preventive healthcare services, particularly in underserved communities, because early detection saves lives and reduces long-term healthcare costs.
+
+    I believe parents should have access to accurate, science-based information about recommended vaccines, including the HPV vaccine, so they can make informed healthcare decisions in consultation with their child's healthcare provider.
+
+    I also support partnerships among schools, healthcare providers, nonprofit organizations, and local governments to promote healthy living, reduce tobacco and excessive alcohol use, and encourage regular preventive care.
+
+    My goal is to improve the health of Floridians through education, prevention, early detection, personal responsibility, and community partnerships while ensuring taxpayer dollars are spent effectively and efficiently.
+    
+    Keywords: Personal responsibility Informed consent Individual freedom Patient choice Preventive healthcare Early detection Community partnerships Local solutions Evidence-based medicine Fiscal responsibility Healthy lifestyles Education and awareness Efficient use of taxpayer dollars Access to care Public-private collaboration
+
+- candidate_first_name: Wancito
+  candidate_last_name: Francius
+  state: fl
+  race: State House of Representatives
+  district: 108
+  party: Republican
+  question: fl-q6
+  primary_candidate: false
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate  
+  response: |
+    Artificial intelligence and data centers are becoming an important part of Florida's economy. They can attract investment, create high-paying jobs, strengthen our technology sector, and improve our state's competitiveness. I support policies that encourage responsible economic development and innovation.
+
+    At the same time, economic growth should not come at the expense of local communities. Data centers consume significant amounts of electricity and water, and their development should include responsible planning, environmental stewardship, and transparency. I believe Florida has made progress by establishing additional protections for nearby residents and small businesses, but we should continue evaluating whether those protections remain effective as technology and energy demands evolve.
+
+    As your State Representative, I would support policies that:
+
+    Require meaningful coordination with local governments and affected communities before large data center projects are approved.
+    Encourage energy-efficient and water-efficient technologies to reduce environmental impacts.
+    Promote investments in electric grid and water infrastructure so existing residents and businesses are not negatively affected.
+    Support workforce development through partnerships with colleges, technical schools, and the private sector to prepare Floridians for careers in artificial intelligence, cybersecurity, cloud computing, and information technology.
+    Ensure tax incentives provide a measurable return on investment through job creation, economic development, and long-term benefits for Florida taxpayers.
+
+    My goal is to make Florida a national leader in technology and innovation while protecting our communities, natural resources, and quality of life. We can achieve both economic growth and responsible stewardship through smart, balanced policymaking.
+
+    Keywords: Free-market innovation Private-sector investment Economic growth Technology leadership Limited government Government accountability Fiscal responsibility Return on investment Infrastructure modernization Energy reliability Local control Public-private partnerships Workforce development Responsible regulation Smart growth
+
+
+
+
+
+
+
+
+
+- candidate_first_name: Tony J # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Diaz # used for alphabetical sorting
+  state: fl
+  race: State House of Representatives # must match one of the options!
+  district: 113 # string; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: fl-q1
+  primary_candidate: true # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: | 
+    State funding for mangrove restoration and enhancing tree canopies across SFL to provide shade and a windbreak during storms. Key Biscayne has begun studying a new causeway project, i would love to work to get them the funding they need. Brickell and Edgewater need better pump stations paid for by impact fees to new construction projects.
+
+    Keywords: 
+    
+- candidate_first_name: Tony J
+  candidate_last_name: Diaz
+  state: fl
+  race: State House of Representatives
+  district: 113 
+  party: Republican
+  question: fl-q2
+  primary_candidate: true
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate  
+  response: |
+   Sure. Working with new tech to deploy hydroelectric plants and smart solar to power state facilities is a great idea. Expanding availability and educating the public. The market will do the rest.
+
+    Keywords: 
+
+- candidate_first_name: Tony J
+  candidate_last_name: Diaz
+  state: fl
+  race: State House of Representatives
+  district: 113
+  party: Republican
+  question: fl-q3
+  primary_candidate: true
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate  
+  response: |
+    I always study any issue before making a decision. I research primary accounts or data. Where it is not readily available I request input from experts. I don’t trust any expert blindly but I will use them to inform my decision making process.
+
+    Keywords: 
+
+- candidate_first_name: Tony J
+  candidate_last_name: Diaz
+  state: fl
+  race: State House of Representatives
+  district: 113
+  party: Republican
+  question: fl-q4
+  primary_candidate: true
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate  
+  response: |
+   I believe most counties offer these programs both in public and in their private school counterparts. I will support School Boards continuing to push for it in curriculums.  
+
+    Keywords: 
+
+- candidate_first_name: Tony J
+  candidate_last_name: Diaz
+  state: fl
+  race: State House of Representatives
+  district: 113
+  party: Republican
+  question: fl-q5
+  primary_candidate: true
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate  
+  response: |
+    My tree canopy support will help people be able to step out of the sun on walks. I want to push for education on these matters. I will also set a cap on radon detected in a building to be considered safe. 
+    
+    Keywords: 
+
+- candidate_first_name: Tony J
+  candidate_last_name: Diaz
+  state: fl
+  race: State House of Representatives
+  district: 113
+  party: Republican
+  question: fl-q6
+  primary_candidate: true
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate  
+  response: |
+    4 year moratorium to full asses and understand their effect on the communities they are built near. We have over 100 in Florida, let’s catch our breath for a minute here.
+
+    Keywords: 
