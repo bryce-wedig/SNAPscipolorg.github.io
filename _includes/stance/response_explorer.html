@@ -10,6 +10,10 @@
     include.additional_note — optional extra line shown right after the
                       "check back soon" / "If you cannot find a candidate"
                       note, regardless of whether responses exist yet.
+    include.hide_no_response_filter — when true, omits the "Show candidates
+                      who did not respond" checkbox (candidate + compare
+                      views), so non-responders stay hidden with no way to
+                      reveal them on this state's page.
 
   Reads page.state to load this state's responses + questions, so the host page
   does not need to pass them in.
@@ -118,9 +122,11 @@
         <label class="stance-filter stance-filter--check">
           <input type="checkbox" data-filter-primary
             aria-label="Show candidates who did not advance past the primary" /> Show primary candidates</label>
+        {%- unless include.hide_no_response_filter -%}
         <label class="stance-filter stance-filter--check">
           <input type="checkbox" data-filter-noresponse
             aria-label="Show candidates who did not respond to Stance on Science" /> Show candidates who did not respond</label>
+        {%- endunless -%}
         <span class="sbar__spacer"></span>
         <label class="sfield sfield--sort"><span>Sort By</span>
           <select data-sort aria-label="Sort candidates">
@@ -290,8 +296,10 @@
             </label>
             <label class="stance-filter stance-filter--check">
               <input type="checkbox" data-compare-primary /> Show primary candidates</label>
+            {%- unless include.hide_no_response_filter -%}
             <label class="stance-filter stance-filter--check">
               <input type="checkbox" data-compare-noresponse /> Show candidates who did not respond</label>
+            {%- endunless -%}
           </div>
         </div>
 
