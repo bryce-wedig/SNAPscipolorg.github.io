@@ -124,7 +124,7 @@
   question: nh-q5
   date: 
   response: |
-    ""
+    _[Did not respond to question 5]_
 
     KEYWORDS: nuclear
 
@@ -582,3 +582,133 @@
     "New Hampshire needs reliable, affordable, and abundant energy. I support an all of the above approach that includes nuclear power, natural gas, hydropower, solar, wind where appropriate, and emerging technologies. Nuclear power deserves serious consideration because it can provide reliable electricity while supporting economic growth. As demand increases from manufacturing, electrification, and data centers, we must expand generation and infrastructure without forcing unnecessary costs onto families and small businesses. I support reducing regulatory barriers, encouraging private investment, and allowing innovation to determine which technologies succeed. Responsible energy development can create high paying jobs in construction, engineering, manufacturing, technology, and infrastructure. Energy policy should prioritize affordability, reliability, consumer choice, and New Hampshire’s long-term economic competitiveness."
 
     KEYWORDS: Affordability, Reliability, Jobs
+
+- candidate_first_name: Sky
+  candidate_last_name: Danley
+  state: nh
+  race: US Senate
+  district: 
+  party: Republican
+  question: nh-q1
+  date: 
+  response: |
+    "Due to technological progress we now spend a lot of our time sitting in front of screens and take on average only 3,000 steps a day, even though our bodies are meant to take over 16,000 steps. We need to develop new methods for supporting both our physical and mental health; luckily, New Hampshire has wonderful natural scenery and we should make the most of it. Besides safeguarding and rejuvenating our public open spaces, I recommend that no new roads be built and no existing ones be reconstructed unless a bike lane or a walking path is also included. Let us set an example for the rest of the country. The savings to be made in healthcare costs will be greater than the extra expense, and the improvement in quality of life will be invaluable. I have a strong feeling this would additionally attract a young, high-tech business economy."
+
+    KEYWORDS: Sedentary lifestyle, Screen time, Physical and mental health, Daily step count shortfall, Nature access, Infrastructure reform, Bike lanes and pedestrian paths, Healthcare-cost-savings, Quality-of-life, development, Tech, economy, ROI, Health benefits
+
+- candidate_first_name: Sky
+  candidate_last_name: Danley
+  state: nh
+  race: US Senate
+  district: 
+  party: Republican
+  question: nh-q2
+  date: 
+  response: |
+    "The scientific method is very effective at producing vaccines that are beneficial to everyone; the more people who get vaccinated, the more effective the overall outcome will be. Yet it is necessary to take into account freedom of choice, since people have the right to decide what enters their bodies. I decided to have the COVID vaccine while other people chose not to. I respect everyone's right to make their own decision."
+
+    KEYWORDS: autonomy, ethics, mandate, freedom, scientific method, Individual rights vs. public good
+
+- candidate_first_name: Sky
+  candidate_last_name: Danley
+  state: nh
+  race: US Senate
+  district: 
+  party: Republican
+  question: nh-q3
+  date: 
+  response: |
+    "I do believe that global warming is caused by human activities and has harmful effects; measures to mitigate it should include the use of solar power and electric cars. Additionally, I support establishing a program similar to the Manhattan Project to develop a solution."
+
+    KEYWORDS: Global warming / Climate chAnthropogenic, Human-caused, Environmental impact, Harmful, Renewable, Solar, EVs
+
+- candidate_first_name: Sky
+  candidate_last_name: Danley
+  state: nh
+  race: US Senate
+  district: 
+  party: Republican
+  question: nh-q4
+  date: 
+  response: |
+    "I have just completed a trilogy for middle-grade readers concerning the dangers of Artificial Intelligence, called The Apparatus (with The Rising and The Anywhere as the subsequent books). We have already witnessed how social media can turn falsehoods into facts for a large number of people, leading to an autocrat being elected President. Since Artificial Intelligence is much more powerful than social media, a major crisis is impending. My books are fictional depictions of that crisis, but I believe it could actually happen. It is necessary that we take this matter seriously. We can't stop AI, but we can manage it so it doesn't end up managing us."
+
+    KEYWORDS: Middle-grade sci-fi books, Dystopian books for kids, Tech thrillers for young readers
+
+- candidate_first_name: Sky
+  candidate_last_name: Danley
+  state: nh
+  race: US Senate
+  district: 
+  party: Republican
+  question: nh-q5
+  date: 
+  response: |
+    "Normally, AI data centers use less water than a golf course and rely mainly on closed-loop systems. However, they do use a great deal of energy. To supply that energy, apart from building out solar, I support the research and  development of thorium reactor technology in order to meet future electricity demands, which is the new Manhattan Project that I referred to earlier."
+
+    KEYWORDS: Thorium Reactor, Closed-Loop, Solar Energy, Water Consumption, Manhattan Project, Nuclear, R&D
+
+- candidate_first_name: Maxwell
+  candidate_last_name: Saal
+  state: nh
+  race: US Senate
+  district: 
+  party: Democratic
+  question: nh-q1
+  date: 
+  response: |
+    "New Hampshire got conservation right: voluntary easements keep land private but productive and open to the public. That said, we have been enabling sprawl because development where development should be easiest (eg. where infrastructure exists) is currently often too difficult, meaning subdivisions of forested land for housing progress a little more. I would support fully funding the Land and Water conservation fund, protecting sources of drinking water, and simplifying program paperwork so conservation programs can be participated in by more small landowners. Keep New Hampshire wild and beautiful."
+
+    KEYWORDS: housing, water conservation, density
+
+- candidate_first_name: Maxwell
+  candidate_last_name: Saal
+  state: nh
+  race: US Senate
+  district: 
+  party: Democratic
+  question: nh-q2
+  date: 
+  response: |
+    "Vaccines are one of the most demonstrably effective public health tools of the last century. I don't support mandates- you do what you like- but we have a century of demonstrated effectiveness and we need to be educating our friends and neighbors on the importance of vaccination. Scientists are terrible public communicators generally, and we need to collaborate with more effective messengers to get this point across. I also think it's perfectly acceptable for businesses or public services to decline to serve those who don't want to participate in community health via vaccination; freedom cuts both ways. And of course we should support wide availability at no or low cost."
+
+    KEYWORDS: education, funding 
+
+- candidate_first_name: Maxwell
+  candidate_last_name: Saal
+  state: nh
+  race: US Senate
+  district: 
+  party: Democratic
+  question: nh-q3
+  date: 
+  response: |
+    "Climate change is here and accelerating, and we will no doubt see increasing natural disasters both in New Hampshire and across America. We should be investing heavily in preventative programs to support homeowners, businesses, and infrastructure to ensure they are protected against increasing flooding and rising sea levels. Climate change is also impacting our tourism and fisheries via reduced snow and changing fish populations. In sum, I support aggressive federal action to ensure our economy and country is as climate-change hardened as we can hope for."
+
+    KEYWORDS: mitigation, investment
+
+- candidate_first_name: Maxwell
+  candidate_last_name: Saal
+  state: nh
+  race: US Senate
+  district: 
+  party: Democratic
+  question: nh-q4
+  date: 
+  response: |
+    "AI and its resultant infrastructure are here and accelerating. What we absolutely need to be doing is ensuring at the federal level that we are passing well informed policy that protects Americans from AI, both economically and in potentially more dire ways. I also think that data centers are being built to unacceptable environmental standards for no reason other than expediency; we should be demanding that data center construction be done to reasonably green standards and also build their own alternative energy infrastructure, predominantly solar, and not permitting the use of evaporative water cooling. I don't support building data centers in New Hampshire."
+
+    KEYWORDS: responsible, green
+
+- candidate_first_name: Maxwell
+  candidate_last_name: Saal
+  state: nh
+  race: US Senate
+  district: 
+  party: Democratic
+  question: nh-q5
+  date: 
+  response: |
+    "It's mind-boggling how poorly we have done in investing in green energy. Given the advancements of the technology and its modern efficiency, we should have solar and heat pumps on every home that wants them. We should be trying to phase out carbon-fueled electricity altogether. I support aggressive federal financing programs for businesses and homeowners that want to upgrade or build solar infrastructure. I also support the continued operation of the Seabrook nuclear plant and investments in research around small nuclear reactors- nuclear energy is demonstrably safe and considerably less damaging to the environment than fossil fuels, while also producing enormous quantities of energy. There is no reason in the modern world for electricity to be anything but abundant and cheap."
+
+    KEYWORDS: abundance, federal financing
