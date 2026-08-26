@@ -1,0 +1,154 @@
+- id: ne-q1
+  question: >-
+    Scientific evidence is generated through the systematic testing and
+    evaluation of ideas. It provides knowledge that helps us understand the
+    world and predict the likely consequences of different choices, such as
+    policy making related to public health, energy, agriculture, and
+    environmental regulation. What role, if any, should scientific evidence
+    and expert input play in your policymaking process, and how would you
+    evaluate competing or uncertain scientific claims when making policy
+    decisions? What role, if any, should that process play when scientific
+    consensus and public opinion diverge?
+  tag:
+    - Policymaking Process
+    - Trust in Science
+  races:
+    - US Senate
+    - US House of Representatives
+
+- id: ne-q2
+  question: >-
+    The United States has a growing artificial intelligence (AI) industry,
+    supporting cutting edge innovation and reshaping businesses, but raising
+    concerns about education, ownership, and security. Application of AI
+    technology has increased the demand placed on data centers, controversial
+    for their resource use (such as water and land) and raising utility costs.
+    What are your policy positions in regards to data centers and AI? What are
+    your reasons for supporting these policies?
+  tag: Artificial Intelligence
+  races:
+    - US Senate
+    - US House of Representatives
+
+- id: ne-q3
+  question: >-
+    Making the US competitive in the bioeconomy (using technology applied to
+    renewable biological resources to produce food, energy and industrial
+    goods) requires innovation and investments in business, academia and
+    government. Please describe policies you will support, if any, that relate
+    to workforce development in Nebraska’s strengths such as agriculture,
+    biotechnology, and energy; and explain their rationale.
+  tag: Jobs and Workforce
+  races:
+    - US Senate
+    - US House of Representatives
+
+- id: ne-q4
+  question: >-
+    Federal grants from the National Institutes of Health (NIH) and National
+    Science Foundation (NSF) fund a substantial share of the scientific and
+    biomedical research conducted at Nebraska's universities, hospitals, and
+    research institutions (approximately $205M per year according to NIH and
+    NSF reports). NIH funding to NE institutions returns $2.50 for every $1
+    economic activity while supporting vital research in developing new
+    treatments/cures for diseases. Similarly, both NIH and NSF research fill
+    critical gaps in knowledge for advancing healthcare and other fields. What
+    policies, if any, do you support regarding federal funding for scientific
+    research agencies like the NIH and NSF? Why are these your priorities, and
+    what information informed your approach?
+  tag: Science Funding
+  races:
+    - US Senate
+    - US House of Representatives
+
+- id: ne-q5
+  question: >-
+    Agricultural practices such as cover cropping and crop and livestock
+    diversification, under appropriate conditions, provide benefits for soil
+    health, water quality, and long-term agricultural resilience. At the same
+    time, the feasibility and potential benefits of these practices can vary
+    substantially. In what ways, if any, would you develop federal
+    agricultural policy that accounts for the practical and economic needs of
+    farmers and ranchers while also incorporating the best available
+    scientific evidence on environmentally and agronomically beneficial
+    practices?
+  tag: Agriculture
+  races:
+    - US Senate
+    - US House of Representatives
+
+- id: ne-q6
+  question: >-
+    In your opinion, what is the role of the federal government in
+    environmental protection? What policies, if any, do you support that could
+    contribute to natural resource stewardship, environmental research, or
+    environmental protections in Nebraska and nationally?
+  tag: Environment
+  races:
+    - US Senate
+    - US House of Representatives
+
+- id: ne-q7
+  question: >-
+    In what ways, if any, will you consult with scientists and experts to
+    prevent/ mitigate the risk and damage from natural disasters and in the
+    response to natural disasters?
+  tag: Environment
+  races:
+    - Governor
+
+- id: ne-q8
+  question: >-
+    The governor represents Nebraska in formal dealings with other states
+    (such as water management agreements affecting the Republican River Basin
+    with Kansas and Colorado). What policies would you implement to keep water
+    from the Ogallala Aquifer and rivers passing through the state clean, and
+    how would you balance maintaining necessary water levels in Nebraska with
+    sharing water resources with other states?
+  tag:
+    - Environment
+    - Science Diplomacy
+  races:
+    - Governor
+
+- id: ne-q9
+  question: >-
+    In your opinion, what is the purpose of the NE Department of Health and
+    Human Services and what skill sets and values do you set as criteria when
+    considering who to appoint to this state department?
+  tag: Public Health
+  races:
+    - Governor
+
+- id: ne-q10
+  question: >-
+    What steps, if any, would you take to ensure state agencies have access to
+    reliable scientific expertise when implementing policies and that
+    scientific evidence considered during policymaking is communicated clearly
+    and transparently to the public?
+  tag: Policymaking Process
+  races:
+    - Governor
+
+- id: ne-q11
+  question: >-
+    Within the last year, the University of Nebraska Board of Regents
+    eliminated four academic departments at University of Nebraska - Lincoln,
+    including statistics and earth and atmospheric sciences. All four U
+    Nebraska campuses are now facing additional budget reductions.
+    Constituents and university leaders have raised concerns about how this
+    will impact education and workforce readiness along with economic and
+    social value from research (Wendling, 2025). NU President Gold stated: "We
+    cannot cut our way to extraordinary, nor can we fully realize our mission
+    of exceptional teaching, research and statewide engagement if we are
+    operating in a constant cycle of cuts and related restrictions, without
+    the ability to predict even a single year of stability" (Peal, 2026). In
+    your opinion, what (if any) are the immediate and long-term effects of
+    cuts to research and science education? Does state funding to the
+    university system fit into your suggestions for balancing the state
+    budget? And if so, what are your specific suggestions for doing this?
+  tag:
+    - Investment in Higher Education
+    - Jobs and Workforce
+  races:
+    - Governor
