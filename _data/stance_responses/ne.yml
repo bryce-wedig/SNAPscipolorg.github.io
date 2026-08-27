@@ -1,0 +1,77 @@
+- candidate_first_name: Mark
+  candidate_last_name: Cohen
+  state: ne
+  race: US House of Representatives
+  district: 3
+  party: Independent
+  question: ne-q1
+  date: 2026-08-25 
+  response: |
+    "I served as prosecutor and took a graduate class in logic at UNL, so I believe policy makers should decide issues based on evidence. That includes scientific evidence where science can provide useful information. Consensus among disinterested experts is powerful evidence. Opinion from experts paid by organizations with an interest in the outcome is less credible. If there is true consensus among experts, that should carry more weight than public opinion. If there is a lack of consensus among disinterested experts, that’s warrants caution. If scientific consensus diverges from public opinion, scientific consensus is more powerful. History is replete with examples of science being ahead of the general populace. It was only about five hundred years ago that most people believed the sun revolved around the Earth."
+    
+    KEYWORDS: Objectivity, Credibility, Logic
+
+- candidate_first_name: Mark
+  candidate_last_name: Cohen
+  state: ne
+  race: US House of Representatives
+  district: 3
+  party: Independent
+  question: ne-q2
+  date: 2026-08-25 
+  response: |
+    "Data centers and AI are two different, but related, topics. Data centers generate constant noise. They consume precious water and huge amounts of electricity. I believe we must free state and local governments to regulate data centers. It’s odd that many who once preached the benefits of federalism and local control now threaten local governments that dare to attempt regulating data centers or AI. AI can be a useful tool in some areas, such as in medical diagnosis, but I’m concerned about the loss of jobs and its impact on America as a nation. I am very concerned about the use of AI in building a global surveillance state. I believe every American has a right to privacy, and I will push for legislation to protect that right and to impose tough penalties on those who violate that right. Tech billionaires are tracking everything we do, putting cameras on every corner, and getting rich while the rest of us work harder for less. We can’t let them turn the United States in a nation that has a social credit system like China."
+    
+    KEYWORDS: Regulate, Caution, Privacy
+
+- candidate_first_name: Mark
+  candidate_last_name: Cohen
+  state: ne
+  race: US House of Representatives
+  district: 3
+  party: Independent
+  question: ne-q3
+  date: 2026-08-25 
+  response: |
+    "Here’s the truth. We can’t fund research and cut taxes for billionaires and mega corporations at the same time. For decades federal grants for research had bipartisan support because both parties understood the importance of it in industry and for job growth. We can’t rely solely on industry for research because industry research tends to focus on what will make a corporation profitable. I would work to restore and grow federal funding for research grants. I would also restore research funding for federal agencies such as the Dept. of Agriculture. If we want to compete successfully with other nations we must fund research that provides a highly competent workforce."
+    
+    KEYWORDS: Funding, Grants, Research
+
+- candidate_first_name: Mark
+  candidate_last_name: Cohen
+  state: ne
+  race: US House of Representatives
+  district: 3
+  party: Independent
+  question: ne-q4
+  date: 2026-08-25 
+  response: |
+    "As stated above, we can't cut taxes for billionaires and mega corporations at the expense of cutting vital research that serves all Americans. I would work to restore and grow federal funding for these institutions."
+    
+    KEYWORDS: Funding, Grants, Research
+
+- candidate_first_name: Mark
+  candidate_last_name: Cohen
+  state: ne
+  race: US House of Representatives
+  district: 3
+  party: Independent
+  question: ne-q5
+  date: 2026-08-25 
+  response: |
+    "I earned an advanced degree (LL.M.) in agricultural law. For many years the Dept. of Agriculture provided funding for programs that have proven successful for decades. It has funded valuable research. We should fully fund the Dept. of Agriculture and allow it to develop policies based on scientific evidence. We should also fund grants to universities and others best positioned to decide what works best in a particular area. A “one size fits all” policy on an issue is not always appropriate. Many regulations are burdensome on small operations, and Congress should recognize that and carve out exceptions. Farmers and ranchers should play an important role in developing policy."
+    
+    KEYWORDS: Funding, Participation
+
+- candidate_first_name: Mark
+  candidate_last_name: Cohen
+  state: ne
+  race: US House of Representatives
+  district: 3
+  party: Independent
+  question: ne-q6
+  date: 2026-08-25 
+  response: |
+    "My answer largely incorporates what I have written in response to other questions. The federal government must play a strong role in protecting Americans and America’s natural resources. A Republican, Theodore Roosevelt, recognized the importance of conservation. Another Republican, President Nixon, created the EPA and said, “Restoring nature to its natural state is a cause beyond party and beyond factions.” We are the stewards of this Earth. It should not be a partisan issue. I would protect funding for agencies such as NOAA and the National Center For Atmospheric Research."
+    
+    KEYWORDS: Stewardship
