@@ -129,6 +129,8 @@ published: true
   <div class="info__body">
     <p>Note: not every question below was posed to every candidate. Questions 1-6 were only asked of candidates for the US Senate and US House of Representatives, and questions 7-11 were only asked of candidates for Nebraska Governor.</p>
 
+    <p> If you want to know how a candidate would answer a question they were not asked, we encourage you to reach out to that candidate directly. Contact us at <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> if you need help reaching out.</p>
+
     <ol class="qlist">
       {%- for q in questions -%}
         {%- if q.tag.first -%}
