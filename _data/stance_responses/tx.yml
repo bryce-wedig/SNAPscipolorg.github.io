@@ -5176,7 +5176,8 @@
     I support full continuation of the USDA–TAHC response centered on the sterile insect technique—the same proven method that previously eradicated this pest from the United States. That includes rapid sterile-fly releases, targeted quarantines and movement controls in defined zones, intensified surveillance, and practical support for producers to prevent and treat wounds.
 
     I also support accelerating domestic sterile-fly production capacity in Texas, maintaining strong livestock import inspections and border surveillance, and ensuring producers have workable pathways to move healthy animals. Requirements should be time-limited, results-driven, and free of unnecessary bureaucracy.
-The evidence is clear: sterile insect technique works, delay is expensive, and prevention at the border is cheaper than cleanup after the fact. Texas agriculture deserves decisive action and accountability, not half-measures.
+    
+    The evidence is clear: sterile insect technique works, delay is expensive, and prevention at the border is cheaper than cleanup after the fact. Texas agriculture deserves decisive action and accountability, not half-measures.
 
 - candidate_first_name: Theodore
   candidate_last_name: Schramm
@@ -6477,7 +6478,7 @@ The evidence is clear: sterile insect technique works, delay is expensive, and p
 - candidate_first_name: Desiree
   candidate_last_name: Klaus
   state: tx
-  race: US House of Representatives
+  race: State House of Representatives
   district: HD-128
   party: Democratic
   question: tx-q1
@@ -6497,7 +6498,7 @@ The evidence is clear: sterile insect technique works, delay is expensive, and p
 - candidate_first_name: Desiree
   candidate_last_name: Klaus
   state: tx
-  race: US House of Representatives
+  race: State House of Representatives
   district: HD-128
   party: Democratic
   question: tx-q2
@@ -6511,7 +6512,7 @@ The evidence is clear: sterile insect technique works, delay is expensive, and p
 - candidate_first_name: Desiree
   candidate_last_name: Klaus
   state: tx
-  race: US House of Representatives
+  race: State House of Representatives
   district: HD-128
   party: Democratic
   question: tx-q3
@@ -6527,7 +6528,7 @@ The evidence is clear: sterile insect technique works, delay is expensive, and p
 - candidate_first_name: Desiree
   candidate_last_name: Klaus
   state: tx
-  race: US House of Representatives
+  race: State House of Representatives
   district: HD-128
   party: Democratic
   question: tx-q4
@@ -6549,7 +6550,7 @@ The evidence is clear: sterile insect technique works, delay is expensive, and p
 - candidate_first_name: Desiree
   candidate_last_name: Klaus
   state: tx
-  race: US House of Representatives
+  race: State House of Representatives
   district: HD-128
   party: Democratic
   question: tx-q5
@@ -6571,7 +6572,7 @@ The evidence is clear: sterile insect technique works, delay is expensive, and p
 - candidate_first_name: Desiree
   candidate_last_name: Klaus
   state: tx
-  race: US House of Representatives
+  race: State House of Representatives
   district: HD-128
   party: Democratic
   question: tx-q6
@@ -6622,17 +6623,7 @@ The evidence is clear: sterile insect technique works, delay is expensive, and p
 
     The United States defeated screwworm before through a long-term, organized effort—not through fewer rules or voluntary action alone. Restoring the policies that worked in the past would be a good place to start.
 
-- candidate_first_name: Detrick
-  candidate_last_name: DeBurr
-  state: tx
-  race: State House of Representatives
-  district: HD-65
-  party: Democratic
-  question: tx-q1
-  date: 2026-08-27
-  primary_candidate: false
-  response: |
-    Restoring the policies that worked in the past would be a good place to start
+    **Keywords:** Restoring the policies that worked in the past would be a good place to start
 
 - candidate_first_name: Detrick
   candidate_last_name: DeBurr
@@ -6713,3 +6704,101 @@ The evidence is clear: sterile insect technique works, delay is expensive, and p
   primary_candidate: false
   response: |
     Policy should follow the data. Lawmakers owe the public decisions rooted in scientific evidence and expert judgment — not political ideology.
+
+- candidate_first_name: Brett
+  candidate_last_name: Robinson
+  state: tx
+  race: State House of Representatives
+  district: HD-130
+  party: Democratic
+  question: tx-q1
+  date: 2026-08-27
+  primary_candidate: false
+  response: |
+      We must incentivize ranchers to report screwworm in their own livestock. As it is now, ranchers who do the right thing are risking their livelihoods, while the ones who choose not to report stay in business and endanger the public. As the question mentions, we haven’t had this problem in decades. I consider myself a progressive in many ways, but on this particular issue, we need to go back to what we were doing before. We had a sophisticated program in place that controlled the screwworm population, but our leaders cut that program because they didn’t understand the threat. Let’s not make the same mistake again. We must trust the experts and fully evaluate programs before cuts are made.
+      
+      **Keywords:** We must incentivize ranchers to report screwworm in their own livestock.
+
+- candidate_first_name: Brett
+  candidate_last_name: Robinson
+  state: tx
+  race: State House of Representatives
+  district: HD-130
+  party: Democratic
+  question: tx-q2
+  date: 2026-08-27
+  primary_candidate: false
+  response: |     
+    I am fully against data centers in Texas because I hear the outcry from our local communities. The working people of this state have been exploited by multibillion dollar corporations for decades. Data centers are just another instance of large corporations siphoning our resources as our leaders invite them to screw us over. Data centers may create construction jobs temporarily, but they are not job creators in the long run. My campaign is all about fighting for the working class because I believe an economy is best built from the bottom up, and our local communities need fighters more than ever. As State Representative, I will fight to end Governor Abbott’s tax breaks because I am tired of footing the bill for multibillion dollar corporations. 
+  
+    **Keywords:** I am fully against data centers in Texas because I hear the outcry from our local communities.
+
+- candidate_first_name: Brett
+  candidate_last_name: Robinson
+  state: tx
+  race: State House of Representatives
+  district: HD-130
+  party: Democratic
+  question: tx-q3
+  date: 2026-08-27
+  primary_candidate: false
+  response: |  
+    I am in favor of establishing a statewide “water grid” so local communities like Corpus Christi do not bear the brunt of this crisis. I also support desalination where it makes sense for the local community. While I hear desalination doesn’t work everywhere, converting saltwater to freshwater is powerful technology that I hope will one day ensure a future-proof supply. As it is now, Texas is heavily reliant on aquifers, which will run dry soon with current climate projections.
+
+    **Keywords:** Statewide “water grid” and desalination where it makes sense
+    
+- candidate_first_name: Brett
+  candidate_last_name: Robinson
+  state: tx
+  race: State House of Representatives
+  district: HD-130
+  party: Democratic
+  question: tx-q4
+  date: 2026-08-27
+  primary_candidate: false
+  response: | 
+    I recall reading stories of the elderly being trapped in senior living facilities with nowhere to go as they froze to death. Not only do we need to address increasing demand, we need to ensure the tragedies we saw during winter storm Uri do not happen again. Step one is to invest in weatherizing the grid against extreme heat and cold. I also support connecting to the national grid, as it is in our safety and economic interest. During times of crisis, we would be able to get the help we need from other states. Meanwhile, during normal operating conditions, Texas would be making money by selling our power nationwide. Lastly, we need to continue making progress in the adoption of renewable energy as we decrease our reliance on fossil fuels. 
+    
+    **Keywords:** Connect to the national grid
+    
+- candidate_first_name: Brett
+  candidate_last_name: Robinson
+  state: tx
+  race: State House of Representatives
+  district: HD-130
+  party: Democratic
+  question: tx-q5
+  date: 2026-08-27
+  primary_candidate: false
+  response: |     
+    I am running for a state office, which does not have the power to determine the level of NIH funding. But with that said, there are ways we can address this problem on a state level that can make up for NIH shortcomings. Texas can enter its own partnerships with NIH, where both parties can negotiate and agree where we should pitch in. Personally, I see a need for stable careers for working people my age. If NIH is skeptical about funding, I would advocate that they invest in scholarships, internships, and pipeline programs. 
+    
+    **Keywords:** NIH should be investing in scholarships, internships, and pipeline programs. 
+
+- candidate_first_name: Brett
+  candidate_last_name: Robinson
+  state: tx
+  race: State House of Representatives
+  district: HD-130
+  party: Democratic
+  question: tx-q6
+  date: 2026-08-27
+  primary_candidate: false
+  response: |      
+    When it comes to diseases and outbreaks, we are all in this together, and our leaders need to govern as such. Right now, the negligent actions of a handful of individuals are putting us all at risk. The measles vaccine has been proven safe and effective over decades, and is well worthy of being a required vaccination for kids entering elementary school.
+    
+    **Keywords:** The measles vaccine has been proven safe and effective over decades, and is well worthy of being a required vaccination for kids entering elementary school.
+    
+- candidate_first_name: Brett
+  candidate_last_name: Robinson
+  state: tx
+  race: State House of Representatives
+  district: HD-130
+  party: Democratic
+  question: tx-q7
+  date: 2026-08-27
+  primary_candidate: false
+  response: |     
+    When in doubt, follow the money. I find that understanding the financial stakeholders to any given policy decision will always reveal ulterior motives. If we are to trust any experts, it should be the ones with lifelong careers in public service without conflicts of interest.
+    
+    **Keywords:** When in doubt, follow the money.
