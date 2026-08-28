@@ -1,38 +1,53 @@
-- candidate_first_name: Shane
-  candidate_last_name: Cavanaugh
+- candidate_first_name: Jeff
+  candidate_last_name: Appelhans
   state: de
-  race: State Senate
-  district: 8
-  party: Republican
+  race: US Senate
+  district:
+  party: Democratic
+  question: de-q4
+  date: 2026-08-08
+  county_race:
+  primary_candidate: false
+  response: |
+    As someone with a terminal research degree, I would start with competence and integrity: substantial experience in the science an agency supports, demonstrated respect for peer review and reproducibility, and the ability to manage a large public institution. A nominee should disclose conflicts, protect research from partisan or commercial interference, explain uncertainty honestly, and defend the lawful work of career scientists.
+
+    Science can tell us what evidence supports; it cannot by itself settle questions of values, budgets, or rights. I would therefore ask whether a nominee can translate evidence into decisions without hiding those democratic choices behind expertise.
+
+    The Senate's job is not to demand ideological conformity. It is to determine whether a nominee will steward public money, preserve public trust, publish methods and results where law permits, correct errors openly, and keep an agency capable of serving the whole country. I would reject a nominee who treats expertise as a loyalty test, suppresses inconvenient findings, or confuses scientific leadership with obedience to a president or donor.
+
+- candidate_first_name: Jeff
+  candidate_last_name: Appelhans
+  state: de
+  race: US Senate
+  district:
+  party: Democratic
+  question: de-q1
+  date: 2026-08-08
+  county_race:
+  primary_candidate: false
+  response: |
+    I would fund science as public infrastructure: stable, multi-year support for basic and translational research; competitive peer review; public-health, climate, energy, materials, computing, and social science; modern facilities; and a skilled workforce. High-risk work needs time beyond an election calendar; clear criteria, conflict disclosure, audits, and honest negative findings protect public trust.
+
+    That judgment is practical. My first classroom assignment was honors and general eighth-grade physical science. At APS, I applied that experience to our America 250 project, America’s Scientific Revolutionaries. I presented its research and public-education work at Science on Tap; its programs have included MIT astrophysicist and exoplanet pioneer Sara Seager and CHOP vaccine scientist Paul Offit. Sustained support becomes discovery, education, and public understanding—not merely a line item.
+
+    Geophysicist Marcia McNutt, who led the National Academy of Sciences until earlier this year, described science during her ASR program as how we escape a zero-sum game. Public funding should expand capacity and public return: usable access; responsible technology transfer; broad geographic and institutional opportunity; secure stewardship of sensitive data. AI should expand research capacity, not replace scientific judgment or consume public resources without transparent terms.
+
+- candidate_first_name: Jeff
+  candidate_last_name: Appelhans
+  state: de
+  race: US Senate
+  district:
+  party: Democratic
   question: de-q2
-  date: 2026-07-24
+  date: 2026-08-08
+  county_race:
   primary_candidate: false
   response: |
-    Delaware legislation shut down the coal plant at the Indian River inlet and never put a plan in place to replace what power was generated there. I believe there is great opportunity for SMRs at that location.
+    Delaware families should not subsidize an AI buildout whose costs and risks are hidden. I would require large data-center loads to disclose projected demand, generation and transmission needs, water use, backup power, emissions, and who pays. FERC and PJM rules should require credible load forecasts, transparent interconnection studies, cost causation, and enforceable protections against shifting data-center-specific infrastructure costs onto households and small businesses.
 
-- candidate_first_name: Shane
-  candidate_last_name: Cavanaugh
-  state: de
-  race: State Senate
-  district: 8
-  party: Republican
-  question: de-q3
-  date: 2026-07-24
-  primary_candidate: false
-  response: |
-    If a house is destroyed due to flooding I believe new construction should follow new tidal change warnings. Whether the structure should be built on stilts or further from the coast, that should be taken into consideration.
+    Reliability comes first: new large loads should bring or contract for deliverable capacity, flexibility, storage, or other resources sufficient to avoid weakening the grid. Any federal subsidy should carry labor, efficiency, water, community-benefit, and public-reporting conditions, with periodic review if promised jobs or resource performance do not materialize.
 
-- candidate_first_name: Shane
-  candidate_last_name: Cavanaugh
-  state: de
-  race: State Senate
-  district: 8
-  party: Republican
-  question: de-q9
-  date: 2026-07-24
-  primary_candidate: false
-  response: |
-    Parents need to be more involved in holding their children accountable. Drug use is simply not good! Also the law allows criminals doing drugs to not have harsh consequences. They are literally giving drug paraphernalia to users. Horrible example for the youth!
+    AI can be foundational infrastructure for science, but importance is not entitlement. Reliable, affordable energy is a right; a data center is not. Communities must be able to set terms for the power, water, land, and public burden they are asked to carry, while preserving federal and state roles rather than pretending Washington directly sets Delaware retail rates or local siting decisions.
 
 - candidate_first_name: Robert
   candidate_last_name: Bahnsen
@@ -42,6 +57,7 @@
   party: Democratic
   question: de-q2
   date: 2026-07-24
+  county_race:
   primary_candidate: false
   response: |
     The first call to action is a moratorium on hyperscale data centers - though I prefer we ban them outright.  If data centers do come to Delaware, we need to do two things to help blunt electricity cost increases.  First is investing in battery technology.  Texas was able to minimize energy cost increases by charging battery farms during off-peak hours - we should do the same.  Next, we need to consider our role as a net electricity importer and start investing in electricity generation in Delaware, so we are less reliant on generation from our PJM partners.
@@ -54,6 +70,7 @@
   party: Democratic
   question: de-q3
   date: 2026-07-24
+  county_race:
   primary_candidate: false
   response: |
     Climate change is the major battle of our generation and the next.  Cutting greenhouse gas emissions is still important, but we have missed our window to have a significant impact on blunting future environmental disaster.  Climate resilience will require interstate cooperation, review of building codes, improving infrastructure including our bridges, restoring our wetlands, and investing heavily in climate science and innovation.
@@ -66,9 +83,732 @@
   party: Democratic
   question: de-q9
   date: 2026-07-24
+  county_race:
   primary_candidate: false
   response: |
     As a physician, I believe in evidence-based medicine and data-driven and pragmatic policy.  Parents and their children need to know the truth about substance use - and we need to be open and honest as a society about the steps necessary to advance recovery, which includes investment in mental health programs and improving the social and economic outlook of our communities.
+
+- candidate_first_name: Dwayne J.
+  candidate_last_name: Bensing
+  state: de
+  race: Attorney General
+  district:
+  party: Democratic
+  question: de-q5
+  date: 2026-07-24
+  county_race:
+  primary_candidate: false
+  response: |
+    As Attorney General, I will make Delaware an active, leading force in multistate legal action rather than a passive participant. While Delaware joined multi-state opioid litigation under AG Kathy Jennings, our state too often signs onto national lawsuits after other states have done the heavy lifting—or sits on the sidelines entirely during crucial corporate challenges, such as major anti-competitive media mergers.
+
+    My decision framework will proactively evaluate three criteria:
+    1) Direct Impact on Delawareans: Actionable harm to our residents, particularly frontline and historically underrepresented communities facing environmental or healthcare barriers.
+    2) Scientific & Empirical Consensus: Prioritizing actions grounded in rigorous research, including defending reproductive health equity, protecting climate regulations, and curbing toxic industrial emissions.
+    3)Federal Inaction: Stepping in aggressively when federal regulators lapse or fail to hold national corporate monopolies accountable.
+
+    Rather than viewing Delaware as the state of incorporation that avoids rocking the boat, my administration will leverage our unique corporate and legal standing to co-lead multistate coalitions early. We will initiate enforcement actions that set nationwide precedents for public health, clean water, and consumer safety.
+
+- candidate_first_name: Dwayne J.
+  candidate_last_name: Bensing
+  state: de
+  race: Attorney General
+  district:
+  party: Democratic
+  question: de-q6
+  date: 2026-07-24
+  county_race:
+  primary_candidate: false
+  response: |
+    Fraudulent health claims are a serious public safety threat. While Delaware’s Consumer Protection Unit under AG Jennings handles standard consumer fraud, enforcement around misleading health claims has remained largely complaint-driven—reacting only after Delawareans have already suffered financial loss or health harms.
+
+    My administration will transform consumer protection from a reactive agency into a proactive watchdog. We will establish a dedicated science and health advocacy pipeline within the Consumer Protection Unit, partnering directly with medical research institutions, public health experts, and federal regulators (FDA/FTC) to actively monitor deceptive marketing trends before widespread harm occurs.
+
+    We will aggressively target predatory companies exploiting seniors, chronic illness patients, and low-income families seeking accessible care with unproven medical claims. Furthermore, we will move beyond standard financial settlements—which large corporations treat as a cost of doing business—by prioritizing immediate injunctive relief to halt deceptive sales instantly, securing full restitution for defrauded consumers, and seeking structural remedies that prevent repeat offenses in Delaware.
+
+- candidate_first_name: Dwayne J.
+  candidate_last_name: Bensing
+  state: de
+  race: Attorney General
+  district:
+  party: Democratic
+  question: de-q7
+  date: 2026-07-24
+  county_race:
+  primary_candidate: false
+  response: |
+    Environmental justice and corporate accountability will drive our environmental enforcement strategy. While AG Jennings secured settlements against legacy chemical polluters like DuPont and Chemours over PFAS contamination, financial settlements negotiated after damage is done are not enough—especially when overburdened communities in New Castle County and across our state still live next to toxic industrial sites.
+
+    My office will maintain independent prosecutorial authority while coordinating closely with DNREC to shift from reactive settlements to proactive prevention and environmental justice:
+    1) Environmental Justice Mandate: Directing dedicated legal staff and investigative resources toward fence-line communities that have historically borne a disproportionate burden of industrial air and water pollution.
+    2) Real Community Remediation: Ensuring PFAS and toxic cleanup settlements directly fund local clean water infrastructure and health monitoring in impacted neighborhoods, rather than disappearing into general state coffers.
+    3) Strict Deterrence & Injunctive Relief: Seeking aggressive court orders and strict liability penalties against repeat industrial polluters to halt environmental harm in real time. Delawareans deserve an Attorney General who treats clean air and water as non-negotiable civil rights.
+
+- candidate_first_name: Dwayne J.
+  candidate_last_name: Bensing
+  state: de
+  race: Attorney General
+  district:
+  party: Democratic
+  question: de-q8
+  date: 2026-07-24
+  county_race:
+  primary_candidate: false
+  response: |
+    Because Delaware is the preferred home of incorporation for dominant tech enterprises—including OpenAI—our Attorney General holds unmatched influence over corporate AI governance. When AG Kathy Jennings issued a Statement of No Objection allowing OpenAI to convert its primary business from a non-profit entity into a for-profit Public Benefit Corporation, it demonstrated how Delaware’s regulatory oversight shapes the global technology landscape.
+
+    However, corporate restructuring must be paired with aggressive civil rights enforcement on behalf of everyday Delawareans. Drawing on my track record fighting technological overreach as Legal Director of the ACLU of Delaware, I will treat AI accountability and data privacy under the Delaware Personal Data Privacy Act as vital civil liberties protections. My enforcement pillars will be:
+    1)  Fighting Algorithmic Discrimination: Investigating automated systems and data brokers whose opaque algorithms produce discriminatory barriers in hiring, housing, healthcare access, and credit scoring.
+    2) Proactive Compliance Audits: Moving beyond voluntary guidance to actively audit entities harvesting sensitive health, location, biometric, or youth data without explicit, informed consent.
+    3) Protecting Digital Civil Liberties: Enforcing strict data minimization standards and safeguarding residents' fundamental rights against unchecked data exploitation. (187 words)
+
+- candidate_first_name: Alonna
+  candidate_last_name: Berry
+  state: de
+  race: State House of Representatives
+  district: 20
+  party: Democratic
+  question: de-q2
+  date: 2026-07-27
+  county_race:
+  primary_candidate: false
+  response: |
+    Energy is one of the most critical issues facing our community. This is not just the work of this legislative session. It is generational work that will shape Delaware's economy, environment, and quality of life for decades to come.
+
+    As a member of the House Natural Resources & Energy Committee, I believe the conversation around energy is moving too quickly without enough independent, peer reviewed research to fully inform the decisions before us. The first step should always be following the best available science and objective data. That evidence must be the foundation for every conversation about energy policy, whether we are discussing data centers, grid reliability, electricity costs, or future energy generation.
+
+    The rapid growth of AI driven data centers requires us to carefully weigh competing priorities. That balance can only be achieved by grounding our decisions in independent, peer reviewed research and thoughtful long-term planning. While data centers may strengthen our economy, they also pose real risks to our electric grid, our environment, and the long-term affordability of energy for Delaware families. These concerns are especially important in the coastal communities I represent in Sussex County, where increased energy demand and environmental impacts could have lasting consequences. No matter what policies are ultimately adopted, the impacts on our climate and environment must remain central to every decision.
+
+    I support requiring large energy users to pay their fair share of the infrastructure costs they create rather than shifting those costs onto Delaware ratepayers. I also support strengthening long term grid planning through PJM, investing in transmission infrastructure, expanding energy efficiency, and carefully evaluating the cumulative impacts of proposed data centers before projects are approved.
+
+    Delaware should welcome innovation, but not at the expense of affordability, grid reliability, or our natural resources. Evidence, transparency, and long-term planning must guide every decision we make because the choices we make today will affect generations of Delawareans to come.
+
+- candidate_first_name: Alonna
+  candidate_last_name: Berry
+  state: de
+  race: State House of Representatives
+  district: 20
+  party: Democratic
+  question: de-q3
+  date: 2026-07-27
+  county_race:
+  primary_candidate: false
+  response: |
+    As a coastal state, Delaware is already experiencing the impacts of sea level rise, stronger storms, and more frequent tidal flooding. The science is clear that we must prepare our communities while protecting both our environment and our economy.
+
+    I was proud to co-sponsor legislation strengthening Delaware's wetlands protections because healthy wetlands are one of our most effective natural defenses against flooding. As a member of the House Natural Resources & Energy Committee, I have consistently supported policies that recognize protecting our environment is also an investment in our economy, our infrastructure, and our quality of life.
+
+    I support continued investments in living shorelines, marsh restoration, resilient infrastructure, improved stormwater management, and voluntary home elevation and flood mitigation programs. I also believe every major infrastructure and land use decision should account for future flood risk using the best available science.
+
+    Protecting Delaware's coast requires partnership among state agencies, local governments, property owners, and conservation organizations. By making evidence-based investments today, we can better protect our communities, preserve our natural resources, and ensure future generations can continue to call Delaware's coast home.
+
+- candidate_first_name: Alonna
+  candidate_last_name: Berry
+  state: de
+  race: State House of Representatives
+  district: 20
+  party: Democratic
+  question: de-q9
+  date: 2026-07-27
+  county_race:
+  primary_candidate: false
+  response: |
+    As a member of the House Education Committee, I believe addressing youth substance use begins by creating school environments where every student feels safe, supported, and connected. Research consistently shows that positive school culture and climate are among the strongest protective factors against substance use, mental health challenges, and other risky behaviors.
+
+    That is why I have focused my legislative work on strengthening school culture and climate, expanding student supports, and ensuring schools have the tools they need to help students before they reach a crisis. I have also supported legislation strengthening labeling requirements for THC products to better protect young people and consumers.
+
+    We must continue investing in evidence-based prevention; I support expanding school based mental health services, strengthening partnerships between schools and families, increasing access to counselors and behavioral health professionals, and providing age appropriate, evidence-based substance use education.
+
+    As an educator, I know students learn best when they feel connected to their schools and have trusted adults they can turn to. As a legislator, I will continue supporting policies that improve school climate, strengthen student wellbeing, and use data, including the Delaware School Survey, to ensure we are investing in prevention strategies that produce measurable results.
+
+- candidate_first_name: Dexter
+  candidate_last_name: Bland
+  state: de
+  race: State House of Representatives
+  district: 3
+  party: Independent
+  question: de-q2
+  date: 2026-08-09
+  county_race:
+  primary_candidate: false
+  response: |
+    Delaware should welcome innovation and economic development, but growth should not come at the expense of household electric bills or grid reliability. PJM projects significant electricity-demand growth over the next decade, with large data centers contributing to that increase. I support requiring major new energy users to pay the costs associated with connecting to and upgrading the grid rather than shifting those expenses onto residential ratepayers.
+
+    I would also support independent reliability and rate-impact reviews before very large loads are approved, stronger transparency in utility load forecasts, and financial commitments from developers when additional transmission or generation is required. Delaware should simultaneously invest in grid modernization, energy storage, distributed generation, and other technologies that can improve resilience and reduce long-term costs
+
+- candidate_first_name: Dexter
+  candidate_last_name: Bland
+  state: de
+  race: State House of Representatives
+  district: 3
+  party: Independent
+  question: de-q3
+  date: 2026-08-09
+  county_race:
+  primary_candidate: false
+  response: |
+    Delaware should prepare for increased flooding before families and taxpayers are forced to pay repeatedly for preventable damage. I support using current flood modeling and future sea-level and rainfall projections when Delaware plans roads, bridges, schools, wastewater systems, and other long-term public infrastructure.
+
+    We should modernize aging stormwater and drainage systems, particularly in communities experiencing repeated urban flooding, while protecting natural defenses such as wetlands, dunes, and shorelines. I also support targeted assistance that helps homeowners and communities invest in practical flood-mitigation measures before disaster occurs.
+
+    Our policies should recognize that resilience is not only a coastal issue. Increased rainfall and inadequate drainage can threaten neighborhoods throughout Delaware, including urban communities.
+
+    My approach is prevention, preparation, and responsible investment. If scientific evidence tells us where risks are increasing, government should use that information to protect residents, infrastructure, and taxpayer dollars rather than waiting until after homes, roads, and communities are damaged.
+
+- candidate_first_name: Dexter
+  candidate_last_name: Bland
+  state: de
+  race: State House of Representatives
+  district: 3
+  party: Independent
+  question: de-q9
+  date: 2026-08-09
+  county_race:
+  primary_candidate: false
+  response: |
+    I believe Delaware should address youth substance use through prevention, education, early intervention, and treatment—not simply punishment. The decline in the number of young people who perceive regular marijuana use as risky tells us we need honest, age-appropriate education about marijuana, vaping, opioids, alcohol, and prescription-drug misuse before unhealthy patterns begin.
+
+    I support evidence-based prevention programs in schools and communities, greater access to behavioral health and substance-use counseling, and training for parents, educators, and mentors to recognize warning signs and connect young people with help early. Delaware should continue using the Delaware School Survey and other public-health data to measure which programs actually reduce youth substance use and direct funding toward approaches producing results.
+
+    Prevention also means investing in young people themselves. Mentoring, recreation, arts, workforce development, and meaningful after-school opportunities can strengthen the protective factors that keep young people connected and engaged.
+
+    Adult legalization should never mean normalization of drug use among children. Our responsibility is to educate young people honestly, intervene early, and give them healthy opportunities to thrive.
+
+- candidate_first_name: Lissa
+  candidate_last_name: Brutus
+  state: de
+  race: State House of Representatives
+  district: 8
+  party: Democratic
+  question: de-q2
+  date: 2026-08-26
+  county_race:
+  primary_candidate: false
+  response: |
+    Rising electricity costs are a kitchen table issue, and Delaware families should not foot the bill for the surge in demand created by AI data centers. Across the PJM region, recent capacity auctions have driven record price increases that flow straight to residential ratepayers. I support the framework advanced in the General Assembly to establish a separate, higher rate class for very large energy users (over 50 megawatts) served through Delmarva Power, so data centers pay for the transmission and distribution capacity they require rather than shifting those costs onto households. I would strengthen Public Service Commission authority to review these agreements for ratepayer protection and reliability, require large users to reduce consumption during grid emergencies, and direct a share of their payments into low-income energy assistance and clean energy programs. At the same time, we must expand in-state renewable generation, battery storage, and energy efficiency so new demand is met with new supply. Evidence, not industry pressure, should guide how we grow the grid.
+
+- candidate_first_name: Lissa
+  candidate_last_name: Brutus
+  state: de
+  race: State House of Representatives
+  district: 8
+  party: Democratic
+  question: de-q3
+  date: 2026-08-26
+  county_race:
+  primary_candidate: false
+  response: |
+    Delaware is the lowest-lying state in the nation, and NOAA's projections of increased tidal flooding are a warning we cannot ignore. I support planning and investing based on the best available science, including DNREC's sea-level-rise planning scenarios, rather than outdated flood maps. That means funding nature-based solutions such as living shorelines, wetland and marsh restoration, and dune protection, all of which buffer communities at lower long-term cost than sea walls alone. We should update floodplain maps and building standards, require resilience in new development, and protect the roads, water systems, and schools that flooding puts at risk. I would prioritize resources for working-class and historically underinvested communities, which are often most exposed and least able to recover. As someone who has spent my career in land use and appraisal, I understand how flood risk shapes property values and generational wealth, and I will bring that lens to keeping Delaware families safe and their investments secure.
+
+- candidate_first_name: Lissa
+  candidate_last_name: Brutus
+  state: de
+  race: State House of Representatives
+  district: 8
+  party: Democratic
+  question: de-q9
+  date: 2026-08-26
+  county_race:
+  primary_candidate: false
+  response: |
+    The sharp drop in how many 11th graders see risk in regular marijuana use tells us prevention has to evolve, especially now that adult-use cannabis is legal in Delaware. I support evidence-based, school-based prevention programs that give accurate information about the developing brain rather than scare tactics, paired with the mental-health supports young people actually need. Substance use is often a symptom of deeper stress like trauma, poverty, and isolation, so I would invest in the protective factors research shows work best: strong schools, after-school and mentoring programs, family engagement, and accessible counseling. I would sustain and expand prevention funding through the Division of Public Health, direct opioid-settlement dollars toward youth programming, and enforce strict limits on youth-targeted marketing and access to cannabis and vaping products. We should measure what works using tools like the Delaware School Survey and fund the programs that show results. Keeping young people healthy is both a public-health and an economic-opportunity issue, and I will treat it as both.
+
+- candidate_first_name: Shane
+  candidate_last_name: Cavanaugh
+  state: de
+  race: State Senate
+  district: 8
+  party: Republican
+  question: de-q2
+  date: 2026-07-24
+  county_race:
+  primary_candidate: false
+  response: |
+    Delaware legislation shut down the coal plant at the Indian River inlet and never put a plan in place to replace what power was generated there. I believe there is great opportunity for SMRs at that location.
+
+- candidate_first_name: Shane
+  candidate_last_name: Cavanaugh
+  state: de
+  race: State Senate
+  district: 8
+  party: Republican
+  question: de-q3
+  date: 2026-07-24
+  county_race:
+  primary_candidate: false
+  response: |
+    If a house is destroyed due to flooding I believe new construction should follow new tidal change warnings. Whether the structure should be built on stilts or further from the coast, that should be taken into consideration.
+
+- candidate_first_name: Shane
+  candidate_last_name: Cavanaugh
+  state: de
+  race: State Senate
+  district: 8
+  party: Republican
+  question: de-q9
+  date: 2026-07-24
+  county_race:
+  primary_candidate: false
+  response: |
+    Parents need to be more involved in holding their children accountable. Drug use is simply not good! Also the law allows criminals doing drugs to not have harsh consequences. They are literally giving drug paraphernalia to users. Horrible example for the youth!
+
+- candidate_first_name: Janyce
+  candidate_last_name: Colmery
+  state: de
+  race: State House of Representatives
+  district: 19
+  party: Republican
+  question: de-q2
+  date: 2026-08-19
+  county_race:
+  primary_candidate: false
+  response: |
+    I live a reality based life.  The reality is that data centers are a necessary evil. China is already way ahead of us.  Are we honestly okay with China having complete control of this?   The issue is the energy needed.  These centers MUST generate their own power.  Our grids are NOT capable of supporting anything more than already have. Delawareans should not be paying a dime for any of this, and truthfully we CAN'T!   The technology is available for the centers to be self sustainable, and any extra power produced could be sold back to Delmarva Power.
+
+- candidate_first_name: Janyce
+  candidate_last_name: Colmery
+  state: de
+  race: State House of Representatives
+  district: 19
+  party: Republican
+  question: de-q3
+  date: 2026-08-19
+  county_race:
+  primary_candidate: false
+  response: |
+    This situation has been slowly increasing over the years.  It isnt uncommon to watch the ocean and the bay mix it up on RT 1, in Dewey.
+    As wonderful as it is to live so close to the coastline,  it comes with risks. Those risks are WELL KNOWN when you sign those mortgage papers.  While I do support government assistance when these storms are severe, this is what homeowners and flood insurance is for.  Each case should be evaluated individually.  I would also support restricting further development of homes and businesses where flooding is inevitable.
+
+- candidate_first_name: Janyce
+  candidate_last_name: Colmery
+  state: de
+  race: State House of Representatives
+  district: 19
+  party: Republican
+  question: de-q9
+  date: 2026-08-19
+  county_race:
+  primary_candidate: false
+  response: |
+    Education!  Families need to have these conversations with their children. Start early and often! Once is not enough.  Check-in with your kids!  Once you have had the initial conversation, continue with easy, short check-in's.  Have examples, information and resources available.
+    If your child has experimented, talk about it. Be engaged with your kids, but don't use anger. Care and concern goes a long way. But NEVER pretend it isnt happening.  Face the issue head on.
+
+- candidate_first_name: Luann
+  candidate_last_name: D'Agostino
+  state: de
+  race: State House of Representatives
+  district: 23
+  party: Democratic
+  question: de-q2
+  date: 2026-08-20
+  county_race:
+  primary_candidate: false
+  response: |
+    PJM's capacity market makes this concrete: prices have jumped roughly 11-fold in two years, clearing at the cap of $329.17/MW-day for 2026/27, with data centers driving nearly 40–45% of recent capacity costs region-wide. PJM has also missed its own reliability target two years running. Delaware households shouldn't pay more for a grid that's becoming less dependable.
+
+    I know this industry firsthand — my father spent 35 years as an electrical engineer with PECO, and I spent 15 years supporting data centers as an engineer with HP (Hewlett-Packard). Those were classic facilities that employed real people, not today's hyperscale AI data centers, which draw enormous power and resources with a fraction of the local jobs.
+
+    I supported this year's law requiring data centers to supply their own power, meet renewable requirements, and pay separate rates so costs aren't shifted to ratepayers. I'll push further: mandatory grid-impact and reliability review before large loads interconnect, and Delaware pressing PJM for reforms that protect both ratepayers and reliability.
+
+- candidate_first_name: Luann
+  candidate_last_name: D'Agostino
+  state: de
+  race: State House of Representatives
+  district: 23
+  party: Democratic
+  question: de-q3
+  date: 2026-08-20
+  county_race:
+  primary_candidate: false
+  response: |
+    Delaware is the lowest-lying state in the country, and I've seen what that means firsthand. In 2015, my family owned a home in Dagsboro when Hurricane Joaquin's tidal surge flooded roads across Sussex County so badly we couldn't leave our community for days. Our home was spared, but many of our neighbors' weren't. That's not a projection to me — I lived it.
+
+    The data backs up what I saw: tidal flooding has increased 260% since 2000 in parts of Delaware, and over 9,500 properties are already at risk. I'd support fully and consistently funding Delaware's Open Space Program, which curbs development in vulnerable areas and lets coastal ecosystems migrate inland. I'll also push to finish updating coastal construction regulations to reflect current flood risk, and expand tools like DNREC's I-ADAPT so local governments actually have the resources to plan, not just the mandate.
+
+- candidate_first_name: Luann
+  candidate_last_name: D'Agostino
+  state: de
+  race: State House of Representatives
+  district: 23
+  party: Democratic
+  question: de-q9
+  date: 2026-08-20
+  county_race:
+  primary_candidate: false
+  response: |
+    That drop in perceived risk — from 50% to 26% — tracks almost exactly with Delaware's move to decriminalize in 2015 and legalize recreational marijuana in 2023. Legalization for adults was the right call, but we can't pretend normalization doesn't reach kids too, and the evidence says prevention has to evolve with it, not just keep repeating old messaging.
+
+    I'd support sustained, full funding for DSAMH's evidence-based prevention framework, strict limits on cannabis marketing and packaging that could appeal to minors, and continued retail compliance checks like those already used for tobacco and vape sales to anyone under 21. And since youth substance use and mental health are deeply linked I'd tie prevention funding directly to expanding school-based mental health support, not just standalone drug education.
+
+- candidate_first_name: Mara
+  candidate_last_name: Gorman
+  state: de
+  race: State Senate
+  district: 8
+  party: Democratic
+  question: de-q2
+  date: 2026-08-21
+  county_race:
+  primary_candidate: false
+  response: |
+    Delaware doesn't control PJM, but PJM's costs land on Delaware ratepayers. Capacity prices in our region jumped roughly 9.3 times last auction cycle, with data centers responsible for 63% of that increase. That's why I've pushed to make large energy users cover their own costs, instead of passing them on to residents.
+
+    This session I supported HB 233, requiring Delmarva to create a separate rate class and blocking large facilities from connecting until they sign binding cost-protection agreements (they're also first curtailed in emergencies unless they bring their own power). I also supported HB 445, requiring facilities to produce or procure 100% of their own energy within 10 years, partly renewable. And finally, I voted for SB 326, which caps Delmarva's non-mandatory infrastructure spending and tightens rate oversight.
+
+    I'm not opposed to a moratorium in principle, but a pause only helps if the time is used to build real guardrails. Delaware has already done much of that work through these bills and the PSC's large-load tariff docket. I'd favor a narrow, targeted pause over a blanket one duplicating existing efforts, paired with strict cost allocation, mandatory disclosure, non-by-right siting, and real community engagement requirements.
+
+- candidate_first_name: Mara
+  candidate_last_name: Gorman
+  state: de
+  race: State Senate
+  district: 8
+  party: Democratic
+  question: de-q3
+  date: 2026-08-21
+  county_race:
+  primary_candidate: false
+  response: |
+    Delaware's flood risk isn't only coastal. Sea levels here are rising at roughly twice the global average, and Lewes could see 135 high-tide flooding days a year by 2050. But New Castle County faces its own serious exposure — Wilmington's Southbridge and Northeast neighborhoods flood regularly due to aging combined sewer systems and low elevation along the Christina and Brandywine, and inland communities like Newark see recurring stormwater flooding as heavier rainfall overwhelms drainage built for an earlier climate. These are often the same communities carrying other environmental burdens, and they deserve to be treated as a frontline priority alongside the beach towns.
+
+    I'd support modernizing stormwater and combined sewer infrastructure statewide, with funding prioritized toward historically underserved and flood-prone communities in Wilmington and Newark as well as coastal Sussex. I'd back updating floodplain maps to reflect future rainfall and runoff patterns, not just historical data, and continued investment in projects like the Southbridge Wetlands Park model, which includes green infrastructure paired with real community input to avoid displacement. I'd also support voluntary buyout and elevation programs for repetitive-loss properties statewide, and codifying the state's flood-risk-avoidance standard into law so it can't be undone by executive order alone.
+
+- candidate_first_name: Mara
+  candidate_last_name: Gorman
+  state: de
+  race: State Senate
+  district: 8
+  party: Democratic
+  question: de-q9
+  date: 2026-08-21
+  county_race:
+  primary_candidate: false
+  response: |
+    Because lower perceived risk is one of the strongest predictors of rising use, I'd focus on evidence-based, age appropriate interventions rather than messaging alone.
+
+    I'd like to see Delaware revisit raising cigarette and vapor product taxes and closing the gap so that e-cigarettes and nicotine pouches are taxed like tobacco. HB 215 attempted this last session but died without a House floor vote. Price increases are one of the most effective, well-documented tools for reducing youth initiation because teens are more price-sensitive than adult users. With nearly 20% of Delaware high schoolers vaping, I'll push to bring this back next session.
+
+    Beyond pricing, I'd prioritize what the research actually supports: evidence-based school curricula that build refusal and decision-making skills (not scare-tactic assemblies, which don't work), family-based programs that strengthen parental monitoring and communication, and expanded screening in pediatric primary care to catch early use. I'd also support directing more opioid settlement funds toward youth-specific prevention programming, not just treatment.
+
+    Since perceived risk is falling for marijuana use, retailers should face strict age-verification and marketing restrictions keeping cannabis advertising away from youth, similar to alcohol and tobacco rules, paired with public health messaging grounded in accurate, non-exaggerated risk information.
+
+- candidate_first_name: Gerald
+  candidate_last_name: Hocker
+  state: de
+  race: State Senate
+  district: 20
+  party: Republican
+  question: de-q2
+  date: 2026-08-08
+  county_race:
+  primary_candidate: false
+  response: |
+    Data Centers must produce at least as much electricity as they use. Delaware must increase production of electricity. Need to expand natural gas and nuclear power.  Must stop from going out of state to buy power.  This is very costly to our rate payers. Also must do away with RGGI.  It is now longer needed.  Delaware was required to increase air quality by 10% through RGGI and now 45% cleaner.
+
+- candidate_first_name: Gerald
+  candidate_last_name: Hocker
+  state: de
+  race: State Senate
+  district: 20
+  party: Republican
+  question: de-q3
+  date: 2026-08-08
+  county_race:
+  primary_candidate: false
+  response: |
+    I have lived here all my life and own a river front lot.  The normal tide that I have witnessed for the past 70 years has not changed.
+
+- candidate_first_name: Gerald
+  candidate_last_name: Hocker
+  state: de
+  race: State Senate
+  district: 20
+  party: Republican
+  question: de-q9
+  date: 2026-08-08
+  county_race:
+  primary_candidate: false
+  response: |
+    This was answered below. This organization needs much more support form the public with financing and volunteering,
+
+- candidate_first_name: Kyra
+  candidate_last_name: Hoffner
+  state: de
+  race: State Senate
+  district: 14
+  party: Democratic
+  question: de-q2
+  date: 2026-07-28
+  county_race:
+  primary_candidate: false
+  response: |
+    Delaware must take a data-driven approach to managing the rapid growth of energy-intensive data centers within the PJM region. I support requiring large-load users, including AI-driven data centers, to bear the full cost of necessary grid upgrades through fair cost allocation, rather than shifting those costs onto residential ratepayers. We should also incentivize co-location of data centers with renewable energy generation and energy storage, reducing strain on the grid and improving reliability.
+    Delaware should advocate within PJM for stronger interconnection standards and faster deployment of clean energy resources to meet rising demand.
+    Transparency is critical, ratepayers deserve clear reporting on how large energy users impact costs and reliability. Evidence-based planning and regional coordination will ensure we protect consumers while supporting economic growth.
+
+- candidate_first_name: Kyra
+  candidate_last_name: Hoffner
+  state: de
+  race: State Senate
+  district: 14
+  party: Democratic
+  question: de-q3
+  date: 2026-07-28
+  county_race:
+  primary_candidate: false
+  response: |
+    Delaware is on the frontlines of sea level rise, and we must respond with science-based, proactive policies. I support expanding investments in nature-based solutions such as wetland restoration and living shorelines, which have been shown to reduce flooding while preserving ecosystems.
+
+    We should also strengthen coastal land-use planning by updating zoning and building codes to discourage development in high-risk areas and require flood-resilient construction standards. Strategic retreat and voluntary buyout programs must be available and adequately funded for the most vulnerable communities. I support increased funding for flood monitoring, data modeling, and early warning systems to improve local decision-making. Partnering with federal agencies like NOAA and leveraging their projections will help ensure our policies reflect the best available science.
+
+    Equity must remain central, resources should prioritize communities most at risk and least able to recover.
+
+- candidate_first_name: Kyra
+  candidate_last_name: Hoffner
+  state: de
+  race: State Senate
+  district: 14
+  party: Democratic
+  question: de-q9
+  date: 2026-07-28
+  county_race:
+  primary_candidate: false
+  response: |
+    Addressing youth substance use requires a comprehensive, evidence-based approach grounded in prevention, education, and early intervention. I support expanding school- and community-based prevention programs that use proven models, such as social-emotional learning and peer-led initiatives, which have been shown to reduce substance use.
+    We must also modernize public health messaging. As perceptions of cannabis risk decline, education should focus on brain development, mental health impacts, and impaired driving, delivered in a way that is credible and age-appropriate.
+
+    Increasing access to school-based mental health services is critical, as untreated anxiety and depression are key risk factors for substance use. I also support screening and early intervention programs, including SBIRT (Screening, Brief Intervention, and Referral to Treatment), in schools and primary care settings.
+
+- candidate_first_name: Ayanna
+  candidate_last_name: Khan-Flowers
+  state: de
+  race: State House of Representatives
+  district: 9
+  party: Democratic
+  question: de-q2
+  date: 2026-08-08
+  county_race:
+  primary_candidate: false
+  response: |
+    I support responsible economic development and innovation, including new technology, but Delaware families and small businesses should not be asked to subsidize the extraordinary energy demands of large data centers.
+
+    I would support evidence-based policies requiring large energy users to pay their fair share of the infrastructure and grid upgrades their projects require. Delaware should also require transparent assessments of a proposed facility’s projected electricity demand, impact on residential rates, grid reliability, water use, and environmental impact before major projects move forward.
+
+    At the same time, we must strengthen Delaware’s energy supply and grid reliability by supporting a diverse energy portfolio, including solar and other clean and renewable energy sources, while making decisions based on reliability, affordability, and measurable results.
+
+    Technology can create jobs and economic opportunity, and Delaware should welcome responsible investment. But growth must benefit the communities hosting it. My priority will always be protecting residents, seniors on fixed incomes, and small businesses from being forced to absorb costs created by major corporate energy users.
+
+- candidate_first_name: Ayanna
+  candidate_last_name: Khan-Flowers
+  state: de
+  race: State House of Representatives
+  district: 9
+  party: Democratic
+  question: de-q3
+  date: 2026-08-08
+  county_race:
+  primary_candidate: false
+  response: |
+    Delaware’s vulnerability to coastal flooding requires us to plan ahead using the best available science while protecting homeowners, businesses, infrastructure, and taxpayer dollars.
+
+    I support continued investment in evidence-based flood mapping and risk assessments so state and local governments can make informed decisions based not only on historical flooding, but also on projected future conditions. We should strengthen stormwater and drainage infrastructure, protect wetlands and natural buffers, support beach and dune restoration, and expand the use of solutions such as living shorelines where they are effective.
+
+    I also support helping homeowners, communities, and small businesses understand their individual flood risks and access practical mitigation resources. State infrastructure investments should account for future flood conditions so taxpayers are not repeatedly paying to repair preventable damage.
+
+    Most importantly, these decisions should be made with communities, not simply for them. Residents, scientists, local governments, businesses, and environmental experts should all have a voice in developing long-term resilience strategies that protect both our communities and Delaware’s natural resources.
+
+- candidate_first_name: Ayanna
+  candidate_last_name: Khan-Flowers
+  state: de
+  race: State House of Representatives
+  district: 9
+  party: Democratic
+  question: de-q9
+  date: 2026-08-08
+  county_race:
+  primary_candidate: false
+  response: |
+    Preventing youth substance use requires more than simply telling young people not to use drugs. We need to understand why young people are using substances and invest in prevention strategies that have demonstrated results.
+
+    I support age-appropriate, evidence-based education about marijuana, alcohol, tobacco, vaping, opioids, and other substances, including honest information about their effects on adolescent health and development. Delaware should continue using data such as the Delaware School Survey to identify trends and evaluate whether prevention programs are actually working.
+
+    Prevention must also include stronger access to school counselors, mental health professionals, mentoring, after-school programs, and early intervention services. Parents and caregivers should be provided with resources to recognize warning signs and have informed conversations with their children.
+
+    When a young person is already struggling with substance use, our response should include treatment and support rather than relying solely on punishment. I believe the strongest approach combines education, prevention, family engagement, mental health support, and accountability while continually measuring outcomes and adjusting our strategies based on evidence.
+
+- candidate_first_name: Gemma
+  candidate_last_name: Lowery
+  state: de
+  race: State House of Representatives
+  district: 9
+  party: Democratic
+  question: de-q2
+  date: 2026-08-20
+  county_race:
+  primary_candidate: false
+  response: |
+    Public service must be built on public trust, and that includes being honest about why electricity bills are climbing. Across the PJM region, soaring demand from AI data centers is driving up costs that land on ordinary families. I support policies that make large energy users, not residents, pay for the grid impact they create. Delaware's proposal to set a separate, higher rate class for the biggest consumers, require them to cover their own transmission and distribution costs, and give the Public Service Commission real authority to protect ratepayers is a sound, evidence-based approach. I'd also require these facilities to reduce demand during grid emergencies to keep the system reliable, and direct part of their payments toward low-income energy assistance and clean energy programs. Longer term, Delaware should invest in renewable generation, battery storage, and efficiency so we can meet new demand without price shocks. Accountability means the companies profiting from our grid pay their fair share, and families get transparency about what they're being charged and why.
+
+- candidate_first_name: Gemma
+  candidate_last_name: Lowery
+  state: de
+  race: State House of Representatives
+  district: 9
+  party: Democratic
+  question: de-q3
+  date: 2026-08-20
+  county_race:
+  primary_candidate: false
+  response: |
+    Delaware is the lowest-lying state in the country, and NOAA's projections of worsening tidal flooding demand that we plan with the best available science. I support using DNREC's sea-level-rise planning scenarios to guide development and infrastructure decisions, updating outdated flood maps and building standards, and investing in nature-based solutions such as wetland restoration, living shorelines, and open-space buffers, which protect communities more affordably than hardened structures alone. Resilience planning has to protect the roads, water systems, and schools our neighborhoods depend on, and it must reach the working families and lower-income areas most exposed to flooding and least able to bounce back. Where repeated flooding makes property unsafe, voluntary buyouts should be fairly funded. This connects to a concern I hear across District 9: overdevelopment that paves over the open space and natural drainage that once absorbed stormwater. Smarter, science-based land use both protects the environment and keeps families safe.
+
+- candidate_first_name: Gemma
+  candidate_last_name: Lowery
+  state: de
+  race: State House of Representatives
+  district: 9
+  party: Democratic
+  question: de-q9
+  date: 2026-08-20
+  county_race:
+  primary_candidate: false
+  response: |
+    Keeping young people safe and healthy is personal to me. I worked in health care at ChristianaCare for years, so I've seen firsthand what happens when prevention and mental-health support come too late. The steep decline in how many 11th graders see risk in regular marijuana use, especially now that adult-use cannabis is legal in Delaware, tells us our prevention approach needs to be updated and grounded in evidence. I support school-based prevention that gives students honest, accurate information about the developing brain, paired with the mental-health supports too many of our struggling schools lack. Because substance use so often grows out of stress, trauma, and lack of opportunity, I'd invest in protective factors that research backs: counselors and social workers in schools, after-school and mentoring programs, and family support. I'd sustain prevention funding through the Division of Public Health, put opioid-settlement dollars to work for youth, and enforce firm limits on youth-targeted marketing and underage access to cannabis and vaping. And I'd hold programs accountable by tracking results through tools like the Delaware School Survey and funding what actually works.
+
+- candidate_first_name: Annie
+  candidate_last_name: Norman
+  state: de
+  race: State House of Representatives
+  district: 34
+  party: Democratic
+  question: de-q2
+  date: 2026-08-09
+  county_race:
+  primary_candidate: false
+  response: |
+    Many communities are pausing on Data Center approvals to better understand the broader context.  Delaware needs to initiate solutions for energy generation as well.  I support, and hope you will help with, providing the big picture of science related issues, the pros and cons of various approaches, as well as potential future energy and environmental solutions that we should plan for and design for now.
+
+    FYI, I served on the Governor’s STEM Council under an earlier administration.  My favorite STEM concept is systems thinking and understanding cause and effect.  As a Librarian, we serve all subjects, science and more. A systems approach will be most effective.
+
+- candidate_first_name: Annie
+  candidate_last_name: Norman
+  state: de
+  race: State House of Representatives
+  district: 34
+  party: Democratic
+  question: de-q3
+  date: 2026-08-09
+  county_race:
+  primary_candidate: false
+  response: |
+    In my youth I lived in Fenwick Island, off of Rt 54.  One night, driving in the dark, I hit a wall of water on the road which shut off my car.  In recent years, the road is raised above flooding.
+
+    We’re already seeing East Coast communities abandon houses on the edge.  There needs to be evidence-based planning for newer development to be at a safer distance further inland. The loss of land is a statewide issue to support, with the communities hopefully realistic about climate effects.
+
+- candidate_first_name: Annie
+  candidate_last_name: Norman
+  state: de
+  race: State House of Representatives
+  district: 34
+  party: Democratic
+  question: de-q9
+  date: 2026-08-09
+  county_race:
+  primary_candidate: false
+  response: |
+    Start by addressing the issue within the current system.  What is the effectiveness of the youth substance-use prevention programs – does this survey result mean they are not working?  Is the 11th graders view of risk more realistic now?  There are many dangers, safety issues for teens.  This is one question out of context, what about alcohol use?  What is the greater context of the youths’ lives?
+
+    I look forward to working with the network of scientists to address all the improvements needed in a systematic approach.
+
+- candidate_first_name: Josue
+  candidate_last_name: Ortega
+  state: de
+  race: State House of Representatives
+  district: 3
+  party: Democratic
+  question: de-q2
+  date: 2026-08-19
+  county_race:
+  primary_candidate: false
+  response: |
+    I would support policies that make large data centers pay their fair share of the electricity and grid infrastructure costs they create, rather than shifting those costs onto Delaware households. Delaware should require transparent analysis of a proposed data center’s expected electricity demand and grid impacts before approval, coordinate with PJM on reliability planning, and encourage energy efficiency, demand response programs, and on-site or contracted clean energy resources. I would also support targeted investments in transmission and grid modernization when they demonstrably improve reliability for all Delaware residents. The goal should be responsible economic development without allowing rapid AI driven electricity demand to increase utility bills or compromise grid reliability.
+
+- candidate_first_name: Josue
+  candidate_last_name: Ortega
+  state: de
+  race: State House of Representatives
+  district: 3
+  party: Democratic
+  question: de-q3
+  date: 2026-08-19
+  county_race:
+  primary_candidate: false
+  response: |
+    I would support evidence-based coastal resilience policies that prioritize protecting people, homes, infrastructure, and natural ecosystems from increasing tidal flooding. Delaware should expand flood-risk mapping and monitoring, invest in resilient roads, drainage, wastewater systems, and other critical infrastructure, and prioritize nature-based solutions such as wetlands and living shorelines where they are appropriate. State funding should be targeted toward communities with the greatest demonstrated risk, while helping residents access federal resilience and mitigation funds. We should also ensure that new development accounts for projected future flood risks rather than relying only on historical conditions.
+
+- candidate_first_name: Josue
+  candidate_last_name: Ortega
+  state: de
+  race: State House of Representatives
+  district: 3
+  party: Democratic
+  question: de-q9
+  date: 2026-08-19
+  county_race:
+  primary_candidate: false
+  response: |
+    I would support strengthening evidence-based prevention and early intervention programs in Delaware schools and communities, while making sure young people have access to mental health and substance use services when prevention alone is not enough. The decline in the perception that regular marijuana use is risky shows why sustained, age appropriate education is important. Delaware should use the Delaware School Survey and other public health data to identify trends, target resources to communities and populations with higher risk, and evaluate programs based on measurable outcomes. Prevention should address marijuana, nicotine, alcohol, opioids, and other substances, while giving parents, educators, and students practical information about the health, academic, and developmental consequences of substance use.
+
+- candidate_first_name: Nicole
+  candidate_last_name: Poore
+  state: de
+  race: State Senate
+  district: 12
+  party: Democratic
+  question: de-q2
+  date: 2026-07-30
+  county_race:
+  primary_candidate: false
+  response: |
+    AI-driven data centers present both opportunities and challenges for Delaware. They can bring investment and jobs, but they also raise legitimate concerns about electricity costs, grid reliability, and environmental impacts. Delawareans are already struggling with high electricity bills, and they shouldn’t be asked to subsidize data centers' energy needs.
+
+    This session, I supported legislation that requires data center developers to generate all their own power within 10 years of opening, prevents them from utilizing job-creation tax credits, creates a separate large-load tariff so they pay a distinct electric rate and full infrastructure upgrade costs, and ensures they’re the first to be disconnected in a blackout. I sponsored legislation prohibiting state and local governments from using NDAs for large-scale data center projects so information about proposals with significant community impacts cannot be hidden from the public.
+
+    As additional projects are proposed, we must diligently evaluate their impacts on our electric grid, natural resources, and local infrastructure. If a project requires new electricity transmission, generation, or other infrastructure upgrades, the developer should bear those costs and not Delaware ratepayers.
+
+    Delaware welcomes responsible economic development, but not at the expense of our constituents’ electric bills or a reliable electric grid.
+
+- candidate_first_name: Nicole
+  candidate_last_name: Poore
+  state: de
+  race: State Senate
+  district: 12
+  party: Democratic
+  question: de-q3
+  date: 2026-07-30
+  county_race:
+  primary_candidate: false
+  response: |
+    Our beaches, bays, wetlands, and coastline are some of Delaware’s greatest assets. They support our economy, provide recreational opportunities, protect ecosystems, and are home to many Delawareans. Preserving these resources means addressing the risks posed by sea level rise, particularly as the nation’s lowest-lying state.
+
+    Many of Delaware's coastal communities are already experiencing increased flooding from sea level rise and more powerful storms. As a state senator, I work closely with DNREC and other experts to address flooding. Delaware must continue investing in evidence-based strategies to reduce flooding, including upgrading stormwater and drainage systems, improving land-use planning, and expanding nature-based solutions like wetland restoration and living shorelines that absorb storm impacts while protecting natural resources. These investments must reach the communities most vulnerable to flooding and be developed in partnership with residents.
+
+    While sea level rise and flooding cause challenges for coastal communities, increased flooding is not limited to the coastline. Communities across Delaware, including those in my district in New Castle County, are experiencing more frequent and severe flooding, causing washed-out roads, flash floods, and property damage. Meeting these challenges requires a statewide commitment while recognizing that solutions must be customized to the needs of impacted communities.
+
+- candidate_first_name: Nicole
+  candidate_last_name: Poore
+  state: de
+  race: State Senate
+  district: 12
+  party: Democratic
+  question: de-q9
+  date: 2026-07-30
+  county_race:
+  primary_candidate: false
+  response: |
+    Substance use among young people can result in serious physical and mental health consequences, negatively impact academic performance, and increase the long-term risk for addiction and overdose. Any approach to addressing this topic must acknowledge that addiction is a complicated issue influenced by many factors, including mental health, trauma, and social determinants of health.
+
+    There is no single policy solution that will address this issue. Still, as a state senator, I believe our approach must be guided by the best available scientific evidence and by prevention and treatment strategies with proven effectiveness. I support increasing investment in age-appropriate, evidence-based strategies that help prevent substance use, including prevention and life-skills education in K-12 schools, expanded mental health supports for young people, and increased access to school-based health resources.
+
+    Any effective strategy will require collaboration among students, parents, schools, health care providers, and community organizations. Because substance use trends continuously evolve, our prevention and treatment strategies must be regularly informed by data and the experiences of young people and their families. Our goal should be to provide young people with the education and supports they need to make healthy, informed choices while ensuring those facing substance use challenges receive the care they need.
 
 - candidate_first_name: Matt
   candidate_last_name: Powell
@@ -78,6 +818,7 @@
   party: Democratic
   question: de-q2
   date: 2026-07-24
+  county_race:
   primary_candidate: false
   response: |
     I support responsible data-center development, but Delaware families and small businesses should not be forced to subsidize the enormous electricity demands of large technology companies.
@@ -98,6 +839,7 @@
   party: Democratic
   question: de-q3
   date: 2026-07-24
+  county_race:
   primary_candidate: false
   response: |
     Delaware’s coastline is one of our state’s greatest assets, but it also makes many communities increasingly vulnerable to tidal flooding. We should rely on sound science and practical solutions to protect our homes, businesses, roads, and public infrastructure while being responsible stewards of taxpayer dollars.
@@ -120,6 +862,7 @@
   party: Democratic
   question: de-q9
   date: 2026-07-24
+  county_race:
   primary_candidate: false
   response: |
     Protecting our children from substance abuse requires a balanced approach centered on prevention, education, treatment, and accountability. The decline in young people’s perception of the risks of regular marijuana use is concerning because research shows early substance use can affect brain development, mental health, and academic success.
@@ -132,6 +875,58 @@
 
     By combining prevention, mental health support, parental involvement, and targeted enforcement, Delaware can reduce youth substance use and help every child build a healthier, more successful future.
 
+- candidate_first_name: Patty
+  candidate_last_name: Rickman
+  state: de
+  race: Attorney General
+  district:
+  party: Democratic
+  question: de-q5
+  date: 2026-08-09
+  county_race:
+  primary_candidate: false
+  response: |
+    When making decisions about joining multistate initiatives, there will be many factors taken into consideration. As Delaware's next Attorney General, my first priority will be the people of Delaware and making sure their needs are being met. If the issue is one that is directly affecting Delawareans and their well-being, and participating in such an initiative would improve their well-being, it would be considered. I believe in objective government transparency and in public trust and I believe that listening to Delawareans about topics, such as this, matter greatly. I would not, however, participate in such an initiative if the efforts from my office would be redundant and take-away from more pressing matters involving Delaware, if the resources needed would take away from Delaware residents or if joining these efforts would knowingly negatively impact Delaware.
+
+- candidate_first_name: Patty
+  candidate_last_name: Rickman
+  state: de
+  race: Attorney General
+  district:
+  party: Democratic
+  question: de-q6
+  date: 2026-08-09
+  county_race:
+  primary_candidate: false
+  response: |
+    If a health-related claim is misleading and is negatively impacting Delawareans, especially if there is public concern or prior knowledge of harm or potential harm, I will advocate for Delawareans' rights. I believe that everyone has the right to choose how they care for themselves and I also believe that if a product has been proven to make a false claim, Delawareans should be protected and informed.
+
+- candidate_first_name: Patty
+  candidate_last_name: Rickman
+  state: de
+  race: Attorney General
+  district:
+  party: Democratic
+  question: de-q7
+  date: 2026-08-09
+  county_race:
+  primary_candidate: false
+  response: |
+    The Attorney General has an obligation to uphold the Law. I intend to work alongside DNREC to ensure that their agency is supported and has the resources required to fulfill their duties in protecting and preserving Delaware and her people. Delaware is a special place and if Delaware's ecosystems and environment are at risk, this could impact our vast wildlife and Delawareans for generations to come. I intend to be fair and communicative when handling matters of the Law, especially as it pertains to the health and well-being of all living things.
+
+- candidate_first_name: Patty
+  candidate_last_name: Rickman
+  state: de
+  race: Attorney General
+  district:
+  party: Democratic
+  question: de-q8
+  date: 2026-08-09
+  county_race:
+  primary_candidate: false
+  response: |
+    I believe that privacy is directly related to safety and safety must be prioritized. While Artificial Intelligence can be a helpful tool, when used responsibly, we have to understand the objective reality that there are negative implications to consider. Everyone has the unalienable right to safety and privacy. Just as we have adopted HIPAA and abide by its strict statutes, we must understand and abide by the Delaware Personal Data Privacy Act to best protect Delawareans. If Delawareans' safety and privacy are at risk, I intend to advocate for them.
+
 - candidate_first_name: Christopher
   candidate_last_name: Rowe
   state: de
@@ -140,6 +935,7 @@
   party: Republican
   question: de-q2
   date: 2026-07-26
+  county_race:
   primary_candidate: false
   response: |
     I am of the opinion that data centers will be needed to support our growing technology demands and, as a result, the power to run them. Since Delaware, in their abject ignorance has chosen to allow or eliminate all electricity production in the State, these data centers should be required to establish on site energy generation to sustain their power requirements. Any excess power they generate can be sold to the local utility (Delmarva Power) at market rates. New technologies such as Salt Reactors, Hydrogen, etc. Should be promoted by the State and cease all green nonsense until it becomes affordable.
@@ -152,6 +948,7 @@
   party: Republican
   question: de-q3
   date: 2026-07-26
+  county_race:
   primary_candidate: false
   response: |
     If one chooses build or live on or near the water,  one must be prepared to address such issues when they arise.While emergency services funded by government would be activated should lives be at risk,  it is not the responsibility of the State to bail out those who made these choices and lose their property. This is what insurance is for.
@@ -164,158 +961,49 @@
   party: Republican
   question: de-q9
   date: 2026-07-26
+  county_race:
   primary_candidate: false
   response: |
     Because cannabis was ridiculously caegirized as a schedule 1 drug by the Feds, no research into the effects of cannabis use was funded in the US. Israel, however, has some enlightening data of those who used cannabis and the effects fed to American by these drug czars is mostly fiction. The fata supporting a reduction in the usage is a positive. But, lets be honest, kids will experiment. We need to ensure they are educated with fact based data and not the propaganda that has been spread for decades.
 
-- candidate_first_name: Alonna
-  candidate_last_name: Berry
-  state: de
-  race: State House of Representatives
-  district: 20
-  party: Democratic
-  question: de-q2
-  date: 2026-07-27
-  primary_candidate: false
-  response: |
-    Energy is one of the most critical issues facing our community. This is not just the work of this legislative session. It is generational work that will shape Delaware's economy, environment, and quality of life for decades to come.
-
-    As a member of the House Natural Resources & Energy Committee, I believe the conversation around energy is moving too quickly without enough independent, peer reviewed research to fully inform the decisions before us. The first step should always be following the best available science and objective data. That evidence must be the foundation for every conversation about energy policy, whether we are discussing data centers, grid reliability, electricity costs, or future energy generation.
-
-    The rapid growth of AI driven data centers requires us to carefully weigh competing priorities. That balance can only be achieved by grounding our decisions in independent, peer reviewed research and thoughtful long-term planning. While data centers may strengthen our economy, they also pose real risks to our electric grid, our environment, and the long-term affordability of energy for Delaware families. These concerns are especially important in the coastal communities I represent in Sussex County, where increased energy demand and environmental impacts could have lasting consequences. No matter what policies are ultimately adopted, the impacts on our climate and environment must remain central to every decision.
-
-    I support requiring large energy users to pay their fair share of the infrastructure costs they create rather than shifting those costs onto Delaware ratepayers. I also support strengthening long term grid planning through PJM, investing in transmission infrastructure, expanding energy efficiency, and carefully evaluating the cumulative impacts of proposed data centers before projects are approved.
-
-    Delaware should welcome innovation, but not at the expense of affordability, grid reliability, or our natural resources. Evidence, transparency, and long-term planning must guide every decision we make because the choices we make today will affect generations of Delawareans to come.
-
-- candidate_first_name: Alonna
-  candidate_last_name: Berry
-  state: de
-  race: State House of Representatives
-  district: 20
-  party: Democratic
-  question: de-q3
-  date: 2026-07-27
-  primary_candidate: false
-  response: |
-    As a coastal state, Delaware is already experiencing the impacts of sea level rise, stronger storms, and more frequent tidal flooding. The science is clear that we must prepare our communities while protecting both our environment and our economy.
-
-    I was proud to co-sponsor legislation strengthening Delaware's wetlands protections because healthy wetlands are one of our most effective natural defenses against flooding. As a member of the House Natural Resources & Energy Committee, I have consistently supported policies that recognize protecting our environment is also an investment in our economy, our infrastructure, and our quality of life.
-
-    I support continued investments in living shorelines, marsh restoration, resilient infrastructure, improved stormwater management, and voluntary home elevation and flood mitigation programs. I also believe every major infrastructure and land use decision should account for future flood risk using the best available science.
-
-    Protecting Delaware's coast requires partnership among state agencies, local governments, property owners, and conservation organizations. By making evidence-based investments today, we can better protect our communities, preserve our natural resources, and ensure future generations can continue to call Delaware's coast home.
-
-- candidate_first_name: Alonna
-  candidate_last_name: Berry
-  state: de
-  race: State House of Representatives
-  district: 20
-  party: Democratic
-  question: de-q9
-  date: 2026-07-27
-  primary_candidate: false
-  response: |
-    As a member of the House Education Committee, I believe addressing youth substance use begins by creating school environments where every student feels safe, supported, and connected. Research consistently shows that positive school culture and climate are among the strongest protective factors against substance use, mental health challenges, and other risky behaviors.
-
-    That is why I have focused my legislative work on strengthening school culture and climate, expanding student supports, and ensuring schools have the tools they need to help students before they reach a crisis. I have also supported legislation strengthening labeling requirements for THC products to better protect young people and consumers.
-
-    We must continue investing in evidence-based prevention; I support expanding school based mental health services, strengthening partnerships between schools and families, increasing access to counselors and behavioral health professionals, and providing age appropriate, evidence-based substance use education.
-
-    As an educator, I know students learn best when they feel connected to their schools and have trusted adults they can turn to. As a legislator, I will continue supporting policies that improve school climate, strengthen student wellbeing, and use data, including the Delaware School Survey, to ensure we are investing in prevention strategies that produce measurable results.
-
-- candidate_first_name: Ayanna
-  candidate_last_name: Khan-Flowers
-  state: de
-  race: State House of Representatives
-  district: 9
-  party: Democratic
-  question: de-q2
-  date: 2026-07-28
-  primary_candidate: false
-  response: |
-    Delaware families and small businesses deserve reliable, affordable energy. I support an all-of-the-above approach that uses evidence, innovation, and fiscal responsibility to strengthen our energy future. That includes continued support for responsible solar energy development as part of a diversified energy portfolio that improves resilience, encourages innovation, and helps meet Delaware's growing energy needs.
-
-    Earlier this year, I attended a Delaware Black Chamber of Commerce Lunch & Learn held in partnership with the Home Builders Association of Delaware, Infinity Energy Management Group, and Chesapeake Utilities to better understand the opportunities and challenges surrounding green energy and solar development. I believe leaders should engage with experts, industry, and the community before making policy decisions.
-
-    As electricity demand grows—including from AI-driven data centers—I support ensuring major energy users contribute fairly to the infrastructure they require so costs are not unfairly shifted to Delaware families. I also support investments that modernize our electric grid, improve energy efficiency, and are guided by transparent, evidence-based analysis that protects reliability, affordability, and taxpayers.
-
-- candidate_first_name: Ayanna
-  candidate_last_name: Khan-Flowers
-  state: de
-  race: State House of Representatives
-  district: 9
-  party: Democratic
-  question: de-q3
-  date: 2026-07-28
-  primary_candidate: false
-  response: |
-    Delaware's coastal communities are already experiencing increased flooding, making resilience planning a practical necessity. I support using the best available science to guide investments in flood mitigation, stormwater infrastructure, wetland restoration, shoreline protection, and responsible land-use planning.
-
-    At the same time, every project should demonstrate measurable results and responsible stewardship of taxpayer dollars. We should prioritize investments that reduce future costs, protect homes and businesses, strengthen infrastructure, and improve public safety.
-
-    Environmental stewardship and economic growth should work together—not against one another. By collaborating with scientists, engineers, local governments, businesses, and residents, Delaware can develop practical solutions that protect our natural resources while supporting economic opportunity and maintaining affordability for working families.
-
-- candidate_first_name: Ayanna
-  candidate_last_name: Khan-Flowers
-  state: de
-  race: State House of Representatives
-  district: 9
-  party: Democratic
-  question: de-q9
-  date: 2026-07-28
-  primary_candidate: false
-  response: |
-    Protecting young people from substance abuse requires prevention, education, early intervention, and strong community partnerships. I support evidence-based prevention programs that have demonstrated measurable success in reducing youth drug use while expanding access to school-based mental health services, mentoring, and family support resources.
-
-    Education should provide students with honest, age-appropriate information about the risks associated with substance use so they can make informed decisions. Schools cannot do this work alone. Parents, healthcare providers, law enforcement, educators, and community organizations all have important roles in helping young people make healthy choices.
-
-    I also believe state-funded prevention programs should be regularly evaluated to ensure they are producing meaningful outcomes. Delaware taxpayers deserve investments that are both compassionate and accountable, with resources directed toward programs that demonstrate real success in improving the health and well-being of our youth.
-
-- candidate_first_name: Kyra
-  candidate_last_name: Hoffner
+- candidate_first_name: Raymond
+  candidate_last_name: Seigfried
   state: de
   race: State Senate
-  district: 14
+  district: 5
   party: Democratic
   question: de-q2
-  date: 2026-07-28
+  date: 2026-08-10
+  county_race:
   primary_candidate: false
   response: |
-    Delaware must take a data-driven approach to managing the rapid growth of energy-intensive data centers within the PJM region. I support requiring large-load users, including AI-driven data centers, to bear the full cost of necessary grid upgrades through fair cost allocation, rather than shifting those costs onto residential ratepayers. We should also incentivize co-location of data centers with renewable energy generation and energy storage, reducing strain on the grid and improving reliability.
-    Delaware should advocate within PJM for stronger interconnection standards and faster deployment of clean energy resources to meet rising demand.
-    Transparency is critical, ratepayers deserve clear reporting on how large energy users impact costs and reliability. Evidence-based planning and regional coordination will ensure we protect consumers while supporting economic growth.
+    To protect Delaware residents from rising electricity costs and grid reliability risks driven by AI-driven data center growth, I support policies that prevent corporate energy burdens from being socialized onto everyday ratepayers. This includes establishing strict Public Service Commission oversight and special tariffs for high-energy facilities, requiring tech operators to fund necessary grid infrastructure and transmission upgrades directly, bringing rigor and transparency to regional PJM load forecasting, and collaborating regionally to advocate for wholesale market reforms that keep power affordable and reliable.
 
-- candidate_first_name: Kyra
-  candidate_last_name: Hoffner
+- candidate_first_name: Raymond
+  candidate_last_name: Seigfried
   state: de
   race: State Senate
-  district: 14
+  district: 5
   party: Democratic
   question: de-q3
-  date: 2026-07-28
+  date: 2026-08-10
+  county_race:
   primary_candidate: false
   response: |
-    Delaware is on the frontlines of sea level rise, and we must respond with science-based, proactive policies. I support expanding investments in nature-based solutions such as wetland restoration and living shorelines, which have been shown to reduce flooding while preserving ecosystems.
+    To help Delaware's coastal communities respond to increasing tidal flooding and sea level rise, I support a proactive, science-driven resilience strategy. This includes investing in nature-based solutions like wetland restoration and living shorelines to naturally absorb storm surges, updating state infrastructure and building codes to withstand higher water baselines, and incorporating NOAA and local data projections directly into municipal land-use planning. Additionally, I support empowering local governments with technical and financial resources (such as expanding participation in FEMA's Community Rating System) to protect vulnerable properties, secure evacuation routes, and safeguard our coastal economy without placing an unfair burden on local taxpayers.
 
-    We should also strengthen coastal land-use planning by updating zoning and building codes to discourage development in high-risk areas and require flood-resilient construction standards. Strategic retreat and voluntary buyout programs must be available and adequately funded for the most vulnerable communities. I support increased funding for flood monitoring, data modeling, and early warning systems to improve local decision-making. Partnering with federal agencies like NOAA and leveraging their projections will help ensure our policies reflect the best available science.
-
-    Equity must remain central, resources should prioritize communities most at risk and least able to recover.
-
-- candidate_first_name: Kyra
-  candidate_last_name: Hoffner
+- candidate_first_name: Raymond
+  candidate_last_name: Seigfried
   state: de
   race: State Senate
-  district: 14
+  district: 5
   party: Democratic
   question: de-q9
-  date: 2026-07-28
+  date: 2026-08-10
+  county_race:
   primary_candidate: false
   response: |
-    Addressing youth substance use requires a comprehensive, evidence-based approach grounded in prevention, education, and early intervention. I support expanding school- and community-based prevention programs that use proven models, such as social-emotional learning and peer-led initiatives, which have been shown to reduce substance use.
-    We must also modernize public health messaging. As perceptions of cannabis risk decline, education should focus on brain development, mental health impacts, and impaired driving, delivered in a way that is credible and age-appropriate.
-
-    Increasing access to school-based mental health services is critical, as untreated anxiety and depression are key risk factors for substance use. I also support screening and early intervention programs, including SBIRT (Screening, Brief Intervention, and Referral to Treatment), in schools and primary care settings.
+    To address youth substance use and counter the decline in perceived risk, I support modernizing our prevention strategies with evidence-based education. We need robust, peer-reviewed prevention programs in our schools that provide accurate information regarding the physiological impacts of high-potency products, synthetic drugs, and cannabis on developing brains. Furthermore, I support directing state resources to expand youth mental health services, early intervention counseling, and after-school community programs that address the root causes of substance use, ensuring our schools and public health agencies work hand-in-hand to keep students safe.
 
 - candidate_first_name: Jacki
   candidate_last_name: Slonin
@@ -325,6 +1013,7 @@
   party: Republican
   question: de-q2
   date: 2026-07-29
+  county_race:
   primary_candidate: false
   response: |
     Delaware should welcome innovation and economic growth, but we must ensure that large-scale data center development does not shift unnecessary costs or reliability risks onto Delaware families and small businesses. I support evidence-based planning that requires transparency from large energy users, including evaluating their impact on grid capacity, infrastructure needs, and ratepayers. Data centers should be responsible partners in meeting the energy demands they create, including exploring options such as direct investment in grid improvements, energy efficiency measures, and responsible energy solutions.
@@ -338,6 +1027,7 @@
   party: Republican
   question: de-q3
   date: 2026-07-29
+  county_race:
   primary_candidate: false
   response: |
     Delaware’s coastal communities are a vital part of our state’s economy, heritage, and way of life. I support using reliable data and scientific research to better understand coastal flooding risks and make responsible decisions. We should prioritize practical solutions such as improving stormwater management, maintaining and strengthening critical infrastructure, preserving natural protections like wetlands where appropriate, and ensuring communities have access to accurate information and emergency preparedness resources.
@@ -351,122 +1041,69 @@
   party: Republican
   question: de-q9
   date: 2026-07-29
+  county_race:
   primary_candidate: false
   response: |
     Protecting Delaware’s youth from substance abuse requires a balanced approach focused on prevention, education, accountability, and access to resources. I support evidence-based prevention programs that provide students with accurate information about the risks of drug and alcohol use, while also strengthening partnerships between schools, families, law enforcement, healthcare providers, and community organizations.
     We should evaluate programs based on measurable outcomes and invest in approaches that are proven to reduce substance use, not simply increase spending without results. Early intervention, mental health resources, mentoring programs, and support for families are important tools in preventing addiction before it begins.
     Marijuana and other substance use among youth should not be normalized. Delaware should continue using data to guide policy decisions and ensure we are helping young people make informed choices that protect their health and future.
 
-- candidate_first_name: Nicole
-  candidate_last_name: Poore
+- candidate_first_name: Dan
+  candidate_last_name: Zitofsky
   state: de
-  race: State Senate
-  district: 12
-  party: Democratic
+  race: State House of Representatives
+  district: 4
+  party: Republican
   question: de-q2
-  date: 2026-07-30
+  date: 2026-08-09
+  county_race:
   primary_candidate: false
   response: |
-    AI-driven data centers present both opportunities and challenges for Delaware. They can bring investment and jobs, but they also raise legitimate concerns about electricity costs, grid reliability, and environmental impacts. Delawareans are already struggling with high electricity bills, and they shouldn’t be asked to subsidize data centers' energy needs.
+    Delaware should welcome innovation and jobs, but not on the backs of families, seniors, and small businesses. Data centers and AI companies that require enormous amounts of electricity must pay their fair share for the new generation, transmission, substations, and grid upgrades they make necessary not shift those costs onto ratepayers.
 
-    This session, I supported legislation that requires data center developers to generate all their own power within 10 years of opening, prevents them from utilizing job-creation tax credits, creates a separate large-load tariff so they pay a distinct electric rate and full infrastructure upgrade costs, and ensures they’re the first to be disconnected in a blackout. I sponsored legislation prohibiting state and local governments from using NDAs for large-scale data center projects so information about proposals with significant community impacts cannot be hidden from the public.
+    I support transparent, independent cost and reliability reviews before large projects are approved; binding commitments on electricity use and construction timelines; and requirements that major new loads help provide reliable power or reduce demand during grid emergencies. We should also press PJM for honest forecasting, faster accountability, and no grid capacity reservations for speculative projects.
+    Delaware needs practical, all of the above energy policy: protect dependable generation, build needed infrastructure, encourage efficiency and storage, and judge every proposal by reliability and cost not politics.
 
-    As additional projects are proposed, we must diligently evaluate their impacts on our electric grid, natural resources, and local infrastructure. If a project requires new electricity transmission, generation, or other infrastructure upgrades, the developer should bear those costs and not Delaware ratepayers.
+    Innovation is welcome. Corporate welfare on your electric bill is not.
 
-    Delaware welcomes responsible economic development, but not at the expense of our constituents’ electric bills or a reliable electric grid.
-
-- candidate_first_name: Nicole
-  candidate_last_name: Poore
+- candidate_first_name: Dan
+  candidate_last_name: Zitofsky
   state: de
-  race: State Senate
-  district: 12
-  party: Democratic
+  race: State House of Representatives
+  district: 4
+  party: Republican
   question: de-q3
-  date: 2026-07-30
+  date: 2026-08-09
+  county_race:
   primary_candidate: false
   response: |
-    Our beaches, bays, wetlands, and coastline are some of Delaware’s greatest assets. They support our economy, provide recreational opportunities, protect ecosystems, and are home to many Delawareans. Preserving these resources means addressing the risks posed by sea level rise, particularly as the nation’s lowest-lying state.
+    Coastal flooding is not a theory for Delaware families. It is already affecting roads, homes, businesses, drinking water, and access for coastal communities. We should meet that challenge with practical solutions that protect both people and property rights.
 
-    Many of Delaware's coastal communities are already experiencing increased flooding from sea level rise and more powerful storms. As a state senator, I work closely with DNREC and other experts to address flooding. Delaware must continue investing in evidence-based strategies to reduce flooding, including upgrading stormwater and drainage systems, improving land-use planning, and expanding nature-based solutions like wetland restoration and living shorelines that absorb storm impacts while protecting natural resources. These investments must reach the communities most vulnerable to flooding and be developed in partnership with residents.
+    I support using the best available flood data to guide infrastructure investments, strengthen drainage, elevate vulnerable roads and utilities, and improve emergency alerts. We should prioritize proven protections such as beach restoration, dunes, wetlands, living shorelines, and better stormwater systems where they make sense.
 
-    While sea level rise and flooding cause challenges for coastal communities, increased flooding is not limited to the coastline. Communities across Delaware, including those in my district in New Castle County, are experiencing more frequent and severe flooding, causing washed-out roads, flash floods, and property damage. Meeting these challenges requires a statewide commitment while recognizing that solutions must be customized to the needs of impacted communities.
+    Homeowners and local governments need access to grants, flood mitigation funding, and clear, honest information about risks before they buy, build, or rebuild. State government should be a partner, not impose one size fits all mandates from Dover.
+    When a community faces repeated severe flooding, residents must have a real voice in deciding whether to protect, elevate, rebuild, or pursue voluntary buyouts.
 
-- candidate_first_name: Nicole
-  candidate_last_name: Poore
+    Our goal should be simple: protect Delaware communities, protect taxpayer dollars, and protect the right of families to make informed decisions about their homes.
+
+- candidate_first_name: Dan
+  candidate_last_name: Zitofsky
   state: de
-  race: State Senate
-  district: 12
-  party: Democratic
+  race: State House of Representatives
+  district: 4
+  party: Republican
   question: de-q9
-  date: 2026-07-30
+  date: 2026-08-09
+  county_race:
   primary_candidate: false
   response: |
-    Substance use among young people can result in serious physical and mental health consequences, negatively impact academic performance, and increase the long-term risk for addiction and overdose. Any approach to addressing this topic must acknowledge that addiction is a complicated issue influenced by many factors, including mental health, trauma, and social determinants of health.
+    Delaware must be honest with young people about the risks of drug use and give parents, teachers, and communities the tools to act early. When fewer students see regular marijuana use as harmful, we cannot respond with silence or slogans.
 
-    There is no single policy solution that will address this issue. Still, as a state senator, I believe our approach must be guided by the best available scientific evidence and by prevention and treatment strategies with proven effectiveness. I support increasing investment in age-appropriate, evidence-based strategies that help prevent substance use, including prevention and life-skills education in K-12 schools, expanded mental health supports for young people, and increased access to school-based health resources.
+    I support funding prevention programs that have evidence of results, including school based education that teaches students how to handle peer pressure, family programs that help parents have informed conversations, and mentorship and after school opportunities that give young people support and purpose.
 
-    Any effective strategy will require collaboration among students, parents, schools, health care providers, and community organizations. Because substance use trends continuously evolve, our prevention and treatment strategies must be regularly informed by data and the experiences of young people and their families. Our goal should be to provide young people with the education and supports they need to make healthy, informed choices while ensuring those facing substance use challenges receive the care they need.
-- candidate_first_name: Dwayne J.
-  candidate_last_name: Bensing
-  state: de
-  race: Attorney General
-  party: Democratic
-  question: de-q5
-  date: 2026-07-24
-  primary_candidate: false
-  response: |
-    As Attorney General, I will make Delaware an active, leading force in multistate legal action rather than a passive participant. While Delaware joined multi-state opioid litigation under AG Kathy Jennings, our state too often signs onto national lawsuits after other states have done the heavy lifting—or sits on the sidelines entirely during crucial corporate challenges, such as major anti-competitive media mergers.
+    Schools should have access to trained counselors and straightforward referral systems so students showing early signs of substance use can get help before a mistake becomes an addiction. Parents must be informed and involved, while student privacy and due process are respected.
 
-    My decision framework will proactively evaluate three criteria:
-    1) Direct Impact on Delawareans: Actionable harm to our residents, particularly frontline and historically underrepresented communities facing environmental or healthcare barriers.
-    2) Scientific & Empirical Consensus: Prioritizing actions grounded in rigorous research, including defending reproductive health equity, protecting climate regulations, and curbing toxic industrial emissions.
-    3)Federal Inaction: Stepping in aggressively when federal regulators lapse or fail to hold national corporate monopolies accountable.
+    I also support clear enforcement against selling or marketing marijuana, vaping products, alcohol, or illegal drugs to minors.
+    Every program receiving taxpayer funding should measure outcomes and prove it is reducing youth drug use.
 
-    Rather than viewing Delaware as the state of incorporation that avoids rocking the boat, my administration will leverage our unique corporate and legal standing to co-lead multistate coalitions early. We will initiate enforcement actions that set nationwide precedents for public health, clean water, and consumer safety.
-
-- candidate_first_name: Dwayne J.
-  candidate_last_name: Bensing
-  state: de
-  race: Attorney General
-  party: Democratic
-  question: de-q6
-  date: 2026-07-24
-  primary_candidate: false
-  response: |
-    Fraudulent health claims are a serious public safety threat. While Delaware’s Consumer Protection Unit under AG Jennings handles standard consumer fraud, enforcement around misleading health claims has remained largely complaint-driven—reacting only after Delawareans have already suffered financial loss or health harms.
-
-    My administration will transform consumer protection from a reactive agency into a proactive watchdog. We will establish a dedicated science and health advocacy pipeline within the Consumer Protection Unit, partnering directly with medical research institutions, public health experts, and federal regulators (FDA/FTC) to actively monitor deceptive marketing trends before widespread harm occurs.
-
-    We will aggressively target predatory companies exploiting seniors, chronic illness patients, and low-income families seeking accessible care with unproven medical claims. Furthermore, we will move beyond standard financial settlements—which large corporations treat as a cost of doing business—by prioritizing immediate injunctive relief to halt deceptive sales instantly, securing full restitution for defrauded consumers, and seeking structural remedies that prevent repeat offenses in Delaware.
-
-- candidate_first_name: Dwayne J.
-  candidate_last_name: Bensing
-  state: de
-  race: Attorney General
-  party: Democratic
-  question: de-q7
-  date: 2026-07-24
-  primary_candidate: false
-  response: |
-    Environmental justice and corporate accountability will drive our environmental enforcement strategy. While AG Jennings secured settlements against legacy chemical polluters like DuPont and Chemours over PFAS contamination, financial settlements negotiated after damage is done are not enough—especially when overburdened communities in New Castle County and across our state still live next to toxic industrial sites.
-
-    My office will maintain independent prosecutorial authority while coordinating closely with DNREC to shift from reactive settlements to proactive prevention and environmental justice:
-    1) Environmental Justice Mandate: Directing dedicated legal staff and investigative resources toward fence-line communities that have historically borne a disproportionate burden of industrial air and water pollution.
-    2) Real Community Remediation: Ensuring PFAS and toxic cleanup settlements directly fund local clean water infrastructure and health monitoring in impacted neighborhoods, rather than disappearing into general state coffers.
-    3) Strict Deterrence & Injunctive Relief: Seeking aggressive court orders and strict liability penalties against repeat industrial polluters to halt environmental harm in real time. Delawareans deserve an Attorney General who treats clean air and water as non-negotiable civil rights.
-
-- candidate_first_name: Dwayne J.
-  candidate_last_name: Bensing
-  state: de
-  race: Attorney General
-  party: Democratic
-  question: de-q8
-  date: 2026-07-24
-  primary_candidate: false
-  response: |
-    Because Delaware is the preferred home of incorporation for dominant tech enterprises—including OpenAI—our Attorney General holds unmatched influence over corporate AI governance. When AG Kathy Jennings issued a Statement of No Objection allowing OpenAI to convert its primary business from a non-profit entity into a for-profit Public Benefit Corporation, it demonstrated how Delaware’s regulatory oversight shapes the global technology landscape.
-
-    However, corporate restructuring must be paired with aggressive civil rights enforcement on behalf of everyday Delawareans. Drawing on my track record fighting technological overreach as Legal Director of the ACLU of Delaware, I will treat AI accountability and data privacy under the Delaware Personal Data Privacy Act as vital civil liberties protections. My enforcement pillars will be:
-    1)  Fighting Algorithmic Discrimination: Investigating automated systems and data brokers whose opaque algorithms produce discriminatory barriers in hiring, housing, healthcare access, and credit scoring.
-    2) Proactive Compliance Audits: Moving beyond voluntary guidance to actively audit entities harvesting sensitive health, location, biometric, or youth data without explicit, informed consent.
-    3) Protecting Digital Civil Liberties: Enforcing strict data minimization standards and safeguarding residents' fundamental rights against unchecked data exploitation. (187 words)
+    Our message should be clear: Delaware believes in second chances, but we will do everything possible to prevent a child from needing one.
