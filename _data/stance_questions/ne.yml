@@ -152,3 +152,51 @@
     - Jobs and Workforce
   races:
     - Governor
+
+- id: ne-q12
+  question: >-
+    In what ways, if any, would you incorporate scientific evidence when developing or evaluating public policy? How would you weigh scientific evidence alongside economic, ethical, and policy preferences when making decisions?
+  tag: Policymaking Process
+  races:
+    - State Legislature
+
+- id: ne-q13
+  question: >-
+    What is your vision for science and research in the state over the next decade? What programs within state departments will you prioritize funding that relate to the state’s science strengths?
+  tag: 
+    - Investment in Higher Education
+    - Jobs and Workforce
+    - Policymaking Process
+    - Science Funding
+    - Trust in Science
+  races:
+    - State Legislature
+
+- id: ne-q14
+  question: >-
+    What opportunities, if any, do you see for partnerships between state government, universities, industry, and nonprofit organizations to strengthen scientific research?
+  tag:
+    - Investment in Higher Education
+    - Jobs and Workforce
+    - K-12 Science Education
+    - Science Funding
+
+- id: ne-q15
+  question: >-
+    Legislative appropriations for Nebraska's public universities have not kept pace with inflation, and state universities are now being asked to further reduce their budgets (Peal, 2026). What role should the Legislature play in providing funding for higher education? What policies, if any, would you support to balance the state budget while also supporting Nebraska's research capacity and student opportunities?
+  tag:
+    - Investment in Higher Education
+
+- id: ne-q16
+  question: >-
+    What role do you believe science, research, innovation, and STEM workforce development should play in Nebraska's economy, state revenues, and accountable investments in the infrastructure and services that improve quality of life?
+  tag:
+    - Jobs and Workforce
+
+- id: ne-q17
+  question: >-
+    Can you describe your approach to evaluating whether a policy is achieving its intended outcomes, and what evidence would prompt you to revise it?
+  tag:
+    - Policymaking Process
+    - Trust in Science
+    
