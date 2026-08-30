@@ -19,6 +19,7 @@ tags:
   - Transportation
   - Trust in Science
 
+# alphabetical order for the Race picklists
 races:
   - Attorney General
   - Governor
@@ -30,6 +31,7 @@ races:
   - State Auditor
   - State Board of Education
   - State House of Representatives
+  - State Legislature  # necesary for NE, the only state with a unicameral legislature
   - State Senate
   - State Supreme Court
   - State Treasurer
@@ -37,9 +39,8 @@ races:
   - US House of Representatives
   - US Senate
 
-# Ballot order for grouping candidates in the "Group by candidate" view. Must
-# contain exactly the entries in `races` above — the build fails if the two
-# lists disagree.
+# ballot order for grouping candidates in the "Group by candidate" view
+# must contain exactly the entries in `races` above — the build fails if the two lists disagree
 race_ballot_order:
   - US Senate
   - US House of Representatives
@@ -52,6 +53,7 @@ race_ballot_order:
   - State Senate
   - State Supreme Court
   - State Assembly
+  - State Legislature
   - State House of Representatives
   - State Board of Education
   - University Board of Regents
