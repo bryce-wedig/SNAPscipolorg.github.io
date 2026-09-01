@@ -46,7 +46,7 @@ Overall, the issue of high prescription drug prices stems from a system designed
 
 *[Mikayla Smith-Craven](https://medium.com/@mikaylavb9) holds a doctorate in Pharmaceutical Chemistry from the University of Kansas where she focused on drug development and delivery of life-saving medications amphotericin B and zidovudine.*
 
-*Special thanks to fellow SNAP members who provided feedback on this blog: [Emily Selland](https://medium.com/@eselland), an ecologist and public health scientist whose research focuses on sustainable and economically viable innovations for infectious disease control; [Edith-Marie Green](https://medium.com/@edith.m.green), a population health scientist whose research focuses on aging and end-of-life healthcare, as well as global health and the rural-urban continuum; and [Shaurita D. Hutchins](https://medium.com/@shauritadhutchins), a PhD candidate in Genetics, Genomics, and Bioinformatics focused on advancing rare disease diagnostics and ethical genomics data stewardship.*
+*Special thanks to fellow SNAP members who provided feedback on this blog: [Emily Selland](https://medium.com/@eselland), an ecologist and public health scientist whose research focuses on sustainable and economically viable innovations for infectious disease control; [Edith-Marie Green](https://medium.com/@edithmariegreen), a population health scientist whose research focuses on aging and end-of-life healthcare, as well as global health and the rural-urban continuum; and [Shaurita D. Hutchins](https://medium.com/@shauritadhutchins), a PhD candidate in Genetics, Genomics, and Bioinformatics focused on advancing rare disease diagnostics and ethical genomics data stewardship.*
 
 #### Footnotes:
 
