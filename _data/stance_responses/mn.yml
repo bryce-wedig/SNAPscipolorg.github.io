@@ -3,6 +3,7 @@
   state: mn
   race: Governor
   district: 
+  primary_candidate: true
   party: Democratic
   date: 2026-07-06
   question: mn-q1
@@ -15,7 +16,8 @@
   candidate_last_name: Vang
   state: mn
   race: Governor
-  district: 
+  district:
+  primary_candidate: true
   party: Democratic
   date: 2026-07-06
   question: mn-q2
@@ -29,6 +31,7 @@
   state: mn
   race: Governor
   district: 
+  primary_candidate: true
   party: Democratic
   date: 2026-07-06
   question: mn-q3
@@ -42,6 +45,7 @@
   state: mn
   race: Governor
   district: 
+  primary_candidate: true
   party: Democratic
   date: 2026-07-06
   question: mn-q4
@@ -55,6 +59,7 @@
   state: mn
   race: Governor
   district: 
+  primary_candidate: true
   party: Democratic
   date: 2026-07-06
   question: mn-q5
@@ -68,6 +73,7 @@
   state: mn
   race: Governor
   district: 
+  primary_candidate: true
   party: Democratic
   date: 2026-07-06
   question: mn-q6
@@ -81,6 +87,7 @@
   state: mn
   race: US House of Representatives
   district: 5
+  primary_candidate: true
   party: Republican
   date: 2026-07-06
   question: mn-q1
@@ -94,6 +101,7 @@
   state: mn
   race: US House of Representatives
   district: 5
+  primary_candidate: true
   party: Republican
   date: 2026-07-06
   question: mn-q2
@@ -107,6 +115,7 @@
   state: mn
   race: US House of Representatives
   district: 5
+  primary_candidate: true
   party: Republican
   date: 2026-07-06
   question: mn-q3
@@ -120,6 +129,7 @@
   state: mn
   race: US House of Representatives
   district: 5
+  primary_candidate: true
   party: Republican
   date: 2026-07-06
   question: mn-q4
@@ -133,6 +143,7 @@
   state: mn
   race: US House of Representatives
   district: 5
+  primary_candidate: true
   party: Republican
   date: 2026-07-06
   question: mn-q5
@@ -146,6 +157,7 @@
   state: mn
   race: US House of Representatives
   district: 5
+  primary_candidate: true
   party: Republican
   date: 2026-07-06
   question: mn-q6
@@ -159,6 +171,7 @@
   state: mn
   race: US House of Representatives
   district: 1
+  primary_candidate: true
   party: Republican
   date: 2026-07-06
   question: mn-q1
@@ -172,6 +185,7 @@
   state: mn
   race: US House of Representatives
   district: 1
+  primary_candidate: true
   party: Republican
   date: 2026-07-06
   question: mn-q2
@@ -185,6 +199,7 @@
   state: mn
   race: US House of Representatives
   district: 1
+  primary_candidate: true
   party: Republican
   date: 2026-07-06
   question: mn-q3
@@ -198,6 +213,7 @@
   state: mn
   race: US House of Representatives
   district: 1
+  primary_candidate: true
   party: Republican
   date: 2026-07-06
   question: mn-q4
@@ -211,6 +227,7 @@
   state: mn
   race: US House of Representatives
   district: 1
+  primary_candidate: true
   party: Republican
   date: 2026-07-06
   question: mn-q5
@@ -224,6 +241,7 @@
   state: mn
   race: US House of Representatives
   district: 1
+  primary_candidate: true
   party: Republican
   date: 2026-07-06
   question: mn-q6
@@ -475,6 +493,7 @@
   state: mn
   race: State Senate
   district: 37
+  primary_candidate: true
   party: Democratic
   date: 2026-07-07
   question: mn-q1
@@ -492,6 +511,7 @@
   state: mn
   race: State Senate
   district: 37
+  primary_candidate: true
   party: Democratic
   date: 2026-07-07
   question: mn-q2
@@ -509,6 +529,7 @@
   state: mn
   race: State Senate
   district: 37
+  primary_candidate: true
   party: Democratic
   date: 2026-07-07
   question: mn-q3
@@ -530,6 +551,7 @@
   state: mn
   race: State Senate
   district: 37
+  primary_candidate: true
   party: Democratic
   date: 2026-07-07
   question: mn-q4
@@ -545,6 +567,7 @@
   state: mn
   race: State Senate
   district: 37
+  primary_candidate: true
   party: Democratic
   date: 2026-07-07
   question: mn-q5
@@ -562,6 +585,7 @@
   state: mn
   race: State Senate
   district: 37
+  primary_candidate: true
   party: Democratic
   date: 2026-07-07
   question: mn-q6
@@ -575,6 +599,7 @@
   state: mn
   race: US Senate
   district: 
+  primary_candidate: true
   party: Democratic
   date: 2026-07-08
   question: mn-q1
@@ -588,6 +613,7 @@
   state: mn
   race: US Senate
   district: 
+  primary_candidate: true
   party: Democratic
   date: 2026-07-08
   question: mn-q2
@@ -601,6 +627,7 @@
   state: mn
   race: US Senate
   district: 
+  primary_candidate: true
   party: Democratic
   date: 2026-07-08
   question: mn-q3
@@ -614,6 +641,7 @@
   state: mn
   race: US Senate
   district: 
+  primary_candidate: true
   party: Democratic
   date: 2026-07-08
   question: mn-q4
@@ -627,6 +655,7 @@
   state: mn
   race: US Senate
   district: 
+  primary_candidate: true
   party: Democratic
   date: 2026-07-08
   question: mn-q5
@@ -640,6 +669,7 @@
   state: mn
   race: US Senate
   district: 
+  primary_candidate: true
   party: Democratic
   date: 2026-07-08
   question: mn-q6
@@ -653,6 +683,7 @@
   state: mn
   race: US House of Representatives
   district: 8
+  primary_candidate: true
   party: Republican
   date: 2026-07-08
   question: mn-q1
@@ -666,6 +697,7 @@
   state: mn
   race: US House of Representatives
   district: 8
+  primary_candidate: true
   party: Republican
   date: 2026-07-08
   question: mn-q2
@@ -679,6 +711,7 @@
   state: mn
   race: US House of Representatives
   district: 8
+  primary_candidate: true
   party: Republican
   date: 2026-07-08
   question: mn-q3
@@ -692,6 +725,7 @@
   state: mn
   race: US House of Representatives
   district: 8
+  primary_candidate: true
   party: Republican
   date: 2026-07-08
   question: mn-q4
@@ -705,6 +739,7 @@
   state: mn
   race: US House of Representatives
   district: 8
+  primary_candidate: true
   party: Republican
   date: 2026-07-08
   question: mn-q5
@@ -718,6 +753,7 @@
   state: mn
   race: US House of Representatives
   district: 8
+  primary_candidate: true
   party: Republican
   date: 2026-07-08
   question: mn-q6
@@ -731,6 +767,7 @@
   state: mn
   race: Governor
   district: 
+  primary_candidate: true
   party: Democratic
   date: 2026-07-09
   question: mn-q1
@@ -744,6 +781,7 @@
   state: mn
   race: Governor
   district: 
+  primary_candidate: true
   party: Democratic
   date: 2026-07-09
   question: mn-q2
@@ -757,6 +795,7 @@
   state: mn
   race: Governor
   district: 
+  primary_candidate: true
   party: Democratic
   date: 2026-07-09
   question: mn-q3
@@ -770,6 +809,7 @@
   state: mn
   race: Governor
   district: 
+  primary_candidate: true
   party: Democratic
   date: 2026-07-09
   question: mn-q4
@@ -783,6 +823,7 @@
   state: mn
   race: Governor
   district: 
+  primary_candidate: true
   party: Democratic
   date: 2026-07-09
   question: mn-q5
@@ -796,6 +837,7 @@
   state: mn
   race: Governor
   district: 
+  primary_candidate: true
   party: Democratic
   date: 2026-07-09
   question: mn-q6
@@ -887,6 +929,7 @@
   state: mn
   race: US House of Representatives
   district: 5
+  primary_candidate: true
   party: Democratic
   date: 2026-07-13
   question: mn-q1
@@ -900,6 +943,7 @@
   state: mn
   race: US House of Representatives
   district: 5
+  primary_candidate: true
   party: Democratic
   date: 2026-07-13
   question: mn-q2
@@ -913,6 +957,7 @@
   state: mn
   race: US House of Representatives
   district: 5
+  primary_candidate: true
   party: Democratic
   date: 2026-07-13
   question: mn-q3
@@ -926,6 +971,7 @@
   state: mn
   race: US House of Representatives
   district: 5
+  primary_candidate: true
   party: Democratic
   date: 2026-07-13
   question: mn-q4
@@ -939,6 +985,7 @@
   state: mn
   race: US House of Representatives
   district: 5
+  primary_candidate: true
   party: Democratic
   date: 2026-07-13
   question: mn-q5
@@ -952,6 +999,7 @@
   state: mn
   race: US House of Representatives
   district: 5
+  primary_candidate: true
   party: Democratic
   date: 2026-07-13
   question: mn-q6
@@ -965,6 +1013,7 @@
   state: mn
   race: State Senate
   district: 62
+  primary_candidate: true
   party: Democratic
   date: 2026-07-13
   question: mn-q1
@@ -978,6 +1027,7 @@
   state: mn
   race: State Senate
   district: 62
+  primary_candidate: true
   party: Democratic
   date: 2026-07-13
   question: mn-q2
@@ -991,6 +1041,7 @@
   state: mn
   race: State Senate
   district: 62
+  primary_candidate: true
   party: Democratic
   date: 2026-07-13
   question: mn-q3
@@ -1004,6 +1055,7 @@
   state: mn
   race: State Senate
   district: 62
+  primary_candidate: true
   party: Democratic
   date: 2026-07-13
   question: mn-q4
@@ -1017,6 +1069,7 @@
   state: mn
   race: State Senate
   district: 62
+  primary_candidate: true
   party: Democratic
   date: 2026-07-13
   question: mn-q5
@@ -1030,6 +1083,7 @@
   state: mn
   race: State Senate
   district: 62
+  primary_candidate: true
   party: Democratic
   date: 2026-07-13
   question: mn-q6
@@ -1045,6 +1099,7 @@
   state: mn
   race: US Senate
   district: 
+  primary_candidate: true
   party: Republican
   date: 2026-07-17
   question: mn-q1
@@ -1058,6 +1113,7 @@
   state: mn
   race: US Senate
   district: 
+  primary_candidate: true
   party: Republican
   date: 2026-07-17
   question: mn-q2
@@ -1071,6 +1127,7 @@
   state: mn
   race: US Senate
   district: 
+  primary_candidate: true
   party: Republican
   date: 2026-07-17
   question: mn-q3
@@ -1084,6 +1141,7 @@
   state: mn
   race: US Senate
   district: 
+  primary_candidate: true
   party: Republican
   date: 2026-07-17
   question: mn-q4
@@ -1097,6 +1155,7 @@
   state: mn
   race: US Senate
   district: 
+  primary_candidate: true
   party: Republican
   date: 2026-07-17
   question: mn-q5
@@ -1110,6 +1169,7 @@
   state: mn
   race: US Senate
   district: 
+  primary_candidate: true
   party: Republican
   date: 2026-07-17
   question: mn-q6
@@ -1123,6 +1183,7 @@
   state: mn
   race: Governor
   district: 
+  primary_candidate: true
   party: Republican
   date: 2026-07-20
   question: mn-q1
@@ -1136,6 +1197,7 @@
   state: mn
   race: Governor
   district: 
+  primary_candidate: true
   party: Republican
   date: 2026-07-20
   question: mn-q2
@@ -1149,6 +1211,7 @@
   state: mn
   race: Governor
   district: 
+  primary_candidate: true
   party: Republican
   date: 2026-07-20
   question: mn-q3
@@ -1162,6 +1225,7 @@
   state: mn
   race: Governor
   district: 
+  primary_candidate: true
   party: Republican
   date: 2026-07-20
   question: mn-q4
@@ -1175,6 +1239,7 @@
   state: mn
   race: Governor
   district: 
+  primary_candidate: true
   party: Republican
   date: 2026-07-20
   question: mn-q5
@@ -1188,6 +1253,7 @@
   state: mn
   race: Governor
   district: 
+  primary_candidate: true
   party: Republican
   date: 2026-07-20
   question: mn-q6
@@ -1201,6 +1267,7 @@
   state: mn
   race: State House of Representatives
   district: 14A
+  primary_candidate: true
   party: Democratic
   date: 2026-07-21
   question: mn-q1
@@ -1214,6 +1281,7 @@
   state: mn
   race: State House of Representatives
   district: 14A
+  primary_candidate: true
   party: Democratic
   date: 2026-07-21
   question: mn-q2
@@ -1227,6 +1295,7 @@
   state: mn
   race: State House of Representatives
   district: 14A
+  primary_candidate: true
   party: Democratic
   date: 2026-07-21
   question: mn-q3
@@ -1240,6 +1309,7 @@
   state: mn
   race: State House of Representatives
   district: 14A
+  primary_candidate: true
   party: Democratic
   date: 2026-07-21
   question: mn-q4
@@ -1253,6 +1323,7 @@
   state: mn
   race: State House of Representatives
   district: 14A
+  primary_candidate: true
   party: Democratic
   date: 2026-07-21
   question: mn-q5
@@ -1266,6 +1337,7 @@
   state: mn
   race: State House of Representatives
   district: 14A
+  primary_candidate: true
   party: Democratic
   date: 2026-07-21
   question: mn-q6
@@ -1357,6 +1429,7 @@
   state: mn
   race: US House of Representatives
   district: 1
+  primary_candidate: true
   party: Republican
   date: 2026-07-21
   question: mn-q1
@@ -1370,6 +1443,7 @@
   state: mn
   race: US House of Representatives
   district: 1
+  primary_candidate: true
   party: Republican
   date: 2026-07-21
   question: mn-q2
@@ -1383,6 +1457,7 @@
   state: mn
   race: US House of Representatives
   district: 1
+  primary_candidate: true
   party: Republican
   date: 2026-07-21
   question: mn-q3
@@ -1396,6 +1471,7 @@
   state: mn
   race: US House of Representatives
   district: 1
+  primary_candidate: true
   party: Republican
   date: 2026-07-21
   question: mn-q4
@@ -1414,6 +1490,7 @@
   state: mn
   race: US House of Representatives
   district: 1
+  primary_candidate: true
   party: Republican
   date: 2026-07-21
   question: mn-q5
@@ -1427,6 +1504,7 @@
   state: mn
   race: US House of Representatives
   district: 1
+  primary_candidate: true
   party: Republican
   date: 2026-07-21
   question: mn-q6
@@ -1532,6 +1610,7 @@
   state: mn
   race: State Senate
   district: 50
+  primary_candidate: true
   party: Democratic
   date: 2026-07-22
   question: mn-q1
@@ -1545,6 +1624,7 @@
   state: mn
   race: State Senate
   district: 50
+  primary_candidate: true
   party: Democratic
   date: 2026-07-22
   question: mn-q2
@@ -1558,6 +1638,7 @@
   state: mn
   race: State Senate
   district: 50
+  primary_candidate: true
   party: Democratic
   date: 2026-07-22
   question: mn-q3
@@ -1571,6 +1652,7 @@
   state: mn
   race: State Senate
   district: 50
+  primary_candidate: true
   party: Democratic
   date: 2026-07-22
   question: mn-q4
@@ -1584,6 +1666,7 @@
   state: mn
   race: State Senate
   district: 50
+  primary_candidate: true
   party: Democratic
   date: 2026-07-22
   question: mn-q5
@@ -1597,6 +1680,7 @@
   state: mn
   race: State Senate
   district: 50
+  primary_candidate: true
   party: Democratic
   date: 2026-07-22
   question: mn-q6
@@ -1610,6 +1694,7 @@
   state: mn
   race: US Senate
   district: 
+  primary_candidate: true
   party: Republican
   date: 2026-07-22
   question: mn-q1
@@ -1623,6 +1708,7 @@
   state: mn
   race: US Senate
   district: 
+  primary_candidate: true
   party: Republican
   date: 2026-07-22
   question: mn-q2
@@ -1636,6 +1722,7 @@
   state: mn
   race: US Senate
   district: 
+  primary_candidate: true
   party: Republican
   date: 2026-07-22
   question: mn-q3
@@ -1649,6 +1736,7 @@
   state: mn
   race: US Senate
   district: 
+  primary_candidate: true
   party: Republican
   date: 2026-07-22
   question: mn-q4
@@ -1662,6 +1750,7 @@
   state: mn
   race: US Senate
   district: 
+  primary_candidate: true
   party: Republican
   date: 2026-07-22
   question: mn-q5
@@ -1675,6 +1764,7 @@
   state: mn
   race: US Senate
   district: 
+  primary_candidate: true
   party: Republican
   date: 2026-07-22
   question: mn-q6
@@ -1682,72 +1772,6 @@
     “Border security, mail security, US random highway checks for drug trafficking 90 and 35. Stricter border checks between the U>S> and Canada. Both governments working together to target drug trafficking.” 
     
     KEYWORDS: Working with other states and countries.
-
-- candidate_first_name: Amy
-  candidate_last_name: Klobuchar
-  state: mn
-  race: Governor
-  district: 
-  party: Democratic
-  date: 2026-07-20
-  question: mn-q1
-  response: |
-    _Sen. Klobuchar provided this [letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team._
-
-- candidate_first_name: Amy
-  candidate_last_name: Klobuchar
-  state: mn
-  race: Governor
-  district: 
-  party: Democratic
-  date: 2026-07-20
-  question: mn-q2
-  response: |
-    _Sen. Klobuchar provided this [letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team._
-
-- candidate_first_name: Amy
-  candidate_last_name: Klobuchar
-  state: mn
-  race: Governor
-  district: 
-  party: Democratic
-  date: 2026-07-20
-  question: mn-q3
-  response: |
-    _Sen. Klobuchar provided this [letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team._
-
-- candidate_first_name: Amy
-  candidate_last_name: Klobuchar
-  state: mn
-  race: Governor
-  district: 
-  party: Democratic
-  date: 2026-07-20
-  question: mn-q4
-  response: |
-    _Sen. Klobuchar provided this [letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team._
-
-- candidate_first_name: Amy
-  candidate_last_name: Klobuchar
-  state: mn
-  race: Governor
-  district: 
-  party: Democratic
-  date: 2026-07-20
-  question: mn-q5
-  response: |
-    _Sen. Klobuchar provided this [letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team._
-
-- candidate_first_name: Amy
-  candidate_last_name: Klobuchar
-  state: mn
-  race: Governor
-  district: 
-  party: Democratic
-  date: 2026-07-20
-  question: mn-q6
-  response: |
-    _Sen. Klobuchar provided this [letter]({{ '/files/stance/klobuchar_letter.pdf' | relative_url }}) to the Minnesota Stance on Science team._
 
 - candidate_first_name: Louis
   candidate_last_name: McNutt
@@ -1832,6 +1856,7 @@
   state: mn
   race: US House of Representatives
   district: 5
+  primary_candidate: true
   party: Democratic
   date: 2026-07-24
   question: mn-q1
@@ -1845,6 +1870,7 @@
   state: mn
   race: US House of Representatives
   district: 5
+  primary_candidate: true
   party: Democratic
   date: 2026-07-24
   question: mn-q2
@@ -1858,6 +1884,7 @@
   state: mn
   race: US House of Representatives
   district: 5
+  primary_candidate: true
   party: Democratic
   date: 2026-07-24
   question: mn-q3
@@ -1871,6 +1898,7 @@
   state: mn
   race: US House of Representatives
   district: 5
+  primary_candidate: true
   party: Democratic
   date: 2026-07-24
   question: mn-q4
@@ -1884,6 +1912,7 @@
   state: mn
   race: US House of Representatives
   district: 5
+  primary_candidate: true
   party: Democratic
   date: 2026-07-24
   question: mn-q5
@@ -1897,6 +1926,7 @@
   state: mn
   race: US House of Representatives
   district: 5
+  primary_candidate: true
   party: Democratic
   date: 2026-07-24
   question: mn-q6
@@ -1904,3 +1934,1334 @@
     “As a probation officer, I see firsthand how our in action harms the most vulnerable. We need to invest in chemical dependency treatment, sober  housing, alternatives to Policing, mental health initiatives, and housing programs that will allow people the time to work on their sobriety. This is very hard to do if you’re homeless. We need to look at the programs being realized and ensuring quality assurance,  accountability and oversight. This is a public health crisis not just a public safety one.” 
     
     KEYWORDS: Public health crisis
+
+- candidate_first_name: Amy
+  candidate_last_name: Klobuchar
+  state: mn
+  race: Governor
+  district: 
+  party: Democratic
+  date: 2026-07-20
+  question: mn-q1
+  response: |
+    _Sen. Klobuchar provided this [letter](https://snapcoalition.org/files/stance/klobuchar_letter.pdf) to the Minnesota Stance on Science team._
+
+- candidate_first_name: Amy
+  candidate_last_name: Klobuchar
+  state: mn
+  race: Governor
+  district: 
+  party: Democratic
+  date: 2026-07-20
+  question: mn-q2
+  response: |
+    _Sen. Klobuchar provided this [letter](https://snapcoalition.org/files/stance/klobuchar_letter.pdf) to the Minnesota Stance on Science team._
+
+- candidate_first_name: Amy
+  candidate_last_name: Klobuchar
+  state: mn
+  race: Governor
+  district: 
+  party: Democratic
+  date: 2026-07-20
+  question: mn-q3
+  response: |
+    _Sen. Klobuchar provided this [letter](https://snapcoalition.org/files/stance/klobuchar_letter.pdf) to the Minnesota Stance on Science team._
+
+- candidate_first_name: Amy
+  candidate_last_name: Klobuchar
+  state: mn
+  race: Governor
+  district: 
+  party: Democratic
+  date: 2026-07-20
+  question: mn-q4
+  response: |
+    _Sen. Klobuchar provided this [letter](https://snapcoalition.org/files/stance/klobuchar_letter.pdf) to the Minnesota Stance on Science team._
+
+- candidate_first_name: Amy
+  candidate_last_name: Klobuchar
+  state: mn
+  race: Governor
+  district: 
+  party: Democratic
+  date: 2026-07-20
+  question: mn-q5
+  response: |
+    _Sen. Klobuchar provided this [letter](https://snapcoalition.org/files/stance/klobuchar_letter.pdf) to the Minnesota Stance on Science team._
+
+- candidate_first_name: Amy
+  candidate_last_name: Klobuchar
+  state: mn
+  race: Governor
+  district: 
+  party: Democratic
+  date: 2026-07-20
+  question: mn-q6
+  response: |
+    _Sen. Klobuchar provided this [letter](https://snapcoalition.org/files/stance/klobuchar_letter.pdf) to the Minnesota Stance on Science team._
+
+- candidate_first_name: Amanda
+  candidate_last_name: Matchett
+  state: mn
+  race: State House of Representatives
+  district: 32A
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q1
+  response: |
+    “Science should inform policymaking whenever a decision depends on questions of public health, environmental impact, technology, infrastructure, or other areas where specialized expertise matters. I would seek input from scientists, researchers, technical experts, state agencies, and affected communities, while also looking carefully at the quality of the evidence and areas where experts may disagree. Policymakers still have to weigh costs, benefits, values, and real-world impacts, but those decisions should begin with reliable evidence rather than ideology. As an attorney who works extensively with technology, privacy, cybersecurity, and artificial intelligence, I am accustomed to asking experts what the evidence actually tells us before deciding what we should do with it.” 
+    
+    KEYWORDS: Evidence-based, Expertise, Accountability
+
+- candidate_first_name: Amanda
+  candidate_last_name: Matchett
+  state: mn
+  race: State House of Representatives
+  district: 32A
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q2
+  response: |
+    “The Boundary Waters is an irreplaceable Minnesota resource, and I strongly support Governor Walz’s recent executive action protecting the Boundary Waters watershed from nonferrous mining. But an executive order is not a substitute for durable protection. I support legislation establishing permanent protections against sulfide-ore mining in the Boundary Waters watershed unless and until credible, peer-reviewed scientific evidence demonstrates that it can be done without jeopardizing the watershed.
+
+    The Boundary Waters is an interconnected ecosystem, and contamination upstream could cause damage that is extraordinarily difficult, if not impossible, to reverse. When the potential consequences are that significant and permanent, our policy should reflect the science and the risk. Minnesota can support mining and economic development in appropriate places while recognizing that some natural resources are too valuable to gamble with.” 
+    
+    KEYWORDS: Boundary Waters, Science-Based, Permanent Protection
+
+- candidate_first_name: Amanda
+  candidate_last_name: Matchett
+  state: mn
+  race: State House of Representatives
+  district: 32A
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q3
+  response: |
+    “Minnesotans should not have to wonder whether the water coming from their tap is safe. I support continued statewide PFAS monitoring, transparent public reporting, assistance for communities that must upgrade drinking-water treatment systems, and strong enforcement against significant sources of PFAS contamination. Minnesota should also continue reducing unnecessary uses of PFAS so that we are not simply paying to remove these chemicals from water after they have already entered the environment. Importantly, the financial burden of contamination should not fall primarily on homeowners and local ratepayers. State policy should continue applying the principle that those responsible for pollution bear an appropriate share of the cleanup costs.” 
+    
+    KEYWORDS: Clean Water, Prevention, Polluter Accountability
+
+- candidate_first_name: Amanda
+  candidate_last_name: Matchett
+  state: mn
+  race: State House of Representatives
+  district: 32A
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q4
+  response: |
+    “Data centers are important infrastructure for our increasingly digital economy, including artificial intelligence, but Minnesota should understand their full impact before committing significant public resources to them. I support rigorous review of major projects' electricity demand, water consumption, environmental impacts, effects on the electrical grid, and potential costs to residential and small-business ratepayers. Large data centers should pay their fair share of infrastructure costs rather than shifting those costs onto existing customers, and developers should be transparent about expected energy and water use. I also support incentives and requirements that encourage water reuse, efficient cooling, clean energy, and other technologies that reduce environmental impact. The goal should not be to reject innovation, but to make sure Minnesota gains the economic benefits of new technology without quietly socializing its costs.” 
+    
+    KEYWORDS: Innovation, Sustainability, Accountability
+
+- candidate_first_name: Amanda
+  candidate_last_name: Matchett
+  state: mn
+  race: State House of Representatives
+  district: 32A
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q5
+  response: |
+    “Scientific research is both a public good and an important part of Minnesota's economy. Our universities, health systems, researchers, and biotechnology companies generate discoveries, train skilled workers, attract investment, and improve people's lives. I support strong and predictable federal funding for institutions such as NIH and NSF, and at the state level I would support investments that leverage federal research dollars, strengthen research partnerships, support emerging technologies, and help Minnesota turn discoveries into businesses and jobs. We should also continue investing in public universities and in STEM education so Minnesota has the workforce necessary to remain competitive. Cutting research funding may save money on a spreadsheet today while costing us medical breakthroughs, economic growth, and skilled jobs tomorrow.” 
+    
+    KEYWORDS: Research, Innovation, Investment
+
+- candidate_first_name: Amanda
+  candidate_last_name: Matchett
+  state: mn
+  race: State House of Representatives
+  district: 32A
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q6
+  response: |
+    “The recent decline in overdose deaths is encouraging, but the significant racial disparities show that Minnesota's work is far from finished. I support maintaining broad access to naloxone, evidence-based substance-use treatment, medications for opioid use disorder, mental-health services, and harm-reduction programs that help keep people alive long enough to recover. We should also invest in culturally responsive and community-led programs, particularly in Indigenous and Black communities experiencing disproportionately high overdose rates. Treatment should be available when someone is ready for it, regardless of income or geography, and our policies should recognize substance-use disorder as a public-health issue while still holding people who traffic dangerous drugs accountable. Success should mean both fewer overdose deaths overall and closing the unacceptable disparities between Minnesota communities.” 
+    
+    KEYWORDS: Treatment, Harm Reduction, Equity
+
+- candidate_first_name: Allen
+  candidate_last_name: Shen
+  state: mn
+  race: State House of Representatives
+  district: 40B
+  party: Republican
+  date: 2026-08-31
+  question: mn-q1
+  response: |
+    “Always remember one thing, all scientific theories are falsifiable, that's why the smartest scientists in the world once believed Earth was flat. We can trust Science to a degree, but always look at where their money is coming from and who funded for certain studies. Does the funder have a motive? Just like how an Italian Wine Maker funded a study saying that drinking wine reduces the chances for heart attacks. 
+    We should always strive to find the truth, and have discussions and even disagreements in search for the truth.   
+    Science thrives when we have discussion, disagreements and challenging the status quo.” 
+    
+    KEYWORDS: Truth, Follow the Money, Discussions
+
+- candidate_first_name: Allen
+  candidate_last_name: Shen
+  state: mn
+  race: State House of Representatives
+  district: 40B
+  party: Republican
+  date: 2026-08-31
+  question: mn-q2
+  response: |
+    “Question is can we mine for critical minerals and still able to protect the environment, can we do both? I think we have the technologies that we can do both, Canada is mining on the other side currently. 
+    If we don't mine these minerals in Minnesota, China is mining them in Africa using slave labor, and selling the minerals to the world. Do we want to encourage that?” 
+    
+    KEYWORDS: Technology, Environmental, America
+
+- candidate_first_name: Allen
+  candidate_last_name: Shen
+  state: mn
+  race: State House of Representatives
+  district: 40B
+  party: Republican
+  date: 2026-08-31
+  question: mn-q3
+  response: |
+    “I believe we won the law suit against 3M and asking 3M to clean up the contaminations, correct? 
+    I believe we have existing policies to protect our residents from these forever chemicals, we should just enforce them. If the CEO and the Board at the time knew about the contamination at 3M and didn't do anything about it, I want to hold them accountable.” 
+    
+    KEYWORDS: Mike Roman accountability
+
+- candidate_first_name: Allen
+  candidate_last_name: Shen
+  state: mn
+  race: State House of Representatives
+  district: 40B
+  party: Republican
+  date: 2026-08-31
+  question: mn-q4
+  response: |
+    “I don't know enough to say if I am for or against data centers, I just think there should be more discussions about them. Why do big data centers need to be in population centers? Why can't they be built in the middle of nowhere? Do they emission chemical pollutions? Will they have a lot of noise? Do they have technologies to reduce or eliminate their noise? Is AI critical to our national security? Do we want China to lead in the AI race? These are the questions I don't yet know, but should be discussed. ” 
+    
+    KEYWORDS: China, AI Dominance
+
+- candidate_first_name: Allen
+  candidate_last_name: Shen
+  state: mn
+  race: State House of Representatives
+  district: 40B
+  party: Republican
+  date: 2026-08-31
+  question: mn-q5
+  response: |
+    “I think that's a good thing. As long as the schools can clarify what they want to do with the fund, what research and results they want to achieve from using that fund.” 
+    
+    KEYWORDS: Very Clear Goals
+
+- candidate_first_name: Allen
+  candidate_last_name: Shen
+  state: mn
+  race: State House of Representatives
+  district: 40B
+  party: Republican
+  date: 2026-08-31
+  question: mn-q6
+  response: |
+    “I would like to know what caused these drug overdoses. Is it because of the doctors prescribed the wrong drugs or prescribed too much consumptions? Are these drugs too addictive? If so, are there policies to limit consumption? But I would personally want to push for natural health and healing and get people off the dependency on drugs.” 
+    
+    KEYWORDS: Natural Health & Healing
+
+- candidate_first_name: Andrew
+  candidate_last_name: Hattaway
+  state: mn
+  race: State House of Representatives
+  district: 56B
+  party: Republican
+  date: 2026-08-31
+  question: mn-q1
+  response: |
+    “I would rely on scientists whenever a policy touches public health, natural resources, environmental protection, or any issue where solid data and research are essential for responsible decision making. When evaluating a bill, I would consult subject matter experts to review the evidence, understand potential impacts, and ensure that my vote is grounded in sound science rather than politics or special interests. My priority is to support policies that protect Minnesotans and reflect the best available research.” 
+    
+    KEYWORDS: Evidence‑based decision making, public health and environmental expertise, Subject matter consultation
+
+- candidate_first_name: Andrew
+  candidate_last_name: Hattaway
+  state: mn
+  race: State House of Representatives
+  district: 56B
+  party: Republican
+  date: 2026-08-31
+  question: mn-q2
+  response: |
+    “The Boundary Waters is a national treasure, and any activity in its watershed must meet strict standards that protect clean water and local communities. I support responsible resource development, but only when independent review shows it will not harm the region’s lakes, rivers, or long‑term economic stability. Mining plays an important role in energy and manufacturing, yet this specific area is uniquely sensitive and requires extra caution.
+
+    I support policies that require rigorous environmental review, strong financial assurance from companies, and clear, science‑based safeguards to protect the watershed. Minnesota should not accept projects that leave taxpayers responsible for cleanup or put a world‑class ecosystem at risk. Responsible development is possible, but protecting the Boundary Waters must remain the priority.” 
+    
+    KEYWORDS: Clean water protection, responsible development, Science‑based safeguards
+
+- candidate_first_name: Andrew
+  candidate_last_name: Hattaway
+  state: mn
+  race: State House of Representatives
+  district: 56B
+  party: Republican
+  date: 2026-08-31
+  question: mn-q3
+  response: |
+    “PFAS contamination is a serious issue, and Minnesotans deserve clean, safe drinking water. I support a balanced approach that protects public health while ensuring that regulations are clear and practical. My priority is holding polluters accountable rather than placing unnecessary burdens on families, farmers, or small businesses.
+
+    I would support policies that strengthen monitoring of PFAS in community water systems, require companies to fully disclose the chemicals they use, and ensure that manufacturers not taxpayers pay for cleanup when contamination occurs. I also back investments in modern water treatment technology and partnerships with local governments to upgrade aging infrastructure.
+
+    Protecting residents from PFAS is essential, but it must be done in a way that supports both public health and long-term economic stability.” 
+    
+    KEYWORDS: Clean water protection, Accountability for polluters, Science based monitoring
+
+- candidate_first_name: Andrew
+  candidate_last_name: Hattaway
+  state: mn
+  race: State House of Representatives
+  district: 56B
+  party: Republican
+  date: 2026-08-31
+  question: mn-q4
+  response: |
+    “Data centers bring major economic opportunities, but they also create demands on local infrastructure. I support a balanced approach that encourages investment while making sure communities are protected. Any project should undergo a thorough review of its impacts on energy use, water systems, emergency services, and long-term infrastructure needs.
+
+    Data centers should be responsible for covering the costs of any upgrades they require so taxpayers are not left paying for private development.
+
+    Minnesota can welcome innovation and job growth while still protecting local communities. The goal is responsible development that strengthens our economy without creating long term burdens for residents.” 
+    
+    KEYWORDS: Responsible development, Infrastructure review, Community protection
+
+- candidate_first_name: Andrew
+  candidate_last_name: Hattaway
+  state: mn
+  race: State House of Representatives
+  district: 56B
+  party: Republican
+  date: 2026-08-31
+  question: mn-q5
+  response: |
+    “I support funding that is transparent, efficient, and tied to clear outcomes. When research drives medical advances, supports jobs, and grows our economy, it is a smart investment.
+
+    I would back policies that encourage federal agencies like the National Institute on Health to continue partnering with Minnesota universities, while ensuring that grants are awarded through a fair, merit‑based process. At the state level, I support efforts that promote public‑private research partnerships, reduce unnecessary red tape, and help Minnesota compete for national research funding.
+
+    Strong science research supports health care, agriculture, technology, and emergency response. Continued investment should be guided by accountability, measurable results, and a focus on projects that deliver benefits for Minnesotans.” 
+    
+    KEYWORDS: Transparent funding, Merit based research, Public private partnerships
+
+- candidate_first_name: Andrew
+  candidate_last_name: Hattaway
+  state: mn
+  race: State House of Representatives
+  district: 56B
+  party: Republican
+  date: 2026-08-31
+  question: mn-q6
+  response: |
+    “We need to continue policies that save lives while strengthening public safety. I support an approach that focuses on treatment access, community partnerships, and accountability for those who traffic dangerous drugs.
+
+    I would back efforts to expand evidence-based treatment, improve coordination between state agencies, tribal communities and support local programs that have proven effective in reducing overdoses. Strengthening access to mental health services, recovery housing, and rapid response teams can help keep this downward trend moving.
+
+    Law enforcement also plays a critical role. I support giving officers and first responders the tools they need to disrupt fentanyl trafficking, respond quickly to overdoses, and keep dangerous substances out of our communities.
+
+    We should continue investing in strategies that work, especially in communities facing the highest risks. The goal is simple: fewer deaths, stronger families, and safer neighborhoods across the state.” 
+    
+    KEYWORDS: Treatment access, Community safety, Evidence based programs
+
+- candidate_first_name: Martha
+  candidate_last_name: Brown
+  state: mn
+  race: State House of Representatives
+  district: 19A
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q1
+  response: |
+    “I believe good policy starts with good information. As a legislator, I would seek out scientists and other subject-matter experts when legislation involves issues where their expertise can help us understand the evidence, risks, and likely outcomes.
+
+    I would look to scientists to help distinguish established evidence from assumptions or political talking points, and I would consider the quality and breadth of the available research when making decisions. I would also value input from multiple experts and perspectives rather than relying on a single source.
+
+    My background as an educator, researcher, and program evaluator has taught me to ask questions, examine evidence, understand limitations, and be willing to change course when new information becomes available.
+
+    Scientists provide expertise; elected officials have a responsibility to weigh that evidence alongside the experiences and needs of the people they represent. I would bring those pieces together to make thoughtful, evidence-informed decisions—not decisions based on ideology or who is making the loudest argument.” 
+    
+    KEYWORDS: Evidence  research  risks/outcomes
+
+- candidate_first_name: Martha
+  candidate_last_name: Brown
+  state: mn
+  race: State House of Representatives
+  district: 19A
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q2
+  response: |
+    “The Boundary Waters Canoe Area Wilderness and the watershed that surrounds it are irreplaceable Minnesota treasures. I oppose mining projects that put this unique ecosystem and its clean water at risk.
+
+    Minnesotans should not have to choose between economic opportunity and protecting the resources that sustain our communities. But some places are simply too important to gamble with—and the Boundary Waters is one of them.
+
+    If elected, I would support policies that protect the watershed from mining-related contamination and require rigorous, independent environmental review before any project moves forward. That review must consider not only immediate impacts, but also the long-term risks to water quality, wildlife, and surrounding communities.
+
+    We should follow the science, listen to the people who know and care for this region, and put the protection of clean water ahead of short-term political interests. The Boundary Waters belongs to all of us, and we have a responsibility to leave it protected for future generations.” 
+    
+    KEYWORDS: ecosystem  protection  mining ban
+
+- candidate_first_name: Martha
+  candidate_last_name: Brown
+  state: mn
+  race: State House of Representatives
+  district: 19A
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q3
+  response: |
+    “Minnesotans deserve clean, safe drinking water. PFAS contamination is a serious concern because these chemicals persist in the environment and can accumulate over time.
+
+    I would support stronger standards for PFAS in drinking water, continued testing and monitoring of community water systems, and timely public notification when contamination is found. We should also prioritize preventing PFAS from entering our water in the first place by limiting unnecessary use and holding manufacturers and other responsible parties accountable for contamination and cleanup costs.
+
+    At the same time, communities should have the resources they need to address existing contamination. I would support state assistance for testing, filtration, and cleanup, particularly when the cost would otherwise fall on local taxpayers and ratepayers.
+
+    My approach is straightforward: follow the science, prevent pollution whenever possible, protect public health, and make sure those responsible for contamination—not ordinary Minnesota families—bear their fair share of the cost.” 
+    
+    KEYWORDS: prevention clean-up   accountability
+
+- candidate_first_name: Martha
+  candidate_last_name: Brown
+  state: mn
+  race: State House of Representatives
+  district: 19A
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q4
+  response: |
+    “Data centers can bring economic opportunities, but hyperscale facilities can also have significant impacts on energy use, water resources, infrastructure, and surrounding communities. Minnesota should not give these projects a free pass.
+
+    I support the highest standards of accountability and review for hyperscale data centers, including comprehensive environmental and infrastructure impact assessments before approval. Communities deserve meaningful opportunities for public input, and all relevant information about a proposed project—including its energy and water use, environmental impacts, tax arrangements, and public costs—should be transparent and accessible.
+
+    Data centers should be responsible for the infrastructure and resources they require rather than shifting those costs to Minnesota taxpayers and ratepayers. I would also support clear, enforceable standards for energy and water use and appropriate environmental protections.
+
+    We can welcome innovation and economic development while still protecting our communities and natural resources. The standard should be simple: \*\*if a project affects the public, the public deserves a full review, a voice in the process, and complete transparency about the costs and benefits.\*\*” 
+    
+    KEYWORDS: accountability  review  infrastructure
+
+- candidate_first_name: Martha
+  candidate_last_name: Brown
+  state: mn
+  race: State House of Representatives
+  district: 19A
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q5
+  response: |
+    “Minnesota benefits enormously from investments in scientific research. I support continued public investment in research at both the state and federal levels because many important discoveries and innovations would not happen without it.
+
+    At the same time, government should not be expected to bear 100% of the cost. I would like to see greater investment from private companies and industries that benefit from research and innovation. Public-private partnerships can expand research capacity and create jobs while leveraging taxpayer dollars.
+
+    However, private investment must never come at the expense of scientific independence. Research funding should include strong transparency and conflict-of-interest protections so that sponsors cannot influence research findings, suppress unfavorable results, or undermine public trust. We need to protect researchers' ability to follow the evidence wherever it leads.
+
+    My goal is a balanced approach: maintain strong public investment in basic and applied research, encourage responsible private-sector investment, and ensure that the science—not the source of the funding—determines the conclusions.” 
+    
+    KEYWORDS: public-private partnership
+
+- candidate_first_name: Martha
+  candidate_last_name: Brown
+  state: mn
+  race: State House of Representatives
+  district: 19A
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q6
+  response: |
+    “Minnesota’s progress in reducing overdose deaths is encouraging, but we cannot be satisfied while some communities continue to experience dramatically higher rates of fatal overdose. The disparities affecting Indigenous and Black Minnesotans reflect longstanding inequities in access to healthcare, treatment, mental health services, and other resources, compounded by a history of discrimination in our healthcare and public systems.
+
+    I support expanding accessible, culturally responsive substance-use treatment, mental healthcare, recovery services, and harm-reduction resources in underserved communities. This includes making lifesaving medications such as naloxone readily available and ensuring people can get help before they reach a crisis.
+
+    We also need to address the underlying barriers that keep people from care—including cost, transportation, provider shortages, and lack of culturally responsive services. I would work with Tribal Nations, Black communities, healthcare providers, and people with lived experience to develop solutions rather than assuming a one-size-fits-all approach.
+
+    We should continue using data and evidence to evaluate what works and hold ourselves accountable for reducing—not simply documenting—these disparities. Every Minnesotan deserves the opportunity to live a healthy life and access care when they need it.” 
+    
+    KEYWORDS: culturally-responsive   accessibility   inequity
+
+- candidate_first_name: Emily
+  candidate_last_name: Thabes
+  state: mn
+  race: State House of Representatives
+  district: 2B
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q1
+  response: |
+    “My professional foundation is library and information science, so my instinct is to go to the people who did the work and read the evidence before I make decisions.
+
+    I would bring scientists in at three points. Before a bill is drafted, so the policy is built from what the evidence supports rather than reverse engineered to fit a conclusion. During committee, where I would ask researchers directly what their findings can and cannot tell us and where the uncertainty sits. After passage, because a law nobody measures cannot be corrected.
+
+    I want more than one source at the table. University of Minnesota and Minnesota State researchers, Extension, staff scientists at the MPCA and DNR, and tribal natural resource and environmental departments, who hold both scientific expertise and sovereign authority over their own lands and waters. I also want independent monitoring funded by the state, so a community is never left reading only the numbers supplied by the party responsible for the problem.
+
+    Science tells us what is true and what is likely to happen. The vote is a question of obligation. I want both answered honestly, and I want the record open so constituents can check my work.” 
+    
+    KEYWORDS: Evidence-based, Independent verification, Transparency
+
+- candidate_first_name: Emily
+  candidate_last_name: Thabes
+  state: mn
+  race: State House of Representatives
+  district: 2B
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q2
+  response: |
+    “Water in northern Minnesota belongs to everyone downstream. When sulfide ore is exposed to air and water it produces acid drainage that carries heavy metals, and no one has a site anywhere that has done this cleanly. The Rainy River watershed runs north into the Boundary Waters, Voyageurs, and Canada; a failure there is permanent and shared.
+
+    My position is no sulfide mining in this watershed. I would support a state prohibition on nonferrous sulfide mining in the Rainy River headwaters, which is authority Minnesota holds regardless of what Congress does with federal land.
+
+    I would also support restoring the federal mineral withdrawal, full financial assurance posted in cash or its equivalent before any permit issues anywhere in the state, with no self-bonding and no corporate parent guarantees that vanish in bankruptcy, state-funded independent water monitoring, protection of the wild rice sulfate standard, and thorough consultation with the Ojibwe bands who hold treaty rights to hunt, fish, and gather in the ceded territory.
+
+    Northern Minnesota deserves an economy that pays well and lasts. I want the public investment aimed at work that does not put the water at risk.” 
+    
+    KEYWORDS: Sulfide mining prohibition, Financial assurance, Watershed protection
+
+- candidate_first_name: Emily
+  candidate_last_name: Thabes
+  state: mn
+  race: State House of Representatives
+  district: 2B
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q3
+  response: |
+    “Nobody should have to research their own drinking water to find out whether it is safe.
+
+    Minnesota already has the strongest PFAS law in the country in Amara's Law, including the class-based definition covering any chemical with at least one fully fluorinated carbon. I would defend that definition and vote against the industry carve-outs that will be brought forward as the deadlines get closer.
+
+    Beyond that, I would push in four directions. Enforceable state drinking water standards for PFAS, with compliance deadlines that do not slip. Testing money and treatment money for the small rural, tribal, and township systems that cannot spread the cost of a filtration plant across many ratepayers. Coverage for private wells, which is how a large share of households in my district get their water and which no federal standard reaches. Limits on PFAS in biosolids and sludge applied to farmland, plus soil and groundwater standards, so we stop moving the contamination around.
+
+    The cost belongs to whoever made and sold these chemicals. I would support strengthening state cost recovery so manufacturers pay for testing, treatment, and health monitoring, and Minnesota families get clean water without a new line on their bill.” 
+    
+    KEYWORDS: Amara's Law, Private wells, Polluter pays
+
+- candidate_first_name: Emily
+  candidate_last_name: Thabes
+  state: mn
+  race: State House of Representatives
+  district: 2B
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q4
+  response: |
+    “These facilities use enormous amounts of electricity and water in a state where utility bills are already climbing. A project that builds here has to leave the community better off than it found it. Anything less takes from a place that cannot afford the loss.
+
+    I support repealing the data center sales tax exemption. Minnesota is giving away revenue to the world's most profitable companies for a small number of permanent jobs, and that money is needed for schools, water systems, and roads.
+
+    I support a temporary moratorium on new hyperscale facilities until the Public Utilities Commission completes a study and the state has rules in place, along the lines of SF 4298. That gives us time to write the rules before the concrete is poured.
+
+    Every rule I want is measured against net gain. Closed loop or recycled cooling with enforceable withdrawal limits, so the aquifer comes out ahead. Public reporting of actual water and energy use, not projections. The company pays for the grid upgrades and generation its load requires. Ratepayer protections that lower bills for customers already on the system.
+
+    Water, power, tax base, and jobs: communities should be ahead on all four.” 
+    
+    KEYWORDS: Net community gain, Repeal exemption, Ratepayer protection
+
+- candidate_first_name: Emily
+  candidate_last_name: Thabes
+  state: mn
+  race: State House of Representatives
+  district: 2B
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q5
+  response: |
+    “Research funding is rural economic development, and people in my district do not always see it that way because the labs are in the Twin Cities and Duluth. The Extension trial that saves a farmer a spray pass, the wild rice and fisheries work, the rural health studies that tell us why our clinics keep closing. That work is done by grant-funded scientists.
+
+    Federal support has become unreliable. Grants have been frozen and terminated midstream, which leaves graduate students without stipends and multi-year studies abandoned partway through. I support a state bridge fund that lets the University of Minnesota and Minnesota State carry interrupted projects through a disruption instead of losing the people and the data.
+
+    I also support stable base funding for higher education so research is not paid for by tuition increases, protecting Environment and Natural Resources Trust Fund and Clean Water Legacy dollars for applied research, and building research capacity at tribal colleges and regional campuses so studies about our communities are conducted with our communities.
+
+    Minnesota built a research economy over decades. Maintaining it means paying for it consistently, and the return shows up in jobs, in farm income, and clean water for generations.” 
+    
+    KEYWORDS: Bridge funding, Research capacity, Rural return on investment
+
+- candidate_first_name: Emily
+  candidate_last_name: Thabes
+  state: mn
+  race: State House of Representatives
+  district: 2B
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q6
+  response: |
+    “The decline is real and it happened because people did the work: naloxone in more hands, fentanyl test strips, syringe services, and treatment that meets people where they already are. I would fund all of it at a level that keeps the trend moving.
+
+    The disparities tell us where the resources have not reached. Indigenous Minnesotans in my district are dying at rates that would be treated as an emergency anywhere else. I support direct funding to tribal nations and Native-led organizations, on a government to government basis, rather than routing dollars through county intermediaries and hoping they arrive. The programs that work are built by the communities carrying the loss.
+
+    The other constraint is workforce. In rural northern Minnesota the availability of substance use and mental health providers is falling faster than the need is, and a person ready for help can wait weeks for an opening. I support higher and indexed reimbursement rates, loan repayment tied to rural and tribal service, training pipelines through tribal and community colleges, and cutting the regulatory paperwork that pulls counselors away from clients without improving oversight.
+
+    Treatment on demand, close to home, is how the number keeps falling.” 
+    
+    KEYWORDS: Harm reduction, Tribal-directed funding, Treatment workforce
+
+- candidate_first_name: Krystyne
+  candidate_last_name: Knutson
+  state: mn
+  race: State Senate
+  district: 9
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q1
+  response: |
+    “I believe good policy should be grounded in evidence, not ideology. When legislation involves public health, agriculture, water quality, climate, energy, technology, or other scientific matters, I would seek input from qualified experts and consider peer-reviewed research, established scientific consensus, and transparent data. I would also listen to the people and communities directly affected. Elected officials cannot be experts in every field, but we have a responsibility to consult those who are, ask thoughtful questions, and make informed decisions based on the best available evidence.” 
+    
+    KEYWORDS: Evidence. Expertise. Accountability. 
+
+- candidate_first_name: Krystyne
+  candidate_last_name: Knutson
+  state: mn
+  race: State Senate
+  district: 9
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q2
+  response: |
+    “I support protecting the Boundary Waters and its surrounding watershed from mining projects that pose an unacceptable risk of long-term or irreversible contamination. Mining provides jobs and resources that matter to Minnesota, particularly in northern communities, so I don't believe the conversation should dismiss workers or communities that depend on the industry. But some places are simply too valuable and too difficult to restore once damaged, to gamble with.
+
+    I support strong, science-based environmental review, rigorous water-quality protections, meaningful financial assurance so taxpayers are never left paying for cleanup, and long-term monitoring and accountability for mining companies. I also support lasting protections for the watershed surrounding the Boundary Waters, because pollution does not stop at the edge of a mine site or a political boundary. Economic development and environmental protection do not have to be enemies, but when the potential damage could outlast the economic benefit by generations, we have a responsibility to proceed with extraordinary caution.” 
+    
+    KEYWORDS: Protection. Accountability. Sustainability. 
+
+- candidate_first_name: Krystyne
+  candidate_last_name: Knutson
+  state: mn
+  race: State Senate
+  district: 9
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q3
+  response: |
+    “Minnesotans should be able to trust that their drinking water is safe. I support strong PFAS testing and monitoring, transparent reporting, and continued efforts to prevent these chemicals from entering our water.
+
+    Minnesota has already taken important steps to restrict unnecessary uses of PFAS. We should continue those protections while helping communities afford the infrastructure and treatment needed to remove existing contamination, particularly in rural areas where resources are limited.
+
+    I also believe polluters (not taxpayers) should pay when contamination can be traced to responsible manufacturers or industries. Families and local governments should not bear the financial burden of cleaning up pollution they did not create.
+
+    Clean water is fundamental to public health. Our approach should prioritize prevention, early detection, cleanup, and accountability.” 
+    
+    KEYWORDS: Prevention. Accountability. Clean Water.
+
+- candidate_first_name: Krystyne
+  candidate_last_name: Knutson
+  state: mn
+  race: State Senate
+  district: 9
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q4
+  response: |
+    “AI and data centers will be part of our economic future, and Minnesota has an opportunity to benefit from that growth. But development should benefit the communities hosting these facilities...not simply shift costs and resource demands onto residents.
+
+    I support requiring meaningful environmental and infrastructure assessments for hyperscale data centers, including their electricity and water consumption, impacts on the electrical grid, backup power emissions, and effects on local water supplies. Communities should know the long-term resource demands before projects are approved.
+
+    We should also examine whether existing tax incentives for extremely profitable corporations provide sufficient public benefit. Any public incentives should be tied to measurable outcomes, including permanent jobs, local economic investment, environmental protections, and infrastructure contributions.
+
+    Data centers should pay their fair share of infrastructure and energy costs rather than shifting those expenses onto residential customers or small businesses.
+
+    Minnesota can welcome technological innovation while setting reasonable guardrails. Economic development should be a partnership.” 
+    
+    KEYWORDS: Accountability (again and again). Public Benefit. Sustainability. 
+
+- candidate_first_name: Krystyne
+  candidate_last_name: Knutson
+  state: mn
+  race: State Senate
+  district: 9
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q5
+  response: |
+    “I strongly support continued public investment in scientific research. Research funding is not simply an expense..it is an investment that creates jobs, drives innovation, improves health outcomes, strengthens our economy, and helps Minnesota remain competitive.
+
+    At the state level, I would support funding and partnerships with Minnesota universities, colleges, healthcare systems, agricultural researchers, and other research institutions. I would also advocate for rural Minnesota to share in those investments and benefits. Research into agriculture, water quality, renewable energy, emerging technologies, healthcare access, and rural health can directly improve the lives and economies of communities like those in Senate District 9.
+
+    Minnesota legislators do not determine federal NIH funding, but we can advocate strongly for continued federal investment and work to ensure Minnesota remains positioned to compete for those dollars.
+
+    Science also requires independence and integrity. Public research funding should support rigorous, transparent, evidence-based work without political interference in scientific conclusions.
+
+    When research funding brings billions of dollars into our economy while advancing medicine, agriculture, technology, and environmental protection, supporting science is both good public policy and smart economic policy.” 
+    
+    KEYWORDS:  Investment. Innovation. Independence. 
+
+- candidate_first_name: Krystyne
+  candidate_last_name: Knutson
+  state: mn
+  race: State Senate
+  district: 9
+  party: Democratic
+  date: 2026-08-31
+  question: mn-q6
+  response: |
+    “Minnesota’s decline in overdose deaths shows that evidence-based prevention and treatment can save lives, but significant disparities and gaps in access remain.
+
+    I support expanding access to naloxone, evidence-based treatment for substance use disorder, mental health services, recovery programs, and harm-reduction strategies. Treatment must also be accessible when someone is ready to seek it...not weeks or months later because there are no available providers or beds.
+
+    In rural Minnesota, access is particularly important. Distance, transportation, provider shortages, cost, and stigma can all become barriers to recovery. We should strengthen rural treatment options, telehealth, peer recovery programs, and community-based services.
+
+    We also need targeted partnerships with Indigenous and Black communities experiencing disproportionately high overdose deaths, with solutions developed alongside those communities rather than imposed upon them.
+
+    Accountability for illegal drug trafficking remains important, but we cannot arrest our way out of addiction. People struggling with substance use disorder need healthcare, treatment, and a realistic path toward recovery.
+
+    The first goal is keeping people alive. Then we must make sure treatment and long-term recovery support are there when they need them.” 
+    
+    KEYWORDS: Prevention. Treatment. Recovery.
+
+- candidate_first_name: Andrew
+  candidate_last_name: Rockhold
+  state: mn
+  race: State House of Representatives
+  district: 4A
+  party: Republican
+  date: 2026-08-31
+  question: mn-q1
+  response: |
+    “it all depends on what the issue is that we are voting on” 
+    
+    KEYWORDS: Trust, Science, Policy.
+
+- candidate_first_name: Andrew
+  candidate_last_name: Rockhold
+  state: mn
+  race: State House of Representatives
+  district: 4A
+  party: Republican
+  date: 2026-08-31
+  question: mn-q2
+  response: |
+    “That's a delicate answer. I believe that we should allow mining, however I also believe in the protection of our lands and water. I would want more information.” 
+    
+    KEYWORDS: Need More Info
+
+- candidate_first_name: Andrew
+  candidate_last_name: Rockhold
+  state: mn
+  race: State House of Representatives
+  district: 4A
+  party: Republican
+  date: 2026-08-31
+  question: mn-q3
+  response: |
+    “I do believe it is the responsibility to provide clean drinking water and would stand with any legislation that would agree with that.” 
+    
+    KEYWORDS: clean drinking water
+
+- candidate_first_name: Andrew
+  candidate_last_name: Rockhold
+  state: mn
+  race: State House of Representatives
+  district: 4A
+  party: Republican
+  date: 2026-08-31
+  question: mn-q4
+  response: |
+    “I think I am for them but I also believe they need to bring a lot to the communities they are impacting especially with regard to how much electricity they will be using.” 
+    
+    KEYWORDS: be wary
+
+- candidate_first_name: Andrew
+  candidate_last_name: Rockhold
+  state: mn
+  race: State House of Representatives
+  district: 4A
+  party: Republican
+  date: 2026-08-31
+  question: mn-q5
+  response: |
+    “I want more info. I'm not a fan of the government funding anything that's not considered essential.” 
+    
+    KEYWORDS: need more info.
+
+- candidate_first_name: Andrew
+  candidate_last_name: Rockhold
+  state: mn
+  race: State House of Representatives
+  district: 4A
+  party: Republican
+  date: 2026-08-31
+  question: mn-q6
+  response: |
+    “more bible, more accountability, more personal responsibility ” 
+    
+    KEYWORDS: personal responsibility important!
+
+- candidate_first_name: Darci
+  candidate_last_name: Smith
+  state: mn
+  race: State House of Representatives
+  district: 37A
+  party: Democratic
+  date: 2026-09-01
+  question: mn-q1
+  response: |
+    “I believe experts that follow the scientific method and use proven data combined with experience to make informed recommendations pertaining to policy should always be included in the conversation. I don’t know what I don’t know, and should always gather as much information as possible before making any decisions as a legislator.” 
+    
+    KEYWORDS: Informed Scientific Collaboration
+
+- candidate_first_name: Darci
+  candidate_last_name: Smith
+  state: mn
+  race: State House of Representatives
+  district: 37A
+  party: Democratic
+  date: 2026-09-01
+  question: mn-q2
+  response: |
+    “I believe protecting our boundary waters and the waters of our state is of utmost importance while we continue to evolve and innovate job opportunities for the workers in our state. I believe both can happen if we look at additional opportunities outside the BWCA and explore upskilling programs for our workers.” 
+    
+    KEYWORDS: Protect. Innovate. Upskill.
+
+- candidate_first_name: Darci
+  candidate_last_name: Smith
+  state: mn
+  race: State House of Representatives
+  district: 37A
+  party: Democratic
+  date: 2026-09-01
+  question: mn-q3
+  response: |
+    “I support any policy that reduces single-use plastics and PFAS in our environment. I recognize this is an enormous environmental issue and would work with experts in the area to produce effective legislation.” 
+    
+    KEYWORDS: Reduce, Refer, Protect
+
+- candidate_first_name: Darci
+  candidate_last_name: Smith
+  state: mn
+  race: State House of Representatives
+  district: 37A
+  party: Democratic
+  date: 2026-09-01
+  question: mn-q4
+  response: |
+    “I support a slow-down in production if not a full moratorium if we cannot produce scientifically backed plans to build data centers in a way that protects the surrounding environments and communities.” 
+    
+    KEYWORDS: Plan, Prioritize Environment
+
+- candidate_first_name: Darci
+  candidate_last_name: Smith
+  state: mn
+  race: State House of Representatives
+  district: 37A
+  party: Democratic
+  date: 2026-09-01
+  question: mn-q5
+  response: |
+    “U of M continues to be a leader in innovation regarding environmental stewardship, and I support funding additional programs that improve our ability to generate jobs, economic activity, and knowledge. Education and research is the key to every approach in legislation. The two are mutually beneficial.” 
+    
+    KEYWORDS: Growth, innovation, education
+
+- candidate_first_name: Darci
+  candidate_last_name: Smith
+  state: mn
+  race: State House of Representatives
+  district: 37A
+  party: Democratic
+  date: 2026-09-01
+  question: mn-q6
+  response: |
+    “This is a continuing issue. BIPOC community members continue to benefit at lower levels from nearly every effort to improve any issue. We must work together to create policy that takes this into account and intentionally work together to understand why this is, and how we offset this imbalance. We must be accountable to inclusivity in policy.” 
+    
+    KEYWORDS: Fairness, Access, Accountability
+
+- candidate_first_name: Arlis
+  candidate_last_name: Sayler
+  state: mn
+  race: State House of Representatives
+  district: 13A
+  party: Democratic
+  date: 2026-09-01
+  question: mn-q1
+  response: |
+    “Health, environment, technology and energy production.” 
+    
+    KEYWORDS: Credence, evidence, critical
+
+- candidate_first_name: Arlis
+  candidate_last_name: Sayler
+  state: mn
+  race: State House of Representatives
+  district: 13A
+  party: Democratic
+  date: 2026-09-01
+  question: mn-q2
+  response: |
+    “I would support all of the tailings from mining be stored in a waste cavern with an impermeable rock layer between the tailings and the water table. No open pit mine can return the surface to the previous topography nor ensure leaching of sulfates will not occur. Otherwise no sulfide mining should be allowed in or near a wilderness area.” 
+    
+    KEYWORDS: Legacy, assurance, proof
+
+- candidate_first_name: Arlis
+  candidate_last_name: Sayler
+  state: mn
+  race: State House of Representatives
+  district: 13A
+  party: Democratic
+  date: 2026-09-01
+  question: mn-q3
+  response: |
+    “Policies to protect Minnesota residents from well chemical contamination include testing of the water, monitor well testing around industrial sights and supplying clean water to anyone that could be harmed. Clean up of the aquifer is a long term process of pumping ground water out down stream and disposing of the contaminated water where it can do no harm. The cleaning process should be pursued whenever possible.” 
+    
+    KEYWORDS: Prevent, Identify, protect
+
+- candidate_first_name: Arlis
+  candidate_last_name: Sayler
+  state: mn
+  race: State House of Representatives
+  district: 13A
+  party: Democratic
+  date: 2026-09-01
+  question: mn-q4
+  response: |
+    “Polices that should be enacted are NDAs are illegal when public interests are at stake, any company should follow the good neighbor ideal of not causing any economic harm to the public, and environmental balance has to be invested in by a data center.” 
+    
+    KEYWORDS: Neighbor, truthful, balance
+
+- candidate_first_name: Arlis
+  candidate_last_name: Sayler
+  state: mn
+  race: State House of Representatives
+  district: 13A
+  party: Democratic
+  date: 2026-09-01
+  question: mn-q5
+  response: |
+    “I will support funding for Minnesota to continue to weaning away from fossil fuels. Biomass from farms can help the farmers make money, rural communities to thrive and lessen the loading of greenhouse gasses. The healthcare industry needs continued funding to continue to develop better treatments for all. I do believe that mRNA research is of great value for our well being. Soil management without fossil fuel fertilizers.” 
+    
+    KEYWORDS: Energy, Health, Agriculture
+
+- candidate_first_name: Arlis
+  candidate_last_name: Sayler
+  state: mn
+  race: State House of Representatives
+  district: 13A
+  party: Democratic
+  date: 2026-09-01
+  question: mn-q6
+  response: |
+    “The segregation of our society has left large voids in our humanity. Policies that can help are more counselors available in underserved communities. Redistributing healthcare from centralization to individual communities. This is a long term fix and will be very difficult to achieve with "for profit" healthcare. Finally, education at all levels to be inclusive of others.” 
+    
+    KEYWORDS: Counseling, redistribution, inclusive
+
+- candidate_first_name: Kris
+  candidate_last_name: Babler
+  state: mn
+  race: State Senate
+  district: 49
+  party: Independent
+  date: 2026-09-01
+  question: mn-q1
+  response: |
+    “As an Independent State Senator, I will use non-partisan scientific evidence—not political party line or corporate talking points—to guide policy decisions. I will consult state researchers, academic institutions, and technical experts at agencies like the MPCA and MDH to evaluate environmental risk, public health data, and economic impacts before casting votes on complex legislation.” 
+    
+    KEYWORDS: Evidence-based, Independent, Non-partisan
+
+- candidate_first_name: Kris
+  candidate_last_name: Babler
+  state: mn
+  race: State Senate
+  district: 49
+  party: Independent
+  date: 2026-09-01
+  question: mn-q2
+  response: |
+    “Minnesota stewards roughly 20% of the nation’s fresh surface water, including the pristine Rainy River watershed, alongside domestic reserves that include 95% of the country's nickel and 34% of its copper resources. Protecting our water and advancing national mineral security are not mutually exclusive—they require pragmatic, non-political oversight. State authority through the DNR and MPCA must enforce rigorous clean water standards to protect critical watersheds. At the same time, we must support modern, highly regulated mining practices to prevent emergency mineral shortages during geopolitical crises that could force hasty development under lowered environmental standards.” 
+    
+    KEYWORDS: Watershed-Protection, Strategic-Minerals, Environmental-Review
+
+- candidate_first_name: Kris
+  candidate_last_name: Babler
+  state: mn
+  race: State Senate
+  district: 49
+  party: Independent
+  date: 2026-09-01
+  question: mn-q3
+  response: |
+    “Clean drinking water is a basic infrastructure requirement, not a partisan debate. Eden Prairie and Minnetonka residents shouldn't face utility rate hikes or property tax increases to clean up industrial contaminants. I support ensuring state resources and legacy polluter settlements—not local taxpayers—fund necessary municipal filtration upgrades. State agencies must establish clear, science-based PFAS standards while providing local utilities with the funding flexibility and technical support required to deploy effective treatment technologies without administrative delays.” 
+    
+    KEYWORDS: Remediation, Water-Quality, Accountability
+
+- candidate_first_name: Kris
+  candidate_last_name: Babler
+  state: mn
+  race: State Senate
+  district: 49
+  party: Independent
+  date: 2026-09-01
+  question: mn-q4
+  response: |
+    “Hyperscale data centers offer needed technological growth but place immense strains on state power grids and local water resources. I support policy requiring grid-impact assessments, water-efficiency standards, transparent energy sourcing, and ensuring data center operators cover their fair share of infrastructure upgrades so residential utility ratepayers aren't burdened. We must build energy abundance.” 
+    
+    KEYWORDS: Grid-Impact, Efficiency, Infrastructure
+
+- candidate_first_name: Kris
+  candidate_last_name: Babler
+  state: mn
+  race: State Senate
+  district: 49
+  party: Independent
+  date: 2026-09-01
+  question: mn-q5
+  response: |
+    “State policy must actively protect and multiply scientific research investments to keep Minnesota competitive. I support expanding state matching grants through the Minnesota Partnership for Biotechnology and Medical Genomics, modernizing state R&D tax credits for startups, and streamlining commercialization pathways for university research. By aligning state incentives with federal NIH capital, we keep high-paying tech and medical jobs in Minnesota, strengthen our world-class healthcare economy, and turn raw research into market-ready solutions.” 
+    
+    KEYWORDS: Commercialization, Investment, Competitiveness
+
+- candidate_first_name: Kris
+  candidate_last_name: Babler
+  state: mn
+  race: State Senate
+  district: 49
+  party: Independent
+  date: 2026-09-01
+  question: mn-q6
+  response: |
+    “Disparities in overdose mortality require a pragmatic, results-oriented strategy focused on what works. I support expanding access to lifesaving overdose reversal tools like naloxone, increasing funding for community-led and culturally specific recovery programs in direct partnership with Tribal Nations and Urban Indian health organizations, and cutting red tape to expand outpatient addiction medicine and peer recovery specialists across Hennepin County and underserved communities.” 
+    
+    KEYWORDS: Recovery, Harm-Reduction, Local-Partnerships
+
+- candidate_first_name: Jeremy
+  candidate_last_name: Munson
+  state: mn
+  race: State Senate
+  district: 22
+  party: Republican
+  date: 2026-09-01
+  question: mn-q1
+  response: |
+    “I follow a fairly scientific process when determining whether to vote for a bill, and there are two areas where scientists can help sway my vote: 
+    1. Is it Constitutional?
+    2. Does it unnecessarily grow government?
+    3. Does the bill define a realistic path to achieving the results it seeks? (This is where my calls to scientists and constituents working in these industries comes in)
+    4. Is it enforceable? 
+    5. Is there a private, non-governmental solution or market force which could deliver the same or similar results? (this is also where scientists and constituents working in these industries can help weigh in)
+    6. Does it end? (Does it sunset, or could this be a bad law that is difficult to remove? Can I force the legislature to evaluate its effectiveness before re-funding or re-authorizing?)” 
+    
+    KEYWORDS: Solutions Proven Results
+
+- candidate_first_name: Jeremy
+  candidate_last_name: Munson
+  state: mn
+  race: State Senate
+  district: 22
+  party: Republican
+  date: 2026-09-01
+  question: mn-q2
+  response: |
+    “I support the schools using their land for generating income to fund teachers and students, build state of the art schools, and to educate our kids. At the heart of much of the debate is the millions of acres of valuable mining and timber land the schools own. For mining in any location, the mine must purchase an appropriate insurance bond to offset any environmental damage. If this is $5 billion dollars - then make them buy that size bond. The insurance company will have inspectors camped out 24/7 ensuring there is no damage to the environment. If the mining process is too risky to the environment, no insurance company will insure them. If approved, the mine owners will constantly work to improve the process to lower risk, and with it, the premiums paid for the bond. Additionally, the use of a private bond will ensure government bureaucrats are not paid off to look the other way. If we cannot mine here, under the strictest environmental standards in the world, we shouldn't be mandating electric vehicles where 65% of the battery is nickel and where it is destroying the environment for millions of people in developing nations.” 
+    
+    KEYWORDS: Responsibility Financial Accountability
+
+- candidate_first_name: Jeremy
+  candidate_last_name: Munson
+  state: mn
+  race: State Senate
+  district: 22
+  party: Republican
+  date: 2026-09-01
+  question: mn-q3
+  response: |
+    “Product and corporate liability should be the hallmark of a free market. We should NEVER allow our government to provide civil and/or criminal immunity to manufacturers. In the MN Legislature, I have been a champion of calling out crony capitalism and have authored resolutions calling for eliminating such immunity our government has granted to corporations and their executives. Outside the legislature, the executive branch is responsible for prosecuting those who harm others and the environment and the role of the judiciary branch to weigh in.” 
+    
+    KEYWORDS: Do No Harm
+
+- candidate_first_name: Jeremy
+  candidate_last_name: Munson
+  state: mn
+  race: State Senate
+  district: 22
+  party: Republican
+  date: 2026-09-01
+  question: mn-q4
+  response: |
+    “I support a local government's right to authorize, ban, and/or regulate data centers. This should not be a statewide or federal policy as the impacts are primarily local. The statewide and regional impacts are primarily based on a potential electrical consumption causing shortages or price spikes. This could be solved by allowing or requiring data centers to produce their own energy along with an electrical impact assessment.” 
+    
+    KEYWORDS: Local Control Regulation
+
+- candidate_first_name: Jeremy
+  candidate_last_name: Munson
+  state: mn
+  race: State Senate
+  district: 22
+  party: Republican
+  date: 2026-09-01
+  question: mn-q5
+  response: |
+    “I support research grants which benefit the public and which are not or will not be financed privately. I have witnessed 30-40% administrative fees on some grants, and believe we need to restrict what can be used for admin purposes so most of the research dollars go to the researchers and not to a bloated bureaucracy.” 
+    
+    KEYWORDS: Research over bureaucracy
+
+- candidate_first_name: Jeremy
+  candidate_last_name: Munson
+  state: mn
+  race: State Senate
+  district: 22
+  party: Republican
+  date: 2026-09-01
+  question: mn-q6
+  response: |
+    “I don't support paying people to stay home and not work, which is what caused the highest spike in overdose deaths when the government closed down our state and sent thousands of dollars to people and told them not to work. I do not support racist policies and oppose legislation that distributes money based on race. The Constitution's 14th Amendment prohibits programs and funding based on race. While science may look at race, government policies must incorporate other factors, such as income, two-parent vs single-parent households, or other factors that do not violate our laws.” 
+    
+    KEYWORDS: Never Again
+
+- candidate_first_name: Gadisa
+  candidate_last_name: Berkessa
+  state: mn
+  race: State Senate
+  district: 31
+  party: Democratic
+  date: 2026-09-02
+  question: mn-q1
+  response: |
+    “As an electrical engineer and project manager, I rely on facts, testing, and expert knowledge when making decisions. I would bring that same approach to the Minnesota Senate.
+
+    I would consult scientists when considering policies involving public health, clean water, energy, agriculture, education, emerging technology, infrastructure, and environmental protection. This would include reviewing peer-reviewed research, requesting testimony from qualified experts, consulting Minnesota universities and state scientific agencies, and listening to scientists who live and work in affected communities.
+
+    Scientists should help lawmakers understand the evidence, risks, costs, and likely outcomes of a proposal. Policymakers must also consider community experiences, economic effects, and ethical concerns. Science should not be ignored or manipulated for political convenience. I will support transparent, evidence-based policymaking that explains the facts and uncertainties to the public.” 
+    
+    KEYWORDS: Evidence, Expertise, Transparency
+
+- candidate_first_name: Gadisa
+  candidate_last_name: Berkessa
+  state: mn
+  race: State Senate
+  district: 31
+  party: Democratic
+  date: 2026-09-02
+  question: mn-q2
+  response: |
+    “I oppose mining projects that could permanently threaten the Boundary Waters watershed. The Boundary Waters is an irreplaceable source of clean water, wildlife habitat, outdoor recreation, tourism, and jobs. Once this interconnected watershed is contaminated, restoring it may be impossible.
+
+    I oppose the decision to overturn the 20-year mining protections. I would support strong state safeguards for the watershed, independent scientific review, meaningful consultation with Tribal Nations, and full consideration of cumulative environmental impacts. Mining companies must demonstrate that their operations will not pollute surrounding waters, and taxpayers must never be left responsible for cleanup costs.
+
+    Minnesota can support responsible economic development and good-paying jobs without risking one of our most valuable natural resources. Decisions involving the Boundary Waters must be based on long-term scientific evidence, not short-term political or corporate pressure.” 
+    
+    KEYWORDS: Clean Water, Protection, Accountability
+
+- candidate_first_name: Gadisa
+  candidate_last_name: Berkessa
+  state: mn
+  race: State Senate
+  district: 31
+  party: Democratic
+  date: 2026-09-02
+  question: mn-q3
+  response: |
+    “Every Minnesotan deserves safe drinking water, regardless of their ZIP code or income. I support comprehensive testing of public water systems and private wells, transparent reporting of PFAS results, and prompt notification when unsafe contamination is found.
+
+    The state should help affected communities install effective treatment systems and secure available federal funding, with priority given to small communities and families that cannot afford these costs. Minnesota should also identify and control PFAS at its source, strengthen monitoring of industries that use or release these chemicals, and hold responsible polluters accountable for cleanup expenses.
+
+    I support continued investment in PFAS research, statewide contamination mapping, and assistance for communities to meet federal drinking-water standards. Prevention is less expensive and safer than allowing contamination to spread. The cost should not simply be passed to homeowners and local utility customers who did not cause the pollution.” 
+    
+    KEYWORDS: Safe Water, Prevention, Polluter Accountability
+
+- candidate_first_name: Gadisa
+  candidate_last_name: Berkessa
+  state: mn
+  race: State Senate
+  district: 31
+  party: Democratic
+  date: 2026-09-02
+  question: mn-q4
+  response: |
+    “Data centers can bring construction work, technology investment, and economic opportunities to Minnesota, but their benefits must be balanced against their significant demands on electricity, water, land, and public infrastructure.
+
+    I support requiring large data-center proposals to undergo transparent assessments of their water consumption, energy needs, backup-generator emissions, noise, and effects on nearby communities. Reviews should consider cumulative impacts when multiple facilities are proposed in the same region. Companies should pay the full infrastructure and energy costs created by their projects so those expenses are not shifted to families or small businesses.
+
+    I also support strong water-conservation and clean-energy requirements, responsible siting, public participation, and regular reporting of actual resource use. Any tax incentives should be transparent and tied to measurable benefits, including permanent local jobs, workforce training, and community investment.
+
+    Minnesota should welcome innovation, but development must be responsible and should not leave residents with higher utility bills or fewer natural resources.” 
+    
+    KEYWORDS: Responsible Innovation, Resource Protection, Accountability
+
+- candidate_first_name: Gadisa
+  candidate_last_name: Berkessa
+  state: mn
+  race: State Senate
+  district: 31
+  party: Democratic
+  date: 2026-09-02
+  question: mn-q5
+  response: |
+    “I support strong and dependable funding for scientific and medical research. Investments through the NIH and other public research programs support Minnesota universities, hospitals, businesses, thousands of jobs, and discoveries that improve and save lives.
+
+    This issue is also personal to me. My family saw how research and access to a trial medicine gave my brother additional years of life while he fought cancer. Families across Minnesota are depending on researchers to develop the next treatment or cure.
+
+    I would support state partnerships with Minnesota universities, research institutions, hospitals, and responsible private-sector innovators. I would also advocate for continued federal research funding and oppose politically motivated cuts or interference that weaken legitimate scientific work. State investments should encourage medical research, clean-energy technology, agricultural innovation, environmental science, and opportunities for students and early-career scientists.
+
+    Research funding is not simply an expense. It is an investment in lives, skilled jobs, new businesses, and Minnesota’s long-term competitiveness.” 
+    
+    KEYWORDS: Medical Research, Innovation, Investment
+
+- candidate_first_name: Gadisa
+  candidate_last_name: Berkessa
+  state: mn
+  race: State Senate
+  district: 31
+  party: Democratic
+  date: 2026-09-02
+  question: mn-q6
+  response: |
+    “Minnesota should continue reducing overdose deaths by treating substance-use disorder as a public-health issue while holding illegal drug traffickers accountable.
+
+    I support expanding access to naloxone, including through schools, first responders, libraries, treatment providers, and community organizations. We must also improve access to evidence-based treatment, mental-health services, recovery programs, stable housing, and follow-up care after a nonfatal overdose.
+
+    The severe disparities affecting Indigenous and Black Minnesotans require targeted solutions developed with those communities. Funding should support Tribal Nations and trusted local organizations that understand cultural needs and can connect people with treatment before a crisis occurs. Minnesota should use overdose data to direct resources toward communities experiencing the greatest harm.
+
+    Prevention must begin early through honest education, responsible prescribing, and support for families. People in recovery should be treated with dignity and given a real opportunity to rebuild their lives. Our policies should be measured by whether they save lives and make treatment easier to reach.” 
+    
+    KEYWORDS: Prevention, Treatment, Equity
+
+- candidate_first_name: Jason
+  candidate_last_name: Heaser
+  state: mn
+  race: State House of Representatives
+  district: 34A
+  party: Democratic
+  date: 2026-09-04
+  question: mn-q1
+  response: |
+    “Science should be central to understanding the facts behind a policy decision. As a legislator, I would rely on scientists and subject-matter experts when evaluating policies involving public health, the environment, emerging technology, agriculture, energy, education, and other areas where decisions should be informed by evidence. That means hearing directly from researchers, state agency scientists, medical professionals, engineers, universities, and experts with relevant experience; reviewing peer-reviewed research and reliable data; and asking whether there is a genuine scientific consensus or meaningful disagreement that policymakers need to understand.” 
+    
+    KEYWORDS: Evidence, Expertise, Integrity
+
+- candidate_first_name: Jason
+  candidate_last_name: Heaser
+  state: mn
+  race: State House of Representatives
+  district: 34A
+  party: Democratic
+  date: 2026-09-04
+  question: mn-q2
+  response: |
+    “Minnesota can support good-paying mining jobs while also being thoughtful about where and how mining projects move forward. The Boundary Waters is one of Minnesota’s greatest natural treasures, and any proposal that could affect its watershed deserves especially careful scrutiny. I would listen closely to scientists, environmental experts, workers, local communities, Tribal Nations, businesses, and other stakeholders in the region before making decisions about proposed mining projects. We need to take potential risks to clean water seriously while also recognizing the importance of mining jobs and economic opportunity in northern Minnesota.
+
+    My priority would be making sure decisions are based on the best available science, strong environmental safeguards, and a transparent process that gives the people who live and work in the region a meaningful voice. Protecting the Boundary Waters, supporting local economies, and creating good-paying jobs should not be treated as mutually exclusive goals.” 
+    
+    KEYWORDS: Protect, Clean Water, Conservation
+
+- candidate_first_name: Jason
+  candidate_last_name: Heaser
+  state: mn
+  race: State House of Representatives
+  district: 34A
+  party: Democratic
+  date: 2026-09-04
+  question: mn-q3
+  response: |
+    “Minnesotans should be able to turn on their faucet without worrying whether their water is making their family sick. I support an aggressive approach to PFAS that focuses first on preventing contamination, while helping communities address pollution that has already occurred. Minnesota has begun phasing out nonessential uses of PFAS through Amara’s Law, and I support fully implementing and enforcing those protections. I would also support continued statewide testing, assistance for communities and private well owners, investments in treatment infrastructure, and holding responsible polluters, not local taxpayers, accountable for cleanup costs. We should also continue developing Minnesota health and water-quality standards based on the best available science, even if federal protections are weakened. The Minnesota Department of Health has identified community water systems exceeding federal PFAS standards, making this an immediate infrastructure and public-health issue, not a theoretical future concern.” 
+    
+    KEYWORDS: Prevention, Clean Water, Accountability
+
+- candidate_first_name: Jason
+  candidate_last_name: Heaser
+  state: mn
+  race: State House of Representatives
+  district: 34A
+  party: Democratic
+  date: 2026-09-04
+  question: mn-q4
+  response: |
+    “Data centers can bring investment and jobs to Minnesota, but communities should not be asked to write them a blank check when it comes to electricity, water, infrastructure, or taxpayer subsidies. I support requiring developers to disclose projected water and energy use before approval, conducting meaningful environmental review, protecting local control, and ensuring the public has an opportunity to weigh in. Projects with enormous water demands should demonstrate that they will not threaten local aquifers or drinking-water supplies and should use conservation, water recycling, reclaimed water, and closed-loop systems wherever feasible. Minnesota has already begun establishing stronger water-use requirements for large data centers, and I support building on that framework. I also believe data centers should pay the infrastructure and energy costs they create rather than shifting those costs onto Minnesota families and small businesses. Any public incentives should be tied to clear, enforceable benefits such as permanent jobs and community investment.” 
+    
+    KEYWORDS: Transparency, Sustainability, Ratepayers
+
+- candidate_first_name: Jason
+  candidate_last_name: Heaser
+  state: mn
+  race: State House of Representatives
+  district: 34A
+  party: Democratic
+  date: 2026-09-04
+  question: mn-q5
+  response: |
+    “As a state representative, I would not have a vote on federal NIH appropriations, but I would be a strong advocate against federal cuts that threaten Minnesota researchers, universities, hospitals, and patients. At the state level, I would support strong funding for the University of Minnesota and other public research institutions, investments in research facilities and laboratories, partnerships that help bring federal research dollars to Minnesota, and STEM education that develops the next generation of scientists and researchers. Minnesota should also continue supporting scientific expertise within state agencies. Whether we are responding to emerging diseases, PFAS contamination, invasive species, agricultural challenges, or new technologies, weakening our scientific capacity hurts us all.” 
+    
+    KEYWORDS: Research, Innovation, Investment
+
+- candidate_first_name: Jason
+  candidate_last_name: Heaser
+  state: mn
+  race: State House of Representatives
+  district: 34A
+  party: Democratic
+  date: 2026-09-04
+  question: mn-q6
+  response: |
+    “The decline in overdose deaths is encouraging, but we should not declare victory while hundreds of Minnesota families continue losing loved ones, especially when Indigenous and Black Minnesotans remain disproportionately affected. Minnesota’s own data show particularly severe racial disparities in overdose mortality. I support continuing broad access to naloxone, expanding medication-assisted treatment and same-day connections to care, supporting recovery services and housing, and investing opioid-settlement dollars in evidence-based prevention and treatment. Minnesota currently provides mechanisms for organizations to distribute naloxone, and those lifesaving programs should continue.” 
+    
+    KEYWORDS: Naloxone, Treatment, Equity
+
+- candidate_first_name: Thaddeus
+  candidate_last_name: Laugisch
+  state: mn
+  race: State House of Representatives
+  district: 4B
+  party: Democratic
+  date: 2026-09-04
+  question: mn-q1
+  response: |
+    “With my experience in structural design, I understand the importance of referring to those with the proper education and experience in their fields of profession. With my experience, I will create the conversations to seek the knowledge of individuals in their fields that relate to the legislation.” 
+    
+    KEYWORDS: Experience, Predication, Reason
+
+- candidate_first_name: Thaddeus
+  candidate_last_name: Laugisch
+  state: mn
+  race: State House of Representatives
+  district: 4B
+  party: Democratic
+  date: 2026-09-04
+  question: mn-q2
+  response: |
+    “Protect what we need most, water being one of them. There have been new advancements and thoughts in how we can use alternate sources of energy and the use of our finite resources. We should invest in new ways to provide purpose and healthy competition as we find and use healthier means of our resources. As an endorsed candidate of the Friends of the Boundary Waters I will proudly protect our waters and rely on science over” 
+    
+    KEYWORDS: Essential, Impactful, Consequential
+
+- candidate_first_name: Thaddeus
+  candidate_last_name: Laugisch
+  state: mn
+  race: State House of Representatives
+  district: 4B
+  party: Democratic
+  date: 2026-09-04
+  question: mn-q3
+  response: |
+    “I propose we hold entities who contribute and cause the levels above regulation to be fiscally responsible to invest in ways to lower the levels while holding those who made the decisions, accountable for the choices they made. I'd also be open to working with the AG to create ways to compensate those also affected by the contamination.” 
+    
+    KEYWORDS: Law, Order, and Accountability
+
+- candidate_first_name: Thaddeus
+  candidate_last_name: Laugisch
+  state: mn
+  race: State House of Representatives
+  district: 4B
+  party: Democratic
+  date: 2026-09-04
+  question: mn-q4
+  response: |
+    “Remove NDAs and create a transparent list of all elected officials on all levels of government who have signed one to approve the building of these facilities without public approval. Create legislation that require neighboring communities and states to approve/disapprove the centers as resources do not stop at imaginary lines on the map.” 
+    
+    KEYWORDS: Transparency, Investigate, and Accountability
+
+- candidate_first_name: Thaddeus
+  candidate_last_name: Laugisch
+  state: mn
+  race: State House of Representatives
+  district: 4B
+  party: Democratic
+  date: 2026-09-04
+  question: mn-q5
+  response: |
+    “I plan support all policies that focus on the advancement of our society on a fundamental level above all. We need to ensure proper access to food, water, and shelter, and we should be open to our advancements to get us there. 
+    This includes sound legislation that ensures quality over profit and pace. Like all structures built, we need to ensure all legislation and the choices made by a vote, come from a sound foundation that was researched and inspected prior to ensure it can handle the weight it can bear on the community. Being open to innovation and technology that can get us there but first we have to invest in it.” 
+    
+    KEYWORDS: Research, Invest, and Apply
+
+- candidate_first_name: Thaddeus
+  candidate_last_name: Laugisch
+  state: mn
+  race: State House of Representatives
+  district: 4B
+  party: Democratic
+  date: 2026-09-04
+  question: mn-q6
+  response: |
+    “I feel we should provide the resources needed to counter the reasons that lead to the use rather than control and punish those for the use. I also support efforts to educate and prevent using as we should properly label the risks of legal substances too. Alcohol is often ignored when it comes to drug usage as cannabis is becoming easily accessible and marketable to younger generations. We should continue to support the organizations who currently educate and do the good work to help those in need.” 
+    
+    KEYWORDS: Resources, Education, and Support
