@@ -2436,7 +2436,7 @@
   state: co
   race: State House of Representatives
   district: 47
-  party: Democrat
+  party: Democratic
   question: co-q1
   date: 2026-09-02
   primary_candidate: false
@@ -2447,7 +2447,7 @@
   state: co
   race: State House of Representatives
   district: 47
-  party: Democrat
+  party: Democratic
   question: co-q2
   date: 2026-09-02
   primary_candidate: false
@@ -2458,7 +2458,7 @@
   state: co
   race: State House of Representatives
   district: 47
-  party: Democrat
+  party: Democratic
   question: co-q3
   date: 2026-09-02
   primary_candidate: false
@@ -2469,7 +2469,7 @@
   state: co
   race: State House of Representatives
   district: 47
-  party: Democrat
+  party: Democratic
   question: co-q4
   date: 2026-09-02
   primary_candidate: false
@@ -2480,7 +2480,7 @@
   state: co
   race: State House of Representatives
   district: 47
-  party: Democrat
+  party: Democratic
   question: co-q5
   date: 2026-09-02
   primary_candidate: false
@@ -2566,7 +2566,7 @@
   state: co
   race: State House of Representatives
   district: 22
-  party: Democrat
+  party: Democratic
   question: co-q1
   date: 2026-09-03
   primary_candidate: false
@@ -2580,7 +2580,7 @@
   state: co
   race: State House of Representatives
   district: 22
-  party: Democrat
+  party: Democratic
   question: co-q2
   date: 2026-09-03
   primary_candidate: false
@@ -2595,7 +2595,7 @@
   state: co
   race: State House of Representatives
   district: 22
-  party: Democrat
+  party: Democratic
   question: co-q3
   date: 2026-09-03
   primary_candidate: false
@@ -2610,7 +2610,7 @@
   state: co
   race: State House of Representatives
   district: 22
-  party: Democrat
+  party: Democratic
   question: co-q4
   date: 2026-09-03
   primary_candidate: false
@@ -2625,7 +2625,7 @@
   state: co
   race: State House of Representatives
   district: 22
-  party: Democrat
+  party: Democratic
   question: co-q5
   date: 2026-09-03
   primary_candidate: false
