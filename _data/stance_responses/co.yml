@@ -2009,42 +2009,6 @@
   race: University Board of Regents
   district: 2
   party: Democratic
-  question: co-q2
-  date: 2026-05-29
-  primary_candidate: false
-  response: |
-      "As Regent, I will support inter-university research collaborations between CU and CSU focused on optimizing water use, improving soil health, and developing climate-resilient crop technologies. We must ensure that CU and CSU's cutting-edge climate and environmental data are accessible and actionable for Colorado's agricultural communities."
-
-- candidate_first_name: Edie 
-  candidate_last_name: Hooton
-  state: co
-  race: University Board of Regents
-  district: 2
-  party: Democratic
-  question: co-q3
-  date: 2026-05-29
-  primary_candidate: false
-  response: |
-      "AI offers massive economic and computational benefits, but it cannot come at the expense of Colorado's electrical grids and scarce water resources. As Regent, I will advocate for the university's role in researching energy-efficient computing, advanced cooling systems, and grid integration. CU must remain a leader in the ethical deployment of AI, with a focus on data privacy and digital equity."
-
-- candidate_first_name: Edie 
-  candidate_last_name: Hooton
-  state: co
-  race: University Board of Regents
-  district: 2
-  party: Democratic
-  question: co-q4
-  date: 2026-05-29
-  primary_candidate: false
-  response: |
-      "Public health policies must be rooted strictly in peer-reviewed medical science and epidemiological data. As Regent, my focus will be on supporting CU Anschutz Medical Campus and the Colorado School of Public Health. As a former legislator, I know how to reach out to members of the General Assembly to support public funding of public health outreach programs that actively counter misinformation with accessible, evidence-based science to rebuild community trust in preventative medicine."
-
-- candidate_first_name: Edie 
-  candidate_last_name: Hooton
-  state: co
-  race: University Board of Regents
-  district: 2
-  party: Democratic
   question: co-q5
   date: 2026-05-29
   primary_candidate: false
