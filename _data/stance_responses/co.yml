@@ -2347,7 +2347,7 @@
   response: |
       "As a candidate for Governor of Colorado, I am committed to making evidence and scientific findings central to our policymaking process. If elected, I will implement several specific advisory mechanisms to ensure decisions are grounded in rigorous, transparent, and reproducible science rather than ideology or political pressure.
 
-      First, I will establish an independent Evidence-Based Policy Review Board. This board will consist of practicing scientists, data analysts, and engineers selected from Colorado institutions such as the University of Colorado, Colorado State University, the National Renewable Energy Laboratory, and private sector experts. Members will be nominated through a transparent, non-partisan process and confirmed by the legislature to prevent ideological capture. The board will provide mandatory, publicly available assessments of all major regulatory proposals and budget initiatives, requiring peer-reviewed data, randomized controlled trials where feasible, longitudinal outcome studies, and independent cost-benefit analyses.
+      First, I will establish an independent Evidence-Based Policy Review Board. This board will consist of practicing scientists, data analysts, and engineers selected from Colorado institutions such as the University of Colorado, Colorado State University, the National Renewable Energy Laboratory, and private sector experts. Members will be nominated through a transparent, Non-partisan process and confirmed by the legislature to prevent ideological capture. The board will provide mandatory, publicly available assessments of all major regulatory proposals and budget initiatives, requiring peer-reviewed data, randomized controlled trials where feasible, longitudinal outcome studies, and independent cost-benefit analyses.
 
       Second, my proposed Colorado DOGE (Department of Government Efficiency) will embed scientific performance auditing across all state agencies. Every program will be required to demonstrate measurable, evidence-based results using objective metrics such as improved student outcomes in education, reduced recidivism in criminal justice, or verifiable environmental and grid reliability data in energy policy, or face automatic sunsetting. All audits will be posted online in real time for independent verification by researchers and the public.
 
@@ -2652,7 +2652,7 @@
   candidate_last_name: Farrington
   state: co
   race: RTD Board of Directors
-  party: non-partisan
+  party: Non-partisan
   question: co-q1
   date: 2026-09-02
   primary_candidate: false
@@ -2665,7 +2665,7 @@
   candidate_last_name: Farrington
   state: co
   race: RTD Board of Directors
-  party: non-partisan
+  party: Non-partisan
   question: co-q2
   date: 2026-09-02
   primary_candidate: false
@@ -2678,7 +2678,7 @@
   candidate_last_name: Farrington
   state: co
   race: RTD Board of Directors
-  party: non-partisan
+  party: Non-partisan
   question: co-q3
   date: 2026-09-02
   primary_candidate: false
@@ -2692,7 +2692,7 @@
   candidate_last_name: Glenn
   state: co
   race: RTD Board of Directors
-  party: non-partisan
+  party: Non-partisan
   question: co-q1
   date: 2026-09-02
   primary_candidate: false
@@ -2705,7 +2705,7 @@
   candidate_last_name: Glenn
   state: co
   race: RTD Board of Directors
-  party: non-partisan
+  party: Non-partisan
   question: co-q2
   date: 2026-09-02
   primary_candidate: false
@@ -2720,7 +2720,7 @@
   candidate_last_name: Glenn
   state: co
   race: RTD Board of Directors
-  party: non-partisan
+  party: Non-partisan
   question: co-q3
   date: 2026-09-02
   primary_candidate: false
