@@ -2980,7 +2980,7 @@
 - candidate_first_name: Paul
   candidate_last_name: Mueller
   state: co
-  race: Board of Regents
+  race: University Board of Regents
   district: 7
   party: Republican
   question: co-q1
@@ -2992,7 +2992,7 @@
 - candidate_first_name: Paul
   candidate_last_name: Mueller
   state: co
-  race: Board of Regents
+  race: University Board of Regents
   district: 7
   party: Republican
   question: co-q5
