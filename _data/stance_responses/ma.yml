@@ -485,8 +485,8 @@
   candidate_last_name: MacKay
   state: ma
   race: State House of Representatives
-  district:
-  party:
+  district: 25th Middlesex
+  party: Democratic
   question: ma-q6
   date: 2026-08-01
   primary_candidate: true
@@ -941,8 +941,8 @@
   candidate_last_name: Tache
   state: ma
   race: US Senate
-  district:
-  party: 
+  district: 
+  party: Party for Socialism and Liberation
   question: ma-q1
   date: 2026-08-01
   primary_candidate: false
@@ -960,7 +960,7 @@
   state: ma
   race: US Senate
   district:
-  party: 
+  party: Party for Socialism and Liberation
   question: ma-q2
   date: 2026-08-01
   primary_candidate: false
@@ -978,7 +978,7 @@
   state: ma
   race: US Senate
   district:
-  party: 
+  party: Party for Socialism and Liberation
   question: ma-q3
   date: 2026-08-01
   primary_candidate: false
@@ -996,7 +996,7 @@
   state: ma
   race: US Senate
   district:
-  party: 
+  party: Party for Socialism and Liberation
   question: ma-q4
   date: 2026-08-01
   primary_candidate: false
