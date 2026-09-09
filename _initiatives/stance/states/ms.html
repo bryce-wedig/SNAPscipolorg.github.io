@@ -2,18 +2,15 @@
 layout: gridlay
 collection: initiatives
 sitemap: true
-# `state` and `state_name` are used by the global search and map to look up
-# this page from a USPS code. Keep them in sync with the YAML responses file
-# at _data/stance_responses/ne.yml.
-state: ne
-state_name: Nebraska
-demonym_plural: Nebraskans
-team_email: stanceonsciencenebraska@gmail.com
-ballot_lookup_url: https://sos.nebraska.gov/elections
-ballot_lookup_label: Nebraska Secretary of State elections page
+state: ms
+state_name: Mississippi
+demonym_plural: Mississippians
+team_email: ms.stanceonscience@gmail.com
+ballot_lookup_url: https://myelectionday.sos.state.ms.us/VoterOutreach/Pages/VOSearch.aspx
+ballot_lookup_label: Mississippi Secretary of State "My Election Day" website
 # Socials (optional — leave blank to hide a link, or all blank to hide the footer):
-instagram_url: https://www.instagram.com/stanceonsciencenebraska/
-facebook_url: https://www.facebook.com/profile.php?id=61592158720794
+instagram_url:
+facebook_url:
 tiktok_url:
 x_url:
 bluesky_url:
@@ -97,58 +94,32 @@ published: true
   <p>This webpage houses the responses to {{ questions.size }} questions
   crafted by the {{ team_name }} team.</p>
   <p>Only official candidates who will appear on ballots were contacted.</p>
-  <p>Candidates were contacted in August and September 2026 (with a follow-up to those who
-  did not initially respond) and given the opportunity to answer the questions
-  selected for their race. Only the responses of candidates who answered the questions are
+  <p>Candidates were contacted in July 2026 (with a follow-up to those who
+  did not initially respond) and given the opportunity to answer all questions. Only the responses of candidates who answered the questions are
   included. None of the candidates' responses were modified in any way before
   being published on this resource page.</p>
 
   <p><u>For the <strong>November 2026 General Election</strong></u>, only candidates in
-  the following elections were contacted:</p>
-  {%- comment -%}
-    For races that have district/party sub-bullets, wrap them in a
-    <details class="stance-race-group"> so the sub-list collapses by default.
-    For a race with no sub-bullets, use <div class="stance-race-flat">.
-  {%- endcomment -%}
+  the following elections were contacted<sup>1</sup>:</p>
   <div>
-    <div class="stance-race-flat">US Senate</div>
+    <div class="stance-race-flat">US Senate — Cindy Hyde-Smith, Scott Colom, and Ty Pinkins</div>
     <details class="stance-race-group">
       <summary>US House of Representatives</summary>
         <ul>
-          <li>Districts 1, 2, 3</li>
-        </ul>
-    </details>
-    <div class="stance-race-flat">Governor</div>
-    <div class="stance-race-flat">Attorney General</div>
-    <details class="stance-race-group">
-      <summary>State Legislature</summary>
-        <ul>
-          <li>Districts 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 24, 26, 28, 30, 32, 34, 36, 38, 41, 42, 48</li>
-        </ul>
-    </details>
-    <details class="stance-race-group">
-      <summary>Nebraska State Board of Education</summary>
-        <ul>
-          <li>Districts 5, 6, and 8</li>
-        </ul>
-    </details>
-    <details class="stance-race-group">
-      <summary>University of Nebraska Board of Regents</summary>
-        <ul>
-          <li>Districts 1, 2, and 4</li>
+          <li>District 1 — Trent Kelly and Cliff Johnson</li>
+          <li>District 2 — Bennie Thompson, Ron Eller, and Bennie Foster</li>
+          <li>District 3 — Michael Guest, Michael Chiaradio, and Erik Kiehle</li>
+          <li>District 4 — Mike Ezell, Jeffrey Hulum III, and Carl Boyanton</li>
         </ul>
     </details>
   </div>
+  <p><small><sup>1</sup> Candidates were contacted for the federal races listed above.</small></p>
   </div>
 </details>
 
 <details class="info">
   <summary><span class="ic"><i class="fa-solid fa-list-check"></i></span> The questions posed<i class="fa-solid fa-chevron-right chev"></i></summary>
-
   <div class="info__body">
-
-    <p> If you want to know how a candidate would answer a question they were not asked, we encourage you to reach out to that candidate directly. Contact us at <a href="mailto:{{ page.team_email }}">{{ page.team_email }}</a> if you need help reaching out.</p>
-
     <ol class="qlist">
       {%- for q in questions -%}
         {%- if q.tag.first -%}
@@ -159,9 +130,6 @@ published: true
         <li>
           <div>
             {{ q.question | markdownify | remove_first: "<p>" | remove: "</p>" | strip }}{% if q_tag_list.size > 0 %} (<em>see{% for t in q_tag_list %}{% if forloop.first %} "{{ t }}"{% elsif forloop.last %}{% if q_tag_list.size > 2 %}, and "{{ t }}"{% else %} and "{{ t }}"{% endif %}{% else %}, "{{ t }}"{% endif %}{% endfor %}</em>){% endif %}
-            {%- if q.races and q.races.size > 0 -%}
-              <span class="question-applicability">Asked of: {{ q.races | join: ", " }} candidates.</span>
-            {%- endif -%}
           </div>
         </li>
       {%- endfor -%}
@@ -194,3 +162,5 @@ published: true
 {% include stance/response_explorer.html heading="November 2026 General Election" %}
 
 {% include stance/press_mentions.html state=page.state %}
+
+{% include stance/meet_the_team.html state=page.state %}
