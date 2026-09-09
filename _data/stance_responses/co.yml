@@ -2814,7 +2814,7 @@
   state: co
   race: State House of Representatives
   district: 51
-  party: Democrat
+  party: Democratic
   question: co-q1
   date: 2026-09-07
   primary_candidate: false
@@ -2826,7 +2826,7 @@
   state: co
   race: State House of Representatives
   district: 51
-  party: Democrat
+  party: Democratic
   question: co-q2
   date: 2026-09-07
   primary_candidate: false
@@ -2838,7 +2838,7 @@
   state: co
   race: State House of Representatives
   district: 51
-  party: Democrat
+  party: Democratic
   question: co-q3
   date: 2026-09-07
   primary_candidate: false
@@ -2850,7 +2850,7 @@
   state: co
   race: State House of Representatives
   district: 51
-  party: Democrat
+  party: Democratic
   question: co-q4
   date: 2026-09-07
   primary_candidate: false
@@ -2862,7 +2862,7 @@
   state: co
   race: State House of Representatives
   district: 51
-  party: Democrat
+  party: Democratic
   question: co-q5
   date: 2026-09-07
   primary_candidate: false
@@ -2976,3 +2976,28 @@
       Teachers need strong subject-matter preparation, quality instructional materials and access to continuing education. At the same time, curriculum decisions should remain transparent to parents and accountable to locally elected school boards.
       
       Our goal should not be to tell students what to think about every contested issue. It should be to equip them to ask good questions, understand evidence, recognize uncertainty and reach defensible conclusions. Those abilities will produce better scientists, more capable workers and better-informed citizens."
+
+- candidate_first_name: Paul
+  candidate_last_name: Mueller
+  state: co
+  race: Board of Regents
+  district: 7
+  party: Republican
+  question: co-q1
+  date: 2026-09-08
+  primary_candidate: false
+  response: |
+      "Peer-reviewed articles are always a good place to start. But my main approach will be to make sure that I read or meet with scientists on both sides of an important debate or question before making a decision that weighs in on scientific inquiry."
+
+- candidate_first_name: Paul
+  candidate_last_name: Mueller
+  state: co
+  race: Board of Regents
+  district: 7
+  party: Republican
+  question: co-q5
+  date: 2026-09-08
+  primary_candidate: false
+  response: |
+      "My sense is that, along with literacy in most subjects, scientific literacy is poor. K-12 is not my area of expertise, but making sure we should start by focusing on the basic mechanics of science. What are physics, chemistry, and biology? How do they explain the world around us? What are important subfields of science? And importantly, what is scientific inquiry and debate, and how do we participate in it?"
+     
