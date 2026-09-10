@@ -740,13 +740,22 @@
   district: 1
   party: Libertarian
   question: co-q1
-  date: 2026-05-21
+  date: 2026-09-08
   primary_candidate: false
   response: |
-      “Some of my trusted friends and advisors include an Electromechanical Engineer that has been sent world wide to work on problems, and a leader in AI theory that has been invited to advise at Cern.  
-
-      As a general rule of thumb I believe that consulting with experts in their field is a crucial first step in forming policies that work."
-
+      “I'd rather describe what I've been doing than what I intend to do.
+      
+      Over the past several months, I've been working through Clear Creek's budgets and financial reports back to 2013. Every time I reached a conclusion, I wrote to the county official who holds the underlying data and asked them to check my reading — the Assessor on mine valuation, the Finance Director on the general fund projections, the County Attorney on federal payment allocations, Public Works on road classifications.
+      
+      Three of those conversations proved me wrong.
+      
+      I believed the county's tax base was recovering. The Finance Director explained that the county assumes flat revenue and no recovery, and the Assessor's own abstracts confirmed she was right and I wasn't. I believed a federal payment decision was being made without analysis. The County Attorney pointed me to a staff memo that had already analyzed it thoroughly. In both cases I withdrew the claim.
+      
+      That's the mechanism: put the conclusion in writing to the person who can check it, before saying it in public. It costs an email and it has already saved me from being wrong out loud four times.
+      
+      My published platform commits to it — every figure carries its source, and if someone thinks one is wrong, I'll show them where it came from or correct it publicly. I'd apply the same standard as a commissioner, including publishing the criteria behind funding decisions so the answer to "why was that funded" is a document rather than a conversation you had to be in the room for.
+      
+      I do also have friends I trust in engineering and AI, and I ask them things. But friends are not a mechanism. Writing it down and having it checked is."
 
 - candidate_first_name: Christopher
   candidate_last_name: Hardman
@@ -756,11 +765,16 @@
   district: 1
   party: Libertarian
   question: co-q2
-  date: 2026-05-21
+  date: 2026-09-08
   primary_candidate: false
   response: |
-      “As someone running for Commissioner in Clear Creek County,   I would want to work with community leaders, farmers,  and organizations "down stream" literally and figuratively to help ensure everyone gets the resources they need agriculturally, professionally and personally."
-
+      “I should be honest about the county I'm running in. Clear Creek's total agricultural assessed value in 2025 was about $260,000, out of a $404 million tax base — roughly six hundredths of one percent. We are not a farming county and I'd be making things up if I claimed otherwise.
+      
+      What we are is a headwaters county. Clear Creek starts on the Continental Divide and runs east into the Denver metro water supply. What happens on these slopes ends up in somebody else's irrigation ditch.
+      
+      That gives a Clear Creek commissioner three real jobs on this. Watershed health, including a Superfund site covering roughly 400 square miles of historic mine drainage in our watershed. Wildfire, because a burn scar upstream means sediment and ash downstream for years. And being an honest partner to the people downstream rather than treating our water as purely ours.
+      
+      That's a smaller claim than saying I'll support Colorado agriculture. It's also one I could actually deliver."
 
 - candidate_first_name: Christopher
   candidate_last_name: Hardman
@@ -770,11 +784,16 @@
   district: 1
   party: Libertarian
   question: co-q3
-  date: 2026-05-21
+  date: 2026-09-08
   primary_candidate: false
   response: |
-      “While I do claim knowing great minds in the AI industry as a friend and an advisor,  I personally do not know enough about this platform to speak on this question."
-
+      “My answer here has changed, though not to a position.
+      
+      When I first answered I said I didn't know enough to speak on it. That was honest and it's still mostly true. What I've learned since is that there's a second reason for me to be careful: a data center in Clear Creek would arrive as a land use application, and county commissioners sit quasi-judicially on those. If I campaign on how I'd rule, I may disqualify myself from ruling at all.
+      
+      So I won't prejudge an application I might have to vote on. What I'll say is what I'd want on the table before anyone votes: what it draws in water, what it does to the grid, what it actually adds to the tax base after incentives, and whether residents see those numbers before approval rather than after.
+      
+      Publishing the analysis isn't prejudging the outcome. It's the part I'd insist on."
 
 - candidate_first_name: Christopher
   candidate_last_name: Hardman
@@ -784,17 +803,18 @@
   district: 1
   party: Libertarian
   question: co-q4
-  date: 2026-05-21
+  date: 2026-09-08
   primary_candidate: false
   response: |
-      “Sadly i do not believe there is any magic pill or ad campaign that will help.
-
-      People have known since Dr. Ignaz Semmelweis figured out in 1847 the importance of handwashing,  the importance of staying home when not feeling well (quarantine, literally in the bible)   and covering your mouth when coughing.   
-
-      Unfortunately the fast pace and guilt caused by not matching that pace has caused our friends and neighbors to go to work when sick,  disregard the time needed to wash their hands after sneezing or blowing their nose thus causing an increase in infection.  
-
-      Public policy will not overcome that social guilt.  What is needed is that Americans learn that they are more important than their jobs."
-
+      “My first answer to this was incomplete, and on reflection I was answering a general question rather than the one asked.
+      
+      The question was about measles, and measles is a poor fit for the answer I gave. It's airborne and stays infectious in a room for up to two hours after someone leaves it. Handwashing does very little against it. Measles is also one of the few diseases we genuinely solved — two doses of MMR are about 97% effective, and it was declared eliminated in the United States in 2000. It's back because coverage dropped, not because the tool stopped working.
+      
+      I'm a Libertarian and I don't think government should compel medical decisions. But I'm not going to pretend the evidence is unsettled to make that position easier. The vaccine works. A county's job is to make it easy to get, be straight about what the evidence actually shows, and not muddy it.
+      
+      The part of my original answer I do stand behind is this: people go to work sick because they can't afford not to, and no public health campaign overcomes that. That one is squarely in a commissioner's hands. The county employs about 206 people, and its sick leave policy is set by the Board. If we want people to stay home when they're contagious, we should start by making sure our own employees can.
+      
+      I'd also note that Clear Creek has a Board of Health, and commissioners have a role in it. That's a piece of this office I'm still learning, and I'd rather say so than pretend otherwise."
 
 - candidate_first_name: Christopher
   candidate_last_name: Hardman
@@ -804,15 +824,18 @@
   district: 1
   party: Libertarian
   question: co-q5
-  date: 2026-05-21
+  date: 2026-09-08
   primary_candidate: false
   response: |
-      “Not thrilled.  
-      I have a 1st and 2nd grader in school right now,   well 2nd and 3rd by the time you read this (promotion day was today).
-
-      STEM in our country is treated like the worser option of that or a sharp stick in the eye (to quote my Grandpa).   Our kids should be exposed to STEM as a core curriculum.  
-
-      One of the groups I am speaking to and learning how to help so they may help our children is the Clear Creek Teachers Union.   Their administration has failed them and I hope to be able to help them so they may make positive impacts on our children."
+      “Not thrilled.
+      
+      I have a second and third grader. STEM in this country gets treated like the worse option between that and a sharp stick in the eye, to quote my grandfather. It should be core curriculum, not an enrichment activity.
+      
+      I've been meeting with the Clear Creek teachers to understand what they're actually up against. I want to be careful here: schools are governed by a separately elected board, and a county commissioner has no authority over curriculum. Anyone who tells you otherwise is promising something they can't deliver.
+      
+      What a commissioner does control is adjacent and not nothing. The county negotiates how federal National Forest Payments are split with the school district — this year that's roughly $460,000 to the district. I'd want that negotiation, and the reasoning behind it, done in public.
+      
+      Beyond that my honest answer is that I'd listen to the teachers and use the seat where it actually reaches."
 
 - candidate_first_name: Tyler
   candidate_last_name: Quick
