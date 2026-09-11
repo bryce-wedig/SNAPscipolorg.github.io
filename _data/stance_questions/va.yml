@@ -1,16 +1,18 @@
 - id: va-q1
   question: >-
-    (VA-5) Southside Virginia has seen growing investment in new agricultural
+    Southside Virginia has seen growing investment in new agricultural
     technologies, including vertical farming and industrial hemp cultivation,
     as the region works to diversify its economy beyond traditional crops like
     tobacco. What is your view on the role of agricultural research and
     technology in Virginia's rural economies, and what policies, if any, would
     you support related to it?
   tag: Agriculture
+  races:
+    - VA-5
 
 - id: va-q2
   question: >-
-    (VA-7) In Culpeper County and neighboring localities, several large data
+    In Culpeper County and neighboring localities, several large data
     center campuses have been approved on land previously zoned for
     agricultural use, and similar proposals have spread to nearby Spotsylvania
     and Orange counties. While these campuses may offer economic development
@@ -21,6 +23,8 @@
     farmland and rural land use, and what policies, if any, would you support
     on this issue?
   tag: Agriculture
+  races:
+    - VA-7
 
 - id: va-q3
   question: >-
@@ -36,16 +40,19 @@
 
 - id: va-q4
   question: >-
-    (VA-1 & VA-3) According to a 2025 study, Virginia’s coastal counties have
+    According to a 2025 study, Virginia’s coastal counties have
     amongst the highest percentages of people living in areas at risk from a
     severe flood in 2050, compared to all other U.S. states. What policies, if
     any, would you support regarding coastal flood risk mitigation in
     Virginia's coastal communities?
   tag: Climate
+  races:
+    - VA-1
+    - VA-3
 
 - id: va-q5
   question: >-
-    (VA-2) The Coastal Virginia Offshore Wind project off the coast of
+    The Coastal Virginia Offshore Wind project off the coast of
     Virginia Beach is the largest offshore wind development under construction
     in the United States, expected to generate enough electricity to power up
     to 660,000 homes once complete. (VA statewide, minus VA-2) What is your
@@ -55,6 +62,8 @@
   tag:
     - Climate
     - Energy
+  races:
+    - VA-2
 
 - id: va-q6
   question: >-
@@ -63,15 +72,15 @@
     headquartered in Alexandria and employs roughly 1,600 people there. What
     is your view on the federal government's role in funding scientific
     research, and what policies, if any, would you support regarding federal
-    science agencies headquartered in Virginia (additional wording added for
-    VA-8 --> ), particularly in the 8th district?
+    science agencies headquartered in Virginia (_additional wording added for
+    VA-8_ --> ), particularly in the 8th district?
   tag:
     - Jobs and Workforce
     - Science Funding
 
 - id: va-q7
   question: >-
-    (VA-11) Fairfax County is home to a life sciences and biosciences
+    Fairfax County is home to a life sciences and biosciences
     workforce of more than 60,000 people, supported by federal research
     institutions, private companies, and public universities in the region.
     What is your view on the federal government’s role in supporting
@@ -81,6 +90,8 @@
     - Jobs and Workforce
     - Policymaking Process
     - Science Funding
+  races:
+    - VA-11
 
 - id: va-q8
   question: >-
@@ -102,12 +113,14 @@
 
 - id: va-q10
   question: >-
-    (VA-9) A 2026 Virginia Joint Commission on Health Care report found 13 of
+    A 2026 Virginia Joint Commission on Health Care report found 13 of
     Virginia's 36 rural hospitals are at immediate or distant risk of closure,
     with six of those located in the VA-9 congressional district. What is your
     approach to rural hospital access in Virginia, and what policies, if any,
     would you support related to it?
   tag: Public Health
+  races:
+    - VA-9
 
 - id: va-q11
   question: >-
