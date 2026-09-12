@@ -96,6 +96,71 @@
   }
 }
 
+// --- Compact variant: date, name, and category bubble only, with a toggle
+// to reveal the flyer and remaining details --------------------------------
+.snap-event--compact {
+  padding: 0.65rem 1rem;
+
+  .snap-event__flyer {
+    flex-basis: 140px;
+    max-width: 140px;
+    margin-top: 0.75rem;
+
+    &[hidden] { display: none; }
+  }
+
+  .snap-event__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .snap-event__summary {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.9rem;
+  }
+
+  .snap-event__date,
+  .snap-event__name,
+  .snap-event__categories {
+    margin: 0;
+  }
+
+  .snap-event__name {
+    font-size: 1rem;
+    flex: 1 1 auto;
+    min-width: 120px;
+  }
+}
+
+.snap-event__toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  margin-left: auto;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: $snap-blue;
+  font-family: inherit;
+  font-size: 0.875rem;
+  cursor: pointer;
+
+  &:hover { text-decoration: underline; }
+  &:focus-visible { outline: 2px solid $snap-blue; outline-offset: 2px; }
+}
+
+.snap-event__toggle-icon {
+  display: inline-block;
+  transition: transform 0.15s ease;
+}
+
+.snap-event__toggle[aria-expanded="true"] .snap-event__toggle-icon {
+  transform: rotate(180deg);
+}
+
 .snap-events__empty[hidden] { display: none; }
 
 // --- Flyer lightbox overlay --------------------------------------------------
