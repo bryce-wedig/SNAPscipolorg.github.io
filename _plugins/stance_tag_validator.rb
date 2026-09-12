@@ -85,6 +85,7 @@ module StanceResponseValidator
     valid_tags = Array(filters["tags"])
     valid_races = Array(filters["races"]).to_set
     valid_parties = Array(filters["parties"]).to_set
+    race_overrides = filters["race_overrides"] || {}
     tag_set = valid_tags.to_set
     tag_lower = valid_tags.each_with_object({}) { |t, h| h[t.downcase] = t }
 
@@ -96,6 +97,7 @@ module StanceResponseValidator
       questions.each do |state_slug, entries|
         next if state_slug == "_blank"
         file = "_data/stance_questions/#{state_slug}.yml"
+        state_valid_races = valid_races | Array(race_overrides[state_slug]).to_set
         seen_ids = {}
         Array(entries).each_with_index do |entry, idx|
           add = lambda do |kind, detail = nil|
@@ -136,7 +138,7 @@ module StanceResponseValidator
               add.call("invalid races list", "is empty")
             else
               question_races.each do |race|
-                add.call("unknown race", %("#{race}")) unless valid_races.include?(race)
+                add.call("unknown race", %("#{race}")) unless state_valid_races.include?(race)
               end
             end
           end

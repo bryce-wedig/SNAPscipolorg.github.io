@@ -39,13 +39,28 @@ candidate responses from that state. <a href="{{ '/initiatives/stance-on-science
 </p>
 
  <h4>List of States</h4>
- 
-<ul>
+
+<ul class="stance-states-list">
   {%- assign state_pages = site.initiatives | where_exp: "p", "p.state != nil and p.state != 'xx'" | sort: "state" -%}
   {%- for sp in state_pages -%}
     <li><a href="{{ sp.url | relative_url }}">{{ sp.state_name }}</a></li>
   {%- endfor -%}
 </ul>
+
+<style>
+  .stance-states-list {
+    column-count: 3;
+    column-gap: 2rem;
+  }
+  .stance-states-list li {
+    break-inside: avoid;
+  }
+  @media (max-width: 600px) {
+    .stance-states-list {
+      column-count: 1;
+    }
+  }
+</style>
 
 <h2>About Stance on Science</h2>
 
