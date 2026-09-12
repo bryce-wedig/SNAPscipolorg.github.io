@@ -63,6 +63,21 @@ race_ballot_order:
   - Local County Races [All]
   - RTD Board of Directors
 
+# Per-state additions to `races` above, valid only for the `races:` attribute
+# on questions in _data/stance_questions/<state>.yml (scoping a question to a
+# specific district, e.g. a congressional seat). Does NOT apply to the
+# candidate `race` field in stance_responses or to race_ballot_order — those
+# still require a canonical race from the list above. Keyed by state slug.
+race_overrides:
+  va:
+    - VA-1
+    - VA-2
+    - VA-3
+    - VA-5
+    - VA-7
+    - VA-9
+    - VA-11
+
 parties:
   - Democratic
   - Libertarian

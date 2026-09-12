@@ -1,0 +1,135 @@
+- id: va-q1
+  question: >-
+    Southside Virginia has seen growing investment in new agricultural
+    technologies, including vertical farming and industrial hemp cultivation,
+    as the region works to diversify its economy beyond traditional crops like
+    tobacco. What is your view on the role of agricultural research and
+    technology in Virginia's rural economies, and what policies, if any, would
+    you support related to it?
+  tag: Agriculture
+  races:
+    - VA-5
+
+- id: va-q2
+  question: >-
+    In Culpeper County and neighboring localities, several large data
+    center campuses have been approved on land previously zoned for
+    agricultural use, and similar proposals have spread to nearby Spotsylvania
+    and Orange counties. While these campuses may offer economic development
+    opportunities, there are concerns about the impact of data centers on
+    water use, light, noise, or soil pollution, and other impacts on
+    agricultural production. What is your view on how local and state
+    governments should balance data center development with preserving
+    farmland and rural land use, and what policies, if any, would you support
+    on this issue?
+  tag: Agriculture
+  races:
+    - VA-7
+
+- id: va-q3
+  question: >-
+    Virginia hosts the largest data center market in the world. Dominion
+    Energy has proposed a 14% rate increase for residential customers in 2026,
+    citing data center growth and AI-driven demand. While data centers can
+    help benefit the economy and support various technological advances, the
+    associated rising costs have led to concerns from some residents. What is
+    your view on how the costs and benefits of data center growth should be
+    divided between developers and residential ratepayers, and what policies,
+    if any, would you support on this issue?
+  tag: Artificial Intelligence
+
+- id: va-q4
+  question: >-
+    According to a 2025 study, Virginia’s coastal counties have
+    amongst the highest percentages of people living in areas at risk from a
+    severe flood in 2050, compared to all other U.S. states. What policies, if
+    any, would you support regarding coastal flood risk mitigation in
+    Virginia's coastal communities?
+  tag: Climate
+  races:
+    - VA-1
+    - VA-3
+
+- id: va-q5
+  question: >-
+    The Coastal Virginia Offshore Wind project off the coast of
+    Virginia Beach is the largest offshore wind development under construction
+    in the United States, expected to generate enough electricity to power up
+    to 660,000 homes once complete. (VA statewide, minus VA-2) What is your
+    view on the role of offshore wind and other renewable energy sources in
+    Virginia's energy mix? What policies, if any, would you support regarding
+    their development or the development of other renewable energy technology?
+  tag:
+    - Climate
+    - Energy
+  races:
+    - VA-2
+
+- id: va-q6
+  question: >-
+    The National Science Foundation, which funds about a quarter of all
+    federally supported basic research at U.S. colleges and universities, is
+    headquartered in Alexandria and employs roughly 1,600 people there. What
+    is your view on the federal government's role in funding scientific
+    research, and what policies, if any, would you support regarding federal
+    science agencies headquartered in Virginia (_additional wording added for
+    VA-8_ --> ), particularly in the 8th district?
+  tag:
+    - Jobs and Workforce
+    - Science Funding
+
+- id: va-q7
+  question: >-
+    Fairfax County is home to a life sciences and biosciences
+    workforce of more than 60,000 people, supported by federal research
+    institutions, private companies, and public universities in the region.
+    What is your view on the federal government’s role in supporting
+    scientific research and the research workforce in Northern Virginia, and
+    what policies, if any, would you support related to it?
+  tag:
+    - Jobs and Workforce
+    - Policymaking Process
+    - Science Funding
+  races:
+    - VA-11
+
+- id: va-q8
+  question: >-
+    According to the Virginia Department of Education, the state's teacher
+    shortages remain concentrated in special education, STEM, and early
+    childhood positions. Through what policies, if any, would you address
+    teacher shortages in Virginia's K-12 schools in these high-demand areas?
+  tag:
+    - Jobs and Workforce
+    - K-12 Science Education
+
+- id: va-q9
+  question: >-
+    Healthcare affordability and access are major issues for Virginians. A
+    2025 survey by Altarum found that 72% of Virginians worry about paying for
+    healthcare in the future. If elected, what action would you take to
+    address healthcare affordability and access?
+  tag: Public Health
+
+- id: va-q10
+  question: >-
+    A 2026 Virginia Joint Commission on Health Care report found 13 of
+    Virginia's 36 rural hospitals are at immediate or distant risk of closure,
+    with six of those located in the VA-9 congressional district. What is your
+    approach to rural hospital access in Virginia, and what policies, if any,
+    would you support related to it?
+  tag: Public Health
+  races:
+    - VA-9
+
+- id: va-q11
+  question: >-
+    Virginia's public colleges and universities receive close to $1 billion
+    annually from federal science agencies like the NIH and NSF. Recent
+    changes to federal grant making were proposed by the OMB. What do you view
+    as the role for Congress in federal grant making? If elected, would you
+    support the enactment of these proposed rules?
+  tag:
+    - Investment in Higher Education
+    - Policymaking Process
+    - Science Funding

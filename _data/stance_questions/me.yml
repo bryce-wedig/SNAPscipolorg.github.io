@@ -1,0 +1,75 @@
+- id: me-q1
+  question: >-
+    Cost of fuel and heating: Maine has among the highest electricity costs in the country given the lack of local production options. What might be your approach to lowering energy costs for Mainers while considering alternative energy options such as renewables? 
+  tag: 
+    - Energy
+    - Policymaking Process
+
+- id: me-q2
+  question: >-
+    Fishing industry: The Gulf of Maine is among the fastest warming water bodies in the world. How will you support Maine fisheries communities in adapting to these changes, and what role do federal agencies (like NOAA) and local organizations have in monitoring and managing fish stocks?
+  tag: 
+    - Agriculture
+    - Climate
+    - Environment
+    - Jobs and Workforce
+
+- id: me-q3
+  question: >-
+    Natural Resources: Maine is "Vacationland," renowned for its natural resources that draw in millions of visitors per year. What policies, if any, do you support or envision in managing land-based resources in Maine (i.e. water, open-space preserves, parks) and how will you balance conservation with economic development in Maine’s natural resource sectors?
+  tag: 
+    - Climate
+    - Environment
+    - Jobs and Workforce
+    - Policymaking Process
+
+- id: me-q4
+  question: >-
+    Public Health: Substance abuse is a concern in Maine. What evidence-based approaches would you take to support improving community and preventative health for your constituents, particularly in areas such as substance use, addiction, and access to care?
+  tag: Public Health
+
+- id: me-q5
+  question: >-
+    Data centers: Data centers bring promises of economic development, but also rising electricity costs and property taxes that directly affect local communities and workers already rooted here. If elected, would you support lifting or extending the current moratorium, and if lifting it, what policies would you implement to ensure large energy users don’t increase costs for Maine households and commit to local hiring?
+  tag: 
+    - Energy
+    - Environment
+    - Jobs and Workforce
+
+- id: me-q6
+  question: >-
+    Technology/Infrastructure: What role should local communities play in decisions about large infrastructure or technology projects, on land or in the ocean, and how should the state ensure that economic benefits from new technologies stay in local communities?
+  tag: 
+    - Jobs and Workforce
+    - Policymaking Process
+    - Trust in Science
+
+- id: me-q7
+  question: >-
+    [OPTIONAL] Rural economy:  What policies would you support to strengthen rural economies in Maine, including through workforce development, infrastructure investment, and emerging sectors such as clean energy or tech?
+  tag: 
+    - Energy
+    - Jobs and Workforce
+    - Policymaking Process
+
+- id: me-q8
+  question: >-
+    [OPTIONAL] Coastal flooding and real estate: As Maine communities face risks from coastal flooding and severe storms, how should the state support residents, municipalities, and property owners in planning for and reducing flood-related damage?  
+  tag: 
+    - Climate
+    - Environment
+
+- id: me-q9
+  question: >-
+    [OPTIONAL] Automation, AI and the workforce: As automation and artificial intelligence reshape the labor market, what policies would you support to help Mainers adapt to changes in the workplace and access new job opportunities? 
+  tag: 
+    - Artificial Intelligence
+    - Jobs and Workforce
+
+- id: me-q10
+  question: >-
+    [OPTIONAL] Demographics and the workforce: Given Maine’s aging population, what policies would you support to attract, train, and retain workers in key sectors such as STEM, health care, and skilled trades, while ensuring older residents have access to needed services? 
+  tag: 
+    - Jobs and Workforce
+    - Policymaking Process
+    - Public Health

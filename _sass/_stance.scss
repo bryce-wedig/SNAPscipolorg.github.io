@@ -16,6 +16,7 @@ $stance-green:        #2E7D32; // Forest Green
 $stance-non-partisan: #6a6f76; // Neutral Slate
 $stance-no-labels-party: #58138f; // Purple
 $stance-party-for-socialism-and-liberation: #E91E26; // Alizarin Red
+$stance-unaffiliated: #6a6f76; // Neutral Slate
 
 // Per-party bubble colors as (background, text) pairs, keyed by the slug
 // emitted at each render site ({{ party | downcase | replace: ' ', '-' }}).
@@ -32,6 +33,7 @@ $stance-party-colors: (
   "non-partisan":        ($stance-non-partisan, #ffffff),
   "no-labels-party":     ($stance-no-labels-party, #ffffff),
   "party-for-socialism-and-liberation":  ($stance-party-for-socialism-and-liberation, #ffffff),
+  "unaffiliated":         ($stance-unaffiliated, #ffffff)
 );
 
 $snap-navy-dark: #18294a;

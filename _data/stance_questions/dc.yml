@@ -1,0 +1,32 @@
+- id: dc-q1
+  question: >-
+    Recent policies and budget decision have led to the termination of
+    thousands of grants. DC is an important hub for scientists and researchers
+    in the region. What role do you think research should have in the region
+    and what action if any will you take to retain scientific talent to the
+    city?
+  tag: Jobs and Workforce
+
+- id: dc-q2
+  question: >-
+    Given Congress’s authority over D.C.’s budget, how would you protect the
+    District from science funding + funding programs based on science evidence
+    (such as the proposed $1B reduction last year) while maintaining essential
+    city services?
+  tag: Policymaking Process
+
+- id: dc-q3
+  question: >-
+    The cost of electricity and water are on the rise with nearby data centers
+    straining current resources in combination with increased energy costs to
+    consumers. What specific plans do you have, if any, to mitigate utility
+    cost burden for residents? Why these steps?
+  tag: Policymaking Process
+
+- id: dc-q4
+  question: >-
+    Many states are issuing independent vaccine guidelines to ensure
+    consistent vaccine access in light of recent HHS changes - what are your
+    views on vaccine guidelines and why or why not would you support similar
+    initiatives?
+  tag: Public Health
