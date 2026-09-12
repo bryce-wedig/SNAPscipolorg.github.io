@@ -1,0 +1,42 @@
+# Events shown under "Upcoming SNAP Events" on /events/ (see
+# `_includes/upcoming_events.html`). An event disappears from the page once its
+# `date` has passed.
+#
+# Fields: name and date (YYYY-MM-DD) are required; website, category, flyer and
+# description are optional. `category` may be a single string or a list of
+# strings (each renders as its own bubble on the page).
+#
+# `description` is rendered as Markdown, so links, **bold**, lists and headings
+# all work. Write it as a literal block (`|-`, not `>-`) so line breaks survive:
+# `>-` folds every newline into a space and collapses the whole thing into one
+# paragraph. Separate paragraphs with a blank line, exactly as in Markdown.
+
+- name: Candidate Forum on Energy and the Environment
+  date: 2026-10-06
+  website: 
+  category: 
+    - 'Stance on Science'
+    - 'Stance on Science GA'
+  flyer: /images/events/2026-10-06_GA_Candidate_Forum_Flyer.jpg
+  description: |-
+    Want to know where GA State House candidates stand on energy and environmental issues? Please join us for the Candidate Forum on Energy and the Environment at the ACC Library Auditorium on 2025 Baxter Street on October 6th from 6 - 7 pm. Candidates for GA Senate Districts 46 and 47 and GA House District 121 will share their views on data centers, the environment, renewable energy, and environmental justice. Doors open at 5:30 pm with an opportunity to connect with candidates' campaign teams and forum sponsors.
+
+    RSVP at [https://bit.ly/GAFallForum](https://bit.ly/GAFallForum)
+
+    Hosted by: Coalition of Athens Scientists, Planning Committee for Candidate Forum on Energy and the Environment, ACC Library
+
+    Part of the Scientist Network for Advancing Policy's 2026 Stance on Science non-partisan initiative.
+
+- name: Science & Law Panel Discussion for Early Career Researchers
+  date: 2026-09-23
+  website: 
+  category: 
+  flyer: images/events/2026-09-23_SciLaw_Panel_Flyer.png
+  description: |-
+    SNAP is pleased to host a panel discussion on working at the intersection of science and law on September 23rd, at 5 pm ET.
+
+    This virtual event is a wonderful opportunity for everyone to learn about how science works in our legal systems and what opportunities exist to work in this juncture as a scientist. Early career scientists interested in science policy fellowships may be particularly keen to attend.
+
+    We are very grateful to our panelists, Drs. Reshmina William, Elijah Ullman, and Quentin Rizzardi, present and past AAAS STPF fellows with vast experience in this landscape. Please [click here to register](https://us06web.zoom.us/meeting/register/4Sdlt9DwQ6e3V8osDuR2RQ#/registration) and bring your questions!
+
+    This webinar is open to everyone, please feel free to share widely.

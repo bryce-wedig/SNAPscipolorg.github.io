@@ -1,0 +1,92 @@
+{%- comment -%}
+  "Upcoming SNAP Events" list, driven by `_data/events.yml`.
+
+  Each entry may set: name, date (YYYY-MM-DD), website, category, flyer,
+  description. Only `name` and `date` are required. `category` may be a single
+  string or a list of strings; each renders as its own bubble.
+
+  `description` is rendered as Markdown — links, emphasis, lists, and multiple
+  paragraphs all work. It must be written in events.yml as a literal block
+  (`|-`), not a folded one (`>-`): folding replaces every newline with a space,
+  which leaves Markdown with no paragraph or list breaks to act on.
+
+  An event disappears once its date has passed. That is filtered twice on
+  purpose: in Liquid at build time, and again in the browser on page load, so a
+  page built weeks ago (Jekyll only re-runs on a push) never shows a stale
+  event. The cutoff is the end of the event day — midnight UTC the day after —
+  so an event stays listed while it is happening.
+{%- endcomment -%}
+{%- assign now_seconds = 'now' | date: '%s' | plus: 0 -%}
+{%- assign events = site.data.events | sort: 'date' -%}
+
+<div class="snap-events" id="snap-events">
+  {%- assign shown = 0 -%}
+  {%- for event in events -%}
+    {%- assign cutoff = event.date | date: '%s' | plus: 86400 -%}
+    {%- if cutoff > now_seconds -%}
+      {%- assign shown = shown | plus: 1 -%}
+      <div class="snap-event" data-event-cutoff="{{ cutoff }}">
+        {%- if event.flyer -%}
+          <div class="snap-event__flyer">
+            <img class="snap-event__flyer-img" src="{{ event.flyer | relative_url }}" alt="Flyer for {{ event.name }}">
+          </div>
+        {%- endif -%}
+        <div class="snap-event__body">
+          <p class="snap-event__date">{{ event.date | date: '%B %-d, %Y' }}</p>
+          <h4 class="snap-event__name">
+            {%- if event.website -%}
+              <a href="{{ event.website }}">{{ event.name }}</a>
+            {%- else -%}
+              {{ event.name }}
+            {%- endif -%}
+          </h4>
+          {%- if event.category -%}
+            {%- assign event_categories = event.category | join: "|||" | split: "|||" -%}
+            <p class="snap-event__categories">
+              {%- for cat in event_categories -%}
+                <span class="snap-event__category">{{ cat }}</span>
+              {%- endfor -%}
+            </p>
+          {%- endif -%}
+          {%- if event.description -%}
+            <div class="snap-event__description">{{ event.description | markdownify }}</div>
+          {%- endif -%}
+          {%- if event.website -%}
+            <p class="snap-event__link"><a href="{{ event.website }}">More information &raquo;</a></p>
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endif -%}
+  {%- endfor -%}
+
+  <p class="snap-events__empty"{% if shown > 0 %} hidden{% endif %}>
+    <b>No upcoming events right now — check the calendar below, and check back soon!</b>
+  </p>
+
+  {%- comment -%} Lightbox overlay for flyer images. Enhanced by snap-events-lightbox.js. {%- endcomment -%}
+  <div class="snap-events__lightbox" role="dialog" aria-modal="true" aria-label="Flyer viewer" hidden>
+    <button type="button" class="snap-events__lb-close" aria-label="Close">&times;</button>
+    <img class="snap-events__lb-img" alt="">
+  </div>
+</div>
+
+<script src="{{ '/assets/javascript/snap-events-lightbox.js' | relative_url }}"></script>
+<script>
+  // Second pass at the date filter: drop anything that passed since the site
+  // was last built, and reveal the empty-state message if nothing is left.
+  (function () {
+    var root = document.getElementById('snap-events');
+    if (!root) return;
+    var now = Date.now() / 1000;
+    var remaining = 0;
+    root.querySelectorAll('.snap-event').forEach(function (el) {
+      if (parseInt(el.dataset.eventCutoff, 10) <= now) {
+        el.hidden = true;
+      } else {
+        remaining++;
+      }
+    });
+    var empty = root.querySelector('.snap-events__empty');
+    if (empty) empty.hidden = remaining > 0;
+  })();
+</script>
