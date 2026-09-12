@@ -18,8 +18,8 @@ contact: >
 # Pages shown in navbar
 nav_pages:
   - name: about
-  - name: calendar
   - name: initiatives
+  - name: events
   - name: resources
   - name: blog
   - name: press
