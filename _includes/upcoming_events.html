@@ -15,15 +15,32 @@
   page built weeks ago (Jekyll only re-runs on a push) never shows a stale
   event. The cutoff is the end of the event day — midnight UTC the day after —
   so an event stays listed while it is happening.
+
+  Pass `category` to only show events with a category that starts with that
+  string, e.g. `{% include upcoming_events.html category="Stance on Science" %}`
+  picks up both "Stance on Science" and "Stance on Science GA".
 {%- endcomment -%}
 {%- assign now_seconds = 'now' | date: '%s' | plus: 0 -%}
 {%- assign events = site.data.events | sort: 'date' -%}
+{%- assign filter_category = include.category -%}
+{%- assign filter_len = filter_category | size -%}
 
 <div class="snap-events" id="snap-events">
   {%- assign shown = 0 -%}
   {%- for event in events -%}
     {%- assign cutoff = event.date | date: '%s' | plus: 86400 -%}
-    {%- if cutoff > now_seconds -%}
+    {%- assign event_categories = event.category | join: "|||" | split: "|||" -%}
+    {%- assign matches_filter = true -%}
+    {%- if filter_category -%}
+      {%- assign matches_filter = false -%}
+      {%- for cat in event_categories -%}
+        {%- assign cat_prefix = cat | slice: 0, filter_len -%}
+        {%- if cat_prefix == filter_category -%}
+          {%- assign matches_filter = true -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+    {%- if cutoff > now_seconds and matches_filter -%}
       {%- assign shown = shown | plus: 1 -%}
       <div class="snap-event" data-event-cutoff="{{ cutoff }}">
         {%- if event.flyer -%}
@@ -41,7 +58,6 @@
             {%- endif -%}
           </h4>
           {%- if event.category -%}
-            {%- assign event_categories = event.category | join: "|||" | split: "|||" -%}
             <p class="snap-event__categories">
               {%- for cat in event_categories -%}
                 <span class="snap-event__category">{{ cat }}</span>
