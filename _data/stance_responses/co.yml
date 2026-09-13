@@ -3693,3 +3693,141 @@
       
       I whole-heartedly agree."
 
+- candidate_first_name: Clifton
+  candidate_last_name: Brown
+  state: co
+  race: US House of Representatives
+  district: 3
+  party: Unaffiliated
+  question: co-q1
+  date: 2026-09-12
+  primary_candidate: false
+  response: |
+      "Scientific review and the process of peer review is critical and will lead my investigations of any kind on any subject."
+
+- candidate_first_name: Clifton
+  candidate_last_name: Brown
+  state: co
+  race: US House of Representatives
+  district: 3
+  party: Unaffiliated
+  question: co-q2
+  date: 2026-09-12
+  primary_candidate: false
+  response: |
+      "Global warming, pesticides, GMO's, the environment, and sustainable agriculture is the key to having a healthy supply of agricultural products and a profitable industry."
+
+- candidate_first_name: Clifton
+  candidate_last_name: Brown
+  state: co
+  race: US House of Representatives
+  district: 3
+  party: Unaffiliated
+  question: co-q3
+  date: 2026-09-12
+  primary_candidate: false
+  response: |
+      "I care far more about privacy rights, job reductions and resource use than about supporting a cutting-edge industry with the potential to create so much damage to society. No more data centers until we put some serious restrictions on what AI is able to do."
+
+- candidate_first_name: Clifton
+  candidate_last_name: Brown
+  state: co
+  race: US House of Representatives
+  district: 3
+  party: Unaffiliated
+  question: co-q4
+  date: 2026-09-12
+  primary_candidate: false
+  response: |
+      "Freedom of choice is key. Vaccines work but mandating vaccines is not the way to go."
+
+- candidate_first_name: Clifton
+  candidate_last_name: Brown
+  state: co
+  race: US House of Representatives
+  district: 3
+  party: Unaffiliated
+  question: co-q5
+  date: 2026-09-12
+  primary_candidate: false
+  response: |
+      "Since the cultural revolution of the sixties, it seems clear that the controlling interests in America would rather have a population of idiots that can be controlled and manipulated. Stupidity is the biggest reason we are likely to fail as a nation."
+
+- candidate_first_name: Gabriel
+  candidate_last_name: Cervantes
+  state: co
+  race: State House of Representatives
+  district: 31
+  party: Democratic
+  question: co-q1
+  date: 2026-09-13
+  primary_candidate: false
+  response: |
+      "Data is strongest when paired with the lived experiences of the communities a policy will affect. If elected, I will often look to the people most knowledgeable by the pertaining legislation, as well as the people most affected by it. Researchers, subject-matter experts, state agencies, nonpartisan legislative staff, community organizations, and professionals working in these fields combined have the best information to convey. 
+      
+      It is imperative to seek clear information about the evidence supporting the proposal, its expected externalities, possible unintended consequences, and how it's effectiveness will be measured. When the evidence is still developing, pilot programs, consistent evaluations, reporting requirements, and having the humility to improve legislation rather than assuming the first approach will always be the best one will be important as well."
+
+- candidate_first_name: Gabriel
+  candidate_last_name: Cervantes
+  state: co
+  race: State House of Representatives
+  district: 31
+  party: Democratic
+  question: co-q2
+  date: 2026-09-13
+  primary_candidate: false
+  response: |
+      "I would prioritize policies that give producers the ability to have continued access to the best available science and financial tools in order to adopt practices that strengthen both agricultural productivity and protect our environment.
+      
+      That means continuing to develop science around our universities in Colorado, build broad coalitions with organizations like the Colorado Department of Agriculture, and farmers and ranchers themselves to expand research and adoption. 
+      
+      Colorado must also focus on the ease and access of these transitions, something the state has historically struggled with in regard to the environmental shift in the state. I would support grants, cost-sharing, technical assistance, and financing for proven water-conservation and agricultural technologies, particularly for small and family-owned operations that may not have the capital to make those investments on their own. 
+      
+      Protecting agriculture and our environment should not be competing goals. If we are trusting the science and making the transitions to more efficient practices accessible, then they should be working in tandem."
+
+- candidate_first_name: Gabriel
+  candidate_last_name: Cervantes
+  state: co
+  race: State House of Representatives
+  district: 31
+  party: Democratic
+  question: co-q3
+  date: 2026-09-13
+  primary_candidate: false
+  response: |
+      "The balance will exist in a combination of responsibility and relationships. Large data centers should be responsible for the infrastructure costs created by their massive electricity demands instead of emplacing those costs onto the communities they exist in. I support open energy-use reporting and requirements on how major new loads demonstrate how they will support grid reliability and not derail Colorado's clean-energy goals.
+      
+      Water use must also be considered in siting and permitting decisions. Requiring closed loop systems and giving local communities a meaningful role in determining whether a project is appropriate for their water supply is crucial in the evaluation of the potential impacts of these builds. Colorado is feeling the water constraint, so we have to be able to prioritize efficiency. 
+      
+      As it comes to balance, we need to understand the need to stay competitive-Colorado is an attractive place to build in the first place. What we don't need are unnecessary regulations that make the process more difficult for the sake of feeling better about it, but we also need to ensure that impact is minimized. 
+      
+      Builders want to come to Colorado and it would do us much better if we kept those builds here instead of them being more costly and unregulated in a state surrounding us. We need to ensure that we can build it right and build them safely."
+
+- candidate_first_name: Gabriel
+  candidate_last_name: Cervantes
+  state: co
+  race: State House of Representatives
+  district: 31
+  party: Democratic
+  question: co-q4
+  date: 2026-09-13
+  primary_candidate: false
+  response: |
+      "We need to require that students and workers be vaccinated. That's it."
+
+- candidate_first_name: Gabriel
+  candidate_last_name: Cervantes
+  state: co
+  race: State House of Representatives
+  district: 31
+  party: Democratic
+  question: co-q5
+  date: 2026-09-13
+  primary_candidate: false
+  response: |
+      "A scientifically literate public should be able to evaluate evidence, understand basic statistics and probability, recognize the difference between correlation and causation, assess the credibility of sources, and understand that scientific conclusions can evolve as new evidence becomes available. Developing those skills in our schools is imperative to ensuring that we can do things such as research policy decisions and effectively recognize propaganda. 
+      
+      K-12 schools should focus more on inquiry-based and hands-on learning, data interpretation, scientific reasoning, and continuing to build strong foundations in STEM. Students should have opportunities to work through real-world problems and explain why the evidence supports a particular conclusion rather than simply being asked to memorize the conclusion itself.
+      
+      We should also continue to normalize science in a cultural way. Schools can partner with universities, laboratories, healthcare professionals, agricultural experts, engineers, and local employers to expose students to scientists and the practical applications of science in their own communities. We as members of the government should be to provide teachers and organizations with the training and resources necessary to teach students effectively."
+
