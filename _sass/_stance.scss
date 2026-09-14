@@ -17,6 +17,9 @@ $stance-non-partisan: #6a6f76; // Neutral Slate
 $stance-no-labels-party: #58138f; // Purple
 $stance-party-for-socialism-and-liberation: #E91E26; // Alizarin Red
 $stance-unaffiliated: #6a6f76; // Neutral Slate
+$stance-nebraska-working-people: #A65D2E; // Rust Terracotta
+$stance-america-first: #18294A; // Deep Navy
+$stance-legal-marijuana-now: #3C8577; // Sage Teal
 
 // Per-party bubble colors as (background, text) pairs, keyed by the slug
 // emitted at each render site ({{ party | downcase | replace: ' ', '-' }}).
@@ -33,7 +36,10 @@ $stance-party-colors: (
   "non-partisan":        ($stance-non-partisan, #ffffff),
   "no-labels-party":     ($stance-no-labels-party, #ffffff),
   "party-for-socialism-and-liberation":  ($stance-party-for-socialism-and-liberation, #ffffff),
-  "unaffiliated":         ($stance-unaffiliated, #ffffff)
+  "unaffiliated":         ($stance-unaffiliated, #ffffff),
+  "nebraska-working-people": ($stance-nebraska-working-people, #ffffff),
+  "america-first":        ($stance-america-first, #ffffff),
+  "legal-marijuana-now":  ($stance-legal-marijuana-now, #ffffff)
 );
 
 $snap-navy-dark: #18294a;
