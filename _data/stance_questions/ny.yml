@@ -1,0 +1,111 @@
+- id: ny-q1
+  question: >-
+    Data centers are a controversial part of America's growing AI industry,
+    supporting cutting-edge innovation and potential job creation, but raising
+    issues of resource use and utility costs. New York now has a moratorium on
+    data center construction. At the same time, state tax law grants tax
+    exemptions to equipment and services used by data centers, which some
+    proposed legislation would repeal. What do you see as the right balance of
+    costs and benefits for new data center construction in New York, and how
+    would your policies accomplish that balance?
+  tag: Artificial Intelligence
+
+- id: ny-q2
+  question: >-
+    New York currently generates about 47% of its energy from low carbon
+    sources including nuclear, hydropower, and wind and solar, with the
+    remainder coming from combustion sources (natural gas, oil, biofuel, and
+    solid waste). While New York committed to shifting to low-carbon energy
+    sources and emissions reductions in passing the Climate Leadership and
+    Community Protection Act (CLCPA), Governor Hochul recently moved to delay
+    implementation of several components of the state's climate law to
+    December 31, 2028. As concerns about energy costs, reliability, and
+    emissions grow, what energy sources would you prioritize, under what
+    timeline, and what evidence would guide that decision?
+  tag:
+    - Climate
+    - Energy
+
+- id: ny-q3
+  question: >-
+    Young adults say that social media is their top source of science
+    information, but acknowledge that it is less trustworthy compared to other
+    sources. In addition, the widespread usage of social media and other
+    sources of scientific information has resulted in the spread of
+    misinformation that has spurred public education policies to curb it, such
+    as a NYC vaccine misinformation legislation. What role should public
+    education play in combatting misinformation and disseminating trustworthy,
+    up to date scientific information to students and their families?
+  tag: Trust in Science
+
+- id: ny-q4
+  question: >-
+    Pesticides are widely used in food production to help manage pests and
+    support crop yields, but ongoing debates over their safety have raised
+    questions about their long-term use and led to proposals to restrict
+    certain pesticides. What data and evidence will you use to weigh the role
+    of these products in food security against safety concerns when shaping
+    policy on their use in New York agriculture?
+  tag:
+    - Agriculture
+    - Public Health
+
+- id: ny-q5
+  question: >-
+    New York has the second largest international student population of any
+    U.S. state, the majority of which study in STEM fields. The federal
+    government is pursuing largescale changes to student visa approval,
+    including increased visa denials, revoking existing visas, restricting
+    travel from certain countries, and decreasing student visa durations. How,
+    if at all, should New York respond to federal visa changes affecting
+    international STEM students and researchers, and the resulting projected
+    changes in the scientific workforce supply?
+  tag: Jobs and Workforce
+
+- id: ny-q6
+  question: >-
+    Extreme weather events are increasingly impacting farmland and food
+    supplies across NY, including up to 30 million dollars in damages to
+    farmer livelihoods. This has prompted the USDA to designate 30 counties in
+    New York as Natural Disaster Areas. What policies, if any, would you
+    support to help farmers adapt to and prepare for increasingly erratic
+    weather?
+  tag:
+    - Agriculture
+    - Environment
+
+- id: ny-q7
+  question: >-
+    Law enforcement agencies across New York have contracted with Flock to
+    install Automated License Plate Reader (ALPR) cameras as a public safety
+    tool. The technology is receiving pushback over concerns over privacy and
+    data sharing, resulting in city councilors in Syracuse voting to remove
+    Flock cameras. What are your views on accessibility and utilization of
+    ALPR data by local and federal law enforcement, and what legislation, if
+    any, would you propose governing how ALPR data is collected, stored,
+    shared and retained?
+  tag: Artificial Intelligence
+
+- id: ny-q8
+  question: >-
+    Smoke from Canadian wildfires in recent summers has pushed New York air
+    quality to unhealthy levels. The long-term consequences, if any, of these
+    wildfires are unknown: Short-term data show a rise in asthma-related
+    emergency department visits during smoke events, though some studies
+    suggest the increase is comparable to that seen on high-pollen days. With
+    extreme wildfire seasons projected to become more frequent as global
+    temperatures rise, what measures, if any, do you think New York should
+    invest in to prepare for future smoke events?
+  tag:
+    - Environment
+    - Public Health
+
+- id: ny-q9
+  question: >-
+    New York is the second largest recipient of funding from the National
+    Institutes of Health (NIH). Proposed federal budgets would significantly
+    reduce NIH funds going to New York hospitals, universities, and research
+    institutions. Where do you stand on the proposed changes to NIH funding
+    levels, and what steps, if any, would you take to address their potential
+    effect on New York's research sector?
+  tag: Science Funding
