@@ -16,6 +16,8 @@ instagram_url:
 x_url:
 bluesky_url:
 reddit_url:
+linkedin_url:
+linktree_url:
 published: true
 ---
 {%- assign responses = site.data.stance_responses[page.state] | default: empty -%}
@@ -198,6 +200,14 @@ published: true
 {%- if page.bluesky_url -%}
   {%- capture _bs -%}<a href="{{ page.bluesky_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky"></i> Bluesky</a>{%- endcapture -%}
   {%- assign socials = socials | push: _bs -%}
+{%- endif -%}
+{%- if page.linkedin_url -%}
+  {%- capture _li -%}<a href="{{ page.linkedin_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _li -%}
+{%- endif -%}
+{%- if page.linktree_url -%}
+  {%- capture _lt -%}<a href="{{ page.linktree_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-linktree"></i> Linktree</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _lt -%}
 {%- endif -%}
 {%- if socials.size > 0 %}
 <footer class="stance-state-socials">
