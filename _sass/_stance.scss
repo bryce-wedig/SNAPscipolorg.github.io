@@ -111,6 +111,54 @@ $stance-focus-ring: 0 0 0 3px rgba($snap-blue, 0.14);
 }
 
 // ---------------------------------------------------------------------------
+// Key numbers row (landing page)
+// ---------------------------------------------------------------------------
+
+.stance-stats {
+  // Reads as one sentence — "N responses from N candidates to N questions
+  // across N states" — with the numbers scaled up. Wraps group-by-group on
+  // narrow screens so a number never separates from its own noun.
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  // Tight enough that each joiner reads as part of the phrase rather than
+  // floating between two groups; matches the number/noun gap inside a group.
+  gap: 0.25rem 0.35rem;
+  margin: 1.25rem 0 1.75rem;
+  padding: 1.25rem 0;
+  border-top: 1px solid $stance-gray-border;
+  border-bottom: 1px solid $stance-gray-border;
+  text-align: center;
+
+  &__item {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.3rem;
+    white-space: nowrap;
+  }
+
+  &__number {
+    font-size: clamp(1.75rem, 5vw, 2.75rem);
+    font-weight: 700;
+    line-height: 1.1;
+    color: $snap-blue;
+    font-variant-numeric: tabular-nums;
+  }
+
+  &__label {
+    font-size: clamp(0.9rem, 1.6vw, 1.05rem);
+    font-weight: 600;
+    color: $stance-ink;
+  }
+
+  &__joiner {
+    font-size: clamp(0.9rem, 1.6vw, 1.05rem); // same size as &__label
+    color: $stance-muted;
+  }
+}
+
+// ---------------------------------------------------------------------------
 // State page layout
 // ---------------------------------------------------------------------------
 

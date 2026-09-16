@@ -2,21 +2,24 @@
 layout: gridlay
 collection: initiatives
 sitemap: true
-state: vt
-state_name: Vermont
-demonym_plural: Vermonters
-team_email: jessaburling0606@gmail.com
-ballot_lookup_url: https://legislature.vermont.gov/reports-and-research/research/reapportionment/2022-house-of-representatives-reapportionment/districts-by-town-2/
-ballot_lookup_label: Vermont General Assembly "House Districts by Town" website
+# `state` and `state_name` are used by the global search and map to look up
+# this page from a USPS code. Keep them in sync with the YAML responses file
+# at _data/stance_responses/ny.yml.
+state: ny
+state_name: New York
+demonym_plural: New Yorkers
+team_email: stanceonscienceny@gmail.com
+ballot_lookup_url: https://findmypollsite.vote.nyc/
+ballot_lookup_label: Find My Pollsite NYC website
 # Socials (optional — leave blank to hide a link, or all blank to hide the footer):
 instagram_url:
 facebook_url:
-tiktok_url:
-x_url:
-bluesky_url:
-reddit_url:
-linkedin_url:
-linktree_url:
+tiktok_url: 
+x_url: https://x.com/NYStanceOnSci
+bluesky_url: https://bsky.app/profile/stanceonscienceny.bsky.social
+reddit_url: https://www.reddit.com/user/StanceOnScienceNY/
+linkedin_url: https://www.linkedin.com/company/stance-on-science-new-york
+linktree_url: https://linktr.ee/stanceonscienceny
 published: true
 ---
 {%- assign responses = site.data.stance_responses[page.state] | default: empty -%}
@@ -104,89 +107,27 @@ published: true
   <p>This webpage houses the responses to {{ questions.size }} questions
   crafted by the {{ team_name }} team.</p>
   <p>Only official candidates who will appear on ballots were contacted.</p>
-  <p>Candidates were contacted in June 2026 (with a follow-up to those who
+  <p>Candidates were contacted in September 2026 (with a follow-up to those who
   did not initially respond) and given the opportunity to answer all questions. Only the responses of candidates who answered the questions are
   included. None of the candidates' responses were modified in any way before
   being published on this resource page.</p>
 
-  <p><u>For the <strong>August 2026 Primary Election and November 2026 General
-  Election</strong></u>, only candidates in
-  the following elections were contacted<sup>1</sup>:</p>
+  <p><u>For the <strong>November 2026 general election</strong></u>, candidates in
+  the following elections were contacted:</p>
   {%- comment -%}
     For races that have district/party sub-bullets, wrap them in a
     <details class="stance-race-group"> so the sub-list collapses by default.
     For a race with no sub-bullets, use <div class="stance-race-flat">.
   {%- endcomment -%}
   <div>
-    <details class="stance-race-group">
-      <summary>US House of Representatives</summary>
-        <ul>
-          <li>Republican Primary for VT Representative for At-Large District</li>
-          <li>Democratic Primary for VT Representative for At-Large District</li>
-          <li>Independent Primary for VT Representative for At-Large District</li>
-        </ul>
-    </details>
-    <details class="stance-race-group">
-      <summary>Vermont State Senate</summary>
-        <ul>
-          <li>Republican & Democratic Primaries for Addison District, Bennington District, Caledonia District, Chittenden Central District, Chittenden North District, Chittenden Southeast District, Essex District, Franklin District, Grand Isle District, Lamoille District, Orange District, Rutland District, Washington District, Windham District, Windsor District</li>
-        </ul>
-    </details>
-    <details class="stance-race-group">
-      <summary>Vermont House of Representatives</summary>
-        <ul>
-          <li>Republican & Democratic Primaries for Addison Districts 1-5, Bennington Districts 1-5, Rutland District, Caledonia-Essex District, Caledonia-Washington District, Caledonia Districts 1-3, Chittenden-Franklin District, Chittenden Districts 1-25, Franklin Districts 1-8, Isle-Chittenden District, Lamoille-Washington District, Lamoille Districts 1-3, Orange-Caledonia District, Orange-Washington-Addison District, Orange Districts 1-3, Orleans-Lamoille District, Orleans Districts 1-4, Rutland-Bennington District, Rutland-Windsor District, Rutland Districts 1-11, Washington Districts 1-6, Washington-Chittenden District, Windham-Windsor-Bennington District, Windham Districts 1-9, Windsor-Addison District, Windsor-Orange Districts 1-2, Windsor-Windham District, Windsor Districts 1-6</li>
-        </ul>
-    </details>
-    <details class="stance-race-group">
-      <summary>Vermont Governor</summary>
-        <ul>
-          <li>Republican Primary</li>
-          <li>Democratic Primary</li>
-          <li>Independent Primary</li>
-        </ul>
-    </details>
-    <details class="stance-race-group">
-      <summary>Vermont Lieutenant Governor</summary>
-        <ul>
-          <li>Republican Primary</li>
-          <li>Democratic Primary</li>
-        </ul>
-    </details>
-    <details class="stance-race-group">
-      <summary>Vermont Attorney General</summary>
-        <ul>
-          <li>Republican Primary</li>
-          <li>Democratic Primary</li>
-        </ul>
-    </details>
-    <details class="stance-race-group">
-      <summary>Vermont Secretary of State</summary>
-        <ul>
-          <li>Republican Primary</li>
-          <li>Democratic Primary</li>
-        </ul>
-    </details>
-    <details class="stance-race-group">
-      <summary>Vermont Treasurer</summary>
-        <ul>
-          <li>Republican Primary</li>
-          <li>Democratic Primary</li>
-        </ul>
-    </details>
-    <details class="stance-race-group">
-      <summary>Vermont Auditor</summary>
-        <ul>
-          <li>Republican Primary</li>
-          <li>Democratic Primary</li>
-        </ul>
-    </details>
+    <div class="stance-race-flat">US House of Representatives</div>
+    <div class="stance-race-flat">NY State Senate</div>
+    <div class="stance-race-flat">NY State House</div>
+    <div class="stance-race-flat">NY Governor</div>
+    <div class="stance-race-flat">Lieutenant Governor</div>
+    <div class="stance-race-flat">Comptroller</div>
+    <div class="stance-race-flat">Attorney General</div>
   </div>
-  <p><small><sup>1</sup> These primary elections were prioritized because
-  they have more than one official candidate on the ballot.</small></p>
-
-  <p>The contacted candidates include those running in both the August 2026
-  primary election and the November 2026 general election.</p>
   </div>
 </details>
 
@@ -225,13 +166,16 @@ published: true
 
 <div class="ballot-lookup-callout">
   <p>To find your districts for state and federal races and see who is on your ballot, please visit the
-    <a href="{{ page.ballot_lookup_url }}" target="_blank" rel="noopener">{{ page.ballot_lookup_label }}</a>.</p>
+    <a href="{{ page.ballot_lookup_url }}" target="_blank" rel="noopener">{{ page.ballot_lookup_label }}</a> (NYC only).</p>
 </div>
 
 </div><!-- /.stance-intro -->
 
 <hr class="stance-rule"/>
 
-{% include stance/response_explorer.html heading="August 2026 Primary Election and November 2026 General Election" %}
+{% include stance/response_explorer.html heading="November 2026 general election" %}
 
 {% include stance/press_mentions.html state=page.state %}
+
+{% include stance/meet_the_team.html state=page.state %}
+  

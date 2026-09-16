@@ -87,6 +87,8 @@ tiktok_url:
 x_url: https://x.com/wastatestance
 bluesky_url: https://bsky.app/profile/wa-stanceonscience.bsky.social
 reddit_url:
+linkedin_url:
+linktree_url:
 published: true                           # TODO: delete this line (or set to true) to publish
 ---
 {%- assign responses = site.data.stance_responses[page.state] | default: empty -%}
@@ -126,6 +128,14 @@ published: true                           # TODO: delete this line (or set to tr
 {%- if page.reddit_url -%}
   {%- capture _rd -%}<a href="{{ page.reddit_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-reddit"></i> Reddit</a>{%- endcapture -%}
   {%- assign socials = socials | push: _rd -%}
+{%- endif -%}
+{%- if page.linkedin_url -%}
+  {%- capture _li -%}<a href="{{ page.linkedin_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _li -%}
+{%- endif -%}
+{%- if page.linktree_url -%}
+  {%- capture _lt -%}<a href="{{ page.linktree_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-linktree"></i> Linktree</a>{%- endcapture -%}
+  {%- assign socials = socials | push: _lt -%}
 {%- endif -%}
 
 <header class="stance-state-header">

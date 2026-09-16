@@ -1,0 +1,25 @@
+- id: ar-q1
+  question: >-
+    America has a growing AI industry, supporting cutting-edge innovation
+    but raising issues of resource use, privacy, and economics. In your
+    opinion, what are the costs and benefits of new data center
+    construction in Arkansas and how would your policies accomplish a
+    balance between them?
+  tag: Artificial Intelligence
+
+- id: ar-q2
+  question: >-
+    Making the US competitive in the bioeconomy (using technology applied
+    to renewable biological resources to produce food, energy, and
+    industrial goods) requires innovation and investments in business,
+    academia, and government. Please describe policies you will support,
+    if any, that relate to workforce development in Arkansas' strengths
+    such as agriculture and biotechnology; and explain their rationale.
+  tag: Jobs and Workforce
+
+- id: ar-q3
+  question: >-
+    What are your opinions on the current state of science literacy, and
+    how could K-12 education standards be adapted to improve the public
+    understanding of and relationship building in science?
+  tag: K-12 Science Education
