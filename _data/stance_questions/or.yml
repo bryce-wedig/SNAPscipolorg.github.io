@@ -35,7 +35,7 @@
     Many Oregon residents and policymakers have put pressure on the energy
     industry to reduce power production from facilities which present
     hazards to the environment, such as the retirement of multiple coal
-    power plants. However, Oregon residents are also facing sharply rising
+    power plants. However, Oregonians are also facing sharply rising
     electricity bills driven by surging market prices and rapidly growing
     demand, including from the proliferation of data centers across the
     region. If elected, what specific steps will you take to address the
@@ -46,6 +46,7 @@
     - Environment
   races:
     - US Senate
+    - Governor
 
 - id: or-q4
   question: >-
@@ -103,23 +104,6 @@
     resource sectors?
   tag:
     - Agriculture
-    - Environment
-  races:
-    - Governor
-
-- id: or-q8
-  question: >-
-    Many Oregon residents and policymakers have put pressure on the energy
-    industry to reduce power production from facilities which present
-    hazards to the environment, such as the retirement of multiple coal
-    power plants. However, Oregonians are also facing sharply rising
-    electricity bills driven by surging market prices and rapidly growing
-    demand, including from the proliferation of data centers across the
-    region. If elected, what specific steps will you take to address the
-    causes of high energy costs for Oregon residents and businesses,
-    including data centers?
-  tag:
-    - Energy
     - Environment
   races:
     - Governor
