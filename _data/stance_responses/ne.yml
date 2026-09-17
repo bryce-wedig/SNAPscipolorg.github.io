@@ -167,7 +167,7 @@
   state: ne
   race: State Legislature
   district: 20
-  party: No Party Preference
+  party: Non-partisan
   question: ne-q12
   date: 2026-08-31 
   response: |
@@ -178,7 +178,7 @@
   state: ne
   race: State Legislature
   district: 20
-  party: No Party Preference
+  party: Non-partisan
   question: ne-q13
   date: 2026-08-31 
   response: |
@@ -189,7 +189,7 @@
   state: ne
   race: State Legislature
   district: 20
-  party: No Party Preference
+  party: Non-partisan
   question: ne-q14
   date: 2026-08-31 
   response: |
@@ -200,7 +200,7 @@
   state: ne
   race: State Legislature
   district: 20
-  party: No Party Preference
+  party: Non-partisan
   question: ne-q15
   date: 2026-08-31 
   response: |
@@ -211,7 +211,7 @@
   state: ne
   race: State Legislature
   district: 20
-  party: No Party Preference
+  party: Non-partisan
   question: ne-q16
   date: 2026-08-31 
   response: |
@@ -222,8 +222,148 @@
   state: ne
   race: State Legislature
   district: 20
-  party: No Party Preference
+  party: Non-partisan
   question: ne-q17
   date: 2026-08-31 
   response: |
     "Frequent consultation with experts in industry relevant to legislation in front of me. Known to be a strong collaborator with a wide spectrum of expert groups."
+
+- candidate_first_name: Rick
+  candidate_last_name: Beard
+  state: ne
+  race: Governor
+  party: Legal Marijuana NOW
+  question: ne-q7
+  date: 2026-09-12 
+  response: |
+    "I plan to create an advisory committee of scientists, experts, first responders, community volunteers, and previously affected victims of natural disasters. Through these people we will find the ways and means to mitigate and prevent future disasters. Learning from other states and nations can show us the causes and potential solutions to these dangerous situations. We also need state and federal resources to combat disasters. Having the funds on hand to match with federal money is key to succeeding. Through cannabis revenue and corporate tax reform we will start creating a safer environment for our citizens by supplying the funds needed to improve our emergency response systems. We must not rely on others to come save us. I will incentivize volunteer training programs and completion of FIMA independent study courses that prepare our citizens to activate in times of emergency."
+    
+    KEYWORDS: Safety, training, prevention, education, volunteers, funding
+
+- candidate_first_name: Rick
+  candidate_last_name: Beard
+  state: ne
+  race: Governor
+  party: Legal Marijuana NOW
+  question: ne-q8
+  date: 2026-09-12 
+  response: |
+    "We must clean our soil and reduce the amount of nitrates in our water. I'll give Nebraska farmers profitable alternatives to continuous corn and other high-input cropping systems, particularly on acres where excessive nitrogen and irrigation are contributing to groundwater contamination. 1,000,000 acres is about 6.5% of Nebraska's corn and soybean acreage. If we can incorporate a million acres of industrial hemp into rotation with crops that use more nitrogen, we will start using roughly 35,000 fewer tons of nitrogen every year while pulling contaminates from the soil and eventually lowering nitrates in our water. When we shut down 100 Pillen pig farms for exploiting undocumented workers, the amount of nitrogen released into our water will definitely be reduced. We will balance water levels by banning data centers from Nebraska and rotating corn acreage with crops that use less less water."
+    
+    KEYWORDS: Public health, responsible farming, science
+
+- candidate_first_name: Rick
+  candidate_last_name: Beard
+  state: ne
+  race: Governor
+  party: Legal Marijuana NOW
+  question: ne-q9
+  date: 2026-09-12 
+  response: |
+    "The purpose of the Nebraska DHHS should be pretty simple: take care of Nebraskans who need assistance and make sure the programs we are paying for actually work. That means protecting children, supporting people with disabilities, helping families in need, providing access to health care, supporting mental health care for all, and making sure our most vulnerable citizens aren't being underserved. 
+
+    When I appoint someone to lead DHHS, I need somebody who understands that these are real people, not numbers on a spreadsheet. I want someone with strong management skills, financial responsibility, common sense, and the ability to listen to people who actually use these programs while making fact based decisions. They must be able to reject special interest influence and not succumb to the powers that fight against health care expansion."
+    
+    KEYWORDS: Compassion, expansion, reliability, honesty, access
+
+- candidate_first_name: Rick
+  candidate_last_name: Beard
+  state: ne
+  race: Governor
+  party: Legal Marijuana NOW
+  question: ne-q10
+  date: 2026-09-12 
+  response: |
+    "You can lead a horse to water.....When it comes to policy making, scientific research has taken a back seat when it comes to war, environmental issues, AI, cannabis, hemp, food systems, pharmaceuticals, alternative energy options, the list goes on and on. I will bring scientific expertise and research data to to relevant policy making sessions. Science and research provides facts that are invaluable when creating legislation. Special interest and PAC money flowing to our elected officials makes them ignore research and science when creating policy for their donor bosses, without the people's best interest in mind.  The scientific truth must be woven into the legislation that shapes Nebraska, otherwise we are creating policy based on speculation, special influence, and lies.  Bringing truth and science into Nebraska policy is one of the reasons I am running for this office."
+    
+    KEYWORDS: Transparent, evidence based, responsive
+
+- candidate_first_name: Rick
+  candidate_last_name: Beard
+  state: ne
+  race: Governor
+  party: Legal Marijuana NOW
+  question: ne-q10
+  date: 2026-09-12 
+  response: |
+    "That's great. Gold wants $160 million more this year. That's $160 from every taxpayer. I'll incentivize our universities to have industrial hemp curriculum, grow industrial hemp, process it, manufacture green building products, sell them, and put the revenue towards funding the University instead of demanding the taxpayers foot the bill every year. Supporting outdated and conservative farm policy while ignoring financial solutions staring them in the face doesn't bode well for their economic and agricultural departments.  The short and long term effects of program cuts to the UN system make it less diverse and not as attractive to the world's top students.  It's like compromised athletic recruitment to a college that hasn't won a championship in a few decades.  University funding does fall into my budget plans. My suggestion: grow, manufacture, and sell industrial hemp products. All the profits go back to the Universities to mitigate financial gaps and department closures."
+    
+    KEYWORDS: Affordability, access, new revenue & new curriculum
+
+- candidate_first_name: Cally
+  candidate_last_name: Ideus
+  state: ne
+  race: State Legislature
+  district: 30
+  party: Non-partisan
+  question: ne-q12
+  date: 2026-09-14 
+  response: |
+    "When making informed decisions on any subject, you have a fundamental responsibility to include as much relevant data as possible, including scientific evidence."
+
+    KEYWORDS: Facts, science, informed
+    
+- candidate_first_name: Cally
+  candidate_last_name: Ideus
+  state: ne
+  race: State Legislature
+  district: 30
+  party: Non-partisan
+  question: ne-q12
+  date: 2026-09-14 
+  response: |
+    "I am disappointed in the implementation, growth, and sustainment of the STEM program in Nebraska rural schools."
+
+    KEYWORDS: STEM, Rural, Access
+    
+- candidate_first_name: Cally
+  candidate_last_name: Ideus
+  state: ne
+  race: State Legislature
+  district: 30
+  party: Non-partisan
+  question: ne-q12
+  date: 2026-09-14 
+  response: |
+    "All of the entities names have opportunities to build successful strategic partnerships.  The uniqueness in each allow collaboration and dynamic research capabilities."
+
+    KEYWORDS: Collaboration, strategic, uniqueness
+    
+- candidate_first_name: Cally
+  candidate_last_name: Ideus
+  state: ne
+  race: State Legislature
+  district: 30
+  party: Non-partisan
+  question: ne-q12
+  date: 2026-09-14 
+  response: |
+    "Universities should fit the state and it's demographics.  This valuable but balanced partnership is what builds and strengthens the economic foundation of Nebraska.  Just like any investment strategy there needs to be a baseline return on investment and a solis growth plan to make sure that the universities and programs are sustainable."
+
+    KEYWORDS: Sustainability, partnerships, ROI
+    
+- candidate_first_name: Cally
+  candidate_last_name: Ideus
+  state: ne
+  race: State Legislature
+  district: 30
+  party: Non-partisan
+  question: ne-q12
+  date: 2026-09-14 
+  response: |
+    "I have been challenged with the implementation and sustainability of science, research, innovation, and STEM in early education through high school.  With these gaps I believe there will be a negative impact and I hope to change that and find solutions that can bring back to life the programs that do improve outcomes."
+
+    KEYWORDS: Investment, education, gaps
+    
+- candidate_first_name: Cally
+  candidate_last_name: Ideus
+  state: ne
+  race: State Legislature
+  district: 30
+  party: Non-partisan
+  question: ne-q12
+  date: 2026-09-14 
+  response: |
+    "Regulations that operate with the intent of the law have a higher rate of successful outcomes.  When a policy cannot be sustained, operationally or financially, it needs review to identify the root cause and effects."
+
+    KEYWORDS: Research, Cause, Effect
