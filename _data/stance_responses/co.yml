@@ -4067,3 +4067,64 @@
       
       The objective is not to teach students what to think, but how to seek truth—with the rigor to question consensus, the tools to test hypotheses, and the humility to follow evidence wherever it leads."
       
+- candidate_first_name: Lori
+  candidate_last_name: Goldstein
+  state: co
+  race: State House of Representatives
+  district: 29
+  party: Democratic
+  question: co-q1
+  date: 2026-09-16
+  primary_candidate: false
+  response: |
+      "Good public policy should be grounded in evidence, research, and the best available scientific findings.  As a legislator I will actively seek out credible expertise before making decisions while also listening carefully to the people who would be affected by those decisions."
+
+- candidate_first_name: Lori
+  candidate_last_name: Goldstein
+  state: co
+  race: State House of Representatives
+  district: 29
+  party: Democratic
+  question: co-q2
+  date: 2026-09-16
+  primary_candidate: false
+  response: |
+      "We need to approach agriculture policy grounded in protecting Colorado's finite natural resources while making sure farmers and ranchers have the tools to remain economically viable.  We should put research, producer experience, and measurable results at the center of policy making.  We need to continue the strong partnerships between the Department of Agriculture, CSU Extension, conservation districts, and federal agencies that can help build that evidence base."
+
+- candidate_first_name: Lori
+  candidate_last_name: Goldstein
+  state: co
+  race: State House of Representatives
+  district: 29
+  party: Democratic
+  question: co-q3
+  date: 2026-09-16
+  primary_candidate: false
+  response: |
+      "The policy goal should be to allow responsible investment while ensuring that the costs of that investment, particularly electricity, water, grid infrastructure, and environmental impacts are not shifted onto Colorado families and existing businesses."
+
+- candidate_first_name: Lori
+  candidate_last_name: Goldstein
+  state: co
+  race: State House of Representatives
+  district: 29
+  party: Democratic
+  question: co-q4
+  date: 2026-09-16
+  primary_candidate: false
+  response: |
+      "When people are vaccinated we reach herd immunity people do not get sick.  The recommendations of medical organizations should be respected."
+
+- candidate_first_name: Lori
+  candidate_last_name: Goldstein
+  state: co
+  race: State House of Representatives
+  district: 29
+  party: Democratic
+  question: co-q5
+  date: 2026-09-16
+  primary_candidate: false
+  response: |
+      "As a former science teacher, I believe science literacy is fundamental to a healthy democracy and strong economy.  I would focus on strengthening K-12 science education without turning science into a partisan issue.  Standards should emphasize hands-on learning critical thinking, data analysis, scientific inquiry, and opportunities of students to work with real-world problems."
+
+
