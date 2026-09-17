@@ -6,28 +6,27 @@
                  placeholder row each non-responding candidate carries
     candidates — distinct first+last name within a state, responders only
     questions  — rows across _data/stance_questions/*.yml
-    states     — states with at least one real response
+    states     — states with a live state page (the `states/template.html`
+                 stand-in is excluded)
 
   The `_blank` template files in both data directories are skipped.
 {%- endcomment -%}
 
 {%- assign stat_responses = 0 -%}
 {%- assign stat_candidate_keys = "" -%}
-{%- assign stat_state_keys = "" -%}
 {%- for pair in site.data.stance_responses -%}
   {%- assign state_code = pair[0] -%}
   {%- if state_code == "_blank" -%}{%- continue -%}{%- endif -%}
   {%- assign rows = pair[1] | where_exp: "r", "r.did_not_respond != true" -%}
   {%- if rows.size == 0 -%}{%- continue -%}{%- endif -%}
   {%- assign stat_responses = stat_responses | plus: rows.size -%}
-  {%- assign stat_state_keys = stat_state_keys | append: state_code | append: ";" -%}
   {%- for r in rows -%}
     {%- capture candidate_key -%}{{ state_code }}|{{ r.candidate_first_name }}|{{ r.candidate_last_name }};{%- endcapture -%}
     {%- assign stat_candidate_keys = stat_candidate_keys | append: candidate_key -%}
   {%- endfor -%}
 {%- endfor -%}
 {%- assign stat_candidates = stat_candidate_keys | split: ";" | uniq | size -%}
-{%- assign stat_states = stat_state_keys | split: ";" | size -%}
+{%- assign stat_states = site.initiatives | where_exp: "p", "p.state != nil and p.state != 'xx'" | size -%}
 
 {%- assign stat_questions = 0 -%}
 {%- for pair in site.data.stance_questions -%}
