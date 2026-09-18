@@ -1067,7 +1067,7 @@
   state: mi
   race: US House of Representatives
   district: 9
-  party: Democratic
+  party: Independent
   question: mi-q5-governor-house
   date:
   response: |
@@ -1086,7 +1086,7 @@
   state: mi
   race: US House of Representatives
   district: 9
-  party: Democratic
+  party: Independent
   question: mi-q7-house-senate
   date:
   response: |
@@ -1107,7 +1107,7 @@
   state: mi
   race: US House of Representatives
   district: 9
-  party: Democratic
+  party: Independent
   question: mi-q9-governor-house
   date:
   response: |
