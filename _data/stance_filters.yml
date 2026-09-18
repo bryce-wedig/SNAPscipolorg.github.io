@@ -62,6 +62,7 @@ race_ballot_order:
   - Mayor
   - Local County Races [All]
   - RTD Board of Directors
+  - Raleigh City Council
 
 # Per-state additions to `races` above, valid only for the `races:` attribute
 # on questions in _data/stance_questions/<state>.yml (scoping a question to a
