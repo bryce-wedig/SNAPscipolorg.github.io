@@ -1,1 +1,606 @@
-[]
+- candidate_first_name: Scott
+  candidate_last_name: Colom
+  state: ms
+  race: US Senate 
+  party: Democratic 
+  question: ms-q1
+  response: |
+    I come at this as a prosecutor. What already crosses my desk is AI used to steal from people — scam calls, fabricated images of real people, including children. Using AI to defraud someone, or to make sexual images of a child, is already a crime — but I’ll tell you plainly, many local prosecutors don't have the tools or the training to keep up. I also believe in basic honesty. If a machine is handling something that affects your money, your health care, or your benefits, you have a right to know it, and a person has to be accountable for the decision. And if Washington wants one national rulebook, it ought to write a real one rather than simply stripping states of the ability to protect people.
+
+- candidate_first_name: Scott
+  candidate_last_name: Colom
+  state: ms
+  race: US Senate 
+  party: Democratic 
+  question: ms-q2
+  response: |
+     I start where Mississippians start, which is the power bill. Alongside the traditional sources we’re already used to and that help keep energy costs low, I support anything that works for our state — that includes natural gas, the nuclear we already run at Grand Gulf, and more solar than we've built. Utilities here have said plainly that diversifying is how you protect customers from one bad year in the gas market. And if it saves Mississippi families money, I support it. It also helps create jobs — line workers, electricians, pipefitters — and they ought to be Mississippi jobs at a fair wage. One rule I'll hold to: whoever creates new demand pays for the new generation. Mississippi families shouldn't be financing somebody else's expansion on their monthly bill.
+
+- candidate_first_name: Scott
+  candidate_last_name: Colom
+  state: ms
+  race: US Senate 
+  party: Democratic 
+  question: ms-q3
+  response: |
+     I prosecute cases for a living, so my instinct is to follow the money and make people show their work. Too much of this is being decided behind closed doors. Data center buildout is already adding costs to residential power bills. Too many of the agreements that bring these data centers to our communities are shielded from public review. And these facilities draw a lot of water in a state that has had hard dry years. So here’s my standard. Any companies that want to put data centers in Mississippi should pay for their own power and water, so it never lands on your bill. The people building and running these centers need to commit in writing to hiring and paying Mississippians a fair wage. And our communities need to see the full deal before the concrete is poured. A project that clears that bar can be welcomed. One that can't is a transfer from your power bill to a very large company.
+
+- candidate_first_name: Scott
+  candidate_last_name: Colom
+  state: ms
+  race: US Senate 
+  party: Democratic 
+  question: ms-q4
+  response: |
+     Agriculture is a big part of who we are in Mississippi, and our farmers are in trouble right now. Washington's tariffs took customers that aren't coming back, and rising fertilizer and diesel costs did the rest. The Constitution gives Congress authority over tariffs, and Senator Cindy Hyde-Smith gave Mississippi's voice away. I'll take our voice back, and pass a farm bill our producers can plan around. Mississippi has a senator on the agriculture appropriations subcommittee right now, and our farmers are still going under. I'll protect what works. Mississippi State's Extension Service keeps an agent in all 82 counties — they're who our poultry growers, timber owners and row crop farmers actually call. Alcorn State's land-grant program reaches the small and limited-resource farmers easiest to overlook, and I'll back it. I'll keep Gulf restoration dollars working on the reefs and marsh that shield our Coast, and keep conservation funded. And fish farmed overseas shouldn't be sold as Mississippi catfish — that's fraud, and I’ve spent ten years prosecuting it. None of it holds if the hospital closes. I'll work with anybody, in either party, to reverse the Medicaid cuts that have our rural hospitals at risk.
+
+- candidate_first_name: Scott
+  candidate_last_name: Colom
+  state: ms
+  race: US Senate 
+  party: Democratic 
+  question: ms-q5
+  response: |
+     Our schools aren't just part of the pipeline, they are the pipeline. I have two kids in Mississippi public schools, and I taught kindergarten through sixth grade overseas when I was 19, so this is personal. The reading gains people call the Mississippi Miracle were produced by teachers, and we ought to pay them like it. That's why I’ve called for eliminating the federal income tax for teachers and law enforcement making under $75,000, to help keep these qualified professionals here in our state. Regarding community colleges, I’ll back steady federal support for career and technical programs, working lab equipment, and dual enrollment — so a student can start college chemistry in high school and walk into a good job here at home. 
+
+- candidate_first_name: Scott
+  candidate_last_name: Colom
+  state: ms
+  race: US Senate 
+  party: Democratic 
+  question: ms-q6
+  response: |
+     Yes. For ten years my job has been taking complicated evidence — forensics, DNA, digital records — and explaining it to twelve Mississippians on a jury well enough that they'll stake a verdict on it. People here are not against evidence. They're against being talked down to. A jury will go a long way with you if you show your work, say who paid for it, and admit what you don't know yet. So I'll keep doing what I already do — get in a room with people across this state, and bring researchers from our universities with me so folks can ask them questions directly instead of reading about it in a press release. I'll also keep a standing line open to our Extension agents. They're the ones people already call when they need a real answer, and they're already in every county.
+
+# next candidate
+
+- candidate_first_name: Cindy
+  candidate_last_name: Hyde-Smith
+  state: ms
+  race: US Senate 
+  party: Republican 
+  question: ms-q1
+  response: |
+     AI offers real potential for agriculture, manufacturing, and economic growth, but it needs common-sense guardrails, not heavy-handed federal overreach. I favor protecting innovation and American competitiveness while addressing clear risks—especially national security, child safety, and transparency. States should retain authority over local infrastructure and permitting. Regulation should be targeted, light-touch where possible, and focused on preventing harm without stifling the technology that can create jobs and opportunity in Mississippi and across the country.
+
+- candidate_first_name: Cindy
+  candidate_last_name: Hyde-Smith
+  state: ms
+  race: US Senate 
+  party: Republican 
+  question: ms-q2
+  response: |
+     Mississippi relies heavily on natural gas for reliable, affordable power, and I support an all-of-the-above approach that prioritizes American energy dominance. Natural gas, nuclear, and responsible oil and gas production in the Gulf remain essential. Wind, solar, hydro, and geothermal can play a supplemental role where they make economic and practical sense, especially with biofuels and forestry biomass that support our rural economy and forest health. I oppose mandates that drive up costs or undermine reliability. Energy policy must keep electricity affordable for families and businesses while advancing technologies that cleanly expand our domestic supplies.
+
+- candidate_first_name: Cindy
+  candidate_last_name: Hyde-Smith
+  state: ms
+  race: US Senate 
+  party: Republican  
+  question: ms-q3
+  response: |
+    Data centers represent major private investment and job opportunities for Mississippi, bringing billions in capital and supporting high-tech growth. I support attracting this industry while protecting ratepayers. Companies must pay their fair share for the power and infrastructure they use so families and small businesses are not burdened with higher electricity bills. With proper oversight on grid reliability, water use, and local impacts, these projects can strengthen our economy without shifting costs onto everyday Mississippians. Affordability and accountability remain non-negotiable.
+
+- candidate_first_name: Cindy
+  candidate_last_name: Hyde-Smith
+  state: ms
+  race: US Senate 
+  party: Republican 
+  question: ms-q4
+  response: |
+     As a cattle farmer and former Mississippi Agriculture Commissioner, I know our $7.5 billion ag and forestry industries are the backbone of Mississippi. I support strong Farm Bills with better crop insurance for flood-prone areas, conservation programs like CSP and EQIP that keep land productive while improving soil and water, and research into Chronic Wasting Disease. I’ve fought for catfish producers against unfair imports and disease threats, opened markets for our products, and backed wildlife conservation bills that protect hunting, fishing, and habitat while supporting livestock. Private property rights and practical stewardship come first, as good policy sustains both production and the outdoors for the next generation.
+
+- candidate_first_name: Cindy
+  candidate_last_name: Hyde-Smith
+  state: ms
+  race: US Senate 
+  party: Republican 
+  question: ms-q5
+  response: |
+     Yes. Strong local schools and community colleges are vital to building the skilled workforce Mississippi needs. I support funding and policies that strengthen STEM education, career and technical training, and partnerships with our research universities and USDA facilities like Stoneville. These institutions prepare young people for high-demand jobs in agriculture, energy, manufacturing, and technology. Federal support should empower state and local decisions, not impose top-down mandates, so our schools can deliver practical science education that benefits students and our economy. 
+
+- candidate_first_name: Cindy
+  candidate_last_name: Hyde-Smith
+  state: ms
+  race: US Senate 
+  party: Republican 
+  question: ms-q6
+  response: |
+     Elected officials should promote transparent, practical science that serves the public interest—especially in agriculture, energy, and public health—without politicizing it. I work with researchers at Mississippi State, the University of Mississippi, and USDA facilities on real-world issues like crop science, wildlife disease, and energy innovation. My approach is to listen to producers and scientists on the ground, fund applied research that delivers results. I reject agendas that ignore economic realities or rural needs. Trust grows when science is honest, useful, and free from ideology.
+
+# next candidate
+
+- candidate_first_name: Ty
+  candidate_last_name: Pinkins
+  state: ms
+  race: US Senate
+  party: Independent
+  did_not_respond: true
+
+# next candidate
+
+- candidate_first_name: Cliff
+  candidate_last_name: Johnson
+  state: ms
+  race: US House of Representatives 
+  district: 1
+  party: Democratic 
+  question: ms-q1
+  response: |
+     See response to question 3.  Not only do we need to carefully regulate AI, but we also need to engage in diplomacy with China and other countries regarding our mutual interest in limiting the extent to which corporations control AI policy.  Unregulated AI is a major threat to humanity.   
+     
+- candidate_first_name: Cliff
+  candidate_last_name: Johnson
+  state: ms
+  race: US House of Representatives 
+  district: 1
+  party: Democratic 
+  question: ms-q2
+  response: |
+     I am a strong proponent of expansion of "alternative energy" in Mississippi. The advances in solar technology provide robust opportunities here, and the federal government should encourage expansion of clean energy development.  
+
+- candidate_first_name: Cliff
+  candidate_last_name: Johnson
+  state: ms
+  race: US House of Representatives 
+  district: 1
+  party: Democratic 
+  question: ms-q3
+  response: |
+     I am opposed to the unchecked expansion of data centers, and I believe the AI industry must be regulated.  Data centers are necessary and AI isn't going away, but the notion that we must engage in an AI arms race and allow data centers to be established at the whims of for-profit corporate interests is a dangerous game.  The notion that data centers will be a major source of jobs and are a sign that Mississippi has entered the high-tech world is a fallacy created by corporations that have "bet the farm" on the profitability of AI.
+
+- candidate_first_name: Cliff
+  candidate_last_name: Johnson
+  state: ms
+  race: US House of Representatives 
+  district: 1
+  party: Democratic 
+  question: ms-q4
+  response: |
+     I support reestablishment of the EPA and renewed enforcement of clean air and clean water laws and regulations.  Current tariff policies penalize local farmers and undermine local agriculture business and should be replaced with fair and less chaotic tariff rate setting. 
+
+- candidate_first_name: Cliff
+  candidate_last_name: Johnson
+  state: ms
+  race: US House of Representatives 
+  district: 1
+  party: Democratic 
+  question: ms-q5
+  response: |
+     Expansion of STEM offerings in all stages of our education system is crucial.  In addition to making us more competitive with other countries, it prepares us for the expansion of AI technology and ever-evolving manufacturing automation. Offering AP courses at the high school level is insufficient. We must begin our commitment to science at the earliest stages of the education process.  
+
+- candidate_first_name: Cliff
+  candidate_last_name: Johnson
+  state: ms
+  race: US House of Representatives 
+  district: 1
+  party: Democratic 
+  question: ms-q6
+  response: |
+     I am furious about the Trump Administration's attack on science and scientists, and I am committed to extensive funding of scientific research, speaking publicly about the importance of scientific research, seeking out the opinion of scientists on a range of policy issues, and 
+
+# note: his response ended this way
+
+# next candidate
+
+- candidate_first_name: Johnny Michael
+  candidate_last_name: Baucom
+  state: ms
+  race: US House of Representatives 
+  district: 1
+  party: Libertarian 
+  question: ms-q1
+  response: |
+     Man, that's a lot, it shouldn't be used for surveillance, security, or given a physical form to inhabit. I may be persuaded otherwise in the future, but that is my current stance until it is a more stable and reliable technology. The way Ukraine is currently using it is quite alarming. Saying this, I love AI, and it's possibilities for the American economy.
+
+- candidate_first_name: Johnny Michael
+  candidate_last_name: Baucom
+  state: ms
+  race: US House of Representatives 
+  district: 1
+  party: Libertarian 
+  question: ms-q2
+  response: |
+     I love the aspect of alternative energy, and in a world ever growing and electrically hungry, there will always be ways to improve and expand our infrastructure. I'm most interested in hydrogen, and would like to deregulate is usage so we can explore it more on both clean water generation possibly utilizing graphene wafers, and the energy generation using hydrolysis. Also looking at replacing fuel usage with hydrogen, as it burns much cleaner and more efficiently.
+
+- candidate_first_name: Johnny Michael
+  candidate_last_name: Baucom
+  state: ms
+  race: US House of Representatives 
+  district: 1
+  party: Libertarian 
+  question: ms-q3
+  response: |
+     I believe there are too many being put in too quickly. We needed to start with 1 to 3 and make it successful and more efficient so that there isn't such an impact on the grid and water supply. Like I said, working on hydrogen energy, especially for data centers, may solve 2 problems with one method.
+
+- candidate_first_name: Johnny Michael
+  candidate_last_name: Baucom
+  state: ms
+  race: US House of Representatives 
+  district: 1
+  party: Libertarian 
+  question: ms-q4
+  response: |
+     Ending the EUDR to allow our markets to be flooded with timber products, which would bring the prices down and allow materials used to build homes to be cheaper. Allowing homes to be cheaper when finished building, and older homes to be cheaper once the market's prices are adjusted. Saying this in explanation, I understand that this will end the requirement of GPS data of Deforestation and if left unregulated may cause a problem. I'd expect that we've been in this business long enough that we know how to be conservative with our harvesting to ensure forestry is renewable, however. Noone wants to put themselves out of business. As far as all other environmental interests I will review as I am allowed to, and can always be expected to vote in the individual's interest, never in the interest of business or government. My platform focuses on deregulation, and my stance is strick on policy. This means great things for the other questions you have.
+
+- candidate_first_name: Johnny Michael
+  candidate_last_name: Baucom
+  state: ms
+  race: US House of Representatives 
+  district: 1
+  party: Libertarian 
+  question: ms-q5
+  response: |
+     I support school choice legislation and open curriculums that aren't mandated so extensively. Allowing for competition between districts in education. A parent will want to send their child to the best school for them.
+
+- candidate_first_name: Johnny Michael
+  candidate_last_name: Baucom
+  state: ms
+  race: US House of Representatives 
+  district: 1
+  party: Libertarian 
+  question: ms-q6
+  response: |
+     It is one of many duties. I will simply place public expectations to allow science to speak unfiltered. There is too much filtering and scrutiny in scientific studies and medical studies. There should be nothing that anyone should be scared to talk about when it comes to knowledge and understanding. It usually comes at the expense of the general public when there is a filter or censor.
+
+# next candidate
+
+- candidate_first_name: Trent
+  candidate_last_name: Kelly
+  state: ms
+  race: US Senate
+  district: 1
+  party: Republican
+  did_not_respond: true
+
+# next candidate
+
+- candidate_first_name: Bennie
+  candidate_last_name: Thompson
+  state: ms
+  race: US Senate
+  district: 2
+  party: Democratic
+  did_not_respond: true
+
+# next candidate
+
+- candidate_first_name: Ron
+  candidate_last_name: Eller
+  state: ms
+  race: US Senate
+  district: 2
+  party: Republican
+  did_not_respond: true
+
+# next candidate
+
+- candidate_first_name: Bennie
+  candidate_last_name: Foster
+  state: ms
+  race: US House of Representatives 
+  district: 2
+  party: Independent 
+  question: ms-q1
+  response: |
+     We support federal guardrails centered on algorithmic transparency, data privacy, and worker protections. AI regulation must proactively shield workers from sudden displacement through federally funded retraining initiatives, apprenticeships, and continuing education. When ethically deployed, modern technology should empower small businesses, assist educators in the classroom, and broaden access to learning tools without compromising workforce security or consumer rights. We strongly condemn the use of AI to create nude media without consent - and will work to ensure legislation is passed to protect families and children against revenge porn and child pornography.
+
+- candidate_first_name: Bennie
+  candidate_last_name: Foster
+  state: ms
+  race: US House of Representatives 
+  district: 2
+  party: Independent 
+  question: ms-q2
+  response: |
+     While natural gas currently provides baseline stability for our power supply, transitioning toward solar, biomass, and modern energy infrastructure is vital for long-term economic independence. We support federal tax credits, public-private partnerships, and smart-grid investments aimed at lowering monthly utility bills for hard-working families. Crucially, energy diversification must be paired with local trade instruction—training our young people in electrical, solar, and grid technology so clean energy investments translate directly into high-paying local jobs.
+
+- candidate_first_name: Bennie
+  candidate_last_name: Foster
+  state: ms
+  race: US House of Representatives 
+  district: 2
+  party: Independent 
+  question: ms-q3
+  response: |
+     Data centers bring important tech footprint investments, but rapid development requires responsible community oversight. Infrastructure policies must safeguard local groundwater supplies, protect residential energy grids from price spikes, and require clean-energy offset commitments. Furthermore, tax incentives must come with community agreements that reinvest in local school districts, modern infrastructure, and targeted workforce development programs so residents are prepared for technical facility operations. We don’t want to hinder progress, yet we do want to protect what we have already achieved. I believe through responsible regulation, we can utilize the benefit of data centers while preserving the quality and safety of our environments and resources.
+
+- candidate_first_name: Bennie
+  candidate_last_name: Foster
+  state: ms
+  race: US House of Representatives 
+  district: 2
+  party: Independent 
+  question: ms-q4
+  response: |
+     We will prioritize our use of federal funding for sustainable agricultural technology, precision farming, and soil restoration - with a direct focus on empowering small, family-owned farms and initiating and supporting local co-ops across the Delta and Metro areas. For fisheries and wildlife, we advocate for conservation incentives that partner directly with rural landowners. Protecting topsoil, groundwater, and natural habitats ensures long-term ecosystem health while keeping family farms financially viable and sustainable for generations to come.
+
+- candidate_first_name: Bennie
+  candidate_last_name: Foster
+  state: ms
+  race: US House of Representatives 
+  district: 2
+  party: Independent 
+  question: ms-q5
+  response: |
+     Absolutely. K–12 schools and community colleges are the primary engines of regional growth and mobility. We advocate for targeted federal funding for STEM laboratories, vocational trade programs, and agricultural research partnerships between high schools, community colleges (such as Hinds and Holmes), and regional universities. By aligning hands-on technical training directly with industrial, healthcare, and technology career pipelines, we ensure rural students don't have to leave home to find rewarding, high-tech careers.
+
+- candidate_first_name: Bennie
+  candidate_last_name: Foster
+  state: ms
+  race: US House of Representatives 
+  district: 2
+  party: Independent 
+  question: ms-q6
+  response: |
+     Yes. We support building advisory committees of dedicated experts in their scientific fields. However, we must remember that nothing in science is definite. Theories and discoveries are ever changing. We must champion open debate and dialogue - not censorship and demonization of ideas and individuals because of political agendas. We will work to ensure our political decisions are based on unbiased, well-tested and debated scientific data. We will be careful to trace funding for all scientific projects to ensure people - not profit is the priority in their scientific research.
+
+# next candidate
+
+- candidate_first_name: Michael
+  candidate_last_name: Guest
+  state: ms
+  race: US Senate
+  district: 3
+  party: Republican
+  did_not_respond: true
+
+# next candidate
+
+- candidate_first_name: Michael
+  candidate_last_name: Chiaradio
+  state: ms
+  race: US House of Representatives 
+  district: 3
+  party: Democratic 
+  question: ms-q1
+  response: |
+     I would support transparency rules that require disclosure when AI is used and privacy protections governing how training data is collected and retained, especially when it includes personal information. I also believe in establishing minimum “human-in-the-loop” requirements which mandate that humans retain authority for critical decisions. The most important ingredient is still a highly competent person exercising judgment and expertise.
+
+- candidate_first_name: Michael
+  candidate_last_name: Chiaradio
+  state: ms
+  race: US House of Representatives 
+  district: 3
+  party: Democratic 
+  question: ms-q2
+  response: |
+      I’m a strong supporter of clean energy generally, including federal funds for research and development to help renewable technology one day support “base load” power. I also support things that are… not clean, but cleaner than other alternatives. For example, pipeline development can have risks and negative impacts on the environment but it is much safer and more reliable than transmission via truck or rail. Also, things like uranium and LNG can have lower emissions relative to alternatives (from what I understand given my novice understanding of science).
+
+- candidate_first_name: Michael
+  candidate_last_name: Chiaradio
+  state: ms
+  race: US House of Representatives 
+  district: 3
+  party: Democratic 
+  question: ms-q3
+  response: |
+      Possibly good impacts and bad, as you know, this could be a whole thing.… In summary: access to improved technical capital could be great. But I’m concerned about the aggregate economic impact if returns on invested capital underperform, especially if the open sourced models prevalent globally erode profitability. Also, credit in the industry is a bit concerning because the collateral (these chips presumably) could be drastically depreciated or even obsolete in the event of nonperformance. I think threats to the workforce are very real but probably transitory, and maybe even a bit overstated. However, I believe the federal government should be an employment driver to supplement this risk, and my platform accomplishes this with massive infrastructure projects, increased funds to pay civil servants (including teachers), and redeveloping thousands of acres of farm land for lease by small/medium sized farmers (and other small ancillary businesses). Lastly, I would support reasonable federal environmental regulation such as requiring adjacent water purification systems for all centers.
+
+- candidate_first_name: Michael
+  candidate_last_name: Chiaradio
+  state: ms
+  race: US House of Representatives 
+  district: 3
+  party: Democratic 
+  question: ms-q4
+  response: |
+      I’d like federal funds invested to revitalize natural fresh water systems nationwide. Also, my plans for increased food production and small business activity are centered around a low capital, low input “regenerative” farming model which is good for soils, water systems, and wildlife habitats.
+
+- candidate_first_name: Michael
+  candidate_last_name: Chiaradio
+  state: ms
+  race: US House of Representatives 
+  district: 3
+  party: Democratic 
+  question: ms-q5
+  response: |
+      Yes, a big part of my platform is funding for public schools - especially teacher’s pay. We need to attract and retain good people to lead the next generation. This is true across human territories. However, specifically related to science, I would offer more scholarships and opportunities for people in specific areas to help us bolster various medical, biotech, etc. fields.
+
+- candidate_first_name: Michael
+  candidate_last_name: Chiaradio
+  state: ms
+  race: US House of Representatives 
+  district: 3
+  party: Democratic 
+  question: ms-q6
+  response: |
+      Yes, I would simply try to position the scientists to best work on behalf of the civilization at large, then explain to the public objectively what we do and don’t understand for certain. And - maybe most importantly -  I would always try to be levelheaded with my rhetoric.
+
+# next candidate
+
+- candidate_first_name: Erik
+  candidate_last_name: Kiehle
+  state: ms
+  race: US House of Representatives 
+  district: 3
+  party: Libertarian 
+  question: ms-q1
+  response: |
+      The potential benefits are immense, as are the potential risks. I believe America needs to be a leader in the field to at least protect our own interests. Cybersecurity and privacy are concerns that need to be addressed as we move forward with AI.
+
+- candidate_first_name: Erik
+  candidate_last_name: Kiehle
+  state: ms
+  race: US House of Representatives 
+  district: 3
+  party: Libertarian 
+  question: ms-q2
+  response: |
+      MS lacks economic wind resources. MS also lacks the “head” for hydro. Solar is an option for MS. I think using military bases for solar and other alternatives is a good policy, both for national security and development and addition of renewables to the grid. NG, coal, and nuclear provide reliable base load generation and will be necessary for the reliability of our national grids for the foreseeable future.
+
+- candidate_first_name: Erik
+  candidate_last_name: Kiehle
+  state: ms
+  race: US House of Representatives 
+  district: 3
+  party: Libertarian 
+  question: ms-q3
+  response: |
+      I don’t see data centers as having a meaningful impact on jobs or the tax base. The environmental impacts are contentious and to some extent unknown. I question the benefits to Americans quality of life.
+
+- candidate_first_name: Erik
+  candidate_last_name: Kiehle
+  state: ms
+  race: US House of Representatives 
+  district: 3
+  party: Libertarian 
+  question: ms-q4
+  response: |
+      Mass deportations and reduced immigration. Zoning is important. Keep ag zones for ag and low-density homesteads.
+
+- candidate_first_name: Erik
+  candidate_last_name: Kiehle
+  state: ms
+  race: US House of Representatives 
+  district: 3
+  party: Libertarian 
+  question: ms-q5
+  response: |
+      They have a role, but I’d like to see changes in funding and patents from publicly-funded research benefiting the governments funding the research in a positive feedback loop. 
+
+- candidate_first_name: Erik
+  candidate_last_name: Kiehle
+  state: ms
+  race: US House of Representatives 
+  district: 3
+  party: Libertarian 
+  question: ms-q6
+  response: |
+       Not a large role. Politicians in general are not scientists and other than funding appropriate goals, should let America’s scientists shine on their own. 
+
+# next candidate
+
+- candidate_first_name: Mike
+  candidate_last_name: Ezell
+  state: ms
+  race: US Senate
+  district: 4
+  party: Republican
+  did_not_respond: true
+
+# next candidate
+
+- candidate_first_name: Jeffery
+  candidate_last_name: Hulum III
+  state: ms
+  race: US House of Representatives 
+  district: 4
+  party: Democratic 
+  question: ms-q1
+  response: |
+       Artificial intelligence has extraordinary potential to improve medicine, scientific research, agriculture, education, national defense, manufacturing, accessibility, and economic productivity. America should remain a global leader in its responsible development. But technological capability should never become an excuse to abandon human responsibility. I support a risk-based approach to AI regulation that distinguishes between ordinary, low-risk applications and systems capable of significantly affecting a person’s health, employment, finances, education, privacy, civil rights, or access to government services. When AI is used to make consequential decisions about people’s lives, I believe transparency and accountability are essential. Individuals should know when automated systems materially influence important decisions about them, and meaningful human review should remain available where appropriate. I also support strong protections against AI-enabled fraud, malicious impersonation, cybercrime, exploitation, discriminatory outcomes, and other foreseeable harms. Developers of high-risk systems should take reasonable steps to evaluate security, accuracy, bias, and safety before those systems are widely deployed. At the same time, regulation should be carefully designed so that responsible researchers, entrepreneurs, universities, and small businesses are not prevented from innovating. I do not believe we must choose between technological leadership and protecting people. America should lead the world in artificial intelligence, and we should also lead the world in developing it responsibly.
+
+- candidate_first_name: Jeffery
+  candidate_last_name: Hulum III
+  state: ms
+  race: US House of Representatives 
+  district: 4
+  party: Democratic 
+  question: ms-q2
+  response: |
+       I support a diversified, all-of-the-above energy strategy built around reliability, affordability, national security, environmental responsibility, and innovation. Natural gas currently plays an essential role in Mississippi’s electricity supply. Any responsible energy transition must recognize the importance of maintaining reliable power for families, hospitals, military installations, manufacturers, shipbuilders, small businesses, and other critical infrastructure. At the same time, I believe solar, wind, hydroelectric, geothermal, nuclear, energy storage, and emerging technologies can play an increasingly important role in America’s long-term energy portfolio. Diversification can strengthen energy security, encourage innovation, create new industries, and reduce our vulnerability to disruptions or price volatility involving any single energy source. However, I do not believe energy policy should be driven by ideology. Each technology should be evaluated honestly based on reliability, cost, environmental impact, land and water use, infrastructure requirements, and benefits to the communities where projects are located. Our goal should be straightforward: keep energy reliable and affordable today while responsibly building the cleaner, stronger, more resilient energy system America will need tomorrow.
+
+- candidate_first_name: Jeffery
+  candidate_last_name: Hulum III
+  state: ms
+  race: US House of Representatives 
+  district: 4
+  party: Democratic 
+  question: ms-q3
+  response: |
+       Data centers represent a significant economic and technological opportunity for Mississippi and the United States, but development on this scale also carries responsibilities that should not be ignored. These facilities can attract billions of dollars in private investment, support construction and technology jobs, expand infrastructure, strengthen America’s digital economy, and position Mississippi to participate in industries that will shape the future. I welcome those opportunities. At the same time, communities deserve clear answers about electricity demand, water consumption, environmental effects, infrastructure requirements, utility rates, permanent job creation, and who ultimately pays for the additional capacity these facilities require. My position is not anti-technology or anti-development. It is pro-responsibility. Mississippi families should not be expected to subsidize enormous corporate developments through higher utility bills, strained water resources, or infrastructure costs shifted onto local taxpayers. I support transparent environmental and infrastructure assessments, responsible water management, thoughtful grid planning, appropriate community involvement, and utility structures that ensure major industrial users bear a fair share of the costs created by their operations. I want Mississippi to compete for the industries of tomorrow. But economic development should improve the quality of life of the people who already call Mississippi home. Innovation and human wellbeing should advance together.
+
+- candidate_first_name: Jeffery
+  candidate_last_name: Hulum III
+  state: ms
+  race: US House of Representatives 
+  district: 4
+  party: Democratic 
+  question: ms-q4
+  response: |
+       I believe protecting our agriculture, fisheries, and wildlife is both an economic responsibility and a commitment to future generations. In Mississippi, these resources are part of who we are. Farmers, fishermen, shrimpers, foresters, processors, small businesses, and coastal communities depend on healthy land and water for their livelihoods. Our policies should recognize that conservation and economic prosperity do not have to compete. I support a strong agricultural safety net, crop insurance, disaster assistance, agricultural research, access to affordable credit, and voluntary conservation programs that help producers improve soil health, reduce erosion, protect water quality, and preserve wildlife habitat. I also support sustained investment in fisheries science, coastal and wetland restoration, responsible fisheries management, and efforts to protect the long-term health of the Gulf of Mexico. I believe the people who work our farms, forests, rivers, and coastal waters should have a meaningful voice in the policies affecting them. Good conservation policy should be grounded in science, informed by local experience, and designed to preserve both our natural resources and the livelihoods that depend upon them. Our responsibility is to leave the next generation productive farmland, healthy fisheries, abundant wildlife, clean water, and an economy capable of sustaining the families who care for these resources.
+
+- candidate_first_name: Jeffery
+  candidate_last_name: Hulum III
+  state: ms
+  race: US House of Representatives 
+  district: 4
+  party: Democratic 
+  question: ms-q5
+  response: |
+       Absolutely. If Mississippi wants to become a leader in science, technology, healthcare, advanced manufacturing, energy, aerospace, cybersecurity, and other emerging industries, that work must begin long before a student enters a four-year university. I support expanding high-quality STEM education in K–12 schools, strengthening science laboratories and classroom technology, investing in science and mathematics teachers, expanding career and technical education, and creating more opportunities for students to participate in hands-on research. Community colleges are particularly important. They provide an affordable pathway into skilled professions and can respond quickly to the workforce needs of local industries. I support stronger partnerships among community colleges, universities, employers, military installations, healthcare systems, manufacturers, research institutions, and federal agencies. I also want rural students to have access to the same quality of STEM opportunities available in larger communities. A child’s ZIP code should not determine whether that child has access to a laboratory, advanced mathematics, engineering, coding, or a pathway into a scientific career. Mississippi already has talented young people. Our responsibility is to make sure opportunity reaches them.
+
+- candidate_first_name: Jeffery
+  candidate_last_name: Hulum III
+  state: ms
+  race: US House of Representatives 
+  district: 4
+  party: Democratic 
+  question: ms-q6
+  response: |
+       Yes. I believe elected officials have a responsibility to engage scientific expertise while also respecting the public’s right to ask questions. Trust cannot be demanded. It must be earned. Good science depends on evidence, transparency, testing, scrutiny, and a willingness to revise conclusions when better evidence becomes available. Good government should demonstrate those same qualities. As a member of Congress, I would seek input from scientists, physicians, engineers, researchers, educators, farmers, fishermen, industry professionals, and community stakeholders when considering policies involving science and technology. I also believe we need stronger communication between scientific institutions and the communities affected by scientific and technological decisions. Scientists should have opportunities to explain not only what the evidence shows, but also what remains uncertain. Likewise, elected officials should be willing to explain how scientific evidence influenced their decisions. I will never treat legitimate questions from the public as an inconvenience. Listening is part of leadership. When government is transparent, scientists communicate clearly, and citizens are respected enough to be included in the conversation, we create the conditions necessary for trust to grow.
+
+# do Carl Boyanton
+
+# next candidate
+
+- candidate_first_name: Carl
+  candidate_last_name: Boyanton
+  state: ms
+  race: US House of Representatives 
+  district: 4
+  party: Independent 
+  question: ms-q1
+  response: |
+       I think there are checks and balances we need to put in place. We also have to be cognizant of the fact that China and our enemies have none. Once elected I would delve into what needs to be done to protect the American people and what processes we need to put in place.
+
+- candidate_first_name: Carl
+  candidate_last_name: Boyanton
+  state: ms
+  race: US House of Representatives 
+  district: 4
+  party: Independent 
+  question: ms-q2
+  response: |
+       I believe as our energy consumption grows so will our sources. I met with the CEO of NanoNuclear a year ago and they are on the cusp of developing small safe nuclear generators that can power small cities from a unit the size of a semi trailer.I don't support the dirty energy that manufactures solar and wind turbines. I am an all of the above person and believe we will solve our energy needs in the near future. AI will be a big part of that solution.
+
+- candidate_first_name: Carl
+  candidate_last_name: Boyanton
+  state: ms
+  race: US House of Representatives 
+  district: 4
+  party: Independent 
+  question: ms-q3
+  response: |
+       I think we need the data centers but they have to be responsible neighbors. They have to be located in areas that they are suited for and not increase the prices for electricity and water to the citizens where they are located. I believe we need to lead the charge on AI and not fall behind our enemies. AI is too important to lose to China. But saying that we have to make sure we use common sense in growing this knowledge.
+
+- candidate_first_name: Carl
+  candidate_last_name: Boyanton
+  state: ms
+  race: US House of Representatives 
+  district: 4
+  party: Independent 
+  question: ms-q4
+  response: |
+       My background includes agriculture. I work at trying to bring more business to small farms here in Mississippi and the US. We need to encourage more farming and develop more small farms. I work with Blacpac.us to help them build homes for Veterans and have encouraged them to build small farms in rural areas for Vets so they have a home and an income. It's important to support our fisheries in the same manner.
+
+- candidate_first_name: Carl
+  candidate_last_name: Boyanton
+  state: ms
+  race: US House of Representatives 
+  district: 4
+  party: Independent 
+  question: ms-q5
+  response: |
+       As they stand now I don't believe they are pushing the subjects that will resonate in the future. We need schools to go back to basics. Reading, writing, math and science except with an emphasis on technology. We have to start educating our kids in what we expect the future to look like. Science is one of the most important subjects that doesn't get enough support. 
+
+- candidate_first_name: Carl
+  candidate_last_name: Boyanton
+  state: ms
+  race: US House of Representatives 
+  district: 4
+  party: Independent 
+  question: ms-q6
+  response: |
+       It is incumbent on politicians to work with scientists. That is why it's so important to elect the right people. After Covid trust of scientists is at an all time low. Unfortunately it's because it has become about money and not science. The most important thing to acquire trust is for the science to be transparent. I will work with scientists that are transparent on their studies and their goal is for what is best for the US and not just for the money.  

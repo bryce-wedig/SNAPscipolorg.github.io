@@ -178,6 +178,7 @@
   party: Republican 
   question: mo-q1
   date: 
+  primary_candidate: true
   response: |
     "Missouri's rural hospital closures are a crisis, and 42% of counties without a hospital is unacceptable. I support expanding telehealth infrastructure so rural patients can access specialists and primary care without traveling hours for an appointment. That starts with closing the broadband gap — telehealth only works if families actually have reliable internet access, so I'll support investment in rural broadband/wifi infrastructure as a healthcare issue, not just a connectivity issue. I'll also work to ensure federal rural health funding (like the Rural Health Transformation Program) reaches the hospitals and clinics that need it most, rather than getting absorbed into red tape. Access to care shouldn't depend on your zip code."
 
@@ -188,7 +189,8 @@
   district: 2
   party: Republican 
   question: mo-q2
-  date: 
+  date:
+  primary_candidate: true
   response: |
     "I strongly support continuing to grow Missouri's agtech industry. For 20 years, I worked as a trial lawyer representing Monsanto, including its subsidiaries Climate Corp. and Precision Planting, giving me firsthand knowledge of how agricultural science and technology drive Missouri's economy — $93.7 billion in output and over 456,000 jobs is not something to take for granted. I'll support continued investment in agricultural research, ag science education, and technical training so Missourians — not just outside companies — are the ones developing and benefiting from the next generation of agtech innovation. Missouri should be a national leader in agricultural science, and that means investing in the people and institutions that make it possible."
 
@@ -199,7 +201,8 @@
   district: 2
   party: Republican 
   question: mo-q3
-  date: 
+  date:
+  primary_candidate: true
   response: |
     "AI is the future whether we like it or not, and Missouri should get out in front of it rather than fall behind. Data centers bring real economic benefits — jobs, investment, and a stake in a growing industry. But growth can't come at the expense of everyday Missourians. I'll support commonsense restrictions to make sure data center development doesn't strain local power grids, drive up utility costs, or drain water resources that families and farmers depend on. Privacy protections also need to keep pace with the technology. The goal is balance: welcome the industry and the jobs it brings, while making sure it's a good neighbor to the communities it operates in."
 
@@ -210,7 +213,8 @@
   district: 2
   party: Republican 
   question: mo-q4
-  date: 
+  date:
+  primary_candidate: true
   response: |
     "Throughout my career, I've deferred to expert opinion rather than my own assumptions — that's how good decisions get made, whether in a courtroom or in Congress. If elected, I'll seek out scientific opinions on all sides of an issue before voting on policy that affects public health, agriculture, technology, or the environment. Science doesn't always speak with one voice, and I think that's a strength, not a weakness — hearing from experts across the spectrum leads to better, more informed policy. Missourians deserve a representative who listens to the evidence, not one who ignores it or cherry-picks it to fit a predetermined conclusion."
 
@@ -222,6 +226,7 @@
   party: Republican 
   question: mo-q5
   date: 
+  primary_candidate: true
   response: |
     "STEM is the future for our students, and Missouri's schools need to treat it that way. Throughout my career, I've seen firsthand what science and technology can do to improve the everyday lives of Missourians — from agriculture to healthcare to the courtroom. That means our K-12 standards should give students real hands-on exposure to science early, not just textbook memorization, and build stronger connections between classrooms and Missouri's own science and tech industries — AgTech, healthcare, and beyond. If we want the next generation of Missourians competing for these jobs, we have to invest in the science education that prepares them for it. Science literacy isn't just an academic goal — it's an economic one."
   
@@ -233,6 +238,7 @@
   party: Republican 
   question: mo-q1
   date: 
+  primary_candidate: true
   response: |
    "Rural health care access is one of the most serious issues facing Missouri. When a county has no hospital, every emergency becomes more dangerous, and every routine health need becomes harder and more expensive. I support policies that strengthen rural hospitals, expand access to primary care, and make it easier for communities to recruit and retain doctors, nurses, mental health providers, and emergency medical personnel. Incentivize cities to build hospitals to reduce this gap may be reviewed.
     At the federal level, I would support targeted rural health funding that actually reaches local providers, not just large systems. I also support expanding telehealth where it makes sense, improving broadband access, protecting rural EMS services, and reducing regulatory barriers that make it harder for small clinics and hospitals to operate. We also need to address prescription drug costs, insurance costs, and the shortage of providers serving rural areas.
@@ -246,6 +252,7 @@
   party: Republican 
   question: mo-q2
   date: 
+  primary_candidate: true
   response: |
     "Yes I would. Agriculture is a backbone of Missouri’s economy, especially in southwest Missouri, and we should support innovation that helps farmers, ranchers, producers, and rural communities remain competitive. Agtech can help improve yields, conserve water, reduce input costs, improve animal health, strengthen supply chains, and keep Missouri agriculture strong for the next generation.
     That said, support for agtech should not mean replacing family farms with corporate control or forcing expensive technology onto producers who cannot afford it. My focus would be on practical innovation that helps Missouri producers.
@@ -259,6 +266,7 @@
   party: Republican 
   question: mo-q3
   date: 
+  primary_candidate: true
   response: |
     "AI has benefits, including medical research, logistics, manufacturing, cybersecurity, agriculture, and small business efficiency. Missouri should not ignore innovation. However, new data center construction also raises many serious concerns, especially in Southwest Missouri, where residents are already dealing with rising utility costs, water concerns, land use issues, noise, and infrastructure strain.
     My position is that data centers should not receive blank checks, special treatment, or incentives if they increase electric rates, strain local water supplies, or provide limited long term local jobs.I think they should be limited in size and limited in certain consumption levels. Any project should be required to prove its impact on water use, power demand, grid reliability, local taxes, land use, and utility rates before approval, and should be by the voters.
@@ -271,7 +279,8 @@
   district: 7
   party: Republican 
   question: mo-q4
-  date: 
+  date:
+  primary_candidate: true
   response: |
     "If elected, I would consult scientists, researchers, medical professionals, engineers, farmers, local officials, and affected citizens depending on the policy issue. Science should inform policy, but policy also has to consider cost, liberty, ethics, local impact, and real world implementation.
     I do not believe science should be treated as partisan. Good data, peer reviewed research, and expert testimony can help lawmakers avoid emotional or politically convenient decisions. At the same time, elected officials should ask hard questions, compare evidence, and make sure scientific recommendations are transparent and accountable.
@@ -284,7 +293,8 @@
   district: 7
   party: Republican 
   question: mo-q5
-  date: 
+  date:
+  primary_candidate: true
   response: |
     "Science literacy matters (and one of my favorites!) because it affects health, jobs, agriculture, technology, energy, and the ability of citizens to understand the world around them. I believe K-12 science education should be practical, rigorous, and connected to real life.
     Students should understand basic biology, chemistry, physics, environmental science, agriculture, health, data literacy, and technology. They should also learn how to evaluate evidence, understand risk, identify misinformation, and ask good questions. Science education should not be about political messaging. It should teach students how to think clearly, test ideas, and understand the difference between evidence, opinion, and assumption.
@@ -353,6 +363,7 @@
   party: Democratic 
   question: mo-q1
   date: 
+  primary_candidate: true
   response: |
     "Congress has been debating the Lower Health Care Premiums for All Americans Act and has advanced focused legislation like the Improving Care in Rural America Reauthorization Act, which targets rural health grants and telehealth services."
   
@@ -364,6 +375,7 @@
   party: Democratic 
   question: mo-q2
   date: 
+  primary_candidate: true
   response: |
     "Yes, I support the continue development and support of agtech. Agriculture growth and development our vital for our economy and we must continue to develop technology to make American's farming sector better, open markets abroad and add more diversity in the industry."
   
@@ -375,6 +387,7 @@
   party: Democratic 
   question: mo-q3
   date: 
+  primary_candidate: true
   response: |
     "Choosing between economic development and environmental protection is a false choice. Innovation and technology are constantly evolving, and the need for data centers continues to grow. However, we must not repeat the mistakes of the past, such as for example Coldwater Creek, by approving large-scale data centers without fully considering their environmental consequences. I support technology, innovation, and responsible preparation for the AI revolution. At the same time, environmental protection, community impacts, and social benefits must be thoroughly evaluated, secured, and validated before any data center or similar project is approved."
   
@@ -385,7 +398,8 @@
   district: 1
   party: Democratic 
   question: mo-q4
-  date: 
+  date:
+  primary_candidate: true
   response: |
     "I have a Doctorate in Business and Public Administration. So, I am a scientist, in business. However, I would always consult with other professionals who are business, healthcare or agriculture when deciding on policy,"
 
@@ -397,6 +411,7 @@
   party: Democratic 
   question: mo-q5
   date: 
+  primary_candidate: true
   response: |
     "I totally support funding more STEM education and training, early in a student's education."
   
@@ -536,6 +551,7 @@
   party: Republican 
   question: mo-q1
   date: 
+  primary_candidate: true
   response: |
     "Nathanael Schultz believes rural hospitals and emergency rooms are essential infrastructure for Missouri communities. As hospitals continue to close across rural America, Congress should prioritize keeping emergency care available close to home. Schultz supports expanding targeted federal funding for rural emergency rooms, similar to proposals that would help stabilize access to emergency care in underserved communities.
     Schultz also believes protecting Medicare and Medicaid begins with restoring accountability to these programs. Nathanael Schultz supports deporting individuals who are in the United States illegally and ensuring taxpayer-funded health care resources are reserved for those who are legally eligible. In addition, Schultz will work to eliminate fraud, waste, abuse, and bureaucratic inefficiency so providers receive funding more efficiently and more of every taxpayer dollar reaches patient care rather than administrative overhead.
@@ -549,6 +565,7 @@
   party: Republican 
   question: mo-q3
   date: 
+  primary_candidate: true
   response: |
     "Nathanael Schultz supports American leadership in artificial intelligence, but not at the expense of Missouri families, farmers, or taxpayers. AI is a strategic technology with the potential to strengthen national security, improve medicine, and drive economic growth. However, that does not justify subsidizing every proposed data center or asking rural communities to bear the costs while others reap the benefits.
     Schultz believes the federal government should end policies that use taxpayer dollars to subsidize private data center development through grants, financing, or infrastructure incentives without demonstrating a clear public benefit. Before federal support is provided, projects should prove they will create meaningful long-term jobs, protect private property rights, preserve productive farmland where practical, safeguard water and electric reliability, and leave local communities better off than they were before.
@@ -562,7 +579,8 @@
   district: 6
   party: Republican 
   question: mo-q5
-  date: 
+  date:
+  primary_candidate: true
   response: |
     "Nathanael Schultz believes science literacy is essential to America's future competitiveness, but decisions about K-12 education should remain primarily with states and local school districts—not Washington. Congress should support educational excellence without imposing one-size-fits-all national standards.
     Schultz believes science education should emphasize critical thinking, the scientific method, mathematics, engineering, and hands-on learning that prepares students for careers in agriculture, manufacturing, aviation, medicine, and technology. Students should be taught how to evaluate evidence, ask questions, test ideas, and solve real-world problems rather than simply memorize information.
@@ -798,7 +816,7 @@
   question: mo-q1
   date: 
   response: | 
-    "Access to quality healthcare should not depend on your ZIP code. As someone who works in healthcare and relied on Medicaid as a single mother when my family needed it most, I know firsthand how essential affordable, accessible care is for Missouri families. With 42% of Missouri counties lacking a hospital, we mStatet take meaningful action to improve healthcare access, especially in rural communities."
+    "I have worked in healthcare for more than 15 years, so I understand that access to healthcare means very little if the care a person needs is an hour away, there are not enough providers, or they cannot afford it. I support protecting and strengthening rural hospitals and clinics, expanding telehealth and broadband access, and growing Missouri's healthcare workforce. We should strengthen incentives such as loan repayment and training opportunities that encourage doctors, nurses, mental health professionals, and other healthcare providers to practice in rural and underserved communities. I also support protecting Medicaid and expanding the use of mobile and community-based healthcare so care can reach people where they live. We also need to make better use of nurse practitioners and physician assistants, especially in communities struggling with provider shortages, while maintaining appropriate standards for quality and patient safety. Where someone lives should not determine whether they can see a doctor, receive prenatal care, access mental health services, or get emergency care when they need it. Rural Missourians deserve access to quality healthcare close to home."
 
 - candidate_first_name: Shereka
   candidate_last_name: Barnes
@@ -809,7 +827,7 @@
   question: mo-q2
   date: 
   response: |
-    "Yes. Agriculture is one of Missouri's strongest economic drivers, and as the next State Senator for District 34, I recognize that part of my district is rural and depends on a thriving agricultural economy. Supporting agriculture means supporting jobs, local bStateinesses, family farms, and the long-term success of our communities."
+    "Yes. I support continuing to grow agtech businesses in Missouri and making sure Missourians have the education and scientific training needed to be part of this growing industry. Agriculture is important to our economy, our rural communities, and something even more basic—making sure families have food on the table. As a working mom, I know what it is like to stretch a grocery budget and rely on programs like free and reduced-price school meals to help make sure my children were fed. That experience is one reason food security is personal to me. Programs like SNAP and school meals are important for families who are struggling, but we also have to look at the entire system that gets food from Missouri farms to our tables. As a former educator, I want our students to see the opportunities that exist in agriculture, science, technology, research, engineering, and skilled trades. We should invest in education and training that prepares Missourians for those jobs while listening to farmers and scientists about how new technology can improve productivity, protect our land and water, and keep Missouri agriculture strong. For me, supporting agriculture means supporting our farmers, creating opportunities for our students and workers, and making sure Missouri families have access to the food they need."
   
 - candidate_first_name: Shereka
   candidate_last_name: Barnes
@@ -820,7 +838,7 @@
   question: mo-q3
   date: 
   response: |
-    "Artificial intelligence and data centers can bring good-paying jobs, new investment, and economic growth to Missouri. However, those benefits mStatet be balanced with the impact on local communities, including energy demand, water Statee, land Statee, privacy, and infrastructure."
+    "I recognize that artificial intelligence and data centers can bring new technology, investment, and jobs to Missouri. I am not against innovation, but I believe we need strong guardrails to make sure that growth does not come at the expense of the families and communities where these facilities are built. Data centers use significant amounts of energy and water. The company building and operating the data center should be responsible for paying the energy costs and additional infrastructure costs created by its facility. Those costs should not be passed on to families and communities through higher utility bills or taxes. We also need to understand the impact on our water, electrical grid, land, environment, and the health and well-being of the surrounding community. I believe we should listen to scientists and other experts, but we also need to listen to the people who live there. Everyone deserves a voice at the table. If Missouri is going to welcome these projects, they should provide real benefits to Missourians, including good-paying union jobs and workforce opportunities. We can support innovation while protecting our families and communities, but that requires transparency, accountability, community input, and strong guardrails."
 
 - candidate_first_name: Shereka
   candidate_last_name: Barnes
@@ -831,7 +849,7 @@
   question: mo-q4
   date: 
   response: |
-    "Yes. I believe effective public policy should be grounded in credible evidence and informed by experts in the field. As a legislator, I will trStatet and rely on scientists, researchers, healthcare professionals, educators, economists, and other subject matter experts to help evaluate the potential impacts of proposed legislation."
+    "I believe in listening to the experts. As an elected official, I will never pretend that I know everything about every issue that comes before me. My responsibility is to ask questions, listen, learn, and make the most informed decision I can for the people I represent. When legislation involves healthcare, the environment, agriculture, technology, public health, or other areas where scientific knowledge is important, I would seek input from scientists and professionals who have expertise in that specific field. I would want to understand the research, the evidence behind it, and the possible short- and long-term effects of the policy. I also believe scientists should have opportunities to testify before legislative committees and be part of policy discussions. I will listen to the people who will be directly affected by a decision as well. For me, good leadership is not about being the smartest person in the room. It is about being willing to listen to people who know more than you do, ask the right questions, look at the evidence, and then make a decision that is in the best interest of the people you serve."
 
 - candidate_first_name: Shereka
   candidate_last_name: Barnes
@@ -842,7 +860,7 @@
   question: mo-q5
   date: 
   response: |
-    "Science literacy is essential to preparing students for college, careers, and informed citizenship. As a former educator and current member of the Park Hill Board of Education, I believe Missouri's students deserve a strong, evidence-based science education that encourages curiosity, critical thinking, and problem-solving."
+    "As a former educator and current school board member, I believe science literacy is about much more than passing a test. Students learn when they have opportunities to see, touch, question, explore, and understand how what they are learning connects to the real world. I support strong K-12 science and STEM education with more hands-on learning opportunities. That means experiments, labs, technology, engineering projects, robotics, environmental science, and opportunities for students to learn directly from scientists, healthcare professionals, engineers, farmers, and others working in STEM careers. I also believe exposure matters. Every child, regardless of their ZIP code or their family's income, should have an opportunity to experience STEM education and see the careers that are available to them. A student may discover a passion or career they never knew existed simply because someone gave them the opportunity to experience it. We also need to give our teachers the training, resources, and classroom materials they need to make those opportunities possible. I want our students learning to ask questions, think critically, examine evidence, solve problems, and understand how science is part of their everyday lives."
 
 - candidate_first_name: John
   candidate_last_name: Leykamp
@@ -851,7 +869,8 @@
   district: 18
   party: Democratic
   question: mo-q1
-  date: 
+  date:
+  primary_candidate: true
   response: | 
     "We need healthcare for all.  The state and federal levels of government need to change their financial priorities to place more support for healthcare.  The population in some of these counties are pretty low and cannot support a hospital.  We need to look at better ways to quickly transport patients to hospitals and look at emergency triage clinics in rural areas."
 
@@ -862,7 +881,8 @@
   district: 18
   party: Democratic
   question: mo-q2
-  date: 
+  date:
+  primary_candidate: true
   response: |
     "Yes.  Agriculture is a large portion of our states income.  Education is an investment in our future."
   
@@ -874,6 +894,7 @@
   party: Democratic
   question: mo-q3
   date: 
+  primary_candidate: true
   response: |
     "I am concerned about water and energy consumption.  I think Data centers should Statee renewable water sources such as lakes or rivers instead of drilling deep wells.  They should have to provide their own energy sources instead of draining local regions of electricity.  Green energy would be ideal."
 
@@ -885,5 +906,171 @@
   party: Democratic
   question: mo-q5
   date: 
+  primary_candidate: true
   response: |
     "Missouri is 49th in money spent per student in public schools, 48th and 49th in teacher pay  We need to do better!  Education is an investment in our future."
+
+- candidate_first_name: Andy
+  candidate_last_name: Maidment
+  state: mo
+  race: US House of Representatives
+  district: 6
+  party: Libertarian
+  question: mo-q1
+  date:
+  response: |
+    "I plan to vote for policies that reduce regulation, get government out of the way, and make rural hospitals more viable from a business perspective."
+
+- candidate_first_name: Andy
+  candidate_last_name: Maidment
+  state: mo
+  race: US House of Representatives
+  district: 6
+  party: Libertarian
+  question: mo-q2
+  date:
+  response: |
+    "The government has no business picking winners and losers. If there is profit to be made, and there is in agriculture, then investment and ingenuity will follow. Trying to force this results in bad policies that do the opposite. Just look the amount of land that is poorly conditioned for row crops that are under row crops thanks to farm and ethanol subsidies. And we wonder why we're running out of beef. We do not need new legislation to make this happen. Legislation and regulation will only discourage the entrepreneurial spirit that built this country."
+    
+- candidate_first_name: Andy
+  candidate_last_name: Maidment
+  state: mo
+  race: US House of Representatives
+  district: 6
+  party: Libertarian
+  question: mo-q3
+  date:
+  response: |
+    "Missouri is already at the forefront of making large users of electricity and water pay for their increased capacity, at least where those industries are in the private sector. I cannot speak to what is happening under municipal utilities. New data centers are a good driver of economic development, but they should always pay for themselves. If a tax incentive can be used to lure one, then the tax rate is too high and should be lowered and made equal for everyone. Privacy certainly is an issue, but the question is nuanced. There is all the world of difference between voluntarily sharing some of your data with a technology company and having your data collected by government agents (or the companies they hire), collated, run through AI, and used to determine if you're committing a crime."
+
+- candidate_first_name: Andy
+  candidate_last_name: Maidment
+  state: mo
+  race: US House of Representatives
+  district: 6
+  party: Libertarian
+  question: mo-q4
+  date:
+  response: |
+    "Generally I wouldn't, since nearly all legislation and funding today isn't even authorized by the Constitution. But I do know to seek out advice from experts in areas where I am a layman. I am in information technology but some aspects are not my forte. While I am quite versed in weapons from serving as a soldier, there are some aspects I would still be unclear on. In most matters, I can easily decide if the Federal government should even be involved, but if it actually should I'll likely need assistance."
+
+- candidate_first_name: Andy
+  candidate_last_name: Maidment
+  state: mo
+  race: US House of Representatives
+  district: 6
+  party: Libertarian
+  question: mo-q5
+  date:
+  response: |
+    "The best way to improve education in all fields is to get children out of government schools--that are at best expensive babysitters and at worst indoctrination centers--that have reduced themselves from teaching calculus in high school to teaching remedial math in college in less than a century."
+    
+- candidate_first_name: Imma J
+  candidate_last_name: Curl 
+  state: mo
+  race: State Senate
+  district: 32
+  party: Democratic
+  question: mo-q1
+  date:
+  response: |
+    "Funding needs to be put back in place for rural healthcare. It needs to happen at the state and federal level.  Even though rural hospitals may only have about 30% of their beds occupied, they still need emergency services and the equipment to serve those emergencies. Number one reason is for births. Number two is for vehicle and farming accidents. I believe we should have healthcare for all, but in the beginning, we should Fund Medicare and Medicaid.  We should also stop the for profit healthcare system.  People, their healthcare team, and facilities are only looking at the bottom line and because of this people have died needlessly."
+
+- candidate_first_name: Imma J
+  candidate_last_name: Curl 
+  state: mo
+  race: State Senate
+  district: 32
+  party: Democratic
+  question: mo-q2
+  date:
+  response: |
+    "I believe in the education and training for our agtech business.  I believe in sustainable farming.  Corporate farms want to use our resources and move on.  They do not care about creating communities and farming practices that will keep us fed into the years to come."
+    
+- candidate_first_name: Imma J
+  candidate_last_name: Curl 
+  state: mo
+  race: State Senate
+  district: 32
+  party: Democratic
+  question: mo-q3
+  date:
+  response: |
+    "I feel that there are too many companies looking to put data centers not only in Missouri, but the whole of the USA. I think they are literally flinging data centers at towns to see who will bite.  We do not need all these data centers. These companies are looking for quick profit. Again, not long term sustainability. AI has benefits, but we are not currently using it for that purpose. Surveillance on consumers buying habits, and FLOCK and programs like GO Guardian are again for profit, not for the good of mankind. Sure FLOCK is here to "keep us safe".  There have been two instances in Joplin of officers using it to stalk women.  I feel that given the current administration, that it is already being used against other political parties and those who voice criticism against our current administration. Until we have better laws and regulations for AI, I believe we need to stop and immediately create those.  I also believe that citizens should not be forced to pay for datacenters and utility infrastructures, unless they get to share in the profit."
+  
+- candidate_first_name: Imma J
+  candidate_last_name: Curl 
+  state: mo
+  race: State Senate
+  district: 32
+  party: Democratic
+  question: mo-q4
+  date:
+  response: |
+    "I have always been a citizen scientist.  If I hadn't gotten into the arts, I would have been a scientist. Science is the most important tool we have to curing diseases. To stop global warming. The find the answer to cold fusion. To continue to explore our oceans and the skies above us. Science is ever changing and evolving.  I know for a lot of people change is scary, even for some scientists. People assume that if one scientific idea is wrong that more has to be wrong.  Then there are studies that are bad science which create more doubt about the scientifc proccess.  Our current administration has done a lot to destroy the faith in our scientific community, especially medicine."
+    
+- candidate_first_name: Imma J
+  candidate_last_name: Curl 
+  state: mo
+  race: State Senate
+  district: 32
+  party: Democratic
+  question: mo-q5
+  date:
+  response: |
+    "Not everyone needs an in depth understanding of science. But this could be said of a lot of subjects.  If students aren't exposed to science, then we are stopping them for becoming scientists, astronomers, doctors, and engineers. People should have a basic understanding of how our world works.  If you don't understand certain principles such as biology, anatomy, botany, climate processes among others, then there is a lot to fear."
+
+- candidate_first_name: Susan
+  candidate_last_name: Shumway 
+  state: mo
+  race: State Senate
+  district: 2
+  party: Democratic
+  question: mo-q1
+  date:
+  response: |
+    "I have worked in Healthcare for over 33 years and it is a priority for me to look for the obstacles that are in the way of ALL people receiving good/effective healthcare.  This includes empowering Nurse Practioners to provide care per their training and certification. This means finding additional funding where health care services can be expanded back into the rural areas that need them desperately.  It means working with healthcare organizations and medical schools to create innovative ways to recruit doctors back to Missouri."
+
+- candidate_first_name: Susan
+  candidate_last_name: Shumway 
+  state: mo
+  race: State Senate
+  district: 2
+  party: Democratic
+  question: mo-q2
+  date:
+  response: |
+    "I would absolutely support and encourage agtech business.  Scientific training will help sustain the agricultural community and industry, and investing in our higher education could lead to more students boosting the state economy."
+
+- candidate_first_name: Susan
+  candidate_last_name: Shumway 
+  state: mo
+  race: State Senate
+  district: 2
+  party: Democratic
+  question: mo-q3
+  date:
+  response: |
+    "Missouri has too much new data center construction with little to no regulation.  I would propose a moratorium on any new data center construction until regulation can be put into place.  Regulations I would propose would include requiring data centers to generate their own electricity, eliminate tax subsidies, and insuring the data centers would not interfere with the water going to supply farms."
+
+- candidate_first_name: Susan
+  candidate_last_name: Shumway 
+  state: mo
+  race: State Senate
+  district: 2
+  party: Democratic
+  question: mo-q4
+  date:
+  response: |
+    "After I examine the history of a bill, I would require input by Acadamia to assist in determining how I would vote on policy."
+ 
+- candidate_first_name: Susan
+  candidate_last_name: Shumway 
+  state: mo
+  race: State Senate
+  district: 2
+  party: Democratic
+  question: mo-q5
+  date:
+  response: |
+    "I remember the scientific method being drilled into my brain in school and I have adapted it in a variety of ways in my personal and professional life.  I believe it could be a formula that could allow some of the trust to be rebuilt in this country."
