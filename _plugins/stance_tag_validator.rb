@@ -6,6 +6,7 @@ module StanceResponseValidator
   FILTERS_KEY = "stance_filters".freeze
   RESPONSES_KEY = "stance_responses".freeze
   QUESTIONS_KEY = "stance_questions".freeze
+  TEAM_KEY = "stance_team".freeze
 
   RESPONSE_REQUIRED_FIELDS = %w[candidate_first_name candidate_last_name state race party question response].freeze
   QUESTION_REQUIRED_FIELDS = %w[id question tag].freeze
@@ -44,7 +45,7 @@ module StanceResponseValidator
     "inconsistent primary_candidate" => "it describes the candidate, so every row for them must agree",
     "invalid did_not_respond" => "must be literally true or false",
     "inconsistent did_not_respond" => "it describes the candidate, so every row for them must agree",
-    "response on non-responder" => "omit `response` (and `question`) when did_not_respond is true",
+    "answer fields on non-responder" => "omit both `question` and `response` when did_not_respond is true",
     "inconsistent candidate details" => "these describe the candidate, so every row for them must agree",
     "duplicate response" => "one row per candidate per question",
     "duplicate candidate slug" => "each candidate's page URL is derived from their name; two candidates in one state cannot share one",
@@ -52,6 +53,10 @@ module StanceResponseValidator
     "missing county_race" => %(required whenever race is "#{COUNTY_RACE_RACE}"),
     "unexpected county_race" => %(only allowed when race is "#{COUNTY_RACE_RACE}"),
     "invalid races list" => "omit `races` when the question applies to every race",
+    "referenced team image not found" => "when an image is listed, the file must exist under images/stance_teams/<state>/",
+    "blank team image alt text" => "every team image needs descriptive `alt` text",
+    "duplicate team image" => "list each team image only once",
+    "unsafe team image path" => "use a filename only, without directories or path traversal",
   }.freeze
 
   # Beyond this a group is summarised; the pattern is already obvious by then.
@@ -196,8 +201,12 @@ module StanceResponseValidator
 
           date = entry["date"]
           unless date.nil?
-            ok = date.is_a?(Date) || (date.is_a?(String) && (Date.parse(date) rescue nil))
-            add.call("invalid date", %("#{date}")) unless ok
+            # YAML normally loads YYYY-MM-DD values as Date objects. Quoted
+            # strings are also supported, but only in the same explicit format;
+            # Date.parse would silently accept ambiguous values such as 7/8/26.
+            iso_date_string = date.is_a?(String) && date.match?(/\A\d{4}-\d{2}-\d{2}\z/) &&
+              (Date.iso8601(date) rescue nil)
+            add.call("invalid date", %("#{date}")) unless date.is_a?(Date) || iso_date_string
           end
 
           question_ref = entry["question"]
@@ -231,13 +240,15 @@ module StanceResponseValidator
             add.call("invalid #{f}", %("#{flag}")) if flag != true && flag != false
           end
 
-          # A candidate flagged as not having responded has nothing to say, so
-          # answer text on the same row means one of the two is wrong.
+          # A candidate flagged as not having responded has no answer fields.
+          # Rejecting both prevents a copied question id from creating a
+          # misleading candidate/question association in downstream JSON.
           if entry["did_not_respond"] == true
-            answer = entry["response"]
-            unless answer.nil? || (answer.is_a?(String) && answer.strip.empty?)
-              add.call("response on non-responder")
+            answer_fields_present = NON_RESPONDER_EXEMPT_FIELDS.any? do |field|
+              value = entry[field]
+              !value.nil? && !(value.is_a?(String) && value.strip.empty?)
             end
+            add.call("answer fields on non-responder") if answer_fields_present
           end
 
           # These flags describe the candidate, not the individual response, so
@@ -290,6 +301,57 @@ module StanceResponseValidator
 
     report_and_raise("Stance response validation failed", problems,
                      "Valid values are defined in _data/stance_filters.yml.")
+  end
+
+  # Team cards are optional, but a referenced local image must be usable. Jekyll
+  # copies missing references into the rendered HTML without failing the build,
+  # so validate them explicitly here. Instagram-only entries remain valid, and
+  # this intentionally does not require an entry to choose exactly one card type.
+  def self.validate_team_data(site)
+    teams = site.data[TEAM_KEY]
+    return unless teams
+
+    problems = []
+    teams.each do |state_slug, entries|
+      file = "_data/stance_team/#{state_slug}.yml"
+      seen_images = {}
+
+      Array(entries).each_with_index do |entry, idx|
+        add = lambda do |kind, detail = nil|
+          problems << Problem.new(:file => file, :row => idx, :kind => kind, :detail => detail,
+                                  :subject => state_slug.to_s.upcase)
+        end
+
+        unless entry.is_a?(Hash)
+          add.call("entry is not a mapping")
+          next
+        end
+
+        image = entry["image"]
+        next if image.nil?
+
+        if !image.is_a?(String) || image.strip.empty? || File.basename(image) != image ||
+           image == "." || image == ".." || image.include?("\\")
+          add.call("unsafe team image path", %("#{image}"))
+          next
+        end
+
+        alt = entry["alt"]
+        add.call("blank team image alt text", %("#{image}")) if !alt.is_a?(String) || alt.strip.empty?
+
+        if seen_images.key?(image)
+          add.call("duplicate team image", %("#{image}" — also at entry #{seen_images[image]}))
+        else
+          seen_images[image] = idx
+        end
+
+        image_path = File.join(site.source, "images", "stance_teams", state_slug.to_s, image)
+        add.call("referenced team image not found", %("#{image}")) unless File.file?(image_path)
+      end
+    end
+
+    report_and_raise("Stance team validation failed", problems,
+                     "Team image files and alt text are defined in _data/stance_team/<state>.yml.")
   end
 
   def self.candidate_name(entry)
@@ -475,4 +537,5 @@ Jekyll::Hooks.register :site, :post_read do |site|
   StanceResponseValidator.validate_filters(site)
   StanceResponseValidator.validate_state_pages(site)
   StanceResponseValidator.validate(site)
+  StanceResponseValidator.validate_team_data(site)
 end
