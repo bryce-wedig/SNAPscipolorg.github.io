@@ -1,0 +1,32 @@
+- id: nj-q1
+  question: >-
+    Exposure to PFAS has been associated with weakened immune response and impaired liver and kidney function. In 2018, New Jersey passed a rule setting enforceable limits on PFAS in drinking water, one of the first states in the country to do so. Levels of two of the most harmful PFAS chemicals have since dropped by nearly 50% compared to 2006, when concerningly high levels were first found. Despite this progress, gaps persist, including  soils, air pollution, and private wells, which have limited monitoring of but serve 10% of the state’s population. Do you think current policies related to forever chemicals  have had a positive impact on NJ residents and what additions, changes, or different policies, if any, would you implement regarding managing PFAS levels in New Jersey’s air, soil, and drinking water? (Source - NJ Spotlight news)
+  tag: Public Health
+
+- id: nj-q2
+  question: >-
+    In 2025, the National Institute of Health (NIH) awarded over $460 million for research grants and contracts to New Jersey universities and biotech companies, which directly supported over 5,800 jobs and $1.51 billion of economic activity in New Jersey. Additionally, New Jersey legislators have proposed a bipartisan bill that would repurpose tax revenue from tobacco sales as funding for cancer research.  What policies, if any, do you suggest regarding maintaining current levels of federal support for health-related research and healthcare in NJ? Do you support a push towards channeling more of that financial support through state funding, and if so, through what policies?
+  tag: Science Funding
+
+- id: nj-q3
+  question: >-
+    New Jersey’s school-based mental health professionals-to-students ratios remain much higher than recommended levels, even as 42% of high school students and 50% of middle schoolers in the state reported feeling sad and hopeless according to a 2023 study. Do you support allocating resources towards researching this topic, and what policies, if any, do you support to address youth mental health and well-being in the state? (Source - Advocates for children of New Jersey, Source - NJ Spotlight news)
+  tag: Public Health
+
+- id: nj-q4
+  question: >-
+    New Jersey has a longstanding history of being seriously affected by natural disasters. Recently, heavy rainfall brought a  significant amount of flooding that caused damage and loss of business in commercial and residential areas of NJ.  What policies, if any, would you pursue to mitigate the effects of natural disasters, and what role would state scientists and flood experts have in the policies you propose to mitigate the effects of flooding?
+  tag: Environment
+
+- id: nj-q5
+  question: >-
+    In 2025, only 26% of NJ students met proficiency in science on standardized tests. In cities such as Newark, this is as low as 7%. Furthermore the number of math and science educators in NJ is waning (9% decrease). What policies, if any, would you propose to increase access to quality STEM education across the state and to address the decline in evidence-based learning?
+  tag:
+    - Investment in Higher Education
+    - Jobs and Workforce
+    - K-12 Science Education
+
+- id: nj-q6
+  question: >-
+    To date, there are over 80 operational data centers present in New Jersey, four more proposed, and another currently under construction. Governor Mikie Sherill has recently signed the Data Center Fair Share Act, allowing centers to offset energy demands by paying for clean energy upgrades to local homes. What other policies and regulations, if any, would you support to assess and manage the impact of these data centers on the environment and infrastructure of New Jersey?
+  tag: Energy
