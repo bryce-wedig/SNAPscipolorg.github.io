@@ -6,7 +6,7 @@
   party: No Party Preference # must match one of the options!
   question: wi-q1
   date: 2026-07-10 # optional
-  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  primary_candidate: true # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
   response: |
     I am against the data centers. Without real solid laws regarding A.I. inplace, we shouldn't be moving forward with anything. What limitations do corporations really have with A.I now or oversight? 
     
@@ -18,7 +18,7 @@
   party: No Party Preference
   question: wi-q2
   date: 2026-07-04
-  primary_candidate: false
+  primary_candidate: true
   response: |
     Robotics and A.I have its place. I also understand with any new technology it can be abused and used for bad intentions. With the advancements in A.I and the speed that it is advancing. The question really is, when do humans become the roadblock for A.I to keep advancing and what are the consequences of trying to stop it. Robotics and the purpose of A.I is to complete task in a more and efficient way. A job is a task. If we dont put restrictions on A.I. I feel it will create an economic disaster due to no or limited incomes.
 
@@ -30,7 +30,7 @@
   party: No Party Preference
   question: wi-q3
   date: 2026-07-04
-  primary_candidate: false
+  primary_candidate: true
   response: |
     There are to many things wrong with the publice education system. We need a complete overhaul. We have teacher issues and the teachers Union. We student education and graduation issues. To administration and financial issues. This is a major task to take on and requires a lot of investigations into schools themselves before anything should be done. Is it an administrative issue or something totally different. What are the education system expectations vs the communitie expectations. Lots of issues and sometimes I think the overwhelming issues are on purpose. Dont know for sure. It sure feels like it. 
 
@@ -42,7 +42,7 @@
   party: No Party Preference
   question: wi-q5
   date: 2026-07-04
-  primary_candidate: false
+  primary_candidate: true
   response: |
     I have high respect for scientists. Take the information with importance. I also understand science changes and so do some theories. So a good debate with facts can get to a more reasonable solution to problems we can solve for the betterment of all.
 
@@ -54,7 +54,7 @@
   party: No Party Preference
   question: wi-q6
   date: 2026-07-04
-  primary_candidate: false
+  primary_candidate: true
   response: |
     I would like to see more of a push tords space travel studies and the health issues regarding that. Food, water and over all health are an important factor of space travel.  That research would spread all over. I also have to be realistic. We are a nation in massive debt and spend a lot of money on the military industrial complex. I would like to see that change to more of an American technology investment. Thats my hope. Advancing human health and curing diseases. Not just making treatments. I will say I love technology. I also understand the good and bad with technology and feel some oversight while expanding our children's future education in the technology are both very important. Smarter Americans is a good thing. We wouldn't need so many overseas workers in America. History has taught us, the governments suppression of technology is real.  
 
@@ -66,7 +66,7 @@
   party: Democratic
   question: wi-q1
   date: 2026-07-10
-  primary_candidate: false
+  primary_candidate: true
   response: |
     Mark supports the development of artificial intelligence engines but only with iron-clad regulations to protect human wellbeing, jobs, data privacy, and of course environmental protections. He's proposing a 1-year moratorium on all new AI data center construction to give policymakers time to develop a regulatory framework to ensure that this powerful technology benefits humanity, is ecologically friendly, and can be powered entirely by 24/7 renewable energy created right here in America. He also supports strong water quality protections and the use of closed-loop geothermal cooling systems.
 
@@ -80,7 +80,7 @@
   party: Democratic
   question: wi-q2
   date: 2026-07-10
-  primary_candidate: false
+  primary_candidate: true
   response: |
     Mark is the only candidate in this Congressional race supporting the creation of the world's largest renewable biomass market powered by America's farmers. This plan builds on the excellent work being done at UW's agriculture school and would support the production of renewable biomass for 24/7 electrical generation, bio-fuels (including sustainable aviation fuel - SAF), bio-plastics, building materials, paper products, textiles, etc.. Wisconsin has the resources, Wisconsin has the talent; we just need fresh, independent leaders to think long-term again.
 
@@ -94,7 +94,7 @@
   party: Democratic
   question: wi-q3
   date: 2026-07-10
-  primary_candidate: false
+  primary_candidate: true
   response: |
     As the only candidate in this 8th Congressional District race who has taught full-time in a Wisconsin public school, Mark brings a wealth of experience and expertise. He supports educational choice exclusively through public charter schools, his tax modernization plan (#TinyTax) would keep more than $20 billion per year in our local and Wisconsin economy which would be use to increase funding for our shared public infrastructure, including public schools. He also supports a massive increase in funding for the arts and humanities to offset the effects of artificial intelligence and to strengthen student understanding, curiosity, creativity and achievement. Lastly, he supports equalizing funding for schools across rural Wisconsin, winding down our broken voucher program, and supporting job training for advanced manufacturing across the state. 
 
@@ -108,7 +108,7 @@
   party: Democratic
   question: wi-q5
   date: 2026-07-10
-  primary_candidate: false
+  primary_candidate: true
   response: |
     America must continue to lead on scientific research, and must always lead all policy decisions at the local, state, federal and international levels. And this includes not only physical science, but most especially social science research that can help us make better policy decisions designed to help improve human and environmental wellbeing. Mark believes that public policy should never be driven by religion, mythology, tribalism, nor by intuition. While there are certainly areas of human endeavor that can include these concepts, public policy should never be one of them.  
 
@@ -122,7 +122,7 @@
   party: Democratic
   question: wi-q6
   date: 2026-07-10
-  primary_candidate: false
+  primary_candidate: true
   response: |
     Mark's tax reform proposal (#TinyTax) would fully fund all spending allocated by Congress in the 2022-24 budget, including fully funding the Centers for Disease Control, the National Institute on Health, the National Academy of Science, NASA, et.al.. Mark believes strongly that impounding Congressional spending by the executive branch is bth unconstitutional and outright unworkable and he supports strengthening the separation of powers between Congress and the Executive Branch. He also supports minimizing Presidential executive orders as a means of instituting public policy. 
 
@@ -136,7 +136,7 @@
   party: Democratic
   question: wi-q1
   date: 2026-07-18
-  primary_candidate: false
+  primary_candidate: true
   response: |
     I support responsible AI innovation that balances economic growth with environmental stewardship and community health. As a clinical pharmacist and public health advocate, I prioritize evidence-based policies that protect Wisconsin families while fostering technological advancement. 
     
@@ -158,7 +158,7 @@
   party: Democratic
   question: wi-q2
   date: 2026-07-18
-  primary_candidate: false
+  primary_candidate: true
   response: |
     I support expanding Wisconsin Fast Forward grants to fund biotechnology, agricultural innovation, and renewable energy training programs at UW System campuses and technical colleges. Evidence shows programs like MREA's Solar Ready Wisconsin successfully placed 27 interns with solar contractors, demonstrating public-private partnerships work. 
     
@@ -180,7 +180,7 @@
   party: Democratic
   question: wi-q3
   date: 2026-07-18
-  primary_candidate: false
+  primary_candidate: true
   response: |
     I support fully funding Wisconsin's public schools to reverse the 600+ school closures and 7% enrollment decline, particularly impacting rural STEM access. As a school board treasurer and pharmacist preceptor, I've seen how underfunding devastates educational opportunities.
     
@@ -204,7 +204,7 @@
   party: Democratic
   question: wi-q5
   date: 2026-07-18
-  primary_candidate: false
+  primary_candidate: true
   response: |
     As a clinical pharmacist who precepts pharmacy students and manages behavioral health patients, I rely on scientific evidence daily. If elected, I would consult scientists in multiple capacities:
     
@@ -228,7 +228,7 @@
   party: Democratic
   question: wi-q7
   date: 2026-07-18
-  primary_candidate: false
+  primary_candidate: true
   response: |
     As a clinical pharmacist and behavioral health specialist, I've witnessed how infectious disease outbreaks devastate healthcare systems. I support evidence-based policies aligned with Wisconsin Public Health Association (WPHA) recommendations to protect communities and agriculture.
     
@@ -254,7 +254,7 @@
   party: Republican
   question: wi-q1
   date: 2026-07-20
-  primary_candidate: false
+  primary_candidate: true
   response: |
     I support responsible growth of AI and the data centers that power it because they are essential to America's economic competitiveness and national security. At the same time, data center projects should be transparent, respect local decision-making, and address impacts on water, energy, and infrastructure without unfairly shifting costs onto residents. My views are informed by research from industry, government, and academic sources, as well as discussions about AI's impact on jobs, privacy, energy, and rural communities. AI should strengthen American innovation while protecting taxpayers and individual rights.
 
@@ -268,7 +268,7 @@
   party: Republican
   question: wi-q2
   date: 2026-07-20
-  primary_candidate: false
+  primary_candidate: true
   response: |
     I support workforce development that prepares Wisconsinites for careers in agriculture, biotechnology, manufacturing, energy, and other high-demand industries. Strong partnerships between employers, technical colleges, and universities can help fill workforce shortages while keeping Wisconsin competitive. My priority is investing in education and training that leads to real jobs, supports innovation, and strengthens our rural and local economies.
 
@@ -282,7 +282,7 @@
   party: Republican
   question: wi-q3
   date: 2026-07-20
-  primary_candidate: false
+  primary_candidate: true
   response: |
     I support strengthening K-12 education by focusing on core academics, empowering parents, supporting teachers, and giving local school districts the flexibility to meet their communities' needs. I also support expanding career and technical education and STEM opportunities so students are prepared for college, the skilled trades, military service, or the workforce.
 
@@ -296,7 +296,7 @@
   party: Republican
   question: wi-q5
   date: 2026-07-20
-  primary_candidate: false
+  primary_candidate: true
   response: |
     I believe scientific expertise should inform public policy, especially on technical and emerging issues. At the same time, elected officials must also consider the Constitution, economic impacts, public input, and individual rights. My decisions will be informed by credible scientific evidence while balancing the broader responsibilities of representative government.
 
@@ -310,7 +310,7 @@
   party: Republican
   question: wi-q7
   date: 2026-07-20
-  primary_candidate: false
+  primary_candidate: true
   response: |
     I support strong disease surveillance, public health preparedness, and protecting Wisconsin's agriculture from outbreaks that threaten people and livestock. Government should provide timely, accurate information and coordinate with health professionals and producers while respecting individual rights and avoiding unnecessary mandates. Our response should be guided by science, transparency, and proportional measures.
 
@@ -324,7 +324,7 @@
   party: Democratic
   question: wi-q1
   date: 2026-07-29
-  primary_candidate: false
+  primary_candidate: true
   response: |
     I support a meaningful moratorium on data centers so that local, state, and federal regulations may be implemented: regular folks must not see their rates increase, we must protect our natural resources and the peace of our communities, and these developments must use renewable energies to generate most of their energy needs. We also need to address the demand side of this equation and place human protections on the use of AI. As a mental health provider, I have seen the harmful effects of generative AI, particularly on our youth. Whether it be the shortcutting of our education system or unauthorized use of our personal images, AI must be regulated.
 
@@ -340,7 +340,7 @@
   party: Democratic
   question: wi-q2
   date: 2026-07-29
-  primary_candidate: false
+  primary_candidate: true
   response: |
     In Congress, I will invest in high quality jobs in America, and particularly in Wisconsin. We should be leading the way in innovative practices that increase food production and efficiency while properly caring for the long-term health of our natural resources. I also believe that we must be investing in renewable energies, not just the energy generation, but also the infrastructure to support electrification. Wisconsin has seen the harmful impacts of lost manufacturing jobs, I would like to support these vacant spaces to become thriving hubs of economic growth with production of everything from electric vehicles to the mounting brackets for residential solar panels. Any decision on these policies will include experts and those most impacted at the table, I will always put Wisconsinites first.
 
@@ -354,7 +354,7 @@
   party: Democratic
   question: wi-q3
   date: 2026-07-29
-  primary_candidate: false
+  primary_candidate: true
   response: |
     Wisconsin has been a case study for privatization of public goods and the harmful impacts vouchers have had on our public schools, our kids, and our communities. In Congress, I will fight against any attempts at a national voucher program, I will fight to increase special education funding, and I will fight to reduce childcare costs and increase investments in public post-high school opportunities. 
 
@@ -370,7 +370,7 @@
   party: Democratic
   question: wi-q5
   date: 2026-07-29
-  primary_candidate: false
+  primary_candidate: true
   response: |
     I believe that those closest to the problems are closest to the solutions and I will ensure that   scientists and other experts are at the table when making policy decisions.
 
@@ -384,7 +384,7 @@
   party: Democratic
   question: wi-q6
   date: 2026-07-29
-  primary_candidate: false
+  primary_candidate: true
   response: |
     I believe in using public dollars to support our communities and one of the most successful ways to improve our lives and build local economies is to fund research at public universities and labs. I will fight for a budget that restores research grants to public institutions. As the only candidate with local-elected experience, I have worked hand-in-hand with our universities to build partnerships that improve both our universities and communities.
 
@@ -628,422 +628,4 @@
 
     KEYWORDS: Evidence based, public outreach
 
-- candidate_first_name: Amanda
-  candidate_last_name: Bell
-  state: wi
-  race: US House of Representatives
-  district: 6
-  party: Democratic
-  question: wi-q1
-  date: 2026-08-02
-  primary_candidate: false
-  response: |
-    I support strong oversight of data center development and the AI industry, which up to now has had a blank check to do whatever it wants. These facilities use huge amounts of water and power, often without honest answers about where that water comes from or goes. As a scientist who spent 24 years researching rivers and lakes, I have a unique perspective on how industrial discharge and water use can cause serious environmental harm. I’ve worked with community groups in Wisconsin and Minnesota reviewing water use and cooling system disclosures, and found discrepancies in water use figures and unauthorized groundwater withdrawals before facilities are even operational.
-
-    AI’s impact on our economy, jobs, and privacy raises concern. Elon Musk is suing Minnesota because his AI platform has been used to turn photos into sexually explicit images, including of children, which a new state law would ban. Musicians, writers, journalists, and artists are having their work stolen to create AI generated art, music, and films without credit. We haven’t had federal electronic privacy regulation since the 1988 Video Privacy Protection Act, which made it illegal to share what movies people rented. We need to update federal privacy law for this millennium.
-
-    KEYWORDS: Environment, transparency, consent 
-
-- candidate_first_name: Amanda
-  candidate_last_name: Bell
-  state: wi
-  race: US House of Representatives
-  district: 6
-  party: Democratic
-  question: wi-q2
-  date: 2026-08-02
-  primary_candidate: false
-  response: |
-    Wisconsin’s 6th district has the highest concentration of manufacturing jobs in the country, and our workforce policy needs to build on that strength. We need to expand hands on training in agriculture, food science, biotech, and energy at technical colleges and high schools, which lead to good paying jobs. Our district also has several power plants and growing solar and wind projects, and we need trained workers ready to build, maintain, and staff that energy infrastructure as it expands. We need additional grants for schools to buy modern lab, manufacturing, and energy equipment, and partnerships between universities, local manufacturers, and energy companies. Rural Wisconsin has been losing young talent for decades because we haven’t invested in keeping opportunity local. We must invest federal funding into apprenticeships for manufacturing, ag tech, renewable energy, and biomanufacturing, especially in rural counties that get passed over for these investments. If we want a strong bioeconomy and a strong industrial base, we need to train the workforce here so we have the ability to grow here.
-
-    KEYWORDS: Education, training, manufacturing
-
-- candidate_first_name: Amanda
-  candidate_last_name: Bell
-  state: wi
-  race: US House of Representatives
-  district: 6
-  party: Democratic
-  question: wi-q3
-  date: 2026-08-02
-  primary_candidate: false
-  response: |
-    I substitute teach in three school districts right now, so I see the effects of these cuts firsthand. We have crowded classrooms, out-dated materials, and fewer STEM opportunities the further you get from a city. We must restore full federal funding for public schools and oppose any effort to divert public dollars into private school vouchers. That includes fully funding IDEA, which Congress has never funded at the level it promised, leaving districts to cover special education costs out of budgets that are already underfunded. Rural districts need supportive funding for STEM equipment, broadband, and teacher recruitment, since many can't compete with suburban districts on pay, and they need the same commitment for special education staff and services. I'd support loan forgiveness for teachers who commit to rural placements and partnerships between rural schools and nearby universities or ag research stations to bring real-life science experience into the classroom. Every kid deserves the same shot at a good education, whether they're in Port Washington or Poy Sippi, and that includes kids with disabilities who are too often shortchanged when funding falls short.
-
-    KEYWORDS: funding, special education, STEM
-
-- candidate_first_name: Amanda
-  candidate_last_name: Bell
-  state: wi
-  race: US House of Representatives
-  district: 6
-  party: Democratic
-  question: wi-q5
-  date: 2026-08-02
-  primary_candidate: false
-  response: |
-    I spent 24 years at the US Geological Survey, rising to Deputy Director of the Upper Midwest Water Science Center, so I have dedicated my career to science and research and know that information helps to inform policy. But when DOGE was created, I saw firsthand what happens when science and research gets politicized. Contracts with university partners working on toxic algal blooms were cancelled with no warning and no reasoning given. This administration also cut funding for flood mapping and streamflow monitoring, work that saves lives by helping first responders know which roads and bridges are underwater during a flood. If elected, I'd rely on career scientists and researchers, not political appointees, for the technical basis of any policy touching public health, water, agriculture, or the environment. I'd hold regular briefings with agency scientists at DOI, EPA, CDC, NIH, NOAA, and NSF, and I'd support strengthening whistleblower protections so scientists can speak up when political pressure distorts their findings. That's the standard I'd bring to Congress: policy built on evidence, not ideology, and full transparency about where the evidence came from. 
-
-    KEYWORDS: evidence, integrity, transparency
-
-- candidate_first_name: Amanda
-  candidate_last_name: Bell
-  state: wi
-  race: US House of Representatives
-  district: 6
-  party: Democratic
-  question: wi-q6
-  date: 2026-08-02
-  primary_candidate: false
-  response: |
-    Wisconsin's research institutions are an economic engine, and gutting NIH and NSF funding hurts jobs and undermines our global scientific credibility. Having spent my career in federal science, I know how much damage short-term thinking does to long-term research. Cutting funding doesn't save money, it just moves the cost to lost jobs, delayed treatments, and lost American competitiveness in fields other countries are racing to lead.
-    
-    I will support policies that include multi-year funding commitments for research projects so universities and hospitals can plan longer-term studies and ending the threat of government shutdowns whenever Congress fails to pass a budget. I will fight against any effort to use science funding as a political bargaining chip or to steer research toward predetermined conclusions. We must support unbiased research free from political interference in what gets funded or published. We should encourage federal science agencies to partner with international universities and other countries to advance research faster than any one country can alone.
-
-    KEYWORDS: credibility, collaboration, investment
-
-- candidate_first_name: Jeff
-  candidate_last_name: Foster
-  state: wi
-  race: State Senate
-  district: 23
-  party: Democratic
-  question: wi-q1
-  date: 2026-08-04
-  primary_candidate: false
-  response: |
-    Generative artificial intelligence must be regulated to ensure content is factual, preserves personal privacy, conforms to ethical standards, has built-in guardrails, and is human-controllable. Data centers must be environment-friendly for land, water, noise, and light; produce its own green energy, and rely on their own resources for development, construction, and taxes. These policies are based on actual performance and projections by informed scientists as reported in respected print and broadcast media..
-
-    KEYWORDS: Regulation, protection, accountability.
-
-- candidate_first_name: Jeff
-  candidate_last_name: Foster
-  state: wi
-  race: State Senate
-  district: 23
-  party: Democratic
-  question: wi-q2
-  date: 2026-08-04
-  primary_candidate: false
-  response: |
-    The Universities of Wisconsin system has been a bastion of research and innovation, especially in agriculture, including biotechnology. It has committed to fusion energy experimentation and development. These pursuits have produced many private companies that employ Wisconsin residents. I support state funding for research and start-up loans for spin-off companies utilizing proven innovation. 
-
-    KEYWORDS: Research, innovation, investment.
-
-- candidate_first_name: Jeff
-  candidate_last_name: Foster
-  state: wi
-  race: State Senate
-  district: 23
-  party: Democratic
-  question: wi-q3
-  date: 2026-08-04
-  primary_candidate: false
-  response: |
-    Fully-funded public schools will reduce inequities faced by rural school districts. Phasing out the voucher system will concentrate resources to a single constitutionally mandated public education system. Expanding hands-on STEM education to all age groups. Fully funding quality childcare will prepare children for a lifetime of learning.
-
-    KEYWORDS: Fully-funded, hands-on, childcare.
-
-- candidate_first_name: Jeff
-  candidate_last_name: Foster
-  state: wi
-  race: State Senate
-  district: 23
-  party: Democratic
-  question: wi-q5
-  date: 2026-08-04
-  primary_candidate: false
-  response: |
-    I would refer to scientific journals, opinion pieces by respected experts, and personal consultation with University professors. 
-
-    KEYWORDS: Journals, experts, consultation.
-
-- candidate_first_name: Jeff
-  candidate_last_name: Foster
-  state: wi
-  race: State Senate
-  district: 23
-  party: Democratic
-  question: wi-q7
-  date: 2026-08-04
-  primary_candidate: false
-  response: |
-    I would reduce the variety of exemptions available to parents for child school enrollment. I would encourage a multi-media public education campaign that stresses the effectiveness of vaccines and our shared responsibility for safety. 
-
-    KEYWORDS: Exemptions, education, responsibility
-
-- candidate_first_name: Steven
-  candidate_last_name: Doelder
-  state: wi
-  race: State Senate
-  district: 11
-  party: Democratic
-  question: wi-q1
-  date: 2026-08-04
-  primary_candidate: false
-  response: |
-    I would support a one-year moratorium on any large (specifically define) data centers for Wisconsin.  This would allow for regulations to catch up with the technology.  I would also like to see the prohibition of non-disclosure agreements used by data companies which prevent citizens from having information about these data centers.  Finally, I would like the State to provide technical and legal assistance to small communities dealing with data centers.  
-
-    KEYWORDS: moratorium/assistance/non-disclosure
-
-- candidate_first_name: Steven
-  candidate_last_name: Doelder
-  state: wi
-  race: State Senate
-  district: 11
-  party: Democratic
-  question: wi-q2
-  date: 2026-08-04
-  primary_candidate: false
-  response: |
-    We need to adequately fund our public schools and universities.  When I graduated from UW-Steven Point in 1971, the State was covering over 60% of my cost.  Today, the State only covers 19%.  This has to change.  We have to provide adequate science, healthcare, and technology training.  The public K12 schools must be adequately funded by the State so all students have the same opportunities no matter their zip codes.  We need to stop pitting our public schools against the property taxpayers.  We need to stop draining funds from our public school districts by terminating the school voucher program which gives public taxpayer’s dollars to private schools.  We  need a National Science Foundation-like organization that trains science teachers and creates science programs such as BSCS, IPS, ISCS and SCIS.  We need to emphasize higher order thinking skills rather than rote learning.   
-
-    KEYWORDS: NSF/funding/thinking
-
-- candidate_first_name: Steven
-  candidate_last_name: Doelder
-  state: wi
-  race: State Senate
-  district: 11
-  party: Democratic
-  question: wi-q3
-  date: 2026-08-04
-  primary_candidate: false
-  response: |
-    I was a science educator for over 40 years and taught 6th grade science through college chemistry.  I believe in teaching students to think and solve problems…to know what to do when you don’t know what to do.  We need to attract the best and most talented students into science teaching and reward them for being innovative and creative.  We cannot continue to allow our public schools to be funded by the property taxpayers.  The State needs to adequately fund every public school so every student has the same opportunities (including all science disciplines) no matter their zip codes.  We need a NSF-like organization to train science teachers and create programs such as IPS, ISCS, and BSCS.  We need to act like we are trying to get to the moon again.  We did it once and we can do it again!   
-
-    KEYWORDS: thinking/opportunity/creativity
-
-- candidate_first_name: Steven
-  candidate_last_name: Doelder
-  state: wi
-  race: State Senate
-  district: 11
-  party: Democratic
-  question: wi-q5
-  date: 2026-08-04
-  primary_candidate: false
-  response: |
-    For over forty years I taught students to think critically and use the scientific method to solve problems.  I taught them to know what to do when they don’t know what to do.  Experimental design was an event in the Science Olympiad and I used it in many of my classes to give students a tool to accomplish a task.  I used the movie Apollo 13 to show them how science saved the lives of the trapped astronauts.  Science has been the center of my life and I use it everyday to make things work and to get things done! 
-
-    KEYWORDS: tool/solutions/solve
-
-- candidate_first_name: Steven
-  candidate_last_name: Doelder
-  state: wi
-  race: State Senate
-  district: 11
-  party: Democratic
-  question: wi-q7
-  date: 2026-08-04
-  primary_candidate: false
-  response: |
-    I grew up when polio was part of life.  People were doomed to live in an iron lung machine.  Then came vaccines and we lined up in the cafeteria to receive our sugar-cube laced polio vaccine.  We were proud of our smallpox scar on our shoulder.  I had measles and now am grateful that today, children won’t have to experience that disease if they get vaccinated.  I grew up when we trusted science to give us hope and good health.  There were no protests or anti-vaxers.  We had shared truth and a path to a better life. Science gives us the best-possible solutions to the problems we face everyday.  It is the path I choose and use everyday.
-
-    KEYWORDS: truth/health/path
-
-- candidate_first_name: Douglas
-  candidate_last_name: Alexander
-  state: wi
-  race: US House of Representatives
-  district: 2
-  party: Democratic
-  question: wi-q1
-  date: 2026-08-05
-  primary_candidate: false
-  response: |
-    Approaching such issues I have a calm confidence that this can all be done successfully and appropriately. However, I myself don’t have the time to study all the details myself. My intuition and life experience lead me to believe it will take time for us as a society to work out the best approaches.
-
-    There will be mistakes along the way. In some instances, actors will rush in and go too fast, and make mistakes. Hopefully we will all learn from those mistakes. It’s important the press, and those involved, are willing to recognize mistakes, and share with us so we all learn from them.
-
-    In other situations delays caused by the public, etc. may prove costly, and once the Data Center is up and running, they will look back and wish they have done so 18-24 months sooner. That lost efficiency is costly, but it’s all part of the scientific process.
-
-    Ideally we all--owners, users, local communities--sincerely try to get it right. People innocently created asbestos, and many innocent people paid the price with their health and lives; we all now pay the price financially. Let’s all seek to avoid similar innocent mistakes in this new era of AI and large data centers.
-
-    KEYWORDS: mistakes, scientific process, asbestos
-
-- candidate_first_name: Douglas
-  candidate_last_name: Alexander
-  state: wi
-  race: US House of Representatives
-  district: 2
-  party: Democratic
-  question: wi-q2
-  date: 2026-08-05
-  primary_candidate: false
-  response: |
-    First, policies that relate to workforce development are implemented on three different governmental levels: local, state-wide, and federal. I believe most such policies should be implemented by local authorities, and state-wide when it makes sense. I’ve not studied this in depth--I’m willing to--but I don’t know of any workforce development policies that should be implemented by the federal government. As such, although I’m glad to participate in brainstorming and discussions about wise or foolish ways to proceed, I don’t think Congress should be voting on any workforce development issues. (Perhaps some safety requirements are so universally recognized they *could* be enforced federally, but if they are universally recognized, then each state should pass regulations that best fit their state workforces.) 
-
-    Folks, this is not a wimpy answer from a slippery politician trying to avoid saying anything significant. This is an important distinction you don’t often hear a candidate make! 
-
-    Read Article 1, sec. 8 of the US Constitution: Congress is delegated no power over workforce development.  Now read the 10th amendment. Our country will operate more efficiently if the federal government removes itself from areas it has no business being. It’s not just because they tend to muck things up; it’s because big power brokers don’t want to have to deal with every state legislature/educational institution to get their way. Instead, they buy up a few key members of Congress, and get laws passed the effectively routes $millions or $billions to their company, at the expense of smaller, local, businesses that are better suited to the unique workforce development needs of their local area. 
-
-    That corruption needs to stop. Our current Congress doesn’t care about that corruption--they benefit from it.  But if we institute term limits on Congress, the career politicians won’t be able to stay, and citizen legislators--like I would be, like many of you readers would be--would not cow-tow to the big power brokers. 
-
-    KEYWORDS: local, state, federal, 10th amendment, corruption
-
-- candidate_first_name: Douglas
-  candidate_last_name: Alexander
-  state: wi
-  race: US House of Representatives
-  district: 2
-  party: Democratic
-  question: wi-q3
-  date: 2026-08-05
-  primary_candidate: false
-  response: |
-    First, policies that relate to workforce development are implemented on three different governmental levels: local, state-wide, and federal. I believe most such policies "Wisconsin currently has ~800,000 public ed students. That means two decades ago they had ~60,000 more statewide. Obviously the rural decline is a function of economic realities that one local school cannot prevent. But when they sadly must close, those students are going elsewhere. A lower birthrate may explain a small drop, but there are clearly other factors at play. Jumping to the question, here are policies I would support to improve K-12 education in WI:
-
-    First, stop the Big Lie. The Big Lie is that schools are “telling” many of their students that he or she passed, but in reality many have not met the standards set for their grade level!  They are, in reality, “approaching” those standards, or--worse--merely “developing.”
-
-    For the Madison Metropolitan School District in 2024-5, those tested for English scored as follows: 
-    1) whites: 78% either “Advanced or Meeting” standards; 22% were either “approaching,” or      “developing.”
-    2) blacks: 16% meeting standards; 84% not meeting standards
-
-    For Math:
-    1) whites: 73% meeting; 27% not meeting
-    2) blacks: 12% meeting; 88% not meeting   
-
-    To find these scores, go to https://dpi.wi.gov/accountability/report-cards  Then the green box “click here for school and district report cards.” Then search on a school district, or an individual school.
-
-    A result of the Big Lie is by the time they reach high school, only 73% of white students, and only 12% of black students, are in position to succeed in STEM classes.
-
-    I’m running out of room to go on, except to say that a major reason schools are perpetuating the Big Lie is they are afraid to crack down on the ~10% of the student body that is not serious about learning, and more interested in showing off, causing trouble, and having fun. If the schools got serious about building a healthy culture of respect and discipline, half of those 10% would get with the program. The other half should be sent to a special “locked down” public school where class sizes are small, there is a no-nonsense approach, and where students could earn the right to go back to their previous school--where all of their friends are--with a week (or more) of good behaviour. See my website for more details.
-
-    KEYWORDS: The Big Lie  meeting, not meeting, 10% not serious
-
-- candidate_first_name: Douglas
-  candidate_last_name: Alexander
-  state: wi
-  race: US House of Representatives
-  district: 2
-  party: Democratic
-  question: wi-q5
-  date: 2026-08-05
-  primary_candidate: false
-  response: |
-    I trust science. Science does not lie.  Science is, by definition, consistent. If an element or an experiment cannot be consistently replicated, then it is not recognized as anything more than a failed proposition. 
-
-    I do not trust scientists any more than I trust other human beings. People are flawed. “The line dividing good and evil cuts through the heart of every human being.” There are scientists who have been bought out by powerful companies who want their products to be deemed safe, when they are not. There are scientific journals that have been compromised by the influence of Big Pharma, Big Ag, Big tech, who approve “peer reviewed” articles that do not meet the standards of rigorous, long-accepted standards of testing and review. 
-
-    All of this to say, if elected, I will most definitely consult scientists when appropriate. But I will verify the veracity of their testimony, just as I will any other person’s testimony.
-
-    KEYWORDS: replicated, flawed, human, verify
-
-- candidate_first_name: Douglas
-  candidate_last_name: Alexander
-  state: wi
-  race: US House of Representatives
-  district: 2
-  party: Democratic
-  question: wi-q6
-  date: 2026-08-05
-  primary_candidate: false
-  response: |
-    My quick answer is that yes, there is research necessary, that for-profit companies cannot always underwrite by themselves. In those cases, it is in the best interest of the public to public fund such research. How that is done is where it gets murky.
-
-    Referring back to the 10th amendment, Congress has no authority to control scientific studies. It has taken control--no doubt about that. But such initiatives belong to the states. I’m not insisting every state has it’s own mini NIH. Citizens, and states, can collaborate with each other very well without the imposition of the federal government. There are many examples of this: Hollywood built its empire without the “help” of Congress. Walt Disney create his empire without the “help” of Congress. Cisco Systems basically build the internet without the “help” of Congress. Many large corporations have arisen without the “help” of Congress.  However, more and more large business interests have thought: “Hmmm…We don’t want to have to go to each of the 50 states to set policy for our product…We’ll just go to Congress and see if we can get them to pass a law that paves the way for us to be successful in all fifty states at once!”  When a particular state does not approve of the advantage Congress has given to a big corporation, it is an expensive and heavy lift to try to alter what Congress has done.
-
-    There is also a “middle man” dynamic that is costly. I prefer to see much more of our tax dollars kept by the 50 states, rather then letting the federal government take them, then dole money back to the states, universities, Scientific entities as Congress deems best. That process is rife with opportunities for fraud and corruption. If each of the states kept the tax dollars that would go towards research grants at the state level, they could ensure it either goes to institutions in their state, or  would go to collaboration among many states they knew would benefit the universities and end users in their states. All of this could be done without Congress being involved.  Currently, large, powerful and wealthy Corporations throw their weight around at NIH and NSF to ensure they get a larger share of the grant funding, cutting out smaller but probably more important research that an individual state would recognize as important, and fund. In short, it does not serve the smaller, less political scientific entities in Wisconsin to have to apply to NIH and NSF.  If they were applying to the state of Wisconsin, there would be a more personal touch, better access to the decision-makers, and overall more efficient use of grant money.  
-
-    KEYWORDS: 10th amendment, collaborate, middle man, 
-
-- candidate_first_name: Brad
-  candidate_last_name: Smith
-  state: wi
-  race: US House of Representatives
-  district: 6
-  party: Democratic
-  question: wi-q1
-  date: 2026-08-09
-  primary_candidate: false
-  response: |
-    Artificial intelligence has enormous potential to improve productivity, accelerate scientific discovery, and strengthen American competitiveness, but we cannot ignore its impact on workers, communities, and critical infrastructure. AI is already reshaping white-collar and blue-collar industries, and Congress must ensure that the benefits are broadly shared rather than concentrated among a few large technology companies.
-
-    I support national standards requiring major data centers to publicly disclose projected electricity demand, water use, cooling methods, emissions, and grid-upgrade costs before construction begins. Communities deserve transparency and a meaningful voice in decisions affecting local water supplies, land use, and utility rates. Companies receiving federal incentives should meet strong efficiency standards, invest in water recycling and advanced cooling technologies, and source more energy from clean power.
-
-    We also need policies that prepare workers for disruption. I support expanding Pell Grants, technical education, apprenticeships, and retraining programs so workers can adapt as AI changes the labor market. Companies that profit from AI-driven productivity should help fund workforce development and transition programs.
-
-    KEYWORDS: Transparency. Community Voice. Efficiency. Workforce Protection
-
-- candidate_first_name: Brad
-  candidate_last_name: Smith
-  state: wi
-  race: US House of Representatives
-  district: 6
-  party: Democratic
-  question: wi-q2
-  date: 2026-08-09
-  primary_candidate: false
-  response: |
-    Wisconsin has a unique opportunity to lead in the bioeconomy because our strengths in agriculture, manufacturing, biotechnology, and energy already exist. To compete globally, we need to invest in people as aggressively as we invest in technology.
-
-    I support expanding federal investment in workforce partnerships between universities, technical colleges, private industry, and labor unions to create clear pathways into careers in agricultural technology, biotechnology, advanced manufacturing, and clean energy. Wisconsin’s technical colleges and universities should receive additional support for certificate programs, apprenticeships, and research initiatives focused on precision agriculture, sustainable fuels, biotechnology, food science, and energy storage.
-
-    For rural communities, we should expand grants that help farmers adopt new technologies, improve efficiency, and diversify revenue through biofuels, renewable materials, and value-added agricultural products. Federal research funding should prioritize projects that create jobs and commercial opportunities in Wisconsin.
-
-    I also support strong public-private research partnerships, retraining programs, apprenticeships, and labor standards so the benefits of innovation reach workers.
-
-    Investing in science and workforce development strengthens our economy, supports rural communities, improves national competitiveness, and creates high-quality jobs that cannot easily be outsourced.
-
-    KEYWORDS: Innovation. Workforce. Agriculture. Competitiveness.
-
-- candidate_first_name: Brad
-  candidate_last_name: Smith
-  state: wi
-  race: US House of Representatives
-  district: 6
-  party: Democratic
-  question: wi-q3
-  date: 2026-08-09
-  primary_candidate: false
-  response: |
-    A strong public education system is one of the best economic investments we can make. If Wisconsin wants to compete in the fields mentioned above, we need to ensure that every child, whether they grow up in Milwaukee or a rural town, has access to a high-quality education and modern STEM opportunities.
-
-    I support increasing federal investment in public schools, particularly in rural districts that face declining enrollment and shrinking tax bases. Funding formulas should recognize the unique challenges of rural communities, including transportation costs and limited access to specialized courses. Every student should have access to high-speed internet, modern science labs, computer science instruction, and career and technical education programs.
-
-    I also support stronger partnerships between K-12 schools, technical colleges, universities, and local employers to expand apprenticeships, dual-credit programs, robotics teams, agricultural science programs, and hands-on STEM learning. As a youth robotics coach and mentor, I have seen firsthand how these experiences inspire students and connect education to real careers.
-
-    Finally, we must invest in teachers through competitive pay, professional development, and classroom resources, because great schools depend on attracting and retaining great educators.
-
-    KEYWORDS: Public Education. STEM Access. Rural Schools. Teacher Investment.
-
-- candidate_first_name: Brad
-  candidate_last_name: Smith
-  state: wi
-  race: US House of Representatives
-  district: 6
-  party: Democratic
-  question: wi-q5
-  date: 2026-08-09
-  primary_candidate: false
-  response: |
-    Science should inform policy, not be treated as an afterthought. If elected, I would rely on scientists and subject-matter experts throughout the policymaking process: when evaluating legislation, conducting oversight, assessing economic and environmental impacts, and measuring whether government programs are actually achieving their goals.
-
-    On issues such as public health, agriculture, energy, climate, biotechnology, artificial intelligence, and national security, I believe elected officials have a responsibility to seek out the best available evidence and understand both the benefits and tradeoffs of proposed policies. That means consulting researchers at universities, federal agencies, national laboratories, and private industry, as well as the scientists and engineers working directly in Wisconsin's businesses and research institutions.
-
-    Scientific expertise should not dictate policy on its own, however. Elected representatives must also consider economic realities, ethical concerns, and the needs of their constituents.  With that said, ignoring evidence leads to bad decisions and wasted taxpayer dollars.
-
-    My approach is to start with the data, listen to experts, ask difficult questions, and remain willing to change course when new evidence emerges. Good policy requires humility and a recognition that complex problems are best solved when science, industry, and communities work together.
-
-    KEYWORDS: Evidence. Expertise. Accountability. Adaptability.
-
-- candidate_first_name: Brad
-  candidate_last_name: Smith
-  state: wi
-  race: US House of Representatives
-  district: 6
-  party: Democratic
-  question: wi-q6
-  date: 2026-08-09
-  primary_candidate: false
-  response: |
-    I strongly support robust federal investment in scientific research through the National Institutes of Health, National Science Foundation, Department of Energy national laboratories, and other research agencies because these investments improve lives, strengthen our economy, and create high-quality jobs. 
-
-    I oppose indiscriminate cuts to scientific research funding and support multi-year federal funding commitments that give universities and research institutions the stability they need to pursue long-term projects. I also support expanding partnerships between federal agencies, universities, hospitals, and private industry to accelerate the commercialization of new discoveries and ensure that breakthroughs developed in Wisconsin create jobs here at home. 
-
-    Research funding should also be tied to workforce development. Expanding grants, fellowships, internships, and apprenticeships in science, engineering, healthcare, and biotechnology will help build the next generation of innovators while keeping talented graduates in Wisconsin. 
-
-    The return on these investments is substantial: scientific research leads to new treatments, stronger public health, greater economic competitiveness, and industries that can sustain communities for decades. America's leadership in science has always been one of our greatest strengths, and we cannot afford to surrender that advantage."
-
-    KEYWORDS: Research Investment. Innovation. Workforce Development. Competitiveness.
+- candidate_first_name:
