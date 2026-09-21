@@ -4127,4 +4127,27 @@
   response: |
       "As a former science teacher, I believe science literacy is fundamental to a healthy democracy and strong economy.  I would focus on strengthening K-12 science education without turning science into a partisan issue.  Standards should emphasize hands-on learning critical thinking, data analysis, scientific inquiry, and opportunities of students to work with real-world problems."
 
+- candidate_first_name: Lisa
+  candidate_last_name: Escarcega
+  state: co
+  race: State Board of Education
+  district: 1
+  party: Democratic
+  question: co-q1
+  date: 2026-09-20
+  primary_candidate: false
+  response: |
+      "I have a Ph.D in Quantitative Research Methods. One my informal roles on the State Board of Education is to question and/or fact check information the board is presented by both internal and external stakeholders. I have a cadre of like minded individuals that help me in this work. This is particularly important in education where the superficial analysis of data can lead to conclusions not supported by the evidence."
+
+- candidate_first_name: Lisa
+  candidate_last_name: Escarcega
+  state: co
+  race: State Board of Education
+  district: 1
+  party: Democratic
+  question: co-q5
+  date: 2026-09-20
+  primary_candidate: false
+  response: |
+      "I think the science standards themselves are improving each cycle of adoption (every 6 years). The issue around science literacy is the persistent gap between individuals wanting to trust science and the actual understanding of core concepts that then gets exploited by misinformation. We have to combine the teaching of science and information literacy."
 
