@@ -1,0 +1,28 @@
+- id: ky-q1
+  question: >-
+    Obesity and diabetes is a rising concern throughout the nation and Kentucky consistently ranks among the least healthy states (i.e. ranked 5th in citizens with diabetes). What evidence-based policies, if any, do you support to improve community and preventative health for your constituents (e.g. Type II diabetes, Heart Disease, Obesity)?
+  tag: Public Health
+
+- id: ky-q2
+  question: >-
+    Kentucky faces significant ongoing environmental challenges which includes coal ash dumps and acid mine drainage contaminating groundwater and streams. What policies, if any, would you implement to address Kentucky's water quality degradation, and why?
+  tag:
+    - Agriculture
+    - Climate
+    - Environment
+
+- id: ky-q3
+  question: >-
+    Kentucky is actively pursuing AI datacenter construction projects, and already has 37 such facilities throughout the state. Datacenters are central to domestic AI development and bring construction jobs, but can strain limited resources, harm the environment, and often face public opposition. What policies, if any, do you support related to datacenter development projects, and why are these policies right for Kentucky?
+  tag:
+    - Artificial Intelligence
+    - Energy
+    - Environment
+    - Jobs and Workforce
+
+- id: ky-q4
+  question: >-
+    Vaccine hesitency and public skepticism about the safety of medical treatments have contributed to falling vaccination rates.. A recent Health Alert Network (HAN) Health Advisory from the CDC highlighted Kentucky has only 43.8 % of individuals aged 18 and above recieved a flu vaccination. What policies, if any, would you implement to help Kentucky manage infectious diseases for which there are safe and effective vaccines?
+  tag:
+    - Public Health
+    - Trust in Science

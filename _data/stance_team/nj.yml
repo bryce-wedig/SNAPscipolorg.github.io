@@ -1,0 +1,17 @@
+- image: new-jersey-team.png
+  alt: "Meet the New Jersey team: Savannah, Alex, Bryanna, Hem, and Casey"
+
+- image: savannah.png
+  alt: "Meet the New Jersey team: Savannah — PhD student in biomedical engineering at Rutgers University, interested in public health and STEM education"
+
+- image: alex.png
+  alt: "Meet the New Jersey team: Alex — PhD student in plant sciences at Cornell University, interested in sustainable agriculture and science education and funding"
+
+- image: bryanna.png
+  alt: "Meet the New Jersey team: Bryanna — PhD student in neuroscience at Rutgers University, interested in regulatory science, patient outcomes, and science communication"
+
+- image: hem-angne.png
+  alt: "Meet the New Jersey team: Hem Angne — studies human cognition at Rutgers University and is interested in technology's effects and community-driven research incentives"
+
+- image: casey.png
+  alt: "Meet the New Jersey team: Casey — PhD student in chemistry at Stanford University, interested in agricultural chemicals and sustainable agriculture"
