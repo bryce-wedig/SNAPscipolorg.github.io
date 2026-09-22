@@ -33,6 +33,7 @@ races:
   - State Assembly
   - State Auditor
   - State Board of Education
+  - State House of Delegates
   - State House of Representatives
   - State Legislature  # necesary for NE, the only state with a unicameral legislature
   - State Senate
@@ -57,6 +58,7 @@ race_ballot_order:
   - State Supreme Court
   - State Assembly
   - State Legislature
+  - State House of Delegates
   - State House of Representatives
   - State Board of Education
   - University Board of Regents
