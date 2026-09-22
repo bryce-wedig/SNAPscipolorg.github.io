@@ -3,7 +3,7 @@
   state: nj
   race: US House of Representatives
   district: "8"
-  party: We the People Party
+  party: We the People
   date: 2026-08-27
   question: nj-q1
   response: |
@@ -30,7 +30,7 @@
   state: nj
   race: US House of Representatives
   district: "8"
-  party: We the People Party
+  party: We the People
   date: 2026-08-27
   question: nj-q2
   response: |
@@ -51,7 +51,7 @@
   state: nj
   race: US House of Representatives
   district: "8"
-  party: We the People Party
+  party: We the People
   date: 2026-08-27
   question: nj-q3
   response: |
@@ -74,7 +74,7 @@
   state: nj
   race: US House of Representatives
   district: "8"
-  party: We the People Party
+  party: We the People
   date: 2026-08-27
   question: nj-q4
   response: |
@@ -97,7 +97,7 @@
   state: nj
   race: US House of Representatives
   district: "8"
-  party: We the People Party
+  party: We the People
   date: 2026-08-27
   question: nj-q5
   response: |
@@ -124,7 +124,7 @@
   state: nj
   race: US House of Representatives
   district: "8"
-  party: We the People Party
+  party: We the People
   date: 2026-08-27
   question: nj-q6
   response: |
@@ -149,7 +149,7 @@
   state: nj
   race: US House of Representatives
   district: "3"
-  party: Green Party
+  party: Green
   date: 2026-09-04
   question: nj-q1
   response: |
@@ -160,7 +160,7 @@
   state: nj
   race: US House of Representatives
   district: "3"
-  party: Green Party
+  party: Green
   date: 2026-09-04
   question: nj-q2
   response: |
@@ -171,7 +171,7 @@
   state: nj
   race: US House of Representatives
   district: "3"
-  party: Green Party
+  party: Green
   date: 2026-09-04
   question: nj-q3
   response: |
@@ -182,7 +182,7 @@
   state: nj
   race: US House of Representatives
   district: "3"
-  party: Green Party
+  party: Green
   date: 2026-09-04
   question: nj-q4
   response: |
@@ -193,7 +193,7 @@
   state: nj
   race: US House of Representatives
   district: "3"
-  party: Green Party
+  party: Green
   date: 2026-09-04
   question: nj-q5
   response: |
@@ -211,7 +211,7 @@
   state: nj
   race: US House of Representatives
   district: "3"
-  party: Green Party
+  party: Green
   date: 2026-09-04
   question: nj-q6
   response: |
@@ -222,7 +222,7 @@
   state: nj
   race: US House of Representatives
   district: "12"
-  party: No Party
+  party: No Party Preference
   date: 2026-09-10
   question: nj-q1
   response: |
@@ -233,7 +233,7 @@
   state: nj
   race: US House of Representatives
   district: "12"
-  party: No Party
+  party: No Party Preference
   date: 2026-09-10
   question: nj-q2
   response: |
@@ -244,7 +244,7 @@
   state: nj
   race: US House of Representatives
   district: "12"
-  party: No Party
+  party: No Party Preference
   date: 2026-09-10
   question: nj-q3
   response: |
@@ -255,7 +255,7 @@
   state: nj
   race: US House of Representatives
   district: "12"
-  party: No Party
+  party: No Party Preference
   date: 2026-09-10
   question: nj-q4
   response: |
@@ -266,7 +266,7 @@
   state: nj
   race: US House of Representatives
   district: "12"
-  party: No Party
+  party: No Party Preference
   date: 2026-09-10
   question: nj-q5
   response: |
@@ -277,7 +277,7 @@
   state: nj
   race: US House of Representatives
   district: "12"
-  party: No Party
+  party: No Party Preference
   date: 2026-09-10
   question: nj-q6
   response: |
@@ -289,7 +289,7 @@
   state: nj
   race: US House of Representatives
   district: "3"
-  party: Affordability, Accountability, People Party
+  party: Affordability, Accountability, People
   date: 2026-09-21
   question: nj-q1
   response: |
@@ -308,7 +308,7 @@
   state: nj
   race: US House of Representatives
   district: "3"
-  party: Affordability, Accountability, People Party
+  party: Affordability, Accountability, People
   date: 2026-09-21
   question: nj-q2
   response: |
@@ -327,7 +327,7 @@
   state: nj
   race: US House of Representatives
   district: "3"
-  party: Affordability, Accountability, People Party
+  party: Affordability, Accountability, People
   date: 2026-09-21
   question: nj-q3
   response: |
@@ -348,7 +348,7 @@
   state: nj
   race: US House of Representatives
   district: "3"
-  party: Affordability, Accountability, People Party
+  party: Affordability, Accountability, People
   date: 2026-09-21
   question: nj-q4
   response: |
@@ -367,7 +367,7 @@
   state: nj
   race: US House of Representatives
   district: "3"
-  party: Affordability, Accountability, People Party
+  party: Affordability, Accountability, People
   date: 2026-09-21
   question: nj-q5
   response: |
@@ -388,7 +388,7 @@
   state: nj
   race: US House of Representatives
   district: "3"
-  party: Affordability, Accountability, People Party
+  party: Affordability, Accountability, People
   date: 2026-09-21
   question: nj-q6
   response: |
@@ -495,7 +495,7 @@
   state: nj
   race: US House of Representatives
   district: "5"
-  party: Humane Sustainable Future Party
+  party: Humane Sustainable Future
   did_not_respond: true
 
 - candidate_first_name: "Frank"
@@ -519,7 +519,7 @@
   state: nj
   race: US House of Representatives
   district: "6"
-  party: Common Sense Independent Party
+  party: Common Sense Independent
   did_not_respond: true
 
 - candidate_first_name: "Thomas"
@@ -583,7 +583,7 @@
   state: nj
   race: US House of Representatives
   district: "9"
-  party: Save Our Babies Party
+  party: Save Our Babies
   did_not_respond: true
 
 - candidate_first_name: "LaMonica"
@@ -623,7 +623,7 @@
   state: nj
   race: US House of Representatives
   district: "11"
-  party: Hope for Tomorrow Party
+  party: Hope for Tomorrow
   did_not_respond: true
 
 - candidate_first_name: "Adam"
@@ -647,7 +647,7 @@
   state: nj
   race: US House of Representatives
   district: "12"
-  party: Green Party
+  party: Green
   did_not_respond: true
 
 - candidate_first_name: "Cory"
@@ -668,12 +668,12 @@
   candidate_last_name: "Fernandez"
   state: nj
   race: US Senate
-  party: End the Corruption! Party
+  party: End the Corruption!
   did_not_respond: true
 
 - candidate_first_name: "Natalie"
   candidate_last_name: "Rivera"
   state: nj
   race: US Senate
-  party: Together for NJ Party
+  party: Together for NJ
   did_not_respond: true

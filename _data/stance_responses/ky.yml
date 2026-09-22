@@ -268,7 +268,7 @@
   state: ky
   race: US House of Representatives
   district: "6"
-  party: Kentucky Party
+  party: Kentucky
   did_not_respond: true
 
 - candidate_first_name: "Linda"
