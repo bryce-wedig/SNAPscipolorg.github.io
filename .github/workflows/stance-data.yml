@@ -1,0 +1,89 @@
+name: Stance data
+
+# The fast check. It validates the Stance data without building the site, so a
+# bad YAML edit is caught in seconds on any branch — including a direct push to
+# source, which the PR-only Site Build workflow never sees. The full build still
+# runs the same validators and remains the authority; this exists to fail early
+# and to put a readable report in front of whoever made the edit.
+
+# The two `paths` lists below are deliberately identical. GitHub's workflow
+# parser does not support YAML anchors, so they have to be kept in sync by hand.
+on:
+  push:
+    paths:
+      - "_data/stance_filters.yml"
+      - "_data/stance_questions/**"
+      - "_data/stance_responses/**"
+      - "_data/stance_team/**"
+      - "_initiatives/stance/**"
+      - "images/stance_teams/**"
+      - "_plugins/stance_*.rb"
+      - "bin/validate_stance.rb"
+      - "test/stance_tag_validator_test.rb"
+      - "Gemfile.lock"
+      - ".github/workflows/stance-data.yml"
+  pull_request:
+    paths:
+      - "_data/stance_filters.yml"
+      - "_data/stance_questions/**"
+      - "_data/stance_responses/**"
+      - "_data/stance_team/**"
+      - "_initiatives/stance/**"
+      - "images/stance_teams/**"
+      - "_plugins/stance_*.rb"
+      - "bin/validate_stance.rb"
+      - "test/stance_tag_validator_test.rb"
+      - "Gemfile.lock"
+      - ".github/workflows/stance-data.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: stance-data-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        # No fetch-depth: 0 here. Only the build needs full history (for
+        # stance_last_updated); the validators read the working tree.
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        with:
+          ruby-version: "3.4"
+          bundler-cache: true
+
+      - name: Test Stance validator
+        run: bundle exec ruby -Itest test/stance_tag_validator_test.rb
+
+      - name: Validate Stance data
+        run: bundle exec ruby bin/validate_stance.rb
+        env:
+          STANCE_VALIDATION_REPORT: stance-validation-report.txt
+
+      - name: Publish validation report
+        if: failure()
+        run: |
+          {
+            echo '## Stance data validation failed'
+            echo
+            if [ -s stance-validation-report.txt ]; then
+              echo '```'
+              head -c 60000 stance-validation-report.txt
+              echo
+              echo '```'
+              echo
+              echo 'Entry numbers are 0-based positions in the YAML list.'
+              echo 'Reproduce locally with `bundle exec ruby bin/validate_stance.rb`.'
+            else
+              # No report means the validators never ran — a malformed YAML
+              # file, a missing data file, or a failing unit test.
+              echo 'No validation report was produced; see the failed step above.'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
