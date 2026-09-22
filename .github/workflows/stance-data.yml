@@ -1,28 +1,24 @@
 name: Stance data
 
-# The fast check. It validates the Stance data without building the site, so a
-# bad YAML edit is caught in seconds on any branch — including a direct push to
-# source, which the PR-only Site Build workflow never sees. The full build still
-# runs the same validators and remains the authority; this exists to fail early
-# and to put a readable report in front of whoever made the edit.
-
-# The two `paths` lists below are deliberately identical. GitHub's workflow
-# parser does not support YAML anchors, so they have to be kept in sync by hand.
+# The fast check for pushes to source. It validates the Stance data without
+# building the site, so a bad YAML edit landing on source is reported in seconds
+# instead of after a full build, with a readable report in the job summary.
+#
+# Pull requests are deliberately not covered here, and neither are pushes to
+# feature branches. Site Build runs on every PR into source, and its
+# `jekyll build` invokes these same validators through the :site, :post_read
+# hook registered at the bottom of _plugins/stance_tag_validator.rb. Triggering
+# on pull_request, or on pushes to any branch, would run identical checks twice
+# for the whole life of a PR: a push to a PR branch fires both `push` and the
+# PR's `synchronize`.
+#
+# Upstream, a push to source also starts the full Pages build in jekyll.yml,
+# which validates the same way. On a fork that build is skipped — jekyll.yml
+# gates its build job on the repository name — so there this workflow is the
+# only thing guarding source.
 on:
   push:
-    paths:
-      - "_data/stance_filters.yml"
-      - "_data/stance_questions/**"
-      - "_data/stance_responses/**"
-      - "_data/stance_team/**"
-      - "_initiatives/stance/**"
-      - "images/stance_teams/**"
-      - "_plugins/stance_*.rb"
-      - "bin/validate_stance.rb"
-      - "test/stance_tag_validator_test.rb"
-      - "Gemfile.lock"
-      - ".github/workflows/stance-data.yml"
-  pull_request:
+    branches: ["source"]
     paths:
       - "_data/stance_filters.yml"
       - "_data/stance_questions/**"
@@ -41,7 +37,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: stance-data-${{ github.event.pull_request.number || github.ref }}
+  group: stance-data-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
