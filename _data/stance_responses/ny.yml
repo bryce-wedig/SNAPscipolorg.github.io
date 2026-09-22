@@ -1,0 +1,144 @@
+- candidate_first_name: Jon # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Rivera # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 149 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q1
+  date: 2026-09-22 # optional
+  response: |
+    Artificial intelligence presents significant opportunities for economic growth, research, and job creation, but those benefits cannot come at the expense of ratepayers, local communities, or our climate goals. I was a big supporter of legislation establishing a moratorium on large-scale data centers because New York needs a framework that fully evaluates their impacts on energy demand, water use, and utility costs.
+
+    New York should welcome innovation, but we have to ensure that taxpayers and utility customers are not subsidizing projects that strain our electric grid or undermine our climate commitments.
+    
+    KEYWORDS: Responsible AI, Energy Infrastructure, Labor Standards, Community Benefits
+
+- candidate_first_name: Jon # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Rivera # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 149 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q2
+  date: 2026-09-22 # optional
+  response: |
+    I believe we have to continue implementing the Climate Leadership and Community Protection Act while ensuring affordability and grid reliability. I support an “all-of-the-above” clean energy strategy that prioritizes renewable energy, energy storage, hydropower, existing nuclear generation, energy efficiency, and transmission upgrades.
+
+    We know that climate change is already affecting New York through extreme weather, flooding, and public health impacts. At the same time, families are concerned about utility bills and reliability. Those concerns must be addressed through investments that lower long-term costs, expand clean energy supply, and modernize our grid.
+    
+    KEYWORDS: Clean Energy, Reliability, Affordability, Climate Action
+    
+- candidate_first_name: Jon # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Rivera # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 149 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q3
+  date: 2026-09-22 # optional
+  response: |
+    Public education plays a critical role in helping students and families navigate an increasingly complex information environment. Schools should focus on teaching critical thinking, media literacy, digital literacy, and scientific reasoning so students can evaluate information sources and distinguish credible evidence from misinformation.
+
+    Rather than promoting particular viewpoints, educational institutions should equip students with the tools to ask questions, verify claims, and understand how scientific knowledge develops through evidence, peer review, and ongoing research.
+
+    I also support strengthening partnerships between schools, universities, public health agencies, libraries, and community organizations to make trusted scientific information more accessible. 
+
+    KEYWORDS: Media Literacy, Critical Thinking, Science Education, Public Trust
+    
+- candidate_first_name: Jon # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Rivera # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 149 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q4
+  date: 2026-09-22 # optional
+  response: |
+    Agricultural policy should be guided by the best available science and a commitment to both food security and public health. Decisions regarding pesticide use should be based on peer-reviewed research, environmental monitoring data, public health evidence, and guidance from scientific and regulatory agencies.
+
+    I support evaluating pesticides on a case-by-case basis, considering both their effectiveness and potential impacts on farmworkers, consumers, pollinators, water quality, and ecosystems. Where evidence identifies significant risks, New York should support safer alternatives and help farmers transition to effective pest-management practices.
+
+    Any restrictions should be paired with technical assistance, research investments, and support for integrated pest management strategies that maintain productivity while reducing risks.
+    
+    KEYWORDS: Evidence-Based Policy, Food Security, Public Health, Integrated Pest Management
+    
+- candidate_first_name: Jon # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Rivera # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 149 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q5
+  date: 2026-09-22 # optional
+  response: |
+    International students and researchers are essential contributors to New York's economy, universities, healthcare institutions, and innovation ecosystem. While immigration policy is primarily a federal responsibility, New York should continue positioning itself as a welcoming destination for talented students and researchers from around the world.
+
+    If federal visa restrictions reduce the STEM talent pipeline, New York should strengthen partnerships among universities, industry, and research institutions to retain talent and support workforce development. We should also expand state investments in higher education, research, and STEM career pathways for New Yorkers.
+
+    Our state’s economic future depends on attracting and retaining highly skilled individuals, no matter their background, who contribute to scientific discovery, entrepreneurship, and technological advancement.
+
+    KEYWORDS: STEM Workforce, Higher Education, Innovation Economy, Talent Retention
+
+- candidate_first_name: Jon # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Rivera # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 149 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q6
+  date: 2026-09-22 # optional
+  response: |
+    Farmers are already experiencing the impacts of more frequent flooding, droughts, and severe storms. New York should help agricultural producers build resilience through investments in climate-smart farming practices, soil health, water management infrastructure, and emergency preparedness.
+
+    I support expanding technical assistance programs, improving access to crop insurance, investing in drainage and irrigation improvements, and strengthening disaster recovery resources. Research partnerships between universities, extension services, and farmers can also help identify practices that improve productivity while reducing vulnerability to extreme weather.
+
+    KEYWORDS: Climate Resilience, Farm Sustainability, Disaster Preparedness, Soil Health
+
+- candidate_first_name: Jon # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Rivera # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 149 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q7
+  date: 2026-09-22 # optional
+  response: |
+    Public safety agencies should have access to effective tools that help solve crimes and protect communities, but those tools must be accompanied by strong privacy protections and public accountability.
+
+    I support clear statewide standards governing ALPR systems, including limits on data retention, restrictions on sharing information with unauthorized entities, auditing requirements, and transparency regarding how data is used. Access should be tied to legitimate law enforcement purposes and subject to oversight.
+
+    KEYWORDS: Privacy, Public Safety, Transparency, Accountability 
+    
+- candidate_first_name: Jon # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Rivera # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 149 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q8
+  date: 2026-09-22 # optional
+  response: |
+    The wildfire smoke events that affected New York demonstrated how environmental challenges can quickly become public health emergencies. New York should invest in improved air-quality monitoring, public notification systems, emergency preparedness, and community resilience measures.
+
+    Schools, childcare centers, senior facilities, and public buildings should have access to effective air filtration systems, particularly in communities with vulnerable populations. Public health agencies should also continue educating residents about reducing exposure during poor air-quality events.
+
+    Preparation is especially important because these events can affect children, seniors, and individuals with respiratory conditions. 
+
+    KEYWORDS: Air Quality, Public Health, Emergency Preparedness, Community Resilience
+    
+- candidate_first_name: Jon # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Rivera # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 149 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q9
+  date: 2026-09-22 # optional
+  response: |
+    I oppose cuts that would reduce NIH funding for New York's hospitals, universities, and research institutions. 
+
+    New York is home to world-class research institutions that are advancing treatments for cancer, Alzheimer's disease, heart disease, and many other conditions. Reductions in federal research funding would threaten scientific progress and weaken our competitiveness.
+    As a State Senator, I plan on advocating for robust federal research investments while supporting state initiatives that strengthen research partnerships, workforce development, and innovation. 
+    
+    KEYWORDS: NIH Funding, Medical Research, Innovation, Economic Development
+  
