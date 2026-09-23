@@ -27,6 +27,7 @@ races:
   - Lieutenant Governor
   - Local County Races [All]
   - Mayor
+  - Nebraska Public Power District  # for NE
   - Raleigh City Council # for NC
   - RTD Board of Directors  # for CO
   - Secretary of State
@@ -64,6 +65,7 @@ race_ballot_order:
   - University Board of Regents
   - Mayor
   - Local County Races [All]
+  - Nebraska Public Power District
   - RTD Board of Directors
   - Raleigh City Council
 
