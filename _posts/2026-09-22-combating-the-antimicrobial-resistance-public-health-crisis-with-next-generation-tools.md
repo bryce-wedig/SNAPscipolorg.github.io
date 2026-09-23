@@ -7,7 +7,7 @@ category:
 
 [Read this post on Medium](https://medium.com/science-policy-in-a-snap/combating-the-antimicrobial-resistance-public-health-crisis-with-next-generation-tools-8229eb1d4a32)
 
-Written by SNAP members [Disha Patel](https://medium.com/@dpatel33) and [Ashley Eng](https://medium.com/@ashyeneng)
+Written by [Disha Patel](https://medium.com/@dpatel33) and [Ashley Eng](https://medium.com/@ashyeneng)
 
 *Thoughts and views written in this blog post reflect those of the author(s) only, and not necessarily those of every SNAP member or the SNAP coalition as a whole.*
 
@@ -50,7 +50,7 @@ Finally, the advancement of high-performance computing has led to the developmen
 
 #### Conclusions and future outlook
 
-Emerging technology enables researchers, public health officials, and other stakeholders to track resistant pathogens faster, helping to mitigate the spread of infection and protect entire communities. Implementing such technologies in low-resource areas offers a groundbreaking opportunity for containing the spread of pathogens and infectious outbreaks. For example, a portable Oxford Nanopore® Technology sequencing platform was used to detect multidrug-resistant *Enterobacter cloacae* isolated from dairy farms in Sri Lanka [19]. Tools like these circumvent traditional detection methods to avoid infectious outbreaks and overwhelm clinics. As exemplified in this piece, emerging tools for AMR detection are fundamentally changing the status quo and shaping the future of AMR treatment. These new tools not only offer greater throughput but can reduce the time it takes to perform laborious experiments, delivering results in the matter of hours, instead of days. Though challenges like data privacy, cost, and implementation still remain, the tools are a step forward from traditional methods.
+Emerging technology enables researchers, public health officials, and other stakeholders to track resistant pathogens faster, helping to mitigate the spread of infection and protect entire communities. Implementing such technologies in low-resource areas offers a groundbreaking opportunity for containing the spread of pathogens and infectious outbreaks. For example, a portable Oxford Nanopre ® Technology sequencing platform was used to detect multidrug-resistant *Enterobacter cloacae* isolated from dairy farms in Sri Lanka [19]. Tools like these circumvent traditional detection methods to avoid infectious outbreaks and overwhelm clinics. As exemplified in the piece, emerging tools for AMR detection are fundamentally changing the status quo and shaping the future of AMR treatment. These new tools not only offer greater throughput but can reduce the time it takes to perform laborious experiments, delivering results in the matter of hours, instead of days. Though challenges like data privacy, cost, and implementation still remain, the tools are a step forward from traditional methods.
 
 #### Recognition
 
@@ -66,19 +66,19 @@ Emerging technology enables researchers, public health officials, and other stak
 
 *[Sol Taylor-Brill](https://medium.com/@emmasoltb) is a PhD candidate in Molecular, Cellular, Developmental Biology, and Genetics at the University of Minnesota with a focus on statistical and population genetics.*
 
-#### References:
+#### References
 
 1. [Centers for Disease Control and Prevention (2025) About Antimicrobial Resistance.](https://www.cdc.gov/antimicrobial-resistance/about/index.html)
 2. [Aslam, B., Wang, W., Arshad, M. I., Khurshid, M., Muzammil, S., Rasool, M. H., Nisar, M. A., Alvi, R. F., Aslam, M. A., Qamar, M. U., Salamat, M. K. F., & Baloch, Z. (2018). Antibiotic resistance: a rundown of a global crisis. *Infection and drug resistance, 11*, 1645–1658.](https://doi.org/10.2147/IDR.S173867)
 3. [Zavaleta-Monestel, E., Arguedas-Chacón, S., Rojas-Chinchilla, C., & Díaz-Madriz, J. P. (2025). Antimicrobial Resistance: An Emerging Global Threat to Modern Medicine. *Cureus, 17*(11), e97668.](https://doi.org/10.7759/cureus.97668)
 4. [Centers for Disease Control and Prevention (2025) 2019 Antibiotic Resistance Threats Report.](https://www.cdc.gov/antimicrobial-resistance/data-research/threats/index.html)
 5. [GBD 2021 Antimicrobial Resistance Collaborators (2024). Global burden of bacterial antimicrobial resistance 1990–2021: a systematic analysis with forecasts to 2050. *Lancet (London, England), 404*(10459), 1199–1226.](https://doi.org/10.1016/S0140-6736(24)01867-1)
-6. [Ahmed, S. K., Hussein, S., Qurbani, K., Ibrahim, R. H., Fareeq, A., Mahmood, K. A., & Mohamed, M. G. (2024) Antimicrobial resistance: Impacts, challenges, and future prospects. *Journal of Medicine, Surgery, and Public Health, 2*.](https://www.sciencedirect.com/science/article/pii/S2949916X24000343)
+6. [Ahmed, S. K., Hussein, S., Qurbani, K., Ibrahim, R. H., Fareeq, A., Mahmood, K. A., & Mohamed, M. G. (2024) Antimicrobial resistance: Impacts, challenges, and future prospects *Journal of Medicine, Surgery, and Public Health, 2*.](https://www.sciencedirect.com/science/article/pii/S2949916X24000343)
 7. [Centers For Disease Control and Prevention (2019) Antibiotic Resistance Threats in the United States, 2019.](https://www.cdc.gov/antimicrobial-resistance/media/pdfs/2019-ar-threats-report-508.pdf)
 8. [Endale, H., Mathewos, M., & Abdeta, D. (2023). Potential Causes of Spread of Antimicrobial Resistance and Preventive Measures in One Health Perspective-A Review. *Infection and drug resistance, 16*, 7515–7545.](https://doi.org/10.2147/IDR.S428837)
 9. [Alem, K., Dagnew, M., Gizachew, M., Gelaw, B., & Moges, F. (2025). Environmental Antimicrobial Resistance: Key Drivers, Hotspots, Innovative Strategies, and Challenges in the Fight Against Superbugs. *MicrobiologyOpen, 14*(5), e70067.](https://doi.org/10.1002/mbo3.70067)
 10. [Disk Diffusion](https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/disk-diffusion)
-11. [Bayot, M. & Bragg, B. (2024) Antimicrobial Susceptibility Testing. *StatPearls*.](https://www.ncbi.nlm.nih.gov/books/NBK539714/)
+11. [Bayot, M. & Bragg, B. (2024) Antimicrobial Susceptibility Testing *StatPearls*](https://www.ncbi.nlm.nih.gov/books/NBK539714/)
 12. [Broth Dilution](https://www.sciencedirect.com/topics/immunology-and-microbiology/broth-dilution)
 13. [Salam, M. A., Al-Amin, M. Y., Pawar, J. S., Akhter, N., & Lucy, I. B. (2023). Conventional methods and future trends in antimicrobial susceptibility testing. *Saudi journal of biological sciences, 30*(3), 103582.](https://doi.org/10.1016/j.sjbs.2023.103582)
 14. [Tang, W., Yang, N., & Shi, M. (2026). Applications and Challenges of CRISPR-Cas Technology for the Detection of Antimicrobial Resistance Genes. *Infection and Drug Resistance, 19*.](https://doi.org/10.2147/IDR.S578705)
