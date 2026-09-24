@@ -4282,4 +4282,65 @@
   response: |
       "Colorado's K-12 education standards should place a stronger emphasis on inquiry-based learning and the scientific method, moving away from rote memorization. Students need to learn how to evaluate evidence, understand data sets, and identify misinformation. I support updating curriculum standards to apply scientific principles directly to local, real-world issues, such as Colorado's water conservation efforts and wildfire ecology. Additionally, the state must increase funding for STEM resources and ensure that science educators are adequately supported. Improving science literacy in our schools, beginning in elementary school, is essential for developing a public capable of making informed decisions based on empirical evidence."
 
+- candidate_first_name: Michael
+  candidate_last_name: Clarkson
+  state: co
+  race: State House of Representatives
+  district: 45
+  party: Democratic
+  question: co-q1
+  date: 2026-09-24
+  primary_candidate: false
+  response: |
+      "I will establish a volunteer advisory panel composed of local scientists, engineers, public health experts, and researchers from Colorado’s universities and technical industries. This council will review major draft legislation, evaluate regional data—from water rights to public health—and flag unintended technical consequences before bills hit the committee floor. I would also actively partner with the nonpartisan Colorado Science & Technology Policy Program (STPP) and Legislative Council Staff. By leveraging STPP Fellows and expert technical staff, our office will ensure that committee analyses and fiscal notes are informed by rigorous, peer-reviewed research. I will base my legislation on the best available peer reviewed data and consult experts in each relevant field."
+
+- candidate_first_name: Michael
+  candidate_last_name: Clarkson
+  state: co
+  race: State House of Representatives
+  district: 45
+  party: Democratic
+  question: co-q2
+  date: 2026-09-24
+  primary_candidate: false
+  response: |
+      "I will sponsor legislation to scale up data-driven water management—funding real-time soil moisture sensors, precision drip irrigation, and advanced crop modeling. By fully funding scientific monitoring within the Colorado Soil Health Program, we can help producers build soil organic matter, which increases water-retention capacity and reduces overall irrigation demands. To shield farmers from volatile imported fertilizer prices, I will push for funding and technical assistance via CSU Extension for variable-rate nutrient application technology and biological soil amendments. Peer-reviewed data shows targeted nutrient management reduces input costs by up to 20% while protecting local watersheds from runoff. Colorado is a national leader in agrivoltaics—integrating solar panels with livestock grazing and crop production. I will champion expanding the state’s Agrivoltaics Research & Demonstration Grants. Panel shading significantly reduces crop water loss through evapotranspiration, creates favorable microclimates, and provides farmers with a stable, secondary revenue stream. I will work to expand performance-based state tax credits and voluntary stewardship grants that financially reward producers for adopting proven practices—such as cover cropping, rotational grazing, and reduced tillage—that restore natural resources while maintaining yields."
+
+- candidate_first_name: Michael
+  candidate_last_name: Clarkson
+  state: co
+  race: State House of Representatives
+  district: 45
+  party: Democratic
+  question: co-q3
+  date: 2026-09-24
+  primary_candidate: false
+  response: |
+      "As a Senior Solutions Architect for IBM with specializations in Cloud, AI, and blockchain technology, I am uniquely qualified to legislate on this. First, data centers must cover 100% of the transmission and infrastructure costs required to connect to our grid. To prevent locking in fossil fuel emissions or raising rates for working families, policies should require developers to secure or build dedicated renewable energy generation equal to their demand. Second, with Colorado facing persistent drought, open evaporative cooling systems that evaporate millions of gallons daily are unsustainable. I support statewide standards requiring closed-loop liquid cooling or dry-cooling technologies, informed by local hydrologic modeling to protect vulnerable watersheds. We also need to regulate how data centers deal with waste heat and noise, pushing them to use waste heat to do work rather than venting into the community and dampening noise for the surrounding area. Finally, data protection and privacy standards are key. I will push for privacy laws on par with California and the EU, holding companies responsible for proper protection of data and user privacy."
+
+- candidate_first_name: Michael
+  candidate_last_name: Clarkson
+  state: co
+  race: State House of Representatives
+  district: 45
+  party: Democratic
+  question: co-q4
+  date: 2026-09-24
+  primary_candidate: false
+  response: |
+      "Stopping sustained measles transmission requires maintaining at least a 95% community MMR vaccination rate. I support expanding access through mobile clinics and school-based health centers, while strengthening non-medical exemption standards by requiring evidence-based educational modules on vaccine safety for parents seeking opt-outs. Containing outbreaks before they spread requires robust local health departments. I will advocate for increased funding to the Colorado Department of Public Health and Environment (CDPHE) and local public health agencies to modernize contact-tracing platforms, expand state lab diagnostic capacity, and provide rapid post-exposure prophylaxis to exposed individuals. I support funding community health worker initiatives that partner with local pediatricians and trusted community leaders. Equipping primary care providers with behavioral science-backed communication toolkits allows us to directly address vaccine hesitancy, debunk dangerous health claims, and rebuild public trust."
+
+- candidate_first_name: Michael
+  candidate_last_name: Clarkson
+  state: co
+  race: State House of Representatives
+  district: 45
+  party: Democratic
+  question: co-q5
+  date: 2026-09-24
+  primary_candidate: false
+  response: |
+      "Current science literacy is at a critical juncture. While technology impacts every aspect of our lives, science is often still taught as a static set of facts to memorize rather than a dynamic process of questioning, testing hypotheses, and evaluating evidence. This disconnect leaves citizens vulnerable to misinformation on public health, water conservation, and energy policy. We must adapt standards around hands-on, phenomena-based learning. Instead of relying solely on abstract textbooks, students should explore scientific concepts through real-world Colorado challenges—such as studying regional snowpack data, soil micro-biomes, or wildfire ecology. Starting in middle school, standards should explicitly teach students how to evaluate scientific sources. Curriculum should focus on understanding sample size, reading graphs, identifying logical fallacies, and distinguishing peer-reviewed scientific consensus from online misinformation. We should build direct bridges between K-12 classrooms and Colorado’s research institutions, national labs, and agricultural extension offices. Hands-on field studies, lab visits, and mentorships demystify scientific professions and show students how science directly impacts their local communities. By teaching science as an active tool for critical thinking and civic engagement rather than an exercise in memorization, we can raise a generation of Coloradans equipped to navigate a complex, tech-driven world."
+
+
       
