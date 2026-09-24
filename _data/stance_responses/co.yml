@@ -4215,3 +4215,71 @@
   primary_candidate: false
   response: |
       "I think the same issues around science literacy are happening across educational disciplines. I taught high school social studies for 13 years, and over that time, I saw educational rigor dropping off in favor of greater standardization. Expectations have declined in order to increase graduation rates. Why are graduation rates going up, while SAT and ACT scores are going down? Education policy is something I am extremely passionate about, but there isn't a lot of it that is connected to the position I am running for. We need to fight for better public education funding, better teacher pay and real reforms that are preparing our next generation to be thinkers. This goes for science of course but I think is a much bigger issue in the current state of our education system."
+
+- candidate_first_name: Chris
+  candidate_last_name: VanDijk
+  state: co
+  race: State House of Representatives
+  district: 32
+  party: Democratic
+  question: co-q1
+  date: 2026-09-24
+  primary_candidate: false
+  response: |
+      "I know what I don't know and I trust science. I will support continuing the Science & Technology Policy Fellows work to educate Legislative Council Staff. I believe we need formal advisory panels consisting of working scientists, public health experts, and environmental researchers to review proposed state legislation. Drawing on my professional background in emergency response and my academic training in public policy, I rely on data to assess risks and evaluate outcomes. I intend to partner with independent, non-partisan entities, such as the Union of Concerned Scientists and researchers from Colorado's universities, to evaluate the empirical basis of bills before they are voted on. By embedding scientific review directly into the legislative drafting process, the state can ensure that policies address issues using verified evidence rather than ideological assumptions."
+
+- candidate_first_name: Chris
+  candidate_last_name: VanDijk
+  state: co
+  race: State House of Representatives
+  district: 32
+  party: Democratic
+  question: co-q2
+  date: 2026-09-24
+  primary_candidate: false
+  response: |
+      "I will advocate for state funding to expand applied agricultural research, focusing specifically on drought-resistant crops, water efficiency, and soil health. I support expanding state partnerships with agricultural extension programs to help farmers adopt precision agriculture technologies and regenerative land management practices. These science-backed practices allow agricultural producers to optimize their use of water and imported fertilizers, which directly reduces operational costs and minimizes environmental impact. State policy should focus on providing farmers with the proven tools and financial incentives necessary to implement these methods, ensuring long-term sustainability for Colorado's agricultural sector and natural resources."
+
+- candidate_first_name: Chris
+  candidate_last_name: VanDijk
+  state: co
+  race: State House of Representatives
+  district: 32
+  party: Democratic
+  question: co-q3
+  date: 2026-09-24
+  primary_candidate: false
+  response: |
+      "The massive rush to build enormous centralized data centers, specifically hyperscalers, is largely driven by near-zero vacancy rates in major markets, leading developers to scramble and pre-lease capacity years ahead just to secure available power. However, we must critically evaluate why we are building so large and so fast when the current AI investment bubble is predicted to burst.
+      
+      Crucially, the technology is rapidly evolving. Emerging engineering insights suggest the future of AI is smaller, local, and sovereign, moving toward distributed computing and quantum networks. Massive, centralized data centers are increasingly viewed as end-of-life technology relied upon by legacy tech giants, not the true frontier of innovation.
+      
+      Currently, Colorado lacks a unified state infrastructure plan for advanced computing, leaving local municipalities to fend for themselves with emergency moratoriums against private hyperscalers. We need a proactive, state-led strategy—much like the national infrastructure models utilized by our global competitors—that dictates terms rather than surrendering to tech companies.
+      
+      I propose a comprehensive Colorado Compute Infrastructure Plan. Instead of a patchwork of local zoning fights, the state must map our energy grid, renewable resources, and water watersheds to designate precisely where, and if, compute facilities can safely exist. This plan would shift development away from water-stressed Front Range communities and mandate that any new, localized AI infrastructure be directly paired with dedicated, off-grid renewable energy sources. By taking a state-level planning approach, we protect our resources, prevent local grid collapse, and ensure Colorado controls its technological footprint, rather than letting legacy tech giants dictate our future."
+
+- candidate_first_name: Chris
+  candidate_last_name: VanDijk
+  state: co
+  race: State House of Representatives
+  district: 32
+  party: Democratic
+  question: co-q4
+  date: 2026-09-24
+  primary_candidate: false
+  response: |
+      "I support strengthening the state's public health infrastructure by increasing funding for local health departments and establishing publicly funded community medicine programs. Utilizing first responders and community health workers, these programs can deliver vaccines and preventive care directly to underserved areas. I also support policies that rely on epidemiological data to guide outbreak responses, which includes funding robust public health education initiatives designed specifically to counter vaccine misinformation. Ensuring widespread access to preventive care and maintaining high vaccination rates are the most proven, evidence-based methods to stop the spread of infectious diseases."
+
+- candidate_first_name: Chris
+  candidate_last_name: VanDijk
+  state: co
+  race: State House of Representatives
+  district: 32
+  party: Democratic
+  question: co-q5
+  date: 2026-09-24
+  primary_candidate: false
+  response: |
+      "Colorado's K-12 education standards should place a stronger emphasis on inquiry-based learning and the scientific method, moving away from rote memorization. Students need to learn how to evaluate evidence, understand data sets, and identify misinformation. I support updating curriculum standards to apply scientific principles directly to local, real-world issues, such as Colorado's water conservation efforts and wildfire ecology. Additionally, the state must increase funding for STEM resources and ensure that science educators are adequately supported. Improving science literacy in our schools, beginning in elementary school, is essential for developing a public capable of making informed decisions based on empirical evidence."
+
+      
