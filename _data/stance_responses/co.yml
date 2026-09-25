@@ -4342,5 +4342,62 @@
   response: |
       "Current science literacy is at a critical juncture. While technology impacts every aspect of our lives, science is often still taught as a static set of facts to memorize rather than a dynamic process of questioning, testing hypotheses, and evaluating evidence. This disconnect leaves citizens vulnerable to misinformation on public health, water conservation, and energy policy. We must adapt standards around hands-on, phenomena-based learning. Instead of relying solely on abstract textbooks, students should explore scientific concepts through real-world Colorado challenges—such as studying regional snowpack data, soil micro-biomes, or wildfire ecology. Starting in middle school, standards should explicitly teach students how to evaluate scientific sources. Curriculum should focus on understanding sample size, reading graphs, identifying logical fallacies, and distinguishing peer-reviewed scientific consensus from online misinformation. We should build direct bridges between K-12 classrooms and Colorado’s research institutions, national labs, and agricultural extension offices. Hands-on field studies, lab visits, and mentorships demystify scientific professions and show students how science directly impacts their local communities. By teaching science as an active tool for critical thinking and civic engagement rather than an exercise in memorization, we can raise a generation of Coloradans equipped to navigate a complex, tech-driven world."
 
+- candidate_first_name: William D.
+  candidate_last_name: Moses. III
+  state: co
+  race: State Senate
+  district: 9
+  party: Democratic
+  question: co-q1
+  date: 2026-09-24
+  primary_candidate: false
+  response: |
+      "I support science and technology. When evaluating prospective businesses in these fields, I will examine the scientific tests and metrics used to substantiate their products. I will require claims and intended outcomes to be validated through logically applied quantitative measures."
 
-      
+- candidate_first_name: William D.
+  candidate_last_name: Moses. III
+  state: co
+  race: State Senate
+  district: 9
+  party: Democratic
+  question: co-q2
+  date: 2026-09-24
+  primary_candidate: false
+  response: |
+      "I will champion our farmers by ensuring water—an essential resource—is managed responsibly to support agricultural growth and prevent waste. Everyone who draws water from underground aquifers, streams, and rivers must be accountable to keep water affordable and help farmers maximize profits."
+
+- candidate_first_name: William D.
+  candidate_last_name: Moses. III
+  state: co
+  race: State Senate
+  district: 9
+  party: Democratic
+  question: co-q3
+  date: 2026-09-24
+  primary_candidate: false
+  response: |
+      "The industry must balance its goals with community support, ensuring nearby residents approve of its presence. It must also avoid imposing costs on taxpayers already struggling with everyday expenses. Finally, its operations should be environmentally responsible and compatible with the surrounding area."
+
+- candidate_first_name: William D.
+  candidate_last_name: Moses. III
+  state: co
+  race: State Senate
+  district: 9
+  party: Democratic
+  question: co-q4
+  date: 2026-09-24
+  primary_candidate: false
+  response: |
+      "Scientific and medical evidence shows that political leaders have been wrong on this issue and that vaccination is essential to preventive health. Although parents may choose, leaders should strongly advocate vaccination."
+
+- candidate_first_name: William D.
+  candidate_last_name: Moses. III
+  state: co
+  race: State Senate
+  district: 9
+  party: Democratic
+  question: co-q5
+  date: 2026-09-24
+  primary_candidate: false
+  response: |
+      "Our education system is falling short in several areas of science and mathematics—not because teachers lack commitment, but because the system has been partially dismantled from the top down. Science teachers and local leaders must advocate for higher standards in both closely connected subjects."
