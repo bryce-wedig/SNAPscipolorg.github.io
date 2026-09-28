@@ -1616,7 +1616,7 @@ $stance-focus-ring: 0 0 0 3px rgba($snap-blue, 0.14);
   }
 
   &__lb-img {
-    max-width: min(92vw, 620px);
+    max-width: min(92vw, 1000px);
     max-height: 90vh;
     object-fit: contain;
     border-radius: 10px;
