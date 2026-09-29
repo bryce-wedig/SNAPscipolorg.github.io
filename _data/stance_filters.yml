@@ -41,6 +41,7 @@ races:
   - State Treasurer
   - University Board of Regents
   - US House of Representatives
+  - US House of Representatives Non-Voting Delegate  # for DC
   - US Senate
 
 # ballot order for grouping candidates in the "Group by candidate" view
@@ -48,6 +49,7 @@ races:
 race_ballot_order:
   - US Senate
   - US House of Representatives
+  - US House of Representatives Non-Voting Delegate
   - Governor
   - Lieutenant Governor
   - Attorney General
