@@ -471,4 +471,138 @@
     
     KEYWORDS: NIH funding should be earned on scientific merit, independently reviewed, transparent, and subject to strong oversight
 
+- candidate_first_name: Devin # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Lander # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 43 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q1
+  date: 2026-09-28 # optional
+  response: |
+    Data centers can bring investment and innovation to New York, but New Yorkers should not be asked to subsidize massive private energy and water demands. I support the current pause while New York puts strong rules in place. New data centers should be required to account for their energy and water use, protect residential ratepayers, provide real benefits to host communities, and pay their fair share of any grid upgrades they require. I also support reevaluating blanket tax exemptions for the largest facilities.
+    
+    The same basic principle applies to AI itself. We should encourage useful innovation while requiring strong privacy protections, transparency, safety standards, and human accountability when AI is used to make decisions that affect people’s lives.
+    
+    KEYWORDS: Responsible AI; Data center regulation; Ratepayer protection; Privacy and accountability
+
+- candidate_first_name: Devin # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Lander # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 43 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q2
+  date: 2026-09-28 # optional
+  response: |
+    I support New York’s transition to lower-carbon energy, but our energy policy should be driven by science, engineering, reliability, and cost. I would prioritize a diverse mix that includes hydropower, more wind and solar, energy storage, and upgrades to our transmission system. I also think advanced nuclear and other new technologies should remain on the table.
+    
+    We should not shut down able low-carbon energy before replacement power is actually available. Our timelines should be ambitious, but they also need to reflect grid reliability, actual emissions reductions, technological readiness, and what families are paying on their utility bills.
+
+    KEYWORDS: Science-based energy policy; Grid reliability; Affordability
+    
+- candidate_first_name: Devin # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Lander # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 43 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q3
+  date: 2026-09-28 # optional
+  response: |
+    Public education has an important role to play, but the goal should be to teach students how to evaluate information, not simply tell them what to think. Students should understand the scientific method, how to distinguish credible research from unsupported claims, how to identify reliable sources, and how social media can amplify bad information.
+    
+    Schools should also make accurate, up-to-date scientific and public health information easy for students and families to find. The best answer to misinformation is better information, stronger science literacy, and giving people the tools to ask good questions and evaluate the evidence for themselves.
+    
+    KEYWORDS: Science literacy; Media literacy; Scientific method; Trusted information
+    
+- candidate_first_name: Devin # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Lander # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 43 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q4
+  date: 2026-09-28 # optional
+  response: |
+    Pesticide policy should be based on evidence, not fear and not pressure from industry. I would look to peer-reviewed research and the work of public health and environmental agencies, with particular attention to actual exposure levels, long-term health effects, water quality, farmworker safety, pollinators, and impacts on food production.
+    
+    Where credible evidence shows an unacceptable risk, New York should act. At the same time, farmers need realistic alternatives and enough time and support to transition. I also support integrated pest management and continued research into safer and more targeted ways to protect crops.
+    
+    KEYWORDS: Evidence-based regulation; Pesticide safety; Integrated pest management; Farm viability
   
+- candidate_first_name: Devin # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Lander # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 43 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q5
+  date: 2026-09-28 # optional
+  response: |
+    New York should be doing everything it reasonably can to remain a place where talented students and researchers want to study, work, and build their careers. Immigration policy is primarily federal, but the State can work with universities and employers on research opportunities, fellowships, legal and administrative support, and programs that help retain highly trained STEM graduates.
+    
+    I would also work with New York’s congressional delegation to push for a visa system that is secure, predictable, and does not unnecessarily drive talented researchers elsewhere. Scientific talent is an economic asset, and New York should treat it that way.
+    
+    KEYWORDS: STEM workforce; International students; Research talent; Visa stability
+    
+
+- candidate_first_name: Devin # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Lander # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 43 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q6
+  date: 2026-09-28 # optional
+  response: |
+    For farmers, extreme weather is not an abstract issue. It can mean losing a crop and an entire year of income. I support expanding assistance for drainage, irrigation, frost protection, soil health, water management, and other farm-specific resilience projects.
+    
+    We should also strengthen emergency relief, help farmers access federal disaster and insurance programs, and invest in agricultural research and extension services so farmers have practical information about changing conditions. Albany should work with farmers on solutions that fit their land and crops rather than imposing a one-size-fits-all approach
+    
+    KEYWORDS: Farm resilience; Extreme weather; Agricultural research; Disaster relief
+  
+- candidate_first_name: Devin # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Lander # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 43 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q7
+  date: 2026-09-28 # optional
+  response: |
+    I have serious concerns about the growing use of Flock cameras and similar automated license plate reader networks. Public safety is important, but that cannot mean creating a massive database that tracks where law-abiding people travel and allows that information to be stored or shared with little oversight.
+    
+    New York needs strong statewide limits on these systems, including strict limits on data retention and sharing, transparency about where cameras are operating and who can access the information, and meaningful consequences for misuse. Technology can assist law enforcement without creating a surveillance network that treats every driver like a potential suspect.
+
+    KEYWORDS: Privacy; ALPR regulation; Data retention;
+
+- candidate_first_name: Devin # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Lander # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 43 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q8
+  date: 2026-09-28 # optional
+  response: |
+    New York should treat wildfire smoke as a recurring public health and emergency preparedness issue. I support better air-quality monitoring and public alerts, upgraded filtration in schools and other public buildings, clean-air spaces during severe smoke events, and making high-quality masks and filtration more accessible to people at greatest risk.
+    
+    The State should also help schools, nursing homes, local governments, and employers develop clear response plans before the next major smoke event occurs. We may not be able to control where the smoke originates, but we can use the science and data we have to reduce exposure and protect people when it arrives.
+    
+    KEYWORDS: Wildfire smoke; Air quality; Public health preparedness; Filtration
+
+- candidate_first_name: Devin # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Lander # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 43 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q9
+  date: 2026-09-28 # optional
+  response: |
+    I oppose major cuts to NIH research funding. Federal research dollars support medical breakthroughs, universities, hospitals, jobs, and the next generation of scientists. New York cannot realistically replace the federal government’s role in biomedical research, but we should protect our research base where we can through targeted bridge funding, research infrastructure, state matching programs, and partnerships with universities and the private sector.
+    
+    I would also work with our congressional delegation and New York research institutions to advocate for stable, long-term federal research funding. Cutting science may save money on paper in the short term, but it risks costing us much more in lost innovation, jobs, and future treatments.
+
+    KEYWORDS: NIH funding; Biomedical research; Research jobs; State bridge funding
