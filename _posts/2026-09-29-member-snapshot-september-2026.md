@@ -76,7 +76,7 @@ University of Miami
 <figure style="margin: 1em 0; text-align: center;">
 <img src="/images/blog_figures/2026-09-29_brandon.png" alt="Brandon Emanuel León speaking at Miami NerdNite" style="max-width: 100%; height: auto; border-radius: 0;" />
 <figcaption style="margin-top: 0.5em; font-size: 0.875em; color: #6b6b6b; text-align: center; line-height: 1.4;">
-Speaking at Miami NerNite
+Speaking at Miami NerdNite
 </figcaption>
 </figure>
 
@@ -148,5 +148,3 @@ Photo I took in the field of the sheep and guanacos jointly grazing in the [Pata
 
 #### Recognition:
 *Thanks to Brandon, Olivia, and Emily for their responses! This article was edited by [Isako Di Tomassi](https://medium.com/@isakoditomassi).*
-
-Read more about SNAP and its members on [our website](https://snapcoalition.org/).
