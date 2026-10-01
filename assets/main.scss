@@ -13,4 +13,6 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 @import "SHB_css";
 @import "stance";
 @import "events";
+@import "scipol-course";
+@import "district-visits";
 @import "map";
