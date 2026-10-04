@@ -959,3 +959,399 @@
   date: 2026-09-29 # optional
   response: |
     https://www.justice.gov/usao-sdny/pr/us-attorney-announces-settlement-civil-fraud-lawsuit-against-former-hunter-college the links takes you to an article titled "U.S. Attorney Announces Settlement Of Civil Fraud Lawsuit Against Former Hunter College Professor And Hunter College For Fraudulently Using Federal Research Funds" Besides corruption, research can often focus on, "trending topics" or areas projected to "make a lot of money" such as erectile dysfunction instead of pursuing more impactful issues such as the overuse of antibiotics in our livestock industry. NIH has to better demonstrate it's value to the federal government and voters to restore their funding. Refer to the following article. https://thehill.com/opinion/congress-blog/4533574-how-the-national-institutes-of-health-became-a-den-of-cronyism/ 
+
+- candidate_first_name: Martha # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: McHugh # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 46 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: ny-q1
+  date: 2026-09-30 # optional
+  response: |
+    New York shouldn't have to choose between the jobs and investment AI can bring and protecting families' utility bills, and a blanket moratorium fails on both counts. My approach starts with one principle: data centers pay their own way, and ratepayers never subsidize them. Large facilities should cover the full cost of the generation and grid upgrades they require, and they should bring new capacity with them rather than draw down what homeowners and small businesses rely on. That means solving the supply problem instead of freezing demand: keeping existing plants running, expanding natural gas infrastructure, and taking a serious look at advanced nuclear. Local communities should decide whether a project goes forward, under firm, predictable statewide standards on water, noise, and grid impact. On taxes, I would replace open-ended exemptions with performance-based incentives tied to real jobs and investment, with clawbacks if a company doesn't deliver, rather than repeal them outright and watch this investment move to Pennsylvania, Ohio, and Texas. Data centers are coming somewhere, and I'd rather they be built here, on terms that protect New York families.
+    
+    KEWTORDS: balance, taxpayer protection, supply problem 
+    
+- candidate_first_name: Martha # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: McHugh # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 46 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: ny-q2
+  date: 2026-09-30 # optional
+  response: |
+    New York's energy policy has to pass three tests: affordable, reliable, and lower-emission. Albany has treated only the last as if it counts, and even Governor Hochul now admits the mandates would cost families thousands of dollars a year, which is why she pushed the emissions rules back to the end of 2028, years after the original deadline. My priorities start with keeping what works: nuclear, hydropower, and our existing natural gas plants, which stay online until replacement power is built and proven. Next, we build new firm power, including extending existing nuclear, advancing new nuclear, and expanding gas and storage where the grid needs it. Wind and solar belong in the mix where they make economic sense and have local support. Instead of date-certain mandates, I would tie each milestone to results, moving to the next step only when independent evidence shows the grid is reliable and bills aren't rising. That evidence should be public: grid operator reliability assessments, the state's own cost analyses, and what families actually pay. In the Senate, I'd require a published cost estimate and reliability sign-off before any new mandate takes effect.
+    
+    KEYWORDS: all of the above options 
+- candidate_first_name: Martha # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: McHugh # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 46 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: ny-q3
+  date: 2026-09-30 # optional
+  response: |
+    No one should be looking to social media as a top source for science information.  The NYS Department of Health has a long history of providing factual information related to vaccine science and should continue in that mission.  Science should not be conflated by politics.  Individuals should work closely with their health care providers to make decisions about vaccination for themselves and their children.  
+  
+- candidate_first_name: Martha # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: McHugh # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 46 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: ny-q4
+  date: 2026-09-30 # optional
+  response: |
+    I'd let the evidence guide these decisions, not slogans from either side. My approach is to weigh what a product does for farm yields, food supply, and farmers' costs against what independent data show about its risks to human health, water, pollinators, and farm workers.
+
+    For safety, I'd rely on federal and state regulators' own risk assessments: the EPA's registration reviews and tolerance levels, the USDA's Pesticide Data Program, which tests residues on food, and the FDA's residue monitoring. In New York, I'd use the DEC's pesticide registration and use data, the state's mandatory pesticide sales and use reporting, and Department of Health findings. For international scientific consensus, I'd look at the National Academies, the World Health Organization, and the European Food Safety Authority.I'd also want to hear directly from New York farmers, farmworkers, and public health experts, because data on paper doesn't always show what works in the field. When the evidence shows a real risk, we act. When it shows a tool is safe and important to farmers' livelihoods, we protect access to it. And any restriction should come with a workable alternative, so we don't lose farms or push production out of state.
+  
+- candidate_first_name: Martha # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: McHugh # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 46 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: ny-q5
+  date: 2026-09-30 # optional
+  response: |
+    Visa policy is set in Washington, not Albany, and I don't think the state should pretend otherwise. There's a legitimate case for careful screening and for protecting our research from theft and espionage, but blunt restrictions that push away legitimate students and scientists could hurt New York's universities, hospitals, and growing tech and semiconductor sector. So I'd do three things. First, work with our congressional delegation and other states to press for targeted security vetting instead of across-the-board limits, with New York colleges and employers at the table. Second, build our own pipeline by expanding STEM education from K-12 through SUNY, CUNY, and community colleges, and by strengthening partnerships with employers and apprenticeships so New Yorkers are first in line for these jobs. Third, support what the state can control: helping universities and employers navigate rule changes, and keeping research funding and incentives competitive so we don't lose talent to other states. I wouldn't try to override federal immigration law, which isn't our role and would only invite legal fights. Our job is to keep New York competitive.
+  
+- candidate_first_name: Martha # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: McHugh # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 46 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: ny-q6
+  date: 2026-09-30 # optional
+  response: |
+    New York already supports farm resilience through the Climate Resilient Farming Grant Program, which helps farms prepare for flooding, drought, and extreme weather through county Soil and Water Conservation Districts. Recent rounds have awarded more than $25 million to 133 farms. The state also funds water quality projects and supports Cornell's research and extension services, and farmers can turn to federal crop insurance and USDA disaster programs. I'd keep those programs and make them work better: simpler applications and faster payments for small family farms, more investment in irrigation, drainage, and flood protection, continued support for Cornell research that gets practical tools to growers, and quicker disaster aid coordinated with federal programs. I'd also keep state mandates and costs from piling onto farms that already run on thin margins. The approach should be voluntary and farmer-led, because the people best equipped to decide what works on a farm are the farmers, not Albany.
+  
+- candidate_first_name: Martha # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: McHugh # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 46 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: ny-q7
+  date: 2026-09-30 # optional
+  response: |
+    License plate readers can be a valuable tool for recovering stolen vehicles, finding missing persons, and solving violent crimes faster. But a network that logs where ordinary people drive and shares it across state lines with little oversight calls for clear guardrails, and New York currently has none, so every department and vendor contract sets its own rules. I'd support statewide legislation built on five principles: use limited to defined public safety purposes, not general monitoring; short retention, with data that doesn't match an active case deleted in days, not months; warrants or court orders for sharing with outside agencies, including out-of-state and federal ones, with narrow emergency exceptions and no sale of data to private companies; auditable logs of every search, public reporting, and penalties for misuse; and vendor contracts that keep the data under local government control, with security standards and breach notification. Communities should still decide whether to use the technology, as Syracuse did, but within clear statewide rules that protect both public safety and privacy.
+  
+- candidate_first_name: Martha # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: McHugh # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 46 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: ny-q8
+  date: 2026-09-30 # optional
+  response: |
+    The smoke is a real health issue for New Yorkers, and this summer's alerts, on top of the record-breaking event in 2023, show it isn't a one-time problem. I do think Canada has a responsibility here. Smoke crosses the border without any regard for it, and New York families and taxpayers bear the health costs. But the state can't hold another country accountable directly, so my first step would be pushing Washington to make it a priority with Ottawa. The existing U.S.–Canada air quality cooperation wasn't built for wildfire smoke. I'd press our congressional delegation and the federal government for a real agreement on prevention, forest and fire management, early warning, and shared firefighting resources.
+  
+- candidate_first_name: Martha # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: McHugh # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 46 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: ny-q9
+  date: 2026-09-30 # optional
+  response: |
+    New York spends real money on science, but I don't think we spend it well. Right now our approach is to pick a handful of industries and write very large checks, with semiconductors at the top of the list, then AI and quantum. That's industrial policy, not a science strategy, and it has four problems.
+
+    It's too narrow. Billions go to a few favored sectors, while I'm not aware of any major state program that supports researchers pursuing their own ideas in biology, chemistry, physics, or medicine. Breakthroughs rarely come from the sector the government picked in advance. Cutting stem cell funding in 2021 is a good example: we walked away from a program that helped make New York a leader, and researchers left for states that kept theirs.
+
+    It's driven by economic development, not by science. Much of the money goes to construction, incentives, and commercialization grants, all judged by jobs and private investment. Those goals matter, but they don't build the pipeline of discovery that future industries depend on. We're paying for the factories without investing enough in the ideas that fill them.
+
+    It leans heavily on Washington. New York's contribution to research is small compared to federal funding, so when federal support gets uncertain, our universities and labs are exposed. Even the Empire AI board has noted how valuable state-led funding is when federal money is in doubt. That should tell us the state needs a steadier base of its own, not just a few flashy projects.
+
+    It's concentrated in a few places. Much of the flagship spending goes to a handful of sites, and the benefits don't reach all our campuses, small and mid-sized colleges, or regions.
+
+    I'd take a different approach: keep the successful large projects, but hold them to strict performance and accountability standards, and rebalance toward a more stable, merit-based state research program that funds the best ideas across fields and institutions, requires matching private dollars, and reports results publicly. That gives us a research base that produces the next Micron, not just one that hosts it
+
+- candidate_first_name: Lynn Trupiano # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: O'Keefe # used for alphabetical sorting
+  state: ny
+  race: State Assembly # must match one of the options!
+  district: 8 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q1
+  date: 2026-10-01 # optional
+  response: |
+    I support responsible innovation that creates good jobs while protecting our communities.  Data center owners must be accountable for their energy and water use, environmental impacts and worker safety.  Residents and small businesses should not have to pay higher utility bills to subsidize these facilities. As an Assembly member I would support requiring independent assessments of electricity demand, water use, and community impacts before construction is approved. Companies should pay the full cost of the infrastructure upgrades they require, meet enforceable environmental and safety standards, and publicly report their resource use.  Local residents must have a meaningful voice in the approval process. 
+    
+    The cost should not be on the backs of the residents.  I would support ending automatic tax exemptions for data centers.  Any incentive should depend on measurable public benefits, including permanent good paying local jobs, strong labor protections, and compliance with environmental standards, with repayment required if companies fail to deliver.
+    
+    KEYWORDS: Accountability, affordable utilities, clean water, worker safety, responsible innovation, community input. 
+    
+- candidate_first_name: Lynn Trupiano # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: O'Keefe # used for alphabetical sorting
+  state: ny
+  race: State Assembly # must match one of the options!
+  district: 8 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q2
+  date: 2026-10-01 # optional
+  response: |
+    I support a cleaner energy future that keeps electricity affordable and reliable for families and small businesses.  
+    
+    Over the next two years, I would prioritize energy efficiency, rooftop and community solar, and modernizing or electric grid, while maintaining safely operated existing nuclear and hydropower facilities.  Over the following three to five years, I would support expanding responsibly located wind and solar projects, together with the transmission and storage necessary to support them. I support New York's climate goals, with annual public reviews to measure progress and address obstacles.  Before retiring existing power plants, independent assessments must demonstrate that replacement resources can meet demand during extreme weather and periods of low wind or sunlight.  My decisions would be guided by independent grid reliability studies, the total cost to consumers, emissions reductions, public health impacts, and community input.  I would also push for transparent utility spending, assistance for struggling households, and good union jobs throughout the transition.  We need measurable progres that protects both oir environment and peoples ability to pay their bills. 
+
+    KEYWORDS: Affordable, reliable, clean energy, grid modernization, accountability, good union jobs.
+  
+- candidate_first_name: Lynn Trupiano # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: O'Keefe # used for alphabetical sorting
+  state: ny
+  race: State Assembly # must match one of the options!
+  district: 8 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q3
+  date: 2026-10-01 # optional
+  response: |
+    As a healthcare professional for 36 years, I value evidence based information. Public schools should teach students how to evaluate sources, distinguish evidence from opinion, and  recognize misinformation. We need support and training resources for teachers, partnerships with scientists and healthcare professionals, and sharing clear regularly updated information with families.  Building trust means welcoming  questions and explaining the evidence respectfully.
+    
+    KEYWORDS: Scientific literacy, critical thinking, reliable sources
+    
+- candidate_first_name: Lynn Trupiano # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: O'Keefe # used for alphabetical sorting
+  state: ny
+  race: State Assembly # must match one of the options!
+  district: 8 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q4
+  date: 2026-10-01 # optional
+  response: |
+    I would weigh independent, peer reviewed research, EPA and New York DEC assessments and Cornell agricultural studies.  I would examine long term health effects, exposure among children, and farm workers, water contamination, and impacts on pollinators alongside crop yields food prices, and the effectiveness of alternatives.  I support restricting pesticides when evidence shows unacceptable risks and helping farmers adopt safer, effective pest management methods.
+
+    KEYWORDS: Evidence based policy, public health, clean water ,food security, farmer support.
+- candidate_first_name: Lynn Trupiano # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: O'Keefe # used for alphabetical sorting
+  state: ny
+  race: State Assembly # must match one of the options!
+  district: 8 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q5
+  date: 2026-10-01 # optional
+  response: |
+
+    New York should help universities provide legal guidance and support to affected students and researchers, advocate for fair federal visa policies, and protect research continuity. We need to track work force gaps and expand STEM scholarship training and university partnerships with local employers.  We should welcome international talent while investing in opportunities for New Yorkers.
+    
+    KEYWORDS: International talent, STEM education, research continuity, workforce development, fair visa policies
+    
+- candidate_first_name: Lynn Trupiano # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: O'Keefe # used for alphabetical sorting
+  state: ny
+  race: State Assembly # must match one of the options!
+  district: 8 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q6
+  date: 2026-10-01 # optional
+  response: |
+    I would support grants for flood protection,  efficient irrigation, soil conservation, and crops suited to changing weather conditions.  I would also prioritize timely disaster relief and Cornell Cooperative extension guidance,  with simple applications accessible to small farms.  investing in preparation helps farmers' livelihoods and our food supply.  
+    
+    KEYWORDS: preparation, climate resilience, flood protection disaster reliefn, disaster relief
+    
+- candidate_first_name: Lynn Trupiano # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: O'Keefe # used for alphabetical sorting
+  state: ny
+  race: State Assembly # must match one of the options!
+  district: 8 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q7
+  date: 2026-10-01 # optional
+  response: |
+    i support license plate readers for legitimate public with strong privacy safeguards. I would propose legislation limiting collection and searches to defined purposes, requiring secure storage, access logs, independent audits, and deletion after a short retention period unless needed for a specific investigation.  Sharing with local or federal agencies should require a documented lawful purpose, with judicial approval for tracking a persons's movements over time and penalties for misuse.
+    
+    KEYWORDS: public safety, privacy, defined purposes, judicial approval
+    
+- candidate_first_name: Lynn Trupiano # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: O'Keefe # used for alphabetical sorting
+  state: ny
+  race: State Assembly # must match one of the options!
+  district: 8 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q8
+  date: 2026-10-01 # optional
+  response: |
+    investing in air quality monitoring, timely public alerts, and improved air filtration systems in schools and public buildings.  New York shold provide accessible clean air shelters and help low income families obtain air purifiers, prioritizing children, seniors, and people with heart and lung conditions.  Clear plans fpr schools and outdoor workers, along with research on long term effects, should guide our preparation.
+
+    KEYWORDS: preparation, accessible shelters, research
+    
+- candidate_first_name: Lynn Trupiano # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: O'Keefe # used for alphabetical sorting
+  state: ny
+  race: State Assembly # must match one of the options!
+  district: 8 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: ny-q9
+  date: 2026-10-01 # optional
+  response: |
+    I oppose deep cuts to NIH research funding.  After 36 years in healthcare, I understand the importance of research in improving patient care.  I would work with New York's congressional delegation to defend federal funding and support targeted temporary state funding to preserve critical projects and research jobs.  
+    
+    KEYWORDS: medical research, NIH funding, patient care
+
+- candidate_first_name: Chris # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Brown # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 55 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: ny-q1
+  date: 2026-10-01 # optional
+  response: |
+    I support expanding AI data centers because they drive innovation, high-paying jobs, and tax revenue that strengthen our economy. New York’s current moratorium is a job-killing overreach that cedes leadership to other states.
+    
+    The right balance prioritizes growth while protecting ratepayers. We must increase reliable energy supply, nuclear, natural gas, and next-generation sources, rather than ration power or drive up costs through scarcity. Tax exemptions for data-center equipment remain useful tools to attract investment, but they should be paired with clear local benefits and efficiency standards so communities see returns without unfair burden on households.
+    
+    My policies would lift the moratorium, streamline permitting for responsible projects, and expand domestic energy production so data centers can locate here without straining the grid or hiking utility bills. Innovation and prosperity come from opportunity, not bans.
+
+    KEYWORDS: Lift the moratorium; Expand energy supply; Innovation and jobs; Tax exemptions for investment
+    
+- candidate_first_name: Chris # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Brown # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 55 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: ny-q2
+  date: 2026-10-01 # optional
+  response: |
+    I prioritize reliable, affordable energy that keeps the lights on and rates down for families and businesses. That means expanding nuclear power, both existing plants and advanced reactors, alongside natural gas as a flexible bridge fuel, while maintaining our strong hydropower base. Intermittent wind and solar have a role, but only where they do not compromise grid stability or drive up costs.
+    
+    The CLCPA’s aggressive timelines have already proven unrealistic, which is why Governor Hochul wisely delayed key deadlines. We should use this window through 2028 and beyond to pursue a technology-neutral approach focused on results, not rigid mandates. New nuclear and gas capacity can come online in the near term; we should accelerate permitting for both rather than force premature plant retirements.
+    
+    Evidence must guide us: NYISO reliability reports, actual ratepayer cost data, and real-world outcomes from states that over-relied on intermittent sources. Emissions matter, but so do blackouts, manufacturing flight, and household energy bills. Reliability and affordability come first.
+
+    KEYWORDS: Expand nuclear power; Natural gas as bridge fuel; Reliability and affordability first; Technology-neutral approach
+
+- candidate_first_name: Chris # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Brown # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 55 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: ny-q3
+  date: 2026-10-01 # optional
+  response: |
+    public education’s primary role is teaching students how to think critically, not what to think. Schools should equip young people with strong media literacy, scientific method skills, and the ability to evaluate sources, evidence, and claims for themselves. That includes recognizing bias, distinguishing correlation from causation, and understanding that even “official” sources can be wrong or incomplete.
+    
+    Government should not become the arbiter of “misinformation.” Laws like New York City’s vaccine misinformation measures risk chilling legitimate debate and eroding trust. Parents and families deserve transparency and the right to question prevailing narratives without schools acting as enforcers of orthodoxy.
+    
+    Prioritize rigorous science education grounded in evidence, open inquiry, and intellectual humility. Teach students to demand data, scrutinize incentives, and update views when new facts emerge. That approach builds lasting resilience against bad information far better than top-down speech controls.
+
+    KEYWORDS: Educate don’t dictate
+
+- candidate_first_name: Chris # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Brown # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 55 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: ny-q4
+  date: 2026-10-01 # optional
+  response: |
+    I will rely on rigorous, science-based evidence, not fear or activism, when weighing pesticides. The data that matter most are peer-reviewed risk assessments from the EPA and USDA, actual residue monitoring results, and real-world studies on crop yields, food prices, and farmer livelihoods.
+    
+    Pesticides remain essential tools for protecting New York’s agricultural productivity and keeping food affordable and secure. Blanket restrictions that ignore dose, exposure levels, and proven benefits risk higher costs, lower yields, and greater reliance on imports produced under weaker standards. I will prioritize targeted, evidence-driven regulation that addresses genuine risks while preserving farmers’ ability to manage pests effectively. Decisions must rest on measurable outcomes for safety, food security, and economic viability, not political pressure.
+
+    KEYWORDS: Science-based evidence; EPA and USDA risk assessments; Protect agricultural productivity; Targeted, evidence-driven regulation
+
+- candidate_first_name: Chris # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Brown # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 55 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: ny-q5
+  date: 2026-10-01 # optional
+  response: |
+    New York should respect federal authority over immigration and visas while competing to attract top STEM talent through excellence, not by resisting lawful enforcement. International students contribute to our universities and innovation economy, but national security, reciprocity, and prioritization of American students must come first.
+    
+    Rather than litigating or circumventing federal changes, we should focus on making New York’s universities and research institutions more competitive: streamlining state-level research partnerships, expanding domestic STEM pipelines, and ensuring strong vetting so that those who do receive visas are high-caliber contributors. Shorter durations and tighter screening can reduce overstays and security risks without shutting out legitimate talent.
+    
+    The evidence that guides me is workforce data showing genuine shortages in certain advanced fields, paired with the clear need to protect American graduates and national interests. New York’s best response is to raise its own standards and competitiveness, not to fight the federal government’s responsibility to control its borders and visas.
+
+    KEYWORDS: Respect federal authority; Attract talent through excellence; Prioritize American students; Expand domestic STEM pipelines
+
+- candidate_first_name: Chris # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Brown # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 55 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: ny-q6
+  date: 2026-10-01 # optional
+  response: |
+    New York farmers face increasingly unpredictable weather, from late freezes and flooding to drought, hail, and extreme heat. Albany should help them protect their land, crops, and livelihoods.
+
+    I would support practical resilience investments, including improved drainage and water management, irrigation and water storage, frost protection, soil-health practices, and better weather monitoring and warnings.
+
+    When disasters strike, assistance must reach farmers quickly. I would support targeted disaster-recovery grants or low-interest aid that complements federal programs and helps family farms recover from substantial documented losses.
+
+    Farmers also need a seat at the table. Albany should avoid one-size-fits-all solutions and work with the people who know the land best. Our policies should strengthen preparedness, protect productive farmland, keep food affordable, and ensure New York family farms remain viable for future generations.
+
+    KEYWORDS: Farm Resilience; Disaster Recovery; Protecting Farmland; Family Farms
+
+- candidate_first_name: Chris # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Brown # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 55 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: ny-q7
+  date: 2026-10-01 # optional
+  response: |
+    Automated License Plate Readers can be valuable tools for law enforcement when used to locate stolen vehicles, find missing or endangered people, and investigate serious crimes. I support giving police access to effective technology, but that access should come with clear safeguards protecting the privacy of law-abiding citizens.
+
+    New York currently lacks a comprehensive statewide framework governing law-enforcement ALPR data, and legislation addressing these issues is already being considered in Albany.
+
+    I would support statewide standards requiring ALPR searches to have a legitimate law-enforcement purpose, with auditable records showing who accessed the system and why. Data on vehicles not connected to an investigation should be retained only for a limited period, while relevant evidence could be preserved for legitimate investigations.
+
+    Sharing with other local, state, or federal law-enforcement agencies should be permitted for legitimate criminal investigations and public-safety emergencies, with stronger judicial oversight when accessing historical location information or conducting broader searches.
+    
+    The goal should be straightforward: give police the technology they need to protect our communities without creating an unrestricted database of the movements of innocent New Yorkers.
+
+    KEYWORDS: Public Safety; Personal Privacy; Law-Enforcement Accountability; Judicial Oversight
+
+- candidate_first_name: Chris # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Brown # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 55 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: ny-q8
+  date: 2026-10-01 # optional
+  response: |
+    Wildfire smoke does not stop at international borders, and New York needs a practical plan for protecting residents when air quality reaches unhealthy levels.
+
+    I would support improving real-time air-quality monitoring and public notification systems so schools, families, employers, and outdoor workers receive clear and timely information when conditions become dangerous. We should also help schools, senior centers, and other public facilities improve filtration and HVAC systems where needed and identify community clean-air locations for severe smoke events.
+
+    Particular attention should be given to children, seniors, people with respiratory or heart conditions, and those whose jobs require them to work outdoors. Emergency planning should include clear guidelines for schools, youth sports, outdoor workers, and public events based on air-quality conditions.
+
+    These investments should be targeted and evidence-based. We should continue studying the health effects of repeated wildfire-smoke exposure and adjust our response as better data becomes available. New York cannot control Canadian wildfires, but we can make sure our communities are informed, prepared, and equipped to respond when smoke reaches us.
+
+    KEYWORDS: Air-Quality Monitoring; Emergency Preparedness; Clean-Air Facilities; Evidence-Based Response
+
+- candidate_first_name: Chris # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Brown # used for alphabetical sorting
+  state: ny
+  race: State Senate # must match one of the options!
+  district: 55 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: ny-q9
+  date: 2026-10-01 # optional
+  response: |
+    New York’s hospitals, universities, and research institutions are national leaders in medical and scientific research, and NIH funding supports important work while also contributing significantly to our state’s economy.
+
+    I support responsible federal spending and believe every government program should be accountable for results. However, I would be concerned about significant across-the-board reductions in NIH research funding that could disrupt promising medical research, eliminate skilled jobs, or put New York institutions at a competitive disadvantage.
+
+    I would work with New York’s congressional delegation, universities, hospitals, and research institutions to identify the potential impact of federal changes and advocate for continued investment in high-value, evidence-based research. I would also look for opportunities to strengthen partnerships between universities, healthcare institutions, and New York’s private biotechnology and technology sectors.
+
+    Taxpayers deserve accountability for how research dollars are spent, but fiscal responsibility and supporting scientific innovation do not have to be competing goals. New York should work to remain a national leader in research that produces measurable medical, scientific, and economic benefits.
+    
+    KEYWORDS: Medical Research; Fiscal Accountability; Scientific Innovation; New York Jobs
