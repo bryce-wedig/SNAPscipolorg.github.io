@@ -14,6 +14,7 @@
   candidate_last_name: Dixit
   state: oh
   race: US House of Representatives
+  district: 13
   party: Independent
   question: oh-q2
   primary_candidate: false
@@ -24,6 +25,7 @@
   candidate_last_name: Dixit
   state: oh
   race: US House of Representatives
+  district: 13
   party: Independent
   question: oh-q3
   primary_candidate: false
@@ -34,6 +36,7 @@
   candidate_last_name: Dixit
   state: oh
   race: US House of Representatives
+  district: 13
   party: Independent
   question: oh-q4
   primary_candidate: false
