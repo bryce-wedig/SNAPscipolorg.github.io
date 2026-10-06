@@ -47,17 +47,37 @@ candidate responses from that state. <a href="{{ '/initiatives/stance-on-science
   {%- endfor -%}
 </ul>
 
+<select class="stance-states-select form-control" aria-label="Jump to your state" onchange="if (this.value) window.location.href = this.value;">
+  <option value="">Jump to your state</option>
+  {%- for sp in state_pages -%}
+    <option value="{{ sp.url | relative_url }}">{{ sp.state_name }}</option>
+  {%- endfor -%}
+</select>
+
 <style>
   .stance-states-list {
-    column-count: 3;
+    column-count: 5;
     column-gap: 2rem;
   }
   .stance-states-list li {
     break-inside: avoid;
   }
+  .stance-states-select {
+    display: none;
+    margin-bottom: 1rem;
+    height: auto;
+    padding: 0.6rem 0.75rem;
+    font-size: 1.1rem;
+  }
+  .stance-states-select option {
+    font-size: 1.1rem;
+  }
   @media (max-width: 600px) {
     .stance-states-list {
-      column-count: 1;
+      display: none;
+    }
+    .stance-states-select {
+      display: block;
     }
   }
 </style>
