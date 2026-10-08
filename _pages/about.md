@@ -18,7 +18,7 @@ Check out our [events calendar]({{ site.url }}{{ site.baseurl }}/calendar)!
 ### Mission Statement 
 We are a coalition of early-career scientists dedicated to mobilizing for large-scale initiatives and bridging gaps between scientists, their communities, and the general public. Our mission is to inspire and engage fellow scientists by establishing a peer network, developing and sharing resources, and instigating meaningful change.
 
-## Member Organizations
+## Affiliate Organizations
 
 <div class='jumbotron'>
 {% assign number_printed = 0 %}
