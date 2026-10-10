@@ -99,7 +99,7 @@
   {%- endfor -%}
 
   <p class="snap-events__empty"{% if shown > 0 %} hidden{% endif %}>
-    <b>{{ include.empty_message | default: "No upcoming events right now — check the calendar below, and check back soon!" }}</b>
+    <b>{{ include.empty_message | default: "No upcoming events right now — check back soon!" }}</b>
   </p>
 
   {%- comment -%} Lightbox overlay for flyer images. Enhanced by snap-events-lightbox.js. {%- endcomment -%}
