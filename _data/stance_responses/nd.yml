@@ -221,7 +221,7 @@
 - candidate_first_name: Shelley
   candidate_last_name: Lenz
   state: nd
-  race: State Senate
+  race: State House of Representatives
   district: 37
   party: Democratic
   question: nd-q7
@@ -240,7 +240,7 @@
 - candidate_first_name: Shelley
   candidate_last_name: Lenz
   state: nd
-  race: State Senate
+  race: State House of Representatives
   district: 37
   party: Democratic
   question: nd-q8
@@ -259,7 +259,7 @@
 - candidate_first_name: Shelley
   candidate_last_name: Lenz
   state: nd
-  race: State Senate
+  race: State House of Representatives
   district: 37
   party: Democratic
   question: nd-q9
@@ -278,7 +278,7 @@
 - candidate_first_name: Shelley
   candidate_last_name: Lenz
   state: nd
-  race: State Senate
+  race: State House of Representatives
   district: 37
   party: Democratic
   question: nd-q10
@@ -295,7 +295,7 @@
 - candidate_first_name: Shelley
   candidate_last_name: Lenz
   state: nd
-  race: State Senate
+  race: State House of Representatives
   district: 37
   party: Democratic
   question: nd-q6
@@ -314,7 +314,7 @@
 - candidate_first_name: Shelley
   candidate_last_name: Lenz
   state: nd
-  race: State Senate
+  race: State House of Representatives
   district: 37
   party: Democratic
   question: nd-q4
@@ -333,7 +333,7 @@
 - candidate_first_name: Cara
   candidate_last_name: Cody-Braun
   state: nd
-  race: State Senate
+  race: State House of Representatives
   district: 11
   party: Independent
   question: nd-q7
@@ -346,7 +346,7 @@
 - candidate_first_name: Cara
   candidate_last_name: Cody-Braun
   state: nd
-  race: State Senate
+  race: State House of Representatives
   district: 11
   party: Independent
   question: nd-q8
@@ -359,7 +359,7 @@
 - candidate_first_name: Cara
   candidate_last_name: Cody-Braun
   state: nd
-  race: State Senate
+  race: State House of Representatives
   district: 11
   party: Independent
   question: nd-q9
@@ -372,7 +372,7 @@
 - candidate_first_name: Cara
   candidate_last_name: Cody-Braun
   state: nd
-  race: State Senate
+  race: State House of Representatives
   district: 11
   party: Independent
   question: nd-q10
@@ -385,7 +385,7 @@
 - candidate_first_name: Cara
   candidate_last_name: Cody-Braun
   state: nd
-  race: State Senate
+  race: State House of Representatives
   district: 11
   party: Independent
   question: nd-q6
@@ -398,7 +398,7 @@
 - candidate_first_name: Cara
   candidate_last_name: Cody-Braun
   state: nd
-  race: State Senate
+  race: State House of Representatives
   district: 11
   party: Independent
   question: nd-q4
@@ -489,7 +489,7 @@
 - candidate_first_name: Nicole
   candidate_last_name: Derenne
   state: nd
-  race: State Senate
+  race: State House of Representatives
   district: 42
   party: Democratic
   question: nd-q7
@@ -514,7 +514,7 @@
 - candidate_first_name: Nicole
   candidate_last_name: Derenne
   state: nd
-  race: State Senate
+  race: State House of Representatives
   district: 42
   party: Democratic
   question: nd-q8
@@ -533,7 +533,7 @@
 - candidate_first_name: Nicole
   candidate_last_name: Derenne
   state: nd
-  race: State Senate
+  race: State House of Representatives
   district: 42
   party: Democratic
   question: nd-q9
@@ -550,7 +550,7 @@
 - candidate_first_name: Nicole
   candidate_last_name: Derenne
   state: nd
-  race: State Senate
+  race: State House of Representatives
   district: 42
   party: Democratic
   question: nd-q10
@@ -571,7 +571,7 @@
 - candidate_first_name: Nicole
   candidate_last_name: Derenne
   state: nd
-  race: State Senate
+  race: State House of Representatives
   district: 42
   party: Democratic
   question: nd-q6
@@ -594,7 +594,7 @@
 - candidate_first_name: Nicole
   candidate_last_name: Derenne
   state: nd
-  race: State Senate
+  race: State House of Representatives
   district: 42
   party: Democratic
   question: nd-q4
@@ -609,3 +609,81 @@
     For development, responsible energy development should continue with benefits reaching North Dakotans first and respecting landowners' property rights. I would also fund soil, water, and air monitoring and associated research at UND and NDSU."
 
     KEYWORDS: Conservation, responsible stewardship
+
+- candidate_first_name: John
+  candidate_last_name: Kelly
+  state: nd
+  race: State Senate
+  district: 29
+  party: Democratic
+  question: nd-q7
+  date: 2026-10-07
+  response: |
+    "Local communities should have a say in what is happening in their communities and should know what these projects are and how it will affect the community. I would support a policy where Non-Discloser Agreement (NDA) are not used. Again, I would want to community involvement in any decision made."
+
+    KEYWORDS: Discussion, and debate on policy Fair hiring.
+    
+- candidate_first_name: John
+  candidate_last_name: Kelly
+  state: nd
+  race: State Senate
+  district: 29
+  party: Democratic
+  question: nd-q8
+  date: 2026-10-07
+  response: |
+    "Policies that provide help to family farms and not big out of state corporation. Policies that will help young and beginning farmers start their operation. Scientific research and innovation has to be part of these policies."
+
+    KEYWORDS: Family Farms, help when needed.
+    
+- candidate_first_name: John
+  candidate_last_name: Kelly
+  state: nd
+  race: State Senate
+  district: 29
+  party: Democratic
+  question: nd-q9
+  date: 2026-10-07
+  response: |
+    "Scientific evidence and expert input should be part of any policymaking process. I would do my best to explain to the public what is involved in these policies, how they will impact them and listen to their concerns."
+
+    KEYWORDS: Listen, communicate, and inform
+    
+- candidate_first_name: John
+  candidate_last_name: Kelly
+  state: nd
+  race: State Senate
+  district: 29
+  party: Democratic
+  question: nd-q10
+  date: 2026-10-07
+  response: |
+    "Once again, I will always be open to listening to any group and their concerns and help them find solutions to their problems. I will support all of people of my district even the one who did not vote for me."
+
+    KEYWORDS: Help, Listen and support.
+    
+- candidate_first_name: John
+  candidate_last_name: Kelly
+  state: nd
+  race: State Senate
+  district: 29
+  party: Democratic
+  question: nd-q6
+  date: 2026-10-07
+  response: |
+    "The state government should monitor these projects making sure they are effect ways of collecting, storing CO2 and the impact on the environment is at a minimum."
+
+    KEYWORDS: Effective and responsible. 
+    
+- candidate_first_name: John
+  candidate_last_name: Kelly
+  state: nd
+  race: State Senate
+  district: 29
+  party: Democratic
+  question: nd-q4
+  date: 2026-10-07
+  response: |
+    "These policies need to responsibly and respectfully of the land. Any economic development needs to take into account the effect on the land."
+
+    KEYWORDS: Responsible and respectful. 
