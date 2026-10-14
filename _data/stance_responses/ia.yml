@@ -1,7 +1,53 @@
+- candidate_first_name: Ashley
+  candidate_last_name: Hinson
+  state: ia
+  race: US Senate
+  party: Republican
+  question: ia-q1
+  date: 2026-10-09
+  primary_candidate: false
+  response: |
+    The cancer rate in Iowa is far too high. It is our job to address and reverse this trend so we can keep all Iowans healthy.  
+
+    I support dedicating funding and resources to improve cancer care regardless of Iowans’ zip code or financial status, this is why I worked across the aisle to introduce the CATCH IT Act. This bill would increase federal support for rural healthcare projects involving preventative health equipment to improve rural access to equipment, like mammogram machines, mobile cancer screening units, early detection tools, CT scanners, and diagnostic ultrasound equipment.
+
+    I also supported the $50 billion that we delivered for rural healthcare in the Working Families Tax Cuts - the largest investment in rural healthcare ever - and am committed to protecting this investment. $209 million has already been deployed in rural Iowa, ensuring that rural families, veterans, and seniors can access the high-quality healthcare they deserve. 
+
+    I am also fighting to improve access for cancer patients to innovative treatments by breaking down financial and geographic barriers to participation in clinical trials; again, your zip code should not determine the quality of care you receive.
+
+- candidate_first_name: Ashley
+  candidate_last_name: Hinson
+  state: ia
+  race: US Senate
+  party: Republican
+  question: ia-q2
+  date: 2026-10-09
+  primary_candidate: false
+  response: |
+    As a member of the House Appropriations Committee, I have been an advocate for supporting funding for high-quality research to support lifesaving treatments, screening, and prevention. I look forward to doing the same in future Appropriations cycles, including robust funding for cancer research at the NIH, CDC, and National Cancer Institute. 
+
+    I also recently introduced the Cancer Research Trust Fund Act, which would direct a portion of federal funds collected on imported tobacco products to fund cancer research, with a focus on pediatric and rare cancers. Just this year, that would have amounted to $24 million in funding for cancer research.
+
+    Bringing resources back to Iowa for cancer research will continue to be my mission in the U.S. Senate. 
+
+    I have also raised concerns about proposed changes to the federal financial assistance system that could harm the rural communities I represent and the valuable research coming out of Iowa’s universities.
+
+- candidate_first_name: Ashley
+  candidate_last_name: Hinson
+  state: ia
+  race: US Senate
+  party: Republican
+  question: ia-q3
+  date: 2026-10-09
+  primary_candidate: false
+  response: |
+    One of my top priorities is to be a storyteller for Iowans and give them a seat at the table. Effective policymaking should include input from a wide range of experts, from scientists, public health officials, farmers, working families, business owners, and community leaders. I believe it is critical that policymakers understand the full scope of an issue before enacting blanket policies and federal regulations. It is important to understand the scientific, industry, and all other stakeholder perspectives when legislating on these issues.
+
 - candidate_first_name: Nikhil
   candidate_last_name: Wagle
   state: ia
   race: State Senate
+  district: 47
   party: Democratic
   question: ia-q1
   date: 2026-09-25
@@ -13,6 +59,7 @@
   candidate_last_name: Wagle
   state: ia
   race: State Senate
+  district: 47
   party: Democratic
   question: ia-q2
   date: 2026-09-25
@@ -24,6 +71,7 @@
   candidate_last_name: Wagle
   state: ia
   race: State Senate
+  district: 47
   party: Democratic
   question: ia-q3
   date: 2026-09-25
@@ -35,6 +83,7 @@
   candidate_last_name: Wieck
   state: ia
   race: State Senate
+  district: 41
   party: Democratic
   question: ia-q1
   date: 2026-09-25
@@ -48,6 +97,7 @@
   candidate_last_name: Wieck
   state: ia
   race: State Senate
+  district: 41
   party: Democratic
   question: ia-q2
   date: 2026-09-25
@@ -59,6 +109,7 @@
   candidate_last_name: Wieck
   state: ia
   race: State Senate
+  district: 41
   party: Democratic
   question: ia-q3
   date: 2026-09-25
@@ -72,6 +123,7 @@
   candidate_last_name: Levin
   state: ia
   race: State House of Representatives
+  district: 89
   party: Democratic
   question: ia-q1
   date: 2026-09-25
@@ -85,6 +137,7 @@
   candidate_last_name: Levin
   state: ia
   race: State House of Representatives
+  district: 89
   party: Democratic
   question: ia-q2
   date: 2026-09-25
@@ -98,6 +151,7 @@
   candidate_last_name: Levin
   state: ia
   race: State House of Representatives
+  district: 89
   party: Democratic
   question: ia-q3
   date: 2026-09-25
@@ -111,6 +165,7 @@
   candidate_last_name: Dawson
   state: ia
   race: US House of Representatives
+  district: 4
   party: Democratic
   question: ia-q1
   date: 2026-09-27
@@ -124,6 +179,7 @@
   candidate_last_name: Dawson
   state: ia
   race: US House of Representatives
+  district: 4
   party: Democratic
   question: ia-q2
   date: 2026-09-27
@@ -135,6 +191,7 @@
   candidate_last_name: Dawson
   state: ia
   race: US House of Representatives
+  district: 4
   party: Democratic
   question: ia-q3
   date: 2026-09-27
@@ -146,6 +203,7 @@
   candidate_last_name: English
   state: ia
   race: State House of Representatives
+  district: 66
   party: Democratic
   question: ia-q1
   date: 2026-09-28
@@ -159,6 +217,7 @@
   candidate_last_name: English
   state: ia
   race: State House of Representatives
+  district: 66
   party: Democratic
   question: ia-q2
   date: 2026-09-28
@@ -172,6 +231,7 @@
   candidate_last_name: English
   state: ia
   race: State House of Representatives
+  district: 66
   party: Democratic
   question: ia-q3
   date: 2026-09-28
@@ -185,6 +245,7 @@
   candidate_last_name: Bruening
   state: ia
   race: State House of Representatives
+  district: 64
   party: Democratic
   question: ia-q1
   date: 2026-09-28
@@ -196,6 +257,7 @@
   candidate_last_name: Bruening
   state: ia
   race: State House of Representatives
+  district: 64
   party: Democratic
   question: ia-q2
   date: 2026-09-28
@@ -207,6 +269,7 @@
   candidate_last_name: Bruening
   state: ia
   race: State House of Representatives
+  district: 64
   party: Democratic
   question: ia-q3
   date: 2026-09-28
@@ -218,6 +281,7 @@
   candidate_last_name: Hammel
   state: ia
   race: State House of Representatives
+  district: 33
   party: Republican
   question: ia-q1
   date: 2026-10-01
@@ -231,6 +295,7 @@
   candidate_last_name: Hammel
   state: ia
   race: State House of Representatives
+  district: 33
   party: Republican
   question: ia-q2
   date: 2026-10-01
@@ -250,6 +315,7 @@
   candidate_last_name: Hammel
   state: ia
   race: State House of Representatives
+  district: 33
   party: Republican
   question: ia-q3
   date: 2026-10-01
