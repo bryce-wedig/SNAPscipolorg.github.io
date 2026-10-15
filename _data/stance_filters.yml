@@ -63,6 +63,7 @@ race_ballot_order:
   - State House of Delegates
   - State House of Representatives
   - State Board of Education
+  - State Superintendent of Education
   - University Board of Regents
   - Mayor
   - Local County Races [All]
@@ -112,6 +113,7 @@ parties:
   - Party for Socialism and Liberation
   - Save Our Babies
   - Together for NJ
+  - United Citizens Party  # for SC
   - Unity
   - We the People
   - Write-In
