@@ -6448,4 +6448,57 @@
       Curriculum is set by states and districts, and I won’t claim authority I don’t have. What Congress controls is funding, teacher support, and whether the companies profiting here are asked to contribute to the children who live here."
 
 
+ - candidate_first_name: Erik
+  candidate_last_name: Underwood
+  state: co
+  race: Governor
+  party: Approval Voting
+  question: co-q1
+  date: 2026-10-15
+  primary_candidate: false
+  response: |
+      "I will not govern on gut instinct when evidence exists. I would appoint a Chief Science Advisor to the Governor and stand up a standing Science Advisory Council drawn from Colorado’s own talent, our research universities, Colorado State, CU, and the Colorado School of Mines, the National Renewable Energy Laboratory, and working scientists in public health, water, agriculture, and climate. Before any major rule or budget decision in those areas, I would require a short, public evidence review so Coloradans can see what the data actually says and how it shaped the choice. I would deliberately include early-career scientists, not just senior names, because they are closest to the newest research. I would also protect state scientists and agency experts from political pressure, so their findings reach my desk honestly rather than filtered to fit a predetermined answer. Science will not have a veto in my administration, voters elect the governor, but it will always have a seat at the table and a voice in the record."
       
+ - candidate_first_name: Erik
+  candidate_last_name: Underwood
+  state: co
+  race: Governor
+  party: Approval Voting
+  question: co-q2
+  date: 2026-10-15
+  primary_candidate: false
+  response: |
+      "Agriculture is our top export sector and our water is the limiting factor, so I would treat both as one problem. I would invest in Colorado State University’s agricultural research and extension network to get soil health practices, drought-tolerant crops, and precision irrigation into producers’ hands with real technical support, not just a pamphlet. On water, I would protect prior appropriation and fight buy-and-dry schemes that hollow out rural communities, and I would fund fair compensation for farmers who voluntarily shift to less water-intensive crops or temporarily fallow, so conservation does not fall only on them. I would get Colorado back to the Colorado River negotiating table and refuse any deal where our agriculture is the only water that actually gets cut. I would also oppose new AI data centers drawing millions of gallons while ranchers are asked to give up water. On input costs, I would support cooperative purchasing and in-state production where we can, so fertilizer and supply prices are less hostage to distant markets. Evidence-based farming only works if the farmer can afford to stay on the land."
+
+- candidate_first_name: Erik
+  candidate_last_name: Underwood
+  state: co
+  race: Governor
+  party: Approval Voting
+  question: co-q3
+  date: 2026-10-15
+  primary_candidate: false
+  response: |
+      "I build AI for a living and hold a United States patent in it, so I say this as someone who loves the technology, not someone afraid of it. The benefits are real, jobs and innovation, but the costs land locally, on our water, our power grid, and ordinary utility bills, while the profits leave the state. That balance is currently backwards. I support a statewide moratorium on new AI data center construction until we have real guardrails in place. Those guardrails should require hard limits and transparency on water consumption, a rule that data centers pay their own way so families and small businesses are not subsidizing them through higher rates, a clean energy requirement so we are not firing up fossil capacity to cool server farms, and a genuine voice for the community before a project is sited. Once those protections exist, responsible projects can move forward. Loving a technology does not mean handing it a blank check, and the right balance protects people first and still leaves plenty of room for Colorado to lead in AI."
+
+- candidate_first_name: Erik
+  candidate_last_name: Underwood
+  state: co
+  race: Governor
+  party: Approval Voting
+  question: co-q4
+  date: 2026-10-15
+  primary_candidate: false
+  response: |
+      "A measles outbreak lingering since March 2025 is a preventable failure, and the evidence on how to end it is not in dispute. I support childhood immunization and Colorado’s school vaccination requirements, and I would protect them from being weakened. I would invest in local public health departments, which have been underfunded for years, so they can track cases, respond fast, and run outreach where coverage has dropped. I would expand access in rural and underserved communities, where distance and provider shortages leave people behind, because a vaccine that is hard to reach does not protect anyone. I would counter misinformation not by lecturing, but by funding trusted local messengers, doctors, nurses, and community leaders people already believe. And I would make sure our response is data-driven, targeting resources where the numbers show the gaps. The same approach, fund prevention, follow the evidence, and meet people where they are, applies to the next infectious threat and to chronic disease too. Protecting community health is cheaper and more humane than treating the crisis after it spreads."
+
+- candidate_first_name: Erik
+  candidate_last_name: Underwood
+  state: co
+  race: Governor
+  party: Approval Voting
+  question: co-q5
+  date: 2026-10-15
+  primary_candidate: false
+  response: |
+      "Science literacy is not just about producing scientists, it is about producing citizens who can tell evidence from noise, which our democracy badly needs. I would strengthen Colorado’s K-12 STEM standards around hands-on, inquiry-based learning, because students remember what they do, not what they memorize. I would make computer science and basic AI literacy part of that, since I learned to code as a kid through Big Brothers Big Sisters and it changed my life, and every Colorado child deserves that door open. None of it works without teachers, so I would invest in science teacher training and raise teacher pay so we stop losing them. I would close the equity gap, because right now a kid’s zip code too often decides whether they get a real lab, and I would partner our schools with Colorado’s universities and national labs to bring working scientists into classrooms. The goal is a generation that is comfortable with evidence, curious about how things work, and able to spot a bad claim when they see one." 
