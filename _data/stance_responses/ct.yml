@@ -215,7 +215,7 @@
 - candidate_first_name: Andrew
   candidate_last_name: Rice
   state: ct
-  race: US House # must match one of the options!
+  race: US House of Representatives # must match one of the options!
   district: 3
   party: Independent # must match one of the options!
   question: ct-q1
@@ -227,7 +227,7 @@
 - candidate_first_name: Andrew
   candidate_last_name: Rice
   state: ct
-  race: US House # must match one of the options!
+  race: US House of Representatives # must match one of the options!
   district: 3
   party: Independent # must match one of the options!
   question: ct-q2
@@ -239,7 +239,7 @@
 - candidate_first_name: Andrew
   candidate_last_name: Rice
   state: ct
-  race: US House # must match one of the options!
+  race: US House of Representatives # must match one of the options!
   district: 3
   party: Independent # must match one of the options!
   question: ct-q3
@@ -251,7 +251,7 @@
 - candidate_first_name: Andrew
   candidate_last_name: Rice
   state: ct
-  race: US House # must match one of the options!
+  race: US House of Representatives # must match one of the options!
   district: 3
   party: Independent # must match one of the options!
   question: ct-q4
@@ -263,7 +263,7 @@
 - candidate_first_name: Jonathan
   candidate_last_name: De Barros
   state: ct
-  race: US House # must match one of the options!
+  race: US House of Representatives # must match one of the options!
   district: 5
   party: Independent # must match one of the options!
   question: ct-q1
@@ -281,7 +281,7 @@
 - candidate_first_name: Jonathan
   candidate_last_name: De Barros
   state: ct
-  race: US House # must match one of the options!
+  race: US House of Representatives # must match one of the options!
   district: 5
   party: Independent # must match one of the options!
   question: ct-q2
@@ -300,7 +300,7 @@
 - candidate_first_name: Jonathan
   candidate_last_name: De Barros
   state: ct
-  race: US House # must match one of the options!
+  race: US House of Representatives # must match one of the options!
   district: 5
   party: Independent # must match one of the options!
   question: ct-q3
@@ -318,7 +318,7 @@
 - candidate_first_name: Jonathan
   candidate_last_name: De Barros
   state: ct
-  race: US House # must match one of the options!
+  race: US House of Representatives # must match one of the options!
   district: 5
   party: Independent # must match one of the options!
   question: ct-q4
@@ -334,10 +334,10 @@
 - candidate_first_name: Jonathan
   candidate_last_name: De Barros
   state: ct
-  race: US House # must match one of the options!
+  race: US House of Representatives # must match one of the options!
   district: 5
   party: Independent # must match one of the options!
-  question: ct-q4
+  question: ct-q5
   date: 2026-07-09
   primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
   response: |
