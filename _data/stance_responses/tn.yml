@@ -9,7 +9,7 @@
   did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
   response: |
       I support requiring large data centers to pay the full costs they impose on the grid, rather than shifting those costs to households and small businesses. TVA and state regulators should require transparent forecasts, independent review of major projects, and enforceable plans for new generation, transmission, and backup power before facilities come online. 
-  
+      
       Any on-site turbines should meet air-quality standards, use continuous emissions monitoring, and be subject to public reporting and meaningful enforcement. I also support efficiency and demand-response requirements, water-use disclosures, and community input—while protecting grid reliability and ensuring Tennesseans’ bills remain affordable.
 
 
@@ -943,3 +943,565 @@
   primary_candidate: false
   response: |
       This is more philosophical and the solution is not easy. We need policy makers who are solution and logic minded first. So many of our state problems can be attributed to corporate influence, ethical issues, and a lack of support to funding education. If we end corporate influence and move policy towards creating a better educated populace we can reverse course in Tennessee.
+
+- candidate_first_name: Pamela Jeanine # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Moses # used for alphabetical sorting
+  state: tn
+  race: US House of Representatives # must match one of the options!
+  district: 8 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Independent # must match one of the options!
+  question: tn-q1
+  date: 2026-10-12 # optional
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: |
+      A1: Protecting Tennessee’s Electricity, Water, and Air Quality
+
+      I support an immediate moratorium on new data center development and major expansions until independent, comprehensive research can determine their long-term effects on our electricity bills, water supply, public health, and environment.
+
+      My position is simple: Tennessee’s natural resources must serve the people of Tennessee first, not be sacrificed for the profits of large technology corporations.
+
+      I would support the following policies:
+
+      1. Protect ratepayers. Require data center operators to pay the full cost of the electricity, transmission infrastructure, and grid upgrades their facilities require. Residential customers should not be forced to subsidize these corporations through higher utility bills.
+      2. Protect our water supply. Require independent assessments of water consumption, groundwater and river impacts, drought risks, and future community needs before any project is approved. No data center should be permitted to consume water at a level that threatens residents, farmers, or local businesses. Require water conservation, recycling, and transparent reporting.
+      3. Protect our air quality. I oppose unchecked reliance on gas turbines and other fossil-fuel-powered generation that increases pollution and greenhouse gas emissions. All power sources must meet strict environmental standards, with enforceable emissions limits, independent monitoring, and meaningful penalties for violations.
+      4. Protect our climate and public health. Require a full environmental impact assessment that examines carbon emissions, air pollution, water use, noise, and cumulative impacts on surrounding communities. We must prioritize energy efficiency, responsible renewable energy development, and cleaner power solutions that protect public health without compromising grid reliability.
+      5. Require transparency and public accountability. Before approving new projects, require independent studies, public hearings, and full disclosure of projected electricity and water consumption, pollution levels, and infrastructure costs. Communities deserve a meaningful voice in decisions that affect their health and future.
+
+      My moratorium would remain in place until the necessary research is completed, the public has had an opportunity to participate, and enforceable safeguards are established. I will not support allowing development to move forward simply because a corporation promises jobs or economic growth.
+
+      Innovation should improve our quality of life, not threaten our access to affordable electricity, clean air, and safe water. Tennessee’s people and environment must come first.
+    
+    
+- candidate_first_name: Pamela Jeanine
+  candidate_last_name: Moses
+  state: tn
+  race: US House of Representatives
+  district: 8
+  party: Independent
+  question: tn-q2
+  date: 2026-10-12
+  primary_candidate: false
+  response: |
+      A2: Childhood Vaccination — Protecting Parental Rights, Religious Freedom, and Public Health
+
+      I believe parents should have the right to make informed decisions about their children’s healthcare without government tyranny or unnecessary government interference. I am not against vaccinations. I recognize that vaccines have played an important role in preventing serious diseases, and vaccines such as those for measles, mumps, and rubella have a substantial body of scientific evidence supporting their safety and effectiveness.
+
+      However, I also believe that public trust in medicine must be earned through transparency, honest communication, and respect for individual freedom.
+
+      I support a parent’s right to make informed vaccination decisions based on their child’s medical needs, family circumstances, religious convictions, and cultural beliefs. Public health policies must recognize that Tennessee is home to diverse communities with different traditions, values, and concerns. Those beliefs should be heard and considered rather than dismissed.
+
+      I would support independent scientific research, transparent reporting of vaccine benefits and risks, accessible healthcare consultations, and public education that helps families make informed choices. I would also support reviewing vaccine requirements and exemptions to ensure that policies are medically justified, fairly administered, and respectful of constitutional and parental rights.
+
+      When disease outbreaks occur, the government should prioritize accurate information, voluntary testing, access to treatment, and community-based public health responses. Any restrictions on individual liberty should be carefully justified, proportionate to the actual risk, and subject to appropriate legal safeguards.
+
+      My position is not anti-vaccine; it is pro-choice, pro-parent, and pro-transparency. I believe science should inform our decisions, but government should not silence questions or treat parents as incapable of making responsible decisions for their children. We can protect public health while respecting parental authority, religious freedom, cultural diversity, and individual liberty.
+
+      The goal should be to build trust between families, healthcare professionals, and public health agencies—not to govern through fear or coercion.
+
+
+- candidate_first_name: Pamela Jeanine
+  candidate_last_name: Moses
+  state: tn
+  race: US House of Representatives
+  district: 8
+  party: Independent
+  question: tn-q3
+  date: 2026-10-12
+  primary_candidate: false
+  response: |
+      A3: Flooding and Extreme-Weather Resilience — Investing in Tennessee’s Future
+
+      I believe Tennessee must take a balanced, practical approach to preparing our communities for severe weather. We cannot prevent every storm, but we can invest in stronger infrastructure, improve maintenance, and prepare our communities to recover more quickly.
+
+      First, I support increased investment in our roads, bridges, drainage systems, stormwater infrastructure, and electrical grid. Too much of Tennessee’s infrastructure is aging and deteriorating, particularly in Memphis, where improvements are needed to protect neighborhoods from flooding and ensure reliable public services. We must prioritize repairing crumbling infrastructure before it becomes an even more expensive emergency.
+
+      Second, we must do a better job maintaining our existing utility systems. Overgrown brush, dead trees, and unsafe limbs near power lines can contribute to outages during high winds and ice storms. I support regular vegetation management and responsible tree trimming by utility companies, with appropriate environmental safeguards and professional oversight. Preventive maintenance is often less expensive than restoring power after a disaster.
+
+      Third, I support strengthening flood-control systems, improving stormwater drainage, protecting vulnerable neighborhoods, and ensuring that new development does not unnecessarily increase flood risks. Communities recovering from devastating storms deserve the resources and technical assistance needed to rebuild more safely and resiliently.
+
+      Finally, I would work to improve emergency preparedness, coordinate state and local response efforts, and ensure that seniors, people with disabilities, rural residents, and low-income families are not left behind during prolonged power outages. We must also explore practical ways to strengthen grid reliability and diversify energy resources so Tennessee can better withstand severe weather.
+
+      My approach is simple: invest in our infrastructure, maintain what we already have, and prepare before disaster strikes. Responsible planning and preventive maintenance can save taxpayer money, protect lives, and help Tennessee communities recover faster when severe weather comes.
+
+
+- candidate_first_name: Pamela Jeanine
+  candidate_last_name: Moses
+  state: tn
+  race: US House of Representatives
+  district: 8
+  party: Independent
+  question: tn-q4
+  date: 2026-10-12
+  primary_candidate: false
+  response: |
+      A4: Federal Science Funding — Investing in Research, Innovation, and Opportunity for All
+
+      I believe scientific research is essential to America’s future, and I support responsible federal investment in institutions such as Oak Ridge National Laboratory, the University of Tennessee, Vanderbilt University, and other research institutions throughout our nation.
+
+      My priority would be to ensure that research funding benefits Americans at every level—not just large universities, major laboratories, or corporations. Scientific discovery should create opportunities for rural communities, historically underserved populations, small colleges, local healthcare facilities, farmers, and the next generation of scientists and skilled workers.
+
+      I would support funding for the Department of Energy, the National Institutes of Health, and the National Science Foundation when investments advance medical breakthroughs, improve energy efficiency, strengthen national security, protect our environment, and create good-paying American jobs. I particularly believe we should invest more in finding cures for diseases such as Alzheimer’s and other conditions that place enormous burdens on families and our healthcare system.
+
+      At the same time, federal research dollars must be distributed fairly, spent responsibly, and subject to transparency and accountability. I would support expanding access to grants, apprenticeships, internships, and workforce training so that students and working people across Tennessee can participate in the benefits of scientific advancement.
+
+      Research is good, but it should happen at every level and benefit every community. My goal is to ensure that federal science funding produces meaningful results for everyday Americans, strengthens Tennessee’s economy, and helps us build a healthier, safer, and more prosperous future for everyone.
+
+
+- candidate_first_name: Pamela Jeanine
+  candidate_last_name: Moses
+  state: tn
+  race: US House of Representatives
+  district: 8
+  party: Independent
+  question: tn-q6
+  date: 2026-10-12
+  primary_candidate: false
+  response: |
+      Q5: Trust in Science — Transparency, Integrity, and Accountability
+
+      I believe science is essential to making sound public policy. Science may not have been one of my strongest subjects in school, but I understand its importance in helping us make informed decisions that affect people’s lives, our economy, our environment, and our future. As a policymaker, I do not have to be the scientist in the room, but I do have a responsibility to listen to qualified experts, examine the evidence, ask questions, and make decisions that serve the public interest.
+
+      I believe restoring trust in science begins with honesty, transparency, accuracy, and accountability. Scientists and policymakers must work together, but that relationship must be built on credible research rather than political pressure, corporate interests, or personal agendas.
+
+      First, I believe scientists must communicate their findings in language that everyday people can understand. Research should not be limited to academic journals, university laboratories, or government reports that the average person may never read. When scientific findings affect our drinking water, electricity bills, healthcare, food supply, air quality, or children’s safety, the public deserves clear explanations of what the research shows, what it does not show, and how those findings may affect their lives.
+
+      Second, I believe scientific research must be accurate, independent, and free from manipulation. There should be no room for changing data, concealing unfavorable findings, exaggerating results, or presenting incomplete information simply because someone wants the public to believe a particular narrative. Research should be evaluated on its methods, evidence, and results—not on whether it supports a Republican or Democratic agenda, benefits a corporation, or advances an individual’s political position. Scientists must be free to report their findings honestly, even when those findings are inconvenient to people in power.
+
+      Third, I believe policymakers must be willing to listen to scientists while also asking responsible questions. Trust does not mean blindly accepting every claim made by someone with a scientific title. It means examining the quality of the evidence, understanding the limitations of a study, considering whether independent researchers can reproduce the results, and being willing to correct our decisions when new evidence becomes available. Science is a process of investigation and learning. When evidence changes, responsible policy should be able to change with it.
+
+      Fourth, I support greater collaboration between scientists, policymakers, and the communities affected by government decisions. We should establish opportunities for independent experts to brief lawmakers, hold public forums, explain emerging research, and answer questions directly from residents. Community members should also have opportunities to raise concerns and learn how scientific evidence was used to reach a policy decision. This is particularly important in underserved and rural communities, where people may feel that decisions are made about them without their participation.
+
+      Fifth, I believe federal research funding must be protected from political interference while remaining accountable to taxpayers. Agencies such as the National Institutes of Health, the National Science Foundation, and the Department of Energy should be able to support credible, independent research based on scientific merit and public need. Funding decisions should be transparent, conflicts of interest should be disclosed, and research misconduct should have consequences. At the same time, the public deserves to know how its tax dollars are being spent and what benefits the research is expected to provide.
+
+      Finally, I believe we must teach scientific literacy and critical thinking from an early age. Our children should learn how to distinguish credible evidence from misinformation, understand the difference between a scientific finding and an opinion, and ask thoughtful questions without being discouraged from learning. An informed public is better equipped to participate in democracy and hold elected officials accountable.
+
+      My position is simple: science should inform public policy, evidence should guide our decisions, and integrity must never be sacrificed for political convenience. I respect the work of scientists, but I also believe their research must withstand independent scrutiny. There is no place for deliberate manipulation when people’s health, safety, livelihoods, and futures are at stake.
+
+      As a member of Congress, I would work to build a stronger partnership between the scientific community and the public we serve. We may not all have scientific degrees, but we all deserve access to accurate information and the opportunity to understand the decisions that affect our lives. Restoring trust requires scientists who communicate honestly, policymakers who listen responsibly, and a government that puts truth and the public interest above politics.
+
+- candidate_first_name: Horace  # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Taylor # used for alphabetical sorting
+  state: tn
+  race: US House of Representatives # must match one of the options!
+  district: 8 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Independent # must match one of the options!
+  question: tn-q1
+  date: 2026-10-12 # optional
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: |
+      Policies that I would support would be to ensure the Environmental Protection Agency is properly funded to do their mission. Memphis appears to have become the epicenter of nationwide moratoriums on data centers buildout and operation because of unsafe, unregulated gas turbines operations, grey water disposal, and environmental noise and air pollution as a product or bi-product of operating the turbines. There are existing EPA guidelines that should be followed to ensure the health and safety of the citizens, especially those who residency is in close proximity to data-centers. Data-centers operations require millions of gallons of water to keep equipment operating at a safe, operating temperature; yet one must also be prepared to deal with, per regulations, spent water. Most cars have catalytic converters, surely gas turbines can install regulation-level air filters etc.
+
+- candidate_first_name: Horace
+  candidate_last_name: Taylor
+  state: tn
+  race: US House of Representatives
+  district: 8
+  party: Independent
+  question: tn-q2
+  date: 2026-10-12
+  primary_candidate: false
+  response: |
+      I support the mission of the Department of Health and Human Services. Americans have the Constitutional "Right" to choose whether or not to be vaccinated themselves and as parents and guardians of young children in their care, they also exercise that right. When mass confusion or mass doubt is injected into the society, however, we must be prepared to accept and deal with the consequences thereof. As I recall a staggering, one million or more people in the U.S. were reported to have lost their lives from COVID-19. And yet the very authority person(s) who claim it a hoax, was given the precautionary solution(s). I would support policies that reached down to the local citizen level to make sure the scientific data and information actually reaches those whom may not be social media magnets or consumers of traditional television and radio broadcasts.
+
+- candidate_first_name: Horace
+  candidate_last_name: Taylor
+  state: tn
+  race: US House of Representatives
+  district: 8
+  party: Independent
+  question: tn-q3
+  date: 2026-10-12
+  primary_candidate: false
+  response: |
+      The steps that I would take if I was elected to Congress, I would immediately begin to reestablish the Federal Emergency Management Agency; and push to ensure appropriate funding is provided. Further, as nature will unleash her mighty power and strength, I would push FEMA to conduct contingency planning and exercises so that the Agency will be better prepared to meet the weather-related catastrophe when it strikes. In the instance where only property damage is lost (and no human life nor major injures), the actual event/storm would serve to readjust the Agency's contingency plan. FEMA should return to a more active or progressive stance in that FEMA would dispatch--as best predicted location--forward deployed team to be on the ground when the crisis hits, so that they will be able to immediate get to work assessing, recovering, and restoring the people and area to normalcy.
+
+- candidate_first_name: Horace
+  candidate_last_name: Taylor
+  state: tn
+  race: US House of Representatives
+  district: 8
+  party: Independent
+  question: tn-q4
+  date: 2026-10-12
+  primary_candidate: false
+  response: |
+      Pardon my limited knowledge in this area but as I first read this question, here is where my mind went: Small Modular Reactors, quantum computing, and vertical takeoff and landing cars as priorities. I would prioritize refunding the Department of Education. I could research where these organizations (DOE, NIH, and NSF) receive their fundings but for the blooming young scientists, most will likely begin their formal education and development in a university. To prevent loosing such talent as it blooms, funding structures must be solidly in place, and working optimally. DOE has been in its current state for last than two years, I have no insight or firsthand information as to how well the state (TN) or any other state is managing and dulling out resources to prospective college students post the defunded DOE. 
+
+- candidate_first_name: Horace
+  candidate_last_name: Taylor
+  state: tn
+  race: US House of Representatives
+  district: 8
+  party: Independent
+  question: tn-q6
+  date: 2026-10-12
+  primary_candidate: false
+  response: |
+      More scientifically-minded citizens should run for public office - that would certainly began to breakdown the trust in science gap. Perhaps this is a sign of the times we're living in. Rhetorically, was the public actually kept in the dark while DARPA was growing and thriving in the 20th century? By sign of the time, I mean under this current regime! Or is it the near 80 year human technological mind shift. My undergrad degree is in engineering technology with a concentration on computers and my graduate degree is in information technology, so that would necessarily mean that I may become a valued asset as a policymaker because of my formal education and the professional certifications (CISSP etc.) held within the fields.  
+
+
+- candidate_first_name: Chris # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Campbell # used for alphabetical sorting
+  state: tn
+  race: US House of Representatives # must match one of the options!
+  district: 1 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Independent # must match one of the options!
+  question: tn-q1
+  date: 2026-10-12 # optional
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: |
+      As the only candidate in this race with real world experience with the Clean Air Act and the Clean Water Act, I recognize the Environmental Protection Agency assigns responsibility for compliance to the states.  It is the state that ensures their population is protected from emissions from multiple sources.  As a congressman, I will ensure that the EPA acts to maintain standards that protect Americans from pollutants that create health concerns and negatively impact the environment.  We will trust the science.  I agree with America's  concern about data centers.  Data centers are energy hogs and will push more heat into an already over heated environment. The EPA needs to catch up with threats to the environment.  Policy needs to be established to regulate fugitive heat as a pollutant.
+
+      The antiquated electric grid will have a difficult time managing the additional load from data centers.  Prioritization of electricity should favor everything but a data center.  If load has to be shed, data centers will be first offline.  Residential customers have long been a bane to electrical utilities.  Congress must protect families from increased costs for modernizing the grid and increasing generation capacity.
+
+
+- candidate_first_name: Chris
+  candidate_last_name: Campbell
+  state: tn
+  race: US House of Representatives
+  district: 1 
+  party: Independent
+  question: tn-q2
+  date: 2026-10-12
+  primary_candidate: false
+  response: |
+      The science is sound with respect to vaccinations.  Partisan politics is now jeopardizing our children's wellbeing.  Ideologies cannot replace the research and trials for vaccines and the decades of successful use. Congress must stop political appointments that cater to special interests on both sides of the aisle.  Appointments should prioritize leaders in their respective fields not talking heads.  This continues to erode the trust of Americans in their government and the extensions of it.  As for vaccines, draconian responses such as mandates will only worsen the divide.  From a policy stance, parents choosing to forgo vaccinations on behalf of their children must be required to discuss this with a physician.  After the discussion, physicians must document the parents were informed of the benefits and risks of immunization and non-immunization and their recommendation for that patient.  In the same documentation, parents must acknowledge their decision to accept the risks of waiving immunizations.  
+
+- candidate_first_name: Chris
+  candidate_last_name: Campbell
+  state: tn
+  race: US House of Representatives
+  district: 1 
+  party: Independent
+  question: tn-q3
+  date: 2026-10-12
+  primary_candidate: false
+  response: |
+      The harrowing stories from survivors, first responders and volunteers during and after Helene must be preserved.  The Library of Congress, the Smithsonian and or the National Archives should be in the communities capturing the firsthand accounts.  Dramatic weather patterns are part of a new normal for Americans.  Research for early warning through the National Oceanic and Atmospheric Administration must be funded.  When creeks and streams can increase 20 feet overnight, there are a lot of homes in East Tennessee that are now at risk that have never seen water at their doorsteps.  The Federal Emergency Management Agency must re-evaluate flood zones and frequencies, update maps and communicate changes to communities that are going to be the most impacted.   Electric utilities must restore line maintenance and replace the aging infrastructure with equipment designed to withstand these new normals for extreme weather.  
+
+- candidate_first_name: Chris
+  candidate_last_name: Campbell
+  state: tn
+  race: US House of Representatives
+  district: 1 
+  party: Independent
+  question: tn-q4
+  date: 2026-10-12
+  primary_candidate: false
+  response: |
+      As a classically trained mechanical engineer, I unapologetically support funding research that lowers our energy consumption, improves efficiency of generation and distribution, reduces transportation energy and conserves and protects our water.  Funding for the National Institutes of Health and the National Science Foundation will continue but each needs to improve relevancy to the American people.  With the changes coming with a warmer planet, both agencies should be leading the research of new ways to fight pathogens and protect our food supplies.  Both agencies need to include research outside of Big Pharma and Big Ag.  While they have been instrumental in protecting, healing and feeding us to this point, we need to be considering means other than a new pesticide or a new drug for the next problems that arise.  Both agencies need to be investing in the next generations.  They should be in our classrooms getting our children excited about science and the thrill of discovery and the importance of pursuing knowledge.
+
+- candidate_first_name: Chris
+  candidate_last_name: Campbell
+  state: tn
+  race: US House of Representatives
+  district: 1 
+  party: Independent
+  question: tn-q6
+  date: 2026-10-12
+  primary_candidate: false
+  response: |
+      Necessity has always been the parent of invention.  Science shortens the path to invention.  We are living in a very strange time.  Policymakers are inconsistent in their approach to science due to the highly polarized electorate.  Scientists are often single faceted and struggle with strategic perspectives.  We cannot move forward without policymakers acknowledging the importance of scientific advancements and scientists looking beyond their highly concentrated fields of study.  A perfect example of scientists and policymakers moving America forward was the implementation of the corporate average fuel economy, CAFE, standards.  The policymakers, Congress in this case, recognized the need to decrease the dependency of America on foreign oil.  The initial 18 mpg requirement was regarded as unattainable by the automotive manufactures.  Through research and scientific study, the automotive manufacturers realized that it was achievable.  This same process has now resulted in CAFE standards require a 1% improvement yearly and an average of 34.9 mpg in 2031.  This is how it should always work.  Policymakers should recognize the problem at hand and enlist the scientific world to come up with the solution.  And when policymakers are slow to act, then scientists need to sound alarms.  Not adhering to the science of the generation is akin to ignoring the prophets of the Old Testament.
+
+
+- candidate_first_name: Jeremy Dean  # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Hearn # used for alphabetical sorting
+  state: tn
+  race: US Senate # must match one of the options!
+  party: Independent # must match one of the options!
+  question: tn-q1
+  date: 2026-10-13 # optional
+  county_race: # feel free to remove if not applicable
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: |
+      I oppose data centers. There is currently too much corruption in government and little evidence to support the accuracy or dependability of AI. A stably growing economy and protection of all persons coexisting in society self-proofs government success. Vote for me for Senator at Tennessee. Large data was a part of my professional development as an American Scientist. As a representative of Tennesseans, operating systems, coding, and voice-activation prevents hackers from accessing the error-free computing that I have developed. Increasing utility bills and energy consumption, poor air/sound quality, and contamination of water each confirm that alternatives to data centers should be utilized first. The American Plan, choose one work part local and share the load of responsibility for an equal opportunity to earn sufficiently to never run out of earnings until we never die, is how I plan to address affordability concerns. Providing to abusers of freedom answers for AI allows illegal spies to  reverse-engineer human workers. Additionally, I would support the drafting and enactment of an Equal Earnings Act for all workers. Together, we can return to normalcy that includes computing already paid by tax payers to make life simpler and easier for everyone.
+
+- candidate_first_name: Jeremy Dean
+  candidate_last_name: Hearn
+  state: tn
+  race: US Senate
+  party: Independent
+  question: tn-q2
+  date: 2026-10-13
+  primary_candidate: false
+  response: |
+      With an expertise in Molecular and Cell Biology, Biochemistry, process development, and analysis of big data, I acknowledge the chaos existing both in American currency and society. Insurrection has caused all progress since World War II to be undone. But. It does not have to stay that way! With a win in 2026, WE THE TENNESSEANS can START OVER. In a post-computer era life can be simpler and easier. Even while our government has prevented workers from being the go-to for dependable answers, I have included in my platform a draft of the Human Socioeconomic GR_IT. Public health professionals with experience in the management and development of solutions specific to guidelines and recommendations about vaccines and associated processes exist within The Life Savings Sector and remain the most reliable source of expected currency flow. We need more qualified workers to choose these often overlooked paths. The Triple Delta would take at least two years to calculate, but it provides an accurate non-AI derived metrics for aligning scientific proofs to human-non-limited computer and government coordination. We shall overcome the confusion caused by investors in stocks who should have simply invested into our bright future for workers.
+
+- candidate_first_name: Jeremy Dean
+  candidate_last_name: Hearn
+  state: tn
+  race: US Senate
+  party: Independent
+  question: tn-q3
+  date: 2026-10-13
+  primary_candidate: false
+  response: |
+      As a leader, I know that I must rely on other professionals. The American Plan includes funding for workers that relate directly to this question from several GR-IT socioeconomic sectors including Infrastructure, Energy, and possibly Seasonal. As a Senator, my top priority is to restore freedom to all human workers so that they are able to be protected from abusers of freedom, and to ensure that we have a strong economy that provides timely solutions to challenges that we can expect even ahead of time. The operating budget for 365 days includes all jobs that we expect to be needed. As workers earn from day one and gain confidence sharing the load of good work locally, I hope this translates into a more loving society. I have heard from field experts that it could be advantageous to invest in local workers to place power lines under the surface. I can be responsible for reviewing business plans before, during and after. Only time can tell if The American Plan we create and win together makes life simpler. Knowing is only half of the battle. Surviving forces of nature that challenge more swiftly than a thief in the night relies on teamwork. 
+
+- candidate_first_name: Jeremy Dean
+  candidate_last_name: Hearn
+  state: tn
+  race: US Senate
+  party: Independent
+  question: tn-q4
+  date: 2026-10-13
+  primary_candidate: false
+  response: |
+      The American Plan that I propose covers most in an operating budget for 365 days that goes directly-to-rather-than-around each worker. It was a dream for the framers of The Constitution that a young independent sovereign nation that began in 1776 would have a new product that has already provided $120 trillion non-insurrected USD in a period of twenty-four years. This product, a $10 USD test, is derived from the dirt from my grandfather’s farm and other locations in the USA, and it works here, there and everywhere. To be a world leader that has worked with scientists and others from all over the world to produce this energy-efficient product that does not require a computer nor AI nor a data center to save the lives of workers and our economy, I have been funded mostly from pre- and The President George Bush-era administrations that provided funding from the Departments of Energy, NIH, NSF, DOE, and others; without the funding we would be overridden by rulers with no way out. Despite what pundits might say, it was my passion to pursue an unknown end. It worked out and will continue to be a reliable source in the future.
+
+- candidate_first_name: Jeremy Dean
+  candidate_last_name: Hearn
+  state: tn
+  race: US Senate
+  party: Independent
+  question: tn-q6
+  date: 2026-10-13
+  primary_candidate: false
+  response: |
+      Few know why computers were created: so that Americans nor any humans are enslaved by rulers. Violations of The Constitution had been occurring since 1776 but most insurrectants already died. During our lifetime, insurrection has caused a complete collapse of American Civilization twice-linked in the current linear continuum of time. Our government structure is trinary and requires three minimum non-insurrected branches for quorum. Critical and essential for freedom from corrupt rulers is the performance of essential check-and-balances using our taxes to confirm that if an error occurs, responsibility returns to the electeds. Even a single insurrection causes failure-to-form-quorum. Today, we have a PERFECT IMPERFECT TRINARY confirmed by non-authorized activation of our military. Einstein, a scientist of international origin, provided a tracker to the U.S. government to identify insurrected currency: a deviation from 100 pennies per 1 USD. In 2021, we confirmed insurrection into the DOD occurred between the insurrectant Clinton Administration and the start of the Bush Administration in 2002. The continuous flow of non-scientist insurrectant-legislative workers into the White House since 2008 connects in time to a complete loss of all legal currency from 2011, the attack of scientific proof, and entrapment to inaccurate data centers and AI.
+
+
+- candidate_first_name: Jacob # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Anders # used for alphabetical sorting
+  state: tn
+  race: US House of Representatives # must match one of the options!
+  district: 4 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Independent # must match one of the options!
+  question: tn-q1
+  date: 2026-10-14 # optional
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: |
+      I support strict data center regulations that will limit their pollution output and protect Tennesseans' electricity bills. I believe we need to transition to clean renewable energy such as nuclear, solar and wind.
+
+- candidate_first_name: Jacob
+  candidate_last_name: Anders
+  state: tn
+  race: US House of Representatives
+  district: 4
+  party: Independent
+  question: tn-q2
+  date: 2026-10-14
+  primary_candidate: false
+  response: |
+      I support strict data center regulations that will limit their pollution output and protect Tennesseans' electricity bills. I believe we need to transition to clean renewable energy such as nuclear, solar and wind.
+
+- candidate_first_name: Jacob
+  candidate_last_name: Anders
+  state: tn
+  race: US House of Representatives
+  district: 4
+  party: Independent
+  question: tn-q3
+  date: 2026-10-14
+  primary_candidate: false
+  response: |
+      I support federal investments in grid hardening and modernizing local infrastructure so both rural and urban areas alike can recover quickly and stay powered during these crises.
+  
+- candidate_first_name: Jacob
+  candidate_last_name: Anders
+  state: tn
+  race: US House of Representatives
+  district: 4
+  party: Independent
+  question: tn-q4
+  date: 2026-10-14
+  primary_candidate: false
+  response: |
+      I've always looked up to scientists, and I support robust funding for the Department of Energy, NIH, and NSF. Scientific research drives innovation and creates high paying jobs, and Washington must be a reliable partner in that progress.
+  
+- candidate_first_name: Jacob
+  candidate_last_name: Anders
+  state: tn
+  race: US House of Representatives
+  district: 4
+  party: Independent
+  question: tn-q6
+  date: 2026-10-14
+  primary_candidate: false
+  response: |
+      Scientists and policymakers must abandon jargon and practice radical transparency. Since politicians are often owned by their donors, researchers should engage directly with the public to explain how these funds yield benefits. 
+
+
+
+- candidate_first_name: Catherine Barcel "Barcy" # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Whitson # used for alphabetical sorting
+  state: tn
+  race: US Senate # must match one of the options!
+  party: Independent # must match one of the options!
+  question: tn-q1
+  date: 2026-10-14 # optional
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: |
+      I am for wise assessment of data centers.  My family is totally off the grid with solar energy powering our home and our electric cars. I am all about preserving our environment and have implemented all kinds of things that everyday Tennesseans and the GLOBAL community can do to ensure our world is kept green and clean for us and the next generations.  So, for the areas of TN like Memphis who have been shammed into allowing big energy sucking, tax use sucking and not much good job wise for such communities...we must make the owners pay and they must clean up their act!  SHAME on those who would allow such.  I am a high tech person and I use AI.  HUMANS must take charge of AI.  AI is for humans not humans for AI.  As such, I will advocate wise use of AI and wise promotion of Data Centers using my model of activation.  USE SOLAR, GEOTHERMAL, HYDRO POWERED non fossil fuel energy sources!  I'm doing it...and so can everyone else!  See EPB's Solar Share program as an example!
+
+- candidate_first_name: Catherine Barcel "Barcy"
+  candidate_last_name: Whitson
+  state: tn
+  race: US Senate
+  party: Independent
+  question: tn-q2
+  date: 2026-10-14
+  primary_candidate: false
+  response: |
+      I am on board with vaccinations that are vetted and utilized so well throughout our country.  We should keep Tennessee Department of Health engaged in helping those 80% of TN counties get back on track with life saving vaccinations.  I am alive and healthy due to the wise implementation of vaccinations.  I do know some may not be able to take vaccines but there is advise for such individuals.  The majority can take without a problem.  So, keep the policies on par!  Our world is dependent upon it!
+
+- candidate_first_name: Catherine Barcel "Barcy"
+  candidate_last_name: Whitson
+  state: tn
+  race: US Senate
+  party: Independent
+  question: tn-q3
+  date: 2026-10-14
+  primary_candidate: false
+  response: |
+      I have tons of suggestions to help with this type of thing.  We need to promote solar energy, see EPB's Solar Share.  We can and should promote green energy to ensure that when big weather issues occur, we can ensure that the impacts are kept to a minimum by building wise energy alternatives.  
+ 
+- candidate_first_name: Catherine Barcel "Barcy"
+  candidate_last_name: Whitson
+  state: tn
+  race: US Senate
+  party: Independent
+  question: tn-q4
+  date: 2026-10-14
+  primary_candidate: false
+  response: |
+      I support funding for all of these! They have done great work and have put our state on the map.  When I was VP of National Accounts for CIGNA HEALTHCARE, I managed ORNL and BWXT-Y12's healthcare programs.  I loved doing meetings at the locations in Lenoir.  I have a minor in the Health Sciences and considered being a doctor.  So, the R&R and all the functions of these science departments must be a priority budget wise.
+ 
+- candidate_first_name: Catherine Barcel "Barcy"
+  candidate_last_name: Whitson
+  state: tn
+  race: US Senate
+  party: Independent
+  question: tn-q6
+  date: 2026-10-14
+  primary_candidate: false
+  response: |
+      It's a matter of communication.  We must bring parties together to listen and to see the data and to make informed decisions.  We cannot let conspiracy theories rule our policymaking process.
+
+
+
+- candidate_first_name: Margaret # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Price # used for alphabetical sorting
+  state: tn
+  race: State House of Representatives # must match one of the options!
+  district: 83 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: tn-q1
+  date: 2026-10-15 # optional
+  county_race: # feel free to remove if not applicable
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: |
+      Tennesseans shouldn’t have to pay higher electric bills or see a decline in their health or the health of their environment at the hands of large tech companies. I support a moratorium on new data centers until we have strong protections for our electricity bills, grid reliability, and public health. If these facilities eventually move forward, they must pay their own way, not pass the costs on to working families, and must be self sufficient when it comes to new and emerging technologies that help preserve the environment. We need strict safeguards, investment in renewable energy/ emerging tech, and accountability.I believe real progress will never come at the expense of our environment or our communities.
+    
+- candidate_first_name: Margaret
+  candidate_last_name: Price
+  state: tn
+  race: State House of Representatives
+  district: 83
+  party: Democratic
+  question: tn-q2
+  date: 2026-10-15
+  primary_candidate: false
+  response: |
+      As a mom to a 4 year old, protecting our kids’ health is personal. I support making childhood vaccines more accessible, investing in trusted public-health education, and strengthening outbreak prevention while preserving evidence-based school vaccination requirements and medical exemptions. Every parent deserves reliable information, every child deserves a healthy start, and every community deserves the peace of mind that comes with keeping  each other safe- armed with the right information, autonomy in health is a strength, and I believe our children's lives shouldn't be a place to fight politics over.
+
+- candidate_first_name: Margaret
+  candidate_last_name: Price
+  state: tn
+  race: State House of Representatives
+  district: 83
+  party: Democratic
+  question: tn-q3
+  date: 2026-10-15
+  primary_candidate: false
+  response: |
+      I support real investment in our infrastructure and the future of our infrastructure. That includes burying power lines, modernizing our grid, expanding renewable energy, and improving emergency preparedness communication and strategy. We also have to take care of our local response teams and resources, ensuring that disaster plans are tested and practiced with frequency.
+
+- candidate_first_name: Margaret
+  candidate_last_name: Price
+  state: tn
+  race: State House of Representatives
+  district: 83
+  party: Democratic
+  question: tn-q5
+  date: 2026-10-15
+  primary_candidate: false
+  response: |
+      Having taught English abroad for four years and worked with Japan’s education department, I’ve seen how much our teachers matter to a student’s future. I support competitive teacher pay, targeted incentives for science teachers in rural and high-need districts, and stronger mentorship and classroom resources to help educators stay. I also support revoking the voucher program in order to better invest in our public schools and education systems, including in order to better fund the above.
+
+- candidate_first_name: Margaret
+  candidate_last_name: Price
+  state: tn
+  race: State House of Representatives
+  district: 83
+  party: Democratic
+  question: tn-q6
+  date: 2026-10-15
+  primary_candidate: false
+  response: |
+      Investing in our future means investing in science, and we aren't all experts in everything. As a community, we need to listen to experts in a variety of fields. Science should help every family understand the world around them, and should help them make informed decisions about their future. I support bringing scientists, teachers, and policymakers together to share research in plain language, invest in science education, and protect funding for discoveries that improve our lives.
+
+
+- candidate_first_name: Lauren # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Pinkston # used for alphabetical sorting
+  state: tn
+  race: Governor # must match one of the options!
+  party: Independent # must match one of the options!
+  question: tn-q1
+  date: 2026-10-15 # optional
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: |
+      Tennessee needs to press pause on data center development immediately. No new projects should be approved until the state can convene a working group with representatives from local governments, community-serving nonprofits, utilities and data center companies. This group must create siting standards that ensure data centers do not pollute our water, increase electricity bills or impose unreasonable noise levels on nearby communities. I will work with the Legislature to pass these policies statewide and give local communities the technical assistance they need to enforce these standards. Beyond this, I support the TVA’s decision to charge data centers more for their power usage. This policy must continue so the additional demand does not require rate hikes on other users. 
+
+- candidate_first_name: Lauren
+  candidate_last_name: Pinkston
+  state: tn
+  race: Governor
+  party: Independent
+  question: tn-q2
+  date: 2026-10-15
+  primary_candidate: false
+  response: |
+      Tennessee must provide science-backed information to parents and families about the benefits of vaccination. The ultimate responsibility for vaccinations lies with parents, so the state must use persuasion — instead of coercion — to encourage enough parents to vaccinate their children against measles and other common diseases so that the state maintains herd immunity. The measles outbreak in Pennsylvania is a reminder of what happens when herd immunity drops. As governor, I would work with physicians, medical professionals and vaccine skeptics to develop informational materials that the Department of Health and the Department of Education can use to inform families. 
+
+- candidate_first_name: Lauren
+  candidate_last_name: Pinkston
+  state: tn
+  race: Governor
+  party: Independent
+  question: tn-q3
+  date: 2026-10-15
+  primary_candidate: false
+  response: |
+      There need to be conversations about undergrounding electricity lines in high-risk areas. This can be costly, but it can reduce the chance of outages during a storm or the chance of a downed power line starting a fire in a drought. The state should also require local utility companies to publicly report data on outages and response times so that lawmakers can identify and assist lower performing utilities. The Tennessee Emergency Management Authority should also ensure that communications regarding mutual aid agreements are clear and consistent across counties and between Tennessee and our neighboring states. 
+    
+- candidate_first_name: Lauren
+  candidate_last_name: Pinkston
+  state: tn
+  race: Governor
+  party: Independent
+  question: tn-q5
+  date: 2026-10-15
+  primary_candidate: false
+  response: |
+      Teacher recruitment and retention depends on improving salaries and giving teachers more flexibility in how they adapt to their classroom’s needs. As a former classroom educator, I support reducing benchmark testing as the only measure of student performance so teachers can focus on their students and their expertise is trusted as an authoritative voice in the room. Reducing benchmark testing will also alleviate financial stress at the local school board level, opening up funding for other needed resources. 
+    
+- candidate_first_name: Lauren
+  candidate_last_name: Pinkston
+  state: tn
+  race: Governor
+  party: Independent
+  question: tn-q6
+  date: 2026-10-15
+  primary_candidate: false
+  response: |
+      The most effective way to break down distrust is to create dialogue between people of differing backgrounds. I would convene a panel of scientists, lawmakers, medical professionals, alternative medicine practitioners and skeptics of conventional medicine to have frank discussions. This panel would have the opportunity to weigh in on my health and wellness policy priorities and give recommendations to the General Assembly.  
