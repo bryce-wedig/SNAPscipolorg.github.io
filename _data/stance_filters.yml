@@ -29,6 +29,7 @@ races:
   - Mayor
   - Nebraska Public Power District  # for NE
   - RTD Board of Directors  # for CO
+  - School Board
   - Secretary of State
   - State Assembly
   - State Auditor
@@ -67,6 +68,7 @@ race_ballot_order:
   - State Superintendent of Education
   - University Board of Regents
   - Mayor
+  - School Board
   - Local County Races [All]
   - Nebraska Public Power District
   - RTD Board of Directors
