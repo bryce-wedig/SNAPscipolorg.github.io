@@ -6502,3 +6502,65 @@
   primary_candidate: false
   response: |
       "Science literacy is not just about producing scientists, it is about producing citizens who can tell evidence from noise, which our democracy badly needs. I would strengthen Colorado’s K-12 STEM standards around hands-on, inquiry-based learning, because students remember what they do, not what they memorize. I would make computer science and basic AI literacy part of that, since I learned to code as a kid through Big Brothers Big Sisters and it changed my life, and every Colorado child deserves that door open. None of it works without teachers, so I would invest in science teacher training and raise teacher pay so we stop losing them. I would close the equity gap, because right now a kid’s zip code too often decides whether they get a real lab, and I would partner our schools with Colorado’s universities and national labs to bring working scientists into classrooms. The goal is a generation that is comfortable with evidence, curious about how things work, and able to spot a bad claim when they see one." 
+
+- candidate_first_name: Lisa
+  candidate_last_name: Feret
+  state: co
+  race: State House of Representatives
+  district: 24
+  party: Democratic
+  question: co-q1
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      "I have a team of interns that work in my office to review bills and overlay them with data from vetted sources to ensure we make informed decisions on our votes rather than relying on fact sheets distributed in the halls of the capitol."
+
+- candidate_first_name: Lisa
+  candidate_last_name: Feret
+  state: co
+  race: State House of Representatives
+  district: 24
+  party: Democratic
+  question: co-q2
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      "I will do my best to listen to a range of perspectives on the matter, to include those who are directly working in the industry and fields. I will then take the feedback and research their suggestions against previous policies to determine if this was an effective strategy and had a positive outcome."
+
+- candidate_first_name: Lisa
+  candidate_last_name: Feret
+  state: co
+  race: State House of Representatives
+  district: 24
+  party: Democratic
+  question: co-q3
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      "If I had the answer to this, I would be the most valuable person in the world right now. I don't think anyone has the "right" answer or balance to this question. As this conversation evolves, I believe having a tiered system is helpful so all data centers (and the users) are not bucketed into the same category. Meaning - I do not want to slow innovation for healthcare companies to use AI to help with medical breakthroughs and they should not be treated the same way our neighbors (and my husband!) are using AI every evening for recipe creation."
+
+- candidate_first_name: Lisa
+  candidate_last_name: Feret
+  state: co
+  race: State House of Representatives
+  district: 24
+  party: Democratic
+  question: co-q4
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      "I ran a vaccine bill last year to help with vaccine access to ensure people continue to get vaccines and keep our communities and themselves safe."
+      
+- candidate_first_name: Lisa
+  candidate_last_name: Feret
+  state: co
+  race: State House of Representatives
+  district: 24
+  party: Democratic
+  question: co-q5
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      "Sometimes I feel like we are far behind on all things education related. Perhaps if we funded our schools in abundence, we would be more ahead, educated, and healthy from an individual and community level."
+      
+      
