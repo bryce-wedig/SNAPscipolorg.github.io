@@ -1687,8 +1687,78 @@
   race: US House of Representatives
   district: 3
   party: Legal Marijuana NOW
-  did_not_respond: true
+  question: ne-q1
+  date: 2026-10-15 
+  response: |
+    "I think science is a very important role in agriculture"
+    
+    KEYWORDS: Yes I trust in science 
 
+- candidate_first_name: David
+  candidate_last_name: Else
+  state: ne
+  race: US House of Representatives
+  district: 3
+  party: Legal Marijuana NOW
+  question: ne-q2
+  date: 2026-10-15 
+  response: |
+    "I am against AI and think it has gone too far."
+    
+    KEYWORDS: It is bad for all humans
+
+- candidate_first_name: David
+  candidate_last_name: Else
+  state: ne
+  race: US House of Representatives
+  district: 3
+  party: Legal Marijuana NOW
+  question: ne-q3
+  date: 2026-10-15 
+  response: |
+    "I support all use of ethanol
+
+    Creates jobs and helps consumers with cheaper fuel. And helps farmers get more for their crops"
+    
+- candidate_first_name: David
+  candidate_last_name: Else
+  state: ne
+  race: US House of Representatives
+  district: 3
+  party: Legal Marijuana NOW
+  question: ne-q4
+  date: 2026-10-15 
+  response: |
+    "I agree with this funding
+
+    So we can find more cures for things like cancer"
+
+- candidate_first_name: David
+  candidate_last_name: Else
+  state: ne
+  race: US House of Representatives
+  district: 3
+  party: Legal Marijuana NOW
+  question: ne-q5
+  date: 2026-10-15 
+  response: |
+    "Keep funding cover crops like the Biden administration was doing"
+
+    KEYWORDS: We need to control erosion for safer water 
+
+- candidate_first_name: David
+  candidate_last_name: Else
+  state: ne
+  race: US House of Representatives
+  district: 3
+  party: Legal Marijuana NOW
+  question: ne-q6
+  date: 2026-10-15 
+  response: |
+    "Keep the policies that the Biden administration put out there"
+
+    KEYWORDS: To protect our drinking water
+    
 - candidate_first_name: Jim
   candidate_last_name: Pillen
   state: ne
@@ -1768,10 +1838,10 @@
   date: 2026-10-15
   response: |
     "I have always been an advocate for scientific evidence in public policy. In 2024 I stood
-    with Doctors to protect Nebraskans right to vote on the Protect Our Rights ballot initiative
-    on the ballot. We should always allow experts to put in opinions to help guide relevant
-    legislation to ensure we are governing responsibly. Scientific evidence is just as
-    important as economic and ethical concerns when making decisions."
+with Doctors to protect Nebraskans right to vote on the Protect Our Rights ballot initiative
+on the ballot. We should always allow experts to put in opinions to help guide relevant
+legislation to ensure we are governing responsibly. Scientific evidence is just as
+important as economic and ethical concerns when making decisions."
     
 - candidate_first_name: Josh
   candidate_last_name: Livingston
@@ -1805,8 +1875,8 @@
   date: 2026-10-15
   response: |
     "Nebraska’s public universities give us some of the biggest return on investment that we
-    get in the state. We should continue to do everything in our power to make sure our
-    universities are funded."
+get in the state. We should continue to do everything in our power to make sure our
+universities are funded."
     
 - candidate_first_name: Josh
   candidate_last_name: Livingston
@@ -1818,8 +1888,8 @@
   date: 2026-10-15
   response: |
     "They should play a big role in Nebraska’s economy. We continue to see evidence that 
-    demonstrates these fields are economical for the state and we should continue investing in
-    them. These fields bring revenue, people, and prestige to our state."
+demonstrates these fields are economical for the state and we should continue investing in
+them. These fields bring revenue, people, and prestige to our state."
     
 - candidate_first_name: Josh
   candidate_last_name: Livingston
@@ -1831,7 +1901,7 @@
   date: 2026-10-15
   response: |
     "The best way to see if our policies are having their intended outcomes is to talk to
-    experts in the fields that the policies affect and also look at the practical impact it is having in our community. If subject matter experts are seeing benefits, we should continue to pursue that policy. If these experts give us feedback on something working really well or not well we should take that advice into any decision to revise a policy."
+experts in the fields that the policies affect and also look at the practical impact it is having in our community. If subject matter experts are seeing benefits, we should continue to pursue that policy. If these experts give us feedback on something working really well or not well we should take that advice into any decision to revise a policy."
 
 - candidate_first_name: Erin
   candidate_last_name: Feichtinger
@@ -2221,7 +2291,80 @@
   race: State Board of Education
   district: 5
   party: Non-partisan
-  did_not_respond: true
+  question: ne-q18
+  date: 2026-10-15
+  response: |
+    "Yes. Science standards should reflect the best current evidence. Nebraska already has an established process for reviewing and updating standards. That process should be reviewed, and if it is working well, it should be followed consistently. If it needs improvement, those changes should be made openly, with public input.
+
+    Nebraska science teachers should be central to the work, along with scientists from our universities and the Department of Education’s content specialists. Parents, employers, and community members should also have a voice.
+
+    The content itself should be based on established scientific consensus. A clear, open process gives families confidence that what their children learn is accurate."
+
+    KEYWORDS: Evidence, Collaboration, Teachers, Opportunity, Transparency
+
+- candidate_first_name: Michaela
+  candidate_last_name: Conway
+  state: ne
+  race: State Board of Education
+  district: 5
+  party: Non-partisan
+  question: ne-q19
+  date: 2026-10-15
+  response: |
+    "I love this topic because I love the prospect of growth for our kids and our communities.
+
+    As a local school board member, I see the value of career and technical education and dual credit firsthand. When schools partner with local employers, students get hands-on experience in fields like agriculture, health science, welding, and construction. When they partner with our universities and community colleges, students can earn college credit in high school, saving families money. In both cases, students leave better prepared for what comes next.
+
+    Nonprofits and industry partners can also help fill gaps, especially in rural districts, through equipment, mentorships, and teacher training.
+
+    These partnerships help keep young people in Nebraska. When students build connections with Nebraska employers and colleges in high school, they are more likely to stay here after graduation."
+
+    KEYWORDS: Evidence, Collaboration, Teachers, Opportunity, Transparency
+
+- candidate_first_name: Michaela
+  candidate_last_name: Conway
+  state: ne
+  race: State Board of Education
+  district: 5
+  party: Non-partisan
+  question: ne-q20
+  date: 2026-10-15
+  response: |
+    "The greatest impact comes from investing in teachers. Nebraska faces real shortages in science teaching, especially in rural districts. Keeping good teachers starts with treating them as the professionals they are. Strong recruitment and retention efforts, along with ongoing professional development, make sure every student has a qualified science teacher in the classroom.
+
+    Equipment and lab resources also matter. Students learn science best by doing it, and not every district has the same access to labs, technology, and materials. Closing that gap helps ensure a student’s opportunities don’t depend on their zip code."
+
+    KEYWORDS: Evidence, Collaboration, Teachers, Opportunity, Transparency
+
+- candidate_first_name: Michaela
+  candidate_last_name: Conway
+  state: ne
+  race: State Board of Education
+  district: 5
+  party: Non-partisan
+  question: ne-q21
+  date: 2026-10-15
+  response: |
+    "Every Nebraska student deserves high-quality science instruction, whether they live in a city or a small town. The Nebraska Department of Education already supports schools across the state. Where those efforts are working, I would support them. Where they aren’t, I would review them openly and work with educators, families, and communities to find the best way forward.
+
+    Urban and rural schools have different needs, and good policy should reflect that. For rural schools, that often means help recruiting teachers and access to lab resources. For urban schools, it can mean support for larger classes and a wider range of student needs. Building on what works and fixing what doesn’t is the most practical way to serve students."
+
+    KEYWORDS: Evidence, Collaboration, Teachers, Opportunity, Transparency
+
+- candidate_first_name: Michaela
+  candidate_last_name: Conway
+  state: ne
+  race: State Board of Education
+  district: 5
+  party: Non-partisan
+  question: ne-q22
+  date: 2026-10-15
+  response: |
+    "Growing up, my grandma told me to stop cracking my knuckles or I would get arthritis. She said it hurt her just to hear it. I believed her for years. Then I repeated it to someone as an adult, and they laughed and corrected me. When I looked into it, I learned that studies haven’t found a link between knuckle cracking and arthritis. One doctor even cracked the knuckles on only one hand for more than 60 years and found no difference between his hands.
+
+    It’s a small example, but it stuck with me. Something I accepted as fact came from someone I loved and trusted, not from evidence. That’s how a lot of misunderstandings work. Good science education teaches students to ask questions, look at the evidence, and be willing to change their minds when the facts point somewhere new."
+
+    KEYWORDS: Evidence, Collaboration, Teachers, Opportunity, Transparency
 
 - candidate_first_name: Angie
   candidate_last_name: Eberspacher
