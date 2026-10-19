@@ -9,7 +9,7 @@
   did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
   response: |
       I support requiring large data centers to pay the full costs they impose on the grid, rather than shifting those costs to households and small businesses. TVA and state regulators should require transparent forecasts, independent review of major projects, and enforceable plans for new generation, transmission, and backup power before facilities come online. 
-      
+  
       Any on-site turbines should meet air-quality standards, use continuous emissions monitoring, and be subject to public reporting and meaningful enforcement. I also support efficiency and demand-response requirements, water-use disclosures, and community input—while protecting grid reliability and ensuring Tennesseans’ bills remain affordable.
 
 
@@ -1505,3 +1505,352 @@
   primary_candidate: false
   response: |
       The most effective way to break down distrust is to create dialogue between people of differing backgrounds. I would convene a panel of scientists, lawmakers, medical professionals, alternative medicine practitioners and skeptics of conventional medicine to have frank discussions. This panel would have the opportunity to weigh in on my health and wellness policy priorities and give recommendations to the General Assembly.  
+
+
+- candidate_first_name: Lindsey # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Patrick-Wright # used for alphabetical sorting
+  state: tn
+  race: State Senate # must match one of the options!
+  district: 17 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: tn-q1
+  date: 2026-10-15 # optional
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: |
+      I support requiring data centers to pay the full cost of the electricity and infrastructure they need, rather than passing those costs on to Tennessee families. I would push for stronger grid reliability standards, transparent energy-use reporting, and enforceable demand-response plans. I also support rigorous air-quality standards and emissions monitoring for on-site power generation. Economic development should never come at the expense of our utility bills, public health, or environment.
+
+- candidate_first_name: Lindsey
+  candidate_last_name: Patrick-Wright
+  state: tn
+  race: State Senate
+  district: 17
+  party: Democratic
+  question: tn-q2
+  date: 2026-10-15
+  primary_candidate: false
+  response: |
+      I support expanding access to vaccines through local health departments, school-based clinics, and public education grounded in medical evidence. With only 14 of 93 reporting counties meeting the 95% kindergarten vaccination benchmark in 2024–25, Tennessee needs to take this seriously. I support maintaining school immunization requirements, protecting appropriate medical exemptions, and strengthening public health outreach to prevent outbreaks and protect vulnerable children.
+
+- candidate_first_name: Lindsey
+  candidate_last_name: Patrick-Wright
+  state: tn
+  race: State Senate
+  district: 17
+  party: Democratic
+  question: tn-q3
+  date: 2026-10-15
+  primary_candidate: false
+  response: |
+      Tennessee needs to invest in resilience before the next disaster, not just recovery afterward. I would prioritize hardening vulnerable power infrastructure, expanding backup power for hospitals and emergency shelters, improving stormwater systems, and strengthening emergency communications. I would also push for better coordination among utilities and local emergency managers, with transparent outage updates and plans to protect vulnerable residents. We should use state and federal funding to rebuild stronger, so communities are better prepared for the next storm.
+
+- candidate_first_name: Lindsey
+  candidate_last_name: Patrick-Wright
+  state: tn
+  race: State Senate
+  district: 17
+  party: Democratic
+  question: tn-q5
+  date: 2026-10-15
+  primary_candidate: false
+  response: |
+      I would support targeted salary supplements and student-loan assistance for qualified science teachers in rural and high-need districts, along with paid pathways for science graduates and working professionals to earn teaching credentials. We must also invest in mentoring, lab supplies, and supportive working conditions so teachers want to stay. Every Tennessee student deserves a qualified science teacher, regardless of their ZIP code.
+
+- candidate_first_name: Lindsey
+  candidate_last_name: Patrick-Wright
+  state: tn
+  race: State Senate
+  district: 17
+  party: Democratic
+  question: tn-q6
+  date: 2026-10-15
+  primary_candidate: false
+  response: |
+      As a public librarian for 20 years, I believe access to reliable information is essential to a healthy democracy. Libraries help bridge the gap between complex research and the public by connecting people with credible sources, encouraging curiosity, and creating spaces where people can ask questions without judgment. Scientists and policymakers should work together to communicate research in clear, accessible language, be transparent about what we know and what we are still learning, and partner with trusted community institutions—including public libraries—to reach people where they are. We build trust through openness, education, and listening, not by telling people what to think.
+
+
+
+- candidate_first_name: Julian # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Pierre-Griffin # used for alphabetical sorting
+  state: tn
+  race: State House of Representatives # must match one of the options!
+  district: 65 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: tn-q1
+  date: 2026-10-16 # optional
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: |
+      My answer is pretty simple - Data centers should incur all costs associated with construction, environmental impacts, and impact on potential rate increases on Tennessee families. In places like Memphis, I support tighter air‑quality protections and continuous emissions monitoring. I welcome all tech investments, but not at the expense of increased household burden or negative environmental impact. 
+
+- candidate_first_name: Julian
+  candidate_last_name: Pierre-Griffin
+  state: tn
+  race: State House of Representatives
+  district: 65
+  party: Democratic
+  question: tn-q2
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      We have to protect the children, but respect family rights. We need to ensure that parents receive fact-based information regarding the need for vaccinations, while expanding access to vaccine services, i.e., mobile services and local clinics.
+
+- candidate_first_name: Julian
+  candidate_last_name: Pierre-Griffin
+  state: tn
+  race: State House of Representatives
+  district: 65
+  party: Democratic
+  question: tn-q3
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      Having had family affected by the storm, the first thing I saw was the lack of coordination between the state and county. I'd establish a one stop shop to coordinate relief for families and the restoration of infrastructure. I'd require utility companies to invest in grid upgrades that reduce outage risks during extreme cold and flooding. 
+
+- candidate_first_name: Julian
+  candidate_last_name: Pierre-Griffin
+  state: tn
+  race: State House of Representatives
+  district: 65
+  party: Democratic
+  question: tn-q5
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      Being a degreed, but not practicing chemist, this one hit home. First, I would expand state-funded scholarships, loan forgiveness, and paid residency programs for biology, chemistry, and physics teachers who commit to serving in high‑vacancy districts. Second, I support improving starting pay and providing retention bonuses for teachers specializing in the sciences. Third, I would invest in stronger mentoring and professional‑development programs, including partnerships with universities and industry, to help new science teachers succeed and stay!!!!
+  
+- candidate_first_name: Julian
+  candidate_last_name: Pierre-Griffin
+  state: tn
+  race: State House of Representatives
+  district: 65
+  party: Democratic
+  question: tn-q6
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      In my opinion, distrust in science has become tangled in partisan politics, and it's bs. I believe scientists and legislatures need more direct, consistent communication that’s focused on shared goals rather than political opinions. Again, being degreed in the sciences, the only way to bridge the gap is effective, factual communication from people of know the sciences. Scientists should be involved earlier in the policy process, explaining evidence in clear, accessible language, and policymakers/legislatures should create forums where scientific input is welcomed instead of weaponized!
+  
+
+- candidate_first_name: Michele # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Vetter # used for alphabetical sorting
+  state: tn
+  race: State House of Representatives # must match one of the options!
+  district: 52 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Republican # must match one of the options!
+  question: tn-q1
+  date: 2026-10-16 # optional
+  county_race: # feel free to remove if not applicable
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: |
+      Data centers should be located away from neighborhoods and should have strict environmental guidelines with close monitoring.      
+ 
+- candidate_first_name: Michele
+  candidate_last_name: Vetter
+  state: tn
+  race: State House of Representatives
+  district: 52
+  party: Republican
+  question: tn-q2
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      Parental choice. 
+
+- candidate_first_name: Michele
+  candidate_last_name: Vetter
+  state: tn
+  race: State House of Representatives
+  district: 52
+  party: Republican
+  question: tn-q3
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      We need better structure with OEM and more community knowledge. This state needs to address infrastructure as a priority and should help residents more when disaster strikes.
+
+- candidate_first_name: Michele
+  candidate_last_name: Vetter
+  state: tn
+  race: State House of Representatives
+  district: 52
+  party: Republican
+  question: tn-q5
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      Would not address until after a complete and comprehensive forensic audit of MNPS and other districts.
+
+- candidate_first_name: Michele
+  candidate_last_name: Vetter
+  state: tn
+  race: State House of Representatives
+  district: 52
+  party: Republican
+  question: tn-q6
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      More transparency and working together to achieve better communications and understanding.
+
+
+- candidate_first_name: Sheila # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Mcmahan # used for alphabetical sorting
+  state: tn
+  race: State House of Representatives # must match one of the options!
+  district: 11 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: tn-q1
+  date: 2026-10-16 # optional
+  county_race: # feel free to remove if not applicable
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: |
+      I do not support data centers moving into our rural communities, taking advantage of tax breaks, straining our electric grid, and putting our environment and public health at risk. These facilities can consume enormous amounts of electricity while creating relatively few permanent jobs. I question whether the benefits justify the costs our communities are being asked to bear.
+
+      Protecting electricity bills and grid reliability: I would support strengthening Tennessee’s existing data center infrastructure law, Public Chapter 961, to ensure companies pay the full cost of the additional generation, transmission lines, substations, and other infrastructure they require. I would also introduce an “If You Break It, You Buy It” resolution to advance enforceable protections requiring data centers to demonstrate grid readiness before beginning operations. If inadequate planning leads to grid failures, emergency repairs, or additional infrastructure costs, the company responsible should pay instead of passing those costs on to ratepayers and taxpayers. I would push for independent grid-impact assessments, public reporting, and enforceable reliability requirements before these projects are allowed to proceed.
+
+      Protecting our air and public health: As a respiratory therapist, I know firsthand how respiratory illness affects patients and families. The gas turbines powering data centers in the Memphis area have raised serious concerns about nitrogen oxide emissions, ozone formation, and respiratory health after increasing asthma/COPD exacerbations. I would push for stricter emissions oversight, comprehensive permitting, continuous emissions monitoring where appropriate, public access to emissions data, and meaningful penalties for violations. I would also support closing loopholes that allow large-scale power generation to escape appropriate scrutiny simply because companies characterize their turbines as temporary or emergency equipment. Our environmental standards must protect people, not bend to accommodate corporations.
+
+      Protecting taxpayers and local communities: I would scrutinize tax abatements and other public incentives, require transparent reporting of promised versus actual permanent jobs, and support ending subsidies for projects that fail to deliver their promised public benefits. Rural communities should have meaningful input into land-use decisions, and I would support stronger safeguards against approving projects that threaten local water resources, infrastructure, or quality of life.
+
+      I recognize that Tennessee has already taken steps to address some of these concerns, and I would build on those protections rather than pretend the work is finished. I would also work with TVA, local utilities, environmental regulators, and local governments to ensure that growth does not come at the expense of the people who already call these communities home.
+
+      Our rural communities are not sacrifice zones. I will not support handing corporations tax breaks while our people are left with higher bills, unreliable electricity, polluted air, and the health consequences. If a company wants to operate here, it should be responsible for the costs and consequences of its own operations. Our people and our future must come first.
+    
+- candidate_first_name: Sheila
+  candidate_last_name: Mcmahan
+  state: tn
+  race: State House of Representatives
+  district: 11
+  party: Democratic
+  question: tn-q2
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      As a healthcare professional, I believe vaccines are an important tool for preventing serious illness and protecting public health. At the same time, I believe parents have the ultimate say in making medical decisions for their children.
+
+      I would support specific measures to improve vaccination rates without abandoning that principle. These include expanding access to affordable vaccines through rural health departments and mobile clinics, funding evidence-based public education, strengthening immunization recordkeeping, and ensuring local health departments have the resources to investigate and respond quickly to outbreaks.
+
+      I support maintaining Tennessee’s existing school immunization requirements and legitimate medical exemptions, while respecting parents’ rights under current law. During an outbreak, public health officials should have the resources to provide timely warnings, identify exposures, and implement appropriate measures to protect vulnerable people.
+
+      I would also support publishing accurate county-level vaccination data to identify gaps and direct resources where they are most needed. The goal should be to build trust, remove barriers to vaccination, and prevent avoidable illness and deaths, not shame families or turn healthcare into a political fight.
+
+      As a respiratory therapist, I have seen how serious illness affects patients and their families. I believe we can respect parental decision-making while taking evidence-based steps to protect Tennessee’s children and communities from preventable diseases.
+
+- candidate_first_name: Sheila
+  candidate_last_name: Mcmahan
+  state: tn
+  race: State House of Representatives
+  district: 11
+  party: Democratic
+  question: tn-q3
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      Tropical Storm Helene showed us the devastating consequences of severe weather, and the winter storms that followed reinforced how vulnerable our infrastructure can be. In East Tennessee, preparing for the next disaster means investing in systems that protect lives before a storm hits, not just responding after tragedy strikes.
+
+      First, I would pursue an automated flood-warning system for vulnerable communities. In rural areas of our district, entire communities have little or no cellular service, and falling trees can knock out electricity and this outside communication. Residents cannot depend on phone alerts when they have no signal or power. I would support installing water-level sensors at flood-prone creeks, rivers, and other critical locations that automatically activate outdoor sirens and visual warning signals when water reaches predetermined danger levels. These systems should have battery or solar backup, routine testing, and redundant communication methods so they can operate during power and cellular outages. Warnings should not depend solely on someone noticing rising water and reporting it. Seconds matter when flash flooding strikes.
+
+      Second, I would invest in stronger electrical infrastructure. I would push for targeted undergrounding of power lines where practical, improved vegetation management along utility corridors, stronger poles and equipment, and upgrades to vulnerable substations. I would also support public grid-resilience plans that identify repeat outages, prioritize the most vulnerable communities, and establish clear restoration and accountability measures. We should use available state and federal resilience grants to help local utilities make these improvements.
+
+      Third, I would expand reliable telecommunications in rural communities. I would work to expand broadband and cellular coverage while requiring emergency communications planning to account for outages. Critical facilities, including emergency shelters, hospitals, and emergency management offices, should have backup power and redundant communications. Rural residents should also have access to NOAA Weather Radios and other warning methods that do not depend on a cell phone.
+
+      Fourth, I would strengthen local disaster preparedness and recovery. I would support better coordination between TEMA, local emergency management agencies, utilities, and first responders; regular community evacuation and warning-system drills; and emergency plans for residents who need transportation or assistance evacuating. I would also push for timely recovery funding and rebuilding infrastructure to withstand future storms rather than simply replacing what failed.
+
+      I grew up here, and I know our mountain communities. We cannot prevent every storm, but we can make sure our people have a better chance of surviving one. No community should be left without a warning simply because it lives in a rural hollow with no cell service. Preparing for disaster is not just about repairing roads and restoring electricity. It is about making sure people get home safely to their families.
+       
+- candidate_first_name: Sheila
+  candidate_last_name: Mcmahan
+  state: tn
+  race: State House of Representatives
+  district: 11
+  party: Democratic
+  question: tn-q5
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      Every Tennessee student deserves a qualified teacher, regardless of their ZIP code. I would support targeted scholarships and student loan repayment programs for qualified science teachers who commit to teaching in rural and high-need districts, along with meaningful recruitment and retention bonuses for hard-to-staff subjects like biology, chemistry, and physics.
+
+      I would also support partnerships between Tennessee colleges and local school districts to create affordable pathways into teaching, paid teacher residency programs, competitive salaries, mentorship, and better funding for classroom supplies and science labs. Emergency credentials may fill an immediate vacancy, but they should not become a permanent solution to teacher shortages.
+
+      Finally, I would push for transparent, district-level reporting on vacancies and turnover so state funding reaches the schools that need it most. Our rural students deserve the same opportunities as everyone else, and that starts with investing in the teachers who prepare them for the future.
+
+- candidate_first_name: Sheila
+  candidate_last_name: Mcmahan
+  state: tn
+  race: State House of Representatives
+  district: 11
+  party: Democratic
+  question: tn-q6
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      I believe scientists and policymakers need to work together through open communication, transparency, and public education. I would support partnerships between Tennessee universities, healthcare professionals, and state agencies to make scientific research more accessible and explain how it affects everyday Tennesseans, from public health and clean water to agriculture and severe weather preparedness.
+
+      Policymakers should make decisions based on credible, peer-reviewed evidence while remaining willing to ask questions and hear from the communities affected. Scientists should communicate findings in plain language, acknowledge uncertainty, and make their research accessible to the public.
+
+      As a respiratory therapist, I see how important evidence-based information is to people's health and well-being. Science should not be a partisan issue. We may disagree on policy, but we should be able to agree that decisions affecting people's health, safety, and future should be informed by reliable evidence, not political pressure or misinformation.
+
+
+- candidate_first_name: Sarah Jayne # this is Bryce's cat. titles and middle names go here
+  candidate_last_name: Della Vecchia # used for alphabetical sorting
+  state: tn
+  race: State House of Representatives # must match one of the options!
+  district: 7 # string, e.g. 14 or 14A; feel free to remove if not applicable
+  party: Democratic # must match one of the options!
+  question: tn-q1
+  date: 2026-10-16 # optional
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: |
+      I’m in favor of regulations, no matter how strict, that actually protect our people, our land, and our pocketbook from the harmful effects of data centers. If a company wants to build data centers are to be built in Tennessee, they have to offer proof that the facilities will have no ill affect on air quality, water quality/availability, or power availability. They also have to provide proof that light and noise/vibration pollution will not extend past a designated point from their facility. If regulations are not adhered to, there is clear shutdown authority. Facilities would not be permitted to operate if there are negative impacts like those listed above, and the owning companies would be responsible for full decommissioning and cleanup of the site. Independent studies from groups chosen by municipal or state officials and funded by the company should be conducted beforehand to ensure that the power grid can handle the projected load of the data center. Any necessary improvements to the grid will be paid for by the company before construction of the data center.
+
+- candidate_first_name: Sarah Jayne
+  candidate_last_name: Della Vecchia
+  state: tn
+  race: State House of Representatives
+  district: 7
+  party: Democratic
+  question: tn-q2
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      There is a lot of fear and distrust brought on from misinformation regarding vaccines in Tennessee. Policies like eliminating religious exemption for public school vaccine requirements could backfire, and I think we should focus on restoring trust in science and medicine. I don’t have a concrete policy to do that, but it is something I would like to discuss with field experts, concerned parents, and public health officials.
+
+- candidate_first_name: Sarah Jayne
+  candidate_last_name: Della Vecchia
+  state: tn
+  race: State House of Representatives
+  district: 7
+  party: Democratic
+  question: tn-q3
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      This is not an area that I’m familiar with, and I don’t have a specific answer at this time. 
+
+- candidate_first_name: Sarah Jayne
+  candidate_last_name: Della Vecchia
+  state: tn
+  race: State House of Representatives
+  district: 7
+  party: Democratic
+  question: tn-q5
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      Focusing on increasing teacher pay and supporting teachers across the board would help here, as well as working to ensure science teachers have access to the right equipment for the job. Measures like book bans and giving preference to religion (allowing 10 commandments to be posted in schools, allowing religious activities to take place during the school day, etc) I believe are not conducive to attracting and retaining qualified science teachers. So working on eliminating those issues in public schools is also something I support. 
+
+- candidate_first_name: Sarah Jayne
+  candidate_last_name: Della Vecchia
+  state: tn
+  race: State House of Representatives
+  district: 7
+  party: Democratic
+  question: tn-q6
+  date: 2026-10-16
+  primary_candidate: false
+  response: |
+      As with all things, policymakers should prioritize listening to people on the ground doing work in their fields. Giving scientists opportunity to speak in hearings and committee meetings and meeting with them in smaller groups are a couple of ways that communication could be improved. 
