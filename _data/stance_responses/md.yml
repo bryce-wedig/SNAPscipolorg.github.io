@@ -2261,7 +2261,7 @@
   state: md
   race: State House of Delegates
   district: 16
-  party: Working Class Party
+  party: Working Class
   question: md-q1
   date: 2026-10-10
   response: |
@@ -2272,7 +2272,7 @@
   state: md
   race: State House of Delegates
   district: 16
-  party: Working Class Party
+  party: Working Class
   question: md-q2
   date: 2026-10-10
   response: |
