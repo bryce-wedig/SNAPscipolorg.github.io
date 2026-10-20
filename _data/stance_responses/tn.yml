@@ -199,7 +199,7 @@
   district: 1
   party: Democratic
   question: tn-q6
-  date: 2026-07-04
+  date: 2026-10-05
   primary_candidate: false
   response: |
       Politicians sow distrust in scientific facts in an attempt to gain power over those that they represent while disregarding the societal impacts that distrust causes. This kind of system gaming benefits only the corporations that are beholden to their shareholders and takes more money out of the pockets of working families. When career politicians treat public health, extreme weather planning, and medical research like a culture war, they leave everyday people to pay the price with higher bills and worse health care. We rebuild real trust when we call out these corporate financial motives, demand full transparency for publicly funded research, and demand a government that puts people over profit.
@@ -1215,7 +1215,6 @@
   party: Independent # must match one of the options!
   question: tn-q1
   date: 2026-10-13 # optional
-  county_race: # feel free to remove if not applicable
   primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
   did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
   response: |
@@ -1289,7 +1288,7 @@
   date: 2026-10-14
   primary_candidate: false
   response: |
-      I support strict data center regulations that will limit their pollution output and protect Tennesseans' electricity bills. I believe we need to transition to clean renewable energy such as nuclear, solar and wind.
+      I support educational initiatives to address vaccine hesitancy. Combatting misinformation in the digital age requires us to be proactive.
 
 - candidate_first_name: Jacob
   candidate_last_name: Anders
@@ -1395,7 +1394,6 @@
   party: Democratic # must match one of the options!
   question: tn-q1
   date: 2026-10-15 # optional
-  county_race: # feel free to remove if not applicable
   primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
   did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
   response: |
@@ -1640,7 +1638,6 @@
   party: Republican # must match one of the options!
   question: tn-q1
   date: 2026-10-16 # optional
-  county_race: # feel free to remove if not applicable
   primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
   did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
   response: |
@@ -1703,7 +1700,6 @@
   party: Democratic # must match one of the options!
   question: tn-q1
   date: 2026-10-16 # optional
-  county_race: # feel free to remove if not applicable
   primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
   did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
   response: |
@@ -1854,3 +1850,129 @@
   primary_candidate: false
   response: |
       As with all things, policymakers should prioritize listening to people on the ground doing work in their fields. Giving scientists opportunity to speak in hearings and committee meetings and meeting with them in smaller groups are a couple of ways that communication could be improved. 
+
+
+- candidate_first_name: Bryan
+  candidate_last_name: Langan
+  state: tn
+  race: State Senate
+  district: 7
+  party: Democratic
+  question: tn-q1
+  date: 2026-10-18
+  primary_candidate: false
+  did_not_respond: false
+  response: |
+      I would like to see a moratorium on all data centers in Tennessee. Over half of our waterways are already impaired and it is imperative that we protect our resources for future generations. When elected I will have to work with the GOP, who is pushing data centers. I will do everything I can to curb the growth of them in our state and protect our natural resources. I will also introduce amendments to any bills allowing data centers that will require any costs for energy and infrastructure requirements including water treatment be paid for by the data centers to ensure those costs are not passed on to hardworking Tennesseans and our resources are protected.
+
+- candidate_first_name: Bryan
+  candidate_last_name: Langan
+  state: tn
+  race: State Senate
+  district: 7
+  party: Democratic
+  question: tn-q2
+  date: 2026-10-18
+  primary_candidate: false
+  response: |
+      Work to rebuild the trust of the public and allay their vaccination fears by utilizing outreach and education programs.
+
+- candidate_first_name: Bryan
+  candidate_last_name: Langan
+  state: tn
+  race: State Senate
+  district: 7
+  party: Democratic
+  question: tn-q3
+  date: 2026-10-18
+  primary_candidate: false
+  response: |
+      We must invest in improving and weatherizing our infrastructure, including expanding redundancy in the system. We can also invest in some more basic changes. For example, in many cases, power outages can be prevented just by having buried lines. To properly address this issue, it will take a multi-faceted approach including working to stifle the climate change that is producing these more powerful systems by investing in nuclear and renewable energy to transition Tennessee away from fossil fuels.
+
+- candidate_first_name: Bryan
+  candidate_last_name: Langan
+  state: tn
+  race: State Senate
+  district: 7
+  party: Democratic
+  question: tn-q5
+  date: 2026-10-18
+  primary_candidate: false
+  response: |
+      We are currently last in per student spending and need to build approximately 60 new schools just to handle the current population. On top of that we need to upgrade 157 of our current schools. I would also end the voucher program to put that money back in to our public schools and increase our overall investment in education. I will work to upgrade our schools to prepare our students for the future. I will also fight to increase our teachers pay to a wage that is competitive with any state and allows them to live in their district. I would also consider housing incentives to help recruit and retain teachers in rural and high-need districts.
+
+- candidate_first_name: Bryan
+  candidate_last_name: Langan
+  state: tn
+  race: State Senate
+  district: 7
+  party: Democratic
+  question: tn-q6
+  date: 2026-10-18
+  primary_candidate: false
+  response: |
+      I believe we must work to earn their trust by showing up and fighting for the people. We must work to make a difference in their day to day lives and also utilize education and outreach programs to inform the public of the benefits of scientific research in their communities to help bridge the gap, build trust and reduce potential fears.
+
+
+- candidate_first_name: Mandy
+  candidate_last_name: Cook
+  state: tn
+  race: State House of Representatives
+  district: 45
+  party: Democratic
+  question: tn-q1
+  date: 2026-10-19
+  primary_candidate: false
+  did_not_respond: false
+  response: |
+      The onus should be on tech companies to use closed-loop systems that do not pass costs and environmental downsides on to Tennessee residents and wildlife. We need regulations on the federal, state, and local level to ensure that data centers are implementing renewable energy sources whenever possible and using emissions capture and filtration wherever there is significant risk of air pollution to surrounding communities or ecosystems. 
+
+      We also need a broad  set of overhauls of our energy systems in general, like those introduced in the Inflation Reduction Act. As is being illustrated by our current economy, we need to be relying on energy sources that aren't subject to wild fluctuations due to fuel costs.
+
+- candidate_first_name: Mandy
+  candidate_last_name: Cook
+  state: tn
+  race: State House of Representatives
+  district: 45
+  party: Democratic
+  question: tn-q2
+  date: 2026-10-19
+  primary_candidate: false
+  response: |
+      Herd immunity does not work if we allow too much room for exceptions. Too much leeway has been given to parents claiming religious exemptions. In an era of vaccine misinformation, it is unfortunately necessary to end religious exemptions for childhood vaccinations who will be attended schools in a group setting. Medical exemptions would remain intact.
+
+- candidate_first_name: Mandy
+  candidate_last_name: Cook
+  state: tn
+  race: State House of Representatives
+  district: 45
+  party: Democratic
+  question: tn-q3
+  date: 2026-10-19
+  primary_candidate: false
+  response: |
+      As a baseline measure, we have to agree that Tennessee's weather is becoming more extreme as climate change continues to impact our weather systems. We need to ensure proper funding and infrastructure for response to flooding, ice, tornadoes, and snowfall. We need to update dams and levies in the state and work with neighboring states to ensure our waterways can handle increased rainfall. In addition, we need to make sure emergency response crews have the tools, staff, and equipment they need to address needs and communicate. We also need to update our electrical grid by providing incentives for renewables.
+
+- candidate_first_name: Mandy
+  candidate_last_name: Cook
+  state: tn
+  race: State House of Representatives
+  district: 45
+  party: Democratic
+  question: tn-q5
+  date: 2026-10-19
+  primary_candidate: false
+  response: |
+      Phase out school vouchers. The cost of school vouchers in our state is approaching over $1billion dollars. We should be using that money to properly fund our public schools and pay our school teachers a living salary. We cannot keep teachers if we don't pay them enough to live on.
+
+- candidate_first_name: Mandy
+  candidate_last_name: Cook
+  state: tn
+  race: State House of Representatives
+  district: 45
+  party: Democratic
+  question: tn-q6
+  date: 2026-10-19
+  primary_candidate: false
+  response: |
+      Policymakers, state legislators included, should not be adding fuel to the fire here. Science has become politicized, which puts the health of our people and planet at risk. State legislators should not be furthering this divide by introducing bills such as Bulso's House Joint Resolution 28 that would further decrease the rate of vaccination in TN. Legislators should be relying on the scientific community to provide the state with the data we need to make good policy that preserves the physical welfare of our state and our local ecosystems. Scientists and policymakers can collaborate to educate the public in ways that are fun and engaging to repair public trust in science.
