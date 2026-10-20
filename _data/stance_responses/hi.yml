@@ -1,5 +1,5 @@
-- #candidate1_response
-  candidate_first_name: Stevie Kathryn # titles and middle names go here
+#candidate1_response
+- candidate_first_name: Stevie Kathryn # titles and middle names go here
   candidate_last_name: Chung # used for alphabetical sorting
   state: hi
   race: Local County Races [All] # must match one of the options!
@@ -11,7 +11,7 @@
     
     KEYWORDS: clean, free, renewable, ethical, sustainable
   
-  candidate_first_name: Stevie Kathryn # titles and middle names go here
+- candidate_first_name: Stevie Kathryn # titles and middle names go here
   candidate_last_name: Chung # used for alphabetical sorting
   state: hi
   race: Local County Races [All] # must match one of the options!
@@ -23,7 +23,7 @@
     
     KEYWORDS: the climate is underprotected and deeply threatened
 
-  candidate_first_name: Stevie Kathryn # titles and middle names go here
+- candidate_first_name: Stevie Kathryn # titles and middle names go here
   candidate_last_name: Chung # used for alphabetical sorting
   state: hi
   race: Local County Races [All] # must match one of the options!
@@ -35,7 +35,7 @@
     
     KEYWORDS: gross, invasive, volatile, anti human, unethical, Bond Villain type bs, full of semiprecious metals
   
-  candidate_first_name: Stevie Kathryn # titles and middle names go here
+- candidate_first_name: Stevie Kathryn # titles and middle names go here
   candidate_last_name: Chung # used for alphabetical sorting
   state: hi
   race: Local County Races [All] # must match one of the options!
@@ -47,7 +47,7 @@
     
     KEYWORDS: Fun, explorative, educational, and a vital tool to teach
   
-  candidate_first_name: Stevie Kathryn # titles and middle names go here
+- candidate_first_name: Stevie Kathryn # titles and middle names go here
   candidate_last_name: Chung # used for alphabetical sorting
   state: hi
   race: Local County Races [All] # must match one of the options!
@@ -59,8 +59,8 @@
     
     KEYWORDS: necessary
   
-- #candidate2_response
-  candidate_first_name: Amy
+#candidate2_response
+- candidate_first_name: Amy
   candidate_last_name: Perruso
   state: hi
   race: State House of Representatives
@@ -72,7 +72,7 @@
     
     KEYWORDS: N/A
   
-  candidate_first_name: Amy
+- candidate_first_name: Amy
   candidate_last_name: Perruso
   state: hi
   race: State House of Representatives
@@ -84,7 +84,7 @@
 
     KEYWORDS: N/A
 
-  candidate_first_name: Amy
+- candidate_first_name: Amy
   candidate_last_name: Perruso
   state: hi
   race: State House of Representatives
@@ -96,7 +96,7 @@
 
     KEYWORDS: N/A
 
-  candidate_first_name: Amy
+- candidate_first_name: Amy
   candidate_last_name: Perruso
   state: hi
   race: State House of Representatives
@@ -108,7 +108,7 @@
 
     KEYWORDS: N/A
 
-  candidate_first_name: Amy
+- candidate_first_name: Amy
   candidate_last_name: Perruso
   state: hi
   race: State House of Representatives
@@ -120,8 +120,8 @@
 
     KEYWORDS: N/A
 
-- #candidate3_response
-  candidate_first_name: Daniel
+#candidate3_response
+- candidate_first_name: Daniel
   candidate_last_name: de Garcia
   state: hi
   race: State House of Representatives
@@ -133,7 +133,7 @@
     
     KEYWORDS: Research, development, state-of-the-art, technology, national security, health equity
 
-  candidate_first_name: Daniel
+- candidate_first_name: Daniel
   candidate_last_name: de Garcia
   state: hi
   race: State House of Representatives
@@ -145,7 +145,7 @@
 
     KEYWORDS: One Health, resilence, sustainability, stewardship, technology
 
-  candidate_first_name: Daniel
+- candidate_first_name: Daniel
   candidate_last_name: de Garcia
   state: hi
   race: State House of Representatives
@@ -157,7 +157,7 @@
 
     KEYWORDS: Informed consent, environmental impact
 
-  candidate_first_name: Daniel
+- candidate_first_name: Daniel
   candidate_last_name: de Garcia
   state: hi
   race: State House of Representatives
@@ -169,7 +169,7 @@
 
     KEYWORDS: Science, technology, grants, cooperative agreements, NSF, DARPA
 
-  candidate_first_name: Daniel
+- candidate_first_name: Daniel
   candidate_last_name: de Garcia
   state: hi
   race: State House of Representatives
@@ -181,8 +181,8 @@
 
     KEYWORDS: Transit oriented development, energy independence, sustainability, health equity, built environment, active transport
 
-- #candidate4_response
-  candidate_first_name: Misty
+#candidate4_response
+- candidate_first_name: Misty
   candidate_last_name: Cluett
   state: hi
   race: State House of Representatives
@@ -198,7 +198,7 @@
 
     KEYWORDS: Safe power, reliable power, affordable power
 
-  candidate_first_name: Misty
+- candidate_first_name: Misty
   candidate_last_name: Cluett
   state: hi
   race: State House of Representatives
@@ -216,7 +216,7 @@
     
     KEYWORDS: better maintanence
   
-  candidate_first_name: Misty
+- candidate_first_name: Misty
   candidate_last_name: Cluett
   state: hi
   race: State House of Representatives
@@ -230,7 +230,7 @@
     
     KEYWORDS: No AI Data Centers in Hawaii
 
-  candidate_first_name: Misty
+- candidate_first_name: Misty
   candidate_last_name: Cluett
   state: hi
   race: State House of Representatives
@@ -250,7 +250,7 @@
     
     KEYWORDS: school choice
 
-  candidate_first_name: Misty
+- candidate_first_name: Misty
   candidate_last_name: Cluett
   state: hi
   race: State House of Representatives
@@ -266,8 +266,8 @@
     
     KEYWORDS: Superferry, Need competition
 
-- #candidate5_response
-  candidate_first_name: Frederick
+#candidate5_response
+- candidate_first_name: Frederick
   candidate_last_name: Fogel
   state: hi
   race: State Senate
@@ -279,7 +279,7 @@
 
     KEYWORDS: It's a good thing.
 
-  candidate_first_name: Frederick
+- candidate_first_name: Frederick
   candidate_last_name: Fogel
   state: hi
   race: State Senate
@@ -291,7 +291,7 @@
 
     KEYWORDS: The only constant is change.
 
-  candidate_first_name: Frederick
+- candidate_first_name: Frederick
   candidate_last_name: Fogel
   state: hi
   race: State Senate
@@ -303,7 +303,7 @@
   
     KEYWORDS: It depends on what the counties what to do.
 
-  candidate_first_name: Frederick
+- candidate_first_name: Frederick
   candidate_last_name: Fogel
   state: hi
   race: State Senate
@@ -315,7 +315,7 @@
 
     KEYWORDS: Definitely a good thing.
 
-  candidate_first_name: Frederick
+- candidate_first_name: Frederick
   candidate_last_name: Fogel
   state: hi
   race: State Senate
@@ -327,8 +327,8 @@
 
     KEYWORDS: Definitely a good thing.
 
-- #candidate6_response
-  candidate_first_name: Max
+#candidate6_response
+- candidate_first_name: Max
   candidate_last_name: Hanna
   state: hi
   race: State Senate
@@ -340,7 +340,7 @@
 
     KEYWORDS: Nuclear 
 
-  candidate_first_name: Max
+- candidate_first_name: Max
   candidate_last_name: Hanna
   state: hi
   race: State Senate
@@ -352,7 +352,7 @@
 
     KEYWORDS: N/A
   
-  candidate_first_name: Max
+- candidate_first_name: Max
   candidate_last_name: Hanna
   state: hi
   race: State Senate
@@ -364,7 +364,7 @@
     
     KEYWORDS: N/A
 
-  candidate_first_name: Max
+- candidate_first_name: Max
   candidate_last_name: Hanna
   state: hi
   race: State Senate
@@ -376,7 +376,7 @@
 
     KEYWORDS: N/A
 
-  candidate_first_name: Max
+- candidate_first_name: Max
   candidate_last_name: Hanna
   state: hi
   race: State Senate
@@ -388,8 +388,8 @@
 
     KEYWORDS: N/A
     
-- #candidate7_response
-  candidate_first_name: Jonathan
+#candidate7_response
+- candidate_first_name: Jonathan
   candidate_last_name: Kennealy
   state: hi
   race: State House of Representatives
@@ -401,7 +401,7 @@
 
     KEYWORDS: N/A
 
-  candidate_first_name: Jonathan
+- candidate_first_name: Jonathan
   candidate_last_name: Kennealy
   state: hi
   race: State House of Representatives
@@ -413,7 +413,7 @@
 
     KEYWORDS: N/A
   
-  candidate_first_name: Jonathan
+- candidate_first_name: Jonathan
   candidate_last_name: Kennealy
   state: hi
   race: State House of Representatives
@@ -425,7 +425,7 @@
 
     KEYWORDS: N/A
 
-  candidate_first_name: Jonathan
+- candidate_first_name: Jonathan
   candidate_last_name: Kennealy
   state: hi
   race: State House of Representatives
@@ -437,7 +437,7 @@
     
     KEYWORDS: N/A
 
-  candidate_first_name: Jonathan
+- candidate_first_name: Jonathan
   candidate_last_name: Kennealy
   state: hi
   race: State House of Representatives
@@ -449,8 +449,8 @@
 
     KEYWORDS: N/A
     
-- #candidate8_response
-  candidate_first_name: Dan
+#candidate8_response
+- candidate_first_name: Dan
   candidate_last_name: Johnson
   state: hi
   race: State House of Representatives
@@ -464,7 +464,7 @@
     
     KEYWORDS: Sustainability, resilience, and firm energy sources
 
-  candidate_first_name: Dan
+- candidate_first_name: Dan
   candidate_last_name: Johnson
   state: hi
   race: State House of Representatives
@@ -476,7 +476,7 @@
 
     KEYWORDS: Grid hardening, planning ahead, forward thinking
 
-  candidate_first_name: Dan
+- candidate_first_name: Dan
   candidate_last_name: Johnson
   state: hi
   race: State House of Representatives
@@ -488,7 +488,7 @@
 
     KEYWORDS: Community involvement, licensing, and regulation
 
-  candidate_first_name: Dan
+- candidate_first_name: Dan
   candidate_last_name: Johnson
   state: hi
   race: State House of Representatives
@@ -500,7 +500,7 @@
   
     KEYWORDS: STEM, robotics, pre-employment opportunities
 
-  candidate_first_name: Dan
+- candidate_first_name: Dan
   candidate_last_name: Johnson
   state: hi
   race: State House of Representatives
@@ -512,8 +512,8 @@
 
     KEYWORDS: Superferry 
     
-- #candidate9_response
-  candidate_first_name: Jesse
+#candidate9_response
+- candidate_first_name: Jesse
   candidate_last_name: Fitzgerald
   state: hi
   race: State House of Representatives
@@ -525,7 +525,7 @@
   
     KEYWORDS: Sustainable, clean, jobs, Green Revolution.
 
-  candidate_first_name: Jesse
+- candidate_first_name: Jesse
   candidate_last_name: Fitzgerald
   state: hi
   race: State House of Representatives
@@ -537,7 +537,7 @@
 
     KEYWORDS: Proactive, self sustainable, insurance reform.
 
-  candidate_first_name: Jesse
+- candidate_first_name: Jesse
   candidate_last_name: Fitzgerald
   state: hi
   race: State House of Representatives
@@ -549,7 +549,7 @@
     
     KEYWORDS: Ban
 
-  candidate_first_name: Jesse
+- candidate_first_name: Jesse
   candidate_last_name: Fitzgerald
   state: hi
   race: State House of Representatives
@@ -561,7 +561,7 @@
     
     KEYWORDS: Public school investment, a well rounded curriculum 
 
-  candidate_first_name: Jesse
+- candidate_first_name: Jesse
   candidate_last_name: Fitzgerald
   state: hi
   race: State House of Representatives
@@ -573,8 +573,8 @@
   
     KEYWORDS: Mass transit, future, equity, free, sustainable
     
-- #candidate10_response
-  candidate_first_name: Gary
+#candidate10_response
+- candidate_first_name: Gary
   candidate_last_name: Cordery
   state: hi
   race: Governor
@@ -586,7 +586,7 @@
   
     KEYWORDS: N/A
 
-  candidate_first_name: Gary
+- candidate_first_name: Gary
   candidate_last_name: Cordery
   state: hi
   race: Governor
@@ -599,7 +599,7 @@
 
     KEYWORDS: N/A
   
-  candidate_first_name: Gary
+- candidate_first_name: Gary
   candidate_last_name: Cordery
   state: hi
   race: Governor
@@ -611,7 +611,7 @@
     
     KEYWORDS: N/A
 
-  candidate_first_name: Gary
+- candidate_first_name: Gary
   candidate_last_name: Cordery
   state: hi
   race: Governor
@@ -623,7 +623,7 @@
     
     KEYWORDS: N/A
 
-  candidate_first_name: Gary
+- candidate_first_name: Gary
   candidate_last_name: Cordery
   state: hi
   race: Governor
@@ -635,8 +635,8 @@
 
     KEYWORDS: N/A
     
-- #candidate11_response
-  candidate_first_name: Adriel
+#candidate11_response
+- candidate_first_name: Adriel
   candidate_last_name: Lam
   state: hi
   race: US House of Representatives
@@ -648,7 +648,7 @@
     
     KEYWORDS: efficient, economical, affordable
 
-  candidate_first_name: Adriel
+- candidate_first_name: Adriel
   candidate_last_name: Lam
   state: hi
   race: US House of Representatives
@@ -660,7 +660,7 @@
     
     KEYWORDS: invest, adapt, improve
   
-  candidate_first_name: Adriel
+- candidate_first_name: Adriel
   candidate_last_name: Lam
   state: hi
   race: US House of Representatives
@@ -672,7 +672,7 @@
     
     KEYWORDS: partnership, community investment
 
-  candidate_first_name: Adriel
+- candidate_first_name: Adriel
   candidate_last_name: Lam
   state: hi
   race: US House of Representatives
@@ -684,7 +684,7 @@
     
     KEYWORDS: independence, priorities
 
-  candidate_first_name: Adriel
+- candidate_first_name: Adriel
   candidate_last_name: Lam
   state: hi
   race: US House of Representatives
@@ -696,8 +696,8 @@
     
     KEYWORDS: human factors, greater benefit
     
-- #candidate12_response
-  candidate_first_name: Jordan
+#candidate12_response
+- candidate_first_name: Jordan
   candidate_last_name: Conley
   state: hi
   race: US House of Representatives
@@ -709,7 +709,7 @@
 
     KEYWORDS: Education geothermal tidal
 
-  candidate_first_name: Jordan
+- candidate_first_name: Jordan
   candidate_last_name: Conley
   state: hi
   race: US House of Representatives
@@ -721,7 +721,7 @@
 
     KEYWORDS: Education community projects 
 
-  candidate_first_name: Jordan
+- candidate_first_name: Jordan
   candidate_last_name: Conley
   state: hi
   race: US House of Representatives
@@ -733,7 +733,7 @@
   
     KEYWORDS: Far underground distance 
 
-  candidate_first_name: Jordan
+- candidate_first_name: Jordan
   candidate_last_name: Conley
   state: hi
   race: US House of Representatives
@@ -745,7 +745,7 @@
     
     KEYWORDS: Rural contact outreach 
 
-  candidate_first_name: Jordan
+- candidate_first_name: Jordan
   candidate_last_name: Conley
   state: hi
   race: US House of Representatives
@@ -757,8 +757,8 @@
 
     KEYWORDS: Technical outsource important 
     
-- #candidate13_response
-  candidate_first_name: Anthony Makana
+#candidate13_response
+- candidate_first_name: Anthony Makana
   candidate_last_name: Paris
   state: hi
   race: State House of Representatives
@@ -776,7 +776,7 @@
   
     KEYWORDS: Energy Independence, Affordability, Accountability, and Community Resilience
 
-  candidate_first_name: Anthony Makana
+- candidate_first_name: Anthony Makana
   candidate_last_name: Paris
   state: hi
   race: State House of Representatives
@@ -798,7 +798,7 @@
 
     KEYWORDS: Preparedness, Resilience, Equity, and Stewardship
   
-  candidate_first_name: Anthony Makana
+- candidate_first_name: Anthony Makana
   candidate_last_name: Paris
   state: hi
   race: State House of Representatives
@@ -816,7 +816,7 @@
   
     KEYWORDS: Community Benefit, Clean Energy, Water Stewardship, Accountability
 
-  candidate_first_name: Anthony Makana
+- candidate_first_name: Anthony Makana
   candidate_last_name: Paris
   state: hi
   race: State House of Representatives
@@ -836,7 +836,7 @@
   
     KEYWORDS: Teacher Support, Equitable Access, Hands-On STEM, Student Success
 
-  candidate_first_name: Anthony Makana
+- candidate_first_name: Anthony Makana
   candidate_last_name: Paris
   state: hi
   race: State House of Representatives
@@ -856,8 +856,8 @@
   
     KEYWORDS: Accessibility, Affordability, Accountability, Community empowerment
     
-- #candidate14_response
-  candidate_first_name: Mike
+#candidate14_response
+- candidate_first_name: Mike
   candidate_last_name: Coots
   state: hi
   race: Local County Races [All]
@@ -870,7 +870,7 @@
     
     KEYWORDS: Sustainability, renewable, affordable, less oil more alternatives. 
 
-  candidate_first_name: Mike
+- candidate_first_name: Mike
   candidate_last_name: Coots
   state: hi
   race: Local County Races [All]
@@ -883,7 +883,7 @@
     
     KEYWORDS: Not day to day weather, but long term trends.
 
-  candidate_first_name: Mike
+- candidate_first_name: Mike
   candidate_last_name: Coots
   state: hi
   race: Local County Races [All]
@@ -896,7 +896,7 @@
     
     KEYWORDS: N/A
 
-  candidate_first_name: Mike
+- candidate_first_name: Mike
   candidate_last_name: Coots
   state: hi
   race: Local County Races [All]
@@ -909,7 +909,7 @@
     
     KEYWORDS: N/A
     
-  candidate_first_name: Mike
+- candidate_first_name: Mike
   candidate_last_name: Coots
   state: hi
   race: Local County Races [All]
@@ -922,8 +922,8 @@
     
     KEYWORDS: N/A
     
-- #candidate15_response
-  candidate_first_name: Tamara
+#candidate15_response
+- candidate_first_name: Tamara
   candidate_last_name: Paltin
   state: hi
   race: Local County Races [All]
@@ -936,7 +936,7 @@
   
     KEYWORDS: Safety, Accountability, Transparency, Efficiency
 
-  candidate_first_name: Tamara
+- candidate_first_name: Tamara
   candidate_last_name: Paltin
   state: hi
   race: Local County Races [All]
@@ -949,7 +949,7 @@
 
     KEYWORDS: Retreat, Conservation, Resilience, Food Security
   
-  candidate_first_name: Tamara
+- candidate_first_name: Tamara
   candidate_last_name: Paltin
   state: hi
   race: Local County Races [All]
@@ -962,7 +962,7 @@
 
     KEYWORDS: Water/Energy comsumption, pollution, ethicalqqq
 
-  candidate_first_name: Tamara
+- candidate_first_name: Tamara
   candidate_last_name: Paltin
   state: hi
   race: Local County Races [All]
@@ -975,7 +975,7 @@
 
     KEYWORDS: Training, Workshops, Incentives
 
-  candidate_first_name: Tamara
+- candidate_first_name: Tamara
   candidate_last_name: Paltin
   state: hi
   race: Local County Races [All]
@@ -987,5 +987,3 @@
     "I support fare free public transit for buses especially in areas that have traffic congestion. Currently we are working on a county sponsored inter county ferry to help with transportation between Maui, Molokai and Lānaʻi. I support trying hybrid or electric buses with a designated way to get rid of those batteries at the end of their useful life and trying algae or seaweed based jet fuel. In more rural communities I support micro-transit or rideshare type programs."
 
     KEYWORDS: Fare-free, micro-transit, ride share
-
-    
