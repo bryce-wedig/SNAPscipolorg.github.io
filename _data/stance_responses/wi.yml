@@ -2089,3 +2089,216 @@
   primary_candidate: false
   response: |
     I will promote a continued investment in research and innovation within state agencies, at the Universities of Wisconsin and with partners. I recognize the importance of research, science, and data for progress. As County Executive, I developed collaborative partnerships between the County and the Medical College of Wisconsin to map regional mental health trends, pre- and post-COVID-19 suicide demographics, and data modeling for public health. It is essential for us to put science first for health care communication and availability of health care resources throughout Wisconsin. I will also advocate on behalf of Wisconsin with the federal delegation to fight for increased federal investment in research and undo the damaging recent decisions to defund critical research programs at NIH and other agencies.
+
+- candidate_first_name: Alex
+  candidate_last_name: Corrigan
+  state: wi
+  race: State Assembly
+  district: 55
+  party: Democratic
+  question: wi-q1
+  date: 2026-10-10
+  primary_candidate: false
+  response: |
+    I think AI is here to stay, and I’d much rather see data centers developed responsibly here in Wisconsin than pushed somewhere else where there may be fewer protections for workers, communities, and natural resources.
+
+    But I also think we’re moving awfully fast without having some pretty important conversations first.
+
+    I’d support a temporary pause on new large-scale data center approvals while we bring together a bipartisan group of stakeholders to figure out what regulations make sense for Wisconsin. That conversation needs to include farmers, local governments, utility companies, labor organizations, environmental experts, technology companies, and the people who actually live in the communities being considered for these projects.
+
+    We need to answer some basic questions. How much water will these facilities use? Who pays for the additional electrical infrastructure? What happens if a project closes after we’ve built infrastructure around it? What are the actual long-term economic benefits to the surrounding community? And how do we make sure local residents have a meaningful voice before decisions are made?
+
+    I actually think this is part of a much bigger conversation about land use in Wisconsin. We’re seeing enormous proposals for data centers, solar farms, and other high-megawatt energy projects, sometimes involving thousands of acres. I understand the need for new energy infrastructure, but I also understand why farmers and rural residents are worried about losing productive agricultural land and changing the character of their communities.
+
+    I’d like to explore creating a nonpartisan land use commission to look at these issues more comprehensively. Rather than evaluating every project in isolation, we should be thinking about where development makes sense, how projects interact with one another, and how we preserve Wisconsin’s agricultural heritage while meeting our future energy needs. I don’t think we should expect individual town boards to figure out all of these complicated issues on their own.
+
+    As for AI itself, I generally support a human-in-the-loop standard, particularly when decisions affect people’s rights, healthcare, education, employment, or access to services. AI can be an incredibly useful tool, but it shouldn’t replace human judgment or accountability. People should know when AI is being used to make consequential decisions about their lives, and they should have a meaningful opportunity to challenge those decisions.
+
+    My thinking has been informed by conversations with farmers and residents facing proposed energy developments, as well as research on data center energy demands, utility regulation, and AI governance.
+
+    The International Energy Agency’s 2025 Energy and AI report documents the rapid growth in data center electricity demand and the particular challenges that concentrated demand can create for local power grids.
+
+    The Wisconsin Public Service Commission’s own explanation of its regulatory authority makes clear that while it regulates the utilities serving data centers, it does not directly regulate the construction or operation of the data centers themselves. That distinction raises important questions about whether our current regulatory framework is adequate.
+
+    And the National Institute of Standards and Technology’s AI Risk Management Framework provides useful guidance on transparency, accountability, and the importance of meaningful human oversight.
+
+    I don’t think we have to choose between embracing new technology and protecting the things that make Wisconsin worth living in. But we do need to be thoughtful about how we move forward, and that means doing the work before we’ve committed ourselves to decisions we can’t easily undo.
+
+    Sources:
+
+    International Energy Agency, Energy and AI (2025):
+    https://www.iea.org/reports/energy-and-ai
+
+    Wisconsin Public Service Commission, The Public Service Commission and Data Centers:
+    https://psc.wi.gov/Pages/AboutPSC/The-Public-Service-Commission-and-Data-Centers-.aspx
+
+    National Institute of Standards and Technology, AI Risk Management Framework:
+    https://www.nist.gov/itl/ai-risk-management-framework
+
+    KEYWORDS: Human oversight, responsible AI development, data center regulation, temporary moratorium, nonpartisan land use commission, preservation of heritage farmland, local control, environmental protection, water conservation, utility ratepayer protections, transparency, public accountability, stakeholder collaboration.
+
+- candidate_first_name: Alex
+  candidate_last_name: Corrigan
+  state: wi
+  race: State Assembly
+  district: 55
+  party: Democratic
+  question: wi-q2
+  date: 2026-10-10
+  primary_candidate: false
+  response: |
+    I think we need to recommit to the Wisconsin Idea, and that starts with properly funding our university system instead of continuing to bleed it of resources.
+
+    The whole premise of the Wisconsin Idea is that the work of our universities should benefit people throughout the state, not just those sitting in classrooms. That means research that helps farmers improve yields and protect soil and water, innovation that helps Wisconsin businesses develop new products, and educational opportunities that prepare people for jobs in growing industries.
+
+    And historically, having a strong university system has been one of Wisconsin’s greatest economic development tools. Employers want to locate where they can find an educated, skilled workforce, where research and innovation are happening, and where their employees and their families have access to good educational opportunities. When we underfund our universities, we’re not just making it harder for students to get an education. We’re undermining one of the things that has helped attract and retain businesses in Wisconsin for generations.
+
+    We already have tremendous resources through our universities, technical colleges, UW Extension, agricultural communities, and manufacturing workforce. I’d like to see us do a better job of connecting them.
+
+    That means restoring stable funding for the Universities of Wisconsin, supporting agricultural and biotechnology research, and expanding partnerships between universities, technical colleges, employers, and labor organizations. I’d also support more paid apprenticeships, internships, and opportunities for workers to gain new skills without taking on significant debt.
+
+    I particularly want to see us reinvest in UW Extension and applied research partnerships that help small and midsize farms access new technologies. That could mean finding new uses for agricultural byproducts, improving soil and water conservation, developing renewable energy technologies that work alongside existing agricultural operations, or helping farmers adopt innovations that might otherwise only be available to large corporations.
+
+    And I want to make sure we’re not just investing in research and hoping the economic benefits eventually trickle down. We should be helping Wisconsin businesses turn that research into products and good-paying jobs here, with opportunities for workers and communities across the state to benefit.
+
+    We have a long history of bringing education, agriculture, industry, and government together to solve practical problems. That’s what the Wisconsin Idea was built around, and I think it’s time we started treating it as a priority again.
+
+    KEYWORDS: Wisconsin Idea, university funding, higher education investment, workforce development, employer attraction and retention, economic development, UW Extension, agricultural innovation, biotechnology, applied research, technical colleges, apprenticeships, skilled workforce, public-private partnerships, small and midsize farms, renewable energy, agricultural sustainability, research commercialization, good-paying jobs.
+
+- candidate_first_name: Alex
+  candidate_last_name: Corrigan
+  state: wi
+  race: State Assembly
+  district: 55
+  party: Democratic
+  question: wi-q3
+  date: 2026-10-10
+  primary_candidate: false
+  response: |
+    As a school board member, I’ve spent a lot of time looking at how Wisconsin funds public education, and I think we need to start by fixing the funding formula itself.
+
+    For starters, we need to tie school revenue limits back to inflation. Schools face the same rising costs as everyone else, but their ability to keep up with those costs is determined by decisions made in Madison. That makes long-term planning incredibly difficult, particularly for smaller rural districts that don’t have much flexibility to begin with.
+
+    We also need to fund special education as a sum-sufficient appropriation, meaning the state commits to covering the actual costs of providing legally required services rather than setting an arbitrary reimbursement amount. Right now, when the state doesn’t fully reimburse districts for special education, that money has to come out of the same budget that pays for everything else. That affects every student, not just those receiving special education services.
+
+    We need to pay teachers adequately, too. We can’t expect to recruit and retain talented educators, particularly in rural communities, if we’re not willing to compensate them competitively. I’d support restoring stronger state investment in educator compensation and expanding pathways into teaching, including paid student teaching and programs that help people enter the profession without taking on enormous debt.
+
+    I also think it’s time for a serious reevaluation of Wisconsin’s voucher program. We need to look at its long-term fiscal impact, transparency, accountability, and whether we’re creating parallel education systems that compete for limited public resources without being held to the same standards. If we’re spending public dollars, taxpayers deserve to know what outcomes those dollars are producing.
+
+    I’d also like us to consider funding full-day 4K at 1.0 FTE. We know how important early childhood education is, and full-day programming can make a tremendous difference for working families. But districts need adequate funding to provide it without shifting costs onto their K-12 programs.
+
+    For rural schools specifically, I’d support greater investment in shared services, broadband access, STEM programming, and partnerships with technical colleges and universities. A student’s ZIP code shouldn’t determine whether they have access to advanced coursework, career exploration, or hands-on science and technology education.
+
+    And we don’t have to start from scratch. Wisconsin’s Blue Ribbon Commission on School Funding spent considerable time gathering input from educators, administrators, and communities across the state. I’d like to see us revisit those recommendations and have a serious conversation about implementing them.
+
+    Ultimately, I think we need to stop treating public education funding as a series of temporary fixes and referendums. Our schools need a predictable, sustainable funding system that allows them to plan for the future, retain good educators, and give every child access to a quality education, regardless of where they live.
+
+    KEYWORDS: Public education funding, inflation-adjusted revenue limits, sum-sufficient special education funding, teacher pay, educator recruitment and retention, voucher program reform, fiscal accountability, full-day 4K funding at 1.0 FTE, rural school funding, declining enrollment, sparsity aid, STEM education, broadband access, technical college partnerships, Blue Ribbon Commission on School Funding, equitable education access, sustainable school funding, property tax relief.
+
+- candidate_first_name: Alex
+  candidate_last_name: Corrigan
+  state: wi
+  race: State Assembly
+  district: 55
+  party: Democratic
+  question: wi-q5
+  date: 2026-10-10
+  primary_candidate: false
+  response: |
+    I trust experts. I think one of the more troubling developments in recent years has been the idea that someone’s personal opinion should carry the same weight as the conclusions of people who have spent their careers studying a subject.
+
+    That doesn’t mean scientists are infallible or that we shouldn’t ask questions. In fact, questioning, testing, and revising our understanding as new information becomes available is the whole point of science.
+
+    If elected, I would regularly consult scientists and subject matter experts when evaluating legislation, particularly in areas like public health, environmental protection, agriculture, energy, and emerging technologies. I’d look to peer-reviewed research, our universities, professional organizations, and the people doing this work in Wisconsin.
+
+    I also think it’s important to bring scientists into the conversation early, while policies are being developed, rather than asking them to weigh in after decisions have effectively already been made.
+
+    Ultimately, I don’t expect to be the smartest person in every room, and I don’t think legislators should pretend to be. My responsibility is to ask good questions, listen to people who know more than I do, understand the evidence, and use that information to make thoughtful decisions.
+
+    KEYWORDS: Trust your neighborhood scientist, evidence-based policymaking, scientific expertise, peer-reviewed research, informed decision-making, respect for experts, scientific literacy, public trust in science, curiosity, intellectual humility, science-informed legislation.
+
+- candidate_first_name: Alex
+  candidate_last_name: Corrigan
+  state: wi
+  race: State Assembly
+  district: 55
+  party: Democratic
+  question: wi-q7
+  date: 2026-10-10
+  primary_candidate: false
+  response: |
+    My husband is an ICU physician, and I watched COVID nearly break him. I saw what happens when our healthcare system is overwhelmed, when medical professionals are pushed beyond their limits, and when public health becomes a political battleground instead of something we’re all working together to protect.
+
+    I think the first thing we need to do is adequately fund public health. So much of what public health departments do is preventative, which means that when they’re doing their jobs well, most people don’t even notice. Disease surveillance, vaccination programs, public education, and outbreak response all require trained professionals and consistent funding. We can’t keep expecting local health departments to do more with less and then scramble to find resources when a crisis arrives.
+
+    I’d also support policies that promote vaccination and improve access to primary care. One of the most important relationships a person can have when it comes to their health is with a trusted primary care provider. That’s where people can ask questions, address concerns about vaccines, and receive preventative care before problems become emergencies. We should be looking at ways to incentivize primary care practice, particularly in rural and underserved communities, and investing in the workforce needed to staff those practices.
+
+    I also think we need to take healthcare workforce retention seriously. We lost an enormous amount of institutional knowledge and experienced medical professionals during and after COVID. We need policies that address burnout, support healthcare workers, and make it financially sustainable to practice medicine and provide nursing care in Wisconsin.
+
+    For diseases like avian influenza, we also need strong coordination between public health officials, veterinarians, agricultural producers, and state agencies. Wisconsin’s agricultural economy depends on our ability to identify and respond to outbreaks quickly, and farmers need access to reliable information and resources without being treated as though they’re the problem.
+
+    Finally, I think we need to rebuild trust in public health. That means communicating clearly, being transparent about what we know and what we don’t, and allowing scientific evidence to guide our decisions. It also means recognizing that people are more likely to listen when they have relationships with healthcare professionals they trust.
+
+    Public health shouldn’t be something we only invest in during an emergency. It’s part of the infrastructure that keeps our communities functioning, and we need to start treating it that way.
+
+    KEYWORDS: Fund public health, prevention over crisis response, trust your neighborhood scientist, vaccination access and education, primary care investment, rural healthcare access, healthcare workforce recruitment and retention, physician and nurse burnout, infectious disease surveillance, outbreak preparedness, avian influenza, agricultural biosecurity, One Health approach, public health transparency, evidence-based policy, rebuilding public trust, supporting frontline healthcare workers.
+
+- candidate_first_name: Andy
+  candidate_last_name: Wuethrich
+  state: wi
+  race: State Assembly
+  district: 86
+  party: Democratic
+  question: wi-q1
+  date: 2026-10-12
+  primary_candidate: false
+  response: |
+    Ai is a tool mankind can use to solve some of our most daunting problems, and for that purpose and that purpose alone should we foster the use of this technology.  The use of AI to subvert intellectual property, decrease personal intellectual endeavors and make us as a society less intelligent is both inappropriate and malicious for society as a whole.
+
+- candidate_first_name: Andy
+  candidate_last_name: Wuethrich
+  state: wi
+  race: State Assembly
+  district: 86
+  party: Democratic
+  question: wi-q2
+  date: 2026-10-12
+  primary_candidate: false
+  response: |
+    I support increasing the funding for higher education as a whole and will work toward making higher education in the U.S cost free for those who want to attend universities and Tech schools.
+
+- candidate_first_name: Andy
+  candidate_last_name: Wuethrich
+  state: wi
+  race: State Assembly
+  district: 86
+  party: Democratic
+  question: wi-q3
+  date: 2026-10-12
+  primary_candidate: false
+  response: |
+    Education funding increases are one of the core beliefs I hold.  We need to eliminate Act 10 and the Private School Voucher System and their negative effect on our education system.
+
+- candidate_first_name: Andy
+  candidate_last_name: Wuethrich
+  state: wi
+  race: State Assembly
+  district: 86
+  party: Democratic
+  question: wi-q5
+  date: 2026-10-12
+  primary_candidate: false
+  response: |
+    I intend to use Scientific experts 100% of the time.  
+
+- candidate_first_name: Andy
+  candidate_last_name: Wuethrich
+  state: wi
+  race: State Assembly
+  district: 86 
+  party: Democratic
+  question: wi-q7
+  date: 2026-10-12
+  primary_candidate: false
+  response: |
+    We need to return to the vaccination requirements and beliefs that existed 20 years ago and that have been upended by misinformation and false research.  
