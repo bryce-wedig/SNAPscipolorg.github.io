@@ -1801,7 +1801,7 @@
   candidate_last_name: Hildebrand
   state: wa
   race: US House of Representatives
-   primary_candidate: true
+  primary_candidate: true
   district: 1
   party: Democratic
   question: wa-q2
@@ -1817,7 +1817,7 @@
   candidate_last_name: Hildebrand
   state: wa
   race: US House of Representatives
-   primary_candidate: true
+  primary_candidate: true
   district: 1
   party: Democratic
   question: wa-q3
@@ -1831,7 +1831,7 @@
   candidate_last_name: Hildebrand
   state: wa
   race: US House of Representatives
-   primary_candidate: true
+  primary_candidate: true
   district: 1
   party: Democratic
   question: wa-q4
@@ -1843,7 +1843,7 @@
   candidate_last_name: Hildebrand
   state: wa
   race: US House of Representatives
-   primary_candidate: true
+  primary_candidate: true
   district: 1
   party: Democratic
   question: wa-q5
