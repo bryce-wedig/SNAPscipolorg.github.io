@@ -106,16 +106,16 @@
   response: |
     I would work to overturn recent laws that led to the degradation of our streams. Enforce regulations to protect streams from acid mine drainage. Pass stricter laws that would lead to better water quality and require industries to release cleaner water than they are doing now. Require DEP to hire more inspectors.
 
-- candidate_first_name: Wes
-  candidate_last_name: Holden
-  state: wv
-  race: State Senate
-  district: 17
-  party: Democratic
-  question: wv-q5
-  date: 2026-10-21
-  primary_candidate: false
-  response: |
+# - candidate_first_name: Wes
+#   candidate_last_name: Holden
+#   state: wv
+#   race: State Senate
+#   district: 17
+#   party: Democratic
+#   question: wv-q5
+#   date: 2026-10-21
+#   primary_candidate: false
+#   response: |
 
 - candidate_first_name: Rachel
   candidate_last_name: Hawkins-Church
@@ -165,16 +165,16 @@
   response: |
     The companies responsible for the pollution must be held responsible for the cleanup.
 
-- candidate_first_name: Rachel
-  candidate_last_name: Hawkins-Church
-  state: wv
-  race: State House of Representatives
-  district: 35
-  party: Democratic
-  question: wv-q5
-  date: 2026-10-21
-  primary_candidate: false
-  response: |
+# - candidate_first_name: Rachel
+#   candidate_last_name: Hawkins-Church
+#   state: wv
+#   race: State House of Representatives
+#   district: 35
+#   party: Democratic
+#   question: wv-q5
+#   date: 2026-10-21
+#   primary_candidate: false
+#   response: |
 
 - candidate_first_name: Mira
   candidate_last_name: Tanner-Hughes
