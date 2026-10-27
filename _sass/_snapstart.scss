@@ -33,24 +33,6 @@
     }
   }
 
-  // Stands in until a logo file is added to images/snapstart/round_1_logos/.
-  &__placeholder {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 90px;
-    padding: 0 0.5rem;
-    border-radius: 4px;
-    background: rgba($snap-light-blue, 0.12);
-    color: $snap-light-blue;
-    font-weight: 700;
-    font-size: 1.1rem;
-    letter-spacing: 0.03em;
-    text-align: center;
-    overflow-wrap: anywhere;
-  }
-
   &__body {
     flex: 1 1 auto;
     min-width: 0;
@@ -94,6 +76,9 @@
       flex-basis: auto;
       max-width: 100%;
       width: 100%;
+
+      // No logo yet: don't leave a gap above the stacked text.
+      &:empty { display: none; }
     }
   }
 }

@@ -7,8 +7,7 @@
 
   Logos are picked up by file name: an entry with `round: 1` and `id: coas`
   shows `images/snapstart/round_1_logos/coas.<png|svg|jpg|webp|...>` as soon as
-  that file exists. Until then the card shows a placeholder tile with the
-  entry's `short` label (or its initials).
+  that file exists. Until then the logo area is left blank.
 {%- endcomment -%}
 {%- assign awardees = site.data.snapstart -%}
 {%- assign round_filter = include.round | append: "" -%}
@@ -27,17 +26,10 @@
         {%- assign logo_path = f.path -%}
       {%- endif -%}
     {%- endfor -%}
-    {%- if org.short -%}
-      {%- assign badge = org.short -%}
-    {%- else -%}
-      {%- assign badge = org.name | slice: 0, 3 -%}
-    {%- endif -%}
     <div class="snapstart-awardee">
       <div class="snapstart-awardee__logo">
         {%- if logo_path != "" -%}
           <img src="{{ site.url }}{{ site.baseurl }}{{ logo_path }}" alt="{{ org.name | escape }} logo" loading="lazy">
-        {%- else -%}
-          <span class="snapstart-awardee__placeholder" aria-hidden="true">{{ badge | escape }}</span>
         {%- endif -%}
       </div>
       <div class="snapstart-awardee__body">
