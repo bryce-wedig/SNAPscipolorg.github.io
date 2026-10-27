@@ -1310,3 +1310,61 @@
     legitimate scientific disagreements.
     We must also recognize that questioning scientific conclusions is not necessarily rejecting science. Honest questioning, testing, and correcting mistakes are essential parts of the scientific process.
     My guiding principle is simple: Science should be driven by truth, not money or politics. Public trust will return when scientific integrity becomes more important than financial interests, political agendas, or protecting reputations
+
+- candidate_first_name: Eunice
+  candidate_last_name: Lehmacher, LISW-CP
+  state: sc
+  race: US House of Representatives # must match one of the options!
+  district: 3 
+  party: Democratic # must match one of the options!
+  question: sc-q1
+  date: 2026-10-22 # optional
+  county_race: # feel free to remove if not applicable
+  primary_candidate: false # optional, default false; true = ran in the primary but did not advance. Must be the same on every row for a given candidate
+  did_not_respond: false # optional, default false; true = never responded at all. Must be the same on every row for a given candidate
+  response: |
+    The cost of electricity and water are on the rise with nearby data centers straining current resources in combination with increased energy costs to consumers. How will you navigate the economic, public health, and environmental impacts when considering new data centers and data center permissions, in general?
+    I want federal laws that require data centers to generate all their own power with renewable energy and that they pay for the infrastructure needs they have related to energy.  I also would require all data centers to offer some public good to the community/county they are coming to (e.g. they generate some energy for the community, they buy all transmission lines in the county, they raise teacher salaries the public schools, put solar on the roof of all big box stores and warehouses built in the community for the next 10 years, etc.).  I would forbid the building of any data centers that did not have solar on their roof and parking lots and were not generating a certain amount of energy in the community. I would like federal mandate that data centers can only be built that use the low water option for cooling. I want data centers to have decommissioning rules before the build.  
+    See all my ideas related to data centers [here](https://www.euniceforsc.com/data-centers-and-privacy).  
+
+- candidate_first_name: Eunice
+  candidate_last_name: Lehmacher, LISW-CP
+  state: sc
+  race: US House of Representatives # must match one of the options!
+  district: 3 
+  party: Democratic # must match one of the options!
+  question: sc-q2
+  date: 2026-10-22 # optional
+  primary_candidate: false
+  response: |
+    Science needs to be taught in all grades and integrated into all subjects, not just as a stand alone subject (although stand alone science classes are also needed)  Students must also learn how to program, how to make AI prompts, and how to use critical thinking in all areas (including how to judge if information learned through AI or online is accurate).  
+    I support increased funding to public schools for science labs, for teacher training, and for workforce prep classes in high schools.
+
+
+- candidate_first_name: Eunice
+  candidate_last_name: Lehmacher, LISW-CP
+  state: sc
+  race: US House of Representatives # must match one of the options!
+  district: 3 
+  party: Democratic # must match one of the options!
+  question: sc-q3
+  date: 2026-10-22 # optional
+  primary_candidate: false
+  response: |
+    Governments should test for PFAS, asbestos and other chemicals in water, land, and air and the EPA standards should be restored.  
+    I support free access to all vaccines.  I support disease education in all workplaces and schools and support funding that would help large businesses and local governments to hire NPs for employee wellness.  
+    I would increase funding for FEMA and resiliency programs run by the states (e.g. state purchase of land that is flood prone so that people don't build homes and businesses in areas likely to flood).
+
+- candidate_first_name: Eunice
+  candidate_last_name: Lehmacher, LISW-CP
+  state: sc
+  race: US House of Representatives # must match one of the options!
+  district: 3 
+  party: Democratic # must match one of the options!
+  question: sc-q4
+  date: 2026-10-22 # optional
+  primary_candidate: false
+  response: |
+    I would like to have groups of experts to advise the government (and government leaders) on issues related to science including for education, energy generation, AI/Data Centers, Surveillance (e.g. Flock cameras), disease, wellness, etc.  
+    I believe a diverse group of scientists and technology experts should be funded to help create guidelines (curbs) for AI in the coming year.
+
